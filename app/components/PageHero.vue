@@ -108,14 +108,13 @@ onMounted(() => {
 
         <!-- Foreground Content -->
         <div 
-          v-if="isFinishedLoading"
           class="relative z-10 w-full max-w-4xl px-4 2xs:px-6 sm:px-10 md:px-16 py-8 flex flex-col items-center text-center"
         >
-          <!-- 1. H1 Eyebrow (Starts at 150ms) -->
+          <!-- 1. H1 Eyebrow (Starts at 1000ms - instantly after loader/page transition) -->
           <div
             v-motion
             :initial="{ opacity: 0.01, y: 18 }"
-            :enter="{ opacity: 1, y: 0, transition: { duration: 900, ease: [0.22, 1, 0.36, 1], delay: 150 } }"
+            :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 1000 } }"
             :style="getParallax(0.25)"
             class="flex items-center justify-center w-full max-w-full px-2 mb-3 md:mb-4 will-change-transform transition-transform duration-700 ease-out"
           >
@@ -126,13 +125,13 @@ onMounted(() => {
             <span class="h-0.5 bg-warm-gold/50 grow max-w-6 md:max-w-12 shrink-2" />
           </div>
 
-          <!-- 2 & 3. H2 Title Hierarchy (Line 1 at 350ms, Line 2 Cursive at 580ms) -->
+          <!-- 2 & 3. H2 Title Hierarchy (Line 1 at 1050ms, Line 2 Cursive at 1100ms) -->
           <h2 class="text-surface-light mb-4 md:mb-5 drop-shadow-xl w-full">
             <!-- Primary Line -->
             <span
               v-motion
               :initial="{ opacity: 0.01, y: 22, filter: 'blur(4px)' }"
-              :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 1000, ease: [0.22, 1, 0.36, 1], delay: 350 } }"
+              :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 650, ease: [0.22, 1, 0.36, 1], delay: 1050 } }"
               :style="getParallax(0.2)"
               class="font-primary text-2xl xs:text-3xl md:text-4xl lg:text-5xl tracking-normal leading-snug font-medium block will-change-transform transition-transform duration-700 ease-out"
             >
@@ -143,7 +142,7 @@ onMounted(() => {
             <span
               v-motion
               :initial="{ opacity: 0.01, y: 22, filter: 'blur(4px)' }"
-              :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 1050, ease: [0.22, 1, 0.36, 1], delay: 580 } }"
+              :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 1100 } }"
               :style="getParallax(0.2)"
               class="font-cursive text-3xl xs:text-4xl md:text-5xl lg:text-6xl text-warm-gold tracking-[0.04em] leading-[0.9] block mt-1.5 md:mt-2 will-change-transform transition-transform duration-700 ease-out"
             >
@@ -151,11 +150,11 @@ onMounted(() => {
             </span>
           </h2>
 
-          <!-- 4. Description / Intro (Starts at 800ms) -->
+          <!-- 4. Description / Intro (Starts at 1150ms) -->
           <p 
             v-motion
             :initial="{ opacity: 0.01, y: 20 }"
-            :enter="{ opacity: 1, y: 0, transition: { duration: 1000, ease: [0.22, 1, 0.36, 1], delay: 800 } }"
+            :enter="{ opacity: 1, y: 0, transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 1150 } }"
             :style="getParallax(0.15)"
             class="font-primary text-xs 2xs:text-sm md:text-base lg:text-lg leading-relaxed tracking-wide text-surface-medium/90 font-light max-w-xl drop-shadow-sm will-change-transform transition-transform duration-700 ease-out"
           >

@@ -15,7 +15,7 @@ let unmountTimer: ReturnType<typeof setTimeout> | null = null
 onMounted(() => {
   document.body.style.overflow = 'hidden'
 
-  // Triggers exactly 300ms faster (down to 1550ms from 1850ms)
+  // Triggers exactly 300ms faster (down to 700ms from 1000ms)
   finishTimer = setTimeout(() => {
     isFadingOut.value = true
     
@@ -24,8 +24,8 @@ onMounted(() => {
     unmountTimer = setTimeout(() => {
       document.body.style.overflow = ''
       emit('complete')
-    }, 800)
-  }, 1200)
+    }, 700)
+  }, 1000)
 })
 
 onBeforeUnmount(() => {

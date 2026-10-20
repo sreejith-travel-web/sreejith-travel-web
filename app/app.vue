@@ -75,7 +75,7 @@ onMounted(() => {
 <style>
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 0.5s ease, filter 0.8s var(--ease-editorial);
+  transition: opacity 0.5s ease, filter 0.7s var(--ease-editorial);
 }
 
 .page-enter-from,

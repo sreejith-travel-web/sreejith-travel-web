@@ -9,8 +9,8 @@ withDefaults(defineProps<{
 }>(), {
   draw: false,
   staggerMs: 12,
-  durationMs: 1100,
-  baseDelayMs: 250
+  durationMs: 700,
+  baseDelayMs: 200
 })
 
 const paths = [
@@ -83,7 +83,7 @@ const paths = [
       fill="currentColor"
       pathLength="1"
       :class="{ 'svg-draw-path': draw }"
-      :style="draw ? { '--delay': `${baseDelayMs + i * staggerMs}ms`, '--duration': `${durationMs}ms` } : undefined"
+      :style="draw ? { '--delay': `${baseDelayMs + (i * staggerMs)}ms`, '--duration': `${durationMs}ms` } : undefined"
     />
   </svg>
 </template>

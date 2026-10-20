@@ -195,14 +195,13 @@ onUnmounted(() => {
     <!-- Foreground Content (Text Safe Zone) -->
     <div class="relative z-10 w-full h-full min-h-full max-w-240 mx-auto px-2 2xs:px-4 xs:px-6 sm:px-8 md:px-12 lg:px-24 flex items-center justify-center py-20">
       <div
-        v-if="isFinishedLoading"
         class="w-full flex flex-col items-center text-center mt-[4vh] lg:mt-[8vh]"
       >
-        <!-- 1. H1 Eyebrow (Starts at 150ms) -->
+        <!-- 1. H1 Eyebrow (Starts at 1000ms - instantly after loader) -->
         <div
           v-motion
-          :initial="{ opacity: 0.01, y: 18 }"
-          :enter="{ opacity: 1, y: 0, transition: { duration: 900, ease: [0.22, 1, 0.36, 1], delay: 150 } }"
+          :initial="{ opacity: 0, y: 18 }"
+          :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 1000 } }"
           :style="getParallax(0.5)"
           class="flex items-center justify-center w-full max-w-full px-2 mb-4 md:mb-5 max-[321px]:flex-wrap max-[321px]:gap-y-1 will-change-transform transition-transform duration-700 ease-out"
         >
@@ -213,13 +212,13 @@ onUnmounted(() => {
           <div class="h-0.5 mb-0.5 rounded-md bg-warm-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
         </div>
 
-        <!-- 2 & 3. Heading Hierarchy (Line 1 at 0ms delay, Line 2 Cursive at 580ms) -->
+        <!-- 2 & 3. Heading Hierarchy (Line 1 at 1100ms, Line 2 Cursive at 1200ms) -->
         <h2 class="text-surface-light mb-4 md:mb-8 drop-shadow-2xl w-full xs:max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl">
           <!-- Primary Line -->
           <span 
             v-motion
-            :initial="{ opacity: 0.01, y: 22, filter: 'blur(4px)' }"
-            :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 1000, ease: [0.22, 1, 0.36, 1], delay: 0 } }"
+            :initial="{ opacity: 0, y: 22, filter: 'blur(4px)' }"
+            :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 650, ease: [0.22, 1, 0.36, 1], delay: 1100 } }"
             :style="getParallax(0.45)" 
             class="font-primary text-[24px] xs:text-3xl md:text-4xl lg:text-5xl tracking-normal leading-snug font-medium block max-[320px]:[text-balance] will-change-transform transition-transform duration-700 ease-out"
           >
@@ -229,8 +228,8 @@ onUnmounted(() => {
           <!-- Cursive Line -->
           <span 
             v-motion
-            :initial="{ opacity: 0.01, y: 22, filter: 'blur(4px)' }"
-            :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 1050, ease: [0.22, 1, 0.36, 1], delay: 580 } }"
+            :initial="{ opacity: 0, y: 22, filter: 'blur(4px)' }"
+            :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 1200 } }"
             :style="getParallax(0.45)" 
             class="font-cursive text-3xl 2xs:text-[34px] xs:text-[40px] md:text-6xl lg:text-7xl text-warm-gold tracking-wide leading-snug block mt-2 md:mt-3 max-[321px]:[text-balance] will-change-transform transition-transform duration-700 ease-out"
           >
@@ -238,22 +237,22 @@ onUnmounted(() => {
           </span>
         </h2>
 
-        <!-- 4. Description (Starts at 800ms) -->
+        <!-- 4. Description (Starts at 1300ms) -->
         <p
           v-motion
-          :initial="{ opacity: 0.01, y: 20 }"
-          :enter="{ opacity: 1, y: 0, transition: { duration: 1000, ease: [0.22, 1, 0.36, 1], delay: 800 } }"
+          :initial="{ opacity: 0, y: 20 }"
+          :enter="{ opacity: 1, y: 0, transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 1300 } }"
           :style="getParallax(0.4)"
           class="font-primary w-full xs:max-w-md sm:max-w-xl lg:max-w-2xl text-xs 2xs:text-sm xs:text-base sm:text-lg lg:text-xl leading-relaxed tracking-wide text-surface-medium font-light mb-10 md:mb-12 drop-shadow-md max-[320px]:[text-balance] will-change-transform transition-transform duration-700 ease-out"
         >
           {{ data.description }}
         </p>
 
-        <!-- 5. CTAs (Starts at 1020ms) -->
+        <!-- 5. CTAs (Starts at 1400ms) -->
         <div
           v-motion
-          :initial="{ opacity: 0.01, y: 18 }"
-          :enter="{ opacity: 1, y: 0, transition: { duration: 900, ease: [0.22, 1, 0.36, 1], delay: 1020 } }"
+          :initial="{ opacity: 0, y: 18 }"
+          :enter="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 1400 } }"
           :style="getParallax(0.35)"
           class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full will-change-transform transition-transform duration-700 ease-out"
         >
