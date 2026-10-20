@@ -53,7 +53,7 @@ export default defineNuxtConfig({
       },
       title: 'Sreejith Travel | Bespoke Luxury Travel Designer', // Fixes the missing title error
       meta: [
-        { name: 'description', content: 'Designing luxury bespoke journeys bringing together meaningful encounters and authentic stories in India.' } // Fixes the missing meta description error
+        { name: 'description', content: 'Designing luxury bespoke journeys bringing together meaningful experiences and authentic stories in India.' } // Fixes the missing meta description error
       ]
     },
     pageTransition: { 

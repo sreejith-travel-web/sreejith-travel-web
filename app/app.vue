@@ -5,7 +5,15 @@ import { ref, onMounted } from 'vue'
 
 const nuxtApp = useNuxtApp()
 
-const isInitialAppLoad = useState('isInitialAppLoad', () => true)
+const isInitialAppLoad = useInitialAppLoad()
+
+useHead({
+  htmlAttrs: {
+    // Using a getter function () => ensures Nuxt updates the DOM instantly
+    class: () => isInitialAppLoad.value ? 'is-loading' : ''
+  }
+})
+
 const isRouting = ref(false)
 
 let routeLoadStartTime = 0

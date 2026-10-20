@@ -10,8 +10,8 @@ const pageData = {
     titleMain: 'Start A Conversation',
     titleItalic: 'With Our Studio',
     intro: 'Whether you have a specific route in mind or simply a spark of curiosity, we are here to listen and guide your next steps.',
-    imageDesktop: '/images/home/hero.jpg',
-    imageMobile: '/images/home/hero.jpg',
+    imageDesktop: '/images/fallbacks/culture.webp',
+    imageMobile: '/images/fallbacks/culture.webp',
     alt: 'Contact Sreejith Travel Experience Designer'
   }
 }

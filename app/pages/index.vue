@@ -3,10 +3,32 @@
 <script setup lang="ts">
 import HomeHero from '~/components/HomeHero.vue'
 
+// Preload the responsive LCP poster image at 0ms so it doesn't wait for CSS parsing
+useHead({
+  link: [
+    {
+      rel: 'preload',
+      as: 'image',
+      href: '/images/video-posters/sreejith-hero-portrait.webp',
+      type: 'image/webp',
+      media: '(max-width: 767px)',
+      fetchpriority: 'high'
+    },
+    {
+      rel: 'preload',
+      as: 'image',
+      href: '/images/video-posters/sreejith-hero-landscape.webp',
+      type: 'image/webp',
+      media: '(min-width: 768px)',
+      fetchpriority: 'high'
+    }
+  ]
+})
+
 const pageData = {
   hero: {
     mode: 'slideshow' as const,
-    autoplay: false,
+    autoplay: true,
     autoplayIntervalMs: 8500,
     subtitleText: 'Regenerative Travel Experiences',
     headingLine1: 'Designing Cultural Immersive Travel Experiences in India',
@@ -15,22 +37,22 @@ const pageData = {
     slides: [
       {
         type: 'video' as const,
-        videoId: 'GCYg1HQFQKY',
-        // User forgot to upload images here! The component will catch it.
-        // imageDesktop: '/images/home/hero.jpg',
-        // imageMobile: '/images/home/hero-mobile.jpg',
+        videoWebm: '/videos/sreejith-hero.webm',
+        videoMp4: '/videos/sreejith-hero.mp4',
+        imageDesktop: '/images/video-posters/sreejith-hero-landscape.webp',
+        imageMobile: '/images/video-posters/sreejith-hero-portrait.webp',
         alt: 'Scenic river boating & Kerala backwaters signature tour'
       },
       {
         type: 'image' as const,
-        imageDesktop: '/images/home/hero.jpg',
-        imageMobile: '/images/home/hero.jpg',
-        alt: 'Ancient temples of Kerala cultural heritage journey'
+        imageDesktop: '/images/home/forest-landscape.webp',
+        imageMobile: '/images/home/forest-portrait.webp',
+        alt: 'Forests, nature and mountain expeditions and trekking'
       },
       {
         type: 'image' as const,
-        imageDesktop: '/images/home/hero.jpg',
-        imageMobile: '/images/home/hero.jpg',
+        imageDesktop: '/images/home/solo-landscape.webp',
+        imageMobile: '/images/home/solo-portrait.webp',
         alt: 'Lush natural hill regions and bespoke local experiences'
       }
     ]

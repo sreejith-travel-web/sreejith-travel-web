@@ -10,8 +10,8 @@ const pageData = {
     titleMain: 'Frequently Asked Questions',
     titleItalic: 'Everything You Need To Know',
     intro: 'Clear, thoughtful answers regarding how we design custom routes, handle logistics, and ensure seamless comfort throughout India.',
-    imageDesktop: '/images/home/hero.jpg',
-    imageMobile: '/images/home/hero.jpg',
+    imageDesktop: '/images/fallbacks/culture.webp',
+    imageMobile: '/images/fallbacks/culture.webp',
     alt: 'Frequently asked questions about bespoke India travel'
   }
 }

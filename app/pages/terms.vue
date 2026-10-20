@@ -10,8 +10,8 @@ const pageData = {
     titleMain: 'Terms & Conditions',
     titleItalic: 'Transparent Commitments',
     intro: 'Our mutual guidelines governing bespoke itinerary planning, reservations, cancellations, and on-ground operations.',
-    imageDesktop: '/images/home/hero.jpg',
-    imageMobile: '/images/home/hero.jpg',
+    imageDesktop: '/images/fallbacks/culture.webp',
+    imageMobile: '/images/fallbacks/culture.webp',
     alt: 'Terms and conditions'
   }
 }

@@ -10,8 +10,8 @@ const pageData = {
     titleMain: 'Privacy Policy',
     titleItalic: 'Protecting Your Discretion',
     intro: 'How we safeguard your personal information, travel preferences, and private correspondence with the utmost care.',
-    imageDesktop: '/images/home/hero.jpg',
-    imageMobile: '/images/home/hero.jpg',
+    imageDesktop: '/images/fallbacks/culture.webp',
+    imageMobile: '/images/fallbacks/culture.webp',
     alt: 'Privacy policy'
   }
 }

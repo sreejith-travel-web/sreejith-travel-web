@@ -10,8 +10,8 @@ const pageData = {
     titleMain: 'Design Your Bespoke',
     titleItalic: 'Indian Odyssey',
     intro: 'Share your curiosities, preferred pace, and travel dreams so we can begin weaving an itinerary tailored exclusively to you.',
-    imageDesktop: '/images/home/hero.jpg',
-    imageMobile: '/images/home/hero.jpg',
+    imageDesktop: '/images/fallbacks/culture.webp',
+    imageMobile: '/images/fallbacks/culture.webp',
     alt: 'Plan your custom travel journey in India'
   }
 }

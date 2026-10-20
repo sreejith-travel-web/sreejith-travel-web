@@ -10,8 +10,8 @@ const pageData = {
     titleMain: 'Crafting Meaningful Journeys',
     titleItalic: 'Rooted in Local Wisdom',
     intro: 'We bridge the gap between discerning travelers and the living, breathing heritage of India through deeply personal storytelling.',
-    imageDesktop: '/images/home/hero.jpg',
-    imageMobile: '/images/home/hero.jpg',
+    imageDesktop: '/images/fallbacks/culture.webp',
+    imageMobile: '/images/fallbacks/culture.webp',
     alt: 'About Sreejith Travel Experience Designer'
   }
 }

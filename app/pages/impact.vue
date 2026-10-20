@@ -10,8 +10,8 @@ const pageData = {
     titleMain: 'Leaving Places Richer',
     titleItalic: 'For Generations Ahead',
     intro: 'Every journey directly sustains local artisans, preserves fragile ecosystems, and honors community-led conservation.',
-    imageDesktop: '/images/home/hero.jpg',
-    imageMobile: '/images/home/hero.jpg',
+    imageDesktop: '/images/fallbacks/culture.webp',
+    imageMobile: '/images/fallbacks/culture.webp',
     alt: 'Regenerative travel and positive community impact'
   }
 }

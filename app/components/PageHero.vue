@@ -18,13 +18,13 @@ const props = defineProps<{
   data?: PageHeroContent | null
 }>()
 
-const isInitialAppLoad = useState<boolean>('isInitialAppLoad')
+const isInitialAppLoad = useInitialAppLoad()
 const isFinishedLoading = ref(false)
 
 const { forceTransparent } = useHeaderTheme()
 const { y } = useWindowScroll()
 
-// Subtle Inertia Parallax matching HomeHero
+// Subtle Inertia Parallax matching HomeHero (Fixed the syntax error here)
 const getParallax = (speed: number) => {
   if (!import.meta.client) return {}
   return { transform: `translateY(-${y.value * speed}px)` }
@@ -35,8 +35,8 @@ const FALLBACK_HERO: Required<PageHeroContent> = {
   titleMain: 'Uncover Stories',
   titleItalic: 'Off The Beaten Path',
   intro: 'Immerse yourself in authentic traditions, pristine landscapes, and meaningful local encounters.',
-  imageDesktop: '/images/home/hero.jpg',
-  imageMobile: '/images/home/hero.jpg',
+  imageDesktop: '/images/fallbacks/culture.webp',
+  imageMobile: '/images/fallbacks/culture.webp',
   alt: 'Bespoke cultural travel experience in India'
 }
 
@@ -89,17 +89,17 @@ onMounted(() => {
         <!-- Background Image & Cinematic Overlays -->
         <div class="absolute inset-0 w-full h-full z-0 overflow-hidden pointer-events-none">
           <picture class="block w-full h-full">
-            <source media="(min-width: 768px)" :srcset="activeData.imageDesktop" type="image/webp" width="1600" height="1065" />
-            <source media="(max-width: 767px)" :srcset="activeData.imageMobile" type="image/webp" width="750" height="1000" />
+            <source media="(min-width: 768px)" :srcset="activeData.imageDesktop" type="image/webp" width="1600" height="900" />
+            <source media="(max-width: 767px)" :srcset="activeData.imageMobile" type="image/webp" width="600" height="900" />
             <img 
               :src="activeData.imageDesktop" 
               :alt="activeData.alt"
               width="1600"
-              height="1065"
+              height="900"
               fetchpriority="high"
               loading="eager"
               decoding="sync"
-              class="w-full h-full object-cover object-center scale-105 transition-transform duration-2000 ease-out"
+              class="w-full h-full object-cover object-center animate-kenburns-zoom will-change-transform"
             />
           </picture>
           <!-- Editorial Gradient Tint -->
@@ -111,58 +111,51 @@ onMounted(() => {
           v-if="isFinishedLoading"
           class="relative z-10 w-full max-w-4xl px-4 2xs:px-6 sm:px-10 md:px-16 py-8 flex flex-col items-center text-center"
         >
-          <!-- H1 Eyebrow -->
+          <!-- 1. H1 Eyebrow (Starts at 150ms) -->
           <div
             v-motion
-            :initial="{ opacity: 0, y: 15 }"
-            :enter="{ opacity: 1, y: 0, transition: { duration: 500, ease: 'easeOut', delay: 70 } }"
+            :initial="{ opacity: 0, y: 18 }"
+            :enter="{ opacity: 1, y: 0, transition: { duration: 900, ease: [0.22, 1, 0.36, 1], delay: 150 } }"
             :style="getParallax(0.25)"
             class="flex items-center justify-center w-full max-w-full px-2 mb-3 md:mb-4 will-change-transform transition-transform duration-700 ease-out"
           >
-            <span class="h-px bg-warm-gold/50 grow max-w-6 md:max-w-12 shrink-2" />
+            <span class="h-0.5 bg-warm-gold/50 grow max-w-6 md:max-w-12 shrink-2" />
             <h1 class="mx-3 md:mx-4 text-[9px] 2xs:text-[10px] sm:text-[11px] lg:text-xs font-uppercase tracking-[0.25em] md:tracking-[0.3em] text-surface-light/90 uppercase">
               {{ activeData.eyebrow }}
             </h1>
-            <span class="h-px bg-warm-gold/50 grow max-w-6 md:max-w-12 shrink-2" />
+            <span class="h-0.5 bg-warm-gold/50 grow max-w-6 md:max-w-12 shrink-2" />
           </div>
 
-          <!-- H2 Title Hierarchy -->
-          <h2 
-            v-motion
-            :initial="{ opacity: 0, y: 20, filter: 'blur(3px)' }"
-            :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 500, ease: 'easeOut', delay: 140 } }"
-            :style="getParallax(0.2)"
-            class="text-surface-light mb-4 md:mb-5 drop-shadow-xl w-full will-change-transform transition-transform duration-700 ease-out"
-          >
-            <span class="font-primary text-2xl xs:text-3xl md:text-4xl lg:text-5xl tracking-normal leading-snug font-medium block">
+          <!-- 2 & 3. H2 Title Hierarchy (Line 1 at 350ms, Line 2 Cursive at 580ms) -->
+          <h2 class="text-surface-light mb-4 md:mb-5 drop-shadow-xl w-full">
+            <!-- Primary Line -->
+            <span
+              v-motion
+              :initial="{ opacity: 0, y: 22, filter: 'blur(4px)' }"
+              :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 1000, ease: [0.22, 1, 0.36, 1], delay: 350 } }"
+              :style="getParallax(0.2)"
+              class="font-primary text-2xl xs:text-3xl md:text-4xl lg:text-5xl tracking-normal leading-snug font-medium block will-change-transform transition-transform duration-700 ease-out"
+            >
               {{ activeData.titleMain }}
             </span>
-            <span class="font-cursive text-3xl xs:text-4xl md:text-5xl lg:text-6xl text-warm-gold tracking-[0.04em] leading-[0.9] block mt-1.5 md:mt-2">
+            
+            <!-- Cursive Line -->
+            <span
+              v-motion
+              :initial="{ opacity: 0, y: 22, filter: 'blur(4px)' }"
+              :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 1050, ease: [0.22, 1, 0.36, 1], delay: 580 } }"
+              :style="getParallax(0.2)"
+              class="font-cursive text-3xl xs:text-4xl md:text-5xl lg:text-6xl text-warm-gold tracking-[0.04em] leading-[0.9] block mt-1.5 md:mt-2 will-change-transform transition-transform duration-700 ease-out"
+            >
               {{ activeData.titleItalic }}
             </span>
           </h2>
 
-          <!-- Decorative Brand Divider -->
-          <div 
-            v-motion
-            :initial="{ opacity: 0, scale: 0.9 }"
-            :enter="{ opacity: 1, scale: 1, transition: { duration: 500, ease: 'easeOut', delay: 190 } }"
-            :style="getParallax(0.18)"
-            class="flex items-center justify-center gap-3 md:gap-4 mb-4 md:mb-5 w-full max-w-40 md:max-w-55 will-change-transform transition-transform duration-700 ease-out"
-            aria-hidden="true"
-          >
-            <span class="h-px grow bg-warm-gold/30" />
-            <div class="w-4 md:w-5 text-warm-gold/80 shrink-0">
-              <SvgLogoMark :draw="false" />
-            </div>
-            <span class="h-px grow bg-warm-gold/30" />
-          </div>
-
-          <!-- Description / Intro -->
+          <!-- 4. Description / Intro (Starts at 800ms) -->
           <p 
             v-motion
-            :initial="{ opacity: 0, y: 15 }"
-            :enter="{ opacity: 1, y: 0, transition: { duration: 500, ease: 'easeOut', delay: 240 } }"
+            :initial="{ opacity: 0, y: 20 }"
+            :enter="{ opacity: 1, y: 0, transition: { duration: 1000, ease: [0.22, 1, 0.36, 1], delay: 800 } }"
             :style="getParallax(0.15)"
             class="font-primary text-xs 2xs:text-sm md:text-base lg:text-lg leading-relaxed tracking-wide text-surface-medium/90 font-light max-w-xl drop-shadow-sm will-change-transform transition-transform duration-700 ease-out"
           >
@@ -173,3 +166,19 @@ onMounted(() => {
     </section>
   </div>
 </template>
+
+<style scoped>
+/* Ken Burns Subtle Zoom Out from 106% to 100% */
+@keyframes heroKenBurns {
+  0% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-kenburns-zoom {
+  animation: heroKenBurns 7.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+</style>

@@ -10,8 +10,8 @@ const pageData = {
     titleMain: 'Signature Cultural Trails',
     titleItalic: 'Across Unseen India',
     intro: 'Handcrafted itineraries designed to immerse you in ancient rituals, culinary secrets, and serene landscapes at your own pace.',
-    imageDesktop: '/images/home/hero.jpg',
-    imageMobile: '/images/home/hero.jpg',
+    imageDesktop: '/images/fallbacks/culture.webp',
+    imageMobile: '/images/fallbacks/culture.webp',
     alt: 'Bespoke travel itineraries in India'
   }
 }

@@ -10,8 +10,8 @@ const pageData = {
     titleMain: 'Stories From The Road',
     titleItalic: 'Reflections & Encounters',
     intro: 'Dispatches on regional folklore, vanishing crafts, slow travel philosophies, and hidden corners of the subcontinent.',
-    imageDesktop: '/images/home/hero.jpg',
-    imageMobile: '/images/home/hero.jpg',
+    imageDesktop: '/images/fallbacks/culture.webp',
+    imageMobile: '/images/fallbacks/culture.webp',
     alt: 'Travel journal and cultural stories from India'
   }
 }

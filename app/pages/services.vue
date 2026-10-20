@@ -10,8 +10,8 @@ const pageData = {
     titleMain: 'Seamless Luxury & Access',
     titleItalic: 'Tailored To Your Rhythm',
     intro: 'From private heritage access and scholar-led walks to boutique hideaways, every detail is orchestrated with quiet precision.',
-    imageDesktop: '/images/home/hero.jpg',
-    imageMobile: '/images/home/hero.jpg',
+    imageDesktop: '/images/fallbacks/culture.webp',
+    imageMobile: '/images/fallbacks/culture.webp',
     alt: 'Luxury travel design services'
   }
 }
