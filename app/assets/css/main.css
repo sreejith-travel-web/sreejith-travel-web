@@ -1,1 +1,95 @@
+/* ~/app/assets/main.css */
+
 @import "tailwindcss";
+
+@theme {
+  /* Defensive Breakpoints for Micro-Devices */
+  --breakpoint-2xs: 321px;
+  --breakpoint-xs: 481px;
+  
+  /* Typography System (Auto-wired by @nuxt/fonts) */
+  --font-primary: 'Lato', sans-serif;
+  --font-uppercase: 'Josefin Sans', sans-serif;
+  --font-cursive: 'Square Peg', serif;
+
+  /* Core Brand Colors */
+  --color-soft-blue: #A8D3E2;
+  --color-journey-blue: #79B9D2;
+  --color-action-blue: #397F9D;
+  --color-intention-blue: #043e6e;
+  --color-warm-gold: #f5c069;
+  --color-heritage-gold: #e6a61e;
+  --color-intention-gold: #d48302; 
+  --color-dark-gold: #8E6F3E; 
+
+  /* Header & Deep Accents */
+  --color-journey-deep: #051b3b;   
+  --color-surface-frosted: #eaeaea; 
+  --color-ink-dark: #2A2421;   
+
+  /* Semantic Backgrounds */
+  --color-bg-light: #F8FAFC;
+  --color-bg-medium: #E6EEF5;
+  --color-bg-dark: #0B1220;
+
+  /* Semantic Surfaces */
+  --color-surface-light: #FFFFFF;
+  --color-surface-medium: #F1F5F9; 
+  --color-surface-dark: #0F182D;
+
+  /* Borders & Dividers */
+  --color-border-light: #d2d8e0;
+  --color-border-dark: #1F334A;
+  --color-divider-light: #E6EDF3;
+  --color-divider-dark: #1A2844;
+
+  /* Text Colors */
+  --color-primary-light: #0F172A;
+  --color-secondary-light: #334155;
+  --color-primary-dark: #F8FAFC;
+  --color-secondary-dark: #94A3B8;
+  --color-muted: #64748B;
+
+  /* Custom Editorial Easing */
+  --ease-editorial: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@layer base {
+  body {
+    @apply font-primary text-primary-light bg-bg-light antialiased selection:bg-action-blue selection:text-white;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight;
+  }
+}
+
+/* Pure CSS SVG Weaving Engine (Replaces GSAP Draw Path) */
+@keyframes svg-weave-stroke {
+  0% {
+    stroke-dashoffset: 1;
+    fill-opacity: 0;
+    stroke-opacity: 1;
+  }
+  65% {
+    stroke-dashoffset: 0;
+    fill-opacity: 0;
+    stroke-opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+    stroke-opacity: 0;
+  }
+}
+
+.svg-draw-path {
+  stroke: currentColor;
+  fill: currentColor;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  fill-opacity: 0;
+  stroke-width: 2px;
+  animation: svg-weave-stroke var(--duration, 1400ms) var(--ease-editorial) forwards;
+  animation-delay: var(--delay, 0ms);
+}
