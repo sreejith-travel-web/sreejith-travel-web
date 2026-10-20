@@ -65,13 +65,19 @@ const initAPI = () => {
 }
 
 const onIframeLoad = () => {
-  if (!iframeSrc.value) return // Ignore empty iframe loads
+  if (!iframeSrc.value) return 
 
-  // Failsafe: Only triggers if the API gets blocked by adblockers or severe network lag.
+  // 1. The iframe shell is natively ready. Now it is safe to bind the API!
+  if (!player) {
+    initAPI()
+  }
+
+  // 2. Failsafe (1.5s): Only triggers if strict AdBlockers block the YouTube API. 
+  // Normally, the API catches the PLAYING event and dissolves the poster instantly.
   if (!isPlaying.value) {
     fallbackTimer = setTimeout(() => {
       isPlaying.value = true
-    }, 0)
+    }, 1500)
   }
 }
 
@@ -81,11 +87,8 @@ watch(() => props.loadPlayer, (isActive) => {
   if (isActive) {
     hasBeenActivated.value = true // Inject the src into the iframe natively
     
-    if (!player) {
-      // 50ms delay gives Vue time to inject the src before binding the API
-      setTimeout(() => initAPI(), 50)
-    } else if (typeof player.playVideo === 'function') {
-      // SLIDE SWITCH RESUME: Play from exactly where it paused
+    // SLIDE SWITCH RESUME: Play from exactly where it paused
+    if (player && typeof player.playVideo === 'function') {
       player.playVideo()
     }
   } else {
