@@ -37,7 +37,7 @@ const FALLBACK_HERO: Required<PageHeroContent> = {
   intro: 'Immerse yourself in authentic traditions, pristine landscapes, and meaningful local encounters.',
   imageDesktop: '/images/fallbacks/culture.webp',
   imageMobile: '/images/fallbacks/culture.webp',
-  alt: 'Bespoke cultural travel experience in India'
+  alt: 'Bespoke cultural travel experiences in India'
 }
 
 const activeData = computed<Required<PageHeroContent>>(() => ({

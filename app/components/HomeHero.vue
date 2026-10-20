@@ -219,7 +219,7 @@ onUnmounted(() => {
           <span 
             v-motion
             :initial="{ opacity: 0, y: 22, filter: 'blur(4px)' }"
-            :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 1000, ease: [0.22, 1, 0.36, 1], delay: 350 } }"
+            :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 1000, ease: [0.22, 1, 0.36, 1], delay: 50 } }"
             :style="getParallax(0.45)" 
             class="font-primary text-[24px] xs:text-3xl md:text-4xl lg:text-5xl tracking-normal leading-snug font-medium block max-[320px]:[text-balance] will-change-transform transition-transform duration-700 ease-out"
           >
