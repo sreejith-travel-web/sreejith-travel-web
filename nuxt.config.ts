@@ -47,6 +47,15 @@ export default defineNuxtConfig({
 
   app: {
     baseURL: '/',
+    head: {
+      htmlAttrs: {
+        lang: 'en' // Fixes the missing [lang] attribute error
+      },
+      title: 'Sreejith Travel | Bespoke Luxury Travel Designer', // Fixes the missing title error
+      meta: [
+        { name: 'description', content: 'Designing luxury bespoke journeys bringing together meaningful encounters and authentic stories in India.' } // Fixes the missing meta description error
+      ]
+    },
     pageTransition: { 
       name: 'page', 
       mode: 'out-in' 
