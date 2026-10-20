@@ -45,15 +45,20 @@ export default defineNuxtConfig({
     transpile: ['@vueuse/motion']
   },
 
+  // 4. Inline CSS to eliminate render-blocking and font-chaining delays
+  features: {
+    inlineStyles: true
+  },
+
   app: {
     baseURL: '/',
     head: {
       htmlAttrs: {
-        lang: 'en' // Fixes the missing [lang] attribute error
+        lang: 'en'
       },
-      title: 'Sreejith Travel | Bespoke Luxury Travel Designer', // Fixes the missing title error
+      title: 'Sreejith Travel | Bespoke Luxury Travel Designer',
       meta: [
-        { name: 'description', content: 'Designing luxury bespoke journeys bringing together meaningful experiences and authentic stories in India.' } // Fixes the missing meta description error
+        { name: 'description', content: 'Designing luxury bespoke journeys bringing together meaningful experiences and authentic stories in India.' }
       ]
     },
     pageTransition: { 
@@ -68,5 +73,4 @@ export default defineNuxtConfig({
     host: '0.0.0.0',
     port: 3003
   },
-
 })
