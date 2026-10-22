@@ -448,9 +448,9 @@ const getScrimOpacity = (slot: VirtualCardSlot) => {
 }
 
 // Smart lazy loading: only center & immediate neighbors load eagerly once slider is near viewport
-const shouldLoadEagerly = (slot: VirtualCardSlot) => {
-  return isInViewport.value && Math.abs(slot.offset) <= 1
-}
+// const shouldLoadEagerly = (slot: VirtualCardSlot) => {
+//   return isInViewport.value && Math.abs(slot.offset) <= 1
+// }
 
 // --- Autoplay Lifecycle ---
 let autoplayTimer: ReturnType<typeof setInterval> | null = null
@@ -558,9 +558,9 @@ defineExpose({
           :alt="slot.item.alt"
           :width="data.imageWidth || 480"
           :height="data.imageHeight || 640"
-          :loading="shouldLoadEagerly(slot) ? 'eager' : 'lazy'"
-          :decoding="shouldLoadEagerly(slot) ? 'sync' : 'async'"
-          :fetchpriority="slot.offset === 0 && isInViewport ? 'high' : 'low'"
+          loading="lazy"
+          decoding="async"
+          fetchpriority="low"
           draggable="false"
           class="w-full h-full object-cover object-center select-none transition-transform duration-700 ease-out"
           :class="slot.offset === 0 && hoveredOffset === 0 && !isActuallyDragging ? 'scale-[1.03]' : 'scale-100'"
@@ -641,6 +641,8 @@ defineExpose({
           :height="data.imageHeight || 600"
           loading="lazy"
           decoding="async"
+          fetchpriority="low"
+          draggable="false"
           class="w-full h-full object-cover object-center select-none transition-transform duration-700 ease-out group-hover:scale-[1.04]"
         />
 

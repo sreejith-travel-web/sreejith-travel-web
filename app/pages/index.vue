@@ -384,10 +384,10 @@ const pageData = {
     <HomeAbout :data="pageData.about" class="bg-surface-light"/>
 
     <!-- Signature Experiences -->
-    <HomeItinerarySection :data="pageData.signature" />
+    <LazyHomeItinerarySection :data="pageData.signature" />
     
     <!-- Collaborated Itineraries -->
-    <HomeItinerarySection :data="pageData.collaborated" class="bg-surface-light" />
+    <LazyHomeItinerarySection :data="pageData.collaborated" class="bg-surface-light" />
 
     <!-- Placeholder for the next section -->
     <section
