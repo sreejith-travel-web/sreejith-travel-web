@@ -35,7 +35,7 @@ const handleSlideChange = (index: number) => {
 
 // --- Instagram-Style Dot Logic ---
 const MAX_NORMAL_DOTS = 5
-const DOT_SIZE = 14 // px
+const DOT_SIZE = 28 // px
 const GAP_SIZE = 8 // px
 const STRIDE = DOT_SIZE + GAP_SIZE // 14px
 
@@ -101,11 +101,11 @@ const goToSlide = (index: number) => {
           :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, ease: [0.22, 1, 0.36, 1], delay: 0 } }"
           class="flex items-center justify-center w-full max-w-full px-2 mb-4 md:mb-5 max-[321px]:flex-wrap max-[321px]:gap-y-1 will-change-transform transition-transform duration-700 ease-out"
         >
-          <div class="h-0.5 mb-0.5 rounded-md bg-warm-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
+          <div class="h-0.5 mb-0.5 rounded-md bg-intention-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
           <h2 class="font-uppercase font-medium mx-2 md:mx-4 text-[10px] xs:text-[11px] sm:text-xs lg:text-[13px] tracking-[0.25em] md:tracking-[0.3em] text-journey-deep uppercase">
             {{ data.eyebrow }}
           </h2>
-          <div class="h-0.5 mb-0.5 rounded-md bg-warm-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
+          <div class="h-0.5 mb-0.5 rounded-md bg-intention-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
         </div>
 
         <!-- Main Title -->
@@ -182,7 +182,7 @@ const goToSlide = (index: number) => {
           class="flex items-center justify-center h-4 mb-10 will-change-transform"
         >
           <!-- Fixed Viewport Window -->
-          <div class="relative overflow-hidden" :style="{ width: `${wrapperWidth}px`, height: '12px' }">
+          <div class="relative overflow-hidden" :style="{ width: `${wrapperWidth}px`, height: '16px' }">
             <!-- Sliding Track -->
             <div 
               class="absolute left-0 top-1/2 -translate-y-1/2 flex items-center gap-2 transition-transform duration-300 ease-out will-change-transform"
@@ -193,7 +193,7 @@ const goToSlide = (index: number) => {
                 :key="index"
                 :aria-label="`Go to slide ${index}`"
                 :class="[
-                  'rounded-full w-3.5 h-1.5 transition-all duration-300 ease-out',
+                  'rounded-full w-7 h-2 transition-all duration-300 ease-out cursor-pointer',
                   getDotStyle(index - 1)
                 ]"
                 @click="goToSlide(index - 1)"
@@ -207,7 +207,7 @@ const goToSlide = (index: number) => {
           v-motion
           :initial="{ opacity:0, y: 20 }"
           :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, ease: [0.22, 1, 0.36, 1], delay: 400 } }"
-          class="font-quote italic px-4 mb-10 font-medium lg:max-w-3xl xl:max-w-4xl text-intention-gold text-[19px] 2xs:text-[20px] xs:text-[21px] sm:text-[22px] lg:text-[23px] xl:text-[24px] leading-[1.45] tracking-[0.01em] will-change-transform"
+          class="font-quote italic px-4 mb-10 font-semibold lg:max-w-3xl xl:max-w-4xl text-dark-gold text-[20px] 2xs:text-[21px] xs:text-[22px] sm:text-[23px] lg:text-[24px] xl:text-[25px] leading-[1.45] tracking-[0.01em] will-change-transform"
         >
           {{ data.bottomQuote }}
         </p>

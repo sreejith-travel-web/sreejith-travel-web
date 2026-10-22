@@ -606,7 +606,7 @@ defineExpose({
               />
               <div 
                 v-if="slot.item.isFeatured && data.featuredIcon" 
-                class="flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-md text-heritage-gold bg-journey-deep/80 shadow-sm [&>svg]:w-4.5 [&>svg]:h-4.5 [&>svg]:sm:w-5 [&>svg]:sm:h-5"
+                class="flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-md text-warm-gold bg-journey-deep/80 shadow-sm [&>svg]:w-4.5 [&>svg]:h-4.5 [&>svg]:sm:w-5 [&>svg]:sm:h-5"
                 v-html="data.featuredIcon"
               />
             </div>
@@ -647,8 +647,8 @@ defineExpose({
             </div>
 
             <!-- Arrow Button -->
-            <div class="relative shrink-0 flex items-center justify-center w-9 h-9 sm:w-11 sm:h-11 rounded-full text-heritage-gold transition-transform duration-300 ease-out group-hover/card:scale-110 active:scale-90">
-              <div class="absolute inset-0 rounded-full ring-1 ring-heritage-gold transition-all duration-300 ease-out group-hover/card:ring-2 group-hover/card:ring-heritage-gold"></div>
+            <div class="relative shrink-0 flex items-center justify-center w-9 h-9 sm:w-11 sm:h-11 rounded-full text-warm-gold transition-transform duration-300 ease-out group-hover/card:scale-110 active:scale-90">
+              <div class="absolute inset-0 rounded-full ring-1 ring-warm-gold transition-all duration-300 ease-out group-hover/card:ring-2 group-hover/card:ring-warm-gold"></div>
               <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="relative z-10 w-4 h-4 sm:w-4.5 sm:h-4.5 transition-transform duration-300 ease-out">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg>
@@ -707,7 +707,7 @@ defineExpose({
               />
               <div 
                 v-if="item.isFeatured && data.featuredIcon" 
-                class="flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-md text-heritage-gold bg-journey-deep/80 shadow-sm [&>svg]:w-4.5 [&>svg]:h-4.5 [&>svg]:sm:w-5 [&>svg]:sm:h-5"
+                class="flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-md text-warm-gold bg-journey-deep/80 shadow-sm [&>svg]:w-4.5 [&>svg]:h-4.5 [&>svg]:sm:w-5 [&>svg]:sm:h-5"
                 v-html="data.featuredIcon"
               />
             </div>
@@ -748,8 +748,8 @@ defineExpose({
             </div>
 
             <!-- Arrow Button -->
-            <div class="relative shrink-0 flex items-center justify-center w-9 h-9 sm:w-11 sm:h-11 rounded-full text-heritage-gold transition-transform duration-300 ease-out group-hover/card:scale-110 active:scale-90">
-              <div class="absolute inset-0 rounded-full ring-1 ring-heritage-gold/50 transition-all duration-300 ease-out group-hover/card:ring-2 group-hover/card:ring-heritage-gold"></div>
+            <div class="relative shrink-0 flex items-center justify-center w-9 h-9 sm:w-11 sm:h-11 rounded-full text-warm-gold transition-transform duration-300 ease-out group-hover/card:scale-110 active:scale-90">
+              <div class="absolute inset-0 rounded-full ring-1 ring-warm-gold/50 transition-all duration-300 ease-out group-hover/card:ring-2 group-hover/card:ring-warm-gold"></div>
               <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="relative z-10 w-4 h-4 sm:w-4.5 sm:h-4.5 transition-transform duration-300 ease-out">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg>

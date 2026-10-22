@@ -17,7 +17,7 @@ useHead({
 const isRouting = ref(false)
 
 let routeLoadStartTime = 0
-const MIN_LOADER_DURATION = 1000
+const MIN_LOADER_DURATION = 900
 
 const handleLoaderComplete = () => {
   isInitialAppLoad.value = false

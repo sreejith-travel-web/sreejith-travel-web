@@ -110,11 +110,11 @@ onMounted(() => {
         <div 
           class="relative z-10 w-full max-w-4xl px-4 2xs:px-6 sm:px-10 md:px-16 py-8 flex flex-col items-center text-center"
         >
-          <!-- 1. H1 Eyebrow (Starts at 1000ms - instantly after loader/page transition) -->
+          <!-- 1. H1 Eyebrow (Starts at 900ms - instantly after loader/page transition) -->
           <div
             v-motion
             :initial="{ opacity:0, y: 18 }"
-            :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 1000 } }"
+            :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 900 } }"
             :style="getParallax(0.25)"
             class="flex items-center justify-center w-full max-w-full px-2 mb-3 md:mb-4 will-change-transform transition-transform duration-700 ease-out"
           >

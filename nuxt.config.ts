@@ -58,7 +58,7 @@ export default defineNuxtConfig({
       { 
         name: 'Cormorant Garamond', 
         provider: 'google', 
-        weights: [500], 
+        weights: [600], 
         styles: ['italic'], 
         global: true,
         preload: false 

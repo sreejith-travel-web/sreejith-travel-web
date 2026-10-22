@@ -25,7 +25,7 @@ onMounted(() => {
       document.body.style.overflow = ''
       emit('complete')
     }, 700)
-  }, 1000)
+  }, 900)
 })
 
 onBeforeUnmount(() => {

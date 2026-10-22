@@ -197,19 +197,19 @@ onUnmounted(() => {
       <div
         class="w-full flex flex-col items-center text-center mt-[4vh] lg:mt-[8vh]"
       >
-        <!-- 1. H1 Eyebrow (Starts at 1000ms - instantly after loader) -->
+        <!-- 1. H1 Eyebrow (Starts at 900ms - instantly after loader) -->
         <div
           v-motion
           :initial="{ opacity:0, y: 32 }"
-          :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 1000 } }"
+          :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 900 } }"
           :style="getParallax(0.48)"
           class="flex items-center justify-center w-full max-w-full px-2 mb-4 md:mb-5 max-[321px]:flex-wrap max-[321px]:gap-y-1 will-change-transform transition-transform duration-700 ease-out"
         >
-          <div class="h-0.5 mb-0.5 rounded-md bg-heritage-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
+          <div class="h-0.5 mb-0.5 rounded-md bg-warm-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
           <h1 class="font-uppercase font-medium mx-2 md:mx-4 text-[10px] xs:text-[11px] sm:text-xs lg:text-[13px] tracking-[0.25em] md:tracking-[0.3em] text-surface-light/90 uppercase">
             {{ data.subtitleText }}
           </h1>
-          <div class="h-0.5 mb-0.5 rounded-md bg-heritage-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
+          <div class="h-0.5 mb-0.5 rounded-md bg-warm-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
         </div>
 
         <!-- 2 & 3. Heading Hierarchy (Line 1 at 1100ms, Line 2 Cursive at 1200ms) -->
@@ -231,7 +231,7 @@ onUnmounted(() => {
             :initial="{ opacity:0, y: 26, filter: 'blur(4px)' }"
             :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 1200 } }"
             :style="getParallax(0.4)" 
-            class="font-cursive text-3xl 2xs:text-[34px] xs:text-[40px] md:text-6xl lg:text-7xl text-heritage-gold tracking-wide leading-snug block mt-2 md:mt-3 max-[321px]:[text-balance] will-change-transform transition-transform duration-700 ease-out"
+            class="font-cursive text-3xl 2xs:text-[34px] xs:text-[40px] md:text-6xl lg:text-7xl text-warm-gold tracking-wide leading-snug block mt-2 md:mt-3 max-[321px]:[text-balance] will-change-transform transition-transform duration-700 ease-out"
           >
             {{ data.headingLine2Italic }}
           </span>
@@ -280,13 +280,13 @@ onUnmounted(() => {
         @click="selectSlide(index)"
         :aria-label="`View slide ${index + 1}`"
         :aria-selected="index === currentSlideIndex"
-        class="group flex items-center justify-center cursor-pointer py-3 px-1.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-heritage-gold rounded"
+        class="group flex items-center justify-center cursor-pointer py-3 px-1.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-warm-gold rounded"
       >
         <span
           :class="[
             'block h-1 rounded-full transition-all duration-500 ease-editorial',
             index === currentSlideIndex
-              ? 'w-15 bg-heritage-gold'
+              ? 'w-15 bg-warm-gold'
               : 'w-4 bg-surface-light/40 group-hover:bg-surface-light/80 group-active:bg-surface-light/80'
           ]"
         />

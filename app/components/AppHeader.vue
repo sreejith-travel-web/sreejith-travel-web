@@ -73,7 +73,7 @@ const rightLinks = [
             'relative w-10 h-10 md:w-12 md:h-12 rounded-full border-2 flex flex-col justify-center items-center group transition-colors duration-300 ease-out outline-none shrink-0 cursor-pointer',
             isOnLightBg 
                 ? 'border-journey-deep/30 hover:border-intention-blue active:border-intention-blue' 
-                : 'border-white/35 hover:border-heritage-gold active:border-heritage-gold'
+                : 'border-white/35 hover:border-warm-gold active:border-warm-gold'
           ]"
           aria-label="Open Menu"
         >
@@ -83,7 +83,7 @@ const rightLinks = [
                 'block h-0.5 absolute left-0 rounded-xl transition-all duration-300 ease-editorial w-4.75 md:w-6 top-0 group-hover:w-2.5 group-active:w-2.5 md:group-hover:w-3.5 md:group-active:w-3.5',
                 isOnLightBg 
                     ? 'bg-journey-deep group-hover:bg-intention-blue group-active:bg-intention-blue' 
-                    : 'bg-white group-hover:bg-heritage-gold group-active:bg-heritage-gold'
+                    : 'bg-white group-hover:bg-warm-gold group-active:bg-warm-gold'
               ]"
             />
             <span
@@ -91,7 +91,7 @@ const rightLinks = [
                 'block h-0.5 absolute left-0 rounded-xl transition-all duration-300 ease-editorial w-2.5 md:w-3.5 top-2.25 md:top-2.5 group-hover:w-4.75 group-active:w-4.75 md:group-hover:w-6 md:group-active:w-6',
                 isOnLightBg 
                     ? 'bg-journey-deep group-hover:bg-intention-blue group-active:bg-intention-blue' 
-                    : 'bg-white group-hover:bg-heritage-gold group-active:bg-heritage-gold'
+                    : 'bg-white group-hover:bg-warm-gold group-active:bg-warm-gold'
               ]"
             />
           </div>
@@ -105,14 +105,14 @@ const rightLinks = [
             :to="link.path"
             :class="[
               'group relative text-xs 2xl:text-sm tracking-[0.2em] uppercase font-uppercase transition-all duration-300 ease-out font-medium group-hover:font-semibold',
-              isOnLightBg ? 'text-ink-dark hover:text-intention-blue' : 'text-white/90 hover:text-heritage-gold',
+              isOnLightBg ? 'text-ink-dark hover:text-intention-blue' : 'text-white/90 hover:text-warm-gold',
             ]"
           >
             {{ link.name }}
             <span
               :class="[
                 'absolute -bottom-1.5 left-1/2 h-0.5 -translate-x-1/2 transition-all duration-300 ease-out',
-                isOnLightBg ? 'bg-intention-blue' : 'bg-heritage-gold',
+                isOnLightBg ? 'bg-intention-blue' : 'bg-warm-gold',
                 route.path === link.path ? 'w-full' : 'w-0 group-hover:w-full'
               ]"
             />
@@ -129,7 +129,7 @@ const rightLinks = [
             // The parent link dictates the color for BOTH the masked logo and the text below it
             isOnLightBg 
                 ? 'text-journey-deep hover:text-intention-blue active:text-intention-blue' 
-                : 'text-white hover:text-heritage-gold active:text-heritage-gold'
+                : 'text-white hover:text-warm-gold active:text-warm-gold'
             ]"
         >
             <!-- Logo Container -->
@@ -170,14 +170,14 @@ const rightLinks = [
             :to="link.path"
             :class="[
               'group relative text-xs 2xl:text-sm font-uppercase tracking-[0.2em] uppercase transition-all duration-300 ease-out font-medium group-hover:font-semibold',
-              isOnLightBg ? 'text-journey-deep hover:text-intention-blue' : 'text-white/90 hover:text-heritage-gold',
+              isOnLightBg ? 'text-journey-deep hover:text-intention-blue' : 'text-white/90 hover:text-warm-gold',
             ]"
           >
             {{ link.name }}
             <span
               :class="[
                 'absolute -bottom-1.5 left-1/2 h-0.5 -translate-x-1/2 transition-all duration-300 ease-out',
-                isOnLightBg ? 'bg-intention-blue' : 'bg-heritage-gold',
+                isOnLightBg ? 'bg-intention-blue' : 'bg-warm-gold',
                 route.path === link.path ? 'w-full' : 'w-0 group-hover:w-full'
               ]"
             />
@@ -190,7 +190,7 @@ const rightLinks = [
               'relative w-10 h-10 md:w-12 md:h-12 rounded-full border-2 flex items-center justify-center group transition-colors duration-300 ease-editorial shrink-0',
               isOnLightBg 
                 ? 'border-intention-blue/30 hover:border-intention-blue active:border-intention-blue' 
-                : 'border-white/35 hover:border-heritage-gold active:border-heritage-gold'
+                : 'border-white/35 hover:border-warm-gold active:border-warm-gold'
             ]"
           >
             <svg
@@ -199,7 +199,7 @@ const rightLinks = [
                 'w-4.75 h-4.75 md:w-6 md:h-6 relative top-px right-px transition-all duration-300 ease-editorial group-hover:scale-110 group-active:scale-110',
                 isOnLightBg 
                     ? 'text-journey-deep group-hover:text-intention-blue group-active:text-intention-blue' 
-                    : 'text-white group-hover:text-heritage-gold group-active:text-heritage-gold'
+                    : 'text-white group-hover:text-warm-gold group-active:text-warm-gold'
               ]"
               fill="none"
               stroke="currentColor"
@@ -226,7 +226,7 @@ const rightLinks = [
           'liquid-horizon absolute top-0 left-0 w-full h-full origin-left transition-transform duration-150 ease-out',
           isOnLightBg
             ? 'bg-linear-to-r from-action-blue/0 via-action-blue/70 to-action-blue'
-            : 'bg-linear-to-r from-heritage-gold/0 via-heritage-gold/70 to-heritage-gold'
+            : 'bg-linear-to-r from-warm-gold/0 via-warm-gold/70 to-warm-gold'
         ]"
       />
     </div>

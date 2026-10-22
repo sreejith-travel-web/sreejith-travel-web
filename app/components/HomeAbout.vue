@@ -95,7 +95,7 @@ defineProps<{
             :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 290 } }"
             class="border-l-[3px] border-intention-gold pl-4 xs:pl-5 md:pl-6 py-0.5 mb-6 md:mb-7 will-change-transform"
           >
-            <p class="font-quote italic font-medium text-journey-deep text-[19px] 2xs:text-[20px] xs:text-[21px] sm:text-[22px] lg:text-[23px] xl:text-[24px] leading-[1.55] tracking-[0.01em]">
+            <p class="font-quote italic font-semibold text-journey-deep text-[19px] 2xs:text-[20px] xs:text-[21px] sm:text-[22px] lg:text-[23px] xl:text-[24px] leading-[1.55] tracking-[0.01em]">
               “{{ data.quoteText }}”
             </p>
           </blockquote>

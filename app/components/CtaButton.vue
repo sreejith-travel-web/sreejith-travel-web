@@ -13,7 +13,7 @@ const props = withDefaults(
   }>(),
   {
     to: '',
-    variant: 'dark', // 'dark' = heritage-gold for dark backgrounds | 'light' = intention-blue for light backgrounds
+    variant: 'dark', // 'dark' = warm-gold for dark backgrounds | 'light' = intention-blue for light backgrounds
     disabled: false,
     ariaLabel: ''
   }
@@ -29,20 +29,20 @@ const buttonClasses = computed(() => [
   'focus-visible:ring-2 focus-visible:ring-offset-2',
   // Text & Focus Colors
   props.variant === 'dark'
-    ? 'text-heritage-gold focus-visible:ring-heritage-gold focus-visible:ring-offset-bg-dark'
+    ? 'text-warm-gold focus-visible:ring-warm-gold focus-visible:ring-offset-bg-dark'
     : 'text-intention-blue focus-visible:ring-journey-deep focus-visible:ring-offset-white',
   
   // --- PSEUDO-ELEMENT BORDERS ---
   // ::before = 1px base border (fades out on hover AND tap)
   'before:absolute before:inset-0 before:rounded-sm before:pointer-events-none before:border-2 before:transition-opacity before:duration-500 before:ease-editorial',
   props.variant === 'dark' 
-    ? 'before:border-heritage-gold/60 group-hover:before:opacity-0 group-active:before:opacity-0' 
+    ? 'before:border-warm-gold/60 group-hover:before:opacity-0 group-active:before:opacity-0' 
     : 'before:border-action-blue group-hover:before:opacity-0 group-active:before:opacity-0',
     
   // ::after = 2px thick border (fades in on hover AND tap for smooth thickness change)
   'after:absolute after:inset-0 after:rounded-sm after:pointer-events-none after:border-2 after:opacity-0 group-hover:after:opacity-100 group-active:after:opacity-100 after:transition-opacity after:duration-500 after:ease-editorial',
   props.variant === 'dark' 
-    ? 'after:border-heritage-gold' 
+    ? 'after:border-warm-gold' 
     : 'after:border-intention-blue'
 ])
 </script>
