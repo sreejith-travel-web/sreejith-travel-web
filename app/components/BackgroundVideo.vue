@@ -81,6 +81,26 @@ onMounted(async () => {
   }
 })
 
+onMounted(() => {
+  if (props.isActive) {
+    // Let Vue finish hydration and paint the LCP poster first
+    if ('requestIdleCallback' in window) {
+      window.requestIdleCallback(async () => {
+        shouldLoadVideo.value = true
+        await nextTick()
+        playVideo()
+      })
+    } else {
+      // Fallback for Safari which doesn't support requestIdleCallback
+      setTimeout(async () => {
+        shouldLoadVideo.value = true
+        await nextTick()
+        playVideo()
+      }, 250)
+    }
+  }
+})
+
 onBeforeUnmount(() => {
   pauseVideo()
 })
@@ -99,7 +119,7 @@ onBeforeUnmount(() => {
       loop
       playsinline
       autoplay
-      preload="auto"
+      preload="none"
       tabindex="-1"
       class="absolute inset-0 w-full h-full object-cover object-center pointer-events-none z-0"
       @playing="onVideoPlaying"

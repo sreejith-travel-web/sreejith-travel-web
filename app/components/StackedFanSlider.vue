@@ -11,6 +11,8 @@ export interface FanSlideItem {
   title?: string
   tags?: string[]
   to?: string
+  days?: string
+  isFeatured?: boolean   
 }
 
 export interface StackedFanSliderConfig {
@@ -23,6 +25,8 @@ export interface StackedFanSliderConfig {
   aspectRatio?: string
   imageWidth?: number
   imageHeight?: number
+  typeIcon?: string       
+  featuredIcon?: string
   slides: FanSlideItem[]
 }
 
@@ -213,10 +217,24 @@ let isHorizontalGesture: boolean | null = null
 let activePointerId: number | null = null
 let didDragSignificantly = false
 
+// In ~/app/components/StackedFanSlider.vue
 const getCardWidthPx = () => {
-  if (!stageRef.value) return 260
-  const centerCard = stageRef.value.querySelector('[data-center-card="true"]') as HTMLElement | null
-  return centerCard?.offsetWidth || 260
+  if (!import.meta.client) return 260
+  const w = windowWidth.value
+  
+  // Directly calculate from the configured responsive widths without touching the DOM:
+  // w-[72vw] 2xs:w-[68vw] xs:w-[64vw] sm:w-[56vw] md:w-[40vw] lg:w-[32vw] xl:w-[26vw] 2xl:w-[22vw]
+  let factor = 0.72
+  if (w >= 1536) factor = 0.22
+  else if (w >= 1280) factor = 0.26
+  else if (w >= 1024) factor = 0.32
+  else if (w >= 768) factor = 0.40
+  else if (w >= 640) factor = 0.56
+  else if (w >= 480) factor = 0.56
+  else if (w >= 375) factor = 0.64
+  else if (w >= 321) factor = 0.68
+
+  return Math.min(352, Math.round(w * factor)) // 352px corresponds to max-w-88
 }
 
 const onPointerDown = (e: PointerEvent) => {
@@ -537,7 +555,7 @@ defineExpose({
         ]"
         :aria-hidden="slot.offset !== 0"
         :class="[
-          'absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 isolate transform-translateZ(0)',
+          'group/card absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 isolate transform-translateZ(0)',
           'w-[72vw] 2xs:w-[68vw] xs:w-[64vw] sm:w-[56vw] md:w-[40vw] lg:w-[32vw] xl:w-[26vw] 2xl:w-[22vw] max-w-88 min-w-36',
           'rounded-xl sm:rounded-2xl overflow-hidden bg-journey-deep shadow-md',
           'will-change-[transform,opacity]',
@@ -553,6 +571,7 @@ defineExpose({
         @mouseenter="hoveredOffset = slot.offset"
         @click.stop="handleCardClick(slot)"
       >
+        <!-- Background Image -->
         <img
           :src="slot.item.image"
           :alt="slot.item.alt"
@@ -566,54 +585,78 @@ defineExpose({
           :class="slot.offset === 0 && hoveredOffset === 0 && !isActuallyDragging ? 'scale-[1.03]' : 'scale-100'"
         />
 
-        <slot
-          name="card"
-          :item="slot.item"
-          :index="slot.realIndex"
-          :offset="slot.offset"
-          :is-active="slot.offset === 0"
+        <!-- Dynamic Overlay: Native NuxtLink -->
+        <NuxtLink
+          v-if="data.showCardOverlay"
+          :to="slot.offset === 0 ? (slot.item.to || '/itineraries') : undefined"
+          draggable="false"
+          @dragstart.prevent
+          :class="[
+            'absolute inset-0 z-30 flex flex-col justify-between p-4 sm:p-5 md:p-6 bg-linear-to-t from-journey-deep/95 via-journey-deep/40 to-journey-deep/10 transition-opacity duration-500',
+            slot.offset === 0 ? 'opacity-100 pointer-events-auto' : 'opacity-0 sm:opacity-80 pointer-events-none'
+          ]"
         >
-          <div
-            v-if="data.showCardOverlay && (slot.item.eyebrow || slot.item.title || slot.item.tags?.length)"
-            :class="[
-              'absolute inset-0 z-30 flex flex-col justify-end p-4 sm:p-5 md:p-6 bg-linear-to-t from-journey-deep/90 via-journey-deep/25 to-transparent pointer-events-none transition-opacity duration-500',
-              slot.offset === 0 ? 'opacity-100' : 'opacity-0 sm:opacity-80'
-            ]"
-          >
-            <span
-              v-if="slot.item.eyebrow"
-              class="font-uppercase text-[9px] 2xs:text-[10px] xs:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] tracking-[0.24em] text-warm-gold uppercase mb-1"
+          <!-- TOP BAR: Badges & Days -->
+          <div class="flex justify-between items-start w-full">
+            <div class="flex items-center gap-2">
+              <div 
+                v-if="data.typeIcon" 
+                class="flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-md bg-journey-deep/80 text-surface-medium shadow-sm [&>svg]:w-4 [&>svg]:h-4 [&>svg]:sm:w-4.5 [&>svg]:sm:h-4.5"
+                v-html="data.typeIcon"
+              />
+              <div 
+                v-if="slot.item.isFeatured && data.featuredIcon" 
+                class="flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-md text-heritage-gold bg-journey-deep/80 shadow-sm [&>svg]:w-4.5 [&>svg]:h-4.5 [&>svg]:sm:w-5 [&>svg]:sm:h-5"
+                v-html="data.featuredIcon"
+              />
+            </div>
+            <div 
+              v-if="slot.item.days" 
+              class="flex items-center justify-center px-2 py-1.5 sm:px-2.5 rounded-md bg-journey-deep/75 backdrop-blur-md text-surface-light font-primary font-medium text-[9px] sm:text-[10px] tracking-wide shadow-sm uppercase"
             >
-              {{ slot.item.eyebrow }}
-            </span>
-
-            <h3
-              v-if="slot.item.title"
-              class="font-primary text-surface-light text-[16px] 2xs:text-[18px] xs:text-[19px] sm:text-[20px] md:text-[21px] lg:text-[23px] xl:text-[25px] font-medium leading-snug mb-2.5 drop-shadow-sm"
-            >
-              {{ slot.item.title }}
-            </h3>
-
-            <div
-              v-if="slot.item.tags?.length"
-              class="flex flex-wrap items-center gap-1.5 border-t border-surface-light/15 pt-2.5"
-            >
-              <template v-for="(tag, tIdx) in slot.item.tags" :key="tIdx">
-                <span class="font-uppercase text-[8px] 2xs:text-[9px] xs:text-[10px] md:text-[11px] lg:text-[12px] tracking-[0.08em] text-surface-light/80 uppercase">
-                  {{ tag }}
-                </span>
-                <span
-                  v-if="tIdx < slot.item.tags.length - 1"
-                  class="text-warm-gold/70 text-[12px]"
-                  aria-hidden="true"
-                >
-                  ·
-                </span>
-              </template>
+              {{ slot.item.days }}
             </div>
           </div>
-        </slot>
 
+          <!-- BOTTOM BAR: Typography & Animated Button -->
+          <div class="flex items-end justify-between w-full gap-3 mt-auto">
+            <div class="flex flex-col flex-1">
+              <span
+                v-if="slot.item.eyebrow"
+                class="font-uppercase text-[9px] 2xs:text-[10px] xs:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] tracking-[0.24em] text-warm-gold uppercase mb-1 line-clamp-1"
+              >
+                {{ slot.item.eyebrow }}
+              </span>
+              <h3
+                v-if="slot.item.title"
+                class="font-primary text-surface-light text-[16px] 2xs:text-[18px] xs:text-[19px] sm:text-[20px] md:text-[21px] lg:text-[23px] xl:text-[25px] font-medium leading-snug mb-2.5 drop-shadow-sm line-clamp-2"
+              >
+                {{ slot.item.title }}
+              </h3>
+              <div
+                v-if="slot.item.tags?.length"
+                class="flex flex-wrap items-center gap-1.5 border-t border-surface-light/15 pt-2.5"
+              >
+                <template v-for="(tag, tIdx) in slot.item.tags" :key="tIdx">
+                  <span class="font-uppercase text-[8px] 2xs:text-[9px] xs:text-[10px] md:text-[11px] lg:text-[12px] tracking-[0.08em] text-surface-light/80 uppercase whitespace-nowrap">
+                    {{ tag }}
+                  </span>
+                  <span v-if="tIdx < slot.item.tags.length - 1" class="text-warm-gold/70 text-[12px]" aria-hidden="true">·</span>
+                </template>
+              </div>
+            </div>
+
+            <!-- Arrow Button -->
+            <div class="relative shrink-0 flex items-center justify-center w-9 h-9 sm:w-11 sm:h-11 rounded-full text-heritage-gold transition-transform duration-300 ease-out group-hover/card:scale-110 active:scale-90">
+              <div class="absolute inset-0 rounded-full ring-1 ring-heritage-gold transition-all duration-300 ease-out group-hover/card:ring-2 group-hover/card:ring-heritage-gold"></div>
+              <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="relative z-10 w-4 h-4 sm:w-4.5 sm:h-4.5 transition-transform duration-300 ease-out">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+            </div>
+          </div>
+        </NuxtLink>
+
+        <!-- GPU Depth Dimming Scrim -->
         <div
           class="absolute inset-0 z-20 bg-journey-deep pointer-events-none transition-opacity duration-500 ease-out"
           :style="{ opacity: getScrimOpacity(slot) }"
@@ -631,7 +674,7 @@ defineExpose({
         v-for="(item, idx) in slides"
         :key="item.id || idx"
         :style="{ aspectRatio: data.aspectRatio || '2 / 3' }"
-        class="relative isolate w-[78vw] 2xs:w-[72vw] xs:w-[66vw] sm:w-[34vw] md:w-[26vw] lg:w-[21vw] xl:w-[19vw] max-w-76 min-w-36 rounded-xl sm:rounded-2xl overflow-hidden bg-journey-deep shadow-md cursor-pointer group transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1.5 active:scale-[0.97]"
+        class="group/card relative isolate w-[78vw] 2xs:w-[72vw] xs:w-[66vw] sm:w-[34vw] md:w-[26vw] lg:w-[21vw] xl:w-[19vw] max-w-76 min-w-36 rounded-xl sm:rounded-2xl overflow-hidden bg-journey-deep shadow-md cursor-pointer transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1.5 active:scale-[0.97]"
         @click="emit('select', idx, item)"
       >
         <img
@@ -643,53 +686,76 @@ defineExpose({
           decoding="async"
           fetchpriority="low"
           draggable="false"
-          class="w-full h-full object-cover object-center select-none transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+          class="w-full h-full object-cover object-center select-none transition-transform duration-700 ease-out group-hover/card:scale-[1.04]"
         />
 
-        <slot
-          name="card"
-          :item="item"
-          :index="idx"
-          :offset="0"
-          :is-active="true"
+        <!-- Fallback Overlay: Native NuxtLink -->
+        <NuxtLink
+          v-if="data.showCardOverlay"
+          :to="item.to || '/itineraries'"
+          draggable="false"
+          @dragstart.prevent
+          class="absolute inset-0 z-30 flex flex-col justify-between p-4 sm:p-5 md:p-6 bg-linear-to-t from-journey-deep/95 via-journey-deep/40 to-journey-deep/10 pointer-events-auto"
         >
-          <div
-            v-if="data.showCardOverlay && (item.eyebrow || item.title || item.tags?.length)"
-            class="absolute inset-0 z-30 flex flex-col justify-end p-4 sm:p-5 md:p-6 bg-linear-to-t from-journey-deep/90 via-journey-deep/25 to-transparent pointer-events-none"
-          >
-            <span
-              v-if="item.eyebrow"
-              class="font-uppercase text-[9px] 2xs:text-[10px] xs:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] tracking-[0.24em] text-warm-gold uppercase mb-1"
+          <!-- TOP BAR: Badges & Days -->
+          <div class="flex justify-between items-start w-full">
+            <div class="flex items-center gap-2">
+              <div 
+                v-if="data.typeIcon" 
+                class="flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-md bg-journey-deep/80 text-surface-medium shadow-sm [&>svg]:w-4 [&>svg]:h-4 [&>svg]:sm:w-4.5 [&>svg]:sm:h-4.5"
+                v-html="data.typeIcon"
+              />
+              <div 
+                v-if="item.isFeatured && data.featuredIcon" 
+                class="flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-md text-heritage-gold bg-journey-deep/80 shadow-sm [&>svg]:w-4.5 [&>svg]:h-4.5 [&>svg]:sm:w-5 [&>svg]:sm:h-5"
+                v-html="data.featuredIcon"
+              />
+            </div>
+            <div 
+              v-if="item.days" 
+              class="flex items-center justify-center px-2 py-1.5 sm:px-2.5 rounded-md bg-journey-deep/85 backdrop-blur-md text-surface-light font-primary font-medium text-[9px] sm:text-[10px] tracking-wide shadow-sm uppercase"
             >
-              {{ item.eyebrow }}
-            </span>
-
-            <h3
-              v-if="item.title"
-              class="font-primary text-surface-light text-[16px] 2xs:text-[18px] xs:text-[19px] sm:text-[20px] md:text-[21px] lg:text-[23px] xl:text-[25px] font-medium leading-snug mb-2.5 drop-shadow-sm"
-            >
-              {{ item.title }}
-            </h3>
-
-            <div
-              v-if="item.tags?.length"
-              class="flex flex-wrap items-center gap-1.5 border-t border-surface-light/15 pt-2.5"
-            >
-              <template v-for="(tag, tIdx) in item.tags" :key="tIdx">
-                <span class="font-uppercase text-[8px] 2xs:text-[9px] xs:text-[10px] md:text-[11px] lg:text-[12px] tracking-[0.08em] text-surface-light/80 uppercase">
-                  {{ tag }}
-                </span>
-                <span
-                  v-if="tIdx < item.tags.length - 1"
-                  class="text-warm-gold/70 text-[12px]"
-                  aria-hidden="true"
-                >
-                  ·
-                </span>
-              </template>
+              {{ item.days }}
             </div>
           </div>
-        </slot>
+
+          <!-- BOTTOM BAR: Typography & Animated Button -->
+          <div class="flex items-end justify-between w-full gap-3 mt-auto">
+            <div class="flex flex-col flex-1">
+              <span
+                v-if="item.eyebrow"
+                class="font-uppercase text-[9px] 2xs:text-[10px] xs:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] tracking-[0.24em] text-warm-gold uppercase mb-1 line-clamp-1"
+              >
+                {{ item.eyebrow }}
+              </span>
+              <h3
+                v-if="item.title"
+                class="font-primary text-surface-light text-[16px] 2xs:text-[18px] xs:text-[19px] sm:text-[20px] md:text-[21px] lg:text-[23px] xl:text-[25px] font-medium leading-snug mb-2.5 drop-shadow-sm line-clamp-2"
+              >
+                {{ item.title }}
+              </h3>
+              <div
+                v-if="item.tags?.length"
+                class="flex flex-wrap items-center gap-1.5 border-t border-surface-light/15 pt-2.5"
+              >
+                <template v-for="(tag, tIdx) in item.tags" :key="tIdx">
+                  <span class="font-uppercase text-[8px] 2xs:text-[9px] xs:text-[10px] md:text-[11px] lg:text-[12px] tracking-[0.08em] text-surface-light/80 uppercase whitespace-nowrap">
+                    {{ tag }}
+                  </span>
+                  <span v-if="tIdx < item.tags.length - 1" class="text-warm-gold/70 text-[12px]" aria-hidden="true">·</span>
+                </template>
+              </div>
+            </div>
+
+            <!-- Arrow Button -->
+            <div class="relative shrink-0 flex items-center justify-center w-9 h-9 sm:w-11 sm:h-11 rounded-full text-heritage-gold transition-transform duration-300 ease-out group-hover/card:scale-110 active:scale-90">
+              <div class="absolute inset-0 rounded-full ring-1 ring-heritage-gold/50 transition-all duration-300 ease-out group-hover/card:ring-2 group-hover/card:ring-heritage-gold"></div>
+              <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="relative z-10 w-4 h-4 sm:w-4.5 sm:h-4.5 transition-transform duration-300 ease-out">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+            </div>
+          </div>
+        </NuxtLink>
       </article>
     </div>
   </div>
