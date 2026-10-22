@@ -225,7 +225,7 @@ const pageData = {
           image: '/images/itineraries/dummy14.webp',
           alt: 'Travellers sharing an intimate experience with a local community',
           eyebrow: 'Beyond the Map',
-          title: 'Meaningful Encounters',
+          title: 'Meaningful Encounters in the wildest forests',
           tags: ['People', 'Connection', 'Stories']
         }
       ]

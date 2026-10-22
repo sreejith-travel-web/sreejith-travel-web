@@ -599,7 +599,7 @@ defineExpose({
               class="flex flex-wrap items-center gap-1.5 border-t border-surface-light/15 pt-2.5"
             >
               <template v-for="(tag, tIdx) in slot.item.tags" :key="tIdx">
-                <span class="font-uppercase text-[8px] 2xs:text-[9px] xs:text-[10px] md:text-[12px] lg:text-[13px] xl:text-[14px] tracking-[0.18em] text-surface-light/80 uppercase">
+                <span class="font-uppercase text-[8px] 2xs:text-[9px] xs:text-[10px] md:text-[11px] lg:text-[12px] tracking-[0.08em] text-surface-light/80 uppercase">
                   {{ tag }}
                 </span>
                 <span
@@ -674,7 +674,7 @@ defineExpose({
               class="flex flex-wrap items-center gap-1.5 border-t border-surface-light/15 pt-2.5"
             >
               <template v-for="(tag, tIdx) in item.tags" :key="tIdx">
-                <span class="font-uppercase text-[8px] 2xs:text-[9px] xs:text-[10px] md:text-[12px] lg:text-[13px] xl:text-[14px] tracking-[0.18em] text-surface-light/80 uppercase">
+                <span class="font-uppercase text-[8px] 2xs:text-[9px] xs:text-[10px] md:text-[11px] lg:text-[12px] tracking-[0.08em] text-surface-light/80 uppercase">
                   {{ tag }}
                 </span>
                 <span
