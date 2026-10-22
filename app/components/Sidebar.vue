@@ -59,7 +59,7 @@ onUnmounted(() => {
         
         <!-- Top Header -->
         <div class="flex items-center justify-between px-8 md:px-12 py-5 border-b border-divider-light shrink-0">
-          <span class="font-uppercase text-lg tracking-[0.2em] mt-3 text-action-blue uppercase font-bold">
+          <span class="font-uppercase text-lg tracking-[0.2em] mt-3 text-action-blue uppercase font-semibold">
             MENU
           </span>
           
@@ -137,7 +137,7 @@ onUnmounted(() => {
                 :key="footerLink.name"
                 :to="footerLink.path"
                 @click="emit('close')"
-                class="w-fit text-sm font-uppercase tracking-widest text-intention-blue/60 uppercase transition-all duration-500 ease-editorial hover:text-action-blue active:text-action-blue hover:opacity-100 cursor-pointer"
+                class="w-fit text-sm font-uppercase font-medium tracking-widest text-intention-blue/60 uppercase transition-all duration-500 ease-editorial hover:text-action-blue active:text-action-blue hover:opacity-100 cursor-pointer"
               >
                 {{ footerLink.name }}
               </NuxtLink>
@@ -169,7 +169,7 @@ onUnmounted(() => {
                   style="-webkit-mask-image: url('/images/sreejith-logo.png'); -webkit-mask-size: contain; -webkit-mask-repeat: no-repeat; -webkit-mask-position: left; mask-image: url('/images/sreejith-logo.png'); mask-size: contain; mask-repeat: no-repeat; mask-position: left;"
                 ></div>
               </div>
-              <span class="text-[8px] md:text-[10px] font-uppercase tracking-[0.3em] font-semibold uppercase mt-1 text-current opacity-90 transition-opacity duration-500 group-hover:opacity-100 group-active:opacity-100">
+              <span class="text-[9px] md:text-[10px] font-uppercase tracking-[0.3em] font-semibold uppercase mt-1 text-current opacity-90 transition-opacity duration-500 group-hover:opacity-100 group-active:opacity-100">
                 Travel Experience Designer
               </span>
             </NuxtLink>

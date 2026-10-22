@@ -23,13 +23,14 @@ export default defineNuxtConfig({
   // Google Fonts Configuration (Lightweight & optimized for zero CLS)
   fonts: {
     defaults: {
-      styles: ['normal', 'italic'],
+      styles: ['normal'],
       subsets: ['latin'],
     },
     families: [
-      { name: 'Lato', provider: 'google', weights: [300, 400, 600, 700], global: true },
-      { name: 'Josefin Sans', provider: 'google', weights: [400, 500, 600], global: true },
-      { name: 'Square Peg', provider: 'google', weights: [400], global: true }
+      { name: 'Lato', provider: 'google', styles: ['normal'], weights: [300, 400, 600, 700], global: true },
+      { name: 'Josefin Sans', provider: 'google', styles: ['normal'], weights: [500, 600], global: true },
+      { name: 'Square Peg', provider: 'google', styles: ['normal'], weights: [400], global: true },
+      { name: 'Cormorant Garamond', provider: 'google', weights: [500], styles: ['italic'], global: true }
     ]
   },
 

@@ -119,7 +119,7 @@ onMounted(() => {
             class="flex items-center justify-center w-full max-w-full px-2 mb-3 md:mb-4 will-change-transform transition-transform duration-700 ease-out"
           >
             <span class="h-0.5 bg-warm-gold/50 grow max-w-6 md:max-w-12 shrink-2" />
-            <h1 class="mx-3 md:mx-4 text-[9px] 2xs:text-[10px] sm:text-[11px] lg:text-xs font-uppercase tracking-[0.25em] md:tracking-[0.3em] text-surface-light/90 uppercase">
+            <h1 class="mx-3 md:mx-4 text-[9px] 2xs:text-[10px] sm:text-[11px] lg:text-xs font-uppercase font-medium tracking-[0.25em] md:tracking-[0.3em] text-surface-light/90 uppercase">
               {{ activeData.eyebrow }}
             </h1>
             <span class="h-0.5 bg-warm-gold/50 grow max-w-6 md:max-w-12 shrink-2" />
