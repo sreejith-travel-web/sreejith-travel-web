@@ -37,18 +37,18 @@ const pageData = {
     description: 'Designing luxury bespoke journeys bringing together meaningful encounters, rare access, and authentic stories that conventional tourism simply cannot offer.',
     slides: [
       {
+        type: 'image' as const,
+        imageDesktop: '/images/home/forest-landscape.webp',
+        imageMobile: '/images/home/forest-portrait.webp',
+        alt: 'Forests, nature and mountain expeditions and trekking'
+      },
+      {
         type: 'video' as const,
         videoWebm: '/videos/sreejith-hero.webm',
         videoMp4: '/videos/sreejith-hero.mp4',
         imageDesktop: '/images/video-posters/sreejith-hero-landscape.webp',
         imageMobile: '/images/video-posters/sreejith-hero-portrait.webp',
         alt: 'Scenic river boating & Kerala backwaters signature tour'
-      },
-      {
-        type: 'image' as const,
-        imageDesktop: '/images/home/forest-landscape.webp',
-        imageMobile: '/images/home/forest-portrait.webp',
-        alt: 'Forests, nature and mountain expeditions and trekking'
       },
       {
         type: 'image' as const,
