@@ -97,8 +97,8 @@ const goToSlide = (index: number) => {
         <!-- Eyebrow with flanking lines -->
         <div 
           v-motion
-          :initial="{ opacity:0, y: 10 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 0 } }"
+          :initial="{ opacity:0, y: 20 }"
+          :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, ease: [0.22, 1, 0.36, 1], delay: 0 } }"
           class="flex items-center justify-center w-full max-w-full px-2 mb-4 md:mb-5 max-[321px]:flex-wrap max-[321px]:gap-y-1 will-change-transform transition-transform duration-700 ease-out"
         >
           <div class="h-0.5 mb-0.5 rounded-md bg-warm-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
@@ -111,8 +111,8 @@ const goToSlide = (index: number) => {
         <!-- Main Title -->
         <h2 
           v-motion
-          :initial="{ opacity:0, y: 15, filter: 'blur(3px)' }"
-          :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
+          :initial="{ opacity:0, y: 25, filter: 'blur(3px)' }"
+          :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
           class="flex flex-col items-center gap-1 mb-8 will-change-transform"
         >
           <span class="font-primary font-normal text-journey-deep text-[28px] xs:text-[34px] sm:text-[40px] md:text-[46px] leading-tight tracking-tight uppercase">
@@ -126,8 +126,8 @@ const goToSlide = (index: number) => {
         <!-- Subtitle & Description -->
         <div 
           v-motion
-          :initial="{ opacity:0, y: 15 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 200 } }"
+          :initial="{ opacity:0, y: 25 }"
+          :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, ease: [0.22, 1, 0.36, 1], delay: 200 } }"
           class="flex flex-col items-center will-change-transform"
         >
           <span class="font-uppercase font-medium text-[10px] sm:text-[11px] lg:text-[12px] tracking-[0.25em] md:tracking-[0.3em] text-journey-deep/90 uppercase mb-4">
@@ -144,7 +144,7 @@ const goToSlide = (index: number) => {
       <div 
         v-motion
         :initial="{ opacity:0, filter: 'blur(5px)', scale: 0.98 }"
-        :visible-once="{ opacity: 1, filter: 'blur(0px)', scale: 1, transition: { duration: 900, ease: [0.22, 1, 0.36, 1], delay: 300 } }"
+        :visible-once="{ opacity: 1, filter: 'blur(0px)', scale: 1, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 300 } }"
         class="relative z-10 w-full mb-6 md:mb-8 will-change-[transform,opacity]"
       >
         <ClientOnly>
@@ -177,8 +177,8 @@ const goToSlide = (index: number) => {
         <div 
           v-if="totalSlides > 1"
           v-motion
-          :initial="{ opacity:0, y: 10 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 500 } }"
+          :initial="{ opacity:0, y: 20 }"
+          :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, ease: [0.22, 1, 0.36, 1], delay: 350 } }"
           class="flex items-center justify-center h-4 mb-10 will-change-transform"
         >
           <!-- Fixed Viewport Window -->
@@ -205,8 +205,8 @@ const goToSlide = (index: number) => {
         <!-- Bottom Quote -->
         <p 
           v-motion
-          :initial="{ opacity:0, y: 10 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 600 } }"
+          :initial="{ opacity:0, y: 20 }"
+          :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, ease: [0.22, 1, 0.36, 1], delay: 400 } }"
           class="font-quote italic px-4 mb-10 font-medium lg:max-w-3xl xl:max-w-4xl text-intention-gold text-[19px] 2xs:text-[20px] xs:text-[21px] sm:text-[22px] lg:text-[23px] xl:text-[24px] leading-[1.45] tracking-[0.01em] will-change-transform"
         >
           {{ data.bottomQuote }}
@@ -215,8 +215,8 @@ const goToSlide = (index: number) => {
         <!-- CTA Button -->
         <div
           v-motion
-          :initial="{ opacity:0, y: 10 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 700 } }"
+          :initial="{ opacity:0, y: 20 }"
+          :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, ease: [0.22, 1, 0.36, 1], delay: 700 } }"
           class="will-change-transform"
         >
           <CtaButton 
