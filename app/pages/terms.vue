@@ -29,7 +29,7 @@ const pageData = {
         <span class="font-cursive text-3xl md:text-4xl text-action-blue mb-4">
           Service Agreement
         </span>
-        <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-ink-dark mb-6">
+        <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-ink-dark mb-6">
           Terms & Conditions (Header switches back to Light Mode)
         </h2>
         <p class="text-base text-secondary-light leading-relaxed mb-8">
