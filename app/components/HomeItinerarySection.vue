@@ -101,11 +101,11 @@ const goToSlide = (index: number) => {
           :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, ease: [0.22, 1, 0.36, 1], delay: 0 } }"
           class="flex items-center justify-center w-full max-w-full px-2 mb-4 md:mb-5 max-[321px]:flex-wrap max-[321px]:gap-y-1 will-change-transform transition-transform duration-700 ease-out"
         >
-          <div class="h-0.5 mb-0.5 rounded-md bg-intention-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
+          <div class="h-0.5 mb-0.5 rounded-md bg-dark-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
           <h2 class="font-uppercase font-medium mx-2 md:mx-4 text-[10px] xs:text-[11px] sm:text-xs lg:text-[13px] tracking-[0.25em] md:tracking-[0.3em] text-journey-deep uppercase">
             {{ data.eyebrow }}
           </h2>
-          <div class="h-0.5 mb-0.5 rounded-md bg-intention-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
+          <div class="h-0.5 mb-0.5 rounded-md bg-dark-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
         </div>
 
         <!-- Main Title -->
@@ -118,7 +118,7 @@ const goToSlide = (index: number) => {
           <span class="font-primary font-normal text-journey-deep text-[28px] xs:text-[34px] sm:text-[40px] md:text-[46px] leading-tight tracking-tight uppercase">
             {{ data.titleLine1 }}
           </span>
-          <span class="font-cursive text-intention-gold text-[40px] xs:text-[48px] sm:text-[56px] md:text-[64px] leading-[0.8] pr-4">
+          <span class="font-cursive text-dark-gold text-[40px] xs:text-[48px] sm:text-[56px] md:text-[64px] leading-[0.8] pr-4">
             {{ data.titleLine2Cursive }}
           </span>
         </h2>
