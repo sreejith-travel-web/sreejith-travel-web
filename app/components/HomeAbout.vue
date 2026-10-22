@@ -59,12 +59,12 @@ defineProps<{
           class="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-y-1.5 sm:gap-x-3 max-w-[92vw] will-change-transform"
         >
           <template v-for="(role, index) in data.designations" :key="index">
-            <span class="font-uppercase text-[10px] 2xs:text-[11px] sm:text-[12px] lg:text-[13px] tracking-[0.22em] md:tracking-[0.25em] text-intention-gold font-medium uppercase">
+            <span class="font-uppercase text-[10px] 2xs:text-[11px] sm:text-[12px] lg:text-[13px] tracking-[0.22em] md:tracking-[0.25em] text-dark-gold font-medium uppercase">
               {{ role }}
             </span>
             <span
               v-if="index !== data.designations.length - 1"
-              class="hidden sm:inline-block text-intention-gold text-[12px] leading-none select-none"
+              class="hidden sm:inline-block text-dark-gold text-[12px] leading-none select-none"
               aria-hidden="true"
             >
               •
@@ -83,7 +83,7 @@ defineProps<{
             v-motion
             :initial="{ opacity:0, y: 30 }"
             :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 240 } }"
-            class="md:indent-2 font-primary text-center md:text-left text-journey-deep/90 text-[14px] 2xs:text-[15px] xs:text-[16px] md:text-[16px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px] leading-[1.75] font-normal mb-7 md:mb-8 will-change-transform"
+            class="md:indent-2 font-primary text-center md:text-left text-journey-deep/90 text-[14px] 2xs:text-[15px] xs:text-[16px] md:text-[16px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px] tracking-wider leading-[1.6] font-normal mb-7 md:mb-8 will-change-transform"
           >
             {{ data.paragraph }}
           </p>
@@ -93,7 +93,7 @@ defineProps<{
             v-motion
             :initial="{ opacity:0, y: 30 }"
             :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 290 } }"
-            class="border-l-[3px] border-intention-gold pl-4 xs:pl-5 md:pl-6 py-0.5 mb-6 md:mb-7 will-change-transform"
+            class="border-l-[3px] border-dark-gold pl-4 xs:pl-5 md:pl-6 py-0.5 mb-6 md:mb-7 will-change-transform"
           >
             <p class="font-quote italic font-semibold text-journey-deep text-[19px] 2xs:text-[20px] xs:text-[21px] sm:text-[22px] lg:text-[23px] xl:text-[24px] leading-[1.55] tracking-[0.01em]">
               “{{ data.quoteText }}”
@@ -128,7 +128,7 @@ defineProps<{
             v-motion
             :initial="{ opacity:0, y: 24 }"
             :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 340 } }"
-            class="w-31.25 xs:w-35 sm:w-37.5 md:w-40 aspect-300/114 bg-intention-gold will-change-transform"
+            class="w-31.25 xs:w-35 sm:w-37.5 md:w-40 aspect-300/114 bg-dark-gold will-change-transform"
             :style="{
               maskImage: `url(${data.signatureImage})`,
               WebkitMaskImage: `url(${data.signatureImage})`,
@@ -170,7 +170,7 @@ defineProps<{
             <span class="font-primary font-normal text-journey-deep text-[28px] 2xs:text-[30px] xs:text-[32px] sm:text-[34px] md:text-[36px] xl:text-[40px] leading-[1.15] tracking-tight mb-1.5">
               {{ stat.value }}
             </span>
-            <span class="font-uppercase text-[10px] 2xs:text-[11px] sm:text-[12px] tracking-[0.2em] text-intention-gold font-medium uppercase mb-2">
+            <span class="font-uppercase text-[10px] 2xs:text-[11px] md:text-[12px] lg:text-[13px] tracking-[0.2em] text-dark-gold font-medium uppercase mb-2">
               {{ stat.subtitle }}
             </span>
             <p class="font-primary text-journey-deep/85 text-[13px] 2xs:text-[14px] xs:text-[15px] xl:text-[16px] leading-[1.6] font-normal max-w-95 md:max-w-75 xl:max-w-95">
