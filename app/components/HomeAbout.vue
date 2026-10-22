@@ -83,7 +83,7 @@ defineProps<{
             v-motion
             :initial="{ opacity:0, y: 30 }"
             :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 240 } }"
-            class="md:indent-2 font-primary text-center md:text-left text-journey-deep/90 text-[14px] 2xs:text-[15px] xs:text-[16px] md:text-[16px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px] tracking-wider leading-[1.6] font-normal mb-7 md:mb-8 will-change-transform"
+            class="font-primary text-center md:text-left text-journey-deep/90 text-[14px] 2xs:text-[15px] xs:text-[16px] md:text-[16px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px] tracking-wide leading-[1.6] font-normal mb-7 md:mb-8 will-change-transform"
           >
             {{ data.paragraph }}
           </p>

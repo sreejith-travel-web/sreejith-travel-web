@@ -134,7 +134,7 @@ const goToSlide = (index: number) => {
             {{ data.subtitle }}
           </span>
           <p
-            class="font-primary font-normal text-journey-deep/90 text-[14px] xs:text-[15px] md:text-[16px] lg:text-[17px] 2xl:text-[18px] tracking-wider leading-[1.6] max-w-2xl px-4">
+            class="font-primary font-normal text-journey-deep/90 text-[14px] xs:text-[15px] md:text-[16px] lg:text-[17px] 2xl:text-[18px] tracking-wide leading-[1.6] max-w-2xl lg:max-w-3xl px-4">
             {{ data.description }}
           </p>
         </div>
