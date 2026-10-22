@@ -104,30 +104,29 @@
 
   /* Firefox Support (Firefox only allows 'thin', 'auto', or 'none') */
   html {
-    scrollbar-width: thin;  
-    /* thumb color | track color */
-    /* scrollbar-color: rgba(216, 216, 225, 0.9) rgba(34, 36, 45, 0.8);  */
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+    /* Firefox thumb and track */
+    scrollbar-color: rgba(255, 255, 255, 0.5) #051b3b;
   }
 
-  /* WebKit (Chrome, Edge, Safari) */
-
-  /* ::-webkit-scrollbar {
-    width: 4px; 
+  /* Chrome, Edge, and Safari */
+  html::-webkit-scrollbar {
+    width: 8px;
   }
 
-  ::-webkit-scrollbar-track {
-    A 8% navy wash to dim the blinding white into a soft, frosted tone
-    background: rgba(216, 216, 225, 0.1); 
+  html::-webkit-scrollbar-track {
+    background: #051b3b; /* Replaces default white/gray track with brand navy */
   }
 
-  ::-webkit-scrollbar-thumb {
-    background-color: rgba(216, 216, 225, 0.5); 
-    border-radius: 10px;
+  html::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 9999px;
   }
 
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(216, 216, 225, 0.7); 
-  } */
+  html::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
 
 /* --------------------------------------------------------------------------
      LOADING STATE: Completely hides scrollbar & gutter during PageLoader 

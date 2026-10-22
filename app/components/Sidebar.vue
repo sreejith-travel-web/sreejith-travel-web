@@ -31,22 +31,16 @@ const footerLinks = [
   { name: 'Terms & Conditions', path: '/terms' }
 ]
 
-watch(() => props.isOpen, (open) => {
-  if (import.meta.client) {
-    document.body.style.overflow = open ? 'hidden' : ''
-  }
-})
-
-onUnmounted(() => {
-  if (import.meta.client) {
-    document.body.style.overflow = ''
-  }
-})
 </script>
 
 <template>
   <Transition name="sidebar-drawer" :duration="600">
-    <div v-if="isOpen" class="fixed inset-0 z-200 flex">
+    <div 
+      v-if="isOpen" 
+      class="fixed inset-0 z-200 flex"
+      @wheel.prevent
+      @touchmove.prevent
+    >
       
       <!-- Backdrop Overlay (Removed cursor-pointer) -->
       <div
@@ -79,7 +73,11 @@ onUnmounted(() => {
         </div>
 
         <!-- Scrollable Navigation Area -->
-        <div class="flex flex-col grow overflow-y-auto">
+        <div 
+          class="flex flex-col grow overflow-y-auto overscroll-contain"
+          @wheel.stop
+          @touchmove.stop
+        >
           <div class="flex flex-col px-8 md:px-12 py-8 gap-10">
             
             <!-- Main Links (Rounded MD lines + Mobile touch states) -->
