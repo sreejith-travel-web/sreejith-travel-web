@@ -200,7 +200,7 @@ onUnmounted(() => {
         <!-- 1. H1 Eyebrow (Starts at 1000ms - instantly after loader) -->
         <div
           v-motion
-          :initial="{ opacity: 0.01, y: 32 }"
+          :initial="{ opacity:0, y: 32 }"
           :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 1000 } }"
           :style="getParallax(0.48)"
           class="flex items-center justify-center w-full max-w-full px-2 mb-4 md:mb-5 max-[321px]:flex-wrap max-[321px]:gap-y-1 will-change-transform transition-transform duration-700 ease-out"
@@ -217,7 +217,7 @@ onUnmounted(() => {
           <!-- Primary Line -->
           <span 
             v-motion
-            :initial="{ opacity: 0.01, y: 28, filter: 'blur(4px)' }"
+            :initial="{ opacity:0, y: 28, filter: 'blur(4px)' }"
             :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 650, ease: [0.22, 1, 0.36, 1], delay: 1100 } }"
             :style="getParallax(0.44)" 
             class="font-primary text-[24px] xs:text-3xl md:text-4xl lg:text-5xl tracking-normal leading-snug font-medium block max-[320px]:[text-balance] will-change-transform transition-transform duration-700 ease-out"
@@ -228,7 +228,7 @@ onUnmounted(() => {
           <!-- Cursive Line -->
           <span 
             v-motion
-            :initial="{ opacity: 0.01, y: 26, filter: 'blur(4px)' }"
+            :initial="{ opacity:0, y: 26, filter: 'blur(4px)' }"
             :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 1200 } }"
             :style="getParallax(0.4)" 
             class="font-cursive text-3xl 2xs:text-[34px] xs:text-[40px] md:text-6xl lg:text-7xl text-heritage-gold tracking-wide leading-snug block mt-2 md:mt-3 max-[321px]:[text-balance] will-change-transform transition-transform duration-700 ease-out"
@@ -240,7 +240,7 @@ onUnmounted(() => {
         <!-- 4. Description (Starts at 1300ms) -->
         <p
           v-motion
-          :initial="{ opacity: 0.01, y: 24 }"
+          :initial="{ opacity:0, y: 24 }"
           :enter="{ opacity: 1, y: 0, transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 1300 } }"
           :style="getParallax(0.36)"
           class="font-primary w-full xs:max-w-md sm:max-w-xl lg:max-w-2xl text-[14px] 2xs:text-[15px] xs:text-[16px] md:text-[16px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px] leading-relaxed tracking-wide text-surface-medium font-light mb-10 md:mb-12 drop-shadow-md max-[320px]:[text-balance] will-change-transform transition-transform duration-700 ease-out"
@@ -251,7 +251,7 @@ onUnmounted(() => {
         <!-- 5. CTAs (Starts at 1400ms) -->
         <div
           v-motion
-          :initial="{ opacity: 0.01, y: 22 }"
+          :initial="{ opacity:0, y: 22 }"
           :enter="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 1400 } }"
           :style="getParallax(0.32)"
           class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full will-change-transform transition-transform duration-700 ease-out"
@@ -266,7 +266,7 @@ onUnmounted(() => {
     <div
       v-if="data.mode === 'slideshow' && slides.length > 1"
       v-motion
-      :initial="{ opacity: 0.01, y: 20 }"
+      :initial="{ opacity:0, y: 20 }"
       :enter="{ opacity: 1, y: 0, transition: { duration: 850, ease: [0.22, 1, 0.36, 1], delay: 1500 } }"
       class="absolute bottom-8 lg:bottom-10 left-1/2 -translate-x-1/2 z-30 flex items-center gap-1 pointer-events-auto transition-transform duration-700 ease-out"
       role="tablist"

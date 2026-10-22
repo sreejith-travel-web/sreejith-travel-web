@@ -39,7 +39,7 @@ defineProps<{
       <header class="w-full flex flex-col items-center text-center mb-4 sm:mb-6 lg:mb-8 xl:mb-10">
         <h2
           v-motion
-          :initial="{ opacity: 0.01, y: 30, filter: 'blur(4px)' }"
+          :initial="{ opacity:0, y: 30, filter: 'blur(4px)' }"
           :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
           class="leading-[1.2] tracking-normal mb-3 md:mb-4 will-change-transform"
         >
@@ -54,7 +54,7 @@ defineProps<{
         <!-- Designations Row -->
         <div
           v-motion
-          :initial="{ opacity: 0.01, y: 26 }"
+          :initial="{ opacity:0, y: 26 }"
           :visible-once="{ opacity: 1, y: 0, transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 180 } }"
           class="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-y-1.5 sm:gap-x-3 max-w-[92vw] will-change-transform"
         >
@@ -81,7 +81,7 @@ defineProps<{
         <div class="col-span-1 md:col-span-6 xl:col-span-4 order-1 flex flex-col items-start text-left">
           <p
             v-motion
-            :initial="{ opacity: 0.01, y: 30 }"
+            :initial="{ opacity:0, y: 30 }"
             :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 240 } }"
             class="md:indent-2 font-primary text-center md:text-left text-journey-deep/90 text-[14px] 2xs:text-[15px] xs:text-[16px] md:text-[16px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px] leading-[1.75] font-normal mb-7 md:mb-8 will-change-transform"
           >
@@ -91,7 +91,7 @@ defineProps<{
           <!-- Quote with 3px Left Border -->
           <blockquote
             v-motion
-            :initial="{ opacity: 0.01, y: 30 }"
+            :initial="{ opacity:0, y: 30 }"
             :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 290 } }"
             class="border-l-[3px] border-intention-gold pl-4 xs:pl-5 md:pl-6 py-0.5 mb-6 md:mb-7 will-change-transform"
           >
@@ -104,7 +104,7 @@ defineProps<{
         <!-- COLUMN B: Center Watercolor Cutout Image (Consistent 4:5 Ratio, No Overflow Hidden, No Box Shadow) -->
         <div
           v-motion
-          :initial="{ opacity: 0.01, y: 34, filter: 'blur(4px)' }"
+          :initial="{ opacity:0, y: 34, filter: 'blur(4px)' }"
           :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 900, ease: [0.22, 1, 0.36, 1], delay: 360 } }"
           class="col-span-1 md:col-span-6 xl:col-span-4 order-2 flex flex-col items-center justify-center w-full will-change-transform"
         >
@@ -126,7 +126,7 @@ defineProps<{
           <!-- Intention Gold Masked Signature Logo -->
           <!-- <div
             v-motion
-            :initial="{ opacity: 0.01, y: 24 }"
+            :initial="{ opacity:0, y: 24 }"
             :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 340 } }"
             class="w-31.25 xs:w-35 sm:w-37.5 md:w-40 aspect-300/114 bg-intention-gold will-change-transform"
             :style="{
@@ -163,7 +163,7 @@ defineProps<{
             v-for="(stat, index) in data.stats"
             :key="index"
             v-motion
-            :initial="{ opacity: 0.01, y: 30 }"
+            :initial="{ opacity:0, y: 30 }"
             :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 360 + index * 50 } }"
             class="flex flex-col items-center text-center xl:items-start xl:text-left will-change-transform"
           >
@@ -184,7 +184,7 @@ defineProps<{
       <!-- 3. BOTTOM CENTERED CTA BUTTON -->
       <div
         v-motion
-        :initial="{ opacity: 0.01, y: 28 }"
+        :initial="{ opacity:0, y: 28 }"
         :visible-once="{ opacity: 1, y: 0, transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 400 } }"
         class="mt-10 sm:mt-12 md:mt-14 xl:mt-16 flex justify-center w-full will-change-transform"
       >

@@ -35,7 +35,7 @@ const handleSlideChange = (index: number) => {
 
 // --- Instagram-Style Dot Logic ---
 const MAX_NORMAL_DOTS = 5
-const DOT_SIZE = 6 // px
+const DOT_SIZE = 14 // px
 const GAP_SIZE = 8 // px
 const STRIDE = DOT_SIZE + GAP_SIZE // 14px
 
@@ -97,7 +97,7 @@ const goToSlide = (index: number) => {
         <!-- Eyebrow with flanking lines -->
         <div 
           v-motion
-          :initial="{ opacity: 0.01, y: 10 }"
+          :initial="{ opacity:0, y: 10 }"
           :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 0 } }"
           class="flex items-center justify-center w-full max-w-full px-2 mb-4 md:mb-5 max-[321px]:flex-wrap max-[321px]:gap-y-1 will-change-transform transition-transform duration-700 ease-out"
         >
@@ -111,7 +111,7 @@ const goToSlide = (index: number) => {
         <!-- Main Title -->
         <h2 
           v-motion
-          :initial="{ opacity: 0.01, y: 15, filter: 'blur(3px)' }"
+          :initial="{ opacity:0, y: 15, filter: 'blur(3px)' }"
           :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
           class="flex flex-col items-center gap-1 mb-8 will-change-transform"
         >
@@ -126,7 +126,7 @@ const goToSlide = (index: number) => {
         <!-- Subtitle & Description -->
         <div 
           v-motion
-          :initial="{ opacity: 0.01, y: 15 }"
+          :initial="{ opacity:0, y: 15 }"
           :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 200 } }"
           class="flex flex-col items-center will-change-transform"
         >
@@ -143,7 +143,7 @@ const goToSlide = (index: number) => {
       <!-- 2. THE SLIDER ENGINE -->
       <div 
         v-motion
-        :initial="{ opacity: 0.01, filter: 'blur(5px)', scale: 0.98 }"
+        :initial="{ opacity:0, filter: 'blur(5px)', scale: 0.98 }"
         :visible-once="{ opacity: 1, filter: 'blur(0px)', scale: 1, transition: { duration: 900, ease: [0.22, 1, 0.36, 1], delay: 300 } }"
         class="relative z-10 w-full mb-6 md:mb-8 will-change-[transform,opacity]"
       >
@@ -177,7 +177,7 @@ const goToSlide = (index: number) => {
         <div 
           v-if="totalSlides > 1"
           v-motion
-          :initial="{ opacity: 0.01, y: 10 }"
+          :initial="{ opacity:0, y: 10 }"
           :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 500 } }"
           class="flex items-center justify-center h-4 mb-10 will-change-transform"
         >
@@ -193,7 +193,7 @@ const goToSlide = (index: number) => {
                 :key="index"
                 :aria-label="`Go to slide ${index}`"
                 :class="[
-                  'rounded-full w-1.5 h-1.5 transition-all duration-300 ease-out',
+                  'rounded-full w-3.5 h-1.5 transition-all duration-300 ease-out',
                   getDotStyle(index - 1)
                 ]"
                 @click="goToSlide(index - 1)"
@@ -205,7 +205,7 @@ const goToSlide = (index: number) => {
         <!-- Bottom Quote -->
         <p 
           v-motion
-          :initial="{ opacity: 0.01, y: 10 }"
+          :initial="{ opacity:0, y: 10 }"
           :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 600 } }"
           class="font-quote italic px-4 mb-10 font-medium lg:max-w-3xl xl:max-w-4xl text-intention-gold text-[19px] 2xs:text-[20px] xs:text-[21px] sm:text-[22px] lg:text-[23px] xl:text-[24px] leading-[1.45] tracking-[0.01em] will-change-transform"
         >
@@ -215,7 +215,7 @@ const goToSlide = (index: number) => {
         <!-- CTA Button -->
         <div
           v-motion
-          :initial="{ opacity: 0.01, y: 10 }"
+          :initial="{ opacity:0, y: 10 }"
           :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 700 } }"
           class="will-change-transform"
         >
