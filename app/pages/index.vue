@@ -458,7 +458,67 @@ const pageData = {
           }
         ]
       }
-    }
+    },
+
+    categories: {
+      eyebrow: 'CATEGORIZED EXPERIENCES',
+      titleLine1: 'TRAVEL YOUR WAY',
+      titleLine2Cursive: 'Discover Your Style.',
+      subtitle: 'Explore by what moves you. Select a path below to begin crafting your bespoke journey.',
+      bottomQuote: 'The true luxury of travel lies in the freedom to choose your own pace, path, and purpose.',
+      ctaLabel: 'Explore All Experiences',
+      ctaTo: '/itineraries',
+      items: [
+        {
+          id: '01',
+          title: 'Nature & Wilderness',
+          description: 'Reconnect with wild landscapes, forests and coastlines.',
+          image: '/images/itineraries/category/nature.webp',
+          alt: 'Moonlit mountain lake through tropical foliage',
+          to: '/itineraries'
+        },
+        {
+          id: '02',
+          title: 'Culture & Heritage',
+          description: 'Discover living traditions, timeless art and heritage.',
+          image: '/images/itineraries/category/culture.webp',
+          alt: 'Terracotta Temple Portico at Sunset',
+          to: '/itineraries'
+        },
+        {
+          id: '03',
+          title: 'Places to Stay',
+          description: 'Find thoughtful stays rooted in comfort and local charm.',
+          image: '/images/itineraries/category/stay.webp',
+          alt: 'Kerala Courtyard with Golden Arches',
+          to: '/itineraries'
+        },
+        {
+          id: '04',
+          title: 'Offbeat Explorations',
+          description: 'Follow lesser-known paths to unexpected discoveries.',
+          image: '/images/itineraries/category/offbeat.webp',
+          alt: 'Engraved River Trail and Compass',
+          to: '/itineraries'
+        },
+        {
+          id: '05',
+          title: 'Wellness & Spirit',
+          description: 'Restore your balance through mindful, soulful journeys.',
+          image: '/images/itineraries/category/wellness.webp',
+          alt: 'Ochre Lotus Over Rippling Hills',
+          to: '/itineraries'
+        },
+        {
+          id: '06',
+          title: 'Bespoke Luxury',
+          description: 'Enjoy exceptional comfort with a deeply personal touch.',
+          image: '/images/itineraries/category/bespoke.webp',
+          alt: 'Teal coastal terrace under palm fronds',
+          to: '/itineraries'
+        }
+      ]
+    },
 
   // Future sections will be populated here in the same payload
   // about: { ... },
@@ -481,10 +541,13 @@ const pageData = {
     <!-- Collaborated Itineraries -->
     <LazyHomeItinerarySection hydrate-on-visible :data="pageData.collaborated" class="bg-surface-light" />
 
+    <!-- Categorized Itineraries -->
+    <LazyHomeCategories hydrate-on-visible :data="pageData.categories"  />
+
     <!-- Placeholder for the next section -->
     <section
       data-theme="light"
-      class="py-24 px-4 md:px-8 lg:px-12 bg-bg-light text-primary-light flex flex-col items-center justify-center text-center min-h-[120vh]"
+      class="py-24 px-4 md:px-8 lg:px-12 bg-surface-light text-primary-light flex flex-col items-center justify-center text-center min-h-[120vh]"
     >
       <div class="max-w-3xl flex flex-col items-center">
         <span class="font-cursive text-3xl md:text-4xl text-action-blue mb-4">

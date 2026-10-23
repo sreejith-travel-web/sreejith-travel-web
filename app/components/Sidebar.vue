@@ -90,7 +90,7 @@ const footerLinks = [
                 :enter="{
                   opacity: 1,
                   x: 0,
-                  transition: { delay: 120 + index * 45, duration: 500, ease: 'easeOut' }
+                  transition: { delay: 120 + index * 45, duration: 500, ease: [0.22, 1, 0.36, 1] }
                 }"
                 :to="link.path"
                 @click="emit('close')"
@@ -111,7 +111,7 @@ const footerLinks = [
                 :enter="{
                   opacity: 1,
                   y: 0,
-                  transition: { delay: 350 + index * 90, duration: 500, ease: 'easeOut' }
+                  transition: { delay: 350 + index * 90, duration: 500, ease: [0.22, 1, 0.36, 1] }
                 }"
                 :to="cta.path"
                 @click="emit('close')"

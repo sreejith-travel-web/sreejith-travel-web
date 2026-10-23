@@ -40,7 +40,7 @@ defineProps<{
         <h2
           v-motion
           :initial="{ opacity:0, y: 30, filter: 'blur(4px)' }"
-          :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
+          :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1] } }"
           class="leading-[1.2] tracking-normal mb-3 md:mb-4 will-change-transform"
         >
           <span class="font-quote italic font-medium text-action-blue text-[28px] 2xs:text-[30px] xs:text-[34px] sm:text-[38px] md:text-[42px] lg:text-[46px] xl:text-[48px] mr-2">
@@ -54,8 +54,9 @@ defineProps<{
         <!-- Designations Row -->
         <div
           v-motion
-          :initial="{ opacity:0, y: 26 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 180 } }"
+          :initial="{ opacity:0, y: 30 }"
+          :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
+          :intersection="{ rootMargin: '0px 0px -30% 0px' }"
           class="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-y-1.5 sm:gap-x-3 max-w-[92vw] will-change-transform"
         >
           <template v-for="(role, index) in data.designations" :key="index">
@@ -82,7 +83,8 @@ defineProps<{
           <p
             v-motion
             :initial="{ opacity:0, y: 30 }"
-            :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 240 } }"
+            :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1]} }"
+            :intersection="{ rootMargin: '0px 0px -30% 0px' }"
             class="font-primary text-center md:text-left text-journey-deep/90 text-[14px] 2xs:text-[15px] xs:text-[16px] md:text-[16px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px] tracking-wide leading-[1.6] font-normal mb-7 md:mb-8 will-change-transform"
           >
             {{ data.paragraph }}
@@ -92,7 +94,8 @@ defineProps<{
           <blockquote
             v-motion
             :initial="{ opacity:0, y: 30 }"
-            :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 290 } }"
+            :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
+            :intersection="{ rootMargin: '0px 0px -30% 0px' }"
             class="border-l-[3px] border-dark-gold pl-4 xs:pl-5 md:pl-6 py-0.5 mb-6 md:mb-7 will-change-transform"
           >
             <p class="font-quote italic font-semibold text-journey-deep text-[19px] 2xs:text-[20px] xs:text-[21px] sm:text-[22px] lg:text-[23px] xl:text-[24px] leading-[1.55] tracking-[0.01em]">
@@ -104,8 +107,9 @@ defineProps<{
         <!-- COLUMN B: Center Watercolor Cutout Image (Consistent 4:5 Ratio, No Overflow Hidden, No Box Shadow) -->
         <div
           v-motion
-          :initial="{ opacity:0, y: 34, filter: 'blur(4px)' }"
-          :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 900, ease: [0.22, 1, 0.36, 1], delay: 360 } }"
+          :initial="{ opacity:0, y: 30, filter: 'blur(4px)' }"
+          :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1] } }"
+          :intersection="{ rootMargin: '0px 0px -30% 0px' }"
           class="col-span-1 md:col-span-6 xl:col-span-4 order-2 flex flex-col items-center justify-center w-full will-change-transform"
         >
           <div class="w-full max-w-95 sm:max-w-105 md:max-w-110 xl:max-w-120 aspect-4/5 flex items-center justify-center">
@@ -127,7 +131,8 @@ defineProps<{
           <!-- <div
             v-motion
             :initial="{ opacity:0, y: 24 }"
-            :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 340 } }"
+            :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1]} }"
+            :intersection="{ rootMargin: '0px 0px -30% 0px' }"
             class="w-31.25 xs:w-35 sm:w-37.5 md:w-40 aspect-300/114 bg-dark-gold will-change-transform"
             :style="{
               maskImage: `url(${data.signatureImage})`,
@@ -164,7 +169,8 @@ defineProps<{
             :key="index"
             v-motion
             :initial="{ opacity:0, y: 30 }"
-            :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 360 + index * 50 } }"
+            :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: index * 100 } }"
+            :intersection="{ rootMargin: '0px 0px -30% 0px' }"
             class="flex flex-col items-center text-center xl:items-start xl:text-left will-change-transform"
           >
             <span class="font-primary font-normal text-journey-deep text-[28px] 2xs:text-[30px] xs:text-[32px] sm:text-[34px] md:text-[36px] xl:text-[40px] leading-[1.15] tracking-tight mb-1.5">
@@ -184,8 +190,9 @@ defineProps<{
       <!-- 3. BOTTOM CENTERED CTA BUTTON -->
       <div
         v-motion
-        :initial="{ opacity:0, y: 28 }"
-        :visible-once="{ opacity: 1, y: 0, transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 400 } }"
+        :initial="{ opacity:0, y: 30 }"
+        :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1] } }"
+        :intersection="{ rootMargin: '0px 0px -30% 0px' }"
         class="mt-10 sm:mt-12 md:mt-14 xl:mt-16 flex justify-center w-full will-change-transform"
       >
         <CtaButton
