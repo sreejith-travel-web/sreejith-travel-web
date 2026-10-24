@@ -38,9 +38,7 @@ defineProps<{
       <!-- 1. TOP CENTERED HEADER (Title + Designations) -->
       <div class="section-title-wrapper">
         <h2
-          v-motion
-          :initial="{ opacity:0, y: 30, filter: 'blur(4px)' }"
-          :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1] } }"
+          v-motion-fade-up
           class="leading-[1.2] tracking-normal mb-3 md:mb-4 will-change-transform"
         >
           <span class="text-action-blue mr-2 section-title-italic">
@@ -53,9 +51,8 @@ defineProps<{
 
         <!-- Designations Row -->
         <div
-          v-motion
-          :initial="{ opacity: 0, y: 30, filter: 'blur(4px)' }"
-          :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
+          v-motion-fade-up
+          :delay="100"
           class="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-y-1.5 sm:gap-x-3 max-w-[92vw] will-change-transform"
         >
           <template v-for="(role, index) in data.designations" :key="index">

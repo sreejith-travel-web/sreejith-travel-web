@@ -215,20 +215,18 @@ onUnmounted(() => {
         <h2 class="section-title-wrapper">
           <!-- Primary Line -->
           <span 
-            v-motion
-            :initial="{ opacity: 0, y: 30, filter: 'blur(4px)' }"
-            :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 1000 } }"
+            v-motion-fade-up
+            :delay="1000"
             :style="getParallax(0.44)" 
-            class="text-surface-light section-title-sans"
+            class="text-surface-light section-title-sans capitalize"
           >
             {{ data.headingLine1 }}
           </span>
 
           <!-- Cursive Line -->
           <span 
-            v-motion
-            :initial="{ opacity: 0, y: 30, filter: 'blur(4px)' }"
-            :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 1100 } }"
+            v-motion-fade-up
+            :delay="1100"
             :style="getParallax(0.4)" 
             class="text-warm-gold mt-2 md:mt-3 section-title-cursive"
           >

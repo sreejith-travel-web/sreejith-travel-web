@@ -108,9 +108,7 @@ const goToSlide = (index: number) => {
 
         <!-- Main Title -->
         <h2 
-          v-motion
-          :initial="{ opacity:0, filter: 'blur(5px)', scale: 0.98 }"
-          :visible-once="{ opacity: 1, filter: 'blur(0px)', scale: 1, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 300 } }"
+          v-motion-fade-up
           :delay="100"
           class="section-title-wrapper"
         >

@@ -43,9 +43,7 @@ defineProps<{
 
         <!-- Main Title -->
         <h2 
-          v-motion
-          :initial="{ opacity:0, y: 30, filter: 'blur(3px)' }"
-          :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
+          v-motion-fade-up
           :delay="100"
           class="section-title-wrapper"
         >

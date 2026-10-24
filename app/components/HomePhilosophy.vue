@@ -47,9 +47,8 @@ defineProps<{
 
         <!-- Main Title (Line 2 in Cursive) -->
         <h2
-          v-motion
-          :initial="{ opacity: 0, y: 30, filter: 'blur(4px)' }"
-          :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
+          v-motion-fade-up
+          :delay="100"
           class="section-title-wrapper mb-0"
         >
           <span class="text-journey-deep section-title-sans">
