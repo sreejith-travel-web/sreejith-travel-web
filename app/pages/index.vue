@@ -105,7 +105,7 @@ const pageData = {
     titleLine1: 'Thoughtful travel.',
     titleLine2Cursive: 'Meaningful connections.',
     video: {
-      videoId: 'zFMYL0XQ3lA', 
+      videoId: 'k1OU4CqguLw', 
       thumbnail: '/images/home/travel-video.webp',
       alt: 'Artisan weaving basket during a cultural travel experience in India',
       width: 800,
@@ -493,7 +493,7 @@ const pageData = {
 
   categories: {
     eyebrow: 'CATEGORIZED EXPERIENCES',
-    titleLine1: 'TRAVEL YOUR WAY',
+    titleLine1: 'TRAVEL YOUR WAY.',
     titleLine2Cursive: 'Discover Your Style.',
     subtitle: 'Explore by what moves you. Select a path below to begin crafting your bespoke journey.',
     bottomQuote: 'The true luxury of travel lies in the freedom to choose your own pace, path, and purpose.',
@@ -551,6 +551,45 @@ const pageData = {
     ]
   },
 
+  journeyFramework: {
+    eyebrow: 'THE ART OF TRAVEL DESIGN',
+    titleLine1: 'YOUR JOURNEY.',
+    titleLine2Cursive: 'Thoughtfully Designed.',
+    description: 'Every meaningful journey deserves a thoughtful design. Through our proven Journey Design Framework, we transform your ideas, interests, and travel style into a bespoke experience that is uniquely yours.',
+    steps: [
+      {
+        title: 'Dream',
+        subtitle: 'BEGIN WITH YOUR TRAVEL VISION.',
+        description: 'Share your interests, travel style, and the experiences you dream of, so we can begin shaping a journey that feels uniquely yours.'
+      },
+      {
+        title: 'Define',
+        subtitle: 'DISCOVER THE RIGHT POSSIBILITIES.',
+        description: 'Explore destinations, stays, seasons, and cultural experiences with us to discover the possibilities that best reflect your vision.'
+      },
+      {
+        title: 'Design',
+        subtitle: 'CRAFTING EVERY DETAIL OF YOUR JOURNEY.',
+        description: 'We weave thoughtful stays, seamless logistics, hidden experiences, and local connections into a journey designed around your interests.'
+      },
+      {
+        title: 'Deliver',
+        subtitle: 'TRAVEL WITH CONFIDENCE.',
+        description: 'Travel with confidence as we coordinate every detail and provide support throughout, giving you the freedom to enjoy each moment.'
+      },
+      {
+        title: 'Difference',
+        subtitle: 'TRAVEL THAT LEAVES A POSITIVE IMPACT.',
+        description: 'Support local communities, celebrate living heritage, and embrace regenerative travel that enriches you and the places you visit.'
+      }
+    ],
+    bottomQuote: 'Let’s design a journey that’s uniquely yours.',
+    cta: {
+      label: 'PLAN YOUR JOURNEY',
+      to: '/planyourjourney'
+    }
+  }
+
   // Future sections will be populated here in the same payload
   // about: { ... },
 }
@@ -577,6 +616,9 @@ const pageData = {
 
     <!-- Categorized Itineraries -->
     <LazyHomeCategories hydrate-on-visible :data="pageData.categories" class="bg-surface-light" />
+
+    <!-- How It Works -->
+    <LazyHomeJourneyFramework hydrate-on-visible :data="pageData.journeyFramework" class="bg-[radial-gradient(ellipse_at_center,var(--color-intention-deep)_0%,var(--color-journey-deep)_100%)]" />
 
     <!-- Placeholder for the next section -->
     <section

@@ -15,9 +15,10 @@
 
   /* Core Brand Colors */
   --color-soft-blue: #A8D3E2;
-  --color-journey-blue: #79B9D2;
   --color-action-blue: #397F9D;
+  --color-journey-blue: #79B9D2;
   --color-intention-blue: #043e6e;
+  --color-intention-deep: #032352;
   --color-warm-gold: #ffc15c;
   --color-heritage-gold: #e6a61e;
   --color-intention-gold: #d48302; 
@@ -93,7 +94,7 @@
 }
 
 @utility section-title-cursive {
-  @apply font-cursive text-[30px] 2xs:text-[34px] xs:text-[48px] md:text-[56px] lg:text-[64px] tracking-wide leading-[0.9] block max-[321px]:text-balance will-change-transform transition-transform duration-700 ease-editorial;
+  @apply font-cursive capitalize text-[30px] 2xs:text-[34px] xs:text-[48px] md:text-[56px] lg:text-[64px] tracking-wide leading-[0.9] block max-[321px]:text-balance will-change-transform transition-transform duration-700 ease-editorial;
 }
 
 @utility section-title-italic {
@@ -102,6 +103,10 @@
 
 @utility section-subtitle {
   @apply font-primary font-normal text-[24px] 2xs:text-[25px] xs:text-[28px] sm:text-[31px] md:text-[36px] lg:text-[38px] xl:text-[40px] leading-[1.15] tracking-tight;
+}
+
+@utility section-smaller-subtitle {
+  @apply font-primary font-normal text-[20px] 2xs:text-[21px] xs:text-[24px] sm:text-[27px] md:text-[32px] lg:text-[34px] xl:text-[36px] leading-[1.1] tracking-tight;
 }
 
 @utility section-midsubtitle {
