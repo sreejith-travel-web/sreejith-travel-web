@@ -13,6 +13,12 @@ export default defineNuxtConfig({
     plugins: [
       tailwindcss(),
     ],
+    optimizeDeps: {
+      include: [
+        '@vue/devtools-core',
+        'lenis'
+      ],
+    }
   },
 
   modules: [

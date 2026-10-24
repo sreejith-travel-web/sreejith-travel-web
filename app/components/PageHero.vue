@@ -84,7 +84,7 @@ onMounted(() => {
     >
       <!-- Outer Card Container with Responsive Aspect Ratios -->
       <div 
-        class="relative w-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden aspect-4/3 sm:aspect-2/1 md:aspect-2.5/1 lg:aspect-3/1 xl:aspect-[3.5/1] 2xl:aspect-4/1 shadow-xl md:shadow-2xl bg-journey-deep flex items-center justify-center"
+        class="relative w-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden aspect-4/3 sm:aspect-2/1 md:aspect-2.5/1 lg:aspect-3/1 xl:aspect-3.5/1 2xl:aspect-4/1 shadow-xl md:shadow-2xl bg-journey-deep flex items-center justify-center"
       >
         <!-- Background Image & Cinematic Overlays -->
         <div class="absolute inset-0 w-full h-full z-0 overflow-hidden pointer-events-none">

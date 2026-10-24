@@ -1,10 +1,10 @@
 <!-- ~/app/app.vue -->
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, onBeforeUnmount } from 'vue'
+import Lenis from 'lenis'
 
 const nuxtApp = useNuxtApp()
-
 const isInitialAppLoad = useInitialAppLoad()
 
 useHead({
@@ -15,9 +15,9 @@ useHead({
 })
 
 const isRouting = ref(false)
-
 let routeLoadStartTime = 0
 const MIN_LOADER_DURATION = 900
+let lenis: Lenis | undefined
 
 const handleLoaderComplete = () => {
   isInitialAppLoad.value = false
@@ -34,6 +34,11 @@ nuxtApp.hook('page:finish', () => {
 
   setTimeout(() => {
     isRouting.value = false
+    
+    // Force Lenis to recalculate page height after the route transition finishes
+    if (lenis) {
+      setTimeout(() => lenis!.resize(), 50)
+    }
   }, remainingTime + 100)
 })
 
@@ -45,6 +50,27 @@ onMounted(() => {
     history.scrollRestoration = 'manual'
   }
   window.scrollTo(0, 0)
+
+  // Initialize Lenis Cinematic Smooth Scrolling
+  lenis = new Lenis({
+    duration: 1.2,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    orientation: 'vertical',
+    gestureOrientation: 'vertical',
+    smoothWheel: true,
+  })
+
+  function raf(time: number) {
+    lenis?.raf(time)
+    requestAnimationFrame(raf)
+  }
+  requestAnimationFrame(raf)
+})
+
+onBeforeUnmount(() => {
+  if (lenis) {
+    lenis.destroy()
+  }
 })
 </script>
 
