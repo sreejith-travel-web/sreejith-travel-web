@@ -46,7 +46,7 @@ defineProps<{
           <span class="text-action-blue mr-2 section-title-italic">
             {{ data.greeting }}
           </span>
-          <span class="text-journey-deep section-title-sans">
+          <span class="text-journey-deep section-title-sans capitalize">
             {{ data.name }}
           </span>
         </h2>
@@ -155,7 +155,7 @@ defineProps<{
 
         <!-- COLUMN C: Achievements / Statistics -->
         <!-- Mobile (<768px): Left-aligned vertical stack | Tablet (768-1279px): 3-col horizontal center-aligned | Desktop (1280px+): Left-aligned vertical stack -->
-        <div class="col-span-1 md:col-span-12 xl:col-span-4 order-3 w-full grid grid-cols-1 md:grid-cols-3 xl:grid-cols-1 gap-y-4 md:gap-x-6 lg:gap-x-10 xl:gap-y-9 pt-2 md:pt-6 xl:pt-0">
+        <div class="col-span-1 md:col-span-12 xl:col-span-4 order-3 w-full grid grid-cols-1 md:grid-cols-3 xl:grid-cols-1 gap-y-6 md:gap-x-6 lg:gap-x-10 xl:gap-y-9 pt-2 md:pt-6 xl:pt-0">
           <div
             v-for="(stat, index) in data.stats"
             :key="index"

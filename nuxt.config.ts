@@ -20,7 +20,6 @@ export default defineNuxtConfig({
       ],
     }
   },
-
   modules: [
     '@nuxt/fonts',
     '@vueuse/motion/nuxt'
