@@ -23,7 +23,7 @@ interface HeroContent {
   autoplayIntervalMs: number
   subtitleText: string
   headingLine1: string
-  headingLine2Italic: string
+  headingLine2Cursive: string
   description: string
   slides: HeroSlide[]
 }
@@ -195,32 +195,31 @@ onUnmounted(() => {
     <!-- Foreground Content (Text Safe Zone) -->
     <div class="relative z-10 w-full h-full min-h-full max-w-240 mx-auto px-2 2xs:px-4 xs:px-6 sm:px-8 md:px-12 lg:px-24 flex items-center justify-center py-20">
       <div
-        class="w-full flex flex-col items-center text-center mt-[4vh] lg:mt-[8vh]"
+        class="w-full flex flex-col items-center text-center mt-[2vh] lg:mt-[6vh]"
       >
         <!-- 1. H1 Eyebrow (Starts at 900ms - instantly after loader) -->
         <div
-          v-motion
-          :initial="{ opacity:0, y: 30 }"
-          :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 900 } }"
+          v-motion-fade-up
+          :delay="900"
           :style="getParallax(0.48)"
-          class="flex items-center justify-center w-full max-w-full px-2 mb-4 md:mb-5 max-[321px]:flex-wrap max-[321px]:gap-y-1 will-change-transform transition-transform duration-700 ease-out"
+          class="eyebrow-wrapper"
         >
-          <div class="h-0.5 mb-0.5 rounded-md bg-warm-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
-          <h1 class="font-uppercase font-medium mx-2 md:mx-4 text-[10px] xs:text-[11px] sm:text-xs lg:text-[13px] tracking-[0.25em] md:tracking-[0.3em] text-surface-light/90 uppercase">
+          <div class="bg-warm-gold/70 eyebrow-border" />
+          <h1 class="text-surface-light/90 eyebrow-text">
             {{ data.subtitleText }}
           </h1>
-          <div class="h-0.5 mb-0.5 rounded-md bg-warm-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
+          <div class="bg-warm-gold/70 eyebrow-border" />
         </div>
 
-        <!-- 2 & 3. Heading Hierarchy (Line 1 at 1100ms, Line 2 Cursive at 1200ms) -->
-        <h2 class="text-surface-light mb-4 md:mb-8 drop-shadow-2xl w-full xs:max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl">
+        <!-- 2 & 3. Heading Hierarchy (Line 1 at 1000ms, Line 2 Cursive at 1100ms) -->
+        <h2 class="section-title-wrapper">
           <!-- Primary Line -->
           <span 
             v-motion
-            :initial="{ opacity:0, y: 30, filter: 'blur(4px)' }"
-            :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 1000 } }"
+            :initial="{ opacity: 0, y: 30, filter: 'blur(4px)' }"
+            :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 1000 } }"
             :style="getParallax(0.44)" 
-            class="font-primary text-[24px] xs:text-3xl md:text-4xl lg:text-5xl tracking-normal leading-snug font-medium block max-[320px]:[text-balance] will-change-transform transition-transform duration-700 ease-out"
+            class="text-surface-light section-title-sans"
           >
             {{ data.headingLine1 }}
           </span>
@@ -228,33 +227,31 @@ onUnmounted(() => {
           <!-- Cursive Line -->
           <span 
             v-motion
-            :initial="{ opacity:0, y: 30, filter: 'blur(4px)' }"
-            :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 1100 } }"
+            :initial="{ opacity: 0, y: 30, filter: 'blur(4px)' }"
+            :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 1100 } }"
             :style="getParallax(0.4)" 
-            class="font-cursive text-3xl 2xs:text-[34px] xs:text-[40px] md:text-6xl lg:text-7xl text-warm-gold tracking-wide leading-snug block mt-2 md:mt-3 max-[321px]:[text-balance] will-change-transform transition-transform duration-700 ease-out"
+            class="text-warm-gold mt-2 md:mt-3 section-title-cursive"
           >
-            {{ data.headingLine2Italic }}
+            {{ data.headingLine2Cursive }}
           </span>
         </h2>
 
         <!-- 4. Description (Starts at 1300ms) -->
         <p
-          v-motion
-          :initial="{ opacity:0, y: 30 }"
-          :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 1200 } }"
+          v-motion-fade-up
+          :delay="1200"
           :style="getParallax(0.36)"
-          class="font-primary w-full xs:max-w-md sm:max-w-xl lg:max-w-2xl text-[14px] 2xs:text-[15px] xs:text-[16px] md:text-[16px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px] leading-relaxed tracking-wide text-surface-medium font-light mb-10 md:mb-12 drop-shadow-md max-[320px]:[text-balance] will-change-transform transition-transform duration-700 ease-out"
+          class="text-surface-medium w-full max-w-sm xs:max-w-md sm:max-w-xl lg:max-w-3xl mb-8 md:mb-10 hero-paragraph"
         >
           {{ data.description }}
         </p>
 
         <!-- 5. CTAs (Starts at 1400ms) -->
         <div
-          v-motion
-          :initial="{ opacity:0, y: 30 }"
-          :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 1300 } }"
+          v-motion-fade-up
+          :delay="1300"
           :style="getParallax(0.32)"
-          class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full will-change-transform transition-transform duration-700 ease-out"
+          class="hero-cta-wrapper"
         >
           <CtaButton to="/itineraries" label="Explore Itineraries" variant="dark" />
           <CtaButton to="/planYourJourney" label="Plan Your Journey" variant="dark" />
@@ -265,9 +262,8 @@ onUnmounted(() => {
     <!-- Slideshow Navigation -->
     <div
       v-if="data.mode === 'slideshow' && slides.length > 1"
-      v-motion
-      :initial="{ opacity:0, y: 20 }"
-      :enter="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 1500 } }"
+      v-motion-micro-up
+      :delay="1500"
       class="absolute bottom-8 lg:bottom-10 left-1/2 -translate-x-1/2 z-30 flex items-center gap-1 pointer-events-auto transition-transform duration-700 ease-out"
       role="tablist"
       aria-label="Slideshow navigation"

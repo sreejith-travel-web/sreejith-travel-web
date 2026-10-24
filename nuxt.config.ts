@@ -66,6 +66,40 @@ export default defineNuxtConfig({
     ]
   },
 
+  motion: {
+    directives: {
+      // 1. Standard text, paragraphs, buttons, and quotes (Y: 30, 700ms)
+      'fade-up': {
+        initial: { opacity: 0, y: 30 },
+        visibleOnce: {
+          opacity: 1,
+          y: 0,
+          transition: { duration: 700, ease: [0.22, 1, 0.36, 1] }
+        }
+      },
+
+      // 2. Grid cards (Masonry, Categories, Stats - 500ms for swift staggering)
+      'stagger-card': {
+        initial: { opacity: 0, y: 30 },
+        visibleOnce: {
+          opacity: 1,
+          y: 0,
+          transition: { duration: 500, ease: [0.22, 1, 0.36, 1] }
+        }
+      },
+
+      // 3. Micro-UI like dot pagination (Y: 20, 500ms)
+      'micro-up': {
+        initial: { opacity: 0, y: 20 },
+        visibleOnce: {
+          opacity: 1,
+          y: 0,
+          transition: { duration: 500, ease: [0.22, 1, 0.36, 1] }
+        }
+      }
+    }
+  },
+
   nitro: {
     compressPublicAssets: true
   },

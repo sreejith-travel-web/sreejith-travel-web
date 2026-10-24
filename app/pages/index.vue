@@ -37,7 +37,7 @@ const pageData = {
     autoplayIntervalMs: 8500,
     subtitleText: 'Regenerative Travel Experiences',
     headingLine1: 'Designing Cultural Immersive Travel Experiences in India',
-    headingLine2Italic: 'Inspired by People, Places & Stories',
+    headingLine2Cursive: 'Inspired by People, Places & Stories',
     description: 'Designing luxury bespoke journeys bringing together meaningful encounters, rare access, and authentic stories that conventional tourism simply cannot offer.',
     slides: [
       {
@@ -72,7 +72,7 @@ const pageData = {
         'Art & Cultural Curator'
       ],
       paragraph:
-        "Creating bespoke luxury journeys in India with a trusted local network of cultural custodians, storytellers, artisans, historians, and local experts. I approach travel as an art – bringing together meaningful encounters, rare access, authentic stories and regenerative travel that conventional tourism can't.",
+        "Creating bespoke luxury journeys in India with a trusted local network of cultural custodians, storytellers, artisans, historians, and local experts. I approach travel as an art – bringing together meaningful encounters, rare access, authentic stories and regenerative travel that conventional tourism doesn't provide.",
       quoteText:
         "The best travel experiences aren’t measured by the places you visit, but by the people you meet, the cultures you experience, the stories you discover, and the lasting positive impact you leave behind.",
       signatureImage: '/images/sreejith-logo.png',
@@ -536,13 +536,13 @@ const pageData = {
     <HomeAbout :data="pageData.about" class="bg-surface-light"/>
 
     <!-- Signature Experiences -->
-    <LazyHomeItinerarySection hydrate-on-visible :data="pageData.signature" />
+    <LazyHomeItinerarySection hydrate-on-visible :data="pageData.signature" class="bg-bg-light" />
     
     <!-- Collaborated Itineraries -->
     <LazyHomeItinerarySection hydrate-on-visible :data="pageData.collaborated" class="bg-surface-light" />
 
     <!-- Categorized Itineraries -->
-    <LazyHomeCategories hydrate-on-visible :data="pageData.categories"  />
+    <LazyHomeCategories hydrate-on-visible :data="pageData.categories" class="bg-bg-light" />
 
     <!-- Placeholder for the next section -->
     <section

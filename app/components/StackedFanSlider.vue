@@ -623,13 +623,13 @@ defineExpose({
             <div class="flex flex-col flex-1">
               <span
                 v-if="slot.item.eyebrow"
-                class="font-uppercase text-[9px] 2xs:text-[10px] xs:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] tracking-[0.24em] text-warm-gold uppercase mb-1 line-clamp-1"
+                class="text-warm-gold card-eyebrow"
               >
                 {{ slot.item.eyebrow }}
               </span>
               <h3
                 v-if="slot.item.title"
-                class="font-primary text-surface-light text-[16px] 2xs:text-[18px] xs:text-[19px] sm:text-[20px] md:text-[21px] lg:text-[23px] xl:text-[25px] font-medium leading-snug mb-2.5 drop-shadow-sm line-clamp-2"
+                class="text-surface-light card-title"
               >
                 {{ slot.item.title }}
               </h3>
@@ -638,7 +638,7 @@ defineExpose({
                 class="flex flex-wrap items-center gap-1.5 border-t border-surface-light/15 pt-2.5"
               >
                 <template v-for="(tag, tIdx) in slot.item.tags" :key="tIdx">
-                  <span class="font-uppercase text-[8px] 2xs:text-[9px] xs:text-[10px] md:text-[11px] lg:text-[12px] tracking-[0.08em] text-surface-light/80 uppercase whitespace-nowrap">
+                  <span class="text-surface-light/80 card-tag">
                     {{ tag }}
                   </span>
                   <span v-if="tIdx < slot.item.tags.length - 1" class="text-warm-gold/70 text-[12px]" aria-hidden="true">·</span>
@@ -724,13 +724,13 @@ defineExpose({
             <div class="flex flex-col flex-1">
               <span
                 v-if="item.eyebrow"
-                class="font-uppercase text-[9px] 2xs:text-[10px] xs:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] tracking-[0.24em] text-warm-gold uppercase mb-1 line-clamp-1"
+                class="text-warm-gold card-eyebrow"
               >
                 {{ item.eyebrow }}
               </span>
               <h3
                 v-if="item.title"
-                class="font-primary text-surface-light text-[16px] 2xs:text-[18px] xs:text-[19px] sm:text-[20px] md:text-[21px] lg:text-[23px] xl:text-[25px] font-medium leading-snug mb-2.5 drop-shadow-sm line-clamp-2"
+                class="text-surface-light card-title"
               >
                 {{ item.title }}
               </h3>
@@ -739,7 +739,7 @@ defineExpose({
                 class="flex flex-wrap items-center gap-1.5 border-t border-surface-light/15 pt-2.5"
               >
                 <template v-for="(tag, tIdx) in item.tags" :key="tIdx">
-                  <span class="font-uppercase text-[8px] 2xs:text-[9px] xs:text-[10px] md:text-[11px] lg:text-[12px] tracking-[0.08em] text-surface-light/80 uppercase whitespace-nowrap">
+                  <span class="text-surface-light/80 card-tag">
                     {{ tag }}
                   </span>
                   <span v-if="tIdx < item.tags.length - 1" class="text-warm-gold/70 text-[12px]" aria-hidden="true">·</span>

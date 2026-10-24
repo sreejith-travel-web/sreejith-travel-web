@@ -31,22 +31,22 @@ defineProps<{
   <section
     data-theme="light"
     aria-label="About Sreejith"
-    class="w-full bg-bg-light text-primary-light py-12 sm:py-16 md:py-20 xl:py-24 px-4 2xs:px-5 xs:px-6 sm:px-10 md:px-12 lg:px-16 xl:px-20 2xl:px-24 flex justify-center"
+    class="text-primary-light overflow-hidden section-wrapper"
   >
     <div class="w-full max-w-[1640px] mx-auto flex flex-col items-center">
       
       <!-- 1. TOP CENTERED HEADER (Title + Designations) -->
-      <header class="w-full flex flex-col items-center text-center mb-4 sm:mb-6 lg:mb-8 xl:mb-10">
+      <div class="section-title-wrapper">
         <h2
           v-motion
           :initial="{ opacity:0, y: 30, filter: 'blur(4px)' }"
           :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1] } }"
           class="leading-[1.2] tracking-normal mb-3 md:mb-4 will-change-transform"
         >
-          <span class="font-quote italic font-medium text-action-blue text-[28px] 2xs:text-[30px] xs:text-[34px] sm:text-[38px] md:text-[42px] lg:text-[46px] xl:text-[48px] mr-2">
+          <span class="text-action-blue mr-2 section-title-italic">
             {{ data.greeting }}
           </span>
-          <span class="font-primary font-normal text-journey-deep text-[26px] 2xs:text-[28px] xs:text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px]">
+          <span class="text-journey-deep section-title-sans">
             {{ data.name }}
           </span>
         </h2>
@@ -54,13 +54,12 @@ defineProps<{
         <!-- Designations Row -->
         <div
           v-motion
-          :initial="{ opacity:0, y: 30 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
-          :intersection="{ rootMargin: '0px 0px -30% 0px' }"
+          :initial="{ opacity: 0, y: 30, filter: 'blur(4px)' }"
+          :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
           class="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-y-1.5 sm:gap-x-3 max-w-[92vw] will-change-transform"
         >
           <template v-for="(role, index) in data.designations" :key="index">
-            <span class="font-uppercase text-[10px] 2xs:text-[11px] sm:text-[12px] lg:text-[13px] tracking-[0.22em] md:tracking-[0.25em] text-dark-gold font-medium uppercase">
+            <span class="text-dark-gold section-midsubtitle mb-0">
               {{ role }}
             </span>
             <span
@@ -68,11 +67,11 @@ defineProps<{
               class="hidden sm:inline-block text-dark-gold text-[12px] leading-none select-none"
               aria-hidden="true"
             >
-              •
+              &nbsp;
             </span>
           </template>
         </div>
-      </header>
+      </div>
 
       <!-- 2. MAIN CONTENT GRID -->
       <!-- Mobile (<768px): 1 col stacked | Tablet (768-1279px): 2 cols top, stats full row below | Desktop (1280px+): 3 cols single row -->
@@ -81,24 +80,19 @@ defineProps<{
         <!-- COLUMN A: Narrative, Quote & Golden Signature -->
         <div class="col-span-1 md:col-span-6 xl:col-span-4 order-1 flex flex-col items-start text-left">
           <p
-            v-motion
-            :initial="{ opacity:0, y: 30 }"
-            :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1]} }"
-            :intersection="{ rootMargin: '0px 0px -30% 0px' }"
-            class="font-primary text-center md:text-left text-journey-deep/90 text-[14px] 2xs:text-[15px] xs:text-[16px] md:text-[16px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px] tracking-wide leading-[1.6] font-normal mb-7 md:mb-8 will-change-transform"
+            v-motion-fade-up
+            class="text-journey-deep/90 text-center md:text-left mb-7 md:mb-8 section-paragraph"
           >
             {{ data.paragraph }}
           </p>
 
           <!-- Quote with 3px Left Border -->
           <blockquote
-            v-motion
-            :initial="{ opacity:0, y: 30 }"
-            :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
-            :intersection="{ rootMargin: '0px 0px -30% 0px' }"
-            class="border-l-[3px] border-dark-gold pl-4 xs:pl-5 md:pl-6 py-0.5 mb-6 md:mb-7 will-change-transform"
+            v-motion-fade-up
+            :delay="100"  
+            class="border-dark-gold quote-left-border"
           >
-            <p class="font-quote italic font-semibold text-journey-deep text-[19px] 2xs:text-[20px] xs:text-[21px] sm:text-[22px] lg:text-[23px] xl:text-[24px] leading-[1.55] tracking-[0.01em]">
+            <p class="text-journey-deep section-quote">
               “{{ data.quoteText }}”
             </p>
           </blockquote>
@@ -109,7 +103,6 @@ defineProps<{
           v-motion
           :initial="{ opacity:0, y: 30, filter: 'blur(4px)' }"
           :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1] } }"
-          :intersection="{ rootMargin: '0px 0px -30% 0px' }"
           class="col-span-1 md:col-span-6 xl:col-span-4 order-2 flex flex-col items-center justify-center w-full will-change-transform"
         >
           <div class="w-full max-w-95 sm:max-w-105 md:max-w-110 xl:max-w-120 aspect-4/5 flex items-center justify-center">
@@ -131,8 +124,7 @@ defineProps<{
           <!-- <div
             v-motion
             :initial="{ opacity:0, y: 24 }"
-            :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1]} }"
-            :intersection="{ rootMargin: '0px 0px -30% 0px' }"
+            :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1]} }"            
             class="w-31.25 xs:w-35 sm:w-37.5 md:w-40 aspect-300/114 bg-dark-gold will-change-transform"
             :style="{
               maskImage: `url(${data.signatureImage})`,
@@ -167,19 +159,17 @@ defineProps<{
           <div
             v-for="(stat, index) in data.stats"
             :key="index"
-            v-motion
-            :initial="{ opacity:0, y: 30 }"
-            :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: index * 100 } }"
-            :intersection="{ rootMargin: '0px 0px -30% 0px' }"
+            v-motion-fade-up
+            :delay="index * 100"           
             class="flex flex-col items-center text-center xl:items-start xl:text-left will-change-transform"
           >
-            <span class="font-primary font-normal text-journey-deep text-[28px] 2xs:text-[30px] xs:text-[32px] sm:text-[34px] md:text-[36px] xl:text-[40px] leading-[1.15] tracking-tight mb-1.5">
+            <span class="text-journey-deep mb-1.5 section-subtitle">
               {{ stat.value }}
             </span>
-            <span class="font-uppercase text-[10px] 2xs:text-[11px] md:text-[12px] lg:text-[13px] tracking-[0.2em] text-dark-gold font-medium uppercase mb-2">
+            <span class="text-dark-gold section-midsubtitle">
               {{ stat.subtitle }}
             </span>
-            <p class="font-primary text-journey-deep/85 text-[13px] 2xs:text-[14px] xs:text-[15px] xl:text-[16px] leading-[1.6] font-normal max-w-95 md:max-w-75 xl:max-w-95">
+            <p class="text-journey-deep/85 max-w-95 md:max-w-75 xl:max-w-95 section-subparagraph">
               {{ stat.description }}
             </p>
           </div>
@@ -189,10 +179,7 @@ defineProps<{
 
       <!-- 3. BOTTOM CENTERED CTA BUTTON -->
       <div
-        v-motion
-        :initial="{ opacity:0, y: 30 }"
-        :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1] } }"
-        :intersection="{ rootMargin: '0px 0px -30% 0px' }"
+        v-motion-fade-up
         class="mt-10 sm:mt-12 md:mt-14 xl:mt-16 flex justify-center w-full will-change-transform"
       >
         <CtaButton

@@ -87,7 +87,7 @@ const goToSlide = (index: number) => {
 <template>
   <section 
     data-theme="light"
-    class="relative w-full bg-bg-light text-primary-light py-12 sm:py-16 md:py-20 xl:py-24 px-2 2xs:px-3 xs:px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20 overflow-hidden flex justify-center"
+    class="text-primary-light overflow-hidden section-wrapper"
   >
     <div class="relative w-full max-w-[1640px] flex flex-col items-center">
 
@@ -96,48 +96,43 @@ const goToSlide = (index: number) => {
         
         <!-- Eyebrow with flanking lines -->
         <div 
-          v-motion
-          :initial="{ opacity:0, y: 30 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1]} }"
-          :intersection="{ rootMargin: '0px 0px -30% 0px' }"
-          class="flex items-center justify-center w-full max-w-full px-2 mb-4 md:mb-5 max-[321px]:flex-wrap max-[321px]:gap-y-1 will-change-transform transition-transform duration-700 ease-out"
+          v-motion-fade-up
+          class="eyebrow-wrapper"
         >
-          <div class="h-0.5 mb-0.5 rounded-md bg-dark-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
-          <h2 class="font-uppercase font-medium mx-2 md:mx-4 text-[10px] xs:text-[11px] sm:text-xs lg:text-[13px] tracking-[0.25em] md:tracking-[0.3em] text-journey-deep uppercase">
+          <div class="bg-dark-gold/70 eyebrow-border" />
+          <h2 class="text-journey-deep eyebrow-text">
             {{ data.eyebrow }}
           </h2>
-          <div class="h-0.5 mb-0.5 rounded-md bg-dark-gold/70 grow max-w-5 md:max-w-12 shrink-2" />
+          <div class="bg-dark-gold/70 eyebrow-border" />
         </div>
 
         <!-- Main Title -->
         <h2 
           v-motion
-          :initial="{ opacity:0, y: 30, filter: 'blur(3px)' }"
-          :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
-          :intersection="{ rootMargin: '0px 0px -30% 0px' }"
-          class="flex flex-col items-center gap-1 mb-8 will-change-transform"
+          :initial="{ opacity:0, filter: 'blur(5px)', scale: 0.98 }"
+          :visible-once="{ opacity: 1, filter: 'blur(0px)', scale: 1, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 300 } }"
+          :delay="100"
+          class="section-title-wrapper"
         >
-          <span class="font-primary font-normal text-journey-deep text-[28px] xs:text-[34px] sm:text-[40px] md:text-[46px] leading-tight tracking-tight uppercase">
+          <span class="text-journey-deep section-title-sans">
             {{ data.titleLine1 }}
           </span>
-          <span class="font-cursive text-dark-gold text-[40px] xs:text-[48px] sm:text-[56px] md:text-[64px] leading-[0.8] pr-4">
+          <span class="text-dark-gold section-title-cursive">
             {{ data.titleLine2Cursive }}
           </span>
         </h2>
 
         <!-- Subtitle & Description -->
         <div 
-          v-motion
-          :initial="{ opacity:0, y: 30 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 200 } }"
-          :intersection="{ rootMargin: '0px 0px -30% 0px' }"
+          v-motion-fade-up
+          :delay="200"
           class="flex flex-col items-center will-change-transform"
         >
-          <span class="font-uppercase font-medium text-[10px] sm:text-[11px] lg:text-[12px] tracking-[0.25em] md:tracking-[0.3em] text-journey-deep/90 uppercase mb-4">
+          <span class="text-intention-blue/90 section-midsubtitle">
             {{ data.subtitle }}
           </span>
           <p
-            class="font-primary font-normal text-journey-deep/90 text-[14px] xs:text-[15px] md:text-[16px] lg:text-[17px] 2xl:text-[18px] tracking-wide leading-[1.6] max-w-2xl lg:max-w-3xl px-4">
+            class=" text-journey-deep/90 max-w-2xl lg:max-w-3xl px-4 section-paragraph">
             {{ data.description }}
           </p>
         </div>
@@ -146,9 +141,8 @@ const goToSlide = (index: number) => {
       <!-- 2. THE SLIDER ENGINE -->
       <div 
         v-motion
-        :initial="{ opacity:0, filter: 'blur(5px)', scale: 0.98 }"
+        :initial="{ opacity: 0, filter: 'blur(5px)', scale: 0.98 }"
         :visible-once="{ opacity: 1, filter: 'blur(0px)', scale: 1, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 300 } }"
-        :intersection="{ rootMargin: '0px 0px -30% 0px' }"
         class="relative z-10 w-full mb-6 md:mb-8 will-change-[transform,opacity]"
       >
         <ClientOnly>
@@ -175,17 +169,15 @@ const goToSlide = (index: number) => {
       </div>
 
       <!-- 3. FOOTER CONTENT (Pagination, Quote, CTA) -->
-      <footer class="relative z-10 w-full flex flex-col items-center text-center">
+      <div class="relative z-10 w-full flex flex-col items-center text-center">
         
         <!-- Instagram-Style Dynamic Dot Pagination -->
         <div 
           v-if="totalSlides > 1"
-          v-motion
-          :initial="{ opacity:0, y: 20 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 100 } }"
-          :intersection="{ rootMargin: '0px 0px -30% 0px' }"
+          v-motion-micro-up
+          :delay="100"      
           class="flex items-center justify-center h-4 mb-10 will-change-transform"
-        >
+        > 
           <!-- Fixed Viewport Window -->
           <div class="relative overflow-hidden" :style="{ width: `${wrapperWidth}px`, height: '16px' }">
             <!-- Sliding Track -->
@@ -209,21 +201,15 @@ const goToSlide = (index: number) => {
 
         <!-- Bottom Quote -->
         <p 
-          v-motion
-          :initial="{ opacity:0, y: 30 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1]} }"
-          :intersection="{ rootMargin: '0px 0px -30% 0px' }"
-          class="font-quote italic px-4 mb-10 font-semibold lg:max-w-3xl xl:max-w-4xl text-darker-gold text-[20px] 2xs:text-[21px] xs:text-[22px] sm:text-[23px] lg:text-[24px] xl:text-[25px] leading-[1.45] tracking-[0.01em] will-change-transform"
+          v-motion-fade-up         
+          class="text-darker-gold px-4 mb-10 lg:max-w-3xl xl:max-w-4xl section-quote"
         >
           {{ data.bottomQuote }}
         </p>
 
         <!-- CTA Button -->
         <div
-          v-motion
-          :initial="{ opacity:0, y: 30 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: [0.22, 1, 0.36, 1]} }"
-          :intersection="{ rootMargin: '0px 0px -30% 0px' }"
+          v-motion-fade-up          
           class="will-change-transform"
         >
           <CtaButton 
@@ -233,7 +219,7 @@ const goToSlide = (index: number) => {
           />
         </div>
 
-      </footer>
+      </div>
     </div>
   </section>
 </template>
