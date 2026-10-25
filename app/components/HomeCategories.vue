@@ -116,7 +116,7 @@ defineProps<{
             </p>
 
             <!-- Square Button (Right Column, Bottom-Right Corner) -->
-            <div class="col-span-1 justify-self-end shrink-0 flex items-center justify-center border border-surface-light/40 px-1.5 sm:px-2.5 h-7 sm:h-8 rounded-sm text-[8px] xs:text-[9px] sm:text-[10px] md:text-[11px] font-uppercase tracking-widest text-surface-light uppercase transition-all duration-300 group-hover:border-surface-light group-hover:bg-surface-light/10 gap-1.5 group-active:scale-90">
+            <div class="select-none col-span-1 justify-self-end shrink-0 flex items-center justify-center border border-surface-light/40 px-1.5 sm:px-2.5 h-7 sm:h-8 rounded-sm text-[8px] xs:text-[9px] sm:text-[10px] md:text-[11px] font-uppercase tracking-widest text-surface-light uppercase transition-all duration-300 group-hover:border-surface-light group-hover:bg-surface-light/10 group-active:bg-surface-light/10 gap-1.5 group-active:scale-90">
               <span class="pt-0.75 leading-none">DISCOVER</span> 
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-3 h-3 sm:w-3.5 sm:h-3.5 shrink-0 transition-transform duration-300 group-hover:translate-x-0.5">
                 <path d="M5 12h14"></path>

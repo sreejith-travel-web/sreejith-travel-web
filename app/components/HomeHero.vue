@@ -199,8 +199,8 @@ onUnmounted(() => {
       >
         <!-- 1. H1 Eyebrow (Starts at 900ms - instantly after loader) -->
         <div
-          v-motion-fade-up
-          :delay="900"
+          v-motion-hero-fade-up
+          :delay="700"
           :style="getParallax(0.48)"
           class="eyebrow-wrapper"
         >
@@ -215,8 +215,8 @@ onUnmounted(() => {
         <h2 class="section-title-wrapper">
           <!-- Primary Line -->
           <span 
-            v-motion-fade-up
-            :delay="1000"
+            v-motion-hero-fade-up
+            :delay="800"
             :style="getParallax(0.44)" 
             class="text-surface-light section-title-sans capitalize"
           >
@@ -225,8 +225,8 @@ onUnmounted(() => {
 
           <!-- Cursive Line -->
           <span 
-            v-motion-fade-up
-            :delay="1100"
+            v-motion-hero-fade-up
+            :delay="900"
             :style="getParallax(0.4)" 
             class="text-warm-gold mt-2 md:mt-3 section-title-cursive"
           >
@@ -236,8 +236,8 @@ onUnmounted(() => {
 
         <!-- 4. Description (Starts at 1300ms) -->
         <p
-          v-motion-fade-up
-          :delay="1200"
+          v-motion-hero-fade-up
+          :delay="1000"
           :style="getParallax(0.36)"
           class="text-surface-medium w-full max-w-sm xs:max-w-md sm:max-w-xl lg:max-w-3xl mb-8 md:mb-10 hero-paragraph"
         >
@@ -246,8 +246,8 @@ onUnmounted(() => {
 
         <!-- 5. CTAs (Starts at 1400ms) -->
         <div
-          v-motion-fade-up
-          :delay="1300"
+          v-motion-hero-fade-up
+          :delay="1100"
           :style="getParallax(0.32)"
           class="hero-cta-wrapper"
         >
@@ -260,8 +260,8 @@ onUnmounted(() => {
     <!-- Slideshow Navigation -->
     <div
       v-if="data.mode === 'slideshow' && slides.length > 1"
-      v-motion-micro-up
-      :delay="1500"
+      v-motion-hero-micro-up
+      :delay="1200"
       class="absolute bottom-8 lg:bottom-10 left-1/2 -translate-x-1/2 z-30 flex items-center gap-1 pointer-events-auto transition-transform duration-700 ease-out"
       role="tablist"
       aria-label="Slideshow navigation"

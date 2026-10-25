@@ -82,6 +82,16 @@ export default defineNuxtConfig({
           transition: { duration: 700, ease: [0.22, 1, 0.36, 1] }
         }
       },
+      
+      // 1. Standard hero text, paragraphs, buttons, and quotes (Y: 30, 700ms)
+      'hero-fade-up': {
+        initial: { opacity: 1, y: 90 },
+        visibleOnce: {
+          opacity: 1,
+          y: 0,
+          transition: { duration: 1000, ease: [0.22, 1, 0.36, 1] }
+        }
+      },
 
       // 2. Grid cards (Masonry, Categories, Stats - 500ms for swift staggering)
       'stagger-card': {
@@ -100,6 +110,16 @@ export default defineNuxtConfig({
           opacity: 1,
           y: 0,
           transition: { duration: 500, ease: [0.22, 1, 0.36, 1] }
+        }
+      },
+
+      // 4. Hero-Micro-UI like dot pagination (Y: 20, 500ms)
+      'hero-micro-up': {
+        initial: { opacity: 1, y: 60 },
+        visibleOnce: {
+          opacity: 1,
+          y: 0,
+          transition: { duration: 800, ease: [0.22, 1, 0.36, 1] }
         }
       }
     }

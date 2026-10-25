@@ -40,7 +40,7 @@ const iconPaths = [
 <template>
   <section
     data-theme="light"
-    class="bg-surface-light text-primary-light overflow-hidden section-wrapper"
+    class="text-primary-light overflow-hidden section-wrapper"
   >
     <div class="relative z-10 w-full max-w-360 flex flex-col items-center">
       
@@ -114,9 +114,9 @@ const iconPaths = [
           <!-- Card CTA -->
           <div class="mt-auto">
             <!-- Square Button (Right Column, Bottom-Right Corner) -->
-            <NuxtLink :to="card.cta.to" class="group">
-              <div class="col-span-1 justify-self-end shrink-0 flex items-center justify-center border-2 border-journey-deep/30 px-2.5 sm:px-3.5 h-9 sm:h-10 rounded-sm text-[10px] xs:text-[11px] sm:text-[12px] md:text-[13px] font-uppercase tracking-widest text-journey-deep uppercase transition-all duration-300 group-hover:border-journey-deep group-hover: gap-2 group-active:scale-96">
-                <span class="pt-0.5 leading-none">{{ card.cta.label }}</span> 
+            <NuxtLink :to="card.cta.to" class="group select-none">
+              <div class="col-span-1 justify-self-end shrink-0 flex items-center justify-center border-2 border-journey-deep/30 px-2.5 sm:px-3 h-9 sm:h-10 rounded-sm text-[9px] 2xs:text-[10px] md:text-[11px] font-uppercase tracking-widest text-journey-deep uppercase transition-all duration-300 group-hover:border-journey-deep group-active:border-journey-deep gap-2 group-active:scale-96">
+                <span class="pt-0.75 leading-none">{{ card.cta.label }}</span> 
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0 transition-transform duration-300 group-hover:translate-x-1">
                   <path d="M5 12h14"></path>
                   <path d="m12 5 7 7-7 7"></path>
@@ -136,7 +136,7 @@ const iconPaths = [
           :key="label"
           v-motion-stagger-card
           :delay="400 + (index * 120)"
-          class="relative flex group rounded-lg border-2 border-border-light p-2"
+          class="relative flex rounded-lg border-2 cursor-default border-border-light p-2 hover:border-action-blue active:border-action-blue duration-500 ease-editorial "
           :class="[
             'gap-3 md:gap-4',
             

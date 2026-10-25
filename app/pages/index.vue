@@ -628,6 +628,73 @@ const pageData = {
       label: 'LETS WORK TOGETHER',
       to: '/services'
     }
+  },
+
+  impact:{
+    eyebrow: 'Making a Difference',
+    titleLine1: 'Travel That Leaves A Place',
+    titleLine2Cursive: 'Better Than Before.',
+    description: 'We travel slowly, support local communities and protect the beauty that makes each place unforgettable. Every journey is mindful and made to give back.',
+    items: [
+      {
+        id: 'slow-travel',
+        shortTitle: 'Slow Travel',
+        longTitle: 'Slow travel,\nlasting impact',
+        intro: 'We travel slowly, supporting local communities and protecting the beauty that makes each place unforgettable.',
+        img: '/images/impact/impact1.webp',
+        alt: 'Lush green tea estates overlooking misty mountains in Kerala, representing slow travel',
+        url: '/impact'
+      },
+      {
+        id: 'authentic',
+        shortTitle: 'Authentic Over Curated',
+        longTitle: 'Authentic\nover curated',
+        intro: 'Stripping away the artificial to reveal the raw, unpolished, and breathtaking reality of living cultures.',
+        img: '/images/impact/impact2.webp',
+        alt: 'Local artisan performing a traditional dance in vibrant cultural attire',
+        url: '/impact'
+      },
+      {
+        id: 'local-first',
+        shortTitle: 'Local First, Always',
+        longTitle: 'Local first,\nalways',
+        intro: 'Directly empowering regional artisans, guides, and family-owned stays to keep the economic ecosystem thriving.',
+        img: '/images/impact/impact3.webp',
+        alt: 'Close-up of a potter spinning clay with bare hands, highlighting local artisans',
+        url: '/impact'
+      },
+      {
+        id: 'protecting-beauty',
+        shortTitle: 'Protecting Beauty',
+        longTitle: 'Protecting\nnatural beauty',
+        intro: 'Implementing zero-trace practices to ensure pristine landscapes remain untouched for generations to come.',
+        img: '/images/impact/impact4.webp',
+        alt: 'A tranquil river reflecting dense untouched mangrove forests in South India',
+        url: '/impact'
+      },
+      {
+        id: 'conscious-choices',
+        shortTitle: 'Conscious Choices',
+        longTitle: 'Conscious choices,\nlighter footprint',
+        intro: 'Every logistical decision is weighed against its environmental impact, prioritizing sustainable alternatives.',
+        img: '/images/impact/impact5.webp',
+        alt: 'Eco-friendly heritage stay nestled organically into a forested hillside',
+        url: '/impact'
+      },
+      {
+        id: 'giving-back',
+        shortTitle: 'Giving Back',
+        longTitle: 'Giving back,\nwhere we go',
+        intro: 'A percentage of every journey directly funds grassroots conservation and community education initiatives.',
+        img: '/images/impact/impact6.webp',
+        alt: 'Children from a local community smiling and learning outside a heritage village',
+        url: '/impact'
+      }
+    ],
+    bottomCta: {
+      label: 'DISCOVER OUR VALUES',
+      to: '/impact'
+    }
   }
 
   // Future sections will be populated here in the same payload
@@ -662,6 +729,9 @@ const pageData = {
     
     <!-- Ways To Work Together -->
     <LazyHomeWaysToWork hydrate-on-visible :data="pageData.waysToWork" class="bg-bg-light" />
+
+    <!-- Ways To Work Together -->
+    <LazyHomeImpact hydrate-on-visible :data="pageData.impact" class="bg-surface-light" />
 
     <!-- Placeholder for the next section -->
     <section
