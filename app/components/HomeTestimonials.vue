@@ -204,7 +204,7 @@ onBeforeUnmount(() => {
         v-motion
         :initial="{ opacity: 0, filter: 'blur(5px)', y: 30 }"
         :visible-once="{ opacity: 1, filter: 'blur(0px)', y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1], delay: 300 } }"
-        class="w-full relative z-20 mb-10 md:mb-14 lg:mb-18 will-change-transform"
+        class="w-full relative z-20 mb-10 md:mb-12 lg:mb-15 will-change-transform"
       >
         <div
           ref="scrollContainer"

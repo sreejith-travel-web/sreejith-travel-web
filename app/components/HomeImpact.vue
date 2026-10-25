@@ -100,7 +100,7 @@ const activeIndex = ref(0)
 
             <!-- Permanent Card Content -->
             <div class="absolute inset-0 p-6 flex flex-col justify-end items-start z-20 pointer-events-none">
-              <h3 class="card-title text-surface-light mb-3 whitespace-pre-line">
+              <h3 class="card-title text-surface-light mb-3 whitespace-pre-line capitalize">
                 {{ item.longTitle }}
               </h3>
               <!-- Warm gold inside dark overlay -->
@@ -121,7 +121,7 @@ const activeIndex = ref(0)
             @mouseenter="activeIndex = idx"
             @focus="activeIndex = idx"
             v-motion-fade-up
-            :delay="300 + (idx * 80)"
+            :delay="200 + (idx * 80)"
             class="group flex items-center w-full py-4 cursor-pointer outline-none"
           >
             <!-- Pointer Title -->
@@ -182,7 +182,7 @@ const activeIndex = ref(0)
               class="absolute inset-x-0 bottom-0 p-8 lg:p-12 xl:p-14 flex flex-col justify-end items-start transform transition-all duration-700 ease-editorial"
               :class="activeIndex === idx ? 'translate-y-0 opacity-100 delay-300' : 'translate-y-8 opacity-0'"
             >
-              <h3 class="card-title text-surface-light mb-4 whitespace-pre-line">
+              <h3 class="card-title text-surface-light mb-4 whitespace-pre-line capitalize">
                 {{ item.longTitle }}
               </h3>
               
