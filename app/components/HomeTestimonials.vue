@@ -270,12 +270,12 @@ onBeforeUnmount(() => {
                 />
                 </div>
                 <div class="flex flex-col min-w-0 pr-2">
-                <h4 class="testimonial-author truncate">
-                    {{ item.name }}
-                </h4>
-                <span class="card-paragraph text-secondary-light/80 mt-0.5 line-clamp-1">
-                    {{ item.designation }}
-                </span>
+                    <div class="testimonial-author truncate">
+                        {{ item.name }}
+                    </div>
+                    <span class="card-paragraph text-secondary-light/80 mt-0.5 line-clamp-1">
+                        {{ item.designation }}
+                    </span>
                 </div>
             </div>
 
