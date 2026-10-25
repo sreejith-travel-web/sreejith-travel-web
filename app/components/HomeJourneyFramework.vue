@@ -31,11 +31,11 @@ let observer: IntersectionObserver | null = null
 
 // Desktop Horizontal Node Coordinates (viewBox: 0 0 1250 150)
 const desktopNodes = [
-  { cx: 55, cy: 78, delay: 150 },
-  { cx: 305, cy: 78, delay: 500 },
-  { cx: 555, cy: 78, delay: 850 },
-  { cx: 805, cy: 78, delay: 1200 },
-  { cx: 1035, cy: 78, delay: 1550, isSpreadOrigin: true },
+  { cx: 55, cy: 78, delay: 50 },
+  { cx: 305, cy: 78, delay: 200 },
+  { cx: 555, cy: 78, delay: 500 },
+  { cx: 805, cy: 78, delay: 700 },
+  { cx: 1035, cy: 78, delay: 1050, isSpreadOrigin: true },
 ]
 
 // Desktop "Difference" Radiating Branches (Spreading right from x:1035, y:78)
@@ -44,35 +44,35 @@ const desktopBranches = [
     d: 'M 1035 78 C 1095 78, 1145 16, 1215 16',
     endX: 1215,
     endY: 16,
-    delay: 1650,
+    delay: 1100,
     dotR: 4.5,
   },
   {
     d: 'M 1035 78 C 1090 78, 1140 52, 1205 52',
     endX: 1205,
     endY: 52,
-    delay: 1750,
+    delay: 1200,
     dotR: 4,
   },
   {
     d: 'M 1035 78 C 1095 78, 1155 94, 1235 94',
     endX: 1235,
     endY: 94,
-    delay: 1850,
+    delay: 1300,
     dotR: 4.5,
   },
   {
     d: 'M 1035 78 C 1090 78, 1135 100, 1180 100',
     endX: 1180,
     endY: 100,
-    delay: 1920,
+    delay: 1400,
     dotR: 2.5,
   },
   {
     d: 'M 1035 78 C 1095 78, 1145 140, 1225 140',
     endX: 1225,
     endY: 140,
-    delay: 2000,
+    delay: 1500,
     dotR: 3.5,
   },
 ]
@@ -472,7 +472,7 @@ onBeforeUnmount(() => {
 .journey-main-path {
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
-  transition: stroke-dashoffset 1800ms cubic-bezier(0.22, 1, 0.36, 1);
+  transition: stroke-dashoffset 1200ms cubic-bezier(0.22, 1, 0.6, 1);
 }
 
 .journey-main-path.is-drawn {
@@ -510,7 +510,7 @@ onBeforeUnmount(() => {
 .journey-node-halo {
   transform-box: fill-box;
   transform-origin: center;
-  animation: node-breathe 3.2s ease-in-out infinite;
+  animation: node-breathe 2.2s ease-in-out infinite;
 }
 
 /* Continuous Forward-Flowing Energy Pulse */
@@ -518,7 +518,7 @@ onBeforeUnmount(() => {
   stroke-dasharray: 0.14 0.86;
   stroke-dashoffset: 1.14;
   opacity: 0;
-  animation: wave-forward-stream 5.5s cubic-bezier(0.4, 0, 0.2, 1) 1.9s infinite;
+  animation: wave-forward-stream 4.5s cubic-bezier(0.4, 0, 0.2, 1) 1.9s infinite;
 }
 
 @keyframes wave-forward-stream {

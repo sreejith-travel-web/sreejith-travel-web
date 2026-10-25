@@ -33,7 +33,7 @@ const activeIndex = ref(0)
 <template>
   <section
     data-theme="light"
-    class="bg-surface-light text-primary-light overflow-hidden section-wrapper"
+    class="text-primary-light overflow-hidden section-wrapper"
   >
     <div class="relative z-10 w-full max-w-360 flex flex-col items-center">
       
@@ -71,13 +71,13 @@ const activeIndex = ref(0)
       </div>
 
       <!-- 2. HYBRID RESPONSIVE DOM -->
-      <div class="relative w-full flex flex-col md:flex-row items-center justify-around gap-8 lg:gap-10 xl:gap-12 2xl:gap-16 mb-12 md:mb-16">
+      <div class="relative w-full flex flex-col md:flex-row items-center justify-around gap-8 lg:gap-10 xl:gap-12 2xl:gap-16 mb-8 md:mb-12 lg:mb-16">
         
         <!-- A. MOBILE LIST: 1:1 Scroll Snap Row (< 768px) -->
         <div 
           v-motion-fade-up 
           :delay="300"
-          class="w-full md:hidden flex overflow-x-auto hide-scrollbar scroll-snap-x mandatory gap-4 px-4 pb-6 z-20"
+          class="w-full md:hidden flex overflow-x-auto hide-scrollbar scroll-snap-x mandatory px-4 pb-6 gap-4 z-20"
         >
           <NuxtLink
             v-for="(item, idx) in data.items" 

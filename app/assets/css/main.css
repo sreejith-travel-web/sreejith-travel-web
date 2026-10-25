@@ -54,6 +54,14 @@
   --color-secondary-dark: #94A3B8;
   --color-muted: #64748B;
 
+  /* Testimonial Category Accents */
+  --color-deep-forest: #2F5233;
+  --color-terracotta: #9E4733;
+  --color-slate-blue: #5C6B73;
+  --color-spiced-copper: #B87333;
+  --color-olive-drab: #4A5D23;
+  --color-midnight-slate: #2C3E50;
+
   /* Custom Editorial Easing */
   --ease-editorial: cubic-bezier(0.25, 1, 0.5, 1);
 }
@@ -159,6 +167,10 @@
 
 @utility card-paragraph {
   @apply font-primary text-[10px] 2xs:text-[11px] xs:text-[12px] md:text-[12px] lg:text-[13px] xl:text-[14px] drop-shadow-sm;
+}
+
+@utility testimonial-author {
+  @apply font-primary font-semibold text-[15px] 2xs:text-[16px] xs:text-[17px] sm:text-[18px] md:text-[19px] lg:text-[20px] text-primary-light leading-snug tracking-tight;
 }
 
 /* Pure CSS SVG Weaving Engine (Replaces GSAP Draw Path) */

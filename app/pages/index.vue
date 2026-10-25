@@ -695,6 +695,68 @@ const pageData = {
       label: 'DISCOVER OUR VALUES',
       to: '/impact'
     }
+  },
+
+  testimonials: {
+    eyebrow: 'TESTIMONIALS',
+    titleLine1: 'Moments Captured',
+    titleLine2Cursive: 'Along The Way.',
+    description: 'Glimpses of unscripted moments, breathtaking landscapes, and meaningful connections. See the world through the eyes of those who travel with us.',
+    categories: {
+      'wilderness-trails': { name: 'Wilderness & Trails', colorVar: 'var(--color-deep-forest)' },
+      'living-traditions': { name: 'Living Traditions', colorVar: 'var(--color-terracotta)' },
+      'restorative-journeys': { name: 'Restorative Journeys', colorVar: 'var(--color-slate-blue)' },
+      'flavors-feasts': { name: 'Flavors & Feasts', colorVar: 'var(--color-spiced-copper)' },
+      'sanctuaries-stays': { name: 'Sanctuaries & Stays', colorVar: 'var(--color-olive-drab)' },
+      'uncharted-paths': { name: 'Uncharted Paths', colorVar: 'var(--color-midnight-slate)' }
+    },
+    items: [
+      {
+        id: 1,
+        categoryId: 'living-traditions',
+        name: 'Ananya Menon',
+        designation: 'Architect, Bengaluru, India',
+        quote: 'Every temple, village, and conversation felt deeply personal. It wasn\'t sightseeing—it was understanding a place through its people, stories, and traditions. The journey stayed with me long after I returned home.',
+        avatar: '/images/testimonials/avatar.webp',
+        ctaLabel: 'Read Story',
+        ctaUrl: '/blog'
+      },
+      {
+        id: 2,
+        categoryId: 'wilderness-trails',
+        name: 'Daniel Brooks',
+        designation: 'Photographer, Melbourne, Australia',
+        quote: 'From misty mountains to hidden trails, every day felt like an adventure crafted just for me. The landscapes were breathtaking, but the quiet moments in nature became my favorite memories.',
+        avatar: '/images/testimonials/avatar.webp',
+        ctaLabel: 'Watch Video',
+        ctaUrl: '/blog'
+      },
+      {
+        id: 3,
+        categoryId: 'restorative-journeys',
+        name: 'Priya Raman',
+        designation: 'Yoga Instructor, Chennai, India',
+        quote: 'The retreat offered more than relaxation. It brought stillness, meaningful conversations, and a renewed sense of balance. I returned home feeling lighter, calmer, and deeply inspired.',
+        avatar: '/images/testimonials/avatar.webp',
+        ctaLabel: 'Read Post',
+        ctaUrl: '/blog'
+      },
+      {
+        id: 4,
+        categoryId: 'flavors-feasts',
+        name: 'Lucas Meyer',
+        designation: 'Chef, Munich, Germany',
+        quote: 'Every meal told a story. Cooking alongside local families, discovering regional flavors, and sharing traditions around the table made this one of the most authentic journeys I\'ve ever experienced.',
+        avatar: '/images/testimonials/avatar.webp',
+        ctaLabel: 'Explore',
+        ctaUrl: '/blog'
+      }
+    ],
+    bottomQuote: 'Travel is not merely a destination, but a new way of seeing things.',
+    bottomCta: {
+      label: 'READ TRAVELER STORIES',
+      to: '/blog'
+    }
   }
 
   // Future sections will be populated here in the same payload
@@ -733,10 +795,13 @@ const pageData = {
     <!-- Ways To Work Together -->
     <LazyHomeImpact hydrate-on-visible :data="pageData.impact" class="bg-surface-light" />
 
+    <!-- Testimonials -->
+    <LazyHomeTestimonials hydrate-on-visible :data="pageData.testimonials" class="bg-bg-light" />
+
     <!-- Placeholder for the next section -->
     <section
       data-theme="light"
-      class="py-24 px-4 md:px-8 lg:px-12 bg-bg-light text-primary-light flex flex-col items-center justify-center text-center min-h-[120vh]"
+      class="py-24 px-4 md:px-8 lg:px-12 bg-surface-light text-primary-light flex flex-col items-center justify-center text-center min-h-[120vh]"
     >
       <div class="max-w-3xl flex flex-col items-center">
         <span class="font-cursive text-3xl md:text-4xl text-action-blue mb-4">
