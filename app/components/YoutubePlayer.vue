@@ -420,7 +420,7 @@ onBeforeUnmount(() => {
         :height="config.height"
         loading="lazy"
         decoding="async"
-        class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 ease-editorial group-hover:scale-105"
+        class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 ease-editorial group-hover:scale-102"
       />
 
       <!-- Subtle Editorial Vignette -->
@@ -432,12 +432,12 @@ onBeforeUnmount(() => {
           <!-- Outer Animated Pulse Ring -->
           <span
             class="absolute w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-surface-light/35 animate-ping"
-            style="animation-duration: 2.4s;"
+            style="animation-duration: 1s;"
           />
           <!-- Frosted Halo Cushion -->
           <span
             class="absolute w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-surface-light/15 backdrop-blur-[2px] border border-surface-light/30 transition-transform duration-500 ease-editorial group-hover:scale-110 animate-pulse"
-            style="animation-duration: 2.4s;"
+            style="animation-duration: 1s;"
           />
           <!-- Core Intention Blue Circle -->
           <div
