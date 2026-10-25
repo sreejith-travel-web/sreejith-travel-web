@@ -91,15 +91,15 @@
 
 /* --- Section Typography --- */
 @utility section-title-sans {
-  @apply font-primary uppercase text-[26px] 2xs:text-[27px] xs:text-[31px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] tracking-normal leading-snug font-medium max-[320px]:text-balance will-change-transform transition-transform duration-700 ease-editorial;
+  @apply font-primary uppercase text-[26px] 2xs:text-[27px] xs:text-[31px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] tracking-normal leading-tight font-medium max-[320px]:text-balance will-change-transform transition-transform duration-700 ease-editorial;
 }
 
 @utility section-title-cursive {
-  @apply font-cursive capitalize text-[30px] 2xs:text-[34px] xs:text-[48px] md:text-[56px] lg:text-[64px] tracking-wide leading-[0.9] block max-[321px]:text-balance will-change-transform transition-transform duration-700 ease-editorial;
+  @apply font-cursive capitalize text-[32px] 2xs:text-[37px] xs:text-[46px] md:text-[56px] lg:text-[64px] tracking-wide leading-none block max-[320px]:text-balance will-change-transform transition-transform duration-700 ease-editorial;
 }
 
 @utility section-title-italic {
-  @apply font-quote italic font-medium text-[28px] 2xs:text-[30px] xs:text-[34px] sm:text-[38px] md:text-[42px] lg:text-[46px] xl:text-[48px];
+  @apply font-quote italic font-medium text-[28px] 2xs:text-[30px] xs:text-[34px] sm:text-[38px] md:text-[42px] lg:text-[46px] xl:text-[48px] max-[320px]:text-balance will-change-transform transition-transform duration-700 ease-editorial;
 }
 
 @utility section-subtitle {

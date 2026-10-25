@@ -87,12 +87,12 @@ const iconPaths = [
           class="rounded-2xl p-8 md:p-10 xl:p-12 flex flex-col items-start text-left shadow-sm"
           :class="card.bgClass"
         >
-          <!-- Card Eyebrow with extending flex line -->
-          <div class="flex items-center gap-4 mb-4 sm:mb-6 w-full">
+          <!-- Card Eyebrow with fixed left underline -->
+          <div class="flex flex-col items-start gap-2 mb-4 sm:mb-6 w-full">
             <span class="text-journey-deep section-midsubtitle mb-0">
               {{ card.eyebrow }}
             </span>
-            <div class="h-px flex-1 bg-dark-gold/30" aria-hidden="true" />
+            <div class="w-8 h-px bg-dark-gold/60" aria-hidden="true" />
           </div>
 
           <!-- Card Title (Using specific smaller-subtitle token) -->
@@ -135,7 +135,7 @@ const iconPaths = [
           v-for="(label, index) in data.icons"
           :key="label"
           v-motion-stagger-card
-          :delay="400 + (index * 120)"
+          :delay="400 + (index * 80)"
           class="relative flex rounded-lg border-2 cursor-default border-border-light p-2 hover:border-action-blue active:border-action-blue duration-500 ease-editorial "
           :class="[
             'gap-3 md:gap-4',

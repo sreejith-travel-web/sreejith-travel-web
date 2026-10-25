@@ -592,7 +592,7 @@ const pageData = {
 
   waysToWork: {
     eyebrow: 'WAYS TO WORK TOGETHER',
-    titleLine1: 'Building Meaningful Travel.',
+    titleLine1: 'Building Meaningful Travel',
     titleLine2Cursive: 'Together.',
     description: 'I collaborate with travel professionals, brands, organisations, and global partners to design culturally immersive, community-driven travel experiences across South India—built on deep local knowledge, trusted networks, and years of on-ground research.',
     cards: [

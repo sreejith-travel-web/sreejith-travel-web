@@ -483,7 +483,7 @@ onBeforeUnmount(() => {
 .journey-branch-path {
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
-  transition: stroke-dashoffset 1100ms cubic-bezier(0.22, 1, 0.36, 1);
+  transition: stroke-dashoffset 700ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .journey-branch-path.is-drawn {
