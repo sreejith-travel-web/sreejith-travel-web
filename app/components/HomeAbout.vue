@@ -157,7 +157,7 @@ defineProps<{
             v-for="(stat, index) in data.stats"
             :key="index"
             v-motion-fade-up
-            :delay="index * 100"           
+            :delay="index * 120"           
             class="flex flex-col items-center text-center xl:items-start xl:text-left will-change-transform"
           >
             <span class="text-journey-deep mb-1.5 section-subtitle">

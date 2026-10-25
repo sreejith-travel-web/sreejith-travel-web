@@ -58,7 +58,7 @@ let viewportObserver: IntersectionObserver | null = null
 
 const progressPercent = computed(() => {
   if (!duration.value) return 0
-  return Math.min(100, Math.max(0, (currentTime.value / duration.value) * 100))
+  return Math.min(100, Math.max(0, (currentTime.value / duration.value) * 120))
 })
 
 const formatTime = (sec: number) => {

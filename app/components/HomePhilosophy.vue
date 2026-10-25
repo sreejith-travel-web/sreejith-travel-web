@@ -79,7 +79,7 @@ defineProps<{
             v-for="(pillar, index) in data.pillars"
             :key="pillar.title"
             v-motion-stagger-card
-            :delay="index * 100"
+            :delay="index * 120"
             class="flex flex-col items-center text-center xl:items-start xl:text-left px-2 sm:px-4 md:px-5 lg:px-7 xl:px-0 will-change-transform"
             :class="[
               index < data.pillars.length - 1

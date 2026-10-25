@@ -1,3 +1,4 @@
+<!-- ~/app/components/HomeCategories.vue -->
 <script setup lang="ts">
 export interface CategoryItem {
   id: string
@@ -76,7 +77,7 @@ defineProps<{
         :key="item.id"
         :to="item.to"
         v-motion-stagger-card
-        :delay="index * 100"
+        :delay="index * 120"
         class="group relative isolate w-full overflow-hidden rounded-xl sm:rounded-2xl cursor-pointer bg-journey-deep shadow-sm aspect-2.5/1 sm:aspect-[1.9/1]"
       >
         <!-- Background Image (Lazy Loaded & Sized properly) -->

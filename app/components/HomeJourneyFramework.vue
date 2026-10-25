@@ -410,7 +410,7 @@ onBeforeUnmount(() => {
               v-for="(step, index) in data.steps"
               :key="step.title"
               v-motion-stagger-card
-              :delay="index * 120"
+              :delay="index * 150"
               class="flex flex-col items-start text-left xl:pr-2 will-change-transform"
             >
               <!-- Step Title with Animated Gold Dash -->
@@ -419,7 +419,7 @@ onBeforeUnmount(() => {
                   v-motion
                   :initial="{ scaleX: 0 }"
                   :visible-once="{ scaleX: 1, transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: (index * 120) + 150 } }"
-                  class="h-0.5 w-4 sm:w-5 bg-warm-gold rounded-full origin-left will-change-transform"
+                  class="h-px w-2 sm:w-3 bg-warm-gold rounded-full origin-left will-change-transform"
                   aria-hidden="true"
                 />
                 <h3 class="text-surface-light section-smaller-subtitle mb-0">
@@ -448,7 +448,7 @@ onBeforeUnmount(() => {
         :delay="200"
         class="relative z-20 w-full flex flex-col items-center text-center mt-8 md:mt-12 xl:mt-16"
       >
-        <p class="text-surface-light px-4 mb-10 lg:max-w-3xl xl:max-w-4xl section-quote">
+        <p class="text-soft-blue px-4 mb-10 lg:max-w-3xl xl:max-w-4xl section-quote">
           {{ data.bottomQuote }}
         </p>
 

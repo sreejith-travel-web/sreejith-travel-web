@@ -588,6 +588,46 @@ const pageData = {
       label: 'PLAN YOUR JOURNEY',
       to: '/planyourjourney'
     }
+  },
+
+  waysToWork: {
+    eyebrow: 'WAYS TO WORK TOGETHER',
+    titleLine1: 'Building Meaningful Travel.',
+    titleLine2Cursive: 'Together.',
+    description: 'I collaborate with travel professionals, brands, organisations, and global partners to design culturally immersive, community-driven travel experiences across South India—built on deep local knowledge, trusted networks, and years of on-ground research.',
+    cards: [
+      {
+        eyebrow: 'FOR TRAVEL PROFESSIONALS',
+        title: '(B2B) Travel Trade Partnerships',
+        paragraphs: [
+          'For Travel Agents, designers, Tour Operators, Event Planners, DMCs & Travel Brands seeking authentic, high-quality B2B experiences across South India.',
+          'Co-create sustainable, culturally immersive journeys backed by deep local knowledge, trusted networks, and seamless execution.'
+        ],
+        cta: { label: 'PARTNER WITH ME', to: '/services' },
+        bgClass: 'bg-soft-cream' // soft cream
+      },
+      {
+        eyebrow: 'FOR INDIVIDUALS & ORGANISATIONS',
+        title: 'Join Our Partner Network',
+        paragraphs: [
+          'We\'re always looking for Unique Stays Providers, Passionate Travel creators, storytellers, artisans, performers, and experience providers.',
+          'Become part of a trusted ecosystem creating meaningful travel experiences that support local communities, environment and celebrate culture.'
+        ],
+        cta: { label: 'JOIN THE NETWORK', to: '/services' },
+        bgClass: 'bg-soft-blue' // soft blue
+      }
+    ],
+    icons: [
+      'Corporate & Team Experiences',
+      'Educational & Research Journeys',
+      'Consulting & Speaking',
+      'Boutique or Heritage Stay Development',
+      'NGOs, CSR, and Heritage Trusts'
+    ],
+    bottomCta: {
+      label: 'LETS WORK TOGETHER',
+      to: '/services'
+    }
   }
 
   // Future sections will be populated here in the same payload
@@ -619,6 +659,9 @@ const pageData = {
 
     <!-- How It Works -->
     <LazyHomeJourneyFramework hydrate-on-visible :data="pageData.journeyFramework" class="bg-[radial-gradient(ellipse_at_center,var(--color-intention-deep)_0%,var(--color-journey-deep)_100%)]" />
+    
+    <!-- Ways To Work Together -->
+    <LazyHomeWaysToWork hydrate-on-visible :data="pageData.waysToWork" class="bg-bg-light" />
 
     <!-- Placeholder for the next section -->
     <section
