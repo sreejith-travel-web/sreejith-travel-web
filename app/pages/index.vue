@@ -764,7 +764,7 @@ const pageData = {
     eyebrow: 'FROM THE JOURNAL',
     titleLine1: 'STORIES THAT STAY',
     titleLine2Cursive: 'Beyond the journey',
-    description: 'Places, people, and perspectives from South India—stories to deepen your curiosity and inspire a more meaningful journey.',
+    description: 'Places, people and perspectives from South India — stories to deepen your curiosity and inspire a more meaningful journey.',
     posts: [
       { 
         id: '1', 

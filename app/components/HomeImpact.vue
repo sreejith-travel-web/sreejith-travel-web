@@ -121,8 +121,8 @@ const activeIndex = ref(0)
             :to="item.url"
             @mouseenter="activeIndex = idx"
             @focus="activeIndex = idx"
-            v-motion-fade-up
-            :delay="200 + (idx * 80)"
+            v-motion-stagger-card
+            :delay="100 + (idx * 80)"
             class="group flex items-center w-full py-4 cursor-pointer outline-none"
           >
             <!-- Pointer Title -->
