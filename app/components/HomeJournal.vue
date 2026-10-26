@@ -104,7 +104,7 @@ defineProps<{
 
           <!-- Content Container (Featured is 34% width & vertically centered) -->
           <div 
-            :class="post.featured ? 'w-full sm:w-[45%] xl:w-[34%] flex flex-col justify-center p-5 sm:p-6 lg:p-8' : 'w-full flex flex-col grow p-4 sm:p-5'"
+            :class="post.featured ? 'w-full sm:w-[45%] xl:w-[34%] flex flex-col justify-end p-5' : 'w-full flex flex-col grow p-4 sm:p-5'"
           >
             <div class="flex flex-col justify-around">
               <!-- Desktop Featured Badge -->

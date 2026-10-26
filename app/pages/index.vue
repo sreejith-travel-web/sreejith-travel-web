@@ -702,7 +702,7 @@ const pageData = {
     eyebrow: 'TESTIMONIALS',
     titleLine1: 'Moments Captured',
     titleLine2Cursive: 'Along The Way.',
-    description: 'Glimpses of unscripted moments, breathtaking landscapes, and meaningful connections. See the world through the eyes of those who travel with us.',
+    description: 'Glimpses of memorable moments, breathtaking landscapes, and meaningful connections. See the world through the eyes of those who travel with us.',
     categories: {
       'wilderness-trails': { name: 'Wilderness & Trails', colorVar: 'var(--color-deep-forest)' },
       'living-traditions': { name: 'Living Traditions', colorVar: 'var(--color-terracotta)' },
@@ -762,9 +762,9 @@ const pageData = {
 
   journal: {
     eyebrow: 'FROM THE JOURNAL',
-    titleLine1: 'STORIES THAT STAY',
+    titleLine1: 'STORIES THAT TRAVEL',
     titleLine2Cursive: 'Beyond the journey',
-    description: 'Places, people and perspectives from South India — stories to deepen your curiosity and inspire a more meaningful journey.',
+    description: 'Observations, perspectives, and field notes from years of research and on-the-ground experience.  Exploring People, Culture, Heritage, Travel Trends, and Sustainability shaping meaningful journeys.',
     posts: [
       { 
         id: '1', 
