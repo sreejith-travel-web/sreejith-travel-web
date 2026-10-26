@@ -1,12 +1,4 @@
 <!-- ~/components/AppFooter.vue -->
-<script setup>
-import { onMounted } from 'vue'
-
-onMounted(() => {
-  const footer = document.querySelector('#main-footer')
-  if (footer) observer.observe(footer)
-})
-</script>
 
 <template>
   <footer id="main-footer" class="w-full relative overflow-hidden bg-journey-deep text-surface-light z-20">
