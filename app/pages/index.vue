@@ -867,33 +867,5 @@ const pageData = {
     <!-- Journal -->
     <LazyHomeJournal hydrate-on-visible :data="pageData.journal" class="bg-bg-light" />
 
-    <!-- Placeholder for the next section -->
-    <section
-      data-theme="light"
-      class="py-24 px-4 md:px-8 lg:px-12 bg-bg-light text-primary-light flex flex-col items-center justify-center text-center min-h-[120vh]"
-    >
-      <div class="max-w-3xl flex flex-col items-center">
-        <span class="font-cursive text-3xl md:text-4xl text-action-blue mb-4">
-          Capturing India
-        </span>
-        <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-ink-dark mb-6">
-          Light Section (Header switches back to Ink Mode)
-        </h2>
-        <p class="text-base text-secondary-light leading-relaxed mb-8">
-          This section will eventually receive its own chunk of pageData.
-        </p>
-        
-        <!-- CTAs -->
-        <div
-          v-motion
-          :initial="{ opacity: 0, y: 10 }"
-          :enter="{ opacity: 1, y: 0, transition: { duration: 400, ease: 'easeOut', delay: 250 } }"
-          class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full max-w-[90vw] will-change-transform transition-transform duration-700 ease-out"
-        >
-          <CtaButton to="/itineraries" label="Explore Itineraries" variant="light" />
-          <CtaButton to="/planYourJourney" label="Plan Your Journey" variant="light" />
-        </div>
-      </div>
-    </section>
   </div>
 </template>

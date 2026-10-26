@@ -92,6 +92,10 @@ onBeforeUnmount(() => {
     <!-- Initial Full Brand Loader -->
     <PageLoader v-if="isInitialAppLoad" @complete="handleLoaderComplete" />
 
+    <!-- Global Floating Quick Actions & Scroll Navigation -->
+    <QuickActions />
+    <ScrollNavigation />
+
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
