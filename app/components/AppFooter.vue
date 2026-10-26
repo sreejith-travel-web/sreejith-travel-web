@@ -47,7 +47,7 @@
           </span>
           
           <h3 class="section-title-wrapper lg:items-start mb-4">
-            <span class="text-surface-light section-title-sans text-[28px] md:text-[32px] lg:text-[36px] leading-none capitalize">
+            <span class="text-surface-light section-subtitle leading-none capitalize">
               Your next journey,
             </span>
             <span class="text-warm-gold section-title-cursive mt-1 md:mt-2">
@@ -61,7 +61,7 @@
           
           <NuxtLink
             to="/planYourJourney"
-            class="inline-flex items-center justify-center px-8 py-3.5 border border-surface-light/40 text-surface-light bg-transparent hover:bg-warm-gold hover:border-warm-gold hover:text-journey-deep active:bg-heritage-gold active:border-heritage-gold active:text-journey-deep section-subparagraph font-bold uppercase tracking-wider transition-all duration-300 rounded-sm cursor-pointer select-none"
+            class="inline-flex items-center justify-center px-5 pt-4 pb-2.5 border border-surface-light/40 text-surface-light bg-transparent hover:bg-warm-gold hover:border-warm-gold hover:text-journey-deep active:bg-heritage-gold active:border-heritage-gold active:text-journey-deep section-subparagraph font-uppercase uppercase tracking-widest transition-all duration-300 rounded-sm cursor-pointer select-none"
           >
             Plan Your Journey
           </NuxtLink>
@@ -80,10 +80,10 @@
             </span>
             <ul class="grid grid-cols-2 gap-x-4 gap-y-4 sm:gap-y-5 text-left section-subparagraph font-medium text-surface-light/90 w-full max-w-70 md:max-w-none mx-auto md:mx-0">
               <li><NuxtLink to="/" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Home</NuxtLink></li>
-              <li><NuxtLink to="/impact" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Making a Difference</NuxtLink></li>
+              <li><NuxtLink to="/impact" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Impact</NuxtLink></li>
               <li><NuxtLink to="/about" class="hover:text-warm-gold active:text-heritage-gold transition-colors">About</NuxtLink></li>
               <li><NuxtLink to="/blog" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Journal</NuxtLink></li>
-              <li><NuxtLink to="/itineraries" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Travel Experiences</NuxtLink></li>
+              <li><NuxtLink to="/itineraries" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Itineraries</NuxtLink></li>
               <li><NuxtLink to="/faq" class="hover:text-warm-gold active:text-heritage-gold transition-colors">FAQ</NuxtLink></li>
               <li><NuxtLink to="/services" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Services</NuxtLink></li>
               <li><NuxtLink to="/contact" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Contact</NuxtLink></li>
@@ -135,14 +135,14 @@
            ========================================== -->
       <div 
         v-motion-fade-up
-        class="flex flex-col md:flex-row items-center justify-between gap-4 pt-8 mt-12 lg:mt-16 border-t border-surface-light/10 text-[11px] sm:text-xs font-sans text-surface-light/60"
+        class="flex flex-col md:flex-row items-center justify-between gap-4 pt-8 mt-12 lg:mt-16 border-t border-surface-light/10 text-surface-light/60"
       >
-        <p class="order-2 md:order-1">© 2026 Sreejith Travel. All rights reserved.</p>
+        <p class="card-paragraph order-2 md:order-1">© 2026 Sreejith Travel. All rights reserved.</p>
         
         <div class="flex items-center gap-4 order-1 md:order-2">
-          <NuxtLink to="/privacy" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Privacy Policy</NuxtLink>
+          <NuxtLink to="/privacy" class="card-paragraph hover:text-warm-gold active:text-heritage-gold transition-colors">Privacy Policy</NuxtLink>
           <span class="w-px h-3 bg-surface-light/20"></span>
-          <NuxtLink to="/terms" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Terms & Conditions</NuxtLink>
+          <NuxtLink to="/terms" class="card-paragraph hover:text-warm-gold active:text-heritage-gold transition-colors">Terms & Conditions</NuxtLink>
         </div>
       </div>
 

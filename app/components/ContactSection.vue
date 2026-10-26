@@ -74,7 +74,7 @@ const activePayload = {
 
         <h2
           v-motion-fade-up
-          :delay="100"
+          :delay="50"
           class="section-title-wrapper items-start! text-left!"
         >
           <span class="text-journey-deep section-title-sans">
@@ -87,7 +87,7 @@ const activePayload = {
 
         <p
           v-motion-fade-up
-          :delay="200"
+          :delay="100"
           class="text-secondary-light section-paragraph mb-8 md:mb-10 max-w-xl"
         >
           {{ activePayload.paragraph }}
@@ -99,7 +99,7 @@ const activePayload = {
             v-for="(card, index) in activePayload.cards"
             :key="card.id"
             v-motion-fade-up
-            :delay="250 + (index * 50)"
+            :delay="150 + (index * 50)"
             class="w-full bg-surface-light rounded-2xl p-5 sm:p-6 border border-journey-deep/10 hover:border-intention-blue/40 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col sm:flex-row sm:items-center justify-between gap-5 group"
           >
             <div class="flex items-start sm:items-center gap-4">
