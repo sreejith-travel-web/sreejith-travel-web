@@ -17,6 +17,7 @@ export interface HomeImpactConfig {
   titleLine2Cursive: string
   description: string
   items: ImpactItem[]
+  bottomQuote: string
   bottomCta: {
     label: string
     to: string
@@ -201,15 +202,27 @@ const activeIndex = ref(0)
 
       </div>
 
-      <!-- 3. BOTTOM CTA -->
-      <div v-motion-fade-up :delay="500" class="flex justify-center w-full will-change-transform">
+      <!-- Bottom Quote -->
+      <div 
+        v-motion-fade-up
+        class="flex flex-col items-center text-center mb-8 md:mb-10 px-4 w-full"
+      >
+        <p class="px-4 lg:max-w-3xl xl:max-w-4xl text-darker-gold section-quote">
+          {{ data.bottomQuote }}
+        </p>
+      </div>
+
+      <!-- 3. BOTTOM CENTERED CTA BUTTON -->
+      <div
+        v-motion-fade-up
+        :delay="100"
+        class="flex justify-center w-full will-change-transform"
+      >
         <CtaButton
           :to="data.bottomCta.to"
           :label="data.bottomCta.label"
           variant="light"
-        >
-          {{ data.bottomCta.label }}
-        </CtaButton>
+        />
       </div>
 
     </div>

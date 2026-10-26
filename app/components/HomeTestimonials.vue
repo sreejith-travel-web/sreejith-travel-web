@@ -298,21 +298,27 @@ onBeforeUnmount(() => {
         </div>
       </div>
 
-      <!-- 3. FOOTER QUOTE & CTA -->
-      <div v-motion-fade-up :delay="400" class="w-full flex flex-col items-center text-center px-4">
-        <p class="section-quote text-darker-gold mb-8 max-w-2xl">
+      <!-- Bottom Quote -->
+      <div 
+        v-motion-fade-up
+        class="flex flex-col items-center text-center px-4 w-full mb-8 md:mb-10"
+      >
+        <p class="px-4 lg:max-w-3xl xl:max-w-4xl text-darker-gold section-quote">
           {{ data.bottomQuote }}
         </p>
+      </div>
 
-        <div class="flex justify-center w-full will-change-transform">
-          <CtaButton
-            :to="data.bottomCta.to"
-            :label="data.bottomCta.label"
-            variant="light"
-          >
-            {{ data.bottomCta.label }}
-          </CtaButton>
-        </div>
+      <!-- 3. BOTTOM CENTERED CTA BUTTON -->
+      <div
+        v-motion-fade-up
+        :delay="100"
+        class="flex justify-center w-full will-change-transform"
+      >
+        <CtaButton
+          :to="data.bottomCta.to"
+          :label="data.bottomCta.label"
+          variant="light"
+        />
       </div>
 
     </div>

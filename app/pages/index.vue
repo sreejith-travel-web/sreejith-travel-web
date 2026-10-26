@@ -625,7 +625,7 @@ const pageData = {
       'NGOs, CSR, and Heritage Trusts'
     ],
     bottomCta: {
-      label: 'LETS WORK TOGETHER',
+      label: "LET'S WORK TOGETHER",
       to: '/services'
     }
   },
@@ -691,6 +691,7 @@ const pageData = {
         url: '/impact'
       }
     ],
+    bottomQuote: 'Meaningful journeys are about making a difference that reaches far beyond the paths we travel.',
     bottomCta: {
       label: 'DISCOVER OUR VALUES',
       to: '/impact'
@@ -757,7 +758,72 @@ const pageData = {
       label: 'READ TRAVELER STORIES',
       to: '/blog'
     }
-  }
+  },
+
+  journal: {
+    eyebrow: 'FROM THE JOURNAL',
+    titleLine1: 'STORIES THAT STAY',
+    titleLine2Cursive: 'Beyond the journey',
+    description: 'Places, people, and perspectives from South India—stories to deepen your curiosity and inspire a more meaningful journey.',
+    posts: [
+      { 
+        id: '1', 
+        slug: '/blog',
+        title: 'Behind the doors of Chettinad', 
+        excerpt: 'Step inside ancestral homes where carved courtyards, family stories, and gracious hospitality reveal the living heart of Chettinad.', 
+        category: 'LIVING HERITAGE', 
+        readTime: '7 MIN READ', 
+        image: '/images/blog/blog1.webp', 
+        alt: 'Courtyard of an ancestral Chettinad home', 
+        featured: true 
+      },
+      { 
+        id: '2', 
+        slug: '/blog',
+        title: 'The quiet paths of the Western Ghats', 
+        excerpt: 'Follow forest trails and mist-covered ridges, discovering the quiet rhythms and remarkable biodiversity of the Western Ghats.', 
+        category: 'NATURE & TRAILS', 
+        readTime: '5 MIN READ', 
+        image: '/images/blog/blog2.webp', 
+        alt: 'Mist covered ridges of the Western Ghats' 
+      },
+      { 
+        id: '3', 
+        slug: '/blog',
+        title: 'Woven through generations', 
+        excerpt: 'Meet the artisans whose patient hands and inherited skills keep local traditions alive, weaving memory into everyday objects.', 
+        category: 'PEOPLE & CRAFT', 
+        readTime: '6 MIN READ', 
+        image: '/images/blog/blog3.webp', 
+        alt: 'Artisan weaving a traditional saree' 
+      },
+      { 
+        id: '4', 
+        slug: '/blog',
+        title: 'A place at the Kerala table', 
+        excerpt: 'Discover the seasonal ingredients, generous kitchens, and cherished family recipes that turn a Kerala meal into a shared story.', 
+        category: 'FOOD & CULTURE', 
+        readTime: '4 MIN READ', 
+        image: '/images/blog/blog4.webp', 
+        alt: 'Traditional Kerala Sadhya served on a banana leaf' 
+      },
+      { 
+        id: '5', 
+        slug: '/blog',
+        title: 'At the water\'s pace', 
+        excerpt: 'Drift along quiet waterways, pause in village lanes, and discover how slowing down opens a deeper connection with life in Kerala.', 
+        category: 'SLOW TRAVEL', 
+        readTime: '5 MIN READ', 
+        image: '/images/blog/blog5.webp', 
+        alt: 'Man rowing a wooden boat on Kerala backwaters' 
+      }
+    ],
+    bottomQuote: 'Every journey leaves a story worth carrying forward.',
+    bottomCta: {
+      label: 'EXPLORE THE JOURNAL',
+      to: '/blog'
+    }
+  },
 
   // Future sections will be populated here in the same payload
   // about: { ... },
@@ -797,11 +863,14 @@ const pageData = {
 
     <!-- Testimonials -->
     <LazyHomeTestimonials hydrate-on-visible :data="pageData.testimonials" class="bg-bg-light" />
+    
+    <!-- Journal -->
+    <LazyHomeJournal hydrate-on-visible :data="pageData.journal" class="bg-bg-light" />
 
     <!-- Placeholder for the next section -->
     <section
       data-theme="light"
-      class="py-24 px-4 md:px-8 lg:px-12 bg-surface-light text-primary-light flex flex-col items-center justify-center text-center min-h-[120vh]"
+      class="py-24 px-4 md:px-8 lg:px-12 bg-bg-light text-primary-light flex flex-col items-center justify-center text-center min-h-[120vh]"
     >
       <div class="max-w-3xl flex flex-col items-center">
         <span class="font-cursive text-3xl md:text-4xl text-action-blue mb-4">

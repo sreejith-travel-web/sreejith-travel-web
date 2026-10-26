@@ -77,7 +77,7 @@ defineProps<{
         :key="item.id"
         :to="item.to"
         v-motion-stagger-card
-        :delay="index * 120"
+        :delay="200 + index * 120"
         class="group relative isolate w-full overflow-hidden rounded-xl sm:rounded-2xl cursor-pointer bg-journey-deep shadow-sm aspect-2.5/1 sm:aspect-[1.9/1]"
       >
         <!-- Background Image (Lazy Loaded & Sized properly) -->
@@ -130,7 +130,7 @@ defineProps<{
       </NuxtLink>
     </div>
 
-    <!-- Bottom Quote & CTA -->
+    <!-- Bottom Quote -->
     <div 
       v-motion-fade-up
       class="flex flex-col items-center text-center mt-6 md:mt-8 px-4"

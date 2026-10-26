@@ -207,7 +207,8 @@ const goToSlide = (index: number) => {
 
         <!-- CTA Button -->
         <div
-          v-motion-fade-up          
+          v-motion-fade-up
+          :delay="100"          
           class="will-change-transform"
         >
           <CtaButton 

@@ -442,25 +442,27 @@ onBeforeUnmount(() => {
         </div>
       </div>
 
-      <!-- 3. SECTION FOOTER (Bottom Quote + Dark CTA Button) -->
-      <div
+      <!-- Bottom Quote -->
+      <div 
         v-motion-fade-up
-        :delay="200"
-        class="relative z-20 w-full flex flex-col items-center text-center mt-8 md:mt-12 xl:mt-16"
+        class="relative z-20 w-full flex flex-col items-center text-center mt-8 md:mt-12 xl:mt-16 px-4 mb-8 md:mb-10"
       >
-        <p class="text-soft-blue px-4 mb-10 lg:max-w-3xl xl:max-w-4xl section-quote">
+        <p class="px-4 lg:max-w-3xl xl:max-w-4xl text-soft-blue section-quote">
           {{ data.bottomQuote }}
         </p>
+      </div>
 
-        <div class="flex justify-center w-full will-change-transform">
-          <CtaButton
-            :to="data.cta.to"
-            :label="data.cta.label"
-            variant="dark"
-          >
-            {{ data.cta.label }}
-          </CtaButton>
-        </div>
+      <!-- 3. BOTTOM CENTERED CTA BUTTON -->
+      <div
+        v-motion-fade-up
+        :delay="100"
+        class="relative z-20 flex justify-center w-full will-change-transform"
+      >
+        <CtaButton
+          :to="data.cta.to"
+          :label="data.cta.label"
+          variant="dark"
+        />
       </div>
 
     </div>
