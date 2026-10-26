@@ -98,8 +98,8 @@ const activePayload = {
           <div
             v-for="(card, index) in activePayload.cards"
             :key="card.id"
-            v-motion-fade-up
-            :delay="150 + (index * 50)"
+            v-motion-stagger-card
+            :delay="100 + (index * 50)"
             class="w-full bg-surface-light rounded-2xl p-5 sm:p-6 border border-journey-deep/10 hover:border-intention-blue/40 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col sm:flex-row sm:items-center justify-between gap-5 group"
           >
             <div class="flex items-start sm:items-center gap-4">
