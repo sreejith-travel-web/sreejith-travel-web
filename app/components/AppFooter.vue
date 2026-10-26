@@ -1,23 +1,8 @@
 <!-- ~/components/AppFooter.vue -->
 <script setup>
 import { onMounted } from 'vue'
-import gsap from 'gsap'
 
 onMounted(() => {
-  const tl = gsap.timeline({ paused: true })
-
-  tl.fromTo('.footer-elem', 
-    { y: 30, opacity: 0 },
-    { y: 0, opacity: 1, stagger: 0.12, duration: 0.9, ease: 'power3.out' }
-  )
-
-  const observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting) {
-      tl.play()
-      observer.disconnect()
-    }
-  }, { threshold: 0.15 })
-
   const footer = document.querySelector('#main-footer')
   if (footer) observer.observe(footer)
 })
@@ -26,7 +11,7 @@ onMounted(() => {
 <template>
   <footer id="main-footer" class="w-full relative overflow-hidden bg-journey-deep text-surface-light z-20">
     
-    <!-- Ambient Gradients (Journey Deep, Intention Deep, Intention Blue) -->
+    <!-- Ambient Gradients -->
     <div class="absolute inset-0 bg-linear-to-b from-intention-deep/60 to-journey-deep pointer-events-none z-0"></div>
     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-125 bg-[radial-gradient(ellipse_at_top,var(--color-intention-blue)_0%,transparent_65%)] opacity-30 pointer-events-none z-0"></div>
 
@@ -35,8 +20,10 @@ onMounted(() => {
       <!-- ==========================================
            1. TOP BRANDING BLOCK (Centered)
            ========================================== -->
-      <div class="footer-elem flex flex-col items-center text-center mb-12 lg:mb-16">
-        <!-- Logo -->
+      <div 
+        v-motion-fade-up
+        class="flex flex-col items-center text-center mb-12 lg:mb-16"
+      >
         <img 
           src="/images/sreejith-logo.png" 
           alt="Sreejith Travel"
@@ -44,11 +31,9 @@ onMounted(() => {
           height="114"
           class="w-40 md:w-48 h-auto brightness-0 invert mb-3" 
         />
-        <!-- Subtitle -->
         <span class="card-eyebrow font-bold text-warm-gold tracking-[0.25em] mb-6">
           Travel Experience Designer
         </span>
-        <!-- Tagline -->
         <p class="section-paragraph text-surface-light/80 max-w-2xl font-light">
           Meaningful journeys. Thoughtfully crafted. Deeply connected.<br class="hidden sm:block" />
           Travel inspired by people, places, and stories.
@@ -60,14 +45,17 @@ onMounted(() => {
            ========================================== -->
       <div class="flex flex-col lg:grid lg:grid-cols-12 w-full gap-y-12 lg:gap-y-0">
         
-        <!-- CTA BLOCK (Middle on Mobile/Tablet, Right Column on Desktop) -->
-        <div class="footer-elem order-1 lg:order-2 lg:col-span-5 flex flex-col items-center lg:items-start text-center lg:text-left py-10 lg:py-0 border-y border-surface-light/10 lg:border-y-0 lg:border-l lg:pl-16">
+        <!-- CTA BLOCK -->
+        <div 
+          v-motion-fade-up
+          class="order-1 lg:order-2 lg:col-span-5 flex flex-col items-center lg:items-start text-center lg:text-left py-10 lg:py-0 border-y border-surface-light/10 lg:border-y-0 lg:border-l lg:pl-16"
+        >
           <span class="card-eyebrow font-bold text-warm-gold tracking-[0.2em] mb-4">
             Begin Your Journey
           </span>
           
-          <h3 class="section-title-wrapper items-center! lg:items-start! mb-4!">
-            <span class="text-surface-light section-title-sans text-[28px]! md:text-[32px]! lg:text-[36px]! !leading-none! capitalize!">
+          <h3 class="section-title-wrapper lg:items-start mb-4">
+            <span class="text-surface-light section-title-sans text-[28px] md:text-[32px] lg:text-[36px] leading-none capitalize">
               Your next journey,
             </span>
             <span class="text-warm-gold section-title-cursive mt-1 md:mt-2">
@@ -87,11 +75,14 @@ onMounted(() => {
           </NuxtLink>
         </div>
 
-        <!-- EXPLORE & CONNECT (Bottom on Mobile/Tablet, Left Column on Desktop) -->
+        <!-- EXPLORE & CONNECT -->
         <div class="order-2 lg:order-1 lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-12 text-center md:text-left lg:pr-12">
           
           <!-- Explore Links -->
-          <div class="footer-elem flex flex-col items-center md:items-start">
+          <div 
+            v-motion-fade-up
+            class="flex flex-col items-center md:items-start"
+          >
             <span class="card-eyebrow font-bold text-warm-gold tracking-[0.2em] mb-6 md:mb-8">
               Explore
             </span>
@@ -108,7 +99,10 @@ onMounted(() => {
           </div>
 
           <!-- Connect Details -->
-          <div class="footer-elem flex flex-col items-center md:items-start">
+          <div 
+            v-motion-fade-up
+            class="flex flex-col items-center md:items-start"
+          >
             <span class="card-eyebrow font-bold text-warm-gold tracking-[0.2em] mb-6 md:mb-8">
               Connect
             </span>
@@ -147,7 +141,10 @@ onMounted(() => {
       <!-- ==========================================
            3. BOTTOM LEGAL BAR
            ========================================== -->
-      <div class="footer-elem flex flex-col md:flex-row items-center justify-between gap-4 pt-8 mt-12 lg:mt-16 border-t border-surface-light/10 text-[11px] sm:text-xs font-sans text-surface-light/60">
+      <div 
+        v-motion-fade-up
+        class="flex flex-col md:flex-row items-center justify-between gap-4 pt-8 mt-12 lg:mt-16 border-t border-surface-light/10 text-[11px] sm:text-xs font-sans text-surface-light/60"
+      >
         <p class="order-2 md:order-1">© 2026 Sreejith Travel. All rights reserved.</p>
         
         <div class="flex items-center gap-4 order-1 md:order-2">
