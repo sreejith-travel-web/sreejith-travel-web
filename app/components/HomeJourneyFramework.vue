@@ -79,11 +79,11 @@ const desktopBranches = [
 
 // Mobile/Tablet Vertical Node Coordinates (viewBox: 0 0 100 1000)
 const mobileNodes = [
-  { cx: 44, cy: 55, delay: 150 },
-  { cx: 44, cy: 255, delay: 500 },
-  { cx: 44, cy: 455, delay: 850 },
-  { cx: 44, cy: 655, delay: 1200 },
-  { cx: 44, cy: 845, delay: 1550, isSpreadOrigin: true },
+  { cx: 44, cy: 55, delay: 50 },
+  { cx: 44, cy: 255, delay: 200 },
+  { cx: 44, cy: 455, delay: 500 },
+  { cx: 44, cy: 655, delay: 700 },
+  { cx: 44, cy: 845, delay: 1050, isSpreadOrigin: true },
 ]
 
 // Mobile/Tablet "Difference" Radiating Branches (Spreading down/out from x:44, y:845)
@@ -92,35 +92,35 @@ const mobileBranches = [
     d: 'M 44 845 C 44 885, 16 925, 10 978',
     endX: 10,
     endY: 978,
-    delay: 1650,
+    delay: 1100,
     dotR: 4,
   },
   {
     d: 'M 44 845 C 44 890, 28 935, 26 988',
     endX: 26,
     endY: 988,
-    delay: 1750,
+    delay: 1200,
     dotR: 3.5,
   },
   {
     d: 'M 44 845 C 45 895, 48 945, 50 992',
     endX: 50,
     endY: 992,
-    delay: 1850,
+    delay: 1300,
     dotR: 4.5,
   },
   {
     d: 'M 44 845 C 46 890, 68 935, 74 984',
     endX: 74,
     endY: 984,
-    delay: 1950,
+    delay: 1400,
     dotR: 4,
   },
   {
     d: 'M 44 845 C 48 880, 80 920, 92 966',
     endX: 92,
     endY: 966,
-    delay: 2050,
+    delay: 1500,
     dotR: 3.5,
   },
 ]
@@ -153,6 +153,29 @@ onBeforeUnmount(() => {
     data-theme="dark"
     class="text-primary-dark overflow-hidden section-wrapper"
   >
+    <!-- ==========================================
+         BACKGROUND IMAGE & GRADIENT TINT
+         ========================================== -->
+    <div class="absolute inset-0 z-0 pointer-events-none select-none">
+      <picture>
+        <!-- Desktop Image (Loads only on screens 768px and wider) -->
+        <source media="(min-width: 768px)" srcset="/images/home/journey-pc.webp" />
+        <!-- Mobile Image (Default fallback) -->
+        <img 
+          src="/images/home/journey-mob.webp" 
+          alt="South Indian Tourism" 
+          role="presentation"
+          class="w-full h-full object-cover object-center"
+          loading="lazy" 
+          decoding="async"
+          fetchpriority="low"
+        />
+      </picture>
+      
+      <!-- Radial Gradient Overlay Tint -->
+      <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,var(--color-intention-deep)_0%,var(--color-journey-deep)_100%)] opacity-85"></div>
+    </div>
+
     <div class="relative z-10 w-full max-w-360 flex flex-col items-center">
 
       <!-- 1. SECTION HEADER -->
@@ -415,13 +438,6 @@ onBeforeUnmount(() => {
             >
               <!-- Step Title with Animated Gold Dash -->
               <div class="flex items-center gap-1 sm:gap-2 mb-2 sm:mb-3">
-                <div
-                  v-motion
-                  :initial="{ scaleX: 0 }"
-                  :visible-once="{ scaleX: 1, transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: (index * 120) + 150 } }"
-                  class="h-px w-2 sm:w-3 bg-warm-gold rounded-full origin-left will-change-transform"
-                  aria-hidden="true"
-                />
                 <h3 class="text-surface-light section-smaller-subtitle mb-0">
                   {{ step.title }}
                 </h3>

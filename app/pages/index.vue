@@ -39,6 +39,7 @@ const pageData = {
     headingLine1: 'Designing Cultural Immersive Travel Experiences in India',
     headingLine2Cursive: 'Inspired by People, Places & Stories',
     description: 'Designing luxury bespoke journeys bringing together meaningful encounters, rare access, and authentic stories that conventional tourism simply cannot offer.',
+    awardImage: '/images/home/award.webp',
     slides: [
       {
         type: 'video' as const,
@@ -64,20 +65,34 @@ const pageData = {
   },
 
   about: {
+      eyebrow: 'ABOUT ME',
       greeting: 'Hello,',
-      name: "I’m Sreejith",
+      name: "I’m Sree jith",
       designations: [
         'Travel Experiences Designer',
         'Sustainable Travel Expert',
         'Art & Cultural Curator'
       ],
-      paragraph:
-        "Creating bespoke luxury journeys in India with a trusted local network of cultural custodians, storytellers, artisans, historians, and local experts. I approach travel as an art – bringing together meaningful encounters, rare access, authentic stories and regenerative travel that conventional tourism doesn't provide.",
-      quoteText:
-        "The best travel experiences aren’t measured by the places you visit, but by the people you meet, the cultures you experience, the stories you discover, and the lasting positive impact you leave behind.",
-      signatureImage: '/images/sreejith-logo.png',
+      paragraph: "Creating bespoke luxury journeys in India with a trusted local network of cultural custodians, storytellers, artisans, historians, and local experts. I approach travel as an art – bringing together meaningful encounters, rare access, authentic stories and regenerative travel that conventional tourism doesn't provide.",
       portraitImage: '/images/home/about-sreejith.webp',
       portraitAlt: 'Sreejith - Travel Experiences Designer & Cultural Collage',
+      pillars: [
+        {
+          title: 'Designed Around You',
+          subtitle: 'EVERY JOURNEY IS UNIQUE',
+          description: 'Personally crafted culturally rich travel experiences designed around your interests, pace, travel style, and aspirations.'
+        },
+        {
+          title: 'Regenerative by Design',
+          subtitle: 'TRAVEL THAT GIVES BACK',
+          description: 'Co-created with local communities to create a lasting positive impact for both travellers and communities, culture, and nature they visit.'
+        },
+        {
+          title: 'Boutique by Choice',
+          subtitle: 'QUALITY OVER QUANTITY',
+          description: 'We intentionally design a limited number of journeys each year, ensuring seamless end to end service, exceptional attention, meaningful local engagement, and authentic experiences.'
+        }
+      ],
       stats: [
         {
           value: '2025',
@@ -87,8 +102,7 @@ const pageData = {
         {
           value: '17+ YEARS',
           subtitle: 'RESEARCH, DISCOVERY & DESIGN',
-          description:
-            'Over a decade and a half of cultural research, field exploration, authentic local relationships and travel design.'
+          description: 'Over a decade and a half of cultural research, field exploration, authentic local relationships and travel design.'
         },
         {
           value: '400+',
@@ -96,39 +110,9 @@ const pageData = {
           description: 'Cultural practitioners, local storytellers and community partners.'
         }
       ],
+      bottomQuote: 'Years spent walking village lanes, sitting with artisans, restoring heritage spaces, documenting traditions, and listening to the people who shape a place have changed how I see travel. Today, every journey I design carries those conversations forward.',
       ctaLabel: 'Explore My Story',
       ctaTo: '/about'
-  },
-
-  philosophy : {
-    eyebrow: 'BEHIND EVERY JOURNEY',
-    titleLine1: 'Thoughtful travel.',
-    titleLine2Cursive: 'Meaningful connections.',
-    video: {
-      videoId: 'k1OU4CqguLw', 
-      thumbnail: '/images/home/travel-video.webp',
-      alt: 'Artisan weaving basket during a cultural travel experience in India',
-      width: 800,
-      height: 450
-    },
-    pillars: [
-      {
-        title: 'Designed Around You',
-        subtitle: 'EVERY JOURNEY IS UNIQUE',
-        description: 'Personally crafted culturally rich travel experiences designed around your interests, pace, travel style, and aspirations.'
-      },
-      {
-        title: 'Regenerative by Design',
-        subtitle: 'TRAVEL THAT GIVES BACK',
-        description: 'Co-created with local communities to create a lasting positive impact for both travellers and communities, culture, and nature they visit.'
-      },
-      {
-        title: 'Boutique by Choice',
-        subtitle: 'QUALITY OVER QUANTITY',
-        description: 'We intentionally design a limited number of journeys each year, ensuring seamless end to end service, exceptional attention, meaningful local engagement, and authentic experiences.'
-      }
-    ],
-    bottomQuote: 'Years spent walking village lanes, sitting with artisans, restoring heritage spaces, documenting traditions, and listening to the people who shape a place have changed how I see travel. Today, every journey I design carries those conversations forward.'
   },
 
   signature: {
@@ -141,16 +125,14 @@ const pageData = {
     ctaLabel: 'EXPLORE EXPERIENCES',
     ctaTo: '/itineraries',
     slider: {
-      infinite: true,
       initialIndex: 0,
       autoplay: false,
       autoplayIntervalMs: 5500,
-      enableHoverGap: true,
       showCardOverlay: true,
       aspectRatio: '2 / 3',
       imageWidth: 400,
       imageHeight: 600,
-      typeIcon: signatureIconSVG, 
+      typeIcon: signatureIconSVG,
       featuredIcon: featuredStarSVG,
       slides: [
         {
@@ -321,16 +303,14 @@ const pageData = {
     ctaLabel: 'DISCOVER COLLABORATIONS',
     ctaTo: '/itineraries',
     slider: {
-      infinite: true,
       initialIndex: 0,
-      autoplay: false,
-      autoplayIntervalMs: 5500,
-      enableHoverGap: true,
+      autoplay: true,
+      autoplayIntervalMs: 3500,
       showCardOverlay: true,
       aspectRatio: '2 / 3',
       imageWidth: 400,
       imageHeight: 600,
-      typeIcon: collaboratedIconSVG, 
+      typeIcon: collaboratedIconSVG,
       featuredIcon: featuredStarSVG,
       slides: [
         {
@@ -594,7 +574,7 @@ const pageData = {
     eyebrow: 'WAYS TO WORK TOGETHER',
     titleLine1: 'Building Meaningful Travel',
     titleLine2Cursive: 'Together.',
-    description: 'I collaborate with travel professionals, brands, organisations, and global partners to design culturally immersive, community-driven travel experiences across South India—built on deep local knowledge, trusted networks, and years of on-ground research.',
+    description: 'I collaborate with travel professionals, brands, organisations, and global partners to design experiences.',
     cards: [
       {
         eyebrow: 'FOR TRAVEL PROFESSIONALS',
@@ -603,7 +583,7 @@ const pageData = {
           'For Travel Agents, designers, Tour Operators, Event Planners, DMCs & Travel Brands seeking authentic, high-quality B2B experiences across South India.',
           'Co-create sustainable, culturally immersive journeys backed by deep local knowledge, trusted networks, and seamless execution.'
         ],
-        cta: { label: 'PARTNER WITH ME', to: '/services' },
+        cta: { label: 'PARTNER WITH ME', to: '/collaborate' },
         bgClass: 'bg-soft-cream' // soft cream
       },
       {
@@ -613,7 +593,7 @@ const pageData = {
           'We\'re always looking for Unique Stays Providers, Passionate Travel creators, storytellers, artisans, performers, and experience providers.',
           'Become part of a trusted ecosystem creating meaningful travel experiences that support local communities, environment and celebrate culture.'
         ],
-        cta: { label: 'JOIN THE NETWORK', to: '/services' },
+        cta: { label: 'JOIN THE NETWORK', to: '/collaborate' },
         bgClass: 'bg-soft-blue' // soft blue
       }
     ],
@@ -626,7 +606,7 @@ const pageData = {
     ],
     bottomCta: {
       label: "LET'S WORK TOGETHER",
-      to: '/services'
+      to: '/collaborate'
     }
   },
 
@@ -719,6 +699,7 @@ const pageData = {
         designation: 'Architect, Bengaluru, India',
         quote: 'Every temple, village, and conversation felt deeply personal. It wasn\'t sightseeing—it was understanding a place through its people, stories, and traditions. The journey stayed with me long after I returned home.',
         avatar: '/images/testimonials/avatar.webp',
+        image: '/images/home/journey-pc.webp',
         ctaLabel: 'Read Story',
         ctaUrl: '/blog'
       },
@@ -729,6 +710,7 @@ const pageData = {
         designation: 'Photographer, Melbourne, Australia',
         quote: 'From misty mountains to hidden trails, every day felt like an adventure crafted just for me. The landscapes were breathtaking, but the quiet moments in nature became my favorite memories.',
         avatar: '/images/testimonials/avatar.webp',
+        image: '/images/home/journey-pc.webp',
         ctaLabel: 'Watch Video',
         ctaUrl: '/blog'
       },
@@ -739,6 +721,7 @@ const pageData = {
         designation: 'Yoga Instructor, Chennai, India',
         quote: 'The retreat offered more than relaxation. It brought stillness, meaningful conversations, and a renewed sense of balance. I returned home feeling lighter, calmer, and deeply inspired.',
         avatar: '/images/testimonials/avatar.webp',
+        image: '/images/home/journey-pc.webp',
         ctaLabel: 'Read Post',
         ctaUrl: '/blog'
       },
@@ -749,6 +732,7 @@ const pageData = {
         designation: 'Chef, Munich, Germany',
         quote: 'Every meal told a story. Cooking alongside local families, discovering regional flavors, and sharing traditions around the table made this one of the most authentic journeys I\'ve ever experienced.',
         avatar: '/images/testimonials/avatar.webp',
+        image: '/images/home/journey-pc.webp',
         ctaLabel: 'Explore',
         ctaUrl: '/blog'
       }
@@ -825,8 +809,7 @@ const pageData = {
     }
   },
 
-  // Future sections will be populated here in the same payload
-  // about: { ... },
+  
 }
 
 
@@ -840,29 +823,26 @@ const pageData = {
     <!-- About Section -->
     <HomeAbout :data="pageData.about" class="bg-surface-light"/>
 
-    <!-- Philosophy Video Section -->
-    <LazyHomePhilosophy hydrate-on-visible :data="pageData.philosophy" class="bg-bg-light" />
-
     <!-- Signature Experiences -->
-    <LazyHomeItinerarySection hydrate-on-visible :data="pageData.signature" class="bg-surface-light" />
+    <LazyHomeItinerarySection hydrate-on-visible :data="pageData.signature" class="bg-bg-light" />
     
     <!-- Collaborated Itineraries -->
-    <LazyHomeItinerarySection hydrate-on-visible :data="pageData.collaborated" class="bg-bg-light" />
+    <LazyHomeItinerarySection hydrate-on-visible :data="pageData.collaborated" class="bg-surface-light" />
 
     <!-- Categorized Itineraries -->
-    <LazyHomeCategories hydrate-on-visible :data="pageData.categories" class="bg-surface-light" />
+    <LazyHomeCategories hydrate-on-visible :data="pageData.categories" class="bg-bg-light" />
 
     <!-- How It Works -->
-    <LazyHomeJourneyFramework hydrate-on-visible :data="pageData.journeyFramework" class="bg-[radial-gradient(ellipse_at_center,var(--color-intention-deep)_0%,var(--color-journey-deep)_100%)]" />
+    <LazyHomeJourneyFramework hydrate-on-visible :data="pageData.journeyFramework" />
     
     <!-- Ways To Work Together -->
-    <LazyHomeWaysToWork hydrate-on-visible :data="pageData.waysToWork" class="bg-bg-light" />
+    <LazyHomeWaysToWork hydrate-on-visible :data="pageData.waysToWork" class="bg-surface-light" />
 
     <!-- Ways To Work Together -->
-    <LazyHomeImpact hydrate-on-visible :data="pageData.impact" class="bg-surface-light" />
+    <LazyHomeImpact hydrate-on-visible :data="pageData.impact" class="bg-bg-light" />
 
     <!-- Testimonials -->
-    <LazyHomeTestimonials hydrate-on-visible :data="pageData.testimonials" class="bg-bg-light" />
+    <LazyHomeTestimonials hydrate-on-visible :data="pageData.testimonials" class="bg-surface-light" />
     
     <!-- Journal -->
     <LazyHomeJournal hydrate-on-visible :data="pageData.journal" class="bg-bg-light" />

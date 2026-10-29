@@ -43,7 +43,7 @@ const activeIndex = ref(0)
         
         <div v-motion-fade-up class="eyebrow-wrapper">
           <div class="bg-dark-gold/70 eyebrow-border" />
-          <h2 class="text-journey-deep eyebrow-text">
+          <h2 class="text-journey-deep/95 eyebrow-text">
             {{ data.eyebrow }}
           </h2>
           <div class="bg-dark-gold/70 eyebrow-border" />
@@ -65,14 +65,14 @@ const activeIndex = ref(0)
         <p
           v-motion-fade-up
           :delay="200"
-          class="text-journey-deep max-w-3xl section-paragraph"
+          class="text-journey-deep/90 max-w-3xl section-paragraph"
         >
           {{ data.description }}
         </p>
       </div>
 
       <!-- 2. HYBRID RESPONSIVE DOM -->
-      <div class="relative w-full flex flex-col md:flex-row items-center justify-around gap-8 lg:gap-10 xl:gap-12 2xl:gap-16 mb-8 md:mb-12 lg:mb-16">
+      <div class="relative w-full max-w-6xl flex flex-col md:flex-row items-center justify-around gap-8 lg:gap-10 xl:gap-12 2xl:gap-16 mb-8 md:mb-10 lg:mb-12">
         
         <!-- A. MOBILE LIST: 1:1 Scroll Snap Row (< 768px) -->
         <div 

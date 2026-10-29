@@ -47,8 +47,8 @@ const getParallax = (speed: number) => {
 }
 
 // Section Tints (kept decoupled from JSON payloads)
-const VIDEO_TINT_CLASS = 'bg-linear-to-b from-journey-deep/40 via-journey-deep/60 to-journey-deep/80'
-const IMAGE_TINT_CLASS = 'bg-linear-to-b from-journey-deep/35 via-journey-deep/60 to-journey-deep/85'
+const VIDEO_TINT_CLASS = 'bg-linear-to-b from-journey-deep/30 via-journey-deep/60 to-journey-deep/70'
+const IMAGE_TINT_CLASS = 'bg-linear-to-b from-journey-deep/30 via-journey-deep/60 to-journey-deep/80'
 
 // Global Fallbacks
 const FALLBACK_DESKTOP = '/images/video-posters/sreejith-hero-landscape.webp'
@@ -199,7 +199,7 @@ onUnmounted(() => {
       >
         <!-- 1. H1 Eyebrow (Starts at 900ms - instantly after loader) -->
         <div
-          v-motion-hero-fade-up
+          v-motion-hero-scale-in
           :delay="700"
           :style="getParallax(0.48)"
           class="eyebrow-wrapper"
@@ -215,7 +215,7 @@ onUnmounted(() => {
         <h2 class="section-title-wrapper">
           <!-- Primary Line -->
           <span 
-            v-motion-hero-fade-up
+            v-motion-hero-scale-in
             :delay="800"
             :style="getParallax(0.44)" 
             class="text-surface-light section-title-sans capitalize"
@@ -225,7 +225,7 @@ onUnmounted(() => {
 
           <!-- Cursive Line -->
           <span 
-            v-motion-hero-fade-up
+            v-motion-hero-scale-in
             :delay="900"
             :style="getParallax(0.4)" 
             class="text-warm-gold mt-2 md:mt-3 section-title-cursive"
@@ -236,7 +236,7 @@ onUnmounted(() => {
 
         <!-- 4. Description (Starts at 1300ms) -->
         <p
-          v-motion-hero-fade-up
+          v-motion-hero-scale-in
           :delay="1000"
           :style="getParallax(0.36)"
           class="text-surface-medium w-full max-w-sm xs:max-w-md sm:max-w-xl lg:max-w-3xl mb-8 md:mb-10 hero-paragraph"
@@ -246,7 +246,7 @@ onUnmounted(() => {
 
         <!-- 5. CTAs (Starts at 1400ms) -->
         <div
-          v-motion-hero-fade-up
+          v-motion-hero-scale-in
           :delay="1100"
           :style="getParallax(0.32)"
           class="hero-cta-wrapper"
@@ -260,7 +260,7 @@ onUnmounted(() => {
     <!-- Slideshow Navigation -->
     <div
       v-if="data.mode === 'slideshow' && slides.length > 1"
-      v-motion-hero-micro-up
+      v-motion-hero-scale-in
       :delay="1200"
       class="absolute bottom-8 lg:bottom-10 left-1/2 -translate-x-1/2 z-30 flex items-center gap-1 pointer-events-auto transition-transform duration-700 ease-out"
       role="tablist"
@@ -286,11 +286,28 @@ onUnmounted(() => {
         />
       </button>
     </div>
+    <!-- Award Badge (Bottom Left, Animates after slider controls) -->
+    <div
+      v-motion-hero-scale-in
+      :delay="1300"
+      class="absolute bottom-3 md:bottom-4 lg:bottom-6 left-3 md:left-4 lg:left-6 brightness-0 invert-100 z-30 pointer-events-none lg:pointer-events-auto select-none lg:hover:brightness-100 lg:hover:invert-0 lg:active:brightness-100 lg:active:invert-0 duration-300 ease-editorial"
+    >
+      <img
+        src="/images/home/award.webp"
+        alt="Outlook Traveller Responsible Tourism India 2025 Awards"
+        width="200"
+        height="214"
+        loading="lazy"
+        decoding="async"
+        fetchpriority="low"
+        class="w-20 xs:w-22 sm:w-24 md:w-26 lg:w-28 h-auto object-contain opacity-95 drop-shadow-md"
+      />
+    </div>
   </section>
 </template>
 
 <style scoped>
-/* Cross-fade between slides */
+/* Cross-fade between slides */ 
 .fade-slide-enter-active,
 .fade-slide-leave-active {
   transition: opacity 1.4s cubic-bezier(0.25, 1, 0.5, 1);

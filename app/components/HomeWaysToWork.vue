@@ -49,7 +49,7 @@ const iconPaths = [
         
         <div v-motion-fade-up class="eyebrow-wrapper">
           <div class="bg-dark-gold/70 eyebrow-border" />
-          <h2 class="text-journey-deep eyebrow-text">
+          <h2 class="text-journey-deep/95 eyebrow-text">
             {{ data.eyebrow }}
           </h2>
           <div class="bg-dark-gold/70 eyebrow-border" />
@@ -71,7 +71,7 @@ const iconPaths = [
         <p
           v-motion-fade-up
           :delay="200"
-          class="text-journey-deep max-w-3xl section-paragraph"
+          class="text-journey-deep/90 max-w-3xl section-paragraph"
         >
           {{ data.description }}
         </p>
@@ -89,14 +89,14 @@ const iconPaths = [
         >
           <!-- Card Eyebrow with fixed left underline -->
           <div class="flex flex-col items-start gap-2 mb-4 sm:mb-6 w-full">
-            <span class="text-journey-deep section-midsubtitle mb-0">
+            <span class="text-journey-deep/95 section-midsubtitle mb-0">
               {{ card.eyebrow }}
             </span>
             <div class="w-8 h-px bg-dark-gold/60" aria-hidden="true" />
           </div>
 
           <!-- Card Title (Using specific smaller-subtitle token) -->
-          <h3 class="text-journey-deep section-smaller-subtitle mb-4 sm:mb-5">
+          <h3 class="text-journey-deep/90 section-smaller-subtitle mb-4 sm:mb-5">
             {{ card.title }}
           </h3>
 
@@ -105,7 +105,7 @@ const iconPaths = [
             <p
               v-for="(para, pIdx) in card.paragraphs"
               :key="pIdx"
-              class="text-journey-deep section-subparagraph"
+              class="text-journey-deep/85 section-subparagraph"
             >
               {{ para }}
             </p>
@@ -129,7 +129,7 @@ const iconPaths = [
 
       <!-- 3. THE COMPLEX RESPONSIVE ICONS GRID -->
       <div
-        class="w-full max-w-410 mx-auto flex flex-wrap justify-center mb-12 md:mb-16 gap-x-3 gap-y-8 max-[480px]:gap-y-4"
+        class="w-full max-w-410 mx-auto flex flex-wrap justify-center mb-8 sm:mb-10 lg:mb-14 gap-x-3 gap-y-8 max-[480px]:gap-y-4"
       >
         <div
           v-for="(label, index) in data.icons"
@@ -183,22 +183,22 @@ const iconPaths = [
           />
           
           <!-- The Label -->
-          <span class="text-journey-deep section-subparagraph line-clamp-2">
+          <span class="text-journey-deep/90 section-subparagraph line-clamp-2">
             {{ label }}
           </span>
         </div>
       </div>
 
       <!-- 4. BOTTOM CTA -->
-      <div v-motion-fade-up :delay="500" class="flex justify-center w-full will-change-transform">
-        <CtaButton
-          :to="data.bottomCta.to"
-          :label="data.bottomCta.label"
-          variant="light"
-        >
-          {{ data.bottomCta.label }}
-        </CtaButton>
-      </div>
+        <div v-motion-fade-up :delay="500" class="flex justify-center w-full will-change-transform">
+          <CtaButton
+            :to="data.bottomCta.to"
+            :label="data.bottomCta.label"
+            variant="light"
+          >
+            {{ data.bottomCta.label }}
+          </CtaButton>
+        </div>
 
     </div>
   </section>

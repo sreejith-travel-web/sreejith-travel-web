@@ -32,15 +32,15 @@ defineProps<{
 <template>
   <section
     data-theme="light"
-    class="bg-surface-light text-primary-light overflow-hidden section-wrapper"
+    class="text-primary-light overflow-hidden section-wrapper"
   >
-    <div class="relative z-10 w-full max-w-360 flex flex-col items-center">
+    <div class="relative z-10 w-full max-w-400 flex flex-col items-center">
       
       <!-- 1. HEADER (Bluish theme overrides) -->
       <div class="relative w-full max-w-4xl flex flex-col items-center text-center mb-8 md:mb-12 px-4">
         <div v-motion-fade-up class="eyebrow-wrapper">
           <div class="bg-dark-gold/70 eyebrow-border" />
-          <h2 class="text-journey-deep eyebrow-text">
+          <h2 class="text-journey-deep/95 eyebrow-text">
             {{ data.eyebrow }}
           </h2>
           <div class="bg-dark-gold/70 eyebrow-border" />
@@ -62,7 +62,7 @@ defineProps<{
         <p
           v-motion-fade-up
           :delay="200"
-          class="text-journey-deep max-w-3xl section-paragraph"
+          class="text-journey-deep/90 max-w-3xl section-paragraph"
         >
           {{ data.description }}
         </p>
@@ -141,7 +141,7 @@ defineProps<{
               </div>
             
               <!-- Title (Hover -> Intention Blue) -->
-              <h3 class="card-title text-journey-deep mb-2 transition-colors duration-300 group-hover:text-intention-blue group-active:text-intention-blue">
+              <h3 class="card-title text-journey-deep/90 mb-2 transition-colors duration-300 group-hover:text-intention-blue group-active:text-intention-blue">
                 {{ post.title }}
               </h3>
               
@@ -169,7 +169,7 @@ defineProps<{
       <!-- Bottom Quote -->
       <div 
         v-motion-fade-up
-        class="flex flex-col items-center text-center mt-10 md:mt-14 mb-8 md:mb-10 px-4 w-full"
+        class="flex flex-col items-center text-center mt-8 md:mt-10 mb-8 md:mb-10 px-4 w-full"
       >
         <p class="px-4 lg:max-w-3xl xl:max-w-4xl text-darker-gold section-quote">
           {{ data.bottomQuote }}

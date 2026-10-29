@@ -36,7 +36,7 @@ defineProps<{
           class="eyebrow-wrapper"
         >
           <div class="bg-dark-gold/70 eyebrow-border" />
-          <h2 class="text-journey-deep eyebrow-text">
+          <h2 class="text-journey-deep/95 eyebrow-text">
             {{ data.eyebrow }}
           </h2>
           <div class="bg-dark-gold/70 eyebrow-border" />
@@ -136,7 +136,7 @@ defineProps<{
       class="flex flex-col items-center text-center mt-6 md:mt-8 px-4"
     >
       <!-- Bottom Quote -->
-      <p class="px-4 mb-10 lg:max-w-3xl xl:max-w-4xl text-darker-gold section-quote">
+      <p class="px-4 mb-8 md:mb-10 lg:max-w-3xl xl:max-w-4xl text-darker-gold section-quote">
         {{ data.bottomQuote }}
       </p>
     </div>

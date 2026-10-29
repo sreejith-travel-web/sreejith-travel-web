@@ -46,7 +46,7 @@ const leftLinks = [
 ]
 
 const rightLinks = [
-  { name: 'Services', path: '/services' },
+  { name: 'Collaborate', path: '/collaborate' },
   { name: 'Impact', path: '/impact' },
   { name: 'Blog', path: '/blog' },
 ]
@@ -73,7 +73,7 @@ const rightLinks = [
             'relative w-10 h-10 md:w-12 md:h-12 rounded-full border-2 flex flex-col justify-center items-center group transition-colors duration-300 ease-out outline-none shrink-0 cursor-pointer',
             isOnLightBg 
                 ? 'border-journey-deep/30 hover:border-intention-blue active:border-intention-blue' 
-                : 'border-white/35 hover:border-warm-gold active:border-warm-gold'
+                : 'border-white/65 hover:border-warm-gold active:border-warm-gold'
           ]"
           aria-label="Open Menu"
         >
@@ -190,7 +190,7 @@ const rightLinks = [
               'relative w-10 h-10 md:w-12 md:h-12 rounded-full border-2 flex items-center justify-center group transition-colors duration-300 ease-editorial shrink-0',
               isOnLightBg 
                 ? 'border-intention-blue/30 hover:border-intention-blue active:border-intention-blue' 
-                : 'border-white/35 hover:border-warm-gold active:border-warm-gold'
+                : 'border-white/65 hover:border-warm-gold active:border-warm-gold'
             ]"
           >
             <svg

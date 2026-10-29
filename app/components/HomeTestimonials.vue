@@ -13,6 +13,7 @@ export interface TestimonialItem {
   designation: string
   quote: string
   avatar: string
+  image: string
   ctaLabel: string
   ctaUrl: string
 }
@@ -171,7 +172,7 @@ onBeforeUnmount(() => {
       <div class="relative w-full max-w-4xl flex flex-col items-center text-center mb-10 md:mb-14 xl:mb-16">
         <div v-motion-fade-up class="eyebrow-wrapper">
           <div class="bg-dark-gold/70 eyebrow-border" />
-          <h2 class="text-journey-deep eyebrow-text">
+          <h2 class="text-journey-deep/95 eyebrow-text">
             {{ data.eyebrow }}
           </h2>
           <div class="bg-dark-gold/70 eyebrow-border" />
@@ -193,7 +194,7 @@ onBeforeUnmount(() => {
         <p
           v-motion-fade-up
           :delay="200"
-          class="text-secondary-light max-w-3xl section-paragraph"
+          class="text-journey-deep/90 max-w-3xl section-paragraph"
         >
           {{ data.description }}
         </p>
@@ -228,13 +229,33 @@ onBeforeUnmount(() => {
               borderColor: 'color-mix(in srgb, var(--theme-color) 25%, transparent)'
             }"
           >
+            <!-- ==========================================
+            BACKGROUND IMAGE & GRADIENT TINT
+            ========================================== -->
+            <div class="absolute inset-0 z-0 pointer-events-none rounded-2xl opacity-15 select-none">
+              <!-- Bg Image -->
+              <img 
+                :src="item.image" 
+                alt="South Indian Tourism" 
+                width="1440"
+                height="960"
+                role="presentation"
+                class="w-full h-full object-cover rounded-2xl object-center"
+                loading="lazy" 
+                decoding="async"
+                fetchpriority="low"
+              />
+              <!-- Radial Gradient Overlay Tint -->
+              <!-- <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,var(--color-intention-deep)_0%,var(--color-journey-deep)_100%)] opacity-5"></div> -->
+            </div>
+
             <!-- Giant Watermark Quote -->
-            <span 
+            <!-- <span 
               class="absolute top-1/2 md:top-3/5 left-15 -translate-y-1/2 text-[300px] md:text-[400px] font-quote leading-none pointer-events-none select-none z-0"
               style="color: color-mix(in srgb, var(--theme-color) 12%, transparent);"
             >
               &#8220;
-            </span>
+            </span> -->
 
             <!-- Top: Badge & Quote -->
             <div class="relative z-10 flex flex-col items-start gap-5 sm:gap-6 mb-8">

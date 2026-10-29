@@ -1,4 +1,4 @@
-<!-- ~/app/pages/services.vue -->
+<!-- ~/app/pages/collaborate.vue -->
 
 <script setup lang="ts">
 import PageHero from '~/components/PageHero.vue'

@@ -15,7 +15,7 @@ const mainLinks = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
   { name: 'Itineraries', path: '/itineraries' },
-  { name: 'Services', path: '/services' },
+  { name: 'Collaborate', path: '/collaborate' },
   { name: 'Impact', path: '/impact' },
   { name: 'Blog', path: '/blog' },
 ]

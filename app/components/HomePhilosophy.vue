@@ -3,6 +3,39 @@
 import YoutubePlayer from '~/components/YoutubePlayer.vue'
 import type { YoutubeVideoConfig } from '~/components/YoutubePlayer.vue'
 
+const pageData = {
+  philosophy : {
+    eyebrow: 'BEHIND EVERY JOURNEY',
+    titleLine1: 'Thoughtful travel.',
+    titleLine2Cursive: 'Meaningful connections.',
+    video: {
+      videoId: 'k1OU4CqguLw', 
+      thumbnail: '/images/home/travel-video.webp',
+      alt: 'Artisan weaving basket during a cultural travel experience in India',
+      width: 800,
+      height: 450
+    },
+    pillars: [
+      {
+        title: 'Designed Around You',
+        subtitle: 'EVERY JOURNEY IS UNIQUE',
+        description: 'Personally crafted culturally rich travel experiences designed around your interests, pace, travel style, and aspirations.'
+      },
+      {
+        title: 'Regenerative by Design',
+        subtitle: 'TRAVEL THAT GIVES BACK',
+        description: 'Co-created with local communities to create a lasting positive impact for both travellers and communities, culture, and nature they visit.'
+      },
+      {
+        title: 'Boutique by Choice',
+        subtitle: 'QUALITY OVER QUANTITY',
+        description: 'We intentionally design a limited number of journeys each year, ensuring seamless end to end service, exceptional attention, meaningful local engagement, and authentic experiences.'
+      }
+    ],
+    bottomQuote: 'Years spent walking village lanes, sitting with artisans, restoring heritage spaces, documenting traditions, and listening to the people who shape a place have changed how I see travel. Today, every journey I design carries those conversations forward.'
+  },
+}
+
 export interface PhilosophyPillar {
   title: string
   subtitle: string

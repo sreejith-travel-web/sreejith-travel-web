@@ -92,6 +92,24 @@ export default defineNuxtConfig({
           transition: { duration: 1000, ease: [0.22, 1, 0.36, 1] }
         }
       },
+      
+      // 1. Standard hero text, paragraphs, buttons, and quotes (scale 0.01 to 1)
+      'hero-scale-in': {
+        initial: { 
+          opacity: 1, 
+          y: 30, 
+          scale: 0.01 
+        },
+        visibleOnce: {
+          opacity: 1,
+          y: 0,
+          scale: 1,
+          transition: { 
+            duration: 1000, 
+            ease: [0.22, 1, 0.36, 1] 
+          }
+        }
+      },
 
       // 2. Grid cards (Masonry, Categories, Stats - 500ms for swift staggering)
       'stagger-card': {

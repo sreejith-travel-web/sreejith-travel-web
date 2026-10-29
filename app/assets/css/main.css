@@ -10,7 +10,13 @@
   /* Typography System (Auto-wired by @nuxt/fonts) */
   --font-primary: 'Lato', sans-serif;
   --font-uppercase: 'Josefin Sans', sans-serif;
-  --font-cursive: 'Square Peg', serif;
+  --font-cursive: 'Square Peg', sans-serif;
+  /* --font-cursive: 'Bilbo Swash Caps', serif; */
+  /* --font-cursive: 'Felipa', serif; */
+  /* --font-cursive: 'Italianno', serif; */
+  /* --font-cursive: 'Bilbo', serif; */
+  /* --font-cursive: 'Style Script', serif; */
+  /* --font-cursive: 'Beau Rivage', serif; */
   --font-quote: 'Cormorant Garamond', serif;
 
   /* Core Brand Colors */
@@ -82,7 +88,7 @@
 
 /* --- Layout & Wrappers --- */
 @utility section-wrapper {
-  @apply relative w-full py-12 sm:py-16 md:py-20 xl:py-24 px-2 2xs:px-3 xs:px-5 sm:px-10 md:px-12 lg:px-16 xl:px-20 2xl:px-24 flex justify-center;
+  @apply relative w-full py-10 sm:py-14 md:py-18 xl:py-20 px-2 2xs:px-3 xs:px-5 sm:px-10 md:px-12 lg:px-16 xl:px-20 2xl:px-24 flex justify-center;
 }
 
 @utility section-title-wrapper {
@@ -90,7 +96,7 @@
 }
 
 @utility eyebrow-wrapper {
-  @apply flex items-center justify-center w-full xs:max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl px-2 mb-3 md:mb-4 max-[320px]:flex-wrap max-[320px]:gap-y-1 leading-[1.2] tracking-normal will-change-transform transition-transform duration-700 ease-editorial;
+  @apply flex items-center justify-center w-full 2xs:max-w-xs xs:max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl px-2 mb-3 md:mb-4 max-[320px]:flex-wrap max-[320px]:gap-y-1 leading-[1.2] tracking-normal will-change-transform transition-transform duration-700 ease-editorial;
 }
 
 @utility hero-cta-wrapper {

@@ -8,16 +8,23 @@ export interface AboutStat {
   description: string
 }
 
+export interface PhilosophyPillar {
+  title: string
+  subtitle: string
+  description: string
+}
+
 export interface HomeAboutContent {
+  eyebrow?: string
   greeting: string
   name: string
   designations: string[]
   paragraph: string
-  quoteText: string
-  signatureImage: string
   portraitImage: string
   portraitAlt: string
+  pillars: PhilosophyPillar[]
   stats: AboutStat[]
+  bottomQuote: string
   ctaLabel?: string
   ctaTo?: string
 }
@@ -33,12 +40,24 @@ defineProps<{
     aria-label="About Sreejith"
     class="text-primary-light overflow-hidden section-wrapper"
   >
-    <div class="w-full max-w-[1640px] mx-auto flex flex-col items-center">
+    <div class="w-full max-w-360 mx-auto flex flex-col items-center">
       
-      <!-- 1. TOP CENTERED HEADER (Title + Designations) -->
-      <div class="section-title-wrapper">
+      <!-- 1. TOP CENTERED HEADER & INTRO -->
+      <div class="relative z-10 w-full max-w-4xl flex flex-col items-center text-center mb-4 md:mb-6">
+        
+        <!-- Eyebrow -->
+        <div v-if="data.eyebrow" v-motion-fade-up class="eyebrow-wrapper">
+          <div class="bg-dark-gold/70 eyebrow-border" />
+          <h2 class="text-journey-deep/95 eyebrow-text">
+            {{ data.eyebrow }}
+          </h2>
+          <div class="bg-dark-gold/70 eyebrow-border" />
+        </div>
+
+        <!-- Main Title -->
         <h2
           v-motion-fade-up
+          :delay="100"
           class="leading-[1.2] tracking-normal mb-3 md:mb-4 will-change-transform"
         >
           <span class="text-action-blue mr-2 section-title-italic">
@@ -52,8 +71,8 @@ defineProps<{
         <!-- Designations Row -->
         <div
           v-motion-fade-up
-          :delay="100"
-          class="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-y-1.5 sm:gap-x-3 max-w-[92vw] will-change-transform"
+          :delay="150"
+          class="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-y-1.5 sm:gap-x-3 max-w-[92vw] will-change-transform mb-2 md:mb-4"
         >
           <template v-for="(role, index) in data.designations" :key="index">
             <span class="text-dark-gold section-midsubtitle mb-0">
@@ -68,41 +87,51 @@ defineProps<{
             </span>
           </template>
         </div>
+
+        <!-- Introduction Paragraph -->
+        <p
+          v-motion-fade-up
+          :delay="200"
+          class="text-journey-deep/90 section-paragraph max-w-7xl px-4 will-change-transform"
+        >
+          {{ data.paragraph }}
+        </p>
       </div>
 
-      <!-- 2. MAIN CONTENT GRID -->
-      <!-- Mobile (<768px): 1 col stacked | Tablet (768-1279px): 2 cols top, stats full row below | Desktop (1280px+): 3 cols single row -->
-      <div class="w-full grid grid-cols-1 md:grid-cols-12 gap-y-4 md:gap-x-8 lg:gap-x-12 xl:gap-x-12 2xl:gap-x-16 items-center">
+      <!-- 2. MAIN 3-COLUMN GRID -->
+      <div class="w-full grid grid-cols-1 lg:grid-cols-12 gap-y-2 xl:gap-y-4 lg:gap-x-8 xl:gap-x-12 items-center">
         
-        <!-- COLUMN A: Narrative, Quote & Golden Signature -->
-        <div class="col-span-1 md:col-span-6 xl:col-span-4 order-1 flex flex-col items-start text-left">
-          <p
+        <!-- COLUMN A: Philosophy Pillars -->
+        <!-- Mobile: Top | 1024-1279px: Bottom Full-Width 3-Col | 1280px+: Left Column -->
+        <div class="order-1 lg:order-3 xl:order-1 lg:col-span-12 xl:col-span-4 flex flex-col lg:grid lg:grid-cols-3 xl:flex xl:flex-col justify-center gap-8 md:gap-10 lg:gap-x-6 xl:gap-x-0 py-4 lg:py-8 lg:pr-0 xl:pr-4">
+          <div
+            v-for="(pillar, index) in data.pillars"
+            :key="index"
             v-motion-fade-up
-            class="text-journey-deep/90 text-center md:text-left mb-7 md:mb-8 section-paragraph"
+            :delay="index * 100"
+            class="flex flex-col items-center text-center lg:items-start lg:text-left will-change-transform"
           >
-            {{ data.paragraph }}
-          </p>
-
-          <!-- Quote with 3px Left Border -->
-          <blockquote
-            v-motion-fade-up
-            :delay="100"  
-            class="border-dark-gold quote-left-border"
-          >
-            <p class="text-journey-deep section-quote">
-              “{{ data.quoteText }}”
+            <h3 class="text-journey-deep/90 section-subtitle mb-1.5">
+              {{ pillar.title }}
+            </h3>
+            <span class="text-dark-gold section-midsubtitle">
+              {{ pillar.subtitle }}
+            </span>
+            <p class="text-journey-deep/85 section-subparagraph max-w-md">
+              {{ pillar.description }}
             </p>
-          </blockquote>
+          </div>
         </div>
 
-        <!-- COLUMN B: Center Watercolor Cutout Image (Consistent 4:5 Ratio, No Overflow Hidden, No Box Shadow) -->
+        <!-- COLUMN B: Portrait Image -->
+        <!-- Mobile: Center | 1024-1279px: Top Left | 1280px+: Center Column -->
         <div
           v-motion
-          :initial="{ opacity:0, y: 30, filter: 'blur(4px)' }"
+          :initial="{ opacity: 0, y: 30, filter: 'blur(4px)' }"
           :visible-once="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1] } }"
-          class="col-span-1 md:col-span-6 xl:col-span-4 order-2 flex flex-col items-center justify-center w-full will-change-transform"
+          class="order-2 lg:order-1 xl:order-2 lg:col-span-5 xl:col-span-4 flex flex-col items-center lg:items-end xl:items-center justify-center w-full will-change-transform"
         >
-          <div class="w-full max-w-95 sm:max-w-105 md:max-w-110 xl:max-w-120 aspect-4/5 flex items-center justify-center">
+          <div class="w-full max-w-95 sm:max-w-105 lg:max-w-full aspect-4/5 flex items-center justify-center lg:justify-end xl:justify-center">
             <img
               :src="data.portraitImage"
               :alt="data.portraitAlt"
@@ -116,57 +145,25 @@ defineProps<{
               class="w-full h-full object-contain object-center select-none transition-all duration-700 ease-out hover:brightness-[1.04] hover:saturate-[1.08] hover:scale-[1.015]"
             />
           </div>
-          
-          <!-- Intention Gold Masked Signature Logo -->
-          <!-- <div
-            v-motion
-            :initial="{ opacity:0, y: 24 }"
-            :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: [0.22, 1, 0.36, 1]} }"            
-            class="w-31.25 xs:w-35 sm:w-37.5 md:w-40 aspect-300/114 bg-dark-gold will-change-transform"
-            :style="{
-              maskImage: `url(${data.signatureImage})`,
-              WebkitMaskImage: `url(${data.signatureImage})`,
-              maskSize: 'contain',
-              WebkitMaskSize: 'contain',
-              maskRepeat: 'no-repeat',
-              WebkitMaskRepeat: 'no-repeat',
-              maskPosition: 'left center',
-              WebkitMaskPosition: 'left center'
-            }"
-          >
-            <img
-              :src="data.signatureImage"
-              :alt="data.name"
-              width="300"
-              height="114"
-              fetchpriority="low"
-              loading="lazy"
-              decoding="async"
-              draggable="false"
-              @contextmenu.prevent
-              class="h-full w-full object-contain object-left opacity-0 pointer-events-none select-none"
-            />
-          </div> -->
-        
         </div>
 
-        <!-- COLUMN C: Achievements / Statistics -->
-        <!-- Mobile (<768px): Left-aligned vertical stack | Tablet (768-1279px): 3-col horizontal center-aligned | Desktop (1280px+): Left-aligned vertical stack -->
-        <div class="col-span-1 md:col-span-12 xl:col-span-4 order-3 w-full grid grid-cols-1 md:grid-cols-3 xl:grid-cols-1 gap-y-6 md:gap-x-6 lg:gap-x-10 xl:gap-y-9 pt-2 md:pt-6 xl:pt-0">
+        <!-- COLUMN C: Statistics / Awards -->
+        <!-- Mobile: Bottom | 1024-1279px: Top Right (Left Aligned) | 1280px+: Right Column (Right Aligned) -->
+        <div class="order-3 lg:order-2 xl:order-3 lg:col-span-7 xl:col-span-4 flex flex-col items-center lg:items-start xl:items-end gap-8 md:gap-10 py-4 lg:py-8 lg:pl-4 xl:pl-2">
           <div
             v-for="(stat, index) in data.stats"
             :key="index"
             v-motion-fade-up
-            :delay="index * 120"           
-            class="flex flex-col items-center text-center xl:items-start xl:text-left will-change-transform"
+            :delay="index * 120"
+            class="flex flex-col items-center text-center lg:items-start xl:items-end lg:text-left xl:text-left will-change-transform"
           >
-            <span class="text-journey-deep mb-1.5 section-subtitle">
+            <span class="text-journey-deep/90 mb-1.5 section-subtitle">
               {{ stat.value }}
             </span>
             <span class="text-dark-gold section-midsubtitle">
               {{ stat.subtitle }}
             </span>
-            <p class="text-journey-deep/85 max-w-95 md:max-w-75 xl:max-w-95 section-subparagraph">
+            <p class="text-journey-deep/85 text-center lg:text-left xl:text-right section-subparagraph max-w-md">
               {{ stat.description }}
             </p>
           </div>
@@ -174,17 +171,27 @@ defineProps<{
 
       </div>
 
-      <!-- 3. BOTTOM CENTERED CTA BUTTON -->
-      <div
-        v-motion-fade-up
-        class="mt-10 sm:mt-12 md:mt-14 xl:mt-16 flex justify-center w-full will-change-transform"
-      >
-        <CtaButton
-          :to="data.ctaTo || '/about'"
-          :label="data.ctaLabel || 'Explore My Story'"
-          variant="light"
-        />
-      </div>
+      <!-- Bottom Quote -->
+        <p
+          v-motion-fade-up
+          :delay="200"
+          class="text-darker-gold text-center mt-4 lg:mt-6 px-4 mb-8 md:mb-10 max-w-2xl lg:max-w-3xl xl:max-w-4xl section-quote will-change-transform"
+        >
+          {{ data.bottomQuote }}
+        </p>
+
+        <!-- CTA Button -->
+        <div
+          v-motion-fade-up
+          :delay="300"
+          class="will-change-transform"
+        >
+          <CtaButton
+            :to="data.ctaTo || '/about'"
+            :label="data.ctaLabel || 'Explore My Story'"
+            variant="light"
+          />
+        </div>
 
     </div>
   </section>
