@@ -249,7 +249,7 @@ onBeforeUnmount(() => {
           <div
             v-for="(item, idx) in displayItems"
             :key="`testi-${idx}`"
-            class="relative shrink-0 w-[85vw] sm:w-lg lg:w-160 min-h-96 rounded-2xl flex flex-col justify-between p-8 sm:p-10 transition-transform duration-500 border bg-surface-medium select-none cursor-default"
+            class="relative shrink-0 w-[85vw] sm:w-lg lg:w-160 min-h-96 rounded-2xl flex flex-col justify-between p-6 md:p-8 transition-transform duration-500 border bg-surface-medium select-none cursor-default"
             :style="{ 
               '--theme-color': getCategory(item.categoryId).colorVar,
               backgroundColor: 'color-mix(in srgb, var(--theme-color) 6%, transparent)',
@@ -284,7 +284,7 @@ onBeforeUnmount(() => {
             </span> -->
 
             <!-- Top: Badge & Quote -->
-            <div class="relative z-10 flex flex-col items-start gap-5 sm:gap-6 mb-8">
+            <div class="relative z-10 flex flex-col items-start gap-5 mt-2 sm:gap-6 mb-8">
               <!-- Category Badge -->
               <span 
                 class="card-tag text-white px-3 pb-0.75 pt-1.5 rounded-sm shadow-xs"
@@ -293,7 +293,7 @@ onBeforeUnmount(() => {
                 {{ getCategory(item.categoryId).name }}
               </span>
 
-              <blockquote class="font-quote text-[18px] md:text-[20px] lg:text-[22px] leading-relaxed text-primary-light indent-4 sm:indent-6 line-clamp-5">
+              <blockquote class="font-quote text-[19px] xs:text-[20px] sm:text-[21px] md:text-[22px] lg:text-[23px] leading-relaxed text-primary-light indent-4 sm:indent-6 line-clamp-5">
                 "{{ item.quote }}"
               </blockquote>
             </div>
