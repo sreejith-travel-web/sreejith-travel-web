@@ -1,3 +1,4 @@
+<!-- ~/app/components/HomeTestimonials.vue -->
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 
@@ -37,16 +38,16 @@ const props = defineProps<{
   data: HomeTestimonialsConfig
 }>()
 
-// --- TypeScript Safe Lookup Helper ---
 const getCategory = (id: string): TestimonialCategory => {
   return props.data.categories[id] || { name: 'Unknown', colorVar: 'var(--color-journey-deep)' }
 }
 
-// --- Native Infinite Slider & Momentum Physics Engine ---
 const scrollContainer = ref<HTMLElement | null>(null)
 let animationFrameId: number | null = null
+let intersectionObserver: IntersectionObserver | null = null
+let resizeObserver: ResizeObserver | null = null
 
-// Interaction State
+// --- Physics State ---
 let isPressing = false
 let isDragging = false
 let startX = 0
@@ -56,13 +57,15 @@ let lastTime = 0
 let velocity = 1
 const autoScrollSpeed = 1
 
-// Tripling the array creates the seamless physical loop
+// --- Main Thread Protections ---
+let singleSetWidth = 0 
+let isVisible = false
+
 const displayItems = [...props.data.items, ...props.data.items, ...props.data.items]
 
-// Seamless Loop Reset Math
+// Loop using cached width (Zero Layout Thrashing)
 const checkLoop = () => {
-  if (!scrollContainer.value) return
-  const singleSetWidth = scrollContainer.value.scrollWidth / 3
+  if (!scrollContainer.value || singleSetWidth === 0) return
   
   if (scrollContainer.value.scrollLeft >= singleSetWidth * 2) {
     scrollContainer.value.scrollLeft -= singleSetWidth
@@ -71,12 +74,10 @@ const checkLoop = () => {
   }
 }
 
-// The Animation Loop
 const scrollStep = () => {
-  if (!scrollContainer.value) return
+  if (!scrollContainer.value || !isVisible) return // Yield main thread completely when off-screen
 
   if (!isPressing && !isDragging) {
-    // Apply friction to the drag velocity until it returns to the baseline autoScrollSpeed
     if (Math.abs(velocity - autoScrollSpeed) > 0.1) {
       velocity = velocity * 0.95 + autoScrollSpeed * 0.05
     } else {
@@ -89,7 +90,6 @@ const scrollStep = () => {
   animationFrameId = requestAnimationFrame(scrollStep)
 }
 
-// --- Interaction Event Handlers ---
 const onMouseDown = (e: MouseEvent) => {
   if (!scrollContainer.value) return
   isPressing = true
@@ -98,23 +98,22 @@ const onMouseDown = (e: MouseEvent) => {
   scrollLeftStart = scrollContainer.value.scrollLeft
   lastClientX = e.pageX
   lastTime = performance.now()
-  velocity = 0 // Pause auto-scroll
+  velocity = 0 
 }
 
 const onMouseMove = (e: MouseEvent) => {
   if (!isDragging || !scrollContainer.value) return
-  e.preventDefault() // Prevents native ghost-dragging
+  e.preventDefault() 
   
   const x = e.pageX - scrollContainer.value.offsetLeft
   const walk = (x - startX)
   scrollContainer.value.scrollLeft = scrollLeftStart - walk
 
-  // Calculate pixel velocity for release inertia
   const now = performance.now()
   const dt = now - lastTime
   const dx = e.pageX - lastClientX
   if (dt > 0) {
-    velocity = -(dx / dt) * 16.6 // Normalize to ~60fps frame delta
+    velocity = -(dx / dt) * 16.6 
   }
   
   lastClientX = e.pageX
@@ -124,19 +123,17 @@ const onMouseMove = (e: MouseEvent) => {
 const onMouseUpOrLeave = () => {
   isPressing = false
   isDragging = false
-  // Velocity smoothly decays in the rAF loop
 }
 
 const onTouchStart = () => {
   isPressing = true
-  velocity = 0 // Yield physics to native mobile touch scrolling
+  velocity = 0 
 }
 
 const onTouchEnd = () => {
   isPressing = false
 }
 
-// Temporarily pause auto-scroll during trackpad/mouse wheel use
 let wheelTimeout: ReturnType<typeof setTimeout>
 const onWheel = () => {
   isPressing = true
@@ -148,17 +145,46 @@ const onWheel = () => {
 }
 
 onMounted(() => {
-  if (scrollContainer.value) {
-    // Start offset into the 2nd array set so bi-directional scrolling works immediately
-    const singleSetWidth = scrollContainer.value.scrollWidth / 3
+  // Defer heavy DOM measurements until browser is idle
+  requestAnimationFrame(() => {
+    if (!scrollContainer.value) return
+
+    // Safely recalculate layout metric on window resize
+    if (typeof ResizeObserver !== 'undefined') {
+      resizeObserver = new ResizeObserver(() => {
+        if (scrollContainer.value) {
+          singleSetWidth = scrollContainer.value.scrollWidth / 3
+        }
+      })
+      resizeObserver.observe(scrollContainer.value)
+    }
+
+    // Set initial position
+    singleSetWidth = scrollContainer.value.scrollWidth / 3
     scrollContainer.value.scrollLeft = singleSetWidth
-  }
-  animationFrameId = requestAnimationFrame(scrollStep)
+
+    // Only run the 60fps loop when the user is actively looking at the section
+    if ('IntersectionObserver' in window) {
+      intersectionObserver = new IntersectionObserver((entries) => {
+        isVisible = entries[0]?.isIntersecting || false
+        if (isVisible) {
+          if (animationFrameId) cancelAnimationFrame(animationFrameId)
+          animationFrameId = requestAnimationFrame(scrollStep)
+        }
+      }, { rootMargin: '100px' })
+      intersectionObserver.observe(scrollContainer.value)
+    } else {
+      isVisible = true
+      animationFrameId = requestAnimationFrame(scrollStep)
+    }
+  })
 })
 
 onBeforeUnmount(() => {
   if (animationFrameId) cancelAnimationFrame(animationFrameId)
   clearTimeout(wheelTimeout)
+  intersectionObserver?.disconnect()
+  resizeObserver?.disconnect()
 })
 </script>
 
