@@ -300,7 +300,7 @@ onUnmounted(() => {
         loading="lazy"
         decoding="async"
         fetchpriority="low"
-        class="w-20 xs:w-22 sm:w-24 md:w-26 lg:w-28 h-auto object-contain opacity-95 drop-shadow-md"
+        class="w-20 xs:w-22 sm:w-24 md:w-26 lg:w-28 h-auto aspect-200/214 object-contain opacity-95 drop-shadow-md"
       />
     </div>
   </section>

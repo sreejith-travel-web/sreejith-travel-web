@@ -380,8 +380,17 @@ watch(totalStops, (newStops) => {
   emit('stopsChange', newStops)
 })
 
+const initAutoplayWhenIdle = () => {
+  if (typeof window !== 'undefined' && 'requestIdleCallback' in window) {
+    window.requestIdleCallback(() => startAutoplay())
+  } else {
+    setTimeout(() => startAutoplay(), 1000)
+  }
+}
+
 onMounted(() => {
-  nextTick(() => {
+  // Use requestAnimationFrame instead of nextTick to stop initial layout thrashing
+  requestAnimationFrame(() => {
     measureLayout(true)
 
     if (typeof ResizeObserver !== 'undefined') {
@@ -392,7 +401,8 @@ onMounted(() => {
       if (sampleCardRef.value) resizeObserver.observe(sampleCardRef.value)
     }
 
-    startAutoplay()
+    // Defer autoplay setup until the browser is idle
+    initAutoplayWhenIdle()
   })
 })
 
