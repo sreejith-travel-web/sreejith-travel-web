@@ -535,6 +535,8 @@ const pageData = {
     eyebrow: 'THE ART OF TRAVEL DESIGN',
     titleLine1: 'YOUR JOURNEY.',
     titleLine2Cursive: 'Thoughtfully Designed.',
+    image: '/images/home/journey-mob.webp',
+    alt: 'South Indian Tourism',
     description: 'Every meaningful journey deserves a thoughtful design. Through our proven Journey Design Framework, we transform your ideas, interests, and travel style into a bespoke experience that is uniquely yours.',
     steps: [
       {
@@ -700,6 +702,7 @@ const pageData = {
         quote: 'Every temple, village, and conversation felt deeply personal. It wasn\'t sightseeing—it was understanding a place through its people, stories, and traditions. The journey stayed with me long after I returned home.',
         avatar: '/images/testimonials/avatar.webp',
         image: '/images/home/journey-pc.webp',
+        alt: 'Experience Stories',
         ctaLabel: 'Read Story',
         ctaUrl: '/blog'
       },
@@ -711,6 +714,7 @@ const pageData = {
         quote: 'From misty mountains to hidden trails, every day felt like an adventure crafted just for me. The landscapes were breathtaking, but the quiet moments in nature became my favorite memories.',
         avatar: '/images/testimonials/avatar.webp',
         image: '/images/home/journey-pc.webp',
+        alt: 'Experience Stories',
         ctaLabel: 'Watch Video',
         ctaUrl: '/blog'
       },
@@ -722,6 +726,7 @@ const pageData = {
         quote: 'The retreat offered more than relaxation. It brought stillness, meaningful conversations, and a renewed sense of balance. I returned home feeling lighter, calmer, and deeply inspired.',
         avatar: '/images/testimonials/avatar.webp',
         image: '/images/home/journey-pc.webp',
+        alt: 'Experience Stories',
         ctaLabel: 'Read Post',
         ctaUrl: '/blog'
       },
@@ -733,6 +738,7 @@ const pageData = {
         quote: 'Every meal told a story. Cooking alongside local families, discovering regional flavors, and sharing traditions around the table made this one of the most authentic journeys I\'ve ever experienced.',
         avatar: '/images/testimonials/avatar.webp',
         image: '/images/home/journey-pc.webp',
+        alt: 'Experience Stories',
         ctaLabel: 'Explore',
         ctaUrl: '/blog'
       }

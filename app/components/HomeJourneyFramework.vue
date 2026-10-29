@@ -12,6 +12,8 @@ export interface HomeJourneyFrameworkConfig {
   eyebrow: string
   titleLine1: string
   titleLine2Cursive: string
+  image: string
+  alt: string
   description: string
   steps: JourneyStep[]
   bottomQuote: string
@@ -162,9 +164,10 @@ onBeforeUnmount(() => {
         <source media="(min-width: 768px)" srcset="/images/home/journey-pc.webp" />
         <!-- Mobile Image (Default fallback) -->
         <img 
-          src="/images/home/journey-mob.webp" 
-          alt="South Indian Tourism" 
-          role="presentation"
+          :src="data.image" 
+          :alt="data.alt || 'South Indian Tourism'"
+          width="1440"
+          height="960" 
           class="w-full h-full object-cover object-center"
           loading="lazy" 
           decoding="async"

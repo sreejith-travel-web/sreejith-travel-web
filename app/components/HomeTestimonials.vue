@@ -14,6 +14,7 @@ export interface TestimonialItem {
   quote: string
   avatar: string
   image: string
+  alt: string
   ctaLabel: string
   ctaUrl: string
 }
@@ -236,10 +237,9 @@ onBeforeUnmount(() => {
               <!-- Bg Image -->
               <img 
                 :src="item.image" 
-                alt="South Indian Tourism" 
+                :alt="item.alt || 'South Indian Tourism'" 
                 width="1440"
                 height="960"
-                role="presentation"
                 class="w-full h-full object-cover rounded-2xl object-center"
                 loading="lazy" 
                 decoding="async"
