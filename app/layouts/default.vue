@@ -9,5 +9,8 @@
     </main>
 
     <AppFooter />
+
+    <!-- Toggle palette="gold" or palette="blue" for client review -->
+    <!-- <WeavingStories palette="gold" /> -->
   </div>
 </template>

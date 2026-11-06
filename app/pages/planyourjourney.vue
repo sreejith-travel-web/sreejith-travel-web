@@ -413,7 +413,7 @@ const pageData = {
             'We explain the planning process and any applicable fees before you commit.'
           ],
           ctaLabel: 'Explore the Journal',
-          ctaTo: '/blog',
+          ctaTo: '/journal',
           secondaryCtaLabel: 'Back to Home',
           secondaryCtaTo: '/'
         }
@@ -714,8 +714,8 @@ const pageData = {
             'We contact you to clarify the opportunity and our potential role.',
             'We discuss availability, responsibilities, and commercial arrangements before any commitment.'
           ],
-          ctaLabel: 'Explore Our Services',
-          ctaTo: '/collaborate',
+          ctaLabel: 'Collaborate with us',
+          ctaTo: '/partner',
           secondaryCtaLabel: 'Back to Home',
           secondaryCtaTo: '/'
         }

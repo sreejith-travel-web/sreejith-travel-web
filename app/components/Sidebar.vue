@@ -15,9 +15,9 @@ const mainLinks = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
   { name: 'Itineraries', path: '/itineraries' },
-  { name: 'Collaborate', path: '/collaborate' },
+  { name: 'Partner', path: '/partner' },
   { name: 'Impact', path: '/impact' },
-  { name: 'Blog', path: '/blog' },
+  { name: 'Journal', path: '/journal' },
 ]
 
 const ctaLinks = [

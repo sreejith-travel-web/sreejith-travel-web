@@ -26,10 +26,6 @@ useHead({
   ]
 })
 
-const signatureIconSVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.864 4.243A7.5 7.5 0 0 1 19.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 0 0 4.5 10.5a7.464 7.464 0 0 1-1.15 3.993m1.989 3.559A11.209 11.209 0 0 0 8.25 10.5a3.75 3.75 0 1 1 7.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 0 1-3.6 9.75m6.633-4.596a18.666 18.666 0 0 1-2.485 5.33" /></svg>`;
-const collaboratedIconSVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v5"></path><path d="M12 17v5"></path><path d="M2 12h5"></path><path d="M17 12h5"></path><path d="M5.8 5.8l2.1 2.1"></path><path d="M16.1 16.1l2.1 2.1"></path><path d="M18.2 5.8l-2.1 2.1"></path><path d="M7.9 16.1l-2.1 2.1"></path><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"></circle></svg>`;
-const featuredStarSVG = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" /></svg>`;
-
 const pageData = {
   hero: {
     mode: 'slideshow' as const,
@@ -65,229 +61,166 @@ const pageData = {
   },
 
   about: {
-      eyebrow: 'ABOUT ME',
-      greeting: 'Hello,',
-      name: "I’m Sree jith",
-      designations: [
-        'Travel Experiences Designer',
-        'Sustainable Travel Expert',
-        'Art & Cultural Curator'
-      ],
-      paragraph: "Creating bespoke luxury journeys in India with a trusted local network of cultural custodians, storytellers, artisans, historians, and local experts. I approach travel as an art – bringing together meaningful encounters, rare access, authentic stories and regenerative travel that conventional tourism doesn't provide.",
-      portraitImage: '/images/home/about-sreejith.webp',
-      portraitAlt: 'Sreejith - Travel Experiences Designer & Cultural Collage',
-      pillars: [
-        {
-          title: 'Designed Around You',
-          subtitle: 'EVERY JOURNEY IS UNIQUE',
-          description: 'Personally crafted culturally rich travel experiences designed around your interests, pace, travel style, and aspirations.'
-        },
-        {
-          title: 'Regenerative by Design',
-          subtitle: 'TRAVEL THAT GIVES BACK',
-          description: 'Co-created with local communities to create a lasting positive impact for both travellers and communities, culture, and nature they visit.'
-        },
-        {
-          title: 'Boutique by Choice',
-          subtitle: 'QUALITY OVER QUANTITY',
-          description: 'We intentionally design a limited number of journeys each year, ensuring seamless end to end service, exceptional attention, meaningful local engagement, and authentic experiences.'
-        }
-      ],
-      stats: [
-        {
-          value: '2025',
-          subtitle: 'AWARD-WINNING',
-          description: 'Outlook Traveller – Responsible Tourism Award (India 2025).'
-        },
-        {
-          value: '17+ YEARS',
-          subtitle: 'RESEARCH, DISCOVERY & DESIGN',
-          description: 'Over a decade and a half of cultural research, field exploration, authentic local relationships and travel design.'
-        },
-        {
-          value: '400+',
-          subtitle: 'EXCLUSIVE LOCAL ACCESS',
-          description: 'Cultural practitioners, local storytellers and community partners.'
-        }
-      ],
-      bottomQuote: 'Years spent walking village lanes, sitting with artisans, restoring heritage spaces, documenting traditions, and listening to the people who shape a place have changed how I see travel. Today, every journey I design carries those conversations forward.',
-      ctaLabel: 'Explore My Story',
-      ctaTo: '/about'
+    eyebrow: 'ABOUT ME',
+    greeting: 'Hello,',
+    name: 'I’m Sree Jith',
+    designations: [
+      'Travel Experience Designer',
+      'Founder, Moksha Stories',
+      'Sustainable Travel Expert',
+      'Art & Cultural Curator'
+    ],
+    paragraph: 'I design bespoke journeys across India, shaped by the people, places, and living cultures that make each destination distinctive. Drawing on years of exploration and trusted local connections, I bring travellers closer to stories and experiences they might otherwise miss.',
+    portraitImageDesktop: '/images/home/about-sreejith-pc.webp',
+    portraitImageMobile: '/images/home/about-sreejith-mob.webp',
+    portraitAlt: 'Sreejith - Travel Experiences Designer & Cultural Collage',
+    stats: [
+      {
+        value: '17+',
+        subtitle: 'YEARS',
+        description: 'Research & travel design'
+      },
+      {
+        value: '400+',
+        subtitle: 'CONNECTIONS',
+        description: 'Cultural & local experts'
+      },
+      {
+        value: '120+',
+        subtitle: 'EXPERIENCES',
+        description: 'Journeys & encounters designed'
+      },
+      {
+        value: '2025',
+        subtitle: 'AWARD',
+        description: 'Responsible tourism recognition'
+      }
+    ],
+    bottomQuote: 'Places tell you where you are. Stories tell you how it was. People tell you why it matters.',
+    ctaLabel: 'Explore My Story',
+    ctaTo: '/about'
   },
-
+  
   signature: {
     eyebrow: 'SIGNATURE EXPERIENCES',
     titleLine1: 'HANDCRAFTED. IMMERSIVE.',
     titleLine2Cursive: 'Unforgettable.',
     subtitle: 'BESPOKE LUXURY TRAVEL EXPERIENCES IN SOUTH INDIA',
-    description: 'Thoughtfully crafted – influenced by its people, culture, landscapes, and stories. Each experience listed here is an idea and a source of inspiration designed to be personalised, refined, and tailored around you.',
-    bottomQuote: 'Whether you choose one as it is or use it as a starting point, every journey can be reimagined to match your interests, pace, and travel style.',
+    description:
+      'Thoughtfully crafted – influenced by its people, culture, landscapes, and stories. Each experience listed here is an idea and a source of inspiration designed to be personalised, refined, and tailored around you.',
+    bottomQuote:
+      'Whether you choose one as it is or use it as a starting point, every journey can be reimagined to match your interests, pace, and travel style.',
     ctaLabel: 'EXPLORE EXPERIENCES',
     ctaTo: '/itineraries',
     slider: {
       initialIndex: 0,
       autoplay: false,
       autoplayIntervalMs: 5500,
-      showCardOverlay: true,
-      aspectRatio: '2 / 3',
-      imageWidth: 400,
-      imageHeight: 600,
-      typeIcon: signatureIconSVG,
-      featuredIcon: featuredStarSVG,
+      infinite: true,
       slides: [
         {
-          id: 'exp-1',
+          id: 'sig-1',
+          slug: 'cultural-immersions-north-kerala',
+          type: 'signature',
+          region: 'Kerala',
+          days: 7,
+          title: 'Sacred Groves & Living Theyyam Rituals',
+          intro:
+            'Journey into the ancestral shrines of North Malabar to witness sacred Theyyam performances, privately hosted by hereditary ritual artists and temple elders.',
           image: '/images/itineraries/dummy1.webp',
           alt: 'Theyyam ritual performance in North Kerala',
-          eyebrow: 'Kerala',
-          title: 'Cultural Immersions',
-          tags: ['People', 'Traditions', 'Stories'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
+          categories: ['culture-heritage']
         },
         {
-          id: 'exp-2',
+          id: 'sig-2',
+          slug: 'high-range-tea-trails-munnar',
+          type: 'signature',
+          region: 'Munnar & Beyond',
+          days: 6,
+          title: 'Cloud Estates & planter Bungalows of the High Range',
+          intro:
+            'Follow forgotten ridge trails through misty tea gardens, staying in restored colonial bungalows with private botanists and master tea tasters.',
           image: '/images/itineraries/dummy2.webp',
           alt: 'Misty tea estates and mountain trails in Munnar',
-          eyebrow: 'Munnar & Beyond',
-          title: 'Landscapes & Retreats',
-          tags: ['Nature', 'Wellness', 'Slow Travel'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
+          categories: ['nature-wildlife']
         },
         {
-          id: 'exp-3',
+          id: 'sig-3',
+          slug: 'quiet-backwaters-river-life',
+          type: 'signature',
+          region: 'Backwaters',
+          days: 5,
+          title: 'Beyond the Lagoons: Secret Canals & Island Guilds',
+          intro:
+            'Glide aboard a handcrafted wooden kettuvallam into quiet inland waterways where coir weavers, toddy tappers, and boatwrights preserve centuries-old river rhythms.',
           image: '/images/itineraries/dummy3.webp',
           alt: 'Traditional houseboat gliding across tranquil backwaters at sunset',
-          eyebrow: 'Backwaters',
-          title: 'Rivers & Life',
-          tags: ['Water', 'Villages', 'Local Life'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
+          categories: ['slow-travel']
         },
         {
-          id: 'exp-4',
+          id: 'sig-4',
+          slug: 'chola-bronze-dravidian-temples',
+          type: 'signature',
+          region: 'Tamil Nadu',
+          days: 8,
+          title: 'Living Stone: Chola Sanctuaries & Bronze Foundries',
+          intro:
+            'Walk through thousand-pillared Dravidian temples at dawn with architectural historians and visit hereditary sthapatis casting sacred bronzes using lost-wax moulds.',
           image: '/images/itineraries/dummy4.webp',
           alt: 'Ancient Dravidian temple architecture and stone pillars',
-          eyebrow: 'Tamil Nadu',
-          title: 'Heritage Trails',
-          tags: ['Temples', 'History', 'Living Culture'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
+          categories: ['culture-heritage']
         },
         {
-          id: 'exp-5',
+          id: 'sig-5',
+          slug: 'spice-routes-culinary-homesteads',
+          type: 'signature',
+          region: 'South India',
+          days: 7,
+          title: 'Heirloom Kitchens of the Malabar & Chettinad Table',
+          intro:
+            'Cook alongside matriarchs in ancestral spice estates and Chettiar mansions, uncovering rare pepper varietals, sun-dried masalas, and temple feast traditions.',
           image: '/images/itineraries/dummy5.webp',
           alt: 'Authentic South Indian feast served on a fresh banana leaf',
-          eyebrow: 'South India',
-          title: 'Culinary Journeys',
-          tags: ['Flavours', 'People', 'Traditions'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
+          categories: ['culinary']
         },
         {
-          id: 'exp-6',
+          id: 'sig-6',
+          slug: 'malabar-coastal-escapes',
+          type: 'signature',
+          region: 'Kerala Coast',
+          days: 6,
+          title: 'Monsoon Harbours & Cliffside Sanctuaries',
+          intro:
+            'Trace the ancient maritime spice coast from historic dhow shipyards in Beypore to secluded laterite cliffs overlooking the Arabian Sea.',
           image: '/images/itineraries/dummy6.webp',
           alt: 'Palm-fringed rocky coastline at golden hour',
-          eyebrow: 'Kerala Coast',
-          title: 'Coastal Escapes',
-          tags: ['Beaches', 'Islands', 'Hidden Gems'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
+          categories: ['slow-travel']
         },
         {
-          id: 'exp-7',
+          id: 'sig-7',
+          slug: 'western-ghats-conservation-trail',
+          type: 'signature',
+          region: 'Western Ghats',
+          days: 7,
+          title: 'Rainforest Corridors & Indigenous Trackers',
+          intro:
+            'Explore UNESCO-listed biosphere reserves alongside tribal naturalists, tracking wild elephants, endemic hornbills, and nocturnal shola forest ecosystems.',
           image: '/images/itineraries/dummy7.webp',
           alt: 'Wild elephant walking through a lush forest landscape',
-          eyebrow: 'Western Ghats',
-          title: 'Into the Wild',
-          tags: ['Wildlife', 'Forests', 'Conservation'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
+          categories: ['nature-wildlife']
         },
         {
-          id: 'exp-8',
+          id: 'sig-8',
+          slug: 'craft-villages-hands-heritage',
+          type: 'signature',
+          region: 'Craft Villages',
+          days: 6,
+          title: 'Loom, Clay & Mirror: The Master Guilds of Kerala',
+          intro:
+            'Step inside private family workshops crafting Aranmula metal mirrors, Balaramapuram handlooms, and bell-metal temple lamps along the Bharathapuzha river.',
           image: '/images/itineraries/dummy8.webp',
           alt: 'Local artisan working by hand inside a traditional workshop',
-          eyebrow: 'Craft Villages',
-          title: 'Hands & Heritage',
-          tags: ['Artisans', 'Craft', 'Communities'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-9',
-          image: '/images/itineraries/dummy9.webp',
-          alt: 'Hikers following a mountain trail through the Western Ghats',
-          eyebrow: 'Highlands',
-          title: 'Trails & Treks',
-          tags: ['Trekking', 'Mountains', 'Adventure'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-10',
-          image: '/images/itineraries/dummy10.webp',
-          alt: 'Classical Indian dancer performing in traditional attire',
-          eyebrow: 'Tamil Nadu',
-          title: 'Rhythm & Ritual',
-          tags: ['Dance', 'Music', 'Performance'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-11',
-          image: '/images/itineraries/dummy11.webp',
-          alt: 'Peaceful heritage retreat surrounded by tropical greenery',
-          eyebrow: 'South India',
-          title: 'Heritage Stays',
-          tags: ['Boutique', 'Architecture', 'Slow Living'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-12',
-          image: '/images/itineraries/dummy12.webp',
-          alt: 'Fishermen navigating a traditional canoe through quiet village waters',
-          eyebrow: 'Village Kerala',
-          title: 'Life by the Water',
-          tags: ['Communities', 'Backwaters', 'Local Life'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-13',
-          image: '/images/itineraries/dummy13.webp',
-          alt: 'Traditional wellness treatment in a serene natural setting',
-          eyebrow: 'Kerala',
-          title: 'Wellness & Renewal',
-          tags: ['Ayurveda', 'Wellness', 'Mindfulness'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-14',
-          image: '/images/itineraries/dummy14.webp',
-          alt: 'Travellers sharing an intimate experience with a local community',
-          eyebrow: 'Beyond the Map',
-          title: 'Meaningful Encounters in the wildest forests',
-          tags: ['People', 'Connection', 'Stories'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
+          categories: ['arts-crafts']
         }
       ]
     }
@@ -298,174 +231,125 @@ const pageData = {
     titleLine1: 'CURATED. AUTHENTIC.',
     titleLine2Cursive: 'Exceptional.',
     subtitle: 'EXCLUSIVE PARTNERSHIP JOURNEYS ACROSS INDIA',
-    description: 'Designed in harmony with local experts, master artisans, and renowned historians. These exclusive journeys grant you unprecedented access to protected heritage sites, private estates, and intimate cultural dialogues.',
-    bottomQuote: 'Experience India through the eyes of its most passionate custodians, with journeys forged through decades of deep-rooted local relationships.',
+    description:
+      'Designed in harmony with local experts, master artisans, and renowned historians. These exclusive journeys grant you unprecedented access to protected heritage sites, private estates, and intimate cultural dialogues.',
+    bottomQuote:
+      'Experience India through the eyes of its most passionate custodians, with journeys forged through decades of deep-rooted local relationships.',
     ctaLabel: 'DISCOVER COLLABORATIONS',
     ctaTo: '/itineraries',
     slider: {
       initialIndex: 0,
       autoplay: true,
       autoplayIntervalMs: 3500,
-      showCardOverlay: true,
-      aspectRatio: '2 / 3',
-      imageWidth: 400,
-      imageHeight: 600,
-      typeIcon: collaboratedIconSVG,
-      featuredIcon: featuredStarSVG,
+      infinite: true,
       slides: [
         {
-          id: 'exp-1',
-          image: '/images/itineraries/dummy1.webp',
-          alt: 'Theyyam ritual performance in North Kerala',
-          eyebrow: 'Kerala',
-          title: 'Cultural Immersions',
-          tags: ['People', 'Traditions', 'Stories'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-2',
-          image: '/images/itineraries/dummy2.webp',
-          alt: 'Misty tea estates and mountain trails in Munnar',
-          eyebrow: 'Munnar & Beyond',
-          title: 'Landscapes & Retreats',
-          tags: ['Nature', 'Wellness', 'Slow Travel'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-3',
-          image: '/images/itineraries/dummy3.webp',
-          alt: 'Traditional houseboat gliding across tranquil backwaters at sunset',
-          eyebrow: 'Backwaters',
-          title: 'Rivers & Life',
-          tags: ['Water', 'Villages', 'Local Life'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-4',
-          image: '/images/itineraries/dummy4.webp',
-          alt: 'Ancient Dravidian temple architecture and stone pillars',
-          eyebrow: 'Tamil Nadu',
-          title: 'Heritage Trails',
-          tags: ['Temples', 'History', 'Living Culture'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-5',
-          image: '/images/itineraries/dummy5.webp',
-          alt: 'Authentic South Indian feast served on a fresh banana leaf',
-          eyebrow: 'South India',
-          title: 'Culinary Journeys',
-          tags: ['Flavours', 'People', 'Traditions'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-6',
-          image: '/images/itineraries/dummy6.webp',
-          alt: 'Palm-fringed rocky coastline at golden hour',
-          eyebrow: 'Kerala Coast',
-          title: 'Coastal Escapes',
-          tags: ['Beaches', 'Islands', 'Hidden Gems'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-7',
-          image: '/images/itineraries/dummy7.webp',
-          alt: 'Wild elephant walking through a lush forest landscape',
-          eyebrow: 'Western Ghats',
-          title: 'Into the Wild',
-          tags: ['Wildlife', 'Forests', 'Conservation'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-8',
-          image: '/images/itineraries/dummy8.webp',
-          alt: 'Local artisan working by hand inside a traditional workshop',
-          eyebrow: 'Craft Villages',
-          title: 'Hands & Heritage',
-          tags: ['Artisans', 'Craft', 'Communities'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-9',
-          image: '/images/itineraries/dummy9.webp',
-          alt: 'Hikers following a mountain trail through the Western Ghats',
-          eyebrow: 'Highlands',
-          title: 'Trails & Treks',
-          tags: ['Trekking', 'Mountains', 'Adventure'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
-        },
-        {
-          id: 'exp-10',
+          id: 'col-1',
+          slug: 'ritual-theatre-north-malabar',
+          type: 'collaborated',
+          region: 'North Kerala',
+          days: 7,
+          title: 'Rhythm & Ritual: Sacred Performance Traditions',
+          intro:
+            'An intimate immersion into Koodiyattam Sanskrit theatre and Kalaripayattu gurukulams with private archive access and evening performances.',
           image: '/images/itineraries/dummy10.webp',
           alt: 'Classical Indian dancer performing in traditional attire',
-          eyebrow: 'Tamil Nadu',
-          title: 'Rhythm & Ritual',
-          tags: ['Dance', 'Music', 'Performance'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
+          categories: ['culture-heritage'],
+          collaborator: {
+            name: 'Acharya Madhavan Nair',
+            role: 'Folklorist & Ritual Historian',
+            avatar: '/images/itineraries/dummy10.webp'
+          }
         },
         {
-          id: 'exp-11',
+          id: 'col-2',
+          slug: 'vernacular-architecture-heritage-stays',
+          type: 'collaborated',
+          region: 'South India',
+          days: 8,
+          title: 'Timber, Laterite & Courtyard Mansions',
+          intro:
+            'Explore restored Nalukettu homesteads and sacred temple carpentry across Kerala and Tamil Nadu alongside a conservation architect.',
           image: '/images/itineraries/dummy11.webp',
           alt: 'Peaceful heritage retreat surrounded by tropical greenery',
-          eyebrow: 'South India',
-          title: 'Heritage Stays',
-          tags: ['Boutique', 'Architecture', 'Slow Living'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
+          categories: ['culture-heritage'],
+          collaborator: {
+            name: 'Meenakshi Sundaram',
+            role: 'Conservation Architect',
+            avatar: '/images/itineraries/dummy11.webp'
+          }
         },
         {
-          id: 'exp-12',
+          id: 'col-3',
+          slug: 'estuary-ecology-village-waters',
+          type: 'collaborated',
+          region: 'Village Kerala',
+          days: 5,
+          title: 'Life by the Water: Pokkali Fields & Canoe Guilds',
+          intro:
+            'Document tidal rice-prawn farming, mangrove restoration, and inland fishing communities through slow canoe expeditions.',
           image: '/images/itineraries/dummy12.webp',
           alt: 'Fishermen navigating a traditional canoe through quiet village waters',
-          eyebrow: 'Village Kerala',
-          title: 'Life by the Water',
-          tags: ['Communities', 'Backwaters', 'Local Life'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
+          categories: ['slow-travel'],
+          collaborator: {
+            name: 'Dr. Thomas Varghese',
+            role: 'Estuarine Ecologist',
+            avatar: '/images/itineraries/dummy12.webp'
+          }
         },
         {
-          id: 'exp-13',
+          id: 'col-4',
+          slug: 'classical-ayurveda-ashtavaidya-lineage',
+          type: 'collaborated',
+          region: 'Kerala',
+          days: 9,
+          title: 'Ashtavaidya Healing & Botanical Sanctuaries',
+          intro:
+            'A restorative wellness retreat guided by hereditary Ayurvedic physicians, combining classical therapies with medicinal forest walks.',
           image: '/images/itineraries/dummy13.webp',
           alt: 'Traditional wellness treatment in a serene natural setting',
-          eyebrow: 'Kerala',
-          title: 'Wellness & Renewal',
-          tags: ['Ayurveda', 'Wellness', 'Mindfulness'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
+          categories: ['wellness'],
+          collaborator: {
+            name: 'Vaidyam Narayanan Mooss',
+            role: 'Hereditary Ashtavaidya Physician',
+            avatar: '/images/itineraries/dummy13.webp'
+          }
         },
         {
-          id: 'exp-14',
+          id: 'col-5',
+          slug: 'indigenous-forest-stewards-nilgiris',
+          type: 'collaborated',
+          region: 'Beyond the Map',
+          days: 6,
+          title: 'Meaningful Encounters in the Nilgiri Biosphere',
+          intro:
+            'Spend unhurried days with indigenous honey gatherers, Toda embroidery collectives, and high-altitude grassland conservationists.',
           image: '/images/itineraries/dummy14.webp',
           alt: 'Travellers sharing an intimate experience with a local community',
-          eyebrow: 'Beyond the Map',
-          title: 'Meaningful Encounters',
-          tags: ['People', 'Connection', 'Stories'],
-          to: '/itineraries/',
-          days: '7 DAYS',
-          isFeatured: true
+          categories: ['nature-wildlife'],
+          collaborator: {
+            name: 'Kavitha Kurumban',
+            role: 'Community Conservation Lead',
+            avatar: '/images/itineraries/dummy14.webp'
+          }
+        },
+        {
+          id: 'col-6',
+          slug: 'sky-islands-shola-trails',
+          type: 'collaborated',
+          region: 'Highlands',
+          days: 7,
+          title: 'Sky Islands & Ancient Escarpment Trails',
+          intro:
+            'Trek across high-altitude shola-grassland mosaics with a field naturalist studying endemic orchids and montane cloud forests.',
+          image: '/images/itineraries/dummy9.webp',
+          alt: 'Hikers following a mountain trail through the Western Ghats',
+          categories: ['nature-wildlife'],
+          collaborator: {
+            name: 'Rohan Krishnamurthy',
+            role: 'Western Ghats Field Naturalist',
+            avatar: '/images/itineraries/dummy9.webp'
+          }
         }
       ]
     }
@@ -486,7 +370,7 @@ const pageData = {
         description: 'Reconnect with wild landscapes, forests and coastlines.',
         image: '/images/itineraries/category/nature.webp',
         alt: 'Moonlit mountain lake through tropical foliage',
-        to: '/itineraries'
+        to: '/itineraries/nature'
       },
       {
         id: '02',
@@ -494,7 +378,7 @@ const pageData = {
         description: 'Discover living traditions, timeless art and heritage.',
         image: '/images/itineraries/category/culture.webp',
         alt: 'Terracotta Temple Portico at Sunset',
-        to: '/itineraries'
+        to: '/itineraries/culture'
       },
       {
         id: '03',
@@ -502,7 +386,7 @@ const pageData = {
         description: 'Find thoughtful stays rooted in comfort and local charm.',
         image: '/images/itineraries/category/stay.webp',
         alt: 'Kerala Courtyard with Golden Arches',
-        to: '/itineraries'
+        to: '/itineraries/stay'
       },
       {
         id: '04',
@@ -510,7 +394,7 @@ const pageData = {
         description: 'Follow lesser-known paths to unexpected discoveries.',
         image: '/images/itineraries/category/offbeat.webp',
         alt: 'Engraved River Trail and Compass',
-        to: '/itineraries'
+        to: '/itineraries/offbeat'
       },
       {
         id: '05',
@@ -518,7 +402,7 @@ const pageData = {
         description: 'Restore your balance through mindful, soulful journeys.',
         image: '/images/itineraries/category/wellness.webp',
         alt: 'Ochre Lotus Over Rippling Hills',
-        to: '/itineraries'
+        to: '/itineraries/wellness'
       },
       {
         id: '06',
@@ -526,7 +410,7 @@ const pageData = {
         description: 'Enjoy exceptional comfort with a deeply personal touch.',
         image: '/images/itineraries/category/bespoke.webp',
         alt: 'Teal coastal terrace under palm fronds',
-        to: '/itineraries'
+        to: '/itineraries/bespoke'
       }
     ]
   },
@@ -585,7 +469,7 @@ const pageData = {
           'For Travel Agents, designers, Tour Operators, Event Planners, DMCs & Travel Brands seeking authentic, high-quality B2B experiences across South India.',
           'Co-create sustainable, culturally immersive journeys backed by deep local knowledge, trusted networks, and seamless execution.'
         ],
-        cta: { label: 'PARTNER WITH ME', to: '/collaborate' },
+        cta: { label: 'PARTNER WITH ME', to: '/partner' },
         bgClass: 'bg-soft-cream' // soft cream
       },
       {
@@ -595,7 +479,7 @@ const pageData = {
           'We\'re always looking for Unique Stays Providers, Passionate Travel creators, storytellers, artisans, performers, and experience providers.',
           'Become part of a trusted ecosystem creating meaningful travel experiences that support local communities, environment and celebrate culture.'
         ],
-        cta: { label: 'JOIN THE NETWORK', to: '/collaborate' },
+        cta: { label: 'JOIN THE NETWORK', to: '/partner' },
         bgClass: 'bg-soft-blue' // soft blue
       }
     ],
@@ -608,7 +492,7 @@ const pageData = {
     ],
     bottomCta: {
       label: "LET'S WORK TOGETHER",
-      to: '/collaborate'
+      to: '/partner'
     }
   },
 
@@ -704,7 +588,7 @@ const pageData = {
         image: '/images/home/journey-pc.webp',
         alt: 'Experience Stories',
         ctaLabel: 'Read Story',
-        ctaUrl: '/blog'
+        ctaUrl: '/journal'
       },
       {
         id: 2,
@@ -716,7 +600,7 @@ const pageData = {
         image: '/images/home/journey-pc.webp',
         alt: 'Experience Stories',
         ctaLabel: 'Watch Video',
-        ctaUrl: '/blog'
+        ctaUrl: '/journal'
       },
       {
         id: 3,
@@ -728,7 +612,7 @@ const pageData = {
         image: '/images/home/journey-pc.webp',
         alt: 'Experience Stories',
         ctaLabel: 'Read Post',
-        ctaUrl: '/blog'
+        ctaUrl: '/journal'
       },
       {
         id: 4,
@@ -740,13 +624,13 @@ const pageData = {
         image: '/images/home/journey-pc.webp',
         alt: 'Experience Stories',
         ctaLabel: 'Explore',
-        ctaUrl: '/blog'
+        ctaUrl: '/journal'
       }
     ],
     bottomQuote: 'Travel is not merely a destination, but a new way of seeing things.',
     bottomCta: {
       label: 'READ TRAVELER STORIES',
-      to: '/blog'
+      to: '/journal'
     }
   },
 
@@ -754,67 +638,67 @@ const pageData = {
     eyebrow: 'FROM THE JOURNAL',
     titleLine1: 'STORIES THAT TRAVEL',
     titleLine2Cursive: 'Beyond the journey',
-    description: 'Observations, perspectives, and field notes from years of research and on-the-ground experience.  Exploring People, Culture, Heritage, Travel Trends, and Sustainability shaping meaningful journeys.',
+    description: 'Observations, perspectives, and field notes from years of research and on-the-ground experience. Exploring People, Culture, Heritage, Travel Trends, and Sustainability shaping meaningful journeys.',
     posts: [
-      { 
-        id: '1', 
-        slug: '/blog',
-        title: 'Behind the doors of Chettinad', 
-        excerpt: 'Step inside ancestral homes where carved courtyards, family stories, and gracious hospitality reveal the living heart of Chettinad.', 
-        category: 'LIVING HERITAGE', 
-        readTime: '7 MIN READ', 
-        image: '/images/blog/blog1.webp', 
-        alt: 'Courtyard of an ancestral Chettinad home', 
-        featured: true 
+      {
+        id: '1',
+        slug: '/journal/behind-the-doors-of-chettinad',
+        type: 'articles',
+        title: 'Behind the doors of Chettinad',
+        excerpt: 'Step inside ancestral homes where carved courtyards, family stories, and gracious hospitality reveal the living heart of Chettinad.',
+        category: 'LIVING HERITAGE',
+        readTime: '7 MIN READ',
+        tags: ['#ARCHITECTURE', '#HERITAGE', '#TAMILNADU'],
+        image: '/images/fallbacks/culture.webp',
+        alt: 'Courtyard of an ancestral Chettinad home',
+        featured: true
       },
-      { 
-        id: '2', 
-        slug: '/blog',
-        title: 'The quiet paths of the Western Ghats', 
-        excerpt: 'Follow forest trails and mist-covered ridges, discovering the quiet rhythms and remarkable biodiversity of the Western Ghats.', 
-        category: 'NATURE & TRAILS', 
-        readTime: '5 MIN READ', 
-        image: '/images/blog/blog2.webp', 
-        alt: 'Mist covered ridges of the Western Ghats' 
+      {
+        id: '2',
+        slug: '/journal/the-quiet-paths-of-the-western-ghats',
+        type: 'articles',
+        title: 'The quiet paths of the Western Ghats',
+        excerpt: 'Follow forest trails and mist-covered ridges, discovering the quiet rhythms and remarkable biodiversity of the Western Ghats.',
+        category: 'NATURE & TRAILS',
+        readTime: '5 MIN READ',
+        tags: ['#BIODIVERSITY', '#ECOLOGY', '#TRAILS'],
+        image: '/images/fallbacks/culture.webp',
+        alt: 'Mist covered ridges of the Western Ghats',
+        featured: false
       },
-      { 
-        id: '3', 
-        slug: '/blog',
-        title: 'Woven through generations', 
-        excerpt: 'Meet the artisans whose patient hands and inherited skills keep local traditions alive, weaving memory into everyday objects.', 
-        category: 'PEOPLE & CRAFT', 
-        readTime: '6 MIN READ', 
-        image: '/images/blog/blog3.webp', 
-        alt: 'Artisan weaving a traditional saree' 
+      {
+        id: '3',
+        slug: '/journal/case-study-regenerative-handloom-corridor',
+        type: 'case-studies',
+        title: 'Woven through generations',
+        excerpt: 'Meet the artisans whose patient hands and inherited skills keep local traditions alive, weaving memory into everyday objects.',
+        category: 'PEOPLE & CRAFT',
+        readTime: '6 MIN READ',
+        tags: ['#ARTISANS', '#HANDLOOM', '#CULTURE'],
+        image: '/images/fallbacks/culture.webp',
+        alt: 'Artisan weaving a traditional saree',
+        featured: false
       },
-      { 
-        id: '4', 
-        slug: '/blog',
-        title: 'A place at the Kerala table', 
-        excerpt: 'Discover the seasonal ingredients, generous kitchens, and cherished family recipes that turn a Kerala meal into a shared story.', 
-        category: 'FOOD & CULTURE', 
-        readTime: '4 MIN READ', 
-        image: '/images/blog/blog4.webp', 
-        alt: 'Traditional Kerala Sadhya served on a banana leaf' 
-      },
-      { 
-        id: '5', 
-        slug: '/blog',
-        title: 'At the water\'s pace', 
-        excerpt: 'Drift along quiet waterways, pause in village lanes, and discover how slowing down opens a deeper connection with life in Kerala.', 
-        category: 'SLOW TRAVEL', 
-        readTime: '5 MIN READ', 
-        image: '/images/blog/blog5.webp', 
-        alt: 'Man rowing a wooden boat on Kerala backwaters' 
+      {
+        id: '4',
+        slug: '/journal/a-place-at-the-kerala-table',
+        type: 'articles',
+        title: 'A place at the Kerala table',
+        excerpt: 'Discover the seasonal ingredients, generous kitchens, and cherished family recipes that turn a Kerala meal into a shared story.',
+        category: 'FOOD & CULTURE',
+        readTime: '4 MIN READ',
+        tags: ['#CULINARY', '#TRADITION', '#KERALA'],
+        image: '/images/fallbacks/culture.webp',
+        alt: 'Traditional Kerala Sadhya served on a banana leaf',
+        featured: false
       }
     ],
     bottomQuote: 'Every journey leaves a story worth carrying forward.',
     bottomCta: {
       label: 'EXPLORE THE JOURNAL',
-      to: '/blog'
+      to: '/journal'
     }
-  },
-
+  }
   
 }
 
@@ -830,10 +714,10 @@ const pageData = {
     <HomeAbout :data="pageData.about" class="bg-surface-light"/>
 
     <!-- Signature Experiences -->
-    <LazyHomeItinerarySection hydrate-on-visible :data="pageData.signature" class="bg-bg-light" />
-    
+    <LazyHomeSignatureItineraries hydrate-on-visible :data="pageData.signature" class="bg-bg-light" />
+
     <!-- Collaborated Itineraries -->
-    <LazyHomeItinerarySection hydrate-on-visible :data="pageData.collaborated" class="bg-surface-light" />
+    <LazyHomeCollaboratedItineraries hydrate-on-visible :data="pageData.collaborated" class="bg-surface-light" />
 
     <!-- Categorized Itineraries -->
     <LazyHomeCategories hydrate-on-visible :data="pageData.categories" class="bg-bg-light" />

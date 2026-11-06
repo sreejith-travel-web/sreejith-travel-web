@@ -20,7 +20,7 @@ const props = defineProps<{
   caption?: string
 }>()
 
-// Normalized config so the player works via `data`, `block` (CMS/blog), or flat props
+// Normalized config so the player works via `data`, `block` (CMS/journal), or flat props
 const config = computed<YoutubeVideoConfig>(() => {
   const source = props.data || props.block
   return {

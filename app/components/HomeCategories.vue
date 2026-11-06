@@ -71,7 +71,7 @@ defineProps<{
     </div>
 
     <!-- Masonry/Grid (1/6 -> 2/3 -> 3/2 Matrix) -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 py-4 px-4 sm:px-6 md:px-8 xl:px-12 max-w-[1600px] mx-auto mb-2 md:mb-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 py-4 px-4 sm:px-6 md:px-8 xl:px-12 max-w-[1600px] mx-auto mb-2 md:mb-4">
       <NuxtLink
         v-for="(item, index) in data.items"
         :key="item.id"

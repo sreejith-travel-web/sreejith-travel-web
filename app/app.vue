@@ -1,49 +1,53 @@
 <!-- ~/app/app.vue -->
-
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import Lenis from 'lenis'
 
 const nuxtApp = useNuxtApp()
+const isLoading = ref(true)
 const isInitialAppLoad = useInitialAppLoad()
-
-useHead({
-  htmlAttrs: {
-    // Using a getter function () => ensures Nuxt updates the DOM instantly
-    class: () => isInitialAppLoad.value ? 'is-loading' : ''
-  }
-})
 
 const isRouting = ref(false)
 let routeLoadStartTime = 0
-const MIN_LOADER_DURATION = 900
-let lenis: Lenis | undefined
+const MIN_ROUTE_TIME = 550
 
-const handleLoaderComplete = () => {
+let lenis: Lenis | undefined
+let rafId: number | null = null
+
+// Triggered by PageLoader the exact millisecond the CSS logo draw completes
+const finishInitialLoad = () => {
+  if (!isLoading.value) return
+  isLoading.value = false
   isInitialAppLoad.value = false
+  lenis?.start()
+  setTimeout(() => lenis?.resize(), 50)
 }
 
 nuxtApp.hook('page:start', () => {
+  if (isLoading.value) return
   routeLoadStartTime = Date.now()
   isRouting.value = true
+  lenis?.stop()
 })
 
 nuxtApp.hook('page:finish', () => {
+  if (isLoading.value) return
   const elapsedTime = Date.now() - routeLoadStartTime
-  const remainingTime = Math.max(0, MIN_LOADER_DURATION - elapsedTime)
+  const remainingTime = Math.max(0, MIN_ROUTE_TIME - elapsedTime)
 
   setTimeout(() => {
     isRouting.value = false
-    
-    // Force Lenis to recalculate page height after the route transition finishes
+
+    window.scrollTo(0, 0)
     if (lenis) {
-      setTimeout(() => lenis!.resize(), 50)
+      lenis.scrollTo(0, { immediate: true })
+      lenis.start()
+      setTimeout(() => lenis?.resize(), 50)
     }
-  }, remainingTime + 100)
+  }, remainingTime)
 })
 
 onMounted(() => {
-  // Unlocks CSS :active pseudo-classes on iOS Safari/Mobile
   document.body.addEventListener('touchstart', () => {}, { passive: true })
 
   if ('scrollRestoration' in history) {
@@ -51,23 +55,30 @@ onMounted(() => {
   }
   window.scrollTo(0, 0)
 
-  // Initialize Lenis Cinematic Smooth Scrolling
   lenis = new Lenis({
     duration: 1.2,
     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
     orientation: 'vertical',
     gestureOrientation: 'vertical',
-    smoothWheel: true,
+    smoothWheel: true
   })
+
+  if (isLoading.value) {
+    lenis.stop()
+  }
 
   function raf(time: number) {
     lenis?.raf(time)
-    requestAnimationFrame(raf)
+    rafId = requestAnimationFrame(raf)
   }
-  requestAnimationFrame(raf)
+  rafId = requestAnimationFrame(raf)
 })
 
 onBeforeUnmount(() => {
+  if (rafId !== null) {
+    cancelAnimationFrame(rafId)
+    rafId = null
+  }
   if (lenis) {
     lenis.destroy()
   }
@@ -76,52 +87,60 @@ onBeforeUnmount(() => {
 
 <template>
   <div class="min-h-screen bg-bg-light text-primary-light relative">
-    
-    <!-- Route Transition Weaving Mark -->
-    <Transition name="fade-logo">
+    <!-- 1. Initial Full Brand Loader (type="transition" ignores child SVG keyframes) -->
+    <Transition name="fade" type="transition">
+      <PageLoader v-if="isLoading" @complete="finishInitialLoad" />
+    </Transition>
+
+    <!-- 2. Route Transition Weaving Mark -->
+    <Transition name="fade" type="transition">
       <div
         v-if="isRouting"
-        class="fixed inset-0 z-9000 flex items-center justify-center overflow-hidden pointer-events-none bg-bg-light"
+        class="loader fixed inset-0 z-99999 flex items-center justify-center overflow-hidden pointer-events-none bg-bg-light"
       >
         <div class="w-36 sm:w-48 h-auto text-intention-blue">
-          <SvgLogoMark :draw="true" :duration-ms="600" :stagger-ms="10" />
+          <SvgLogoMark :draw="true" :duration-ms="550" :stagger-ms="7" />
         </div>
       </div>
     </Transition>
 
-    <!-- Initial Full Brand Loader -->
-    <PageLoader v-if="isInitialAppLoad" @complete="handleLoaderComplete" />
-
-    <!-- Global Floating Quick Actions & Scroll Navigation -->
-    <!-- <QuickActions /> -->
-    <!-- <ScrollNavigation /> -->
-
+    <!-- 3. Main Layout & Cached Pages -->
     <NuxtLayout>
-      <NuxtPage />
+      <NuxtPage :keepalive="{ max: 10 }" />
     </NuxtLayout>
   </div>
 </template>
 
 <style>
+body:has(.loader) {
+  overflow: hidden;
+}
+
+.fade-enter-active {
+  transition: opacity 0.18s ease;
+}
+
+.fade-leave-active {
+  transition: opacity 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0 !important;
+}
+
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 0.5s ease, filter 0.7s var(--ease-editorial);
+  transition: opacity 0.4s ease-in-out, filter 0.4s ease-in-out;
 }
 
 .page-enter-from,
 .page-leave-to {
   opacity: 0;
-  transform: translateY(-10px);
-  filter: blur(4px) brightness(0.9);
+  filter: blur(6px);
 }
 
-.fade-logo-enter-active,
-.fade-logo-leave-active {
-  transition: opacity 0.5s ease;
-}
-
-.fade-logo-enter-from,
-.fade-logo-leave-to {
-  opacity: 0;
+a, button, [role="button"], input, select, textarea {
+  touch-action: manipulation;
 }
 </style>

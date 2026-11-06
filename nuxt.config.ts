@@ -73,57 +73,57 @@ export default defineNuxtConfig({
 
   motion: {
     directives: {
-      // 1. Standard text, paragraphs, buttons, and quotes (Y: 30, 700ms)
+      // 1. Standard section text, paragraphs, buttons, and quotes
       'fade-up': {
-        initial: { opacity: 0, y: 30 },
+        initial: { opacity: 0, y: 24 },
         visibleOnce: {
           opacity: 1,
           y: 0,
           transition: { duration: 700, ease: [0.22, 1, 0.36, 1] }
         }
       },
-      
-      // 1. Standard hero text, paragraphs, buttons, and quotes (Y: 30, 700ms)
+
+      // 2. Hero fade-up option (100% opacity for FCP/LCP)
       'hero-fade-up': {
-        initial: { opacity: 1, y: 90 },
+        initial: { opacity: 1, y: 36 },
         visibleOnce: {
           opacity: 1,
           y: 0,
-          transition: { duration: 1000, ease: [0.22, 1, 0.36, 1] }
+          transition: { duration: 850, ease: [0.22, 1, 0.36, 1] }
         }
       },
-      
-      // 1. Standard hero text, paragraphs, buttons, and quotes (scale 0.01 to 1)
+
+      // 3. Hero Counter-Scale Lift (0.92 -> 1.0, 100% opacity for instant FCP/LCP)
       'hero-scale-in': {
-        initial: { 
-          opacity: 1, 
-          y: 30, 
-          scale: 0.01 
+        initial: {
+          opacity: 1,
+          y: 28,
+          scale: 0.92
         },
         visibleOnce: {
           opacity: 1,
           y: 0,
           scale: 1,
-          transition: { 
-            duration: 1000, 
-            ease: [0.22, 1, 0.36, 1] 
+          transition: {
+            duration: 850,
+            ease: [0.22, 1, 0.36, 1]
           }
         }
       },
 
-      // 2. Grid cards (Masonry, Categories, Stats - 500ms for swift staggering)
+      // 4. Grid cards (Categories, Itineraries, Journal, Stats)
       'stagger-card': {
-        initial: { opacity: 0, y: 30 },
+        initial: { opacity: 0, y: 24 },
         visibleOnce: {
           opacity: 1,
           y: 0,
-          transition: { duration: 500, ease: [0.22, 1, 0.36, 1] }
+          transition: { duration: 600, ease: [0.22, 1, 0.36, 1] }
         }
       },
 
-      // 3. Micro-UI like dot pagination (Y: 20, 500ms)
+      // 5. Micro-UI elements
       'micro-up': {
-        initial: { opacity: 0, y: 20 },
+        initial: { opacity: 0, y: 16 },
         visibleOnce: {
           opacity: 1,
           y: 0,
@@ -131,13 +131,13 @@ export default defineNuxtConfig({
         }
       },
 
-      // 4. Hero-Micro-UI like dot pagination (Y: 20, 500ms)
+      // 6. Hero Micro-UI (Slider dots & award badge - clamped to y: 24 so it never clips hero bottom)
       'hero-micro-up': {
-        initial: { opacity: 1, y: 60 },
+        initial: { opacity: 1, y: 24 },
         visibleOnce: {
           opacity: 1,
           y: 0,
-          transition: { duration: 800, ease: [0.22, 1, 0.36, 1] }
+          transition: { duration: 700, ease: [0.22, 1, 0.36, 1] }
         }
       }
     }

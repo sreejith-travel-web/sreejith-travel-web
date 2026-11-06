@@ -8,9 +8,9 @@ withDefaults(defineProps<{
   baseDelayMs?: number
 }>(), {
   draw: false,
-  staggerMs: 12,
-  durationMs: 700,
-  baseDelayMs: 200
+  staggerMs: 5,
+  durationMs: 500,
+  baseDelayMs: 220
 })
 
 const paths = [

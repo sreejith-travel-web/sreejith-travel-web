@@ -84,7 +84,7 @@ onMounted(() => {
     >
       <!-- Outer Card Container with Responsive Aspect Ratios -->
       <div 
-        class="relative w-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden aspect-4/3 sm:aspect-2/1 md:aspect-2.5/1 lg:aspect-3/1 xl:aspect-3.5/1 2xl:aspect-4/1 shadow-xl md:shadow-2xl bg-journey-deep flex items-center justify-center"
+        class="relative w-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden aspect-4/3 sm:aspect-2/1 md:aspect-2.5/1 lg:aspect-3/1 xl:aspect-3.5/1 2xl:aspect-4/1 shadow-sm bg-journey-deep flex items-center justify-center"
       >
         <!-- Background Image & Cinematic Overlays -->
         <div class="absolute inset-0 w-full h-full z-0 overflow-hidden pointer-events-none">
@@ -114,7 +114,7 @@ onMounted(() => {
           <div
             v-motion
             :initial="{ opacity:0, y: 18 }"
-            :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 900 } }"
+            :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 650 } }"
             :style="getParallax(0.25)"
             class="eyebrow-wrapper"
           >
@@ -131,7 +131,7 @@ onMounted(() => {
             <span
               v-motion
               :initial="{ opacity:0, y: 22, filter: 'blur(4px)' }"
-              :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 650, ease: [0.22, 1, 0.36, 1], delay: 1050 } }"
+              :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 650, ease: [0.22, 1, 0.36, 1], delay: 750 } }"
               :style="getParallax(0.2)"
               class="section-title-sans capitalize text-surface-light block"
             >
@@ -142,7 +142,7 @@ onMounted(() => {
             <span
               v-motion
               :initial="{ opacity:0, y: 22, filter: 'blur(4px)' }"
-              :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 1100 } }"
+              :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 850 } }"
               :style="getParallax(0.2)"
               class="section-title-cursive mt-1.5 md:mt-2 text-warm-gold"
             >
@@ -154,7 +154,7 @@ onMounted(() => {
           <p 
             v-motion
             :initial="{ opacity:0, y: 20 }"
-            :enter="{ opacity: 1, y: 0, transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 1150 } }"
+            :enter="{ opacity: 1, y: 0, transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 950 } }"
             :style="getParallax(0.15)"
             class="text-surface-light hero-paragraph"
           >

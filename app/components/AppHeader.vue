@@ -46,9 +46,9 @@ const leftLinks = [
 ]
 
 const rightLinks = [
-  { name: 'Collaborate', path: '/collaborate' },
+  { name: 'Partner', path: '/partner' },
   { name: 'Impact', path: '/impact' },
-  { name: 'Blog', path: '/blog' },
+  { name: 'Journal', path: '/journal' },
 ]
 </script>
 
@@ -63,7 +63,7 @@ const rightLinks = [
         : 'bg-journey-deep/90 border-b border-white/10 shadow-xl backdrop-blur-md'
     ]"
   >
-    <div class="flex justify-between items-center px-2 md:px-4 lg:px-6 h-16 md:h-20 mx-auto relative z-60">
+    <div class="flex justify-between items-center px-2 md:px-4 h-16 md:h-20 mx-auto relative z-60">
       
       <!-- Left Side: Hamburger & Desktop Nav -->
       <div class="flex flex-1 items-center justify-start">
