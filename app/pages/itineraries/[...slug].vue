@@ -1,12 +1,19 @@
 <!-- ~/app/pages/itineraries/[...slug].vue -->
 <script setup lang="ts">
 import { ref, computed, onMounted, nextTick } from 'vue'
-import { useRoute, useAsyncData, createError } from '#imports'
+import { useRoute, createError } from '#imports'
 import PageHero from '~/components/PageHero.vue'
 import InnerPageHeader from '~/components/InnerPageHeader.vue'
 import ItineraryFeatured from '~/components/ItineraryFeatured.vue'
 import ItinerarySingleView from '~/components/ItinerarySingleView.vue'
-import type { ItineraryMeta, ItineraryCategoryId, ItineraryFullRecord } from '~~/server/utils/itinerariesData'
+import { useTravelSeo } from '~/composables/useTravelSeo'
+import {
+  ITINERARIES_DATABASE,
+  buildDefaultItineraryParts,
+  type ItineraryMeta,
+  type ItineraryCategoryId,
+  type ItineraryFullRecord
+} from '~~/server/utils/itinerariesData'
 import type { ItineraryTabFilter } from '~/components/ItineraryListing.vue'
 
 const route = useRoute()
@@ -61,27 +68,64 @@ if (isArchiveRoute.value && slug0) {
   }
 }
 
-const { data: archiveItems } = await useAsyncData<ItineraryMeta[]>(
-  'itineraries-collection',
-  () => (isArchiveRoute.value ? $fetch('/api/itineraries') : Promise.resolve([])),
-  { default: () => [] }
+// 1. Resolve Archive Items Directly from ITINERARIES_DATABASE (Zero API 404 risk)
+const archiveItems = computed<ItineraryMeta[]>(() =>
+  ITINERARIES_DATABASE.map((entry) => entry.meta)
 )
 
-const { data: singleRecord, error: singleError } = await useAsyncData<ItineraryFullRecord | null>(
-  `itinerary-single-${slug0 || 'index'}`,
-  () => (!isArchiveRoute.value && slug0 ? $fetch(`/api/itineraries/${slug0}`) : Promise.resolve(null))
-)
+// 2. Resolve Single Itinerary Record by Slug or ID + Auto-Upgrade Legacy Items
+const singleRecord = computed<ItineraryFullRecord | null>(() => {
+  if (isArchiveRoute.value || !slug0) return null
 
-if (!isArchiveRoute.value && (singleError.value || !singleRecord.value)) {
+  const found = ITINERARIES_DATABASE.find(
+    (entry) =>
+      entry.meta.slug.toLowerCase() === slug0 ||
+      entry.meta.id.toLowerCase() === slug0
+  )
+
+  if (!found) return null
+
+  // If this item already has the new unified 5-section schema, return as-is
+  if (found.header && Array.isArray(found.sections) && found.sections.length > 0) {
+    return found
+  }
+
+  // Otherwise, auto-upgrade legacy { meta, blocks } items so all 28 routes work immediately
+  return {
+    meta: found.meta,
+    ...buildDefaultItineraryParts(found.meta)
+  }
+})
+
+if (!isArchiveRoute.value && !singleRecord.value) {
   throw createError({
     statusCode: 404,
-    statusMessage: 'Itinerary or Category Not Found',
+    statusMessage: `Itinerary "${slug0}" Not Found`,
     fatal: true
   })
 }
 
+// 3. Archive SEO (Only runs on /itineraries archive routes)
+if (isArchiveRoute.value) {
+  useTravelSeo({
+    pageTitle: 'Signature Itineraries & Bespoke Routes Across South India',
+    pageDesc:
+      'Explore handcrafted Signature circuits, Collaborated regional routes, and slow-travel blueprints across Kerala and South India.',
+    canonicalPath: '/itineraries',
+    ogImage: '/images/favicons/sreejith-og-image.jpg',
+    pageType: 'itineraries-index',
+    breadcrumbName: 'Itineraries',
+    collectionItems: archiveItems.value.map((item) => ({
+      title: item.title,
+      intro: item.intro,
+      url: `/itineraries/${item.slug}`,
+      coverImage: item.image
+    }))
+  })
+}
+
 const featuredItineraries = computed(() =>
-  (archiveItems.value || []).filter((item) => item.featured)
+  archiveItems.value.filter((item) => item.featured)
 )
 
 const pageData = {

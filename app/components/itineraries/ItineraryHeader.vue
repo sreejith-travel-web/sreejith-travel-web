@@ -57,9 +57,9 @@ defineProps<{
               </NuxtLink>
 
               <!-- Active Current Page (Distinct color, no underline) -->
-              <span
+              <span 
                 v-else
-                class="card-eyebrow mb-0! pt-1 pb-1 border-b border-transparent text-dark-gold font-semibold max-w-56 xs:max-w-72 sm:max-w-none"
+                class="card-eyebrow mb-0! pt-1.5 pb-1 border-b border-transparent text-dark-gold font-semibold"
                 aria-current="page"
               >
                 {{ crumb.label }}

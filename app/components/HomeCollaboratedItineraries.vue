@@ -562,7 +562,7 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .itinerary-slider-stage {
-  --card-w: 74%;
+  --card-w: 88%;
   --card-gap: 16px;
   --center-shift: 0;
   overflow: hidden;
@@ -578,8 +578,18 @@ onBeforeUnmount(() => {
 
 @media (min-width: 640px) {
   .itinerary-slider-stage {
-    --card-w: 41%;
+    --card-w: 56%;
     --card-gap: 20px;
+    --center-shift: 0;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
+  }
+}
+
+@media (min-width: 768px) {
+  .itinerary-slider-stage {
+    --card-w: 45%;
+    --card-gap: 22px;
     --center-shift: 0;
     -webkit-mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
     mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
@@ -588,7 +598,27 @@ onBeforeUnmount(() => {
 
 @media (min-width: 1024px) {
   .itinerary-slider-stage {
-    --card-w: 27.5%;
+    --card-w: 38%;
+    --card-gap: 24px;
+    --center-shift: 1;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
+  }
+}
+
+@media (min-width: 1280px) {
+  .itinerary-slider-stage {
+    --card-w: 32%;
+    --card-gap: 24px;
+    --center-shift: 1;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
+  }
+}
+
+@media (min-width: 1536px) {
+  .itinerary-slider-stage {
+    --card-w: 28%;
     --card-gap: 24px;
     --center-shift: 1;
     -webkit-mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);

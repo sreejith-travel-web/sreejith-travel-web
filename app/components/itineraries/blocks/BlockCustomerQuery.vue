@@ -1,8 +1,8 @@
-<!-- ~/app/components/itineraries/blocks/BlockFaq.vue -->
+<!-- ~/app/components/itineraries/blocks/BlockCustomerQuery.vue -->
 <script setup lang="ts">
 import { ref, computed, watch, onBeforeUnmount } from 'vue'
 
-export interface ItineraryFaqItem {
+export interface ItineraryCustomerQueryItem {
   id: string
   question: string
   paragraphs?: string[]
@@ -10,20 +10,19 @@ export interface ItineraryFaqItem {
   listItems?: string[]
 }
 
-export interface ItineraryFaqBlockData {
+export interface ItineraryCustomerQueryBlockData {
   sectionId?: string
   eyebrow?: string
   title: string
-  items: ItineraryFaqItem[]
+  items: ItineraryCustomerQueryItem[]
 }
 
 const props = withDefaults(
   defineProps<{
-    data: ItineraryFaqBlockData
+    data: ItineraryCustomerQueryBlockData
   }>(),
   {
     data: () => ({
-      sectionId: 'faqs',
       eyebrow: 'GOOD TO KNOW',
       title: 'Frequently Asked Questions',
       items: []
@@ -31,7 +30,9 @@ const props = withDefaults(
   }
 )
 
-// Guard: Ensure every rendered FAQ answer has at least one paragraph or unordered list item
+const instancePrefix = computed(() => props.data.sectionId || 'customer-query')
+
+// Guard: Ensure every rendered item has at least one paragraph or unordered list item
 const validItems = computed(() =>
   (props.data.items || []).filter(
     (item) => Boolean(item.paragraphs?.length || item.listItems?.length)
@@ -174,8 +175,8 @@ onBeforeUnmount(() => {
 <template>
   <section
     v-if="validItems.length"
-    :id="data.sectionId || 'faqs'"
-    aria-label="Frequently asked questions"
+    :id="data.sectionId"
+    :aria-label="data.title"
     class="scroll-mt-36 w-full rounded-2xl sm:rounded-3xl bg-bg-medium/55 border border-journey-deep/10 p-5 sm:p-8 md:p-10 shadow-2xs flex flex-col gap-6 sm:gap-7"
   >
     <!-- Header Bar + Expand All / Close All -->
@@ -197,10 +198,10 @@ onBeforeUnmount(() => {
 
       <button
         v-if="validItems.length > 1"
-        id="faq-expand-all-btn"
-        name="faq-expand-all"
+        :id="`${instancePrefix}-expand-all-btn`"
+        :name="`${instancePrefix}-expand-all`"
         type="button"
-        :aria-label="areAllExpanded ? 'Close all FAQs' : 'Expand all FAQs'"
+        :aria-label="areAllExpanded ? `Close all ${data.title}` : `Expand all ${data.title}`"
         @click="toggleExpandAll"
         class="shrink-0 card-eyebrow mb-0! pt-1 pb-1 border-b border-intention-blue/45 hover:border-intention-blue text-intention-blue font-medium tracking-[0.16em]! cursor-pointer transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-intention-blue select-none"
       >
@@ -208,7 +209,7 @@ onBeforeUnmount(() => {
       </button>
     </div>
 
-    <!-- FAQ Accordion Cards ([overflow-anchor:none] stops browser scroll-jumping) -->
+    <!-- Accordion Cards ([overflow-anchor:none] prevents browser scroll-jump) -->
     <div class="w-full flex flex-col gap-3.5 sm:gap-4 [overflow-anchor:none]">
       <article
         v-for="(item, idx) in validItems"
@@ -222,14 +223,14 @@ onBeforeUnmount(() => {
             : 'border-journey-deep/10 hover:border-intention-blue/40'
         "
       >
-        <!-- Question Trigger -->
+        <!-- Question / Clause Trigger -->
         <button
-          :id="`faq-header-${item.id}`"
+          :id="`${instancePrefix}-header-${item.id}`"
           :ref="(el) => setHeaderRef(item.id, el)"
-          :name="`faq-toggle-${item.id}`"
+          :name="`${instancePrefix}-toggle-${item.id}`"
           type="button"
           :aria-expanded="isItemOpen(item.id)"
-          :aria-controls="`faq-panel-${item.id}`"
+          :aria-controls="`${instancePrefix}-panel-${item.id}`"
           @click="toggleItem(item.id)"
           class="group w-full px-5 py-4 sm:px-7 sm:py-5 md:px-8 md:py-5.5 flex items-center justify-between gap-4 text-left cursor-pointer select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-intention-blue rounded-2xl sm:rounded-3xl"
         >
@@ -261,13 +262,13 @@ onBeforeUnmount(() => {
           </span>
         </button>
 
-        <!-- Answer Body (Optional Paragraphs & Optional Unordered List) -->
+        <!-- Answer / Clause Body (Uses ease-editorial utility directly) -->
         <div
-          :id="`faq-panel-${item.id}`"
+          :id="`${instancePrefix}-panel-${item.id}`"
           :ref="(el) => setPanelRef(item.id, el)"
           role="region"
-          :aria-labelledby="`faq-header-${item.id}`"
-          class="grid transition-[grid-template-rows] duration-300 ease-(--ease-editorial)"
+          :aria-labelledby="`${instancePrefix}-header-${item.id}`"
+          class="grid transition-[grid-template-rows] duration-300 ease-editorial"
           :class="isItemOpen(item.id) ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'"
         >
           <div class="overflow-hidden">
@@ -280,7 +281,7 @@ onBeforeUnmount(() => {
               >
                 <p
                   v-for="(paragraph, pIdx) in item.paragraphs"
-                  :key="`${item.id}-faq-p-${pIdx}`"
+                  :key="`${item.id}-p-${pIdx}`"
                   class="section-paragraph text-secondary-light/90"
                 >
                   {{ paragraph }}
@@ -302,7 +303,7 @@ onBeforeUnmount(() => {
                 <ul class="flex flex-col gap-3">
                   <li
                     v-for="(bullet, bIdx) in item.listItems"
-                    :key="`${item.id}-faq-li-${bIdx}`"
+                    :key="`${item.id}-li-${bIdx}`"
                     class="flex items-start gap-3"
                   >
                     <svg

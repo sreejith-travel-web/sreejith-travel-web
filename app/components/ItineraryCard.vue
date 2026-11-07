@@ -186,6 +186,8 @@ const headerPipeClass = computed(() => {
           :fetchpriority="eager ? 'high' : 'low'"
           class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 group-active:scale-105"
         />
+        <!-- 3. Unified Section Tint Overlay (z-20) -->
+        <div class="absolute inset-0 w-full h-full pointer-events-none z-20 bg-journey-deep/20" />
       </div>
 
       <!-- Collaborator Footer Row -->
@@ -259,7 +261,7 @@ const headerPipeClass = computed(() => {
       />
 
       <!-- 2. Signature & Essential Bottom-Right Image CTA (Transparent + Warm Gold) -->
-      <div class="itinerary-cta-circle absolute bottom-3 right-3 text-warm-gold drop-shadow-xs group-hover:scale-105 group-active:scale-105 duration-500 ease-editorial">
+      <div class="itinerary-cta-circle absolute bottom-3 right-3 z-21 text-warm-gold drop-shadow-xs group-hover:scale-105 group-active:scale-105 duration-500 ease-editorial">
         <svg
           class="w-full h-full overflow-visible"
           viewBox="0 0 44 44"
@@ -286,6 +288,9 @@ const headerPipeClass = computed(() => {
           </g>
         </svg>
       </div>
+
+      <!-- 3. Unified Section Tint Overlay (z-20) -->
+      <div class="absolute inset-0 w-full h-full pointer-events-none z-20 bg-journey-deep/30" />
     </div>
 
   </NuxtLink>

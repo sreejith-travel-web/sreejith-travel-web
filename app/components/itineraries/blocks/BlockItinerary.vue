@@ -414,7 +414,7 @@ const handleImageLightbox = (item: ItineraryAccordionItem, index: number) => {
                   v-if="item.bodySubtitle"
                   class="w-full"
                 >
-                  <span class="card-eyebrow mb-0! pt-0.5 text-intention-blue font-medium tracking-[0.18em]! block">
+                  <span class="hero-paragraph pt-0.5 text-intention-blue leading-snug font-medium block">
                     {{ item.bodySubtitle }}
                   </span>
                 </div>

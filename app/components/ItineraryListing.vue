@@ -256,7 +256,7 @@ const activeTabTitle = computed(() => {
       <!-- 5. 3-Column Equal-Height Itinerary Card Grid -->
       <div
         v-if="filteredItineraries.length > 0"
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-full items-stretch"
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-full max-w-xs xs:max-w-sm md:max-w-3xl lg:max-w-full items-center"
       >
         <ItineraryCard
           v-for="item in filteredItineraries"
