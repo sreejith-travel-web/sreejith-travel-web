@@ -1,0 +1,394 @@
+{
+  "meta": {
+    "id": "ess-2",
+    "slug": "munnar-tea-country-escape",
+    "type": "essential",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Munnar Tea Country Escape",
+    "region": "Kerala",
+    "days": 5,
+    "categories": [
+      "nature",
+      "stays",
+      "offbeat"
+    ],
+    "tags": [
+      "#MUNNAR",
+      "#TEACOUNTRY",
+      "#HIGHLANDS"
+    ],
+    "intro": "Five easy days around Munnar for tea gardens, viewpoints, short walks, cool evenings, and an unhurried hill-country break.",
+    "image": "/images/journal/journal2.webp",
+    "alt": "Misty tea covered hills and layered mountain ridges around Munnar",
+    "featuredDescription": "A dependable 5-day route focused on tea country & viewpoints, sensible logistics, comfortable pacing, and easy customization.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Tea estate visit"
+      },
+      {
+        "icon": "wellness",
+        "label": "Cool hill-country stays"
+      },
+      {
+        "icon": "temple",
+        "label": "Local town and market time"
+      },
+      {
+        "icon": "boat",
+        "label": "Reservoir viewpoints"
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "periyar-spice-hills-and-lake-trails",
+    "ooty-coonoor-and-the-nilgiri-hills",
+    "wayanad-forest-and-plantation-break"
+  ],
+  "seo": {
+    "pageTitle": "Munnar Tea Country Escape — 5-Day Essential Itinerary",
+    "pageDesc": "Five easy days around Munnar for tea gardens, viewpoints, short walks, cool evenings, and an unhurried hill-country break.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Misty tea covered hills and layered mountain ridges around Munnar",
+    "breadcrumbName": "Munnar Tea Country Escape",
+    "publishDate": "2026-11-07"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Munnar Tea Country Escape"
+      }
+    ],
+    "coverImage": "/images/journal/journal2.webp",
+    "coverAlt": "Misty tea covered hills and layered mountain ridges around Munnar",
+    "eyebrow": "Essential Blueprint",
+    "title": "Munnar Tea Country Escape",
+    "intro": "Five easy days around Munnar for tea gardens, viewpoints, short walks, cool evenings, and an unhurried hill-country break.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "5 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Easy"
+      },
+      {
+        "label": "Region",
+        "value": "Kerala"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Tea country & viewpoints"
+      },
+      {
+        "label": "Style",
+        "value": "Essential"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "STARTING BUDGET",
+    "price": "From USD 520",
+    "priceUnit": "per person",
+    "ctaTitle": "Want the simple route, adjusted for you?",
+    "ctaSubtitle": "Change the dates, stay level, pace, or one or two experiences without rebuilding the whole thing.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "shareTitle": "Munnar Tea Country Escape",
+    "shareText": "Five easy days around Munnar for tea gardens, viewpoints, short walks, cool evenings, and an unhurried hill-country break."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Keep one base in Munnar and explore outward rather than changing hotels. The emphasis is scenery, tea culture, and comfortable half-day outings."
+            ],
+            "caption": "Kochi → Munnar → Eravikulam → Top Station",
+            "highlightsTitle": "What You Get",
+            "highlights": [
+              "Tea estate visit",
+              "Cool hill-country stays",
+              "Local town and market time",
+              "Reservoir viewpoints"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "5 days, short transfers where possible, and a practical sequence that leaves room for weather, opening times, and actual human energy."
+            ],
+            "title": "Route Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Drive Into the High Range",
+                "bodySubtitle": "DAY 1 | KOCHI TO MUNNAR",
+                "listItems": [
+                  "Private transfer into the hills.",
+                  "Check in and keep the evening free."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/journal/journal2.webp",
+                    "alt": "Landscape view representing drive into the high range on the munnar tea country escape route"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Tea Country",
+                "bodySubtitle": "DAY 2 | MUNNAR",
+                "listItems": [
+                  "Tea museum or estate visit.",
+                  "Tea tasting.",
+                  "Short viewpoint stops."
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Eravikulam Morning",
+                "bodySubtitle": "DAY 3 | NATIONAL PARK",
+                "listItems": [
+                  "Morning park visit subject to access.",
+                  "Lunch back in Munnar.",
+                  "Free afternoon."
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Top Station Loop",
+                "bodySubtitle": "DAY 4 | HIGH-RANGE DRIVE",
+                "listItems": [
+                  "Scenic drive toward Top Station.",
+                  "Photo stops and short walks.",
+                  "Return before evening mist."
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Departure",
+                "bodySubtitle": "DAY 5 | ONWARD",
+                "listItems": [
+                  "Breakfast.",
+                  "Private transfer to Kochi, Thekkady, or onward route."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Simple Inclusions",
+            "items": [
+              "One Munnar base for the full stay.",
+              "Private vehicle for scheduled outings.",
+              "Tea-country guiding where useful.",
+              "Flexible weather-dependent timing."
+            ]
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Before You Go",
+            "items": [
+              "Pack a light sweater for evenings.",
+              "Carry comfortable shoes with grip.",
+              "Start viewpoints early for clearer skies.",
+              "Keep one spare half-day for weather changes."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "The pleasure of Munnar is simple: cool air, long ridgelines, tea, and nowhere urgent to be.",
+            "author": "ESSENTIAL ROUTE NOTE"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "ROUTE SNAPSHOTS",
+            "title": "A Few Visual Notes",
+            "images": [
+              {
+                "src": "/images/journal/journal2.webp",
+                "alt": "Travel image 1 supporting the munnar tea country escape journey in Kerala",
+                "width": 1200,
+                "height": 800,
+                "caption": "Route snapshot 1 from Kerala."
+              },
+              {
+                "src": "/images/home/forest-portrait.webp",
+                "alt": "Travel image 2 supporting the munnar tea country escape journey in Kerala",
+                "width": 800,
+                "height": 1050,
+                "caption": "Route snapshot 2 from Kerala."
+              },
+              {
+                "src": "/images/impact/impact1.webp",
+                "alt": "Travel image 3 supporting the munnar tea country escape journey in Kerala",
+                "width": 1200,
+                "height": 800,
+                "caption": "Route snapshot 3 from Kerala."
+              }
+            ],
+            "captionMob": false,
+            "captionPc": false
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "PRACTICAL NOTE",
+            "text": "Views are often clearest in the morning. Afternoon mist is part of Munnar, not a system failure. 😂"
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Why This Route Works",
+            "paragraphs": [
+              "This route is deliberately uncomplicated. One hill base, a few well-chosen outings, and enough free time to actually enjoy being in Munnar."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "ESSENTIAL ROUTE CURATOR • KERALA",
+            "name": "Sreejith Travel",
+            "bio": "Sreejith Travel keeps this blueprint intentionally simple, using a single base and trusted local drivers for an easy hill-country escape.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Profile placeholder representing Sreejith Travel, curator for this essential travel route"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can the route be adjusted for our dates and pace?",
+                "paragraphs": [
+                  "Yes. Essential routes are starting templates, so nights, transfer points, and activity intensity can be adjusted before confirmation."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "Who is this route best suited to?",
+                "listItems": [
+                  "Travellers wanting a straightforward 5-day plan.",
+                  "Guests interested in tea country & viewpoints.",
+                  "People who prefer dependable logistics over a heavily authored expedition."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "Are all activities fixed?",
+                "paragraphs": [
+                  "No. Weather, local opening times, transport schedules, and personal energy can change the daily order without changing the core route."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "What does the starting price cover?",
+                "listTitle": "Typical core inclusions:",
+                "listItems": [
+                  "Accommodation in the selected category.",
+                  "Private transfers listed in the route.",
+                  "Guiding or activity support where specified.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How is the booking confirmed?",
+                "paragraphs": [
+                  "A confirmation deposit is collected after the final route, stay category, and travel dates are approved. Supplier-specific non-refundable amounts are identified before payment."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What happens if dates change?",
+                "paragraphs": [
+                  "We first try to move the same services to new dates. Any cancellation or amendment cost depends on the actual hotel, transport, guide, permit, and activity terms attached to the booking."
+                ],
+                "listItems": [
+                  "Date changes remain subject to availability.",
+                  "Non-refundable supplier charges are passed through at cost.",
+                  "Any revised balance is confirmed before rebooking."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

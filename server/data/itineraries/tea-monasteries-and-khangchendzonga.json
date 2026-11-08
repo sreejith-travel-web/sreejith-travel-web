@@ -1,0 +1,527 @@
+{
+  "meta": {
+    "id": "col-6",
+    "slug": "tea-monasteries-and-khangchendzonga",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Tea, Monasteries & Khangchendzonga",
+    "region": "Sikkim & Darjeeling, India",
+    "days": 10,
+    "categories": [
+      "culture",
+      "nature",
+      "stays"
+    ],
+    "tags": [
+      "#SIKKIM",
+      "#DARJEELING",
+      "#HIMALAYA"
+    ],
+    "intro": "Connect Darjeeling tea country with Sikkim’s monasteries, village homestays, and Khangchendzonga landscapes through a route shaped by local mountain culture.",
+    "image": "/images/journal/journal5.webp",
+    "alt": "Tea slopes, monastery roofs and Khangchendzonga ridges across the eastern Himalayan foothills",
+    "collaborator": {
+      "name": "Pema Lepcha",
+      "role": "Eastern Himalayan Homestay & Culture Curator • Gangtok, Sikkim",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "An eastern Himalayan journey balancing tea heritage, Buddhist monastic landscapes, village stays, and forested ridges across Darjeeling and Sikkim.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Tea-estate interpretation and hill-town heritage in Darjeeling."
+      },
+      {
+        "icon": "temple",
+        "label": "Kalimpong nurseries, markets, and old trade-route stories."
+      },
+      {
+        "icon": "boat",
+        "label": "Monastery and market life around Gangtok."
+      },
+      {
+        "icon": "wellness",
+        "label": "Village stays and historic landscapes around Pelling and Yuksom."
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "valley-temples-and-annapurna-footpaths",
+    "dzongs-valleys-and-quiet-altitudes",
+    "monasteries-under-the-milky-way"
+  ],
+  "seo": {
+    "pageTitle": "Tea, Monasteries & Khangchendzonga | 10-Day Journey",
+    "pageDesc": "Connect Darjeeling tea country with Sikkim’s monasteries, village homestays, and Khangchendzonga landscapes through a route shaped by local mountain culture.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Tea, Monasteries & Khangchendzonga across Sikkim & Darjeeling, India for social sharing within this",
+    "breadcrumbName": "Tea, Monasteries & Khangchendzonga",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Tea, Monasteries & Khangchendzonga"
+      }
+    ],
+    "coverImage": "/images/home/journey-pc.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Sikkim & Darjeeling, India within this carefully designed",
+    "eyebrow": "Collaborated Route",
+    "title": "Tea, Monasteries & Khangchendzonga",
+    "intro": "Connect Darjeeling tea country with Sikkim’s monasteries, village homestays, and Khangchendzonga landscapes through a route shaped by local mountain culture.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "10 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Gentle mountain"
+      },
+      {
+        "label": "Region",
+        "value": "Sikkim & Darjeeling, India"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Tea, villages & monasteries"
+      },
+      {
+        "label": "Designer",
+        "value": "Pema Lepcha"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 2,300",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Tea, Monasteries & Khangchendzonga",
+    "shareText": "Connect Darjeeling tea country with Sikkim’s monasteries, village homestays, and Khangchendzonga landscapes through a route shaped by local mountain culture."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "The journey starts among Darjeeling’s tea slopes and old hill-town institutions before crossing through Kalimpong into Sikkim. Tea is treated as a working landscape, not merely a tasting stop, while the road east introduces new languages, foods, and religious traditions.",
+              "In Sikkim, the focus shifts to monasteries, forest paths, village stays, and views toward Khangchendzonga. Pema keeps the route away from unnecessary altitude chasing, preferring culturally rich western and central circuits with manageable drives."
+            ],
+            "image": "/images/itineraries/dummy5.webp",
+            "imageAlt": "Editorial travel scene showing an editorial portrait of Sikkim & Darjeeling, India landscapes and local encounters within this",
+            "imageAspectRatio": "4 / 5",
+            "caption": "Darjeeling → Kalimpong → Gangtok → Pelling → Yuksom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 10-day journey is paced around tea, villages & monasteries, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Tea Country Above the Plains",
+                "bodySubtitle": "DAYS 1–2 | DARJEELING",
+                "paragraphs": [
+                  "Begin in Darjeeling with tea-estate visits, early viewpoints when weather is clear, and walks through the town’s layered Himalayan history."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Tea garden walk with processing context.",
+                  "Heritage walk through older hill-town quarters."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy12.webp",
+                    "alt": "Editorial travel scene showing Darjeeling during the Tea, Monasteries & Khangchendzonga journey within this carefully designed cultural journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Old Trade Roads and Gardens",
+                "bodySubtitle": "DAY 3 | KALIMPONG",
+                "paragraphs": [
+                  "Continue to Kalimpong for nurseries, market culture, and the memory of trans-Himalayan trade routes that once connected this ridge town to Tibet."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Local market and nursery visit.",
+                  "Quiet monastery or viewpoint stop outside peak hours."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/home/travel-video.webp",
+                    "alt": "Editorial travel scene showing Kalimpong during the Tea, Monasteries & Khangchendzonga journey within this carefully designed cultural journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: A Contemporary Himalayan Capital",
+                "bodySubtitle": "DAYS 4–5 | GANGTOK",
+                "paragraphs": [
+                  "Cross into Sikkim and settle in Gangtok, balancing monastery visits with contemporary food, craft, and urban culture."
+                ],
+                "listItems": [
+                  "Monastery visit with local interpretation.",
+                  "Evening food walk focused on regional dishes."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/impact/impact1.webp",
+                    "alt": "Editorial travel scene showing Gangtok during the Tea, Monasteries & Khangchendzonga journey within this carefully designed cultural journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Ridges Facing Khangchendzonga",
+                "bodySubtitle": "DAYS 6–7 | PELLING",
+                "paragraphs": [
+                  "Travel west to Pelling for monastery landscapes, village roads, and clear-weather views toward Khangchendzonga, using two nights to avoid constant repacking."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Pemayangtse or comparable heritage visit.",
+                  "Short village and forest walk around the western ridge."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/home/forest-portrait.webp",
+                    "alt": "Editorial travel scene showing Pelling during the Tea, Monasteries & Khangchendzonga journey within this carefully designed cultural journey"
+                  },
+                  {
+                    "src": "/images/home/journey-mob.webp",
+                    "alt": "Editorial travel scene showing Pelling during the Tea, Monasteries & Khangchendzonga journey within this carefully designed cultural journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: The Historic Western Gateway",
+                "bodySubtitle": "DAYS 8–9 | YUKSOM",
+                "paragraphs": [
+                  "Continue to Yuksom for old coronation history, Dubdi Monastery, and gentle walks in the forested foothills, with longer trekking kept optional."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Historic village and monastery walk.",
+                  "Optional short trail section toward the Khangchendzonga trekking corridor."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/impact/impact3.webp",
+                    "alt": "Editorial travel scene showing Yuksom during the Tea, Monasteries & Khangchendzonga journey within this carefully designed cultural journey"
+                  },
+                  {
+                    "src": "/images/impact/impact4.webp",
+                    "alt": "Editorial travel scene showing Yuksom during the Tea, Monasteries & Khangchendzonga journey within this carefully designed cultural journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure & Onward Connections",
+                "bodySubtitle": "DAY 10 | SIKKIM",
+                "paragraphs": [
+                  "Transfer toward the nearest practical rail or airport connection with a large road-time buffer."
+                ],
+                "listItems": [
+                  "Road buffer for mountain conditions.",
+                  "No major activity scheduled before the onward journey."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Tea-estate, boutique hill hotel, and village stay combination.",
+              "Private mountain vehicle with driver experienced on regional roads.",
+              "Local guides used for monasteries, tea, and village interpretation.",
+              "Permit-dependent areas only added after checking current requirements."
+            ],
+            "image": "/images/fallbacks/culture.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Sikkim & Darjeeling, India within this carefully",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Layered clothing for cool mornings and variable hill weather.",
+              "Walking shoes with grip for wet stone and forest paths.",
+              "A light rain shell outside the driest months.",
+              "Modest clothing for monasteries and village visits."
+            ]
+          }
+        },
+        {
+          "type": "slider",
+          "data": {
+            "eyebrow": "ROUTE IN FRAMES",
+            "title": "Selected Landscapes & Stays",
+            "images": [
+              {
+                "src": "/images/impact/impact3.webp",
+                "alt": "Editorial travel scene showing landscape detail from Sikkim & Darjeeling, India on Tea, Monasteries & Khangchendzonga within this",
+                "caption": "Visual field note 1 from the landscapes and cultural atmosphere of Sikkim & Darjeeling, India."
+              },
+              {
+                "src": "/images/impact/impact4.webp",
+                "alt": "Editorial travel scene showing landscape detail from Sikkim & Darjeeling, India on Tea, Monasteries & Khangchendzonga within this",
+                "caption": "Visual field note 2 from the landscapes and cultural atmosphere of Sikkim & Darjeeling, India."
+              },
+              {
+                "src": "/images/impact/impact5.webp",
+                "alt": "Editorial travel scene showing landscape detail from Sikkim & Darjeeling, India on Tea, Monasteries & Khangchendzonga within this",
+                "caption": "Visual field note 3 from the landscapes and cultural atmosphere of Sikkim & Darjeeling, India."
+              },
+              {
+                "src": "/images/impact/impact6.webp",
+                "alt": "Editorial travel scene showing landscape detail from Sikkim & Darjeeling, India on Tea, Monasteries & Khangchendzonga within this",
+                "caption": "Visual field note 4 from the landscapes and cultural atmosphere of Sikkim & Darjeeling, India."
+              },
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Editorial travel scene showing landscape detail from Sikkim & Darjeeling, India on Tea, Monasteries & Khangchendzonga within this",
+                "caption": "Visual field note 5 from the landscapes and cultural atmosphere of Sikkim & Darjeeling, India."
+              }
+            ],
+            "width": 1200,
+            "height": 800,
+            "autoplay": false,
+            "interval": 5000,
+            "captionMob": false,
+            "captionPc": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "The eastern Himalaya is best read in layers: tea, cloud, monastery bell, market road, and mountain beyond.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/impact/impact6.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Sikkim & Darjeeling, India within this carefully designed cultural",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Sikkim & Darjeeling, India, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/home/journey-mob.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Sikkim & Darjeeling, India within this carefully designed cultural",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Sikkim & Darjeeling, India, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/journal/journal2.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Sikkim & Darjeeling, India within this carefully designed cultural",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Sikkim & Darjeeling, India, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": false,
+            "captionPc": true
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "PERMIT & WEATHER NOTE",
+            "text": "Sikkim has permit-controlled areas and mountain roads that can be affected by weather or landslides. This route intentionally avoids making permit-dependent high-altitude excursions essential to the journey."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "The Mountain Is Not the Only Story",
+            "paragraphs": [
+              "Khangchendzonga may dominate the horizon, but the journey is built around what happens below it: tea workers, monasteries, homestays, nurseries, and market streets.",
+              "That human scale keeps the route resilient even when cloud hides the great peaks, which is exactly how a mountain journey should be designed."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "EASTERN HIMALAYAN HOMESTAY & CULTURE CURATOR • GANGTOK, SIKKIM",
+            "name": "Pema Lepcha",
+            "bio": "Pema curates eastern Himalayan journeys around homestays, tea landscapes, monasteries, and community stories, with practical attention to weather, roads, and permit realities.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Pema Lepcha for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Tea, Monasteries & Khangchendzonga be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Pema Lepcha’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Sikkim has permit-controlled areas and mountain roads that can be affected by weather or landslides. This route intentionally avoids making permit-dependent high-altitude excursions essential to the journey."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as gentle mountain. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

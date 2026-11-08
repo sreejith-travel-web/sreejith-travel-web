@@ -1,0 +1,523 @@
+{
+  "meta": {
+    "id": "col-12",
+    "slug": "hebridean-roads-and-highland-memory",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Hebridean Roads & Highland Memory",
+    "region": "Scotland",
+    "days": 10,
+    "categories": [
+      "culture",
+      "nature",
+      "offbeat"
+    ],
+    "tags": [
+      "#SCOTLAND",
+      "#HEBRIDES",
+      "#GAELIC"
+    ],
+    "intro": "Travel from the Highlands to Skye and the Outer Hebrides through Gaelic culture, crofting landscapes, archaeology, ferries, and Atlantic weather.",
+    "image": "/images/impact/impact6.webp",
+    "alt": "Hebridean beaches, stone ruins and Highland roads stretching beneath dramatic Atlantic weather",
+    "collaborator": {
+      "name": "Fiona MacLeod",
+      "role": "Gaelic Landscape & Island Culture Curator • Inverness, Scotland",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A Scotland journey shaped by island ferries, Gaelic place names, archaeology, crofting history, and the slower roads of Skye, Harris, and Lewis.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Highland road journey through Wester Ross with long scenic pauses."
+      },
+      {
+        "icon": "temple",
+        "label": "Three nights on Skye for landscape, food, and local cultural context."
+      },
+      {
+        "icon": "boat",
+        "label": "Ferry crossing to Harris and time in crofting communities."
+      },
+      {
+        "icon": "wellness",
+        "label": "Lewis archaeology and Gaelic heritage without rushing the island roads."
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "fjords-ferries-and-lofoten-light",
+    "dolomite-paths-and-soca-waters",
+    "pueblo-skies-and-desert-modernism"
+  ],
+  "seo": {
+    "pageTitle": "Hebridean Roads & Highland Memory | 10-Day Scotland Journey",
+    "pageDesc": "Travel from the Highlands to Skye and the Outer Hebrides through Gaelic culture, crofting landscapes, archaeology, ferries, and Atlantic weather.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Hebridean Roads & Highland Memory across Scotland for social sharing within this carefully designed",
+    "breadcrumbName": "Hebridean Roads & Highland Memory",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Hebridean Roads & Highland Memory"
+      }
+    ],
+    "coverImage": "/images/journal/journal3.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Scotland within this carefully designed cultural journey",
+    "eyebrow": "Collaborated Route",
+    "title": "Hebridean Roads & Highland Memory",
+    "intro": "Travel from the Highlands to Skye and the Outer Hebrides through Gaelic culture, crofting landscapes, archaeology, ferries, and Atlantic weather.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "10 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Slow road"
+      },
+      {
+        "label": "Region",
+        "value": "Scotland"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Gaelic culture & islands"
+      },
+      {
+        "label": "Designer",
+        "value": "Fiona MacLeod"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 4,400",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Hebridean Roads & Highland Memory",
+    "shareText": "Travel from the Highlands to Skye and the Outer Hebrides through Gaelic culture, crofting landscapes, archaeology, ferries, and Atlantic weather."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "This route is less about famous castles than about how people live on exposed edges of land. From Inverness, the road moves west through Highland glens and sea lochs before crossing to Skye and then by ferry into the Outer Hebrides.",
+              "Fiona layers Gaelic language, crofting history, archaeology, island food, and Atlantic weather into the route. Ferry days remain deliberately light because the crossing itself is part of the experience."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 10-day journey is paced around gaelic culture & islands, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Into the Northwest Highlands",
+                "bodySubtitle": "DAYS 1–2 | INVERNESS & WESTER ROSS",
+                "paragraphs": [
+                  "Begin around Inverness before driving west through glens, lochs, and small communities, using the road to introduce Highland history and land use."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Local history walk or museum visit.",
+                  "Slow scenic drive with short coastal stops."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy12.webp",
+                    "alt": "Editorial travel scene showing Inverness & Wester Ross during the Hebridean Roads & Highland Memory journey within this"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: An Island Beyond Viewpoints",
+                "bodySubtitle": "DAYS 3–5 | ISLE OF SKYE",
+                "paragraphs": [
+                  "Stay three nights on Skye and resist the temptation to chase every famous viewpoint. Use one area at a time for walking, food, geology, and community stories."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Weather-dependent coastal or hill walk.",
+                  "Dinner focused on island seafood and produce."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/journal/journal1.webp",
+                    "alt": "Editorial travel scene showing Isle of Skye during the Hebridean Roads & Highland Memory journey within this carefully"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Crossing the Minch",
+                "bodySubtitle": "DAY 6 | FERRY TO HARRIS",
+                "paragraphs": [
+                  "Travel by ferry to the Outer Hebrides and keep the rest of the day intentionally quiet, allowing weather, harbour arrival, and island orientation to set the pace."
+                ],
+                "listItems": [
+                  "Ferry crossing treated as part of the journey.",
+                  "Short Harris beach or village walk after arrival."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/journal/journal2.webp",
+                    "alt": "Editorial travel scene showing Ferry to Harris during the Hebridean Roads & Highland Memory journey within this carefully"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Crofting, Cloth and Atlantic Edge",
+                "bodySubtitle": "DAYS 7–8 | HARRIS",
+                "paragraphs": [
+                  "Explore Harris through crofting landscapes, weaving traditions, beaches, and low-key village roads rather than long mileage."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Context around Harris Tweed production and crofting.",
+                  "Coastal walk chosen according to wind and tide."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/home/forest-portrait.webp",
+                    "alt": "Editorial travel scene showing Harris during the Hebridean Roads & Highland Memory journey within this carefully designed cultural"
+                  },
+                  {
+                    "src": "/images/home/journey-mob.webp",
+                    "alt": "Editorial travel scene showing Harris during the Hebridean Roads & Highland Memory journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Stone, Peat and Deep Time",
+                "bodySubtitle": "DAY 9 | LEWIS",
+                "paragraphs": [
+                  "Move north to Lewis for archaeology, peat landscapes, and Gaelic cultural context, keeping the day focused rather than scattered."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Visit a major archaeological site with interpretation.",
+                  "Evening conversation or cultural programme when available."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/journal/journal4.webp",
+                    "alt": "Editorial travel scene showing Lewis during the Hebridean Roads & Highland Memory journey within this carefully designed cultural"
+                  },
+                  {
+                    "src": "/images/journal/journal5.webp",
+                    "alt": "Editorial travel scene showing Lewis during the Hebridean Roads & Highland Memory journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure & Onward Connections",
+                "bodySubtitle": "DAY 10 | STORNOWAY",
+                "paragraphs": [
+                  "Depart from Stornoway or connect onward by ferry, with weather contingency protected."
+                ],
+                "listItems": [
+                  "Flexible airport or ferry transfer.",
+                  "No fixed final-morning activity."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Small Highland hotels and island inns with strong local character.",
+              "Ferry bookings integrated into the route from the beginning.",
+              "Driving days kept short enough for unscheduled weather stops.",
+              "Local cultural interpretation rather than folklore-only storytelling."
+            ],
+            "image": "/images/impact/impact1.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Scotland within this carefully designed cultural journey",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Waterproof jacket and warm layers regardless of season.",
+              "Walking shoes suitable for wet grass, peat, and rocky coast.",
+              "Small binoculars for coastal wildlife if desired.",
+              "Flexible mindset for ferries, wind, and rapidly changing weather."
+            ]
+          }
+        },
+        {
+          "type": "slider",
+          "data": {
+            "eyebrow": "ROUTE IN FRAMES",
+            "title": "Selected Landscapes & Stays",
+            "images": [
+              {
+                "src": "/images/impact/impact4.webp",
+                "alt": "Editorial travel scene showing landscape detail from Scotland on Hebridean Roads & Highland Memory within this carefully designed",
+                "caption": "Visual field note 1 from the landscapes and cultural atmosphere of Scotland."
+              },
+              {
+                "src": "/images/impact/impact5.webp",
+                "alt": "Editorial travel scene showing landscape detail from Scotland on Hebridean Roads & Highland Memory within this carefully designed",
+                "caption": "Visual field note 2 from the landscapes and cultural atmosphere of Scotland."
+              },
+              {
+                "src": "/images/impact/impact6.webp",
+                "alt": "Editorial travel scene showing landscape detail from Scotland on Hebridean Roads & Highland Memory within this carefully designed",
+                "caption": "Visual field note 3 from the landscapes and cultural atmosphere of Scotland."
+              },
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Editorial travel scene showing landscape detail from Scotland on Hebridean Roads & Highland Memory within this carefully designed",
+                "caption": "Visual field note 4 from the landscapes and cultural atmosphere of Scotland."
+              },
+              {
+                "src": "/images/journal/journal2.webp",
+                "alt": "Editorial travel scene showing landscape detail from Scotland on Hebridean Roads & Highland Memory within this carefully designed",
+                "caption": "Visual field note 5 from the landscapes and cultural atmosphere of Scotland."
+              }
+            ],
+            "width": 1200,
+            "height": 800,
+            "autoplay": false,
+            "interval": 5000,
+            "captionMob": false,
+            "captionPc": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "The islands do not reward hurry. Weather closes one door and opens another view, another conversation, another road.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/home/forest-landscape.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Scotland within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Scotland, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy10.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Scotland within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Scotland, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/home/journey-pc1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Scotland within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Scotland, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": false,
+            "captionPc": true
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "FERRY & ISLAND ETIQUETTE",
+            "text": "Island transport is weather-sensitive and communities are small. Ferry buffers, respectful parking, closed gates, livestock, and private croft land should all be treated as part of responsible travel."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Memory Held in Roads and Place Names",
+            "paragraphs": [
+              "Skye, Harris, and Lewis are visually spectacular, but the deeper route lives in language, crofting systems, archaeology, and the practical realities of island life.",
+              "The best days often begin with a plan and become something better because weather forces it to change."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "GAELIC LANDSCAPE & ISLAND CULTURE CURATOR • INVERNESS, SCOTLAND",
+            "name": "Fiona MacLeod",
+            "bio": "Fiona curates Highland and Hebridean journeys through Gaelic culture, crofting history, archaeology, ferries, and local food, with weather flexibility built into every day.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Fiona MacLeod for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Hebridean Roads & Highland Memory be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Fiona MacLeod’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Island transport is weather-sensitive and communities are small. Ferry buffers, respectful parking, closed gates, livestock, and private croft land should all be treated as part of responsible travel."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as slow road. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

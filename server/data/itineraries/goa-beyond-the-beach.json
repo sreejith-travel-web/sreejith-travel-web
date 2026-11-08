@@ -1,0 +1,400 @@
+{
+  "meta": {
+    "id": "ess-11",
+    "slug": "goa-beyond-the-beach",
+    "type": "essential",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Goa Beyond the Beach",
+    "region": "Goa",
+    "days": 5,
+    "categories": [
+      "culture",
+      "stays",
+      "offbeat"
+    ],
+    "tags": [
+      "#GOA",
+      "#FONTAINHAS",
+      "#COAST"
+    ],
+    "intro": "Five days balancing Old Goa, Panjim, Fontainhas, local food, village drives, and enough coast to remember that this is still Goa.",
+    "image": "/images/journal/journal1.webp",
+    "alt": "Warm heritage architecture and shaded courtyard details evoking old neighbourhoods in Goa",
+    "featuredDescription": "A dependable 5-day route focused on heritage, food & coast, sensible logistics, comfortable pacing, and easy customization.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "label": "Old Goa heritage"
+      },
+      {
+        "icon": "village",
+        "label": "Fontainhas and local neighbourhoods"
+      },
+      {
+        "icon": "boat",
+        "label": "Coastal time"
+      },
+      {
+        "icon": "wellness",
+        "label": "Relaxed boutique stay"
+      }
+    ],
+    "collaborator": {
+      "name": "Ines D'Souza",
+      "role": "Goa Culture & Food Curator",
+      "avatar": "/images/testimonials/avatar.webp"
+    }
+  },
+  "relatedSlugs": [
+    "alleppey-backwaters-and-village-life",
+    "fort-kochi-heritage-weekend",
+    "pondicherry-and-the-coromandel-coast"
+  ],
+  "seo": {
+    "pageTitle": "Goa Beyond the Beach — 5-Day Essential Itinerary",
+    "pageDesc": "Five days balancing Old Goa, Panjim, Fontainhas, local food, village drives, and enough coast to remember that this is still Goa.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Warm heritage architecture and shaded courtyard details evoking old neighbourhoods in Goa",
+    "breadcrumbName": "Goa Beyond the Beach",
+    "publishDate": "2026-11-07"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Goa Beyond the Beach"
+      }
+    ],
+    "coverImage": "/images/journal/journal1.webp",
+    "coverAlt": "Warm heritage architecture and shaded courtyard details evoking old neighbourhoods in Goa",
+    "eyebrow": "Essential Blueprint",
+    "title": "Goa Beyond the Beach",
+    "intro": "Five days balancing Old Goa, Panjim, Fontainhas, local food, village drives, and enough coast to remember that this is still Goa.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "5 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Easy"
+      },
+      {
+        "label": "Region",
+        "value": "Goa"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Heritage, food & coast"
+      },
+      {
+        "label": "Style",
+        "value": "Essential"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "STARTING BUDGET",
+    "price": "From USD 620",
+    "priceUnit": "per person",
+    "ctaTitle": "Want the simple route, adjusted for you?",
+    "ctaSubtitle": "Change the dates, stay level, pace, or one or two experiences without rebuilding the whole thing.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "shareTitle": "Goa Beyond the Beach",
+    "shareText": "Five days balancing Old Goa, Panjim, Fontainhas, local food, village drives, and enough coast to remember that this is still Goa."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Use Panjim or a nearby heritage area as the first base, then finish closer to the coast if desired. The route balances culture and beach without pretending either one needs to win."
+            ],
+            "caption": "Panjim → Old Goa → Fontainhas → South Goa",
+            "highlightsTitle": "What You Get",
+            "highlights": [
+              "Old Goa heritage",
+              "Fontainhas and local neighbourhoods",
+              "Coastal time",
+              "Relaxed boutique stay"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "5 days, short transfers where possible, and a practical sequence that leaves room for weather, opening times, and actual human energy."
+            ],
+            "title": "Route Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Panjim Arrival",
+                "bodySubtitle": "DAY 1 | PANJIM",
+                "listItems": [
+                  "Check in.",
+                  "Evening riverfront or neighbourhood walk.",
+                  "Easy dinner."
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Old Goa & Fontainhas",
+                "bodySubtitle": "DAY 2 | HERITAGE DAY",
+                "listItems": [
+                  "Major churches and historic core.",
+                  "Fontainhas walk.",
+                  "Local lunch."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/journal/journal1.webp",
+                    "alt": "Landscape view representing old goa & fontainhas on the goa beyond the beach route"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Food & Villages",
+                "bodySubtitle": "DAY 3 | CENTRAL GOA",
+                "listItems": [
+                  "Market or village stop.",
+                  "Hosted meal or food walk.",
+                  "Free afternoon."
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Coast Day",
+                "bodySubtitle": "DAY 4 | SOUTH OR CENTRAL COAST",
+                "listItems": [
+                  "Move toward the coast if changing base.",
+                  "Beach time.",
+                  "No compulsory cultural enrichment after 4 p.m. 😂"
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Departure",
+                "bodySubtitle": "DAY 5 | GOA",
+                "listItems": [
+                  "Breakfast.",
+                  "Airport transfer."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Goa Route Basics",
+            "items": [
+              "Private airport transfers.",
+              "One heritage-focused guided day.",
+              "Optional food or village experience.",
+              "Flexible coastal time."
+            ]
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Before You Go",
+            "items": [
+              "Pack lightweight clothing.",
+              "Carry respectful attire for church visits.",
+              "Use sun protection.",
+              "Avoid scheduling long cross-state drives during peak traffic windows."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "Goa becomes more interesting the moment the beach stops being the only sentence.",
+            "author": "ESSENTIAL ROUTE NOTE"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "ROUTE SNAPSHOTS",
+            "title": "A Few Visual Notes",
+            "images": [
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Travel image 1 supporting the goa beyond the beach journey in Goa",
+                "width": 1200,
+                "height": 800,
+                "caption": "Route snapshot 1 from Goa."
+              },
+              {
+                "src": "/images/home/solo-landscape.webp",
+                "alt": "Travel image 2 supporting the goa beyond the beach journey in Goa",
+                "width": 1200,
+                "height": 800,
+                "caption": "Route snapshot 2 from Goa."
+              },
+              {
+                "src": "/images/journal/journal4.webp",
+                "alt": "Travel image 3 supporting the goa beyond the beach journey in Goa",
+                "width": 1200,
+                "height": 800,
+                "caption": "Route snapshot 3 from Goa."
+              }
+            ],
+            "captionMob": false,
+            "captionPc": true
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "PRACTICAL NOTE",
+            "text": "Choose the base based on what matters more: Panjim and heritage access, or immediate beach time. Trying to be beside everything usually means being beside traffic."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Why This Route Works",
+            "paragraphs": [
+              "This is still an easy holiday. It simply gives Goa a little more context before handing the afternoon back to the sea."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "GOA CULTURE & FOOD CURATOR • GOA",
+            "name": "Ines D'Souza",
+            "bio": "Ines builds easy Goa routes around neighbourhood history, regional food, village life, and sensible combinations with coastal stays.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Profile placeholder representing Ines D'Souza, curator for this essential travel route"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can the route be adjusted for our dates and pace?",
+                "paragraphs": [
+                  "Yes. Essential routes are starting templates, so nights, transfer points, and activity intensity can be adjusted before confirmation."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "Who is this route best suited to?",
+                "listItems": [
+                  "Travellers wanting a straightforward 5-day plan.",
+                  "Guests interested in heritage, food & coast.",
+                  "People who prefer dependable logistics over a heavily authored expedition."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "Are all activities fixed?",
+                "paragraphs": [
+                  "No. Weather, local opening times, transport schedules, and personal energy can change the daily order without changing the core route."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "What does the starting price cover?",
+                "listTitle": "Typical core inclusions:",
+                "listItems": [
+                  "Accommodation in the selected category.",
+                  "Private transfers listed in the route.",
+                  "Guiding or activity support where specified.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How is the booking confirmed?",
+                "paragraphs": [
+                  "A confirmation deposit is collected after the final route, stay category, and travel dates are approved. Supplier-specific non-refundable amounts are identified before payment."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What happens if dates change?",
+                "paragraphs": [
+                  "We first try to move the same services to new dates. Any cancellation or amendment cost depends on the actual hotel, transport, guide, permit, and activity terms attached to the booking."
+                ],
+                "listItems": [
+                  "Date changes remain subject to availability.",
+                  "Non-refundable supplier charges are passed through at cost.",
+                  "Any revised balance is confirmed before rebooking."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

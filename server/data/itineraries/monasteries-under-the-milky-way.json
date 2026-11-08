@@ -1,0 +1,499 @@
+{
+  "meta": {
+    "id": "col-5",
+    "slug": "monasteries-under-the-milky-way",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": true,
+    "title": "Monasteries Under the Milky Way",
+    "region": "Ladakh, India",
+    "days": 9,
+    "categories": [
+      "culture",
+      "nature",
+      "offbeat"
+    ],
+    "tags": [
+      "#LADAKH",
+      "#MONASTERIES",
+      "#DARKSKY"
+    ],
+    "intro": "Explore Ladakh through Indus monasteries, old villages, high-desert landscapes, and dark-sky nights, with acclimatisation treated as part of the design.",
+    "image": "/images/journal/journal3.webp",
+    "alt": "Ladakh monastery ridges, high desert villages and star-filled skies above the Indus valley",
+    "collaborator": {
+      "name": "Tsering Namgyal",
+      "role": "High-Altitude Naturalist & Cultural Guide • Leh, Ladakh",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A high-altitude Ladakh journey where monastery culture, village architecture, desert ecology, and night skies are paced around responsible acclimatisation."
+  },
+  "relatedSlugs": [
+    "dzongs-valleys-and-quiet-altitudes",
+    "tea-monasteries-and-khangchendzonga",
+    "pueblo-skies-and-desert-modernism"
+  ],
+  "seo": {
+    "pageTitle": "Monasteries Under the Milky Way | 9-Day Ladakh, India Journey",
+    "pageDesc": "Explore Ladakh through Indus monasteries, old villages, high-desert landscapes, and dark-sky nights, with acclimatisation treated as part of the design.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Monasteries Under the Milky Way across Ladakh, India for social sharing within this carefully",
+    "breadcrumbName": "Monasteries Under the Milky Way",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Monasteries Under the Milky Way"
+      }
+    ],
+    "coverImage": "/images/fallbacks/culture.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Ladakh, India within this carefully designed cultural journey",
+    "eyebrow": "Collaborated Route",
+    "title": "Monasteries Under the Milky Way",
+    "intro": "Explore Ladakh through Indus monasteries, old villages, high-desert landscapes, and dark-sky nights, with acclimatisation treated as part of the design.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "9 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Acclimatised"
+      },
+      {
+        "label": "Region",
+        "value": "Ladakh, India"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Monastic culture & dark skies"
+      },
+      {
+        "label": "Designer",
+        "value": "Tsering Namgyal"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 2,650",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Monasteries Under the Milky Way",
+    "shareText": "Explore Ladakh through Indus monasteries, old villages, high-desert landscapes, and dark-sky nights, with acclimatisation treated as part of the design."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "The first rule of this journey is that altitude sets the pace. Two quiet days in Leh come before major drives, giving the body time to adapt while introducing Ladakhi architecture, markets, and the layered Buddhist culture of the Indus valley.",
+              "From there, Tsering links monasteries and villages west of Leh with the stark high-desert landscapes toward Hanle. Dark-sky observation is treated as an environmental experience rather than a guaranteed astronomy show, always dependent on weather and local conditions."
+            ],
+            "highlightsTitle": "Highlights of the Journey",
+            "highlights": [
+              "Two-day acclimatisation window before longer high-altitude drives.",
+              "Indus valley monastery visits including Thiksey or Hemis according to timing.",
+              "Alchi and Lamayuru landscapes interpreted through art, geology, and village life.",
+              "Dark-sky nights around Hanle with strict respect for local rules and observatory sensitivity."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 9-day journey is paced around monastic culture & dark skies, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Acclimatise Before Exploring",
+                "bodySubtitle": "DAYS 1–2 | LEH",
+                "paragraphs": [
+                  "Arrive in Leh and deliberately keep the first day quiet. Gentle neighbourhood walks, hydration, and rest come before any ambitious sightseeing, with a second day used for low-intensity cultural orientation."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Short old-town walk only after adequate rest.",
+                  "Flexible visits based on individual acclimatisation."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy9.webp",
+                    "alt": "Editorial travel scene showing Leh during the Monasteries Under the Milky Way journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Monasteries Along the River",
+                "bodySubtitle": "DAY 3 | INDUS VALLEY",
+                "paragraphs": [
+                  "Use the Indus corridor for a measured day among monasteries such as Thiksey or Hemis, adding village and river-valley context rather than rushing between complexes."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Monastery visit timed around prayer and visitor flow.",
+                  "Conversation on Ladakhi Buddhist art and architecture."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/home/forest-landscape.webp",
+                    "alt": "Editorial travel scene showing Indus Valley during the Monasteries Under the Milky Way journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Painted Temples and Moonland Ridges",
+                "bodySubtitle": "DAYS 4–5 | ALCHI & LAMAYURU",
+                "paragraphs": [
+                  "Travel west for Alchi’s artistic heritage, village lanes, and the dramatic geology around Lamayuru, staying overnight so the long road is not compressed into a day trip."
+                ],
+                "listItems": [
+                  "Time with mural and monastery interpretation in Alchi.",
+                  "Sunset walk around Lamayuru village and surrounding formations."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/home/journey-pc.webp",
+                    "alt": "Editorial travel scene showing Alchi & Lamayuru during the Monasteries Under the Milky Way journey within this carefully"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: High Desert and Dark Sky",
+                "bodySubtitle": "DAYS 6–7 | HANLE",
+                "paragraphs": [
+                  "Move toward the Changthang landscape and Hanle, keeping the schedule light after the long drive. Nights are reserved for sky observation only when weather, health, and local protocols allow."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Low-impact village and landscape walk.",
+                  "Dark-sky session with minimal lighting and no guaranteed celestial event."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy12.webp",
+                    "alt": "Editorial travel scene showing Hanle during the Monasteries Under the Milky Way journey within this carefully designed cultural"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy13.webp",
+                    "alt": "Editorial travel scene showing Hanle during the Monasteries Under the Milky Way journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Return Through the High Desert",
+                "bodySubtitle": "DAY 8 | LEH",
+                "paragraphs": [
+                  "Return to Leh with generous road time and a quiet final evening, avoiding a late arrival before the departure day."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Rest stop schedule adapted to road conditions.",
+                  "Final dinner focused on Ladakhi home-style dishes."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/home/solo-landscape.webp",
+                    "alt": "Editorial travel scene showing Leh during the Monasteries Under the Milky Way journey within this carefully designed cultural"
+                  },
+                  {
+                    "src": "/images/home/travel-video.webp",
+                    "alt": "Editorial travel scene showing Leh during the Monasteries Under the Milky Way journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure & Onward Connections",
+                "bodySubtitle": "DAY 9 | LEH",
+                "paragraphs": [
+                  "Transfer to the airport with the final morning kept free of strenuous activity."
+                ],
+                "listItems": [
+                  "Early airport transfer planning.",
+                  "No high-altitude excursion scheduled on departure day."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Acclimatisation built into the route rather than treated as spare time.",
+              "Private high-altitude vehicle with experienced local driver.",
+              "Simple, warm stays chosen for location and reliable heating.",
+              "Local guide support for monasteries, villages, and night-sky etiquette."
+            ],
+            "image": "/images/journal/journal5.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Ladakh, India within this carefully designed cultural",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Warm insulated layers for large day-to-night temperature swings.",
+              "High-SPF sun protection, lip balm, and quality sunglasses.",
+              "Comfortable shoes for uneven monastery steps and village lanes.",
+              "Personal medication and medical advice appropriate to high-altitude travel."
+            ]
+          }
+        },
+        {
+          "type": "slider",
+          "data": {
+            "eyebrow": "ROUTE IN FRAMES",
+            "title": "Selected Landscapes & Stays",
+            "images": [
+              {
+                "src": "/images/home/travel-video.webp",
+                "alt": "Editorial travel scene showing landscape detail from Ladakh, India on Monasteries Under the Milky Way within this carefully",
+                "caption": "Visual field note 1 from the landscapes and cultural atmosphere of Ladakh, India."
+              },
+              {
+                "src": "/images/impact/impact1.webp",
+                "alt": "Editorial travel scene showing landscape detail from Ladakh, India on Monasteries Under the Milky Way within this carefully",
+                "caption": "Visual field note 2 from the landscapes and cultural atmosphere of Ladakh, India."
+              },
+              {
+                "src": "/images/impact/impact2.webp",
+                "alt": "Editorial travel scene showing landscape detail from Ladakh, India on Monasteries Under the Milky Way within this carefully",
+                "caption": "Visual field note 3 from the landscapes and cultural atmosphere of Ladakh, India."
+              },
+              {
+                "src": "/images/impact/impact3.webp",
+                "alt": "Editorial travel scene showing landscape detail from Ladakh, India on Monasteries Under the Milky Way within this carefully",
+                "caption": "Visual field note 4 from the landscapes and cultural atmosphere of Ladakh, India."
+              },
+              {
+                "src": "/images/impact/impact4.webp",
+                "alt": "Editorial travel scene showing landscape detail from Ladakh, India on Monasteries Under the Milky Way within this carefully",
+                "caption": "Visual field note 5 from the landscapes and cultural atmosphere of Ladakh, India."
+              }
+            ],
+            "width": 1200,
+            "height": 800,
+            "autoplay": false,
+            "interval": 5000,
+            "captionMob": false,
+            "captionPc": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "In Ladakh, the emptiness is not absence. It is what allows stone, prayer, and sky to become visible.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Field Notes: Monasteries Under the Milky Way",
+            "video": {
+              "videoId": "4KtLGaNl9VQ",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Editorial travel scene showing moving travel impressions from Ladakh, India and its cultural landscapes within this carefully designed",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "A moving editorial glimpse selected to complement the pace and atmosphere of Monasteries Under the Milky Way."
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "HIGH-ALTITUDE SAFETY NOTE",
+            "text": "This itinerary should never override medical advice or individual acclimatisation. Headache, nausea, unusual fatigue, or sleep disturbance must be taken seriously, and route changes should remain possible without treating them as failure."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "A Journey Designed Around Restraint",
+            "paragraphs": [
+              "Ladakh rewards travellers who stop measuring the day by distance. A monastery courtyard, an old irrigation channel, or a night sky can hold more meaning than another pass added for bragging rights.",
+              "The route is deliberately spacious because altitude, weather, and community rhythm are part of the landscape, not inconveniences to overcome."
+            ],
+            "image": "/images/itineraries/dummy10.webp",
+            "imageAlt": "Editorial travel scene showing a final reflective travel moment from Ladakh, India within this carefully designed cultural journey",
+            "imageAspectRatio": "4 / 5",
+            "caption": "A final visual note from Monasteries Under the Milky Way."
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "HIGH-ALTITUDE NATURALIST & CULTURAL GUIDE • LEH, LADAKH",
+            "name": "Tsering Namgyal",
+            "bio": "Tsering designs Ladakh journeys around acclimatisation, monastic heritage, village ecology, and dark-sky awareness, using high-altitude restraint as a core design principle.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Tsering Namgyal for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Monasteries Under the Milky Way be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Tsering Namgyal’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "This itinerary should never override medical advice or individual acclimatisation. Headache, nausea, unusual fatigue, or sleep disturbance must be taken seriously, and route changes should remain possible without treating them as failure."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as acclimatised. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

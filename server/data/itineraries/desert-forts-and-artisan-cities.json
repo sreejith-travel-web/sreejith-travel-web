@@ -1,0 +1,454 @@
+{
+  "meta": {
+    "id": "sig-13",
+    "slug": "desert-forts-and-artisan-cities",
+    "type": "signature",
+    "featuredHome": true,
+    "featured": true,
+    "title": "Desert Forts & Artisan Cities",
+    "region": "Rajasthan",
+    "days": 11,
+    "categories": [
+      "culture",
+      "stays",
+      "bespoke"
+    ],
+    "tags": [
+      "#RAJASTHAN",
+      "#FORTS",
+      "#CRAFT"
+    ],
+    "intro": "Move west across Rajasthan from Udaipur’s lake palaces to Jodhpur’s blue city and Jaisalmer’s desert fort, following craft, architecture, food, and living neighbourhoods.",
+    "image": "/images/impact/impact5.webp",
+    "alt": "Golden Rajasthan fort walls rising above blue streets and desert-edge neighbourhoods",
+    "featuredDescription": "A palace-and-desert journey with equal attention to artisans, markets, stepwells, home kitchens, and the everyday life that exists beyond Rajasthan’s monumental facades.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "label": "Fort & palace heritage"
+      },
+      {
+        "icon": "village",
+        "label": "Artisan studio encounters"
+      },
+      {
+        "icon": "village",
+        "label": "Old-city food & markets"
+      },
+      {
+        "icon": "wellness",
+        "label": "Quiet desert stays"
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "sandstone-kingdoms-of-the-deccan",
+    "river-of-light-varanasi-and-awadh",
+    "chettinad-courtyards-and-chola-country"
+  ],
+  "seo": {
+    "pageTitle": "Desert Forts & Artisan Cities | 11-Day Rajasthan Journey",
+    "pageDesc": "Move from Udaipur to Jodhpur and Jaisalmer through lake palaces, forts, artisan workshops, old-city food, desert landscapes, and heritage stays.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Golden Rajasthan fort walls rising above blue streets and desert-edge neighbourhoods",
+    "breadcrumbName": "Desert Forts & Artisan Cities",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Desert Forts & Artisan Cities"
+      }
+    ],
+    "coverImage": "/images/home/solo-landscape.webp",
+    "coverAlt": "Golden Rajasthan fort walls rising above blue streets and desert-edge neighbourhoods",
+    "eyebrow": "Signature Itinerary",
+    "title": "Desert Forts & Artisan Cities",
+    "intro": "Move west across Rajasthan from Udaipur’s lake palaces to Jodhpur’s blue city and Jaisalmer’s desert fort, following craft, architecture, food, and living neighbourhoods.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "11 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Unhurried"
+      },
+      {
+        "label": "Region",
+        "value": "Rajasthan"
+      },
+      {
+        "label": "Group",
+        "value": "1–4 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Fort cities & craft"
+      },
+      {
+        "label": "Style",
+        "value": "Private bespoke"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "BESPOKE JOURNEY",
+    "price": "Price on request",
+    "ctaTitle": "Want this trip, but shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. Talk to us to adjust the pace, stays, or detours.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Desert Forts & Artisan Cities",
+    "shareText": "Move west across Rajasthan from Udaipur’s lake palaces to Jodhpur’s blue city and Jaisalmer’s desert fort, following craft, architecture, food, and living neighbourhoods."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Rajasthan’s monuments are spectacular, but this route is designed to keep human scale in the foreground. Udaipur begins with lake, palace, and miniature painting traditions; Jodhpur adds fort, market, textiles, and blue neighbourhoods; Jaisalmer shifts the palette toward sandstone and desert.",
+              "Road days are broken with meaningful stops rather than treated as lost time. Craft studios, village meals, stepwells, and desert-edge communities create continuity between the major cities, while heritage stays make architecture part of the experience after sightseeing ends."
+            ],
+            "image": "/images/itineraries/dummy13.webp",
+            "imageAlt": "Editorial travel portrait representing landscapes and cultural encounters across Rajasthan",
+            "imageAspectRatio": "4 / 5",
+            "caption": "Udaipur → Ranakpur → Jodhpur → Osian → Jaisalmer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 11-day journey is paced around meaningful stays, sensible road movement, and enough time in each landscape to understand it rather than simply pass through."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Lakes, Palaces & Atelier Doors",
+                "bodySubtitle": "DAYS 1–3 | UDAIPUR",
+                "paragraphs": [
+                  "Begin with the City Palace complex, old neighbourhoods, lake light, and a private craft or miniature-painting encounter."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy9.webp",
+                    "alt": "Travel scene from Lakes, Palaces & Atelier Doors during the Desert Forts & Artisan Cities journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Across the Aravalli",
+                "bodySubtitle": "DAY 4 | RANAKPUR ROAD",
+                "paragraphs": [
+                  "Travel toward Jodhpur through the Aravalli landscape, using a temple or village stop to break the journey naturally."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/journal/journal3.webp",
+                    "alt": "Landscape and local detail from Across the Aravalli on the Desert Forts & Artisan Cities route"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Blue City & Mehrangarh",
+                "bodySubtitle": "DAYS 5–7 | JODHPUR",
+                "paragraphs": [
+                  "Spend three nights exploring the fort, old city, markets, textiles, food, and quieter residential lanes with a local specialist."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/home/forest-landscape.webp",
+                    "alt": "Regional landscape encountered around Blue City & Mehrangarh during the Desert Forts & Artisan Cities journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Toward the Thar",
+                "bodySubtitle": "DAY 8 | OSIAN & DESERT EDGE",
+                "paragraphs": [
+                  "Move west through smaller settlements and desert-edge landscapes, with time for temple architecture and a locally hosted meal."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy12.webp",
+                    "alt": "Cultural travel detail representing Toward the Thar during the Desert Forts & Artisan Cities journey"
+                  },
+                  {
+                    "src": "/images/home/journey-mob.webp",
+                    "alt": "Second editorial scene from Toward the Thar along the Desert Forts & Artisan Cities journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Sandstone City",
+                "bodySubtitle": "DAYS 9–10 | JAISALMER",
+                "paragraphs": [
+                  "Explore the living fort, havelis, craft, and desert light without reducing the stay to a single sunset excursion."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy13.webp",
+                    "alt": "Travel scene from Sandstone City during the Desert Forts & Artisan Cities journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure",
+                "bodySubtitle": "DAY 11 | JAISALMER OR JODHPUR CONNECTION",
+                "paragraphs": [
+                  "Depart by the most practical air, rail, or road connection based on your onward plans."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Standards & Inclusions",
+            "items": [
+              "Heritage hotels selected for strong architecture and manageable old-city access.",
+              "Private vehicle throughout the intercity route, with slower scenic road days.",
+              "Craft visits arranged directly with respected workshops or family studios where possible.",
+              "Desert experiences designed to avoid crowded, high-volume entertainment camps."
+            ],
+            "image": "/images/home/forest-landscape.webp",
+            "imageAlt": "Landscape detail illustrating the stays and regional character of Rajasthan",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Light layers for warm days and cooler desert evenings.",
+              "Comfortable shoes for forts, old-city lanes, and uneven steps.",
+              "Sun protection and a reusable water bottle for exposed sightseeing.",
+              "A scarf for dust, sun, and temple visits.",
+              "One smart-casual outfit for heritage hotel dining or special evenings."
+            ]
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Details in Place",
+            "captionMob": true,
+            "captionPc": true,
+            "images": [
+              {
+                "src": "/images/journal/journal4.webp",
+                "alt": "Regional landscape and cultural detail encountered along the Desert Forts & Artisan Cities journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Lake and palace heritage in Udaipur with miniature painting or craft context."
+              },
+              {
+                "src": "/images/itineraries/dummy12.webp",
+                "alt": "Mehrangarh and Jodhpur’s old city explored beyond the main monument circuit on the Desert Forts & Artisan Cities journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Mehrangarh and Jodhpur’s old city explored beyond the main monument circuit."
+              },
+              {
+                "src": "/images/fallbacks/culture.webp",
+                "alt": "Village and desert-edge experiences around Osian on the westward journey on the Desert Forts & Artisan Cities journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Village and desert-edge experiences around Osian on the westward journey."
+              },
+              {
+                "src": "/images/itineraries/dummy14.webp",
+                "alt": "Jaisalmer’s living fort, havelis, sandstone craft, and quiet desert light on the Desert Forts & Artisan Cities journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Jaisalmer’s living fort, havelis, sandstone craft, and quiet desert light."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "Rajasthan becomes more interesting when the fort stops being the whole story and the street, workshop, kitchen, and desert edge begin speaking too.",
+            "author": "THE DESIGNER'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "DESERT SEASON NOTE",
+            "text": "October to March offers the most comfortable conditions. Winter nights can be genuinely cool in the desert, while daytime sun remains strong and requires protection."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Beyond the Palace Facade",
+            "paragraphs": [
+              "The great forts provide scale, but the journey’s emotional texture comes from smaller encounters: a painter’s hand, a market conversation, a courtyard breakfast, or sandstone turning gold at dusk.",
+              "Moving west from the lakes toward the Thar creates a clear sense of progression, with landscape and architecture becoming progressively drier, sharper, and more elemental."
+            ],
+            "image": "/images/itineraries/dummy13.webp",
+            "imageAlt": "Quiet reflective travel scene recalling the landscapes of Rajasthan at journey’s end",
+            "imageAspectRatio": "4 / 5",
+            "caption": "A final visual note from Rajasthan."
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "LEAD ROUTE ARCHITECT • KERALA, INDIA",
+            "name": "Sreejith Raghavan",
+            "bio": "Sreejith approaches Rajasthan through slower route design, specialist local relationships, and a belief that culture, landscape, and hospitality should be experienced as one connected story.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait of Sreejith Raghavan, lead route architect for bespoke journeys across India"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can this route be tailored to our preferred dates and pace?",
+                "paragraphs": [
+                  "Yes. Every Signature itinerary is a design framework, and we adjust nights, experiences, transport, and daily intensity around your interests and travel dates."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "Will we stay inside historic properties?",
+                "paragraphs": [
+                  "Where the right property exists, yes. We balance heritage character with comfort, service, and practical access."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "Is a camel safari included?",
+                "paragraphs": [
+                  "Not by default. Desert time can be designed around walking, jeep access, local communities, or a short ethical camel experience if desired."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "Can Jaipur be added?",
+                "paragraphs": [
+                  "Yes. Jaipur works well as a pre-journey extension, although it changes the route into a longer Rajasthan circuit."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "What is included when the final journey is quoted?",
+                "paragraphs": [
+                  "The final proposal clearly separates accommodation, private transport, guiding, arranged experiences, and any route-specific permits or specialist access."
+                ],
+                "listTitle": "The exact inclusion list is confirmed before payment:",
+                "listItems": [
+                  "Chosen accommodation category and meal plan.",
+                  "Private transport and agreed transfers.",
+                  "Confirmed guiding, hosted encounters, and ticketed experiences.",
+                  "Any permits or special-access costs included in the final design."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the bespoke route, accommodation selection, and current supplier availability are approved, a 30% confirmation deposit secures the agreed services. The remaining balance is due 45 days before arrival unless the final proposal states otherwise."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We work directly with our partners to move dates whenever possible. Any non-refundable permits, transport tickets, or supplier penalties are passed through transparently."
+                ],
+                "listItems": [
+                  "60+ days before arrival: deposit refund less confirmed non-refundable costs.",
+                  "30–59 days before arrival: 50% refund or travel credit where supplier terms allow.",
+                  "Less than 30 days before arrival: cancellation follows the confirmed supplier terms in your final proposal."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "meta": {
+    "id": "col-8",
+    "slug": "medinas-atlas-and-earthen-kasbahs",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": true,
+    "title": "Medinas, Atlas & Earthen Kasbahs",
+    "region": "Morocco",
+    "days": 11,
+    "categories": [
+      "culture",
+      "stays",
+      "bespoke"
+    ],
+    "tags": [
+      "#MOROCCO",
+      "#MEDINA",
+      "#ATLAS"
+    ],
+    "intro": "Travel from Fez through the Atlas and southern kasbah country to Marrakech, using architecture, craft, food, and rural landscapes as one continuous story.",
+    "image": "/images/home/journey-pc1.webp",
+    "alt": "Moroccan medina lanes, Atlas valleys and earthen kasbah walls glowing in amber desert light",
+    "collaborator": {
+      "name": "Youssef El Mansouri",
+      "role": "Medina, Architecture & Atlas Journey Designer • Fez, Morocco",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A Morocco journey built around medina craft, mountain transitions, earthen architecture, riad stays, and the cultural contrasts between Fez and Marrakech."
+  },
+  "relatedSlugs": [
+    "salt-looms-and-desert-villages",
+    "wine-roads-and-stone-monasteries",
+    "pueblo-skies-and-desert-modernism"
+  ],
+  "seo": {
+    "pageTitle": "Medinas, Atlas & Earthen Kasbahs | 11-Day Morocco Journey",
+    "pageDesc": "Travel from Fez through the Atlas and southern kasbah country to Marrakech, using architecture, craft, food, and rural landscapes as one continuous story.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Medinas, Atlas & Earthen Kasbahs across Morocco for social sharing within this carefully designed",
+    "breadcrumbName": "Medinas, Atlas & Earthen Kasbahs",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Medinas, Atlas & Earthen Kasbahs"
+      }
+    ],
+    "coverImage": "/images/impact/impact1.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Morocco within this carefully designed cultural journey",
+    "eyebrow": "Collaborated Route",
+    "title": "Medinas, Atlas & Earthen Kasbahs",
+    "intro": "Travel from Fez through the Atlas and southern kasbah country to Marrakech, using architecture, craft, food, and rural landscapes as one continuous story.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "11 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Layered"
+      },
+      {
+        "label": "Region",
+        "value": "Morocco"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Architecture, craft & food"
+      },
+      {
+        "label": "Designer",
+        "value": "Youssef El Mansouri"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 3,100",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Medinas, Atlas & Earthen Kasbahs",
+    "shareText": "Travel from Fez through the Atlas and southern kasbah country to Marrakech, using architecture, craft, food, and rural landscapes as one continuous story."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Fez is given three nights because its medina makes more sense when craft, food, architecture, and neighbourhood life are layered over time. Youssef begins with orientation and then moves progressively deeper into specialist workshops and quieter residential quarters.",
+              "The road south crosses mountain and oasis landscapes before reaching Skoura, earthen kasbah country, and the High Atlas. Marrakech closes the route as a contrast rather than a climax, showing a different urban energy and design language."
+            ],
+            "image": "/images/itineraries/dummy7.webp",
+            "imageAlt": "Editorial travel scene showing an editorial portrait of Morocco landscapes and local encounters within this carefully designed cultural",
+            "imageAspectRatio": "4 / 5",
+            "caption": "Fez → Middle Atlas → Skoura → Aït Benhaddou → High Atlas → Marrakech",
+            "highlightsTitle": "Highlights of the Journey",
+            "highlights": [
+              "Fez medina interpreted through craft, architecture, and food traditions.",
+              "Middle Atlas transition through cedar and market towns.",
+              "Oasis and earthen architecture around Skoura and Aït Benhaddou.",
+              "Riad life, gardens, and contemporary craft perspectives in Marrakech."
+            ]
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Field Notes: Medinas, Atlas & Earthen Kasbahs",
+            "video": {
+              "videoId": "4KtLGaNl9VQ",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Editorial travel scene showing moving travel impressions from Morocco and its cultural landscapes within this carefully designed cultural",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "A moving editorial glimpse selected to complement the pace and atmosphere of Medinas, Atlas & Earthen Kasbahs."
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 11-day journey is paced around architecture, craft & food, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Inside the Medina Slowly",
+                "bodySubtitle": "DAYS 1–3 | FEZ",
+                "paragraphs": [
+                  "Use three days to move from major landmarks into artisan quarters, food markets, fondouks, and domestic architecture, keeping routes short enough to absorb detail."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Specialist walk focused on zellige, wood, leather, or metal craft.",
+                  "Private food-focused evening or home-style culinary session."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/home/solo-portrait.webp",
+                    "alt": "Editorial travel scene showing Fez during the Medinas, Atlas & Earthen Kasbahs journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: From Imperial City to Mountain Country",
+                "bodySubtitle": "DAY 4 | MIDDLE ATLAS",
+                "paragraphs": [
+                  "Leave Fez through the Middle Atlas, pausing in forest and market landscapes to make the ecological transition visible rather than treating the drive as dead time."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Landscape stop away from roadside photo crowds.",
+                  "Regional lunch reflecting mountain ingredients."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/journal/journal2.webp",
+                    "alt": "Editorial travel scene showing Middle Atlas during the Medinas, Atlas & Earthen Kasbahs journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Palm Groves and Earthen Architecture",
+                "bodySubtitle": "DAYS 5–6 | SKOURA",
+                "paragraphs": [
+                  "Settle into the Skoura oasis for kasbah architecture, palm-grove walks, and time with local agricultural landscapes."
+                ],
+                "listItems": [
+                  "Guided walk through oasis irrigation and settlement patterns.",
+                  "Stay in a restored earthen property with architectural context."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/journal/journal3.webp",
+                    "alt": "Editorial travel scene showing Skoura during the Medinas, Atlas & Earthen Kasbahs journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Kasbah Roads and Mountain Passes",
+                "bodySubtitle": "DAYS 7–8 | AÏT BENHADDOU & HIGH ATLAS",
+                "paragraphs": [
+                  "Continue toward Aït Benhaddou and the High Atlas, balancing famous architecture with smaller villages and mountain landscapes along the route."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Early or late visit to Aït Benhaddou.",
+                  "Village or valley walk adapted to weather and road conditions."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy3.webp",
+                    "alt": "Editorial travel scene showing Aït Benhaddou & High Atlas during the Medinas, Atlas & Earthen Kasbahs journey within"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy4.webp",
+                    "alt": "Editorial travel scene showing Aït Benhaddou & High Atlas during the Medinas, Atlas & Earthen Kasbahs journey within"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: The Red City in Layers",
+                "bodySubtitle": "DAYS 9–10 | MARRAKECH",
+                "paragraphs": [
+                  "Finish in Marrakech with riad courtyards, gardens, food, and design, using specialist visits to prevent the medina from becoming only a shopping maze."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Architecture and garden walk.",
+                  "Contemporary craft or design studio appointment."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/journal/journal5.webp",
+                    "alt": "Editorial travel scene showing Marrakech during the Medinas, Atlas & Earthen Kasbahs journey within this carefully designed cultural"
+                  },
+                  {
+                    "src": "/images/fallbacks/culture.webp",
+                    "alt": "Editorial travel scene showing Marrakech during the Medinas, Atlas & Earthen Kasbahs journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure & Onward Connections",
+                "bodySubtitle": "DAY 11 | MARRAKECH",
+                "paragraphs": [
+                  "Keep the final morning light and flexible before the airport transfer."
+                ],
+                "listItems": [
+                  "Private airport transfer.",
+                  "Optional hammam or café stop if flight timing permits."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Characterful riads and restored earthen properties.",
+              "Private vehicle for mountain and oasis stages.",
+              "Specialist medina guiding rather than generic shopping escorts.",
+              "Flexible village visits shaped around local hosts and seasonal conditions."
+            ],
+            "image": "/images/home/journey-pc.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Morocco within this carefully designed cultural journey",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Comfortable walking shoes for cobbled and uneven medina lanes.",
+              "Light layers with a warmer piece for mountain evenings.",
+              "Modest clothing for religious and rural settings.",
+              "Sun protection for exposed oasis and kasbah landscapes."
+            ]
+          }
+        },
+        {
+          "type": "slider",
+          "data": {
+            "eyebrow": "ROUTE IN FRAMES",
+            "title": "Selected Landscapes & Stays",
+            "images": [
+              {
+                "src": "/images/journal/journal3.webp",
+                "alt": "Editorial travel scene showing landscape detail from Morocco on Medinas, Atlas & Earthen Kasbahs within this carefully designed",
+                "caption": "Visual field note 1 from the landscapes and cultural atmosphere of Morocco."
+              },
+              {
+                "src": "/images/journal/journal4.webp",
+                "alt": "Editorial travel scene showing landscape detail from Morocco on Medinas, Atlas & Earthen Kasbahs within this carefully designed",
+                "caption": "Visual field note 2 from the landscapes and cultural atmosphere of Morocco."
+              },
+              {
+                "src": "/images/journal/journal5.webp",
+                "alt": "Editorial travel scene showing landscape detail from Morocco on Medinas, Atlas & Earthen Kasbahs within this carefully designed",
+                "caption": "Visual field note 3 from the landscapes and cultural atmosphere of Morocco."
+              },
+              {
+                "src": "/images/fallbacks/culture.webp",
+                "alt": "Editorial travel scene showing landscape detail from Morocco on Medinas, Atlas & Earthen Kasbahs within this carefully designed",
+                "caption": "Visual field note 4 from the landscapes and cultural atmosphere of Morocco."
+              },
+              {
+                "src": "/images/home/forest-landscape.webp",
+                "alt": "Editorial travel scene showing landscape detail from Morocco on Medinas, Atlas & Earthen Kasbahs within this carefully designed",
+                "caption": "Visual field note 5 from the landscapes and cultural atmosphere of Morocco."
+              }
+            ],
+            "width": 1200,
+            "height": 800,
+            "autoplay": false,
+            "interval": 5000,
+            "captionMob": true,
+            "captionPc": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "Morocco is not one palette. Fez, the Atlas, the oases, and Marrakech each hold a different temperature of colour and time.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/home/journey-pc.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Morocco within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Morocco, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy2.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Morocco within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Morocco, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/home/solo-landscape.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Morocco within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Morocco, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/home/travel-video.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Morocco within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Morocco, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy5.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Morocco within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Morocco, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact2.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Morocco within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Morocco, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": true,
+            "captionPc": true
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "MEDINA & PHOTOGRAPHY NOTE",
+            "text": "Medinas are living neighbourhoods. Ask before photographing people or workshops, avoid treating artisans as props, and use a trusted local guide when navigating specialist quarters or making significant purchases."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Architecture as a Way of Reading Place",
+            "paragraphs": [
+              "Courtyards, kasbah walls, irrigation channels, workshops, and mountain villages become the connective tissue of this route. The architecture is never just decoration; it records climate, trade, family, and material knowledge.",
+              "Ending in Marrakech works because the journey has already taught the eye how to look beyond surface colour."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "MEDINA, ARCHITECTURE & ATLAS JOURNEY DESIGNER • FEZ, MOROCCO",
+            "name": "Youssef El Mansouri",
+            "bio": "Youssef designs Morocco journeys through architecture, craft economies, food, and rural transitions, connecting medina detail with the larger landscapes that shaped it.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Youssef El Mansouri for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Medinas, Atlas & Earthen Kasbahs be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Youssef El Mansouri’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Medinas are living neighbourhoods. Ask before photographing people or workshops, avoid treating artisans as props, and use a trusted local guide when navigating specialist quarters or making significant purchases."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as layered. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

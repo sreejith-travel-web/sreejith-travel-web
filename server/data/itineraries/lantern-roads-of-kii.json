@@ -1,0 +1,562 @@
+{
+  "meta": {
+    "id": "col-3",
+    "slug": "lantern-roads-of-kii",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": true,
+    "title": "Lantern Roads of Kii",
+    "region": "Japan",
+    "days": 10,
+    "categories": [
+      "culture",
+      "wellness",
+      "nature"
+    ],
+    "tags": [
+      "#JAPAN",
+      "#KUMANO",
+      "#PILGRIMAGE"
+    ],
+    "intro": "Move from Kyoto’s living arts to Koyasan and the Kumano Kodo, where temple stays, cedar forests, hot springs, and pilgrimage paths shape the journey.",
+    "image": "/images/impact/impact5.webp",
+    "alt": "Cedar pilgrimage paths, temple lanterns and quiet Japanese mountain towns beneath soft seasonal light",
+    "collaborator": {
+      "name": "Aiko Mori",
+      "role": "Pilgrimage & Living Traditions Curator • Kyoto, Japan",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A contemplative Japan journey linking Kyoto craft traditions with Buddhist temple life and selected walks along the sacred routes of the Kii Peninsula.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Private Kyoto craft and garden encounters arranged around quieter hours."
+      },
+      {
+        "icon": "temple",
+        "label": "Temple lodging and morning ritual on Koyasan."
+      },
+      {
+        "icon": "boat",
+        "label": "Selected Kumano Kodo walks through cedar forest and historic pilgrimage villag"
+      },
+      {
+        "icon": "wellness",
+        "label": "Onsen pauses and coastal arrival around Nachi and Kii-Katsuura."
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "dzongs-valleys-and-quiet-altitudes",
+    "wine-roads-and-stone-monasteries",
+    "sacred-valley-weaves-and-andean-trails"
+  ],
+  "seo": {
+    "pageTitle": "Lantern Roads of Kii | 10-Day Japan Journey",
+    "pageDesc": "Move from Kyoto’s living arts to Koyasan and the Kumano Kodo, where temple stays, cedar forests, hot springs, and pilgrimage paths shape the journey.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Lantern Roads of Kii across Japan for social sharing within this carefully designed cultural",
+    "breadcrumbName": "Lantern Roads of Kii",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Lantern Roads of Kii"
+      }
+    ],
+    "coverImage": "/images/journal/journal2.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Japan within this carefully designed cultural journey",
+    "eyebrow": "Collaborated Route",
+    "title": "Lantern Roads of Kii",
+    "intro": "Move from Kyoto’s living arts to Koyasan and the Kumano Kodo, where temple stays, cedar forests, hot springs, and pilgrimage paths shape the journey.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "10 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Contemplative"
+      },
+      {
+        "label": "Region",
+        "value": "Japan"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Pilgrimage & living traditions"
+      },
+      {
+        "label": "Designer",
+        "value": "Aiko Mori"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 3,980",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Lantern Roads of Kii",
+    "shareText": "Move from Kyoto’s living arts to Koyasan and the Kumano Kodo, where temple stays, cedar forests, hot springs, and pilgrimage paths shape the journey."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "The journey begins in Kyoto with attention to living craft, tea, gardens, and neighbourhood temples rather than a race through famous landmarks. Aiko’s approach uses small appointments and quiet timings to show how refinement survives in ordinary routines.",
+              "From Nara, the route enters the Kii Peninsula for Koyasan temple life and selected sections of the Kumano Kodo. Walks are chosen for atmosphere and cultural meaning, with hot-spring pauses and luggage support where appropriate."
+            ]
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/impact/impact4.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Japan within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Japan, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy2.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Japan within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Japan, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact6.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Japan within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Japan, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Japan within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Japan, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy5.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Japan within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Japan, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/journal/journal3.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Japan within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Japan, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": false,
+            "captionPc": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 10-day journey is paced around pilgrimage & living traditions, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Living Arts Before Icons",
+                "bodySubtitle": "DAYS 1–3 | KYOTO",
+                "paragraphs": [
+                  "Spend three days in Kyoto using neighbourhood scale as the organising principle: craft studios, gardens, tea, food markets, and temple precincts experienced at quieter times."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Appointment with a craft practitioner or small atelier.",
+                  "Early or late temple visit designed around reduced crowds."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy3.webp",
+                    "alt": "Editorial travel scene showing Kyoto during the Lantern Roads of Kii journey within this carefully designed cultural journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Old Capital, Open Space",
+                "bodySubtitle": "DAY 4 | NARA",
+                "paragraphs": [
+                  "Take a slower day in Nara, using temple landscapes and old lanes to bridge urban Kyoto and the more explicitly spiritual mountain stages ahead."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Walk between historic precincts with architectural context.",
+                  "Seasonal lunch in a traditional machiya or small restaurant."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/impact/impact5.webp",
+                    "alt": "Editorial travel scene showing Nara during the Lantern Roads of Kii journey within this carefully designed cultural journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Mountain Buddhism & Temple Night",
+                "bodySubtitle": "DAYS 5–6 | KOYASAN",
+                "paragraphs": [
+                  "Travel to Koyasan for shukubo temple lodging, vegetarian shojin ryori, cemetery paths, and morning ritual, with enough time to experience the mountain after day visitors leave."
+                ],
+                "listItems": [
+                  "Temple lodging with shojin ryori dinner.",
+                  "Evening or early morning walk through Okunoin approaches."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/impact/impact6.webp",
+                    "alt": "Editorial travel scene showing Koyasan during the Lantern Roads of Kii journey within this carefully designed cultural journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: The Pilgrim Forest",
+                "bodySubtitle": "DAYS 7–8 | KUMANO HONGU",
+                "paragraphs": [
+                  "Continue into the Kumano region and walk a selected Nakahechi or comparable section suited to fitness, using village transfers and hot-spring stays to keep the pilgrimage reflective rather than punishing."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Forest walk toward Kumano Hongu Taisha.",
+                  "Onsen stay near the pilgrimage corridor."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy6.webp",
+                    "alt": "Editorial travel scene showing Kumano Hongu during the Lantern Roads of Kii journey within this carefully designed cultural"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy7.webp",
+                    "alt": "Editorial travel scene showing Kumano Hongu during the Lantern Roads of Kii journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Waterfall, Shrine & Coast",
+                "bodySubtitle": "DAY 9 | NACHI & KII-KATSUURA",
+                "paragraphs": [
+                  "Finish the sacred route around Nachi before descending to the coast, where shrine architecture, waterfall landscape, and fishing-town atmosphere close the journey."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Visit Nachi area in a quieter time window.",
+                  "Seafood-focused dinner in Kii-Katsuura."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/journal/journal2.webp",
+                    "alt": "Editorial travel scene showing Nachi & Kii-Katsuura during the Lantern Roads of Kii journey within this carefully designed"
+                  },
+                  {
+                    "src": "/images/journal/journal3.webp",
+                    "alt": "Editorial travel scene showing Nachi & Kii-Katsuura during the Lantern Roads of Kii journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure & Onward Connections",
+                "bodySubtitle": "DAY 10 | KII PENINSULA",
+                "paragraphs": [
+                  "Travel onward by rail with luggage and transfer timing planned in advance so the final day remains calm."
+                ],
+                "listItems": [
+                  "Reserved rail planning where available.",
+                  "Luggage forwarding coordinated for the final stage."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Small design-led city stays and selected temple lodging.",
+              "Rail and private transfer mix designed around rural connections.",
+              "Luggage forwarding used where it meaningfully improves walking days.",
+              "Walking distances matched to fitness rather than pilgrimage bravado."
+            ],
+            "image": "/images/journal/journal3.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Japan within this carefully designed cultural journey",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Comfortable walking shoes suited to stone and forest paths.",
+              "Layered clothing appropriate to season and mountain temperature changes.",
+              "Small overnight bag for temple and pilgrimage stages.",
+              "Quiet, modest clothing for temple stays and morning ritual."
+            ]
+          }
+        },
+        {
+          "type": "slider",
+          "data": {
+            "eyebrow": "ROUTE IN FRAMES",
+            "title": "Selected Landscapes & Stays",
+            "images": [
+              {
+                "src": "/images/journal/journal5.webp",
+                "alt": "Editorial travel scene showing landscape detail from Japan on Lantern Roads of Kii within this carefully designed cultural",
+                "caption": "Visual field note 1 from the landscapes and cultural atmosphere of Japan."
+              },
+              {
+                "src": "/images/fallbacks/culture.webp",
+                "alt": "Editorial travel scene showing landscape detail from Japan on Lantern Roads of Kii within this carefully designed cultural",
+                "caption": "Visual field note 2 from the landscapes and cultural atmosphere of Japan."
+              },
+              {
+                "src": "/images/home/forest-landscape.webp",
+                "alt": "Editorial travel scene showing landscape detail from Japan on Lantern Roads of Kii within this carefully designed cultural",
+                "caption": "Visual field note 3 from the landscapes and cultural atmosphere of Japan."
+              },
+              {
+                "src": "/images/home/journey-pc.webp",
+                "alt": "Editorial travel scene showing landscape detail from Japan on Lantern Roads of Kii within this carefully designed cultural",
+                "caption": "Visual field note 4 from the landscapes and cultural atmosphere of Japan."
+              },
+              {
+                "src": "/images/home/journey-pc1.webp",
+                "alt": "Editorial travel scene showing landscape detail from Japan on Lantern Roads of Kii within this carefully designed cultural",
+                "caption": "Visual field note 5 from the landscapes and cultural atmosphere of Japan."
+              }
+            ],
+            "width": 1200,
+            "height": 800,
+            "autoplay": false,
+            "interval": 5000,
+            "captionMob": false,
+            "captionPc": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "A pilgrimage is not made sacred by distance alone, but by the attention carried into each step.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Field Notes: Lantern Roads of Kii",
+            "video": {
+              "videoId": "4KtLGaNl9VQ",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Editorial travel scene showing moving travel impressions from Japan and its cultural landscapes within this carefully designed cultural",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "A moving editorial glimpse selected to complement the pace and atmosphere of Lantern Roads of Kii."
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "PILGRIMAGE ETIQUETTE NOTE",
+            "text": "Temple lodging, shrine visits, and pilgrimage paths are living religious environments. The route should respect local rules on photography, bathing, silence, footwear, and ritual participation rather than treating them as performance spaces."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "What the Forest Teaches",
+            "paragraphs": [
+              "Kyoto offers precision; Kii offers repetition: footsteps, cedar trunks, bells, water, and the return of simple routines. Together they create a journey that feels edited without feeling staged.",
+              "The most memorable moments are often the least spectacular: a temple corridor before breakfast, steam over an onsen, or the sound of rain beginning on a forest path."
+            ],
+            "image": "/images/itineraries/dummy8.webp",
+            "imageAlt": "Editorial travel scene showing a final reflective travel moment from Japan within this carefully designed cultural journey",
+            "imageAspectRatio": "4 / 5"
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "PILGRIMAGE & LIVING TRADITIONS CURATOR • KYOTO, JAPAN",
+            "name": "Aiko Mori",
+            "bio": "Aiko designs journeys around Japan’s pilgrimage landscapes, temple communities, traditional arts, and seasonal rhythms, favouring meaningful access and silence over spectacle.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Aiko Mori for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Lantern Roads of Kii be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Aiko Mori’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Temple lodging, shrine visits, and pilgrimage paths are living religious environments. The route should respect local rules on photography, bathing, silence, footwear, and ritual participation rather than treating them as performance spaces."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as contemplative. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

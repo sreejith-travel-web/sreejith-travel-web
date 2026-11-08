@@ -1,0 +1,529 @@
+{
+  "meta": {
+    "id": "col-15",
+    "slug": "sacred-valley-weaves-and-andean-trails",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Sacred Valley Weaves & Andean Trails",
+    "region": "Peru",
+    "days": 10,
+    "categories": [
+      "culture",
+      "nature",
+      "offbeat"
+    ],
+    "tags": [
+      "#PERU",
+      "#SACREDVALLEY",
+      "#TEXTILES"
+    ],
+    "intro": "Travel through Cusco and the Sacred Valley with weaving communities, terrace landscapes, Quechua food traditions, and archaeological sites connected by slower Andean days.",
+    "image": "/images/fallbacks/culture.webp",
+    "alt": "Andean weaving, Sacred Valley terraces and high mountain villages beneath clear Peruvian skies",
+    "collaborator": {
+      "name": "Camila Huamán",
+      "role": "Andean Community & Textile Journey Designer • Cusco, Peru",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A community-centred Sacred Valley journey pairing textile traditions, terraces, village life, and carefully paced archaeology with time to acclimatise around Cusco.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Two-night acclimatisation window in Cusco before a busier valley programme."
+      },
+      {
+        "icon": "temple",
+        "label": "Community-led textile and agricultural experiences in the Sacred Valley."
+      },
+      {
+        "icon": "boat",
+        "label": "Maras and Moray explored with landscape and farming context."
+      },
+      {
+        "icon": "wellness",
+        "label": "Ollantaytambo and Machu Picchu approached without turning the route into a spr"
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "oaxaca-kitchens-and-sierra-paths",
+    "salt-looms-and-desert-villages",
+    "valley-temples-and-annapurna-footpaths"
+  ],
+  "seo": {
+    "pageTitle": "Sacred Valley Weaves & Andean Trails | 10-Day Peru Journey",
+    "pageDesc": "Explore Cusco and the Sacred Valley through weaving communities, terraces, Quechua food traditions, and carefully paced archaeology on a 10-day journey.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Sacred Valley Weaves & Andean Trails across Peru for social sharing within this carefully",
+    "breadcrumbName": "Sacred Valley Weaves & Andean Trails",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Sacred Valley Weaves & Andean Trails"
+      }
+    ],
+    "coverImage": "/images/home/journey-pc1.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Peru within this carefully designed cultural journey",
+    "eyebrow": "Collaborated Route",
+    "title": "Sacred Valley Weaves & Andean Trails",
+    "intro": "Travel through Cusco and the Sacred Valley with weaving communities, terrace landscapes, Quechua food traditions, and archaeological sites connected by slower Andean days.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "10 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Acclimatised"
+      },
+      {
+        "label": "Region",
+        "value": "Peru"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Community culture & Andes"
+      },
+      {
+        "label": "Designer",
+        "value": "Camila Huamán"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 3,600",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Sacred Valley Weaves & Andean Trails",
+    "shareText": "Travel through Cusco and the Sacred Valley with weaving communities, terrace landscapes, Quechua food traditions, and archaeological sites connected by slower Andean days."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "The route begins with acclimatisation in Cusco before dropping into the Sacred Valley, where lower elevations, farm terraces, markets, and village communities create a more gradual relationship with the Andes. Community visits are built around real activities rather than costume performance.",
+              "Camila gives textiles a central role because weaving, natural dyes, agriculture, and identity intersect throughout the valley. Archaeological sites remain important, but they are sequenced alongside living communities so the past never overwhelms the present."
+            ],
+            "highlightsTitle": "Highlights of the Journey",
+            "highlights": [
+              "Two-night acclimatisation window in Cusco before a busier valley programme.",
+              "Community-led textile and agricultural experiences in the Sacred Valley.",
+              "Maras and Moray explored with landscape and farming context.",
+              "Ollantaytambo and Machu Picchu approached without turning the route into a sprint."
+            ]
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/impact/impact1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Peru within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Peru, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy8.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Peru within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Peru, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact3.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Peru within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Peru, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact4.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Peru within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Peru, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy11.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Peru within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Peru, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact6.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Peru within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Peru, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": false,
+            "captionPc": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 10-day journey is paced around community culture & andes, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Acclimatise in the Old Inca Capital",
+                "bodySubtitle": "DAYS 1–2 | CUSCO",
+                "paragraphs": [
+                  "Use the first two days gently, combining rest with short walks through Cusco’s Inca stonework, colonial layers, markets, and food culture."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Short historic walk only after adequate rest.",
+                  "Market or culinary introduction to Andean ingredients."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy3.webp",
+                    "alt": "Editorial travel scene showing Cusco during the Sacred Valley Weaves & Andean Trails journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Terraces, Markets and River Valley",
+                "bodySubtitle": "DAYS 3–4 | PISAC & SACRED VALLEY",
+                "paragraphs": [
+                  "Move into the Sacred Valley for Pisac and surrounding communities, using the lower valley to continue acclimatisation while exploring farming landscapes."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Terrace and archaeological interpretation.",
+                  "Locally hosted meal or market experience."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/impact/impact2.webp",
+                    "alt": "Editorial travel scene showing Pisac & Sacred Valley during the Sacred Valley Weaves & Andean Trails journey within"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Salt, Agriculture and Textile Knowledge",
+                "bodySubtitle": "DAYS 5–6 | MARAS, MORAY & CHINCHERO",
+                "paragraphs": [
+                  "Spend two days around Maras, Moray, and Chinchero, linking salt, experimental-looking terraces, natural dyes, and weaving traditions."
+                ],
+                "listItems": [
+                  "Textile session led by a local weaving group.",
+                  "Landscape interpretation around Maras and Moray."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/impact/impact3.webp",
+                    "alt": "Editorial travel scene showing Maras, Moray & Chinchero during the Sacred Valley Weaves & Andean Trails journey within"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Living Valley Communities",
+                "bodySubtitle": "DAYS 7–8 | HUILLOC & OLLANTAYTAMBO",
+                "paragraphs": [
+                  "Base around Ollantaytambo and spend meaningful time with a community such as Huilloc when locally available, then return to the living Inca town for the evening."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Community-led agricultural or textile activity.",
+                  "Evening walk through Ollantaytambo lanes."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy6.webp",
+                    "alt": "Editorial travel scene showing Huilloc & Ollantaytambo during the Sacred Valley Weaves & Andean Trails journey within this"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy7.webp",
+                    "alt": "Editorial travel scene showing Huilloc & Ollantaytambo during the Sacred Valley Weaves & Andean Trails journey within this"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: The Citadel in Context",
+                "bodySubtitle": "DAY 9 | MACHU PICCHU",
+                "paragraphs": [
+                  "Travel to Machu Picchu with timed entry and an interpretive visit that connects the site to the broader valley journey rather than treating it as a detached finale."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Timed archaeological visit with specialist guide.",
+                  "Rail return planned without an unnecessarily late arrival."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/impact/impact5.webp",
+                    "alt": "Editorial travel scene showing Machu Picchu during the Sacred Valley Weaves & Andean Trails journey within this carefully"
+                  },
+                  {
+                    "src": "/images/impact/impact6.webp",
+                    "alt": "Editorial travel scene showing Machu Picchu during the Sacred Valley Weaves & Andean Trails journey within this carefully"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure & Onward Connections",
+                "bodySubtitle": "DAY 10 | CUSCO",
+                "paragraphs": [
+                  "Return or connect onward with a quiet final day and adequate airport timing."
+                ],
+                "listItems": [
+                  "Private transfer coordination.",
+                  "No demanding activity on departure day."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Cusco hotel and valley lodges selected for comfort and altitude management.",
+              "Community experiences arranged through local organisations or hosts.",
+              "Rail and timed-entry logistics confirmed well in advance.",
+              "Walking distances adapted to altitude and individual fitness."
+            ],
+            "image": "/images/impact/impact4.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Peru within this carefully designed cultural journey",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Warm layers for cold mornings and strong Andean sun later in the day.",
+              "Comfortable walking shoes for stone streets and uneven archaeological paths.",
+              "Sun protection and reusable water bottle for high-altitude dryness.",
+              "Respectful clothing for community-hosted visits and ceremonies."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "The valley is not an archaeological corridor. It is a living place where weaving, farming, language, and memory continue beside the ruins.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Field Notes: Sacred Valley Weaves & Andean Trails",
+            "video": {
+              "videoId": "4KtLGaNl9VQ",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Editorial travel scene showing moving travel impressions from Peru and its cultural landscapes within this carefully designed cultural",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "A moving editorial glimpse selected to complement the pace and atmosphere of Sacred Valley Weaves & Andean Trails."
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "ALTITUDE & COMMUNITY NOTE",
+            "text": "Altitude tolerance differs greatly between travellers. Community experiences should also be booked through local hosts who control the format, timing, photography expectations, and whether a visit is appropriate at all."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "The Living Valley Beyond the Ruins",
+            "paragraphs": [
+              "Machu Picchu matters, but it gains depth after days spent with terraces, salt ponds, weaving groups, markets, and valley towns. The journey gives the present enough space to stand beside the past.",
+              "That balance is what makes the Sacred Valley feel inhabited rather than preserved behind glass."
+            ],
+            "image": "/images/itineraries/dummy2.webp",
+            "imageAlt": "Editorial travel scene showing a final reflective travel moment from Peru within this carefully designed cultural journey",
+            "imageAspectRatio": "4 / 5"
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "ANDEAN COMMUNITY & TEXTILE JOURNEY DESIGNER • CUSCO, PERU",
+            "name": "Camila Huamán",
+            "bio": "Camila designs Andean journeys around community tourism, textile knowledge, acclimatisation, and the relationship between living culture and archaeological landscapes.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Camila Huamán for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Sacred Valley Weaves & Andean Trails be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Camila Huamán’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Altitude tolerance differs greatly between travellers. Community experiences should also be booked through local hosts who control the format, timing, photography expectations, and whether a visit is appropriate at all."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as acclimatised. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

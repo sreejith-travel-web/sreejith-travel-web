@@ -1,0 +1,512 @@
+{
+  "meta": {
+    "id": "col-13",
+    "slug": "conservancies-and-maasai-horizons",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": true,
+    "title": "Conservancies & Maasai Horizons",
+    "region": "Kenya",
+    "days": 9,
+    "categories": [
+      "nature",
+      "culture",
+      "stays"
+    ],
+    "tags": [
+      "#KENYA",
+      "#CONSERVANCY",
+      "#SAFARI"
+    ],
+    "intro": "Move from Nairobi to community conservancies in Laikipia and the Maasai Mara, where wildlife, land stewardship, and local ownership shape the safari.",
+    "image": "/images/journal/journal2.webp",
+    "alt": "Kenyan savannah wildlife, conservancy grasslands and distant escarpments under broad golden skies",
+    "collaborator": {
+      "name": "Wanjiku Njeri",
+      "role": "Conservancy & Community Safari Designer • Nairobi, Kenya",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A conservation-led Kenya safari linking Laikipia and the Mara through small camps, wildlife tracking, community conservancy models, and spacious game-viewing days.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Laikipia wildlife viewing paired with conservation and land-use context."
+      },
+      {
+        "icon": "temple",
+        "label": "Small-camp stays with low vehicle density where possible."
+      },
+      {
+        "icon": "boat",
+        "label": "Maasai Mara ecosystem experienced from a conservancy base."
+      },
+      {
+        "icon": "wellness",
+        "label": "Community and ranger conversations integrated without staging culture for visi"
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "desert-silence-to-delta-water",
+    "geothermal-stories-and-southern-fjords",
+    "northern-stories-and-knuckles-green"
+  ],
+  "seo": {
+    "pageTitle": "Conservancies & Maasai Horizons | 9-Day Kenya Journey",
+    "pageDesc": "Move from Nairobi to community conservancies in Laikipia and the Maasai Mara, where wildlife, land stewardship, and local ownership shape the safari.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Conservancies & Maasai Horizons across Kenya for social sharing within this carefully designed cultural",
+    "breadcrumbName": "Conservancies & Maasai Horizons",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Conservancies & Maasai Horizons"
+      }
+    ],
+    "coverImage": "/images/journal/journal5.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Kenya within this carefully designed cultural journey",
+    "eyebrow": "Collaborated Route",
+    "title": "Conservancies & Maasai Horizons",
+    "intro": "Move from Nairobi to community conservancies in Laikipia and the Maasai Mara, where wildlife, land stewardship, and local ownership shape the safari.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "9 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Dawn to dusk"
+      },
+      {
+        "label": "Region",
+        "value": "Kenya"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Wildlife & community conservancy"
+      },
+      {
+        "label": "Designer",
+        "value": "Wanjiku Njeri"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 6,200",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Conservancies & Maasai Horizons",
+    "shareText": "Move from Nairobi to community conservancies in Laikipia and the Maasai Mara, where wildlife, land stewardship, and local ownership shape the safari."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "This safari is structured around conservancies rather than a checklist of national parks. After a short Nairobi orientation, the route moves to Laikipia for varied landscapes and conservation work before finishing in a private or community-linked conservancy adjoining the Maasai Mara ecosystem.",
+              "Wanjiku builds each stay around the people managing the land as much as the animals moving through it. Game drives remain central, but walking, tracking, conservation conversations, and community-owned tourism help explain why wildlife still has space here."
+            ],
+            "image": "/images/itineraries/dummy12.webp",
+            "imageAlt": "Editorial travel scene showing an editorial portrait of Kenya landscapes and local encounters within this carefully designed cultural",
+            "imageAspectRatio": "4 / 5",
+            "caption": "Nairobi → Laikipia Conservancy → Maasai Mara Conservancy",
+            "highlightsTitle": "Highlights of the Journey",
+            "highlights": [
+              "Laikipia wildlife viewing paired with conservation and land-use context.",
+              "Small-camp stays with low vehicle density where possible.",
+              "Maasai Mara ecosystem experienced from a conservancy base.",
+              "Community and ranger conversations integrated without staging culture for visitors."
+            ]
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Field Notes: Conservancies & Maasai Horizons",
+            "video": {
+              "videoId": "4KtLGaNl9VQ",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Editorial travel scene showing moving travel impressions from Kenya and its cultural landscapes within this carefully designed cultural",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "A moving editorial glimpse selected to complement the pace and atmosphere of Conservancies & Maasai Horizons."
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 9-day journey is paced around wildlife & community conservancy, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Arrival & Conservation Context",
+                "bodySubtitle": "DAY 1 | NAIROBI",
+                "paragraphs": [
+                  "Arrive in Nairobi and use the first day lightly, with an optional museum, gallery, or conservation-focused visit before an early night."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Private airport transfer.",
+                  "Optional cultural or conservation orientation."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/home/forest-portrait.webp",
+                    "alt": "Editorial travel scene showing Nairobi during the Conservancies & Maasai Horizons journey within this carefully designed cultural journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Wildlife Across Working Landscapes",
+                "bodySubtitle": "DAYS 2–4 | LAIKIPIA",
+                "paragraphs": [
+                  "Fly or drive to Laikipia for three nights in a conservancy where game viewing is paired with tracking, walking where permitted, and conversations about land management."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Morning and evening wildlife drives.",
+                  "Conservation or ranger-led activity according to the property."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/journal/journal5.webp",
+                    "alt": "Editorial travel scene showing Laikipia during the Conservancies & Maasai Horizons journey within this carefully designed cultural journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: The Open Grassland Rhythm",
+                "bodySubtitle": "DAYS 5–8 | MAASAI MARA CONSERVANCY",
+                "paragraphs": [
+                  "Continue to a conservancy in the greater Mara ecosystem for four nights, giving enough time for patient wildlife observation rather than chasing sightings across huge distances."
+                ],
+                "listItems": [
+                  "Flexible dawn and late-afternoon game drives.",
+                  "Community or land-stewardship conversation arranged respectfully."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/fallbacks/culture.webp",
+                    "alt": "Editorial travel scene showing Maasai Mara Conservancy during the Conservancies & Maasai Horizons journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Departure & Onward Connections",
+                "bodySubtitle": "DAY 9 | NAIROBI",
+                "paragraphs": [
+                  "Return to Nairobi by scheduled bush flight or road connection with international flight buffers protected."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Domestic connection timed with onward flight.",
+                  "Day room arranged if a long layover requires it."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Small safari camps selected for guiding quality and land model.",
+              "Internal flights used where they reduce long road transfers.",
+              "Private or shared game-viewing vehicle options clarified in advance.",
+              "Community visits only where locally led and genuinely wanted."
+            ],
+            "image": "/images/impact/impact2.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Kenya within this carefully designed cultural journey",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Neutral lightweight clothing for warm days and dusty roads.",
+              "Warm layer for early-morning drives, especially at altitude.",
+              "Binoculars and camera gear with dust protection.",
+              "Soft-sided luggage suitable for light-aircraft restrictions."
+            ]
+          }
+        },
+        {
+          "type": "slider",
+          "data": {
+            "eyebrow": "ROUTE IN FRAMES",
+            "title": "Selected Landscapes & Stays",
+            "images": [
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Editorial travel scene showing landscape detail from Kenya on Conservancies & Maasai Horizons within this carefully designed cultural",
+                "caption": "Visual field note 1 from the landscapes and cultural atmosphere of Kenya."
+              },
+              {
+                "src": "/images/journal/journal2.webp",
+                "alt": "Editorial travel scene showing landscape detail from Kenya on Conservancies & Maasai Horizons within this carefully designed cultural",
+                "caption": "Visual field note 2 from the landscapes and cultural atmosphere of Kenya."
+              },
+              {
+                "src": "/images/journal/journal3.webp",
+                "alt": "Editorial travel scene showing landscape detail from Kenya on Conservancies & Maasai Horizons within this carefully designed cultural",
+                "caption": "Visual field note 3 from the landscapes and cultural atmosphere of Kenya."
+              },
+              {
+                "src": "/images/journal/journal4.webp",
+                "alt": "Editorial travel scene showing landscape detail from Kenya on Conservancies & Maasai Horizons within this carefully designed cultural",
+                "caption": "Visual field note 4 from the landscapes and cultural atmosphere of Kenya."
+              },
+              {
+                "src": "/images/journal/journal5.webp",
+                "alt": "Editorial travel scene showing landscape detail from Kenya on Conservancies & Maasai Horizons within this carefully designed cultural",
+                "caption": "Visual field note 5 from the landscapes and cultural atmosphere of Kenya."
+              }
+            ],
+            "width": 1200,
+            "height": 800,
+            "autoplay": false,
+            "interval": 5000,
+            "captionMob": false,
+            "captionPc": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "A good safari is not a race to the next animal. It is time spent understanding why the landscape can still hold them.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/home/travel-video.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Kenya within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Kenya, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy12.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Kenya within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Kenya, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact2.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Kenya within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Kenya, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact3.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Kenya within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Kenya, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": false,
+            "captionPc": false
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "WILDLIFE ETHICS NOTE",
+            "text": "Sightings can never be guaranteed. Drivers and guides should prioritise animal space, vehicle etiquette, and conservancy rules over crowding a sighting for a photograph."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "The Landscape Behind the Wildlife",
+            "paragraphs": [
+              "The route is designed to make conservation visible, not as a slogan but as land, employment, grazing decisions, ranger work, and community ownership.",
+              "That context changes the meaning of every sighting because the animal is no longer separated from the system that keeps the habitat intact."
+            ],
+            "image": "/images/home/solo-portrait.webp",
+            "imageAlt": "Editorial travel scene showing a final reflective travel moment from Kenya within this carefully designed cultural journey",
+            "imageAspectRatio": "4 / 5",
+            "caption": "A final visual note from Conservancies & Maasai Horizons."
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "CONSERVANCY & COMMUNITY SAFARI DESIGNER • NAIROBI, KENYA",
+            "name": "Wanjiku Njeri",
+            "bio": "Wanjiku designs Kenyan safaris around conservancy models, guiding quality, patient wildlife observation, and respectful community engagement rather than checklist game drives.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Wanjiku Njeri for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Conservancies & Maasai Horizons be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Wanjiku Njeri’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Sightings can never be guaranteed. Drivers and guides should prioritise animal space, vehicle etiquette, and conservancy rules over crowding a sighting for a photograph."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as dawn to dusk. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

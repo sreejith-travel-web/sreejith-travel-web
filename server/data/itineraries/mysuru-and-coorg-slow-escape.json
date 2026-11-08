@@ -1,0 +1,405 @@
+{
+  "meta": {
+    "id": "ess-9",
+    "slug": "mysuru-and-coorg-slow-escape",
+    "type": "essential",
+    "featuredHome": true,
+    "featured": true,
+    "title": "Mysuru & Coorg Slow Escape",
+    "region": "Karnataka",
+    "days": 6,
+    "categories": [
+      "culture",
+      "nature",
+      "stays"
+    ],
+    "tags": [
+      "#MYSURU",
+      "#COORG",
+      "#COFFEE"
+    ],
+    "intro": "Six days combining Mysuru's palace-city heritage with Coorg coffee country, plantation stays, gentle drives, and relaxed regional food.",
+    "image": "/images/impact/impact2.webp",
+    "alt": "Green plantation landscape and winding road through the hills of Karnataka",
+    "featuredDescription": "A dependable 6-day route focused on heritage & coffee country, sensible logistics, comfortable pacing, and easy customization.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "label": "Mysuru palace-city heritage"
+      },
+      {
+        "icon": "village",
+        "label": "Coffee plantation stay"
+      },
+      {
+        "icon": "wellness",
+        "label": "Slow hill-country mornings"
+      },
+      {
+        "icon": "boat",
+        "label": "River and viewpoint stops"
+      }
+    ],
+    "collaborator": {
+      "name": "Rohan Cariappa",
+      "role": "Coorg Plantation Host",
+      "avatar": "/images/testimonials/avatar.webp"
+    }
+  },
+  "relatedSlugs": [
+    "wayanad-forest-and-plantation-break",
+    "ooty-coonoor-and-the-nilgiri-hills",
+    "hampi-and-badami-heritage-circuit"
+  ],
+  "seo": {
+    "pageTitle": "Mysuru & Coorg Slow Escape — 6-Day Essential Itinerary",
+    "pageDesc": "Six days combining Mysuru's palace-city heritage with Coorg coffee country, plantation stays, gentle drives, and relaxed regional food.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Green plantation landscape and winding road through the hills of Karnataka",
+    "breadcrumbName": "Mysuru & Coorg Slow Escape",
+    "publishDate": "2026-11-07"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Mysuru & Coorg Slow Escape"
+      }
+    ],
+    "coverImage": "/images/impact/impact2.webp",
+    "coverAlt": "Green plantation landscape and winding road through the hills of Karnataka",
+    "eyebrow": "Essential Blueprint",
+    "title": "Mysuru & Coorg Slow Escape",
+    "intro": "Six days combining Mysuru's palace-city heritage with Coorg coffee country, plantation stays, gentle drives, and relaxed regional food.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "6 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Easy"
+      },
+      {
+        "label": "Region",
+        "value": "Karnataka"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Heritage & coffee country"
+      },
+      {
+        "label": "Style",
+        "value": "Essential"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "STARTING BUDGET",
+    "price": "From USD 660",
+    "priceUnit": "per person",
+    "ctaTitle": "Want the simple route, adjusted for you?",
+    "ctaSubtitle": "Change the dates, stay level, pace, or one or two experiences without rebuilding the whole thing.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "shareTitle": "Mysuru & Coorg Slow Escape",
+    "shareText": "Six days combining Mysuru's palace-city heritage with Coorg coffee country, plantation stays, gentle drives, and relaxed regional food."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Spend the first half around Mysuru, then move once to Coorg and stay put. It is a simple combination that works because the two halves feel genuinely different."
+            ],
+            "caption": "Bengaluru → Mysuru → Srirangapatna → Coorg",
+            "highlightsTitle": "What You Get",
+            "highlights": [
+              "Mysuru palace-city heritage",
+              "Coffee plantation stay",
+              "Slow hill-country mornings",
+              "River and viewpoint stops"
+            ],
+            "image": "/images/itineraries/dummy9.webp",
+            "imageAlt": "Traveller view representing the mysuru & coorg slow escape journey across Karnataka",
+            "imageAspectRatio": "4 / 5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "6 days, short transfers where possible, and a practical sequence that leaves room for weather, opening times, and actual human energy."
+            ],
+            "title": "Route Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Mysuru Arrival",
+                "bodySubtitle": "DAY 1 | MYSURU",
+                "listItems": [
+                  "Transfer from Bengaluru.",
+                  "Check in.",
+                  "Evening market or palace-area walk."
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Palace City",
+                "bodySubtitle": "DAY 2 | MYSURU",
+                "listItems": [
+                  "Major heritage visits.",
+                  "Market stop.",
+                  "Regional lunch.",
+                  "Free evening."
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Srirangapatna to Coorg",
+                "bodySubtitle": "DAY 3 | TRANSFER DAY",
+                "listItems": [
+                  "Short heritage stop en route.",
+                  "Continue to plantation country.",
+                  "Check in and rest."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/impact/impact2.webp",
+                    "alt": "Landscape view representing srirangapatna to coorg on the mysuru & coorg slow escape route"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Coffee Country",
+                "bodySubtitle": "DAYS 4–5 | COORG",
+                "listItems": [
+                  "Plantation walk.",
+                  "Local food.",
+                  "One viewpoint, river, or village outing.",
+                  "Keep one half-day entirely free."
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Departure",
+                "bodySubtitle": "DAY 6 | BENGALURU OR MYSURU",
+                "listItems": [
+                  "Breakfast.",
+                  "Private onward transfer."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Route Essentials",
+            "items": [
+              "Private road transport throughout.",
+              "Central Mysuru stay and plantation-style Coorg stay.",
+              "Local guiding for main heritage visits.",
+              "One plantation walk or hosted coffee experience."
+            ]
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Before You Go",
+            "items": [
+              "Carry comfortable walking shoes.",
+              "Pack a light layer for Coorg evenings.",
+              "Expect a longer road transfer on the final day if returning to Bengaluru.",
+              "Keep luggage compact for easier hotel changes."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "Mysuru gives the route structure; Coorg gives it room to breathe.",
+            "author": "ESSENTIAL ROUTE NOTE"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "ROUTE SNAPSHOTS",
+            "title": "A Few Visual Notes",
+            "images": [
+              {
+                "src": "/images/impact/impact2.webp",
+                "alt": "Travel image 1 supporting the mysuru & coorg slow escape journey in Karnataka",
+                "width": 1200,
+                "height": 800,
+                "caption": "Route snapshot 1 from Karnataka."
+              },
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Travel image 2 supporting the mysuru & coorg slow escape journey in Karnataka",
+                "width": 1200,
+                "height": 800,
+                "caption": "Route snapshot 2 from Karnataka."
+              },
+              {
+                "src": "/images/home/forest-portrait.webp",
+                "alt": "Travel image 3 supporting the mysuru & coorg slow escape journey in Karnataka",
+                "width": 800,
+                "height": 1050,
+                "caption": "Route snapshot 3 from Karnataka."
+              }
+            ],
+            "captionMob": true,
+            "captionPc": true
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "PRACTICAL NOTE",
+            "text": "Do not overload the Coorg half with distant day trips. The plantation stay is part of the point."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Why This Route Works",
+            "paragraphs": [
+              "This blueprint is easy to sell because it is easy to understand: city heritage first, coffee hills second, one clean transition between them."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "COORG PLANTATION HOST • KARNATAKA",
+            "name": "Rohan Cariappa",
+            "bio": "Rohan coordinates plantation stays, local food experiences, and low-key hill excursions across Coorg for travellers who prefer slower days.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Profile placeholder representing Rohan Cariappa, curator for this essential travel route"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can the route be adjusted for our dates and pace?",
+                "paragraphs": [
+                  "Yes. Essential routes are starting templates, so nights, transfer points, and activity intensity can be adjusted before confirmation."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "Who is this route best suited to?",
+                "listItems": [
+                  "Travellers wanting a straightforward 6-day plan.",
+                  "Guests interested in heritage & coffee country.",
+                  "People who prefer dependable logistics over a heavily authored expedition."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "Are all activities fixed?",
+                "paragraphs": [
+                  "No. Weather, local opening times, transport schedules, and personal energy can change the daily order without changing the core route."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "What does the starting price cover?",
+                "listTitle": "Typical core inclusions:",
+                "listItems": [
+                  "Accommodation in the selected category.",
+                  "Private transfers listed in the route.",
+                  "Guiding or activity support where specified.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How is the booking confirmed?",
+                "paragraphs": [
+                  "A confirmation deposit is collected after the final route, stay category, and travel dates are approved. Supplier-specific non-refundable amounts are identified before payment."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What happens if dates change?",
+                "paragraphs": [
+                  "We first try to move the same services to new dates. Any cancellation or amendment cost depends on the actual hotel, transport, guide, permit, and activity terms attached to the booking."
+                ],
+                "listItems": [
+                  "Date changes remain subject to availability.",
+                  "Non-refundable supplier charges are passed through at cost.",
+                  "Any revised balance is confirmed before rebooking."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

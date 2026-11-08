@@ -1,0 +1,505 @@
+{
+  "meta": {
+    "id": "col-2",
+    "slug": "northern-stories-and-knuckles-green",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": true,
+    "title": "Northern Stories & Knuckles Green",
+    "region": "Sri Lanka",
+    "days": 12,
+    "categories": [
+      "culture",
+      "nature",
+      "offbeat"
+    ],
+    "tags": [
+      "#SRILANKA",
+      "#JAFFNA",
+      "#HIGHLANDS"
+    ],
+    "intro": "Travel from Jaffna’s Tamil north to the eastern coast, ancient heartland, and Knuckles highlands through food, memory, ecology, and village hospitality.",
+    "image": "/images/impact/impact3.webp",
+    "alt": "Palmyra country, temple towns, eastern lagoons and green Sri Lankan highlands in layered light",
+    "collaborator": {
+      "name": "Anjali Tharmalingam",
+      "role": "Northern Sri Lanka Culture & Ecology Curator • Jaffna, Sri Lanka",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A less conventional Sri Lanka route connecting northern Tamil culture, east-coast lagoons, ancient dry-zone landscapes, and the green highlands around Kandy."
+  },
+  "relatedSlugs": [
+    "oaxaca-kitchens-and-sierra-paths",
+    "salt-looms-and-desert-villages",
+    "geothermal-stories-and-southern-fjords"
+  ],
+  "seo": {
+    "pageTitle": "Northern Stories & Knuckles Green | 12-Day Sri Lanka Journey",
+    "pageDesc": "Travel from Jaffna’s Tamil north to the eastern coast, ancient heartland, and Knuckles highlands through food, memory, ecology, and village hospitality.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Northern Stories & Knuckles Green across Sri Lanka for social sharing within this carefully",
+    "breadcrumbName": "Northern Stories & Knuckles Green",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Northern Stories & Knuckles Green"
+      }
+    ],
+    "coverImage": "/images/impact/impact6.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Sri Lanka within this carefully designed cultural journey",
+    "eyebrow": "Collaborated Route",
+    "title": "Northern Stories & Knuckles Green",
+    "intro": "Travel from Jaffna’s Tamil north to the eastern coast, ancient heartland, and Knuckles highlands through food, memory, ecology, and village hospitality.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "12 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Unhurried"
+      },
+      {
+        "label": "Region",
+        "value": "Sri Lanka"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Culture, food & ecology"
+      },
+      {
+        "label": "Designer",
+        "value": "Anjali Tharmalingam"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 2,680",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Northern Stories & Knuckles Green",
+    "shareText": "Travel from Jaffna’s Tamil north to the eastern coast, ancient heartland, and Knuckles highlands through food, memory, ecology, and village hospitality."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "This route begins by going north instead of following the familiar southern loop. In Jaffna, palmyra landscapes, kovils, markets, home cooking, and the memory carried by neighbourhoods create a culturally specific introduction to the island.",
+              "From the north, the journey bends through Trincomalee and the dry-zone heartland before finishing in the cooler Knuckles foothills and Kandy. The progression is intentional: coast, stone, forest, and highland culture each arrive with enough time to feel distinct."
+            ],
+            "image": "/images/itineraries/dummy1.webp",
+            "imageAlt": "Editorial travel scene showing an editorial portrait of Sri Lanka landscapes and local encounters within this carefully designed",
+            "imageAspectRatio": "4 / 5",
+            "caption": "Colombo → Jaffna → Trincomalee → Sigiriya → Knuckles → Kandy"
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 12-day journey is paced around culture, food & ecology, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Arrival & Northern Orientation",
+                "bodySubtitle": "DAY 1 | COLOMBO",
+                "paragraphs": [
+                  "Arrive in Colombo and use the first evening to settle, discuss the island’s regional differences, and prepare for the northward journey rather than overloading arrival day."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Private arrival transfer and route briefing.",
+                  "Early dinner shaped around coastal Sri Lankan flavours."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/home/solo-portrait.webp",
+                    "alt": "Editorial travel scene showing Colombo during the Northern Stories & Knuckles Green journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Palmyra Country",
+                "bodySubtitle": "DAYS 2–4 | JAFFNA",
+                "paragraphs": [
+                  "Base in Jaffna for temple architecture, market walks, home-style Tamil cuisine, and excursions across the peninsula where palmyra, lagoons, and village roads define the landscape."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Visit Nallur area with cultural interpretation and respectful timing.",
+                  "Explore a market and kitchen session focused on northern ingredients."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/impact/impact1.webp",
+                    "alt": "Editorial travel scene showing Jaffna during the Northern Stories & Knuckles Green journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Eastern Water & Memory",
+                "bodySubtitle": "DAYS 5–6 | TRINCOMALEE",
+                "paragraphs": [
+                  "Travel south-east to Trincomalee for harbour history, coastal shrines, and quieter lagoon or marine experiences chosen according to season and sea conditions."
+                ],
+                "listItems": [
+                  "Sunrise coastal walk before the heat builds.",
+                  "Lagoon or boat-based nature excursion when conditions are appropriate."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/impact/impact2.webp",
+                    "alt": "Editorial travel scene showing Trincomalee during the Northern Stories & Knuckles Green journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Dry-Zone Stone and Forest",
+                "bodySubtitle": "DAYS 7–8 | SIGIRIYA & HABARANA",
+                "paragraphs": [
+                  "Move inland to the Cultural Triangle, balancing archaeological sites with village landscapes, tanks, and forest edges instead of treating the area as a monument checklist."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Early climb or viewpoint timing to avoid midday heat.",
+                  "Village meal and irrigation-landscape interpretation."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy3.webp",
+                    "alt": "Editorial travel scene showing Sigiriya & Habarana during the Northern Stories & Knuckles Green journey within this carefully"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy4.webp",
+                    "alt": "Editorial travel scene showing Sigiriya & Habarana during the Northern Stories & Knuckles Green journey within this carefully"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Green Ridges and Hill Country",
+                "bodySubtitle": "DAYS 9–11 | KNUCKLES & KANDY",
+                "paragraphs": [
+                  "Finish in the central highlands with gentle Knuckles foothill walks, village stays, and time in Kandy for craft, food, and the living religious culture around the lake."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Flexible forest-edge walk with a local naturalist.",
+                  "Kandy evening planned around ceremony timing and crowd conditions."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/impact/impact4.webp",
+                    "alt": "Editorial travel scene showing Knuckles & Kandy during the Northern Stories & Knuckles Green journey within this carefully"
+                  },
+                  {
+                    "src": "/images/impact/impact5.webp",
+                    "alt": "Editorial travel scene showing Knuckles & Kandy during the Northern Stories & Knuckles Green journey within this carefully"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure & Onward Connections",
+                "bodySubtitle": "DAY 12 | KANDY OR COLOMBO",
+                "paragraphs": [
+                  "Use the final day for a calm departure transfer, with routing chosen around flight time and realistic road conditions."
+                ],
+                "listItems": [
+                  "Private departure transfer.",
+                  "Optional final market or tea stop if timing allows."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Small hotels and locally rooted stays rather than resort-heavy sequencing.",
+              "Private vehicle for long inter-regional drives with sensible rest stops.",
+              "Specialist local guiding in Jaffna, the Cultural Triangle, and highlands.",
+              "Flexible coastal activities selected around sea and monsoon conditions."
+            ],
+            "image": "/images/journal/journal2.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Sri Lanka within this carefully designed cultural",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Light breathable clothing for northern and eastern heat.",
+              "A light rain layer and walking shoes for the central highlands.",
+              "Modest attire for kovils, temples, and other sacred spaces.",
+              "Sun protection and a reusable bottle for exposed archaeological sites."
+            ]
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Field Notes: Northern Stories & Knuckles Green",
+            "video": {
+              "videoId": "4KtLGaNl9VQ",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Editorial travel scene showing moving travel impressions from Sri Lanka and its cultural landscapes within this carefully designed",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "A moving editorial glimpse selected to complement the pace and atmosphere of Northern Stories & Knuckles Green."
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "The island changes language, food, weather, and memory long before the road reaches the next coast.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Sri Lanka within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Sri Lanka, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy8.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Sri Lanka within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Sri Lanka, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/journal/journal3.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Sri Lanka within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Sri Lanka, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/journal/journal4.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Sri Lanka within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Sri Lanka, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy11.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Sri Lanka within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Sri Lanka, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/fallbacks/culture.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Sri Lanka within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Sri Lanka, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": false,
+            "captionPc": false
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "MONSOON & REGIONAL WEATHER NOTE",
+            "text": "Sri Lanka’s weather varies sharply by coast and season. The exact sequence should be checked against current monsoon patterns, sea conditions, and local access rather than relying on one island-wide “best time” rule."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "An Island With More Than One Rhythm",
+            "paragraphs": [
+              "The north, east, dry zone, and highlands each hold a different Sri Lanka. Keeping them distinct makes the transitions more meaningful than trying to compress them into one generic tropical story.",
+              "The route leaves room for food, conversation, and small regional differences to do as much storytelling as the headline monuments."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "NORTHERN SRI LANKA CULTURE & ECOLOGY CURATOR • JAFFNA, SRI LANKA",
+            "name": "Anjali Tharmalingam",
+            "bio": "Anjali builds Sri Lanka journeys around regional identity, food memory, coastal ecology, and slower conversations, with a particular emphasis on the Tamil north and east.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Anjali Tharmalingam for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Northern Stories & Knuckles Green be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Anjali Tharmalingam’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Sri Lanka’s weather varies sharply by coast and season. The exact sequence should be checked against current monsoon patterns, sea conditions, and local access rather than relying on one island-wide “best time” rule."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as unhurried. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

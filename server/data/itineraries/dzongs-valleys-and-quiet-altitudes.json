@@ -1,0 +1,515 @@
+{
+  "meta": {
+    "id": "col-4",
+    "slug": "dzongs-valleys-and-quiet-altitudes",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Dzongs, Valleys & Quiet Altitudes",
+    "region": "Bhutan",
+    "days": 10,
+    "categories": [
+      "culture",
+      "nature",
+      "wellness"
+    ],
+    "tags": [
+      "#BHUTAN",
+      "#DZONGS",
+      "#VALLEYS"
+    ],
+    "intro": "Cross Bhutan from Paro to Bumthang through dzongs, farm valleys, forest passes, and contemplative stays shaped by local heritage and mountain rhythm.",
+    "image": "/images/journal/journal1.webp",
+    "alt": "Bhutanese dzong walls, forest valleys and prayer flags beneath crisp Himalayan morning light",
+    "collaborator": {
+      "name": "Sonam Choden",
+      "role": "Bhutanese Heritage & Valley Travel Designer • Thimphu, Bhutan",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A culturally grounded Bhutan route that balances fortress-monasteries, village landscapes, forested valleys, and gentle walking with the country’s slower sense of scale.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Paro and Thimphu introductions to Bhutanese architecture and contemporary life"
+      },
+      {
+        "icon": "temple",
+        "label": "Punakha valley walks around farms, rivers, and the great dzong."
+      },
+      {
+        "icon": "boat",
+        "label": "Phobjikha landscape interpreted through conservation and village culture."
+      },
+      {
+        "icon": "wellness",
+        "label": "Bumthang monasteries, forest paths, and farmhouse hospitality."
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "valley-temples-and-annapurna-footpaths",
+    "monasteries-under-the-milky-way",
+    "tea-monasteries-and-khangchendzonga"
+  ],
+  "seo": {
+    "pageTitle": "Dzongs, Valleys & Quiet Altitudes | 10-Day Bhutan Journey",
+    "pageDesc": "Cross Bhutan from Paro to Bumthang through dzongs, farm valleys, forest passes, and contemplative stays shaped by local heritage and mountain rhythm.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Dzongs, Valleys & Quiet Altitudes across Bhutan for social sharing within this carefully designed",
+    "breadcrumbName": "Dzongs, Valleys & Quiet Altitudes",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Dzongs, Valleys & Quiet Altitudes"
+      }
+    ],
+    "coverImage": "/images/journal/journal4.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Bhutan within this carefully designed cultural journey",
+    "eyebrow": "Collaborated Route",
+    "title": "Dzongs, Valleys & Quiet Altitudes",
+    "intro": "Cross Bhutan from Paro to Bumthang through dzongs, farm valleys, forest passes, and contemplative stays shaped by local heritage and mountain rhythm.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "10 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Slow"
+      },
+      {
+        "label": "Region",
+        "value": "Bhutan"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Heritage & mountain valleys"
+      },
+      {
+        "label": "Designer",
+        "value": "Sonam Choden"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 4,200",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Dzongs, Valleys & Quiet Altitudes",
+    "shareText": "Cross Bhutan from Paro to Bumthang through dzongs, farm valleys, forest passes, and contemplative stays shaped by local heritage and mountain rhythm."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Bhutan rewards a route built around valleys rather than a list of sights. Paro and Thimphu establish the architectural and social context before the journey crosses forest passes toward Punakha, Phobjikha, and Bumthang.",
+              "Sonam uses dzongs, village homes, monastery paths, and agricultural landscapes as connected chapters. Walking remains gentle, road days are kept realistic, and pauses are deliberately protected from over-programming."
+            ],
+            "image": "/images/itineraries/dummy3.webp",
+            "imageAlt": "Editorial travel scene showing an editorial portrait of Bhutan landscapes and local encounters within this carefully designed cultural",
+            "imageAspectRatio": "4 / 5",
+            "highlightsTitle": "Highlights of the Journey",
+            "highlights": [
+              "Paro and Thimphu introductions to Bhutanese architecture and contemporary life.",
+              "Punakha valley walks around farms, rivers, and the great dzong.",
+              "Phobjikha landscape interpreted through conservation and village culture.",
+              "Bumthang monasteries, forest paths, and farmhouse hospitality."
+            ]
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Field Notes: Dzongs, Valleys & Quiet Altitudes",
+            "video": {
+              "videoId": "4KtLGaNl9VQ",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Editorial travel scene showing moving travel impressions from Bhutan and its cultural landscapes within this carefully designed cultural",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "A moving editorial glimpse selected to complement the pace and atmosphere of Dzongs, Valleys & Quiet Altitudes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 10-day journey is paced around heritage & mountain valleys, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Arrival in the Paro Valley",
+                "bodySubtitle": "DAYS 1–2 | PARO",
+                "paragraphs": [
+                  "Use the first two days to acclimatise gently, explore the valley’s historic fabric, and understand the relationship between farm settlements, monasteries, and mountain geography."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Short heritage walk around Paro town and valley edges.",
+                  "Optional gentle hike adjusted to arrival energy."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy6.webp",
+                    "alt": "Editorial travel scene showing Paro during the Dzongs, Valleys & Quiet Altitudes journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Tradition in a Living Capital",
+                "bodySubtitle": "DAY 3 | THIMPHU",
+                "paragraphs": [
+                  "Move to Thimphu for a compact introduction to Bhutan’s contemporary institutions, craft traditions, and urban life before the road journey deepens."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Craft or textile-focused visit.",
+                  "Time in a local market or cultural institution."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/journal/journal3.webp",
+                    "alt": "Editorial travel scene showing Thimphu during the Dzongs, Valleys & Quiet Altitudes journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Rivers, Fields & Fortress Architecture",
+                "bodySubtitle": "DAYS 4–5 | PUNAKHA",
+                "paragraphs": [
+                  "Descend into Punakha for warmer valley air, riverside farmland, and the monumental dzong positioned between the Pho Chhu and Mo Chhu."
+                ],
+                "listItems": [
+                  "Village and farm walk through the valley.",
+                  "Architectural visit timed outside peak group arrivals."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/journal/journal4.webp",
+                    "alt": "Editorial travel scene showing Punakha during the Dzongs, Valleys & Quiet Altitudes journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: The Wide Glacial Valley",
+                "bodySubtitle": "DAYS 6–7 | PHOBJIKHA",
+                "paragraphs": [
+                  "Cross into Phobjikha and slow the pace around broad valley walks, conservation interpretation, and small settlements beneath forested ridges."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Gentle nature trail across the valley floor.",
+                  "Conversation around local conservation practices."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy9.webp",
+                    "alt": "Editorial travel scene showing Phobjikha during the Dzongs, Valleys & Quiet Altitudes journey within this carefully designed cultural"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy10.webp",
+                    "alt": "Editorial travel scene showing Phobjikha during the Dzongs, Valleys & Quiet Altitudes journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Monasteries and Hearths",
+                "bodySubtitle": "DAYS 8–9 | BUMTHANG",
+                "paragraphs": [
+                  "Continue to Bumthang for monastery valleys, farmhouse meals, forest paths, and a deeper sense of Bhutan’s religious geography."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Monastery circuit paced across two days.",
+                  "Farmhouse meal or locally hosted cultural evening."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/fallbacks/culture.webp",
+                    "alt": "Editorial travel scene showing Bumthang during the Dzongs, Valleys & Quiet Altitudes journey within this carefully designed cultural"
+                  },
+                  {
+                    "src": "/images/home/forest-landscape.webp",
+                    "alt": "Editorial travel scene showing Bumthang during the Dzongs, Valleys & Quiet Altitudes journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure & Onward Connections",
+                "bodySubtitle": "DAY 10 | BUMTHANG OR PARO",
+                "paragraphs": [
+                  "Use the final day for the best available onward connection, keeping domestic flight or road contingencies in the plan."
+                ],
+                "listItems": [
+                  "Transfer coordination around domestic schedules.",
+                  "Weather buffer maintained for onward international travel."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Boutique lodges and carefully selected valley hotels.",
+              "Private guide and vehicle throughout the overland route.",
+              "Walking adjusted for altitude, road conditions, and personal energy.",
+              "Local cultural experiences arranged with appropriate permissions and hosts."
+            ],
+            "image": "/images/journal/journal4.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Bhutan within this carefully designed cultural journey",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Warm layers for high passes and cold mornings.",
+              "Comfortable walking shoes for village and monastery paths.",
+              "Modest clothing for dzongs and religious sites.",
+              "Sun protection and personal medication for altitude-related comfort."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "Bhutan reveals itself in the space between valleys, where the road slows and the mountain decides the day.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/home/journey-pc1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Bhutan within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Bhutan, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy12.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Bhutan within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Bhutan, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/home/travel-video.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Bhutan within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Bhutan, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Bhutan within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Bhutan, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": false,
+            "captionPc": true
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "ALTITUDE & ACCESS NOTE",
+            "text": "Bhutan’s road and flight conditions can shift with weather and mountain works. The itinerary should preserve time buffers, avoid overly ambitious drive days, and treat access rules at religious sites as locally determined."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "A Country Read Valley by Valley",
+            "paragraphs": [
+              "The route is deliberately built as a sequence of changing valleys rather than a rapid national circuit. Architecture, farming, forest, and ritual become easier to understand when each has room to breathe.",
+              "By Bumthang, the journey feels less like collecting dzongs and more like learning how Bhutan’s built and natural landscapes depend on one another."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "BHUTANESE HERITAGE & VALLEY TRAVEL DESIGNER • THIMPHU, BHUTAN",
+            "name": "Sonam Choden",
+            "bio": "Sonam designs Bhutan journeys around valley culture, architecture, farming landscapes, and contemplative pacing, with a preference for fewer stops and deeper local interpretation.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Sonam Choden for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Dzongs, Valleys & Quiet Altitudes be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Sonam Choden’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Bhutan’s road and flight conditions can shift with weather and mountain works. The itinerary should preserve time buffers, avoid overly ambitious drive days, and treat access rules at religious sites as locally determined."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as slow. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

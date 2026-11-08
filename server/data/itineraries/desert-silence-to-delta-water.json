@@ -1,0 +1,512 @@
+{
+  "meta": {
+    "id": "col-14",
+    "slug": "desert-silence-to-delta-water",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": true,
+    "title": "Desert Silence to Delta Water",
+    "region": "Namibia & Botswana",
+    "days": 12,
+    "categories": [
+      "nature",
+      "offbeat",
+      "stays"
+    ],
+    "tags": [
+      "#NAMIBIA",
+      "#OKAVANGO",
+      "#WILDERNESS"
+    ],
+    "intro": "Cross from Namibia’s dune country to Botswana’s Okavango Delta, contrasting vast desert silence with seasonal waterways and wildlife-rich floodplains.",
+    "image": "/images/journal/journal4.webp",
+    "alt": "Namib dunes, Atlantic desert coast and Okavango channels forming a dramatic wilderness contrast",
+    "collaborator": {
+      "name": "Kabelo Motsumi",
+      "role": "Delta & Desert Expedition Designer • Maun, Botswana",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A high-contrast southern African expedition linking Sossusvlei and the Namib coast with the Okavango Delta through light aircraft, desert lodges, and water-based safari."
+  },
+  "relatedSlugs": [
+    "conservancies-and-maasai-horizons",
+    "fjords-ferries-and-lofoten-light",
+    "geothermal-stories-and-southern-fjords"
+  ],
+  "seo": {
+    "pageTitle": "Desert Silence to Delta Water | 12-Day Namibia & Botswana Journey",
+    "pageDesc": "Cross from Namibia’s dune country to Botswana’s Okavango Delta, contrasting vast desert silence with seasonal waterways and wildlife-rich floodplains.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Desert Silence to Delta Water across Namibia & Botswana for social sharing within this",
+    "breadcrumbName": "Desert Silence to Delta Water",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Desert Silence to Delta Water"
+      }
+    ],
+    "coverImage": "/images/home/forest-landscape.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Namibia & Botswana within this carefully designed cultural",
+    "eyebrow": "Collaborated Route",
+    "title": "Desert Silence to Delta Water",
+    "intro": "Cross from Namibia’s dune country to Botswana’s Okavango Delta, contrasting vast desert silence with seasonal waterways and wildlife-rich floodplains.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "12 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Expedition relaxed"
+      },
+      {
+        "label": "Region",
+        "value": "Namibia & Botswana"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Desert & wetland wilderness"
+      },
+      {
+        "label": "Designer",
+        "value": "Kabelo Motsumi"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 7,800",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Desert Silence to Delta Water",
+    "shareText": "Cross from Namibia’s dune country to Botswana’s Okavango Delta, contrasting vast desert silence with seasonal waterways and wildlife-rich floodplains."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "The journey begins with space. From Windhoek, the road reaches the Namib where dunes, gravel plains, and the clarity of desert light create days that are intentionally sparse. Swakopmund adds the Atlantic edge before the route changes countries and ecosystems.",
+              "From Maun, light aircraft access takes the journey into the Okavango Delta. Water levels determine the exact balance of mokoro, boating, and game drives, making seasonal flexibility a central design feature rather than a complication."
+            ],
+            "image": "/images/itineraries/dummy13.webp",
+            "imageAlt": "Editorial travel scene showing an editorial portrait of Namibia & Botswana landscapes and local encounters within this carefully",
+            "imageAspectRatio": "4 / 5",
+            "caption": "Windhoek → Sossusvlei → Swakopmund → Maun → Okavango Delta",
+            "highlightsTitle": "Highlights of the Journey",
+            "highlights": [
+              "Three nights in the Namib for sunrise, desert ecology, and unhurried dune landscapes.",
+              "Atlantic desert transition around Swakopmund.",
+              "Scenic light-aircraft change from arid Namibia to the Okavango system.",
+              "Four nights in the Delta balancing water and dry-land safari activities."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 12-day journey is paced around desert & wetland wilderness, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Arrival & Expedition Briefing",
+                "bodySubtitle": "DAY 1 | WINDHOEK",
+                "paragraphs": [
+                  "Arrive in Windhoek and keep the first evening simple, using a detailed briefing to cover luggage limits, light-aircraft logistics, and seasonal conditions."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Private airport transfer.",
+                  "Route and baggage briefing before remote stages."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/home/solo-portrait.webp",
+                    "alt": "Editorial travel scene showing Windhoek during the Desert Silence to Delta Water journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Dune Light and Desert Time",
+                "bodySubtitle": "DAYS 2–4 | SOSSUSVLEI & NAMIB",
+                "paragraphs": [
+                  "Travel into the Namib for three nights, giving sunrise and late-afternoon light priority while avoiding a rushed one-night photo stop."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Early Sossusvlei or Deadvlei excursion.",
+                  "Desert ecology walk or drive with a specialist guide."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/home/journey-pc1.webp",
+                    "alt": "Editorial travel scene showing Sossusvlei & Namib during the Desert Silence to Delta Water journey within this carefully"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Where Desert Meets Atlantic",
+                "bodySubtitle": "DAYS 5–6 | SWAKOPMUND",
+                "paragraphs": [
+                  "Continue to the coast for cooler air, marine influence, and the strange meeting of dunes and ocean around Swakopmund."
+                ],
+                "listItems": [
+                  "Coastal or dune ecology experience.",
+                  "Free time for rest between wilderness stages."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/home/solo-landscape.webp",
+                    "alt": "Editorial travel scene showing Swakopmund during the Desert Silence to Delta Water journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Crossing Into the Delta System",
+                "bodySubtitle": "DAY 7 | MAUN",
+                "paragraphs": [
+                  "Fly to Botswana and stage through Maun, keeping the day logistically light before the bush flight into the Delta."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "International and bush-flight connection management.",
+                  "Luggage repack for light-aircraft limits."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy3.webp",
+                    "alt": "Editorial travel scene showing Maun during the Desert Silence to Delta Water journey within this carefully designed cultural"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy4.webp",
+                    "alt": "Editorial travel scene showing Maun during the Desert Silence to Delta Water journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Water, Islands and Wildlife",
+                "bodySubtitle": "DAYS 8–11 | OKAVANGO DELTA",
+                "paragraphs": [
+                  "Fly into a Delta camp for four nights, allowing the activity mix to follow water levels and wildlife movement rather than a fixed menu."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Mokoro or boat activity when water conditions allow.",
+                  "Game drives and guided walks according to camp concession rules."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/impact/impact1.webp",
+                    "alt": "Editorial travel scene showing Okavango Delta during the Desert Silence to Delta Water journey within this carefully designed"
+                  },
+                  {
+                    "src": "/images/impact/impact2.webp",
+                    "alt": "Editorial travel scene showing Okavango Delta during the Desert Silence to Delta Water journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure & Onward Connections",
+                "bodySubtitle": "DAY 12 | MAUN",
+                "paragraphs": [
+                  "Fly back to Maun with conservative onward connection timing."
+                ],
+                "listItems": [
+                  "Bush-flight weather buffer.",
+                  "Assistance with onward regional or international connection."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Remote desert and Delta lodges selected for location and guiding quality.",
+              "Light-aircraft baggage restrictions communicated before departure.",
+              "Activity mix adjusted to seasonal water and wildlife conditions.",
+              "No single sighting, water activity, or scenic flight treated as guaranteed."
+            ],
+            "image": "/images/impact/impact3.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Namibia & Botswana within this carefully designed",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Soft-sided duffel suitable for light-aircraft baggage limits.",
+              "Neutral safari clothing plus warm layers for desert and dawn drives.",
+              "Strong sun protection and high-quality sunglasses.",
+              "Camera equipment secured against dust and small-aircraft handling."
+            ]
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Field Notes: Desert Silence to Delta Water",
+            "video": {
+              "videoId": "4KtLGaNl9VQ",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Editorial travel scene showing moving travel impressions from Namibia & Botswana and its cultural landscapes within this carefully",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "A moving editorial glimpse selected to complement the pace and atmosphere of Desert Silence to Delta Water."
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "The power of this route lies in contrast: one landscape removes water, the next reorganises life around every channel.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/impact/impact4.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Namibia & Botswana within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Namibia & Botswana, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy14.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Namibia & Botswana within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Namibia & Botswana, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact6.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Namibia & Botswana within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Namibia & Botswana, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Namibia & Botswana within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Namibia & Botswana, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/home/journey-mob1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Namibia & Botswana within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Namibia & Botswana, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/journal/journal3.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Namibia & Botswana within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Namibia & Botswana, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": true,
+            "captionPc": true
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "SEASONAL WATER NOTE",
+            "text": "Okavango water levels vary by season and year, so mokoro, boating, and vehicle access differ between camps and dates. The journey should be sold around the ecosystem, not a guaranteed activity list."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "From Absence to Abundance",
+            "paragraphs": [
+              "Namibia teaches the eye to notice scarcity: shade, water, vegetation, distance. The Delta then reverses the logic with channels, islands, reeds, and concentrated wildlife.",
+              "Together they create a journey whose meaning comes from ecological contrast rather than simply combining two famous destinations."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "DELTA & DESERT EXPEDITION DESIGNER • MAUN, BOTSWANA",
+            "name": "Kabelo Motsumi",
+            "bio": "Kabelo designs southern African wilderness journeys around seasonal ecology, light-aircraft logistics, responsible guiding, and the contrast between desert and wetland systems.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Kabelo Motsumi for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Desert Silence to Delta Water be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Kabelo Motsumi’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Okavango water levels vary by season and year, so mokoro, boating, and vehicle access differ between camps and dates. The journey should be sold around the ecosystem, not a guaranteed activity list."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as expedition relaxed. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

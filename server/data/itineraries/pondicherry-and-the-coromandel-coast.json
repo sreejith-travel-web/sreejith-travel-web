@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "id": "ess-12",
+    "slug": "pondicherry-and-the-coromandel-coast",
+    "type": "essential",
+    "featuredHome": true,
+    "featured": true,
+    "title": "Pondicherry & the Coromandel Coast",
+    "region": "Puducherry & Tamil Nadu",
+    "days": 5,
+    "categories": [
+      "culture",
+      "stays",
+      "bespoke"
+    ],
+    "tags": [
+      "#PONDICHERRY",
+      "#COROMANDEL",
+      "#MAHABALIPURAM"
+    ],
+    "intro": "A five-day coastal route from Chennai through Mahabalipuram to Pondicherry for shore temples, old quarters, cafés, and an easy seaside rhythm.",
+    "image": "/images/home/journey-pc1.webp",
+    "alt": "Coastal road and heritage atmosphere along South India's Coromandel shoreline",
+    "featuredDescription": "A dependable 5-day route focused on coastal heritage, sensible logistics, comfortable pacing, and easy customization.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "label": "Mahabalipuram monuments"
+      },
+      {
+        "icon": "village",
+        "label": "Tamil coastal settlements"
+      },
+      {
+        "icon": "wellness",
+        "label": "Slow Pondicherry mornings"
+      },
+      {
+        "icon": "boat",
+        "label": "Coromandel shoreline time"
+      }
+    ],
+    "collaborator": {
+      "name": "Coromandel Heritage Partners",
+      "role": "Regional Coastal Heritage Partner",
+      "avatar": "/images/testimonials/avatar.webp"
+    }
+  },
+  "relatedSlugs": [
+    "madurai-and-chettinad-heritage-trail",
+    "fort-kochi-heritage-weekend",
+    "goa-beyond-the-beach"
+  ],
+  "seo": {
+    "pageTitle": "Pondicherry & the Coromandel Coast — 5-Day Essential Itinerary",
+    "pageDesc": "A five-day coastal route from Chennai through Mahabalipuram to Pondicherry for shore temples, old quarters, cafés, and an easy seaside rhythm.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Coastal road and heritage atmosphere along South India's Coromandel shoreline",
+    "breadcrumbName": "Pondicherry & the Coromandel Coast",
+    "publishDate": "2026-11-07"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Pondicherry & the Coromandel Coast"
+      }
+    ],
+    "coverImage": "/images/home/journey-pc1.webp",
+    "coverAlt": "Coastal road and heritage atmosphere along South India's Coromandel shoreline",
+    "eyebrow": "Essential Blueprint",
+    "title": "Pondicherry & the Coromandel Coast",
+    "intro": "A five-day coastal route from Chennai through Mahabalipuram to Pondicherry for shore temples, old quarters, cafés, and an easy seaside rhythm.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "5 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Easy"
+      },
+      {
+        "label": "Region",
+        "value": "Puducherry & Tamil Nadu"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Coastal heritage"
+      },
+      {
+        "label": "Style",
+        "value": "Essential"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "STARTING BUDGET",
+    "price": "From USD 560",
+    "priceUnit": "per person",
+    "ctaTitle": "Want the simple route, adjusted for you?",
+    "ctaSubtitle": "Change the dates, stay level, pace, or one or two experiences without rebuilding the whole thing.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "shareTitle": "Pondicherry & the Coromandel Coast",
+    "shareText": "A five-day coastal route from Chennai through Mahabalipuram to Pondicherry for shore temples, old quarters, cafés, and an easy seaside rhythm."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Keep the route linear: leave Chennai, stop properly in Mahabalipuram, then settle in Pondicherry. It is short enough that there is no need for clever detours."
+            ],
+            "caption": "Chennai → Mahabalipuram → Pondicherry",
+            "highlightsTitle": "What You Get",
+            "highlights": [
+              "Mahabalipuram monuments",
+              "Tamil coastal settlements",
+              "Slow Pondicherry mornings",
+              "Coromandel shoreline time"
+            ],
+            "image": "/images/itineraries/dummy12.webp",
+            "imageAlt": "Traveller view representing the pondicherry & the coromandel coast journey across Puducherry & Tamil Nadu",
+            "imageAspectRatio": "4 / 5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "5 days, short transfers where possible, and a practical sequence that leaves room for weather, opening times, and actual human energy."
+            ],
+            "title": "Route Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Chennai to Mahabalipuram",
+                "bodySubtitle": "DAY 1 | COROMANDEL COAST",
+                "listItems": [
+                  "Private coastal transfer.",
+                  "Check in near Mahabalipuram.",
+                  "Late afternoon monument walk."
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Mahabalipuram Morning",
+                "bodySubtitle": "DAY 2 | HERITAGE",
+                "listItems": [
+                  "Early monument circuit.",
+                  "Lunch.",
+                  "Continue to Pondicherry."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/home/journey-pc1.webp",
+                    "alt": "Landscape view representing mahabalipuram morning on the pondicherry & the coromandel coast route"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Old Quarters",
+                "bodySubtitle": "DAY 3 | PONDICHERRY",
+                "listItems": [
+                  "Walking orientation.",
+                  "Market or café stop.",
+                  "Free evening."
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Slow Coastal Day",
+                "bodySubtitle": "DAY 4 | PONDICHERRY",
+                "listItems": [
+                  "Choose one local outing.",
+                  "Keep the rest unscheduled.",
+                  "Sunset by the promenade."
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Departure",
+                "bodySubtitle": "DAY 5 | CHENNAI OR ONWARD",
+                "listItems": [
+                  "Breakfast.",
+                  "Private onward transfer."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Coastal Route Basics",
+            "items": [
+              "Private road transfers from Chennai.",
+              "One guided Mahabalipuram heritage visit.",
+              "Central Pondicherry stay.",
+              "Flexible local time after arrival."
+            ]
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Before You Go",
+            "items": [
+              "Start monument visits early in hot months.",
+              "Carry sun protection.",
+              "Pack modest attire for temple contexts.",
+              "Allow extra road time around Chennai traffic."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "Mahabalipuram gives the journey its history; Pondicherry gives it somewhere to exhale.",
+            "author": "ESSENTIAL ROUTE NOTE"
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "PRACTICAL NOTE",
+            "text": "The route works because it is linear. Resist the urge to bolt unrelated day trips onto a five-day coastal break."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Why This Route Works",
+            "paragraphs": [
+              "This is a neat southern coastal add-on: one major heritage stop, one relaxed town, and enough sea between them to make the transfer feel like part of the trip."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "REGIONAL COASTAL HERITAGE PARTNER • PUDUCHERRY & TAMIL NADU",
+            "name": "Coromandel Heritage Partners",
+            "bio": "A regional operating partner coordinating heritage guiding, coastal transfers, and simple stay logistics between Chennai, Mahabalipuram, and Pondicherry.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Profile placeholder representing Coromandel Heritage Partners, curator for this essential travel route"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can the route be adjusted for our dates and pace?",
+                "paragraphs": [
+                  "Yes. Essential routes are starting templates, so nights, transfer points, and activity intensity can be adjusted before confirmation."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "Who is this route best suited to?",
+                "listItems": [
+                  "Travellers wanting a straightforward 5-day plan.",
+                  "Guests interested in coastal heritage.",
+                  "People who prefer dependable logistics over a heavily authored expedition."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "Are all activities fixed?",
+                "paragraphs": [
+                  "No. Weather, local opening times, transport schedules, and personal energy can change the daily order without changing the core route."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "What does the starting price cover?",
+                "listTitle": "Typical core inclusions:",
+                "listItems": [
+                  "Accommodation in the selected category.",
+                  "Private transfers listed in the route.",
+                  "Guiding or activity support where specified.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How is the booking confirmed?",
+                "paragraphs": [
+                  "A confirmation deposit is collected after the final route, stay category, and travel dates are approved. Supplier-specific non-refundable amounts are identified before payment."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What happens if dates change?",
+                "paragraphs": [
+                  "We first try to move the same services to new dates. Any cancellation or amendment cost depends on the actual hotel, transport, guide, permit, and activity terms attached to the booking."
+                ],
+                "listItems": [
+                  "Date changes remain subject to availability.",
+                  "Non-refundable supplier charges are passed through at cost.",
+                  "Any revised balance is confirmed before rebooking."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

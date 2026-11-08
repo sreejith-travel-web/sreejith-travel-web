@@ -1,0 +1,518 @@
+{
+  "meta": {
+    "id": "col-7",
+    "slug": "salt-looms-and-desert-villages",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Salt, Looms & Desert Villages",
+    "region": "Kutch, India",
+    "days": 9,
+    "categories": [
+      "culture",
+      "offbeat",
+      "stays"
+    ],
+    "tags": [
+      "#KUTCH",
+      "#CRAFT",
+      "#DESERT"
+    ],
+    "intro": "Explore Kutch through Bhuj, artisan villages, Banni grasslands, the Great Rann, and Mandvi, with craft communities placed at the centre of the route.",
+    "image": "/images/home/forest-landscape.webp",
+    "alt": "Kutch textiles, white salt flats and desert villages glowing beneath warm western Indian light",
+    "collaborator": {
+      "name": "Reema Jadeja",
+      "role": "Kutch Craft & Desert Community Curator • Bhuj, Gujarat",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A craft-led Kutch itinerary connecting textile traditions, desert ecology, village architecture, salt landscapes, and the old port town of Mandvi.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Bhuj orientation through museums, markets, and local design history."
+      },
+      {
+        "icon": "temple",
+        "label": "Small-group artisan visits in Ajrakhpur, Bhujodi, and selected villages."
+      },
+      {
+        "icon": "boat",
+        "label": "Sunrise or sunset on the Great Rann without building the whole trip around a p"
+      },
+      {
+        "icon": "wellness",
+        "label": "Mandvi’s port history, shipbuilding context, and coastal food traditions."
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "medinas-atlas-and-earthen-kasbahs",
+    "oaxaca-kitchens-and-sierra-paths",
+    "sacred-valley-weaves-and-andean-trails"
+  ],
+  "seo": {
+    "pageTitle": "Salt, Looms & Desert Villages | 9-Day Kutch, India Journey",
+    "pageDesc": "Explore Kutch through Bhuj, artisan villages, Banni grasslands, the Great Rann, and Mandvi, with craft communities placed at the centre of the route.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Salt, Looms & Desert Villages across Kutch, India for social sharing within this carefully",
+    "breadcrumbName": "Salt, Looms & Desert Villages",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Salt, Looms & Desert Villages"
+      }
+    ],
+    "coverImage": "/images/home/solo-landscape.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Kutch, India within this carefully designed cultural journey",
+    "eyebrow": "Collaborated Route",
+    "title": "Salt, Looms & Desert Villages",
+    "intro": "Explore Kutch through Bhuj, artisan villages, Banni grasslands, the Great Rann, and Mandvi, with craft communities placed at the centre of the route.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "9 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Unhurried"
+      },
+      {
+        "label": "Region",
+        "value": "Kutch, India"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Craft, desert & community"
+      },
+      {
+        "label": "Designer",
+        "value": "Reema Jadeja"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 2,100",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Salt, Looms & Desert Villages",
+    "shareText": "Explore Kutch through Bhuj, artisan villages, Banni grasslands, the Great Rann, and Mandvi, with craft communities placed at the centre of the route."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Kutch is approached through the hands that make it. Bhuj anchors the journey, while nearby weaving, block-printing, embroidery, leather, and pottery communities provide a network of visits that can be paced according to who is available rather than treated as a fixed shopping circuit.",
+              "The route then expands into Banni and the salt desert before turning south to Mandvi. Reema keeps the craft visits conversational and the desert portions spacious, allowing material culture and landscape to explain each other."
+            ],
+            "image": "/images/itineraries/dummy6.webp",
+            "imageAlt": "Editorial travel scene showing an editorial portrait of Kutch, India landscapes and local encounters within this carefully designed",
+            "imageAspectRatio": "4 / 5",
+            "caption": "Bhuj → Ajrakhpur & Bhujodi → Banni Villages → Great Rann → Mandvi",
+            "highlightsTitle": "Highlights of the Journey",
+            "highlights": [
+              "Bhuj orientation through museums, markets, and local design history.",
+              "Small-group artisan visits in Ajrakhpur, Bhujodi, and selected villages.",
+              "Sunrise or sunset on the Great Rann without building the whole trip around a photo stop.",
+              "Mandvi’s port history, shipbuilding context, and coastal food traditions."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 9-day journey is paced around craft, desert & community, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: The Craft Capital Orientation",
+                "bodySubtitle": "DAYS 1–2 | BHUJ",
+                "paragraphs": [
+                  "Begin in Bhuj with museums, markets, historic neighbourhoods, and time to understand how Kutch’s communities, migration histories, and materials connect."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Curated museum or collection visit.",
+                  "Market walk focused on identifying techniques before buying."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/home/forest-portrait.webp",
+                    "alt": "Editorial travel scene showing Bhuj during the Salt, Looms & Desert Villages journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Cloth, Dye and Loom",
+                "bodySubtitle": "DAY 3 | AJRAKHPUR & BHUJODI",
+                "paragraphs": [
+                  "Spend a full day with selected textile communities, allowing enough time to understand process, family workshops, and the difference between techniques."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Ajrakh block-printing demonstration with process explanation.",
+                  "Handloom visit in Bhujodi with direct artisan purchasing."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/impact/impact4.webp",
+                    "alt": "Editorial travel scene showing Ajrakhpur & Bhujodi during the Salt, Looms & Desert Villages journey within this carefully"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Grasslands and Community Craft",
+                "bodySubtitle": "DAYS 4–5 | BANNI VILLAGES",
+                "paragraphs": [
+                  "Move north into the Banni landscape for village stays or locally rooted lodges, visiting embroidery, leather, and other craft traditions according to host availability."
+                ],
+                "listItems": [
+                  "Village-hosted craft conversations.",
+                  "Grassland drive or nature walk with local context."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/impact/impact5.webp",
+                    "alt": "Editorial travel scene showing Banni Villages during the Salt, Looms & Desert Villages journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: The White Horizon",
+                "bodySubtitle": "DAY 6 | GREAT RANN",
+                "paragraphs": [
+                  "Use a single well-timed day for the salt flats, prioritising light, weather, and quieter access rather than spending multiple nights in a large seasonal camp."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Sunrise or sunset salt-flat visit.",
+                  "Time for landscape photography without staged props."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/home/solo-portrait.webp",
+                    "alt": "Editorial travel scene showing Great Rann during the Salt, Looms & Desert Villages journey within this carefully designed"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy1.webp",
+                    "alt": "Editorial travel scene showing Great Rann during the Salt, Looms & Desert Villages journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Port, Timber and Sea",
+                "bodySubtitle": "DAYS 7–8 | MANDVI",
+                "paragraphs": [
+                  "Travel south to Mandvi for old port stories, traditional wooden shipbuilding context, coastal architecture, and a softer final rhythm by the Arabian Sea."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Shipyard or maritime craft visit where access is permitted.",
+                  "Coastal dinner built around Kutchi flavours."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/journal/journal1.webp",
+                    "alt": "Editorial travel scene showing Mandvi during the Salt, Looms & Desert Villages journey within this carefully designed cultural"
+                  },
+                  {
+                    "src": "/images/journal/journal2.webp",
+                    "alt": "Editorial travel scene showing Mandvi during the Salt, Looms & Desert Villages journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure & Onward Connections",
+                "bodySubtitle": "DAY 9 | BHUJ",
+                "paragraphs": [
+                  "Return toward Bhuj for onward rail or air connections with sufficient road buffer."
+                ],
+                "listItems": [
+                  "Private departure transfer.",
+                  "Final craft purchases only if time remains."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Locally rooted hotels, village stays, and a coastal stay in Mandvi.",
+              "Artisan appointments kept small and respectful of working time.",
+              "Private vehicle for dispersed craft clusters and desert roads.",
+              "Purchasing encouraged directly from makers whenever possible."
+            ],
+            "image": "/images/home/forest-landscape.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Kutch, India within this carefully designed cultural",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Light breathable clothing with a warm layer for winter desert evenings.",
+              "Slip-on or easy footwear for homes and workshops.",
+              "Sun protection for exposed salt flats and grasslands.",
+              "Extra luggage space only if you genuinely plan to purchase textiles or craft."
+            ]
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/home/journey-pc1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Kutch, India within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Kutch, India, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy14.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Kutch, India within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Kutch, India, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/home/travel-video.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Kutch, India within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Kutch, India, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Kutch, India within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Kutch, India, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/home/journey-mob1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Kutch, India within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Kutch, India, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact3.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Kutch, India within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Kutch, India, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": true,
+            "captionPc": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "In Kutch, the landscape can look empty until someone shows you how much knowledge is held in cloth, clay, timber, and salt.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "CRAFT VISIT ETIQUETTE",
+            "text": "Workshops are workplaces and homes, not performance venues. Photography, demonstrations, and purchases should follow the artisan’s comfort, and the route must remain flexible when a family or workshop is unavailable."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Material Memory in a Wide Landscape",
+            "paragraphs": [
+              "The strongest Kutch journeys do not separate “craft” from “place.” Embroidery responds to community identity, timber to maritime history, and colour to local materials and trade.",
+              "By the time the route reaches Mandvi, the salt desert feels less empty because the human systems around it have become visible."
+            ],
+            "image": "/images/itineraries/dummy12.webp",
+            "imageAlt": "Editorial travel scene showing a final reflective travel moment from Kutch, India within this carefully designed cultural journey",
+            "imageAspectRatio": "4 / 5"
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "KUTCH CRAFT & DESERT COMMUNITY CURATOR • BHUJ, GUJARAT",
+            "name": "Reema Jadeja",
+            "bio": "Reema designs Kutch journeys around artisan relationships, community-led craft economies, desert ecology, and direct purchasing, with an emphasis on process over souvenir hunting.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Reema Jadeja for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Salt, Looms & Desert Villages be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Reema Jadeja’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Workshops are workplaces and homes, not performance venues. Photography, demonstrations, and purchases should follow the artisan’s comfort, and the route must remain flexible when a family or workshop is unavailable."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as unhurried. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

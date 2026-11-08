@@ -1,0 +1,512 @@
+{
+  "meta": {
+    "id": "col-17",
+    "slug": "pueblo-skies-and-desert-modernism",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Pueblo Skies & Desert Modernism",
+    "region": "New Mexico & Arizona, USA",
+    "days": 10,
+    "categories": [
+      "culture",
+      "nature",
+      "offbeat"
+    ],
+    "tags": [
+      "#SOUTHWEST",
+      "#PUEBLO",
+      "#DESERT"
+    ],
+    "intro": "Travel from Santa Fe and Taos through Pueblo cultural institutions and desert landscapes before crossing toward canyon country in the American Southwest.",
+    "image": "/images/home/solo-landscape.webp",
+    "alt": "Adobe towns, high desert mesas and canyon country beneath expansive New Mexico and Arizona skies",
+    "collaborator": {
+      "name": "Elena Chavez",
+      "role": "Southwest Arts & Desert Architecture Curator • Santa Fe, New Mexico",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A Southwest journey combining adobe architecture, Indigenous-led cultural institutions, contemporary art, dark skies, and canyon landscapes with careful visitor etiquette."
+  },
+  "relatedSlugs": [
+    "salt-looms-and-desert-villages",
+    "medinas-atlas-and-earthen-kasbahs",
+    "hebridean-roads-and-highland-memory"
+  ],
+  "seo": {
+    "pageTitle": "Pueblo Skies & Desert Modernism | 10-Day Southwest Journey",
+    "pageDesc": "Travel from Santa Fe and Taos through Pueblo cultural institutions and desert landscapes before crossing toward canyon country in the American Southwest.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Pueblo Skies & Desert Modernism across New Mexico & Arizona, USA for social sharing",
+    "breadcrumbName": "Pueblo Skies & Desert Modernism",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Pueblo Skies & Desert Modernism"
+      }
+    ],
+    "coverImage": "/images/impact/impact2.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of New Mexico & Arizona, USA within this carefully",
+    "eyebrow": "Collaborated Route",
+    "title": "Pueblo Skies & Desert Modernism",
+    "intro": "Travel from Santa Fe and Taos through Pueblo cultural institutions and desert landscapes before crossing toward canyon country in the American Southwest.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "10 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Open-road"
+      },
+      {
+        "label": "Region",
+        "value": "New Mexico & Arizona, USA"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Architecture, art & desert culture"
+      },
+      {
+        "label": "Designer",
+        "value": "Elena Chavez"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 4,800",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Pueblo Skies & Desert Modernism",
+    "shareText": "Travel from Santa Fe and Taos through Pueblo cultural institutions and desert landscapes before crossing toward canyon country in the American Southwest."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "This journey treats the American Southwest as a living cultural region, not a cinematic backdrop. Santa Fe and Taos introduce adobe architecture, contemporary art, and high-desert history before Indigenous-led institutions provide essential context for Pueblo cultures.",
+              "The route then moves west toward canyon and Navajo Nation landscapes. Access, photography, and guiding are always determined by local rules and community operators, so the itinerary is designed with alternatives rather than assumptions of unrestricted entry."
+            ],
+            "highlightsTitle": "Highlights of the Journey",
+            "highlights": [
+              "Santa Fe adobe architecture, art, and high-desert food culture.",
+              "Taos landscape and locally interpreted historic context.",
+              "Indigenous-led cultural institutions in New Mexico.",
+              "Canyon country experienced with authorised local guiding where required."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 10-day journey is paced around architecture, art & desert culture, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Adobe, Art and High Desert Light",
+                "bodySubtitle": "DAYS 1–3 | SANTA FE",
+                "paragraphs": [
+                  "Begin in Santa Fe with architecture, museums, contemporary art, and food, using the city to distinguish regional design from generic Southwest styling."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Architecture walk through historic and contemporary adobe forms.",
+                  "Curated museum or gallery visit focused on regional artists."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy9.webp",
+                    "alt": "Editorial travel scene showing Santa Fe during the Pueblo Skies & Desert Modernism journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Mesa, Mountain and Local History",
+                "bodySubtitle": "DAYS 4–5 | TAOS",
+                "paragraphs": [
+                  "Continue to Taos for high-desert landscapes, art history, and cultural context, respecting community access rules at all times."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Landscape and art-focused day around Taos.",
+                  "Locally guided cultural visit only where explicitly open to visitors."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/journal/journal4.webp",
+                    "alt": "Editorial travel scene showing Taos during the Pueblo Skies & Desert Modernism journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Pueblo Cultural Context",
+                "bodySubtitle": "DAY 6 | ALBUQUERQUE",
+                "paragraphs": [
+                  "Travel south for a day centred on Indigenous-led cultural interpretation, ideally through established institutions that present history and contemporary life on their own terms."
+                ],
+                "listItems": [
+                  "Visit the Indian Pueblo Cultural Center or comparable institution.",
+                  "Regional food experience led by local businesses."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/journal/journal5.webp",
+                    "alt": "Editorial travel scene showing Albuquerque during the Pueblo Skies & Desert Modernism journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Canyon Country With Local Guidance",
+                "bodySubtitle": "DAYS 7–8 | CANYON DE CHELLY REGION",
+                "paragraphs": [
+                  "Move west toward canyon landscapes, using authorised local guiding where required and treating access as community-controlled rather than assumed."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Guided canyon experience according to current local rules.",
+                  "Sunset or evening landscape observation from public viewpoints."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy12.webp",
+                    "alt": "Editorial travel scene showing Canyon de Chelly Region during the Pueblo Skies & Desert Modernism journey within this"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy13.webp",
+                    "alt": "Editorial travel scene showing Canyon de Chelly Region during the Pueblo Skies & Desert Modernism journey within this"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: The Wide Desert Frame",
+                "bodySubtitle": "DAY 9 | MONUMENT VALLEY REGION",
+                "paragraphs": [
+                  "Continue into the Monument Valley region for one spacious day focused on geology, road scale, and locally guided access where appropriate."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Local guide option for permitted areas.",
+                  "Dark-sky evening if weather and lodging location allow."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/home/forest-landscape.webp",
+                    "alt": "Editorial travel scene showing Monument Valley Region during the Pueblo Skies & Desert Modernism journey within this carefully"
+                  },
+                  {
+                    "src": "/images/home/journey-pc.webp",
+                    "alt": "Editorial travel scene showing Monument Valley Region during the Pueblo Skies & Desert Modernism journey within this carefully"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure & Onward Connections",
+                "bodySubtitle": "DAY 10 | SOUTHWEST HUB",
+                "paragraphs": [
+                  "Depart through the most practical regional airport with a conservative road buffer."
+                ],
+                "listItems": [
+                  "Private transfer or one-way vehicle coordination.",
+                  "No fixed activity before the airport drive."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Design-led city stays and carefully chosen desert lodging.",
+              "Vehicle route built around realistic Southwest distances.",
+              "Cultural access only through open, authorised, or Indigenous-led channels.",
+              "Dark-sky plans treated as weather-dependent rather than guaranteed."
+            ],
+            "image": "/images/impact/impact6.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from New Mexico & Arizona, USA within this",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Layered clothing for large high-desert temperature swings.",
+              "Strong sun protection and a refillable water bottle.",
+              "Comfortable shoes for museums, towns, and rocky viewpoints.",
+              "Respectful photography habits in Indigenous communities and sacred landscapes."
+            ]
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Field Notes: Pueblo Skies & Desert Modernism",
+            "video": {
+              "videoId": "4KtLGaNl9VQ",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Editorial travel scene showing moving travel impressions from New Mexico & Arizona, USA and its cultural landscapes within",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "A moving editorial glimpse selected to complement the pace and atmosphere of Pueblo Skies & Desert Modernism."
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "The Southwest is not empty land. It is layered with nations, histories, architecture, art, and rules about who gets to tell the story.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/home/solo-landscape.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in New Mexico & Arizona, USA within this carefully designed",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from New Mexico & Arizona, USA, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy2.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in New Mexico & Arizona, USA within this carefully designed",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from New Mexico & Arizona, USA, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in New Mexico & Arizona, USA within this carefully designed",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from New Mexico & Arizona, USA, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact2.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in New Mexico & Arizona, USA within this carefully designed",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from New Mexico & Arizona, USA, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy5.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in New Mexico & Arizona, USA within this carefully designed",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from New Mexico & Arizona, USA, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact4.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in New Mexico & Arizona, USA within this carefully designed",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from New Mexico & Arizona, USA, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": false,
+            "captionPc": true
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "INDIGENOUS ACCESS NOTE",
+            "text": "Pueblos and tribal lands are sovereign communities with their own visitor, photography, and closure rules. Access must be checked directly and never assumed because a place appears on a map or social feed."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Learning to See Beyond the Western Myth",
+            "paragraphs": [
+              "Adobe walls, museums, mesas, and canyon roads become more meaningful once the route acknowledges whose land and cultural history shape the region.",
+              "The strongest version of this journey is therefore less about “discovering” the Southwest and more about learning how to visit it with attention."
+            ],
+            "image": "/images/itineraries/dummy4.webp",
+            "imageAlt": "Editorial travel scene showing a final reflective travel moment from New Mexico & Arizona, USA within this carefully",
+            "imageAspectRatio": "4 / 5",
+            "caption": "A final visual note from Pueblo Skies & Desert Modernism."
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "SOUTHWEST ARTS & DESERT ARCHITECTURE CURATOR • SANTA FE, NEW MEXICO",
+            "name": "Elena Chavez",
+            "bio": "Elena curates Southwest journeys around architecture, art, Indigenous-led interpretation, dark-sky landscapes, and responsible access rather than frontier mythology.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Elena Chavez for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Pueblo Skies & Desert Modernism be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Elena Chavez’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Pueblos and tribal lands are sovereign communities with their own visitor, photography, and closure rules. Access must be checked directly and never assumed because a place appears on a map or social feed."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as open-road. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

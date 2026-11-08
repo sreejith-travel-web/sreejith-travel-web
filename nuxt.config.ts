@@ -1,5 +1,19 @@
 // nuxt.config.ts
+import fs from 'node:fs'
+import path from 'node:path'
 import tailwindcss from '@tailwindcss/vite'
+
+const itinerariesDir = path.resolve(process.cwd(), 'server/data/itineraries')
+const itinerarySitemapUrls = fs.existsSync(itinerariesDir)
+  ? fs
+      .readdirSync(itinerariesDir)
+      .filter((file) => file.endsWith('.json'))
+      .map((file) => ({
+        loc: `/itineraries/${file.replace(/\.json$/, '')}`,
+        changefreq: 'monthly' as const,
+        priority: 0.8 as const
+      }))
+  : []
 
 export default defineNuxtConfig({
   // Force App directory mode
@@ -170,13 +184,8 @@ export default defineNuxtConfig({
       { loc: '/faq', changefreq: 'monthly', priority: 0.7 },
       { loc: '/privacy', changefreq: 'yearly', priority: 0.3 },
       { loc: '/terms', changefreq: 'yearly', priority: 0.3 },
-      // Uncomment once ITINERARIES_DATABASE and JOURNAL_DATABASE are finalized:
-      // ...ITINERARIES_DATABASE.map((entry) => ({
-      //   loc: `/itineraries/${entry.meta.slug}`,
-      //   changefreq: 'monthly' as const,
-      //   priority: 0.8 as const
-      // })),
-    ],
+      ...itinerarySitemapUrls
+    ]
   },
 
   // 7. Robots.txt Configuration

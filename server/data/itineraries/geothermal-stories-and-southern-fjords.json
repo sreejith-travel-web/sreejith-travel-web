@@ -1,0 +1,549 @@
+{
+  "meta": {
+    "id": "col-18",
+    "slug": "geothermal-stories-and-southern-fjords",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": true,
+    "title": "Geothermal Stories & Southern Fjords",
+    "region": "New Zealand",
+    "days": 12,
+    "categories": [
+      "nature",
+      "culture",
+      "stays"
+    ],
+    "tags": [
+      "#AOTEAROA",
+      "#MAORI",
+      "#FIORDLAND"
+    ],
+    "intro": "Link Rotorua’s geothermal and Māori cultural landscapes with Queenstown, Fiordland, and Aoraki Mackenzie on a cross-island journey shaped by conservation.",
+    "image": "/images/impact/impact1.webp",
+    "alt": "Rotorua geothermal steam, alpine lakes and Fiordland valleys beneath clear New Zealand light",
+    "collaborator": {
+      "name": "Maia Te Rangi",
+      "role": "Aotearoa Cultural & Conservation Journey Designer • Rotorua, New Zealand",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A New Zealand journey connecting Māori-led cultural experiences in Rotorua with South Island lakes, Fiordland, alpine landscapes, and conservation-focused guiding.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Māori-led cultural and geothermal experiences around Rotorua."
+      },
+      {
+        "icon": "temple",
+        "label": "South Island transition through Queenstown without over-programming adventure "
+      },
+      {
+        "icon": "boat",
+        "label": "Three nights in Fiordland for water, forest, and weather-dependent exploration"
+      },
+      {
+        "icon": "wellness",
+        "label": "Aoraki Mackenzie landscapes with conservation and dark-sky context."
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "fjords-ferries-and-lofoten-light",
+    "desert-silence-to-delta-water",
+    "conservancies-and-maasai-horizons"
+  ],
+  "seo": {
+    "pageTitle": "Geothermal Stories & Southern Fjords | 12-Day New Zealand Journey",
+    "pageDesc": "Link Rotorua’s geothermal and Māori cultural landscapes with Queenstown, Fiordland, and Aoraki Mackenzie on a cross-island journey shaped by conservation.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Geothermal Stories & Southern Fjords across New Zealand for social sharing within this carefully",
+    "breadcrumbName": "Geothermal Stories & Southern Fjords",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Geothermal Stories & Southern Fjords"
+      }
+    ],
+    "coverImage": "/images/impact/impact4.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of New Zealand within this carefully designed cultural journey",
+    "eyebrow": "Collaborated Route",
+    "title": "Geothermal Stories & Southern Fjords",
+    "intro": "Link Rotorua’s geothermal and Māori cultural landscapes with Queenstown, Fiordland, and Aoraki Mackenzie on a cross-island journey shaped by conservation.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "12 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Balanced"
+      },
+      {
+        "label": "Region",
+        "value": "New Zealand"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Culture, geology & conservation"
+      },
+      {
+        "label": "Designer",
+        "value": "Maia Te Rangi"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 6,100",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Geothermal Stories & Southern Fjords",
+    "shareText": "Link Rotorua’s geothermal and Māori cultural landscapes with Queenstown, Fiordland, and Aoraki Mackenzie on a cross-island journey shaped by conservation."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "The route begins in Rotorua because geology and Māori cultural interpretation belong together here. Geothermal landscapes are experienced through places and operators that can explain the stories, land relationships, and contemporary community context rather than offering scenery alone.",
+              "A domestic flight then changes scale dramatically for the South Island. Queenstown is used as a gateway rather than the centrepiece, with longer stays in Fiordland and the Aoraki Mackenzie region to focus on water, alpine ecology, and conservation."
+            ],
+            "image": "/images/home/journey-mob1.webp",
+            "imageAlt": "Editorial travel scene showing an editorial portrait of New Zealand landscapes and local encounters within this carefully designed",
+            "imageAspectRatio": "4 / 5",
+            "caption": "Rotorua → Queenstown → Fiordland → Aoraki Mackenzie → Christchurch",
+            "highlightsTitle": "Highlights of the Journey",
+            "highlights": [
+              "Māori-led cultural and geothermal experiences around Rotorua.",
+              "South Island transition through Queenstown without over-programming adventure activities.",
+              "Three nights in Fiordland for water, forest, and weather-dependent exploration.",
+              "Aoraki Mackenzie landscapes with conservation and dark-sky context."
+            ]
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Field Notes: Geothermal Stories & Southern Fjords",
+            "video": {
+              "videoId": "4KtLGaNl9VQ",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Editorial travel scene showing moving travel impressions from New Zealand and its cultural landscapes within this carefully designed",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "A moving editorial glimpse selected to complement the pace and atmosphere of Geothermal Stories & Southern Fjords."
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 12-day journey is paced around culture, geology & conservation, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Geothermal Land and Living Culture",
+                "bodySubtitle": "DAYS 1–3 | ROTORUA",
+                "paragraphs": [
+                  "Spend three days in Rotorua combining geothermal landscapes with Māori-led cultural interpretation, food, and contemporary community context."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Guided geothermal experience with cultural interpretation.",
+                  "Māori-led evening or daytime programme selected for depth and host ownership."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy12.webp",
+                    "alt": "Editorial travel scene showing Rotorua during the Geothermal Stories & Southern Fjords journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Lakes, Ranges and Southern Arrival",
+                "bodySubtitle": "DAYS 4–5 | QUEENSTOWN",
+                "paragraphs": [
+                  "Fly south and settle around Queenstown for lake landscapes, local food, and a gentle introduction to the Southern Alps without filling every hour with adrenaline activities."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Scenic lake or valley outing.",
+                  "Food-focused evening featuring South Island produce."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/home/journey-pc.webp",
+                    "alt": "Editorial travel scene showing Queenstown during the Geothermal Stories & Southern Fjords journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Water, Rainforest and Deep Valleys",
+                "bodySubtitle": "DAYS 6–8 | FIORDLAND",
+                "paragraphs": [
+                  "Base for three nights near Fiordland, allowing cruise, walk, or kayak choices to follow weather and water conditions rather than a single fixed plan."
+                ],
+                "listItems": [
+                  "Fiord excursion selected according to conditions.",
+                  "Guided forest or shoreline walk with conservation context."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/home/journey-pc1.webp",
+                    "alt": "Editorial travel scene showing Fiordland during the Geothermal Stories & Southern Fjords journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Alpine Space and Night Sky",
+                "bodySubtitle": "DAYS 9–10 | AORAKI MACKENZIE",
+                "paragraphs": [
+                  "Travel toward Aoraki Mackenzie for two nights of alpine landscape, glacial history, and optional dark-sky observation when weather allows."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Short alpine walk adapted to conditions.",
+                  "Dark-sky session or observatory experience if available."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/home/forest-portrait.webp",
+                    "alt": "Editorial travel scene showing Aoraki Mackenzie during the Geothermal Stories & Southern Fjords journey within this carefully designed"
+                  },
+                  {
+                    "src": "/images/home/journey-mob.webp",
+                    "alt": "Editorial travel scene showing Aoraki Mackenzie during the Geothermal Stories & Southern Fjords journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Garden City Landing",
+                "bodySubtitle": "DAY 11 | CHRISTCHURCH",
+                "paragraphs": [
+                  "Continue to Christchurch for a final, calmer day of food, design, or urban regeneration before departure."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Flexible city walk or design-focused visit.",
+                  "Final dinner with regional produce."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/home/travel-video.webp",
+                    "alt": "Editorial travel scene showing Christchurch during the Geothermal Stories & Southern Fjords journey within this carefully designed cultural"
+                  },
+                  {
+                    "src": "/images/impact/impact1.webp",
+                    "alt": "Editorial travel scene showing Christchurch during the Geothermal Stories & Southern Fjords journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure & Onward Connections",
+                "bodySubtitle": "DAY 12 | CHRISTCHURCH",
+                "paragraphs": [
+                  "Transfer to the airport with no major activity fixed before the international journey."
+                ],
+                "listItems": [
+                  "Private airport transfer.",
+                  "Departure timing protected from long overland drives."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Culturally led experiences booked with host-owned or community-accountable operators.",
+              "Domestic flight used to avoid an impractical cross-island road marathon.",
+              "Fiordland activities selected according to live weather conditions.",
+              "Alpine and dark-sky experiences kept flexible and never guaranteed."
+            ],
+            "image": "/images/journal/journal1.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from New Zealand within this carefully designed cultural",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Waterproof shell and warm layers for Fiordland and alpine regions.",
+              "Comfortable walking shoes for geothermal and mountain paths.",
+              "Sun protection for strong ultraviolet exposure.",
+              "Small daypack for variable weather and layered clothing."
+            ]
+          }
+        },
+        {
+          "type": "slider",
+          "data": {
+            "eyebrow": "ROUTE IN FRAMES",
+            "title": "Selected Landscapes & Stays",
+            "images": [
+              {
+                "src": "/images/impact/impact5.webp",
+                "alt": "Editorial travel scene showing landscape detail from New Zealand on Geothermal Stories & Southern Fjords within this carefully",
+                "caption": "Visual field note 1 from the landscapes and cultural atmosphere of New Zealand."
+              },
+              {
+                "src": "/images/impact/impact6.webp",
+                "alt": "Editorial travel scene showing landscape detail from New Zealand on Geothermal Stories & Southern Fjords within this carefully",
+                "caption": "Visual field note 2 from the landscapes and cultural atmosphere of New Zealand."
+              },
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Editorial travel scene showing landscape detail from New Zealand on Geothermal Stories & Southern Fjords within this carefully",
+                "caption": "Visual field note 3 from the landscapes and cultural atmosphere of New Zealand."
+              },
+              {
+                "src": "/images/journal/journal2.webp",
+                "alt": "Editorial travel scene showing landscape detail from New Zealand on Geothermal Stories & Southern Fjords within this carefully",
+                "caption": "Visual field note 4 from the landscapes and cultural atmosphere of New Zealand."
+              },
+              {
+                "src": "/images/journal/journal3.webp",
+                "alt": "Editorial travel scene showing landscape detail from New Zealand on Geothermal Stories & Southern Fjords within this carefully",
+                "caption": "Visual field note 5 from the landscapes and cultural atmosphere of New Zealand."
+              }
+            ],
+            "width": 1200,
+            "height": 800,
+            "autoplay": false,
+            "interval": 5000,
+            "captionMob": true,
+            "captionPc": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "Aotearoa becomes clearer when geology, culture, and conservation are allowed to speak together instead of competing for attention.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/impact/impact3.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in New Zealand within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from New Zealand, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy4.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in New Zealand within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from New Zealand, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact5.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in New Zealand within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from New Zealand, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": true,
+            "captionPc": true
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "WEATHER & CULTURAL HOSTING NOTE",
+            "text": "Fiordland weather can change rapidly, and cultural experiences should be chosen for host ownership and depth rather than spectacle. The route should remain flexible enough to respect both."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "From Steam to Fjord Water",
+            "paragraphs": [
+              "Rotorua and Fiordland seem like opposite landscapes, yet both show how water and geology shape culture, movement, and conservation.",
+              "The cross-island structure works because each region is given enough time to establish its own voice before the next dramatic landscape arrives."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "AOTEAROA CULTURAL & CONSERVATION JOURNEY DESIGNER • ROTORUA, NEW ZEALAND",
+            "name": "Maia Te Rangi",
+            "bio": "Maia designs Aotearoa journeys around culturally led interpretation, geology, conservation, and weather-aware wilderness travel, connecting the North and South Islands without rushing either.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Maia Te Rangi for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Geothermal Stories & Southern Fjords be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Maia Te Rangi’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Fiordland weather can change rapidly, and cultural experiences should be chosen for host ownership and depth rather than spectacle. The route should remain flexible enough to respect both."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as balanced. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -8,14 +8,10 @@ import ItineraryLightbox from '~/components/itineraries/ItineraryLightbox.vue'
 import type { LightboxMediaItem, LightboxOpenPayload } from '~/components/Lightbox.vue'
 import RelatedItineraries, { type RelatedItinerariesConfig } from '~/components/RelatedItineraries.vue'
 import { useTravelSeo } from '~/composables/useTravelSeo'
-import {
-  ITINERARIES_DATABASE,
-  type ItineraryFullRecord,
-  type ItineraryMeta
-} from '~~/server/utils/itinerariesData'
+import type { ItinerarySinglePayload } from '~~/server/utils/itinerariesData'
 
 const props = defineProps<{
-  record: ItineraryFullRecord
+  record: ItinerarySinglePayload
 }>()
 
 const { forceTransparent } = useHeaderTheme()
@@ -54,7 +50,7 @@ const closeLightbox = () => {
 }
 
 // =========================================================
-// NORMALIZED SIDEBAR (Merges per-itinerary price with brand defaults)
+// NORMALIZED SIDEBAR
 // =========================================================
 const resolvedSidebar = computed<ItinerarySidebarData>(() => ({
   budgetLabel: props.record.sidebar?.budgetLabel || 'ESTIMATED BUDGET',
@@ -91,34 +87,14 @@ const navSections = computed<ScrollNavSection[]>(() =>
 )
 
 // =========================================================
-// CURATED 3 RELATED ITINERARIES (Resolved via relatedSlugs)
+// CURATED 3 RELATED ITINERARIES (Pre-resolved on Server)
 // =========================================================
-const relatedConfig = computed<RelatedItinerariesConfig>(() => {
-  const slugs = props.record.relatedSlugs || []
-  const matched = slugs
-    .map(
-      (s) =>
-        ITINERARIES_DATABASE.find(
-          (entry) => entry.meta.slug === s || entry.meta.id === s
-        )?.meta
-    )
-    .filter((item): item is ItineraryMeta => Boolean(item && item.slug !== props.record.meta.slug))
-
-  const fallbackPool = ITINERARIES_DATABASE.filter(
-    (entry) =>
-      entry.meta.slug !== props.record.meta.slug &&
-      !matched.some((m) => m.slug === entry.meta.slug)
-  ).map((e) => e.meta)
-
-  const items = [...matched, ...fallbackPool].slice(0, 3)
-
-  return {
-    eyebrow: 'CONTINUE EXPLORING',
-    titleLine1: 'Related',
-    titleLine2Cursive: 'Journeys.',
-    items
-  }
-})
+const relatedConfig = computed<RelatedItinerariesConfig>(() => ({
+  eyebrow: 'CONTINUE EXPLORING',
+  titleLine1: 'Related',
+  titleLine2Cursive: 'Journeys.',
+  items: props.record.relatedItems || []
+}))
 
 // =========================================================
 // DYNAMIC ITINERARY SEO & JSON-LD @GRAPH

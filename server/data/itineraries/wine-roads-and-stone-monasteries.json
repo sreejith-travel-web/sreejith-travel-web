@@ -1,0 +1,530 @@
+{
+  "meta": {
+    "id": "col-9",
+    "slug": "wine-roads-and-stone-monasteries",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Wine Roads & Stone Monasteries",
+    "region": "Georgia & Armenia",
+    "days": 12,
+    "categories": [
+      "culture",
+      "stays",
+      "offbeat"
+    ],
+    "tags": [
+      "#CAUCASUS",
+      "#WINE",
+      "#MONASTERIES"
+    ],
+    "intro": "Cross the Caucasus through Tbilisi, Kakheti, Kazbegi, Yerevan, and Armenian monastery country, linking wine, bread, stone architecture, and mountain hospitality.",
+    "image": "/images/home/travel-video.webp",
+    "alt": "Caucasus vineyards, stone monasteries and mountain roads stretching between Georgia and Armenia",
+    "collaborator": {
+      "name": "Mariam Beridze",
+      "role": "Caucasus Wine & Monastery Curator • Tbilisi, Georgia",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A cross-border Caucasus journey where qvevri wine, monastery landscapes, mountain roads, and family tables create a shared cultural thread across Georgia and Armenia.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Tbilisi neighbourhoods and contemporary Georgian food culture."
+      },
+      {
+        "icon": "temple",
+        "label": "Kakheti qvevri wine traditions and family-scale cellar visits."
+      },
+      {
+        "icon": "boat",
+        "label": "Kazbegi mountain landscapes and village roads."
+      },
+      {
+        "icon": "wellness",
+        "label": "Armenian monastery architecture around Geghard, Dilijan, and Sevan."
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "lantern-roads-of-kii",
+    "medinas-atlas-and-earthen-kasbahs",
+    "dolomite-paths-and-soca-waters"
+  ],
+  "seo": {
+    "pageTitle": "Wine Roads & Stone Monasteries | 12-Day Georgia & Armenia Journey",
+    "pageDesc": "Cross Georgia and Armenia through Tbilisi, Kakheti, Kazbegi, Yerevan, and monastery country, linking wine, bread, stone architecture, and mountain hospitality.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Wine Roads & Stone Monasteries across Georgia & Armenia for social sharing within this",
+    "breadcrumbName": "Wine Roads & Stone Monasteries",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Wine Roads & Stone Monasteries"
+      }
+    ],
+    "coverImage": "/images/impact/impact3.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Georgia & Armenia within this carefully designed cultural",
+    "eyebrow": "Collaborated Route",
+    "title": "Wine Roads & Stone Monasteries",
+    "intro": "Cross the Caucasus through Tbilisi, Kakheti, Kazbegi, Yerevan, and Armenian monastery country, linking wine, bread, stone architecture, and mountain hospitality.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "12 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Generous"
+      },
+      {
+        "label": "Region",
+        "value": "Georgia & Armenia"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Wine, monasteries & mountains"
+      },
+      {
+        "label": "Designer",
+        "value": "Mariam Beridze"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 3,250",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Wine Roads & Stone Monasteries",
+    "shareText": "Cross the Caucasus through Tbilisi, Kakheti, Kazbegi, Yerevan, and Armenian monastery country, linking wine, bread, stone architecture, and mountain hospitality."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "This itinerary treats Georgia and Armenia as neighbouring cultures with distinct voices rather than flattening them into a single “Caucasus” aesthetic. Tbilisi and Kakheti begin with wine, food, and urban history before the road climbs toward Kazbegi.",
+              "After crossing into Armenia, Yerevan provides a new architectural and culinary rhythm, followed by monastery landscapes around Geghard, Dilijan, and Lake Sevan. The route privileges family tables, small producers, and stone architecture over checklist touring."
+            ],
+            "highlightsTitle": "Highlights of the Journey",
+            "highlights": [
+              "Tbilisi neighbourhoods and contemporary Georgian food culture.",
+              "Kakheti qvevri wine traditions and family-scale cellar visits.",
+              "Kazbegi mountain landscapes and village roads.",
+              "Armenian monastery architecture around Geghard, Dilijan, and Sevan."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 12-day journey is paced around wine, monasteries & mountains, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Balconies, Baths and New Georgia",
+                "bodySubtitle": "DAYS 1–2 | TBILISI",
+                "paragraphs": [
+                  "Begin in Tbilisi with old neighbourhoods, bathhouse architecture, food, and contemporary creative spaces that show the city beyond postcard balconies."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Neighbourhood walk across old and contemporary districts.",
+                  "Georgian table experience focused on regional dishes and wine."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy3.webp",
+                    "alt": "Editorial travel scene showing Tbilisi during the Wine Roads & Stone Monasteries journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Qvevri Country",
+                "bodySubtitle": "DAYS 3–4 | KAKHETI",
+                "paragraphs": [
+                  "Move east into Kakheti for vineyard landscapes and traditional qvevri wine, keeping cellar visits small and educational rather than turning the day into a tasting marathon."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Family cellar visit with qvevri explanation.",
+                  "Village lunch with seasonal Kakhetian dishes."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/fallbacks/culture.webp",
+                    "alt": "Editorial travel scene showing Kakheti during the Wine Roads & Stone Monasteries journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Road to the Greater Caucasus",
+                "bodySubtitle": "DAYS 5–6 | KAZBEGI",
+                "paragraphs": [
+                  "Travel north along the mountain road for Kazbegi, allowing time for viewpoints, village life, and a flexible walk depending on weather."
+                ],
+                "listItems": [
+                  "Mountain walk adapted to conditions.",
+                  "Local dinner and early night in the high valley."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/home/forest-landscape.webp",
+                    "alt": "Editorial travel scene showing Kazbegi during the Wine Roads & Stone Monasteries journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: A New Capital Rhythm",
+                "bodySubtitle": "DAYS 7–8 | YEREVAN",
+                "paragraphs": [
+                  "Cross or connect into Armenia and settle in Yerevan, using markets, architecture, food, and museums to establish a distinct Armenian context."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Market and food-focused orientation.",
+                  "Architecture walk through central Yerevan."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy6.webp",
+                    "alt": "Editorial travel scene showing Yerevan during the Wine Roads & Stone Monasteries journey within this carefully designed cultural"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy7.webp",
+                    "alt": "Editorial travel scene showing Yerevan during the Wine Roads & Stone Monasteries journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Stone, Gorge and Sacred Space",
+                "bodySubtitle": "DAY 9 | GARNI & GEGHARD",
+                "paragraphs": [
+                  "Take a focused day into the Azat Valley for Garni and Geghard, balancing major sites with landscape and village food."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Geghard monastery visit timed for quieter periods.",
+                  "Lavash or local food experience where available."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/home/journey-pc1.webp",
+                    "alt": "Editorial travel scene showing Garni & Geghard during the Wine Roads & Stone Monasteries journey within this carefully"
+                  },
+                  {
+                    "src": "/images/home/solo-landscape.webp",
+                    "alt": "Editorial travel scene showing Garni & Geghard during the Wine Roads & Stone Monasteries journey within this carefully"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Forest Monasteries and Water",
+                "bodySubtitle": "DAYS 10–11 | DILIJAN & LAKE SEVAN",
+                "paragraphs": [
+                  "Finish in northern Armenia with forested Dilijan, monastery landscapes, and Lake Sevan, slowing the route before departure."
+                ],
+                "listItems": [
+                  "Forest or monastery walk around Dilijan.",
+                  "Lakeside meal featuring regional ingredients."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/home/solo-landscape.webp",
+                    "alt": "Editorial travel scene showing Dilijan & Lake Sevan during the Wine Roads & Stone Monasteries journey within this"
+                  }
+                ]
+              },
+              {
+                "id": "phase-07",
+                "headerTitle": "Phase 07: Departure & Onward Connections",
+                "bodySubtitle": "DAY 12 | YEREVAN",
+                "paragraphs": [
+                  "Return to Yerevan for onward travel with border and road timing kept conservative."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Private departure transfer.",
+                  "Schedule buffer for cross-border routing."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Boutique city hotels and small wine-country properties.",
+              "Private vehicle and guide support across both countries.",
+              "Wine visits limited to quality producers with cultural context.",
+              "Cross-border documentation and routing confirmed before final booking."
+            ],
+            "image": "/images/home/journey-pc1.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Georgia & Armenia within this carefully designed",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Layered clothing for variable mountain temperatures.",
+              "Comfortable shoes for stone monasteries and uneven village lanes.",
+              "A light rain shell outside the driest summer period.",
+              "Space in luggage only if you intend to transport wine legally."
+            ]
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Field Notes: Wine Roads & Stone Monasteries",
+            "video": {
+              "videoId": "4KtLGaNl9VQ",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Editorial travel scene showing moving travel impressions from Georgia & Armenia and its cultural landscapes within this carefully",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "A moving editorial glimpse selected to complement the pace and atmosphere of Wine Roads & Stone Monasteries."
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "The Caucasus is held together by tables, stone, mountains, and the insistence that every valley has its own story.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/impact/impact1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Georgia & Armenia within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Georgia & Armenia, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy4.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Georgia & Armenia within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Georgia & Armenia, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact3.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Georgia & Armenia within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Georgia & Armenia, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": false,
+            "captionPc": true
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "BORDER & WINE NOTE",
+            "text": "Cross-border procedures and transport arrangements can change, so the exact Georgia–Armenia connection should be reconfirmed before travel. Wine transport limits should also be checked for the traveller’s onward destination."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Two Countries, One Long Conversation",
+            "paragraphs": [
+              "Georgia and Armenia share mountain geography and ancient Christian traditions, yet their architecture, wine, bread, music, and urban life remain wonderfully distinct.",
+              "The route works because it gives each country enough time to speak before drawing connections between them."
+            ],
+            "image": "/images/itineraries/dummy14.webp",
+            "imageAlt": "Editorial travel scene showing a final reflective travel moment from Georgia & Armenia within this carefully designed cultural",
+            "imageAspectRatio": "4 / 5",
+            "caption": "A final visual note from Wine Roads & Stone Monasteries."
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "CAUCASUS WINE & MONASTERY CURATOR • TBILISI, GEORGIA",
+            "name": "Mariam Beridze",
+            "bio": "Mariam curates Caucasus travel through wine culture, monastery architecture, family tables, and mountain roads, with careful attention to the differences between neighbouring regions.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Mariam Beridze for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Wine Roads & Stone Monasteries be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Mariam Beridze’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Cross-border procedures and transport arrangements can change, so the exact Georgia–Armenia connection should be reconfirmed before travel. Wine transport limits should also be checked for the traveller’s onward destination."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as generous. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "meta": {
+    "id": "sig-4",
+    "slug": "across-the-palakkad-gap",
+    "type": "signature",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Across the Palakkad Gap",
+    "region": "Kerala & Tamil Nadu",
+    "days": 9,
+    "categories": [
+      "nature",
+      "culture",
+      "offbeat"
+    ],
+    "tags": [
+      "#PALAKKADGAP",
+      "#ANAMALAI",
+      "#KONGUNADU"
+    ],
+    "intro": "Cross the great natural passage through the Western Ghats, linking Kerala’s Nila riverlands with Pollachi, the Anamalai hills, and Tamil plantation country.",
+    "image": "/images/impact/impact4.webp",
+    "alt": "Western Ghats opening toward Palakkad plains and the green Anamalai foothills",
+    "featuredDescription": "A landscape-led route through one of South India’s most important ecological and cultural corridors, moving from river plain to coconut belt and rainforest escarpment.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Nila riverland crafts"
+      },
+      {
+        "icon": "village",
+        "label": "Pollachi farm country"
+      },
+      {
+        "icon": "wellness",
+        "label": "Valparai slow stays"
+      },
+      {
+        "icon": "village",
+        "label": "Anamalai landscape walks"
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "backwaters-spice-hills-and-sacred-groves",
+    "nilgiri-rails-to-mysore-palaces",
+    "chettinad-courtyards-and-chola-country"
+  ],
+  "seo": {
+    "pageTitle": "Across the Palakkad Gap | 9-Day Kerala & Tamil Nadu Journey",
+    "pageDesc": "Cross the Palakkad Gap from Kerala’s Nila riverlands to Pollachi, Anamalai, and Valparai through farms, forests, and cultural borderlands.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Western Ghats opening toward Palakkad plains and the green Anamalai foothills",
+    "breadcrumbName": "Across the Palakkad Gap",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Across the Palakkad Gap"
+      }
+    ],
+    "coverImage": "/images/home/forest-landscape.webp",
+    "coverAlt": "Western Ghats opening toward Palakkad plains and the green Anamalai foothills",
+    "eyebrow": "Signature Itinerary",
+    "title": "Across the Palakkad Gap",
+    "intro": "Cross the great natural passage through the Western Ghats, linking Kerala’s Nila riverlands with Pollachi, the Anamalai hills, and Tamil plantation country.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "9 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Unhurried"
+      },
+      {
+        "label": "Region",
+        "value": "Kerala & Tamil Nadu"
+      },
+      {
+        "label": "Group",
+        "value": "1–4 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Landscape transitions"
+      },
+      {
+        "label": "Style",
+        "value": "Private bespoke"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "BESPOKE JOURNEY",
+    "price": "Price on request",
+    "ctaTitle": "Want this trip, but shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. Talk to us to adjust the pace, stays, or detours.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Across the Palakkad Gap",
+    "shareText": "Cross the great natural passage through the Western Ghats, linking Kerala’s Nila riverlands with Pollachi, the Anamalai hills, and Tamil plantation country."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "The Palakkad Gap is more than a break in the Western Ghats. For centuries it has been a corridor for people, trade, winds, language, music, and food between Kerala and the Tamil plains. This journey makes that passage itself the subject.",
+              "Begin with the Nila riverlands and Palakkad’s agrarian landscape, cross toward Pollachi’s coconut belt, then climb through the Anamalai hills to Valparai’s tea estates and rainforest fragments. The route rewards travellers who enjoy understanding why landscapes shape culture."
+            ],
+            "image": "/images/itineraries/dummy5.webp",
+            "imageAlt": "Editorial travel portrait representing landscapes and cultural encounters across Kerala & Tamil Nadu",
+            "imageAspectRatio": "4 / 5",
+            "caption": "Palakkad → Nila Riverlands → Pollachi → Anamalai → Valparai → Coimbatore",
+            "highlightsTitle": "Highlights of the Journey",
+            "highlights": [
+              "Nila riverland craft and village encounters around Palakkad.",
+              "The visual transition from Kerala paddy plains to Pollachi coconut country.",
+              "Slow ascent through the Anamalai hills toward Valparai.",
+              "Naturalist-led exploration of plantation and rainforest-edge ecosystems."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 9-day journey is paced around meaningful stays, sensible road movement, and enough time in each landscape to understand it rather than simply pass through."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: At the Mouth of the Gap",
+                "bodySubtitle": "DAYS 1–2 | PALAKKAD",
+                "paragraphs": [
+                  "Settle into Palakkad and explore fort, market, paddy landscapes, and the broader geography of the Gap with a local historian or naturalist."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/home/solo-portrait.webp",
+                    "alt": "Travel scene from At the Mouth of the Gap during the Across the Palakkad Gap journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: River, Craft & Memory",
+                "bodySubtitle": "DAY 3 | NILA RIVERLANDS",
+                "paragraphs": [
+                  "Follow the Bharathapuzha landscape through villages associated with handloom, performance, and craft traditions before returning to the foothills."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/home/travel-video.webp",
+                    "alt": "Landscape and local detail from River, Craft & Memory on the Across the Palakkad Gap route"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Coconut Country",
+                "bodySubtitle": "DAYS 4–5 | POLLACHI",
+                "paragraphs": [
+                  "Cross into Tamil Nadu and slow down among coconut farms, market towns, and the agricultural landscape around Pollachi."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Farm visit focused on water, crops, and local food.",
+                  "Evening walk through quieter village roads."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/impact/impact4.webp",
+                    "alt": "Regional landscape encountered around Coconut Country during the Across the Palakkad Gap journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Climbing the Elephant Hills",
+                "bodySubtitle": "DAYS 6–8 | ANAMALAI & VALPARAI",
+                "paragraphs": [
+                  "Ascend the Anamalai range into tea country, with naturalist-led forest-edge walks and time to understand the relationship between plantations and wildlife corridors."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy3.webp",
+                    "alt": "Cultural travel detail representing Climbing the Elephant Hills during the Across the Palakkad Gap journey"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy7.webp",
+                    "alt": "Second editorial scene from Climbing the Elephant Hills along the Across the Palakkad Gap journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Descent & Departure",
+                "bodySubtitle": "DAY 9 | COIMBATORE",
+                "paragraphs": [
+                  "Descend toward Coimbatore for your onward flight or rail connection, stopping for a final Kongu-region meal."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Standards & Inclusions",
+            "items": [
+              "Rural stays, plantation bungalows, and small hotels selected to match each landscape.",
+              "Private vehicle suited to mountain roads and flexible wildlife-aware pacing.",
+              "Local naturalists and cultural interpreters used on both sides of the state border.",
+              "No unnecessary backtracking, with arrival in Kerala and departure from Coimbatore recommended."
+            ],
+            "image": "/images/impact/impact4.webp",
+            "imageAlt": "Landscape detail illustrating the stays and regional character of Kerala & Tamil Nadu",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Breathable clothing for Palakkad and Pollachi’s warmer plains.",
+              "A light jacket for Valparai evenings and early mornings.",
+              "Closed walking shoes with grip for damp plantation paths.",
+              "Binoculars for bird and wildlife observation in the Anamalai hills.",
+              "Rain protection outside the driest winter period."
+            ]
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Landscape & Context",
+            "video": {
+              "videoId": "k1OU4CqguLw",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Travel film still reflecting the landscapes and cultural atmosphere of Kerala & Tamil Nadu",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "Moving impressions from Kerala & Tamil Nadu, selected to complement the route’s slower editorial rhythm."
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "A mountain pass can become a cultural biography when you follow what moves through it: wind, grain, language, music, people, and memory.",
+            "author": "THE DESIGNER'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments That Define the Journey",
+            "captionMob": true,
+            "captionPc": true,
+            "images": [
+              {
+                "src": "/images/impact/impact3.webp",
+                "alt": "Nila riverland craft and village encounters around Palakkad on the Across the Palakkad Gap journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Nila riverland craft and village encounters around Palakkad."
+              },
+              {
+                "src": "/images/itineraries/dummy5.webp",
+                "alt": "The visual transition from Kerala paddy plains to Pollachi coconut country on the Across the Palakkad Gap journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "The visual transition from Kerala paddy plains to Pollachi coconut country."
+              },
+              {
+                "src": "/images/impact/impact5.webp",
+                "alt": "Slow ascent through the Anamalai hills toward Valparai on the Across the Palakkad Gap journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Slow ascent through the Anamalai hills toward Valparai."
+              },
+              {
+                "src": "/images/itineraries/dummy7.webp",
+                "alt": "Naturalist-led exploration of plantation and rainforest-edge ecosystems on the Across the Palakkad Gap journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Naturalist-led exploration of plantation and rainforest-edge ecosystems."
+              },
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Nila riverland craft and village encounters around Palakkad on the Across the Palakkad Gap journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Nila riverland craft and village encounters around Palakkad."
+              },
+              {
+                "src": "/images/itineraries/dummy9.webp",
+                "alt": "The visual transition from Kerala paddy plains to Pollachi coconut country on the Across the Palakkad Gap journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "The visual transition from Kerala paddy plains to Pollachi coconut country."
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "WILDLIFE & ROAD NOTE",
+            "text": "The Anamalai and Valparai sector overlaps active wildlife landscapes. Driving is kept unhurried, night movement is minimized, and animal sightings are treated as chance encounters rather than promises."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "A Passage Through the Ghats",
+            "paragraphs": [
+              "The journey turns geography into a story. What begins as a broad opening in the mountains gradually reveals itself as a corridor that has shaped two neighbouring regions for generations.",
+              "By the final descent, Kerala and Tamil Nadu feel connected by more than a road. They are linked by climate, crops, migration, trade, and the long memory of the Ghats."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "LEAD ROUTE ARCHITECT • KERALA, INDIA",
+            "name": "Sreejith Raghavan",
+            "bio": "Sreejith approaches Kerala & Tamil Nadu through slower route design, specialist local relationships, and a belief that culture, landscape, and hospitality should be experienced as one connected story.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait of Sreejith Raghavan, lead route architect for bespoke journeys across India"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can this route be tailored to our preferred dates and pace?",
+                "paragraphs": [
+                  "Yes. Every Signature itinerary is a design framework, and we adjust nights, experiences, transport, and daily intensity around your interests and travel dates."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "Is Valparai suitable for travellers who do not trek?",
+                "paragraphs": [
+                  "Yes. Most experiences can be designed around short walks, viewpoints, estate drives, and naturalist interpretation."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "Which direction works best for this route?",
+                "paragraphs": [
+                  "Palakkad to Coimbatore is usually the cleanest flow, but the route can be reversed around flight schedules."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "Are wildlife sightings guaranteed?",
+                "paragraphs": [
+                  "No. The focus is on habitat and ecology, with wildlife treated respectfully as an unpredictable bonus."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "What is included when the final journey is quoted?",
+                "paragraphs": [
+                  "The final proposal clearly separates accommodation, private transport, guiding, arranged experiences, and any route-specific permits or specialist access."
+                ],
+                "listTitle": "The exact inclusion list is confirmed before payment:",
+                "listItems": [
+                  "Chosen accommodation category and meal plan.",
+                  "Private transport and agreed transfers.",
+                  "Confirmed guiding, hosted encounters, and ticketed experiences.",
+                  "Any permits or special-access costs included in the final design."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the bespoke route, accommodation selection, and current supplier availability are approved, a 30% confirmation deposit secures the agreed services. The remaining balance is due 45 days before arrival unless the final proposal states otherwise."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We work directly with our partners to move dates whenever possible. Any non-refundable permits, transport tickets, or supplier penalties are passed through transparently."
+                ],
+                "listItems": [
+                  "60+ days before arrival: deposit refund less confirmed non-refundable costs.",
+                  "30–59 days before arrival: 50% refund or travel credit where supplier terms allow.",
+                  "Less than 30 days before arrival: cancellation follows the confirmed supplier terms in your final proposal."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

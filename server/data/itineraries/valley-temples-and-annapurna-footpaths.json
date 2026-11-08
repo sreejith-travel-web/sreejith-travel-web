@@ -1,0 +1,560 @@
+{
+  "meta": {
+    "id": "col-1",
+    "slug": "valley-temples-and-annapurna-footpaths",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": true,
+    "title": "Valley Temples & Annapurna Footpaths",
+    "region": "Nepal",
+    "days": 11,
+    "categories": [
+      "culture",
+      "nature",
+      "stays"
+    ],
+    "tags": [
+      "#NEPAL",
+      "#HIMALAYA",
+      "#VILLAGES"
+    ],
+    "intro": "Move from Kathmandu’s temple courtyards to hill towns and Annapurna foothpaths, guided by a designer who connects heritage with mountain village life.",
+    "image": "/images/impact/impact1.webp",
+    "alt": "Newar temple roofs and Himalayan foothills unfolding beneath clear Nepal mountain light",
+    "collaborator": {
+      "name": "Nima Gurung",
+      "role": "Himalayan Cultural Journey Designer • Kathmandu, Nepal",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A measured Nepal journey linking Newar heritage, ridge-top towns, lakeside calm, and community-led Himalayan walking without turning the mountains into a race.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Private Newar architecture walks across Patan and Bhaktapur."
+      },
+      {
+        "icon": "temple",
+        "label": "An overnight pause in Bandipur above the Marsyangdi valley."
+      },
+      {
+        "icon": "boat",
+        "label": "Village-based walking beneath the Annapurna and Machhapuchhre ranges."
+      },
+      {
+        "icon": "wellness",
+        "label": "Local kitchens, craft studios, and monastery conversations shaped around conte"
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "dzongs-valleys-and-quiet-altitudes",
+    "tea-monasteries-and-khangchendzonga",
+    "monasteries-under-the-milky-way"
+  ],
+  "seo": {
+    "pageTitle": "Valley Temples & Annapurna Footpaths | 11-Day Nepal Journey",
+    "pageDesc": "Move from Kathmandu’s temple courtyards to hill towns and Annapurna foothpaths, guided by a designer who connects heritage with mountain village life.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Valley Temples & Annapurna Footpaths across Nepal for social sharing within this carefully designed",
+    "breadcrumbName": "Valley Temples & Annapurna Footpaths",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Valley Temples & Annapurna Footpaths"
+      }
+    ],
+    "coverImage": "/images/impact/impact4.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Nepal within this carefully designed cultural journey",
+    "eyebrow": "Collaborated Route",
+    "title": "Valley Temples & Annapurna Footpaths",
+    "intro": "Move from Kathmandu’s temple courtyards to hill towns and Annapurna foothpaths, guided by a designer who connects heritage with mountain village life.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "11 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Measured"
+      },
+      {
+        "label": "Region",
+        "value": "Nepal"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Living heritage & mountain villages"
+      },
+      {
+        "label": "Designer",
+        "value": "Nima Gurung"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 2,450",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Valley Temples & Annapurna Footpaths",
+    "shareText": "Move from Kathmandu’s temple courtyards to hill towns and Annapurna foothpaths, guided by a designer who connects heritage with mountain village life."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Begin in the Kathmandu Valley, where brick courtyards, carved timber windows, Buddhist stupas, and Hindu shrines reveal the layered Newar culture that shaped the old royal cities. Rather than rushing through monuments, the first days are built around neighbourhood walks, artisan studios, and conversations that give ritual spaces social context.",
+              "The route then slows through Bandipur and Pokhara before entering the Annapurna foothills for village-based walking. Comfortable lodges, flexible trail distances, and locally hosted meals keep the mountain section immersive without demanding a full trekking expedition."
+            ],
+            "image": "/images/home/solo-portrait.webp",
+            "imageAlt": "Editorial travel scene showing an editorial portrait of Nepal landscapes and local encounters within this carefully designed cultural",
+            "imageAspectRatio": "4 / 5",
+            "caption": "Kathmandu → Patan & Bhaktapur → Bandipur → Pokhara → Annapurna Foothills",
+            "highlightsTitle": "Highlights of the Journey",
+            "highlights": [
+              "Private Newar architecture walks across Patan and Bhaktapur.",
+              "An overnight pause in Bandipur above the Marsyangdi valley.",
+              "Village-based walking beneath the Annapurna and Machhapuchhre ranges.",
+              "Local kitchens, craft studios, and monastery conversations shaped around context."
+            ]
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Field Notes: Valley Temples & Annapurna Footpaths",
+            "video": {
+              "videoId": "4KtLGaNl9VQ",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Editorial travel scene showing moving travel impressions from Nepal and its cultural landscapes within this carefully designed cultural",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "A moving editorial glimpse selected to complement the pace and atmosphere of Valley Temples & Annapurna Footpaths."
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 11-day journey is paced around living heritage & mountain villages, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: The Living Valley",
+                "bodySubtitle": "DAYS 1–2 | KATHMANDU",
+                "paragraphs": [
+                  "Settle into Kathmandu and explore old market lanes, temple courtyards, and neighbourhood shrines with a cultural interpreter who explains how sacred and everyday life overlap."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Walk around Boudhanath with time for monastery courtyards and tea houses.",
+                  "Explore old Kathmandu lanes before the busiest sightseeing hours."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/home/forest-portrait.webp",
+                    "alt": "Editorial travel scene showing Kathmandu during the Valley Temples & Annapurna Footpaths journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Courtyards, Clay & Carved Timber",
+                "bodySubtitle": "DAYS 3–4 | PATAN & BHAKTAPUR",
+                "paragraphs": [
+                  "Shift the focus to the historic cities of Patan and Bhaktapur, where palace squares, metalwork traditions, pottery quarters, and domestic architecture reward slower observation."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Meet a craft practitioner working in metal, wood, or clay.",
+                  "Dine in a restored courtyard setting featuring Newar flavours."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/home/journey-pc.webp",
+                    "alt": "Editorial travel scene showing Patan & Bhaktapur during the Valley Temples & Annapurna Footpaths journey within this carefully"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: The Ridge Town Pause",
+                "bodySubtitle": "DAY 5 | BANDIPUR",
+                "paragraphs": [
+                  "Drive west to Bandipur and spend an unhurried afternoon in the pedestrian old town, where merchant houses face Himalayan views and rural footpaths begin almost at the doorstep."
+                ],
+                "listItems": [
+                  "Sunset ridge walk above the old bazaar.",
+                  "Dinner built around seasonal hill produce."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/home/journey-pc1.webp",
+                    "alt": "Editorial travel scene showing Bandipur during the Valley Temples & Annapurna Footpaths journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Lake to Mountain Footpaths",
+                "bodySubtitle": "DAYS 6–8 | POKHARA & ANNAPURNA FOOTHILLS",
+                "paragraphs": [
+                  "Continue to Pokhara, then move into the Annapurna foothills for flexible village walks through stone steps, terrace fields, and forest paths with daily distances adjusted to comfort."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Dawn mountain viewpoints when weather permits.",
+                  "Village lunches and locally managed lodge stays."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/home/solo-portrait.webp",
+                    "alt": "Editorial travel scene showing Pokhara & Annapurna Foothills during the Valley Temples & Annapurna Footpaths journey within this"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy1.webp",
+                    "alt": "Editorial travel scene showing Pokhara & Annapurna Foothills during the Valley Temples & Annapurna Footpaths journey within this"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Time With the Hills",
+                "bodySubtitle": "DAYS 9–10 | FOOTHILL VILLAGES",
+                "paragraphs": [
+                  "Remain in the foothills rather than rushing back, using the extra time for shorter walks, community encounters, and a quieter reading of farm life and mountain rhythms."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Optional birding or photography-focused morning walk.",
+                  "Shared meal with a host family or community-run lodge team."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/home/travel-video.webp",
+                    "alt": "Editorial travel scene showing Foothill Villages during the Valley Temples & Annapurna Footpaths journey within this carefully designed"
+                  },
+                  {
+                    "src": "/images/impact/impact1.webp",
+                    "alt": "Editorial travel scene showing Foothill Villages during the Valley Temples & Annapurna Footpaths journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-06",
+                "headerTitle": "Phase 06: Departure & Onward Connections",
+                "bodySubtitle": "DAY 11 | POKHARA",
+                "paragraphs": [
+                  "Return to Pokhara for a relaxed final breakfast and airport transfer, with onward flight planning built around weather and domestic schedule buffers."
+                ],
+                "listItems": [
+                  "Flexible transfer coordination for onward flights.",
+                  "Time reserved for weather-related schedule changes."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Characterful heritage hotels in Kathmandu and hill towns.",
+              "Comfortable mountain lodges selected for location, warmth, and host quality.",
+              "Private ground transfers with realistic mountain-road timing.",
+              "Local cultural guides and walking leaders matched to each region."
+            ],
+            "image": "/images/journal/journal1.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Nepal within this carefully designed cultural journey",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Broken-in walking shoes with good grip for stone steps and village paths.",
+              "Layered clothing for warm valley afternoons and cool mountain mornings.",
+              "Sun protection, refillable water bottle, and a compact daypack.",
+              "Modest clothing for monasteries, temples, and family-hosted visits."
+            ]
+          }
+        },
+        {
+          "type": "slider",
+          "data": {
+            "eyebrow": "ROUTE IN FRAMES",
+            "title": "Selected Landscapes & Stays",
+            "images": [
+              {
+                "src": "/images/impact/impact5.webp",
+                "alt": "Editorial travel scene showing landscape detail from Nepal on Valley Temples & Annapurna Footpaths within this carefully designed",
+                "caption": "Visual field note 1 from the landscapes and cultural atmosphere of Nepal."
+              },
+              {
+                "src": "/images/impact/impact6.webp",
+                "alt": "Editorial travel scene showing landscape detail from Nepal on Valley Temples & Annapurna Footpaths within this carefully designed",
+                "caption": "Visual field note 2 from the landscapes and cultural atmosphere of Nepal."
+              },
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Editorial travel scene showing landscape detail from Nepal on Valley Temples & Annapurna Footpaths within this carefully designed",
+                "caption": "Visual field note 3 from the landscapes and cultural atmosphere of Nepal."
+              },
+              {
+                "src": "/images/journal/journal2.webp",
+                "alt": "Editorial travel scene showing landscape detail from Nepal on Valley Temples & Annapurna Footpaths within this carefully designed",
+                "caption": "Visual field note 4 from the landscapes and cultural atmosphere of Nepal."
+              },
+              {
+                "src": "/images/journal/journal3.webp",
+                "alt": "Editorial travel scene showing landscape detail from Nepal on Valley Temples & Annapurna Footpaths within this carefully designed",
+                "caption": "Visual field note 5 from the landscapes and cultural atmosphere of Nepal."
+              }
+            ],
+            "width": 1200,
+            "height": 800,
+            "autoplay": false,
+            "interval": 5000,
+            "captionMob": true,
+            "captionPc": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "Nepal becomes more intimate when the mountain is not the only thing you are looking at.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/impact/impact3.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Nepal within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Nepal, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy6.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Nepal within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Nepal, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact5.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Nepal within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Nepal, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/impact/impact6.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Nepal within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Nepal, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": true,
+            "captionPc": true
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "ALTITUDE & TRAIL NOTE",
+            "text": "This route stays mainly in the lower Annapurna foothills, but weather and trail conditions can still change quickly. Daily walking distance should remain flexible, and higher extensions should only be added after discussing fitness and acclimatisation."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "The Valley and the Mountain Stay Together",
+            "paragraphs": [
+              "The journey is designed so Kathmandu’s carved courtyards and the foothill villages do not feel like separate holidays. Both reveal how belief, craft, food, and landscape continue through ordinary life.",
+              "What stays with you is less a summit than a sequence of human-scale details: butter lamps, hand-worked metal, terrace paths, and the changing outline of the Himalaya."
+            ],
+            "image": "/images/itineraries/dummy6.webp",
+            "imageAlt": "Editorial travel scene showing a final reflective travel moment from Nepal within this carefully designed cultural journey",
+            "imageAspectRatio": "4 / 5",
+            "caption": "A final visual note from Valley Temples & Annapurna Footpaths."
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "HIMALAYAN CULTURAL JOURNEY DESIGNER • KATHMANDU, NEPAL",
+            "name": "Nima Gurung",
+            "bio": "Nima designs Nepal journeys around living heritage, village economies, and manageable mountain walking, favouring long conversations and locally rooted stays over rushed landmark collecting.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Nima Gurung for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Valley Temples & Annapurna Footpaths be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Nima Gurung’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "This route stays mainly in the lower Annapurna foothills, but weather and trail conditions can still change quickly. Daily walking distance should remain flexible, and higher extensions should only be added after discussing fitness and acclimatisation."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as measured. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

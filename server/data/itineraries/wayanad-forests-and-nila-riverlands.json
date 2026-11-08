@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "id": "sig-6",
+    "slug": "wayanad-forests-and-nila-riverlands",
+    "type": "signature",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Wayanad Forests & Nila Riverlands",
+    "region": "Kerala",
+    "days": 9,
+    "categories": [
+      "nature",
+      "culture",
+      "offbeat"
+    ],
+    "tags": [
+      "#WAYANAD",
+      "#NILAMBUR",
+      "#NILA"
+    ],
+    "intro": "Connect Wayanad’s forested plateau with Nilambur’s teak country and the Nila riverlands through ecology, craft, food, and slower rural stays.",
+    "image": "/images/impact/impact6.webp",
+    "alt": "Mist rising through forested Wayanad slopes above Kerala’s northern river valleys",
+    "featuredDescription": "A northern Kerala route that moves from forest and plantation landscapes into riverine craft country, avoiding the usual rush between headline attractions.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Wayanad farm encounters"
+      },
+      {
+        "icon": "village",
+        "label": "Nilambur teak country"
+      },
+      {
+        "icon": "village",
+        "label": "Nila cultural traditions"
+      },
+      {
+        "icon": "wellness",
+        "label": "Forest-edge slow stays"
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "stories-along-the-malabar-coast",
+    "theyyam-coast-to-tulunadu",
+    "backwaters-spice-hills-and-sacred-groves"
+  ],
+  "seo": {
+    "pageTitle": "Wayanad Forests & Nila Riverlands | 9-Day Kerala Journey",
+    "pageDesc": "Connect Wayanad’s forest plateau with Nilambur and the Nila riverlands through ecology, farms, craft, food, and slower rural stays.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Mist rising through forested Wayanad slopes above Kerala’s northern river valleys",
+    "breadcrumbName": "Wayanad Forests & Nila Riverlands",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Wayanad Forests & Nila Riverlands"
+      }
+    ],
+    "coverImage": "/images/home/forest-landscape.webp",
+    "coverAlt": "Mist rising through forested Wayanad slopes above Kerala’s northern river valleys",
+    "eyebrow": "Signature Itinerary",
+    "title": "Wayanad Forests & Nila Riverlands",
+    "intro": "Connect Wayanad’s forested plateau with Nilambur’s teak country and the Nila riverlands through ecology, craft, food, and slower rural stays.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "9 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Unhurried"
+      },
+      {
+        "label": "Region",
+        "value": "Kerala"
+      },
+      {
+        "label": "Group",
+        "value": "1–4 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Forest & river culture"
+      },
+      {
+        "label": "Style",
+        "value": "Private bespoke"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "BESPOKE JOURNEY",
+    "price": "Price on request",
+    "ctaTitle": "Want this trip, but shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. Talk to us to adjust the pace, stays, or detours.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Wayanad Forests & Nila Riverlands",
+    "shareText": "Connect Wayanad’s forested plateau with Nilambur’s teak country and the Nila riverlands through ecology, craft, food, and slower rural stays."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "This route begins on the Malabar coast but quickly climbs into Wayanad’s plateau, where forest edges, farms, and indigenous histories require slower, locally guided exploration. From there it descends toward Nilambur’s teak country and the cultural landscape of the Nila.",
+              "Rather than chasing a long list of sights, the journey is built around three connected landscapes: upland forest, foothill timber country, and river plain. Each is given enough time for walking, conversation, food, and small-scale cultural encounters."
+            ],
+            "image": "/images/home/journey-mob1.webp",
+            "imageAlt": "Editorial travel portrait representing landscapes and cultural encounters across Kerala",
+            "imageAspectRatio": "4 / 5",
+            "caption": "Calicut → Wayanad → Nilambur → Nila Riverlands → Palakkad"
+          }
+        },
+        {
+          "type": "slider",
+          "data": {
+            "eyebrow": "ROUTE GALLERY",
+            "title": "A Visual Prelude",
+            "width": 1200,
+            "height": 800,
+            "autoplay": false,
+            "captionMob": true,
+            "captionPc": true,
+            "images": [
+              {
+                "src": "/images/impact/impact3.webp",
+                "alt": "Naturalist-led forest and farm experiences across Wayanad’s plateau on the Wayanad Forests & Nila Riverlands journey",
+                "caption": "Naturalist-led forest and farm experiences across Wayanad’s plateau."
+              },
+              {
+                "src": "/images/impact/impact4.webp",
+                "alt": "Teak, timber, and river landscapes around Nilambur on the Wayanad Forests & Nila Riverlands journey",
+                "caption": "Teak, timber, and river landscapes around Nilambur."
+              },
+              {
+                "src": "/images/impact/impact5.webp",
+                "alt": "Handloom, performance, and village traditions across the Nila corridor on the Wayanad Forests & Nila Riverlands journey",
+                "caption": "Handloom, performance, and village traditions across the Nila corridor."
+              },
+              {
+                "src": "/images/impact/impact6.webp",
+                "alt": "A final Palakkad stay linking the riverlands to the Western Ghats on the Wayanad Forests & Nila Riverlands journey",
+                "caption": "A final Palakkad stay linking the riverlands to the Western Ghats."
+              },
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Naturalist-led forest and farm experiences across Wayanad’s plateau on the Wayanad Forests & Nila Riverlands journey",
+                "caption": "Naturalist-led forest and farm experiences across Wayanad’s plateau."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 9-day journey is paced around meaningful stays, sensible road movement, and enough time in each landscape to understand it rather than simply pass through."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Malabar Gateway",
+                "bodySubtitle": "DAY 1 | CALICUT",
+                "paragraphs": [
+                  "Arrive in Calicut for a compact introduction to Malabar food and trade history before the climb inland."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy2.webp",
+                    "alt": "Travel scene from Malabar Gateway during the Wayanad Forests & Nila Riverlands journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Forest Plateau",
+                "bodySubtitle": "DAYS 2–4 | WAYANAD",
+                "paragraphs": [
+                  "Spend three nights in Wayanad with nature walks, farm visits, and context around local communities and the plateau’s layered history."
+                ],
+                "listItems": [
+                  "Private naturalist walk in a suitable forest-edge landscape.",
+                  "Farm-to-table meal focused on pepper, coffee, and seasonal produce."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/impact/impact2.webp",
+                    "alt": "Landscape and local detail from Forest Plateau on the Wayanad Forests & Nila Riverlands route"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Teak & Foothills",
+                "bodySubtitle": "DAYS 5–6 | NILAMBUR",
+                "paragraphs": [
+                  "Descend toward Nilambur for riverside landscapes, timber history, and quiet village routes at the base of the Ghats."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/impact/impact6.webp",
+                    "alt": "Regional landscape encountered around Teak & Foothills during the Wayanad Forests & Nila Riverlands journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: River of Culture",
+                "bodySubtitle": "DAYS 7–8 | NILA RIVERLANDS",
+                "paragraphs": [
+                  "Move into the Bharathapuzha cultural belt for handloom, performance heritage, pottery, and intimate home-based encounters."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy5.webp",
+                    "alt": "Cultural travel detail representing River of Culture during the Wayanad Forests & Nila Riverlands journey"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy9.webp",
+                    "alt": "Second editorial scene from River of Culture along the Wayanad Forests & Nila Riverlands journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Gap & Departure",
+                "bodySubtitle": "DAY 9 | PALAKKAD",
+                "paragraphs": [
+                  "Conclude in Palakkad with a final meal and onward transfer to Coimbatore or Kochi depending on your schedule."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Standards & Inclusions",
+            "items": [
+              "Forest-edge lodges and rural stays selected for quiet settings and responsible access.",
+              "Private transfers timed to avoid rushed same-day sightseeing after long drives.",
+              "Naturalists and craft specialists brought in for focused interpretation.",
+              "Community visits arranged only through appropriate local partners."
+            ],
+            "image": "/images/impact/impact6.webp",
+            "imageAlt": "Landscape detail illustrating the stays and regional character of Kerala",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Light layers for variable plateau temperatures.",
+              "Closed shoes suitable for forest-edge and farm walking.",
+              "Rain protection for Wayanad outside the driest months.",
+              "Modest casual clothing for village and home visits.",
+              "A small daypack and reusable bottle for walking days."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "Northern Kerala is at its best when the road leaves the coast, climbs through forest, and returns to the plains carrying stories with it.",
+            "author": "THE DESIGNER'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments That Define the Journey",
+            "captionMob": true,
+            "captionPc": true,
+            "images": [
+              {
+                "src": "/images/impact/impact5.webp",
+                "alt": "Naturalist-led forest and farm experiences across Wayanad’s plateau on the Wayanad Forests & Nila Riverlands journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Naturalist-led forest and farm experiences across Wayanad’s plateau."
+              },
+              {
+                "src": "/images/itineraries/dummy7.webp",
+                "alt": "Teak, timber, and river landscapes around Nilambur on the Wayanad Forests & Nila Riverlands journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Teak, timber, and river landscapes around Nilambur."
+              },
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Handloom, performance, and village traditions across the Nila corridor on the Wayanad Forests & Nila Riverlands journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Handloom, performance, and village traditions across the Nila corridor."
+              },
+              {
+                "src": "/images/itineraries/dummy9.webp",
+                "alt": "A final Palakkad stay linking the riverlands to the Western Ghats on the Wayanad Forests & Nila Riverlands journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "A final Palakkad stay linking the riverlands to the Western Ghats."
+              },
+              {
+                "src": "/images/journal/journal3.webp",
+                "alt": "Naturalist-led forest and farm experiences across Wayanad’s plateau on the Wayanad Forests & Nila Riverlands journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Naturalist-led forest and farm experiences across Wayanad’s plateau."
+              },
+              {
+                "src": "/images/itineraries/dummy11.webp",
+                "alt": "Teak, timber, and river landscapes around Nilambur on the Wayanad Forests & Nila Riverlands journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Teak, timber, and river landscapes around Nilambur."
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "FOREST ACCESS NOTE",
+            "text": "Protected-area access, trail permissions, and community visits can change with weather and local regulations. The route uses flexible alternatives rather than forcing a fixed wildlife schedule."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "From Canopy to River Plain",
+            "paragraphs": [
+              "Wayanad, Nilambur, and the Nila are rarely experienced as one connected journey, yet the transition between them is precisely what gives this route its character.",
+              "The memories are quieter: wet earth after rain, pepper vines on a farm, a loom in motion, teak shadows, and the wide river opening toward Palakkad."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "LEAD ROUTE ARCHITECT • KERALA, INDIA",
+            "name": "Sreejith Raghavan",
+            "bio": "Sreejith approaches Kerala through slower route design, specialist local relationships, and a belief that culture, landscape, and hospitality should be experienced as one connected story.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait of Sreejith Raghavan, lead route architect for bespoke journeys across India"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can this route be tailored to our preferred dates and pace?",
+                "paragraphs": [
+                  "Yes. Every Signature itinerary is a design framework, and we adjust nights, experiences, transport, and daily intensity around your interests and travel dates."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "Is this a wildlife safari itinerary?",
+                "paragraphs": [
+                  "No. Nature is central, but the emphasis is on landscape, ecology, farms, and guided walking rather than vehicle safaris."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "Can we add more time in Wayanad?",
+                "paragraphs": [
+                  "Yes. Wayanad is the easiest section to extend for additional nature, wellness, or farm-based experiences."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "Which airport works best?",
+                "paragraphs": [
+                  "Calicut is ideal for arrival; departure can be planned through Coimbatore, Calicut, or Kochi depending on the final route."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "What is included when the final journey is quoted?",
+                "paragraphs": [
+                  "The final proposal clearly separates accommodation, private transport, guiding, arranged experiences, and any route-specific permits or specialist access."
+                ],
+                "listTitle": "The exact inclusion list is confirmed before payment:",
+                "listItems": [
+                  "Chosen accommodation category and meal plan.",
+                  "Private transport and agreed transfers.",
+                  "Confirmed guiding, hosted encounters, and ticketed experiences.",
+                  "Any permits or special-access costs included in the final design."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the bespoke route, accommodation selection, and current supplier availability are approved, a 30% confirmation deposit secures the agreed services. The remaining balance is due 45 days before arrival unless the final proposal states otherwise."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We work directly with our partners to move dates whenever possible. Any non-refundable permits, transport tickets, or supplier penalties are passed through transparently."
+                ],
+                "listItems": [
+                  "60+ days before arrival: deposit refund less confirmed non-refundable costs.",
+                  "30–59 days before arrival: 50% refund or travel credit where supplier terms allow.",
+                  "Less than 30 days before arrival: cancellation follows the confirmed supplier terms in your final proposal."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

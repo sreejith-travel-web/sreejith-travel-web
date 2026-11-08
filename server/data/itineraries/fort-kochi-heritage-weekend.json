@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "id": "ess-4",
+    "slug": "fort-kochi-heritage-weekend",
+    "type": "essential",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Fort Kochi Heritage Weekend",
+    "region": "Kerala",
+    "days": 3,
+    "categories": [
+      "culture",
+      "stays",
+      "bespoke"
+    ],
+    "tags": [
+      "#FORTKOCHI",
+      "#HERITAGE",
+      "#WEEKEND"
+    ],
+    "intro": "Three compact days for Fort Kochi and Mattancherry: heritage streets, galleries, food, waterfront evenings, and one very easy base.",
+    "image": "/images/home/journey-pc.webp",
+    "alt": "Warmly lit heritage street in Fort Kochi during a quiet evening",
+    "featuredDescription": "A dependable 3-day route focused on urban heritage & food, sensible logistics, comfortable pacing, and easy customization.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "label": "Mattancherry heritage walk"
+      },
+      {
+        "icon": "village",
+        "label": "Local food and markets"
+      },
+      {
+        "icon": "boat",
+        "label": "Harbour sunset time"
+      },
+      {
+        "icon": "wellness",
+        "label": "Slow heritage stay"
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "alleppey-backwaters-and-village-life",
+    "madurai-and-chettinad-heritage-trail",
+    "pondicherry-and-the-coromandel-coast"
+  ],
+  "seo": {
+    "pageTitle": "Fort Kochi Heritage Weekend — 3-Day Essential Itinerary",
+    "pageDesc": "Three compact days for Fort Kochi and Mattancherry: heritage streets, galleries, food, waterfront evenings, and one very easy base.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Warmly lit heritage street in Fort Kochi during a quiet evening",
+    "breadcrumbName": "Fort Kochi Heritage Weekend",
+    "publishDate": "2026-11-07"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Fort Kochi Heritage Weekend"
+      }
+    ],
+    "coverImage": "/images/home/journey-pc.webp",
+    "coverAlt": "Warmly lit heritage street in Fort Kochi during a quiet evening",
+    "eyebrow": "Essential Blueprint",
+    "title": "Fort Kochi Heritage Weekend",
+    "intro": "Three compact days for Fort Kochi and Mattancherry: heritage streets, galleries, food, waterfront evenings, and one very easy base.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "3 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Easy"
+      },
+      {
+        "label": "Region",
+        "value": "Kerala"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Urban heritage & food"
+      },
+      {
+        "label": "Style",
+        "value": "Essential"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "STARTING BUDGET",
+    "price": "From USD 390",
+    "priceUnit": "per person",
+    "ctaTitle": "Want the simple route, adjusted for you?",
+    "ctaSubtitle": "Change the dates, stay level, pace, or one or two experiences without rebuilding the whole thing.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "shareTitle": "Fort Kochi Heritage Weekend",
+    "shareText": "Three compact days for Fort Kochi and Mattancherry: heritage streets, galleries, food, waterfront evenings, and one very easy base."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Stay in Fort Kochi and walk or drive short distances. This is designed as an easy beginning or ending to a longer South India journey."
+            ],
+            "caption": "Fort Kochi → Mattancherry → Jew Town → Harbour",
+            "highlightsTitle": "What You Get",
+            "highlights": [
+              "Mattancherry heritage walk",
+              "Local food and markets",
+              "Harbour sunset time",
+              "Slow heritage stay"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "3 days, short transfers where possible, and a practical sequence that leaves room for weather, opening times, and actual human energy."
+            ],
+            "title": "Route Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Check In & Walk",
+                "bodySubtitle": "DAY 1 | FORT KOCHI",
+                "listItems": [
+                  "Arrive and settle into a heritage stay.",
+                  "Walk the waterfront and old streets.",
+                  "Easy dinner nearby."
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Mattancherry & Jew Town",
+                "bodySubtitle": "DAY 2 | HERITAGE CORE",
+                "listItems": [
+                  "Guided heritage walk.",
+                  "Spice-market and gallery stops.",
+                  "Late afternoon free."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/home/journey-pc.webp",
+                    "alt": "Landscape view representing mattancherry & jew town on the fort kochi heritage weekend route"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Morning & Departure",
+                "bodySubtitle": "DAY 3 | FORT KOCHI",
+                "listItems": [
+                  "Breakfast.",
+                  "Optional café, gallery, or waterfront stop.",
+                  "Airport or onward transfer."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Weekend Setup",
+            "items": [
+              "One central Fort Kochi base.",
+              "Private arrival and departure transfers.",
+              "Half-day guided heritage walk.",
+              "Free time for galleries, cafés, and shopping."
+            ]
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Before You Go",
+            "items": [
+              "Wear light clothing.",
+              "Carry modest attire for religious sites.",
+              "Use comfortable walking shoes.",
+              "Do not schedule six museums before lunch. You are on holiday."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "A good Fort Kochi weekend needs less itinerary and more wandering.",
+            "author": "ESSENTIAL ROUTE NOTE"
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "PRACTICAL NOTE",
+            "text": "Fort Kochi is best explored on foot in the cooler morning and late afternoon hours."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Why This Route Works",
+            "paragraphs": [
+              "This route is intentionally small. It gives first-time visitors enough context to understand the neighbourhood and enough free time to enjoy it."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "ESSENTIAL ROUTE CURATOR • KERALA",
+            "name": "Sreejith Travel",
+            "bio": "Sreejith Travel uses this compact city blueprint as an easy arrival, departure, or weekend add-on within longer South India journeys.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Profile placeholder representing Sreejith Travel, curator for this essential travel route"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can the route be adjusted for our dates and pace?",
+                "paragraphs": [
+                  "Yes. Essential routes are starting templates, so nights, transfer points, and activity intensity can be adjusted before confirmation."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "Who is this route best suited to?",
+                "listItems": [
+                  "Travellers wanting a straightforward 3-day plan.",
+                  "Guests interested in urban heritage & food.",
+                  "People who prefer dependable logistics over a heavily authored expedition."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "Are all activities fixed?",
+                "paragraphs": [
+                  "No. Weather, local opening times, transport schedules, and personal energy can change the daily order without changing the core route."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "What does the starting price cover?",
+                "listTitle": "Typical core inclusions:",
+                "listItems": [
+                  "Accommodation in the selected category.",
+                  "Private transfers listed in the route.",
+                  "Guiding or activity support where specified.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How is the booking confirmed?",
+                "paragraphs": [
+                  "A confirmation deposit is collected after the final route, stay category, and travel dates are approved. Supplier-specific non-refundable amounts are identified before payment."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What happens if dates change?",
+                "paragraphs": [
+                  "We first try to move the same services to new dates. Any cancellation or amendment cost depends on the actual hotel, transport, guide, permit, and activity terms attached to the booking."
+                ],
+                "listItems": [
+                  "Date changes remain subject to availability.",
+                  "Non-refundable supplier charges are passed through at cost.",
+                  "Any revised balance is confirmed before rebooking."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

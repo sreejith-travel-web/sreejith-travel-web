@@ -26,6 +26,15 @@ useHead({
   ]
 })
 
+// 1. Fetch all featuredHome: true Signature & Collaborated itineraries (Server-filtered, zero bundle bloat)
+const { data: homeItineraries } = await useAsyncData(
+  'home-featured-itineraries',
+  () => $fetch('/api/itineraries/home'),
+  {
+    default: () => ({ signature: [], collaborated: [] })
+  }
+)
+
 const pageData = {
   hero: {
     mode: 'slideshow' as const,
@@ -117,112 +126,7 @@ const pageData = {
       autoplay: false,
       autoplayIntervalMs: 5500,
       infinite: true,
-      slides: [
-        {
-          id: 'sig-1',
-          slug: 'cultural-immersions-north-kerala',
-          type: 'signature',
-          region: 'Kerala',
-          days: 7,
-          title: 'Sacred Groves & Living Theyyam Rituals',
-          intro:
-            'Journey into the ancestral shrines of North Malabar to witness sacred Theyyam performances, privately hosted by hereditary ritual artists and temple elders.',
-          image: '/images/itineraries/dummy1.webp',
-          alt: 'Theyyam ritual performance in North Kerala',
-          categories: ['culture-heritage']
-        },
-        {
-          id: 'sig-2',
-          slug: 'high-range-tea-trails-munnar',
-          type: 'signature',
-          region: 'Munnar & Beyond',
-          days: 6,
-          title: 'Cloud Estates & planter Bungalows of the High Range',
-          intro:
-            'Follow forgotten ridge trails through misty tea gardens, staying in restored colonial bungalows with private botanists and master tea tasters.',
-          image: '/images/itineraries/dummy2.webp',
-          alt: 'Misty tea estates and mountain trails in Munnar',
-          categories: ['nature-wildlife']
-        },
-        {
-          id: 'sig-3',
-          slug: 'quiet-backwaters-river-life',
-          type: 'signature',
-          region: 'Backwaters',
-          days: 5,
-          title: 'Beyond the Lagoons: Secret Canals & Island Guilds',
-          intro:
-            'Glide aboard a handcrafted wooden kettuvallam into quiet inland waterways where coir weavers, toddy tappers, and boatwrights preserve centuries-old river rhythms.',
-          image: '/images/itineraries/dummy3.webp',
-          alt: 'Traditional houseboat gliding across tranquil backwaters at sunset',
-          categories: ['slow-travel']
-        },
-        {
-          id: 'sig-4',
-          slug: 'chola-bronze-dravidian-temples',
-          type: 'signature',
-          region: 'Tamil Nadu',
-          days: 8,
-          title: 'Living Stone: Chola Sanctuaries & Bronze Foundries',
-          intro:
-            'Walk through thousand-pillared Dravidian temples at dawn with architectural historians and visit hereditary sthapatis casting sacred bronzes using lost-wax moulds.',
-          image: '/images/itineraries/dummy4.webp',
-          alt: 'Ancient Dravidian temple architecture and stone pillars',
-          categories: ['culture-heritage']
-        },
-        {
-          id: 'sig-5',
-          slug: 'spice-routes-culinary-homesteads',
-          type: 'signature',
-          region: 'South India',
-          days: 7,
-          title: 'Heirloom Kitchens of the Malabar & Chettinad Table',
-          intro:
-            'Cook alongside matriarchs in ancestral spice estates and Chettiar mansions, uncovering rare pepper varietals, sun-dried masalas, and temple feast traditions.',
-          image: '/images/itineraries/dummy5.webp',
-          alt: 'Authentic South Indian feast served on a fresh banana leaf',
-          categories: ['culinary']
-        },
-        {
-          id: 'sig-6',
-          slug: 'malabar-coastal-escapes',
-          type: 'signature',
-          region: 'Kerala Coast',
-          days: 6,
-          title: 'Monsoon Harbours & Cliffside Sanctuaries',
-          intro:
-            'Trace the ancient maritime spice coast from historic dhow shipyards in Beypore to secluded laterite cliffs overlooking the Arabian Sea.',
-          image: '/images/itineraries/dummy6.webp',
-          alt: 'Palm-fringed rocky coastline at golden hour',
-          categories: ['slow-travel']
-        },
-        {
-          id: 'sig-7',
-          slug: 'western-ghats-conservation-trail',
-          type: 'signature',
-          region: 'Western Ghats',
-          days: 7,
-          title: 'Rainforest Corridors & Indigenous Trackers',
-          intro:
-            'Explore UNESCO-listed biosphere reserves alongside tribal naturalists, tracking wild elephants, endemic hornbills, and nocturnal shola forest ecosystems.',
-          image: '/images/itineraries/dummy7.webp',
-          alt: 'Wild elephant walking through a lush forest landscape',
-          categories: ['nature-wildlife']
-        },
-        {
-          id: 'sig-8',
-          slug: 'craft-villages-hands-heritage',
-          type: 'signature',
-          region: 'Craft Villages',
-          days: 6,
-          title: 'Loom, Clay & Mirror: The Master Guilds of Kerala',
-          intro:
-            'Step inside private family workshops crafting Aranmula metal mirrors, Balaramapuram handlooms, and bell-metal temple lamps along the Bharathapuzha river.',
-          image: '/images/itineraries/dummy8.webp',
-          alt: 'Local artisan working by hand inside a traditional workshop',
-          categories: ['arts-crafts']
-        }
-      ]
+      slides: homeItineraries.value?.signature || []
     }
   },
 
@@ -242,116 +146,7 @@ const pageData = {
       autoplay: true,
       autoplayIntervalMs: 3500,
       infinite: true,
-      slides: [
-        {
-          id: 'col-1',
-          slug: 'ritual-theatre-north-malabar',
-          type: 'collaborated',
-          region: 'North Kerala',
-          days: 7,
-          title: 'Rhythm & Ritual: Sacred Performance Traditions',
-          intro:
-            'An intimate immersion into Koodiyattam Sanskrit theatre and Kalaripayattu gurukulams with private archive access and evening performances.',
-          image: '/images/itineraries/dummy10.webp',
-          alt: 'Classical Indian dancer performing in traditional attire',
-          categories: ['culture-heritage'],
-          collaborator: {
-            name: 'Acharya Madhavan Nair',
-            role: 'Folklorist & Ritual Historian',
-            avatar: '/images/itineraries/dummy10.webp'
-          }
-        },
-        {
-          id: 'col-2',
-          slug: 'vernacular-architecture-heritage-stays',
-          type: 'collaborated',
-          region: 'South India',
-          days: 8,
-          title: 'Timber, Laterite & Courtyard Mansions',
-          intro:
-            'Explore restored Nalukettu homesteads and sacred temple carpentry across Kerala and Tamil Nadu alongside a conservation architect.',
-          image: '/images/itineraries/dummy11.webp',
-          alt: 'Peaceful heritage retreat surrounded by tropical greenery',
-          categories: ['culture-heritage'],
-          collaborator: {
-            name: 'Meenakshi Sundaram',
-            role: 'Conservation Architect',
-            avatar: '/images/itineraries/dummy11.webp'
-          }
-        },
-        {
-          id: 'col-3',
-          slug: 'estuary-ecology-village-waters',
-          type: 'collaborated',
-          region: 'Village Kerala',
-          days: 5,
-          title: 'Life by the Water: Pokkali Fields & Canoe Guilds',
-          intro:
-            'Document tidal rice-prawn farming, mangrove restoration, and inland fishing communities through slow canoe expeditions.',
-          image: '/images/itineraries/dummy12.webp',
-          alt: 'Fishermen navigating a traditional canoe through quiet village waters',
-          categories: ['slow-travel'],
-          collaborator: {
-            name: 'Dr. Thomas Varghese',
-            role: 'Estuarine Ecologist',
-            avatar: '/images/itineraries/dummy12.webp'
-          }
-        },
-        {
-          id: 'col-4',
-          slug: 'classical-ayurveda-ashtavaidya-lineage',
-          type: 'collaborated',
-          region: 'Kerala',
-          days: 9,
-          title: 'Ashtavaidya Healing & Botanical Sanctuaries',
-          intro:
-            'A restorative wellness retreat guided by hereditary Ayurvedic physicians, combining classical therapies with medicinal forest walks.',
-          image: '/images/itineraries/dummy13.webp',
-          alt: 'Traditional wellness treatment in a serene natural setting',
-          categories: ['wellness'],
-          collaborator: {
-            name: 'Vaidyam Narayanan Mooss',
-            role: 'Hereditary Ashtavaidya Physician',
-            avatar: '/images/itineraries/dummy13.webp'
-          }
-        },
-        {
-          id: 'col-5',
-          slug: 'indigenous-forest-stewards-nilgiris',
-          type: 'collaborated',
-          region: 'Beyond the Map',
-          days: 6,
-          title: 'Meaningful Encounters in the Nilgiri Biosphere',
-          intro:
-            'Spend unhurried days with indigenous honey gatherers, Toda embroidery collectives, and high-altitude grassland conservationists.',
-          image: '/images/itineraries/dummy14.webp',
-          alt: 'Travellers sharing an intimate experience with a local community',
-          categories: ['nature-wildlife'],
-          collaborator: {
-            name: 'Kavitha Kurumban',
-            role: 'Community Conservation Lead',
-            avatar: '/images/itineraries/dummy14.webp'
-          }
-        },
-        {
-          id: 'col-6',
-          slug: 'sky-islands-shola-trails',
-          type: 'collaborated',
-          region: 'Highlands',
-          days: 7,
-          title: 'Sky Islands & Ancient Escarpment Trails',
-          intro:
-            'Trek across high-altitude shola-grassland mosaics with a field naturalist studying endemic orchids and montane cloud forests.',
-          image: '/images/itineraries/dummy9.webp',
-          alt: 'Hikers following a mountain trail through the Western Ghats',
-          categories: ['nature-wildlife'],
-          collaborator: {
-            name: 'Rohan Krishnamurthy',
-            role: 'Western Ghats Field Naturalist',
-            avatar: '/images/itineraries/dummy9.webp'
-          }
-        }
-      ]
+      slides: homeItineraries.value?.collaborated || []
     }
   },
 

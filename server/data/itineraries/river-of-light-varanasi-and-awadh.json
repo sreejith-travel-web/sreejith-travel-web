@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "id": "sig-14",
+    "slug": "river-of-light-varanasi-and-awadh",
+    "type": "signature",
+    "featuredHome": true,
+    "featured": false,
+    "title": "River of Light: Varanasi & Awadh",
+    "region": "Uttar Pradesh",
+    "days": 9,
+    "categories": [
+      "culture",
+      "wellness",
+      "bespoke"
+    ],
+    "tags": [
+      "#VARANASI",
+      "#AWADH",
+      "#GANGA"
+    ],
+    "intro": "Pair Varanasi’s riverfront, music, silk, and sacred geography with Lucknow’s Awadhi architecture, food, poetry, and refined urban culture.",
+    "image": "/images/journal/journal5.webp",
+    "alt": "Dawn light spreading across the Ganga ghats and old lanes of Varanasi",
+    "featuredDescription": "A two-city North Indian journey built around living traditions: dawn on the Ganga, weaving and music in Varanasi, then architecture, etiquette, and cuisine in Lucknow.",
+    "highlights": [
+      {
+        "icon": "boat",
+        "label": "Private Ganga dawn boat"
+      },
+      {
+        "icon": "temple",
+        "label": "Varanasi & Sarnath heritage"
+      },
+      {
+        "icon": "village",
+        "label": "Silk & music encounters"
+      },
+      {
+        "icon": "village",
+        "label": "Awadhi food & craft"
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "desert-forts-and-artisan-cities",
+    "coromandel-temples-and-french-quarters",
+    "brahmaputra-tea-and-living-islands"
+  ],
+  "seo": {
+    "pageTitle": "River of Light: Varanasi & Awadh | 9-Day North India Journey",
+    "pageDesc": "Pair Varanasi’s riverfront, music, silk, and sacred geography with Lucknow’s Awadhi architecture, food, craft, poetry, and refined urban culture.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Dawn light spreading across the Ganga ghats and old lanes of Varanasi",
+    "breadcrumbName": "River of Light: Varanasi & Awadh",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "River of Light: Varanasi & Awadh"
+      }
+    ],
+    "coverImage": "/images/home/travel-video.webp",
+    "coverAlt": "Dawn light spreading across the Ganga ghats and old lanes of Varanasi",
+    "eyebrow": "Signature Itinerary",
+    "title": "River of Light: Varanasi & Awadh",
+    "intro": "Pair Varanasi’s riverfront, music, silk, and sacred geography with Lucknow’s Awadhi architecture, food, poetry, and refined urban culture.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "9 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Unhurried"
+      },
+      {
+        "label": "Region",
+        "value": "Uttar Pradesh"
+      },
+      {
+        "label": "Group",
+        "value": "1–4 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Living sacred culture"
+      },
+      {
+        "label": "Style",
+        "value": "Private bespoke"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "BESPOKE JOURNEY",
+    "price": "Price on request",
+    "ctaTitle": "Want this trip, but shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. Talk to us to adjust the pace, stays, or detours.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "River of Light: Varanasi & Awadh",
+    "shareText": "Pair Varanasi’s riverfront, music, silk, and sacred geography with Lucknow’s Awadhi architecture, food, poetry, and refined urban culture."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Varanasi and Lucknow offer two very different expressions of North Indian culture. Varanasi is intensely riverine and sacred, shaped by ghats, lanes, music, silk, ritual, and daily life around the Ganga. Lucknow is more courtly, with Awadhi architecture, cuisine, poetry, and manners embedded in its urban memory.",
+              "The itinerary gives each city enough time to breathe. In Varanasi, dawn and evening are protected for the river while midday is used for weaving, music, or rest. In Lucknow, architecture and food are paired so the city is experienced through both space and taste."
+            ]
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "Field Notes from the Journey",
+            "video": {
+              "videoId": "k1OU4CqguLw",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Travel film still reflecting the landscapes and cultural atmosphere of Uttar Pradesh",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "Moving impressions from Uttar Pradesh, selected to complement the route’s slower editorial rhythm."
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 9-day journey is paced around meaningful stays, sensible road movement, and enough time in each landscape to understand it rather than simply pass through."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: River, Lanes & Living Ritual",
+                "bodySubtitle": "DAYS 1–4 | VARANASI",
+                "paragraphs": [
+                  "Spend four nights in Varanasi with dawn boat journeys, old-city walks, music or weaving encounters, and ample rest between the city’s most intense experiences."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy10.webp",
+                    "alt": "Travel scene from River, Lanes & Living Ritual during the River of Light: Varanasi & Awadh journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: A Quieter Sacred Landscape",
+                "bodySubtitle": "DAY 5 | SARNATH",
+                "paragraphs": [
+                  "Visit Sarnath for Buddhist history, stupas, museum collections, and a deliberately calmer day after Varanasi’s dense riverfront rhythm."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/journal/journal4.webp",
+                    "alt": "Landscape and local detail from A Quieter Sacred Landscape on the River of Light: Varanasi & Awadh route"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Across the Gangetic Plain",
+                "bodySubtitle": "DAY 6 | VARANASI TO LUCKNOW",
+                "paragraphs": [
+                  "Travel to Lucknow by the most suitable rail, air, or road connection and settle into a heritage-led city stay."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/home/journey-pc.webp",
+                    "alt": "Regional landscape encountered around Across the Gangetic Plain during the River of Light: Varanasi & Awadh journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Awadh in Architecture & Taste",
+                "bodySubtitle": "DAYS 7–8 | LUCKNOW",
+                "paragraphs": [
+                  "Explore Imambara architecture, old neighbourhoods, craft, and a carefully paced food programme that respects both famous dishes and quieter culinary traditions."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy13.webp",
+                    "alt": "Cultural travel detail representing Awadh in Architecture & Taste during the River of Light: Varanasi & Awadh journey"
+                  },
+                  {
+                    "src": "/images/home/journey-mob1.webp",
+                    "alt": "Second editorial scene from Awadh in Architecture & Taste along the River of Light: Varanasi & Awadh journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Departure",
+                "bodySubtitle": "DAY 9 | LUCKNOW",
+                "paragraphs": [
+                  "Enjoy a final breakfast and transfer to Lucknow airport or railway station."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Standards & Inclusions",
+            "items": [
+              "River-facing or heritage stays selected to balance atmosphere with retreat from city intensity.",
+              "Private guides chosen separately for sacred history, craft, music, and Awadhi culture.",
+              "Dawn and evening activities balanced with midday rest.",
+              "Intercity travel chosen around comfort and schedule rather than forcing a single transport mode."
+            ],
+            "image": "/images/home/journey-pc.webp",
+            "imageAlt": "Landscape detail illustrating the stays and regional character of Uttar Pradesh",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Modest lightweight clothing for sacred sites and warm daytime conditions.",
+              "A warmer layer for winter dawn boat rides on the Ganga.",
+              "Comfortable shoes for uneven lanes and long heritage walks.",
+              "Easy-to-remove footwear for temples and some sacred spaces.",
+              "A light scarf useful for dust, warmth, and cultural etiquette."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "Varanasi asks you to witness life without editing it; Lucknow asks you to notice refinement in gesture, language, architecture, and food.",
+            "author": "THE DESIGNER'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "RIVER & FESTIVAL NOTE",
+            "text": "Festival periods can transform Varanasi dramatically and also increase crowding. We design river access, walking routes, and timings around local conditions rather than promising identical experiences every day."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Two Cities, Two Kinds of Memory",
+            "paragraphs": [
+              "Varanasi leaves an impression through repetition: bells, oars, smoke, silk, steps, and the changing river. Lucknow works more quietly through courtyards, language, craft, and food.",
+              "Together they form a journey about living tradition rather than preserved heritage, with culture encountered as something still practised, argued over, cooked, woven, sung, and inhabited."
+            ],
+            "image": "/images/itineraries/dummy14.webp",
+            "imageAlt": "Quiet reflective travel scene recalling the landscapes of Uttar Pradesh at journey’s end",
+            "imageAspectRatio": "4 / 5",
+            "caption": "A final visual note from Uttar Pradesh."
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "LEAD ROUTE ARCHITECT • KERALA, INDIA",
+            "name": "Sreejith Raghavan",
+            "bio": "Sreejith approaches Uttar Pradesh through slower route design, specialist local relationships, and a belief that culture, landscape, and hospitality should be experienced as one connected story.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait of Sreejith Raghavan, lead route architect for bespoke journeys across India"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can this route be tailored to our preferred dates and pace?",
+                "paragraphs": [
+                  "Yes. Every Signature itinerary is a design framework, and we adjust nights, experiences, transport, and daily intensity around your interests and travel dates."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "Is Varanasi overwhelming for first-time visitors?",
+                "paragraphs": [
+                  "It can be intense, which is why the itinerary uses private guiding, protected rest periods, and carefully timed river access."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "Is the dawn boat ride mandatory?",
+                "paragraphs": [
+                  "No. It is recommended for atmosphere, but the schedule can be adapted for later mornings."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How do we travel between Varanasi and Lucknow?",
+                "paragraphs": [
+                  "The best option depends on current rail and flight schedules; we choose for comfort and overall journey flow."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "What is included when the final journey is quoted?",
+                "paragraphs": [
+                  "The final proposal clearly separates accommodation, private transport, guiding, arranged experiences, and any route-specific permits or specialist access."
+                ],
+                "listTitle": "The exact inclusion list is confirmed before payment:",
+                "listItems": [
+                  "Chosen accommodation category and meal plan.",
+                  "Private transport and agreed transfers.",
+                  "Confirmed guiding, hosted encounters, and ticketed experiences.",
+                  "Any permits or special-access costs included in the final design."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the bespoke route, accommodation selection, and current supplier availability are approved, a 30% confirmation deposit secures the agreed services. The remaining balance is due 45 days before arrival unless the final proposal states otherwise."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We work directly with our partners to move dates whenever possible. Any non-refundable permits, transport tickets, or supplier penalties are passed through transparently."
+                ],
+                "listItems": [
+                  "60+ days before arrival: deposit refund less confirmed non-refundable costs.",
+                  "30–59 days before arrival: 50% refund or travel credit where supplier terms allow.",
+                  "Less than 30 days before arrival: cancellation follows the confirmed supplier terms in your final proposal."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

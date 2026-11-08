@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "id": "col-11",
+    "slug": "fjords-ferries-and-lofoten-light",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": true,
+    "title": "Fjords, Ferries & Lofoten Light",
+    "region": "Norway",
+    "days": 11,
+    "categories": [
+      "nature",
+      "stays",
+      "offbeat"
+    ],
+    "tags": [
+      "#NORWAY",
+      "#FJORDS",
+      "#LOFOTEN"
+    ],
+    "intro": "Move from Bergen through western fjords and onward to Lofoten, using ferries, scenic roads, fishing villages, and coastal light as the structure of the journey.",
+    "image": "/images/impact/impact4.webp",
+    "alt": "Norwegian fjords, red fishing cabins and jagged Lofoten mountains beneath changing Arctic light",
+    "collaborator": {
+      "name": "Ingrid Solheim",
+      "role": "Fjord & Arctic Coast Journey Designer • Bergen, Norway",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A Norway route combining western fjord landscapes with the Arctic fishing culture of Lofoten, paced around ferries, weather, and long northern light."
+  },
+  "relatedSlugs": [
+    "hebridean-roads-and-highland-memory",
+    "dolomite-paths-and-soca-waters",
+    "geothermal-stories-and-southern-fjords"
+  ],
+  "seo": {
+    "pageTitle": "Fjords, Ferries & Lofoten Light | 11-Day Norway Journey",
+    "pageDesc": "Move from Bergen through western fjords and onward to Lofoten, using ferries, scenic roads, fishing villages, and coastal light as the structure of the journey.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Fjords, Ferries & Lofoten Light across Norway for social sharing within this carefully designed",
+    "breadcrumbName": "Fjords, Ferries & Lofoten Light",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Fjords, Ferries & Lofoten Light"
+      }
+    ],
+    "coverImage": "/images/journal/journal1.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Norway within this carefully designed cultural journey",
+    "eyebrow": "Collaborated Route",
+    "title": "Fjords, Ferries & Lofoten Light",
+    "intro": "Move from Bergen through western fjords and onward to Lofoten, using ferries, scenic roads, fishing villages, and coastal light as the structure of the journey.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "11 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Scenic"
+      },
+      {
+        "label": "Region",
+        "value": "Norway"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Fjords & Arctic coast"
+      },
+      {
+        "label": "Designer",
+        "value": "Ingrid Solheim"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 5,600",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Fjords, Ferries & Lofoten Light",
+    "shareText": "Move from Bergen through western fjords and onward to Lofoten, using ferries, scenic roads, fishing villages, and coastal light as the structure of the journey."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Norway is designed here around transport as experience. Ferries, fjord roads, and short scenic drives are not merely connectors; they reveal how settlements sit between water and mountain in the west.",
+              "After several nights in Fjord Norway, the route flies north for Lofoten, where fishing villages, exposed beaches, maritime history, and long light create a completely different coastal scale. The itinerary avoids trying to drive every scenic road in the country."
+            ],
+            "image": "/images/itineraries/dummy10.webp",
+            "imageAlt": "Editorial travel scene showing an editorial portrait of Norway landscapes and local encounters within this carefully designed cultural",
+            "imageAspectRatio": "4 / 5",
+            "highlightsTitle": "Highlights of the Journey",
+            "highlights": [
+              "Bergen’s maritime history and food scene before entering the fjords.",
+              "Hardanger and Aurland landscapes experienced through ferry, road, and short walks.",
+              "Nærøyfjord-area water travel with quieter timing where possible.",
+              "Four nights in Lofoten for fishing villages, coast, and weather-dependent exploration."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 11-day journey is paced around fjords & arctic coast, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: The Maritime Gateway",
+                "bodySubtitle": "DAYS 1–2 | BERGEN",
+                "paragraphs": [
+                  "Begin in Bergen with harbour history, food, and neighbourhood walks, using the city to explain Norway’s relationship with coast and trade."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Bryggen and harbour interpretation beyond the façade.",
+                  "Seafood-focused dinner using seasonal local catch."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy9.webp",
+                    "alt": "Editorial travel scene showing Bergen during the Fjords, Ferries & Lofoten Light journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Orchards, Waterfalls and Deep Water",
+                "bodySubtitle": "DAYS 3–4 | HARDANGER",
+                "paragraphs": [
+                  "Travel into Hardanger for fjord roads, orchard country, and short walks, keeping enough time for ferries and weather-dependent stops."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Scenic ferry or fjord crossing.",
+                  "Short waterfall or orchard walk selected locally."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/impact/impact3.webp",
+                    "alt": "Editorial travel scene showing Hardanger during the Fjords, Ferries & Lofoten Light journey within this carefully designed cultural"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: The Narrow Fjord Country",
+                "bodySubtitle": "DAYS 5–6 | AURLAND & NÆRØYFJORD",
+                "paragraphs": [
+                  "Continue toward Aurland and the Nærøyfjord landscape, using boat travel and viewpoints without compressing the region into a single transfer day."
+                ],
+                "listItems": [
+                  "Fjord cruise or ferry through narrow water.",
+                  "Village walk away from peak arrival windows."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/impact/impact4.webp",
+                    "alt": "Editorial travel scene showing Aurland & Nærøyfjord during the Fjords, Ferries & Lofoten Light journey within this carefully"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Fishing Villages and Arctic Light",
+                "bodySubtitle": "DAYS 7–10 | LOFOTEN ISLANDS",
+                "paragraphs": [
+                  "Fly north and spend four nights moving slowly through Lofoten, where short drives connect fishing villages, beaches, galleries, and mountain-backed harbours."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Visit a fishing village with maritime history context.",
+                  "Weather-dependent coastal walk with local guide option."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy12.webp",
+                    "alt": "Editorial travel scene showing Lofoten Islands during the Fjords, Ferries & Lofoten Light journey within this carefully designed"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy13.webp",
+                    "alt": "Editorial travel scene showing Lofoten Islands during the Fjords, Ferries & Lofoten Light journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Departure & Onward Connections",
+                "bodySubtitle": "DAY 11 | LOFOTEN",
+                "paragraphs": [
+                  "Keep the final day flexible for island airport or ferry connections, which can be sensitive to weather."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Transfer buffer for flight or ferry schedule.",
+                  "No major hike planned before departure."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Boutique city hotel, fjord properties, and rorbuer-style stays where appropriate.",
+              "Transport mix using ferries, scenic roads, and domestic flights.",
+              "Flexible daily sequencing around weather and ferry timetables.",
+              "Local guides used for exposed coastal walks or specialist nature outings."
+            ],
+            "image": "/images/home/travel-video.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Norway within this carefully designed cultural journey",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Waterproof shell and wind-resistant layers throughout the journey.",
+              "Comfortable walking shoes with grip for wet coastal paths.",
+              "Warm mid-layer even in summer, especially in Lofoten.",
+              "Sleep mask during periods of very long summer daylight."
+            ]
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/home/journey-pc.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Norway within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Norway, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/itineraries/dummy4.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Norway within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Norway, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/home/solo-landscape.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Norway within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Norway, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": false,
+            "captionPc": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "In Norway, the route is drawn by water first. Roads, ferries, and villages simply learn how to follow it.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "slider",
+          "data": {
+            "eyebrow": "ROUTE IN FRAMES",
+            "title": "Selected Landscapes & Stays",
+            "images": [
+              {
+                "src": "/images/journal/journal4.webp",
+                "alt": "Editorial travel scene showing landscape detail from Norway on Fjords, Ferries & Lofoten Light within this carefully designed",
+                "caption": "Visual field note 1 from the landscapes and cultural atmosphere of Norway."
+              },
+              {
+                "src": "/images/journal/journal5.webp",
+                "alt": "Editorial travel scene showing landscape detail from Norway on Fjords, Ferries & Lofoten Light within this carefully designed",
+                "caption": "Visual field note 2 from the landscapes and cultural atmosphere of Norway."
+              },
+              {
+                "src": "/images/fallbacks/culture.webp",
+                "alt": "Editorial travel scene showing landscape detail from Norway on Fjords, Ferries & Lofoten Light within this carefully designed",
+                "caption": "Visual field note 3 from the landscapes and cultural atmosphere of Norway."
+              },
+              {
+                "src": "/images/home/forest-landscape.webp",
+                "alt": "Editorial travel scene showing landscape detail from Norway on Fjords, Ferries & Lofoten Light within this carefully designed",
+                "caption": "Visual field note 4 from the landscapes and cultural atmosphere of Norway."
+              },
+              {
+                "src": "/images/home/journey-pc.webp",
+                "alt": "Editorial travel scene showing landscape detail from Norway on Fjords, Ferries & Lofoten Light within this carefully designed",
+                "caption": "Visual field note 5 from the landscapes and cultural atmosphere of Norway."
+              }
+            ],
+            "width": 1200,
+            "height": 800,
+            "autoplay": false,
+            "interval": 5000,
+            "captionMob": false,
+            "captionPc": false
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "WEATHER & FERRY NOTE",
+            "text": "Ferry schedules, wind, and coastal weather can change the shape of a day. The itinerary should preserve alternatives and avoid making a single hike or boat departure the only meaningful experience."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Travel by the Shape of the Coast",
+            "paragraphs": [
+              "Western fjords and Lofoten are far apart, but both make geography impossible to ignore. Water decides where people build, how they move, and what the journey feels like.",
+              "The route becomes memorable because transport remains visible instead of being hidden behind a sequence of airport transfers."
+            ],
+            "image": "/images/home/journey-mob.webp",
+            "imageAlt": "Editorial travel scene showing a final reflective travel moment from Norway within this carefully designed cultural journey",
+            "imageAspectRatio": "4 / 5"
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "FJORD & ARCTIC COAST JOURNEY DESIGNER • BERGEN, NORWAY",
+            "name": "Ingrid Solheim",
+            "bio": "Ingrid designs Norway routes around ferry systems, coastal settlements, weather-aware walking, and maritime culture, using fewer bases to create more time in changing light.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Ingrid Solheim for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Fjords, Ferries & Lofoten Light be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Ingrid Solheim’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Ferry schedules, wind, and coastal weather can change the shape of a day. The itinerary should preserve alternatives and avoid making a single hike or boat departure the only meaningful experience."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as scenic. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

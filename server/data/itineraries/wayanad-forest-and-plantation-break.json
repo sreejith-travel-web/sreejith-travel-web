@@ -1,0 +1,402 @@
+{
+  "meta": {
+    "id": "ess-5",
+    "slug": "wayanad-forest-and-plantation-break",
+    "type": "essential",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Wayanad Forest & Plantation Break",
+    "region": "Kerala",
+    "days": 5,
+    "categories": [
+      "nature",
+      "offbeat",
+      "stays"
+    ],
+    "tags": [
+      "#WAYANAD",
+      "#FOREST",
+      "#PLANTATIONS"
+    ],
+    "intro": "A relaxed Wayanad break with plantation stays, short forest-edge walks, viewpoints, waterfalls, and plenty of unscheduled green time.",
+    "image": "/images/home/forest-landscape.webp",
+    "alt": "Dense green forest and plantation landscape across the hills of Wayanad",
+    "featuredDescription": "A dependable 5-day route focused on forest & plantations, sensible logistics, comfortable pacing, and easy customization.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Plantation-hosted stay"
+      },
+      {
+        "icon": "wellness",
+        "label": "Quiet forest-edge mornings"
+      },
+      {
+        "icon": "temple",
+        "label": "Local village and market stops"
+      },
+      {
+        "icon": "boat",
+        "label": "Reservoir or river viewpoints"
+      }
+    ],
+    "collaborator": {
+      "name": "Anjali Varghese",
+      "role": "Wayanad Nature Host",
+      "avatar": "/images/testimonials/avatar.webp"
+    }
+  },
+  "relatedSlugs": [
+    "periyar-spice-hills-and-lake-trails",
+    "munnar-tea-country-escape",
+    "mysuru-and-coorg-slow-escape"
+  ],
+  "seo": {
+    "pageTitle": "Wayanad Forest & Plantation Break — 5-Day Essential Itinerary",
+    "pageDesc": "A relaxed Wayanad break with plantation stays, short forest-edge walks, viewpoints, waterfalls, and plenty of unscheduled green time.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Dense green forest and plantation landscape across the hills of Wayanad",
+    "breadcrumbName": "Wayanad Forest & Plantation Break",
+    "publishDate": "2026-11-07"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Wayanad Forest & Plantation Break"
+      }
+    ],
+    "coverImage": "/images/home/forest-landscape.webp",
+    "coverAlt": "Dense green forest and plantation landscape across the hills of Wayanad",
+    "eyebrow": "Essential Blueprint",
+    "title": "Wayanad Forest & Plantation Break",
+    "intro": "A relaxed Wayanad break with plantation stays, short forest-edge walks, viewpoints, waterfalls, and plenty of unscheduled green time.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "5 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Easy"
+      },
+      {
+        "label": "Region",
+        "value": "Kerala"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Forest & plantations"
+      },
+      {
+        "label": "Style",
+        "value": "Essential"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "STARTING BUDGET",
+    "price": "From USD 510",
+    "priceUnit": "per person",
+    "ctaTitle": "Want the simple route, adjusted for you?",
+    "ctaSubtitle": "Change the dates, stay level, pace, or one or two experiences without rebuilding the whole thing.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "shareTitle": "Wayanad Forest & Plantation Break",
+    "shareText": "A relaxed Wayanad break with plantation stays, short forest-edge walks, viewpoints, waterfalls, and plenty of unscheduled green time."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Use one comfortable Wayanad base and keep the days flexible. Weather and road conditions can change the best order of waterfalls, viewpoints, and walks."
+            ],
+            "caption": "Calicut → Wayanad → Plantation Country → Forest Edge",
+            "highlightsTitle": "What You Get",
+            "highlights": [
+              "Plantation-hosted stay",
+              "Quiet forest-edge mornings",
+              "Local village and market stops",
+              "Reservoir or river viewpoints"
+            ],
+            "image": "/images/itineraries/dummy5.webp",
+            "imageAlt": "Traveller view representing the wayanad forest & plantation break journey across Kerala",
+            "imageAspectRatio": "4 / 5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "5 days, short transfers where possible, and a practical sequence that leaves room for weather, opening times, and actual human energy."
+            ],
+            "title": "Route Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Into Wayanad",
+                "bodySubtitle": "DAY 1 | CALICUT TO WAYANAD",
+                "listItems": [
+                  "Private hill transfer.",
+                  "Check in to a plantation stay.",
+                  "Free evening."
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Plantation Day",
+                "bodySubtitle": "DAY 2 | COFFEE & SPICE COUNTRY",
+                "listItems": [
+                  "Guided plantation walk.",
+                  "Local lunch.",
+                  "Rest or short sunset outing."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/home/forest-landscape.webp",
+                    "alt": "Landscape view representing plantation day on the wayanad forest & plantation break route"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Forest & Viewpoints",
+                "bodySubtitle": "DAY 3 | WAYANAD",
+                "listItems": [
+                  "Choose a suitable forest-edge or viewpoint walk.",
+                  "Keep the route weather dependent."
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Waterfall or Village Day",
+                "bodySubtitle": "DAY 4 | FLEXIBLE",
+                "listItems": [
+                  "Choose one major outing.",
+                  "Leave the rest of the day open.",
+                  "Optional local craft or food stop."
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Departure",
+                "bodySubtitle": "DAY 5 | CALICUT",
+                "listItems": [
+                  "Breakfast.",
+                  "Return transfer to Calicut."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "What to Expect",
+            "items": [
+              "One plantation or forest-edge base.",
+              "Private local transport.",
+              "One guided plantation experience.",
+              "Flexible routing for weather and access."
+            ]
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Before You Go",
+            "items": [
+              "Carry shoes with good grip.",
+              "Bring a compact rain layer year-round.",
+              "Expect leeches on some wet-season trails.",
+              "Keep electronics protected during monsoon."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "Wayanad is not improved by rushing from waterfall to waterfall.",
+            "author": "ESSENTIAL ROUTE NOTE"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "ROUTE SNAPSHOTS",
+            "title": "A Few Visual Notes",
+            "images": [
+              {
+                "src": "/images/home/forest-landscape.webp",
+                "alt": "Travel image 1 supporting the wayanad forest & plantation break journey in Kerala",
+                "width": 1200,
+                "height": 800,
+                "caption": "Route snapshot 1 from Kerala."
+              },
+              {
+                "src": "/images/itineraries/dummy3.webp",
+                "alt": "Travel image 2 supporting the wayanad forest & plantation break journey in Kerala",
+                "width": 800,
+                "height": 1050,
+                "caption": "Route snapshot 2 from Kerala."
+              },
+              {
+                "src": "/images/impact/impact2.webp",
+                "alt": "Travel image 3 supporting the wayanad forest & plantation break journey in Kerala",
+                "width": 1200,
+                "height": 800,
+                "caption": "Route snapshot 3 from Kerala."
+              }
+            ],
+            "captionMob": true,
+            "captionPc": false
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "PRACTICAL NOTE",
+            "text": "In heavy rain, swap ambitious walks for plantation, food, and village experiences instead of forcing the original plan."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Why This Route Works",
+            "paragraphs": [
+              "This route keeps Wayanad practical: one base, a few good outings, and enough empty space for the hills to feel like a break."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "WAYANAD NATURE HOST • KERALA",
+            "name": "Anjali Varghese",
+            "bio": "Anjali coordinates plantation stays, easy nature walks, and local-hosted experiences across Wayanad with an emphasis on comfortable pacing.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Profile placeholder representing Anjali Varghese, curator for this essential travel route"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can the route be adjusted for our dates and pace?",
+                "paragraphs": [
+                  "Yes. Essential routes are starting templates, so nights, transfer points, and activity intensity can be adjusted before confirmation."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "Who is this route best suited to?",
+                "listItems": [
+                  "Travellers wanting a straightforward 5-day plan.",
+                  "Guests interested in forest & plantations.",
+                  "People who prefer dependable logistics over a heavily authored expedition."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "Are all activities fixed?",
+                "paragraphs": [
+                  "No. Weather, local opening times, transport schedules, and personal energy can change the daily order without changing the core route."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "What does the starting price cover?",
+                "listTitle": "Typical core inclusions:",
+                "listItems": [
+                  "Accommodation in the selected category.",
+                  "Private transfers listed in the route.",
+                  "Guiding or activity support where specified.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How is the booking confirmed?",
+                "paragraphs": [
+                  "A confirmation deposit is collected after the final route, stay category, and travel dates are approved. Supplier-specific non-refundable amounts are identified before payment."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What happens if dates change?",
+                "paragraphs": [
+                  "We first try to move the same services to new dates. Any cancellation or amendment cost depends on the actual hotel, transport, guide, permit, and activity terms attached to the booking."
+                ],
+                "listItems": [
+                  "Date changes remain subject to availability.",
+                  "Non-refundable supplier charges are passed through at cost.",
+                  "Any revised balance is confirmed before rebooking."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "id": "ess-6",
+    "slug": "varkala-coast-and-wellness-retreat",
+    "type": "essential",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Varkala Coast & Wellness Retreat",
+    "region": "Kerala",
+    "days": 5,
+    "categories": [
+      "wellness",
+      "nature",
+      "stays"
+    ],
+    "tags": [
+      "#VARKALA",
+      "#WELLNESS",
+      "#COAST"
+    ],
+    "intro": "Five coastal days in Varkala with beach time, simple wellness sessions, cliff walks, local food, and almost aggressively little rushing.",
+    "image": "/images/home/solo-landscape.webp",
+    "alt": "Quiet tropical coastline beneath a broad evening sky near Varkala",
+    "featuredDescription": "A dependable 5-day route focused on coast & wellness, sensible logistics, comfortable pacing, and easy customization.",
+    "highlights": [
+      {
+        "icon": "wellness",
+        "label": "Yoga or Ayurveda sessions"
+      },
+      {
+        "icon": "boat",
+        "label": "Coastal and estuary time"
+      },
+      {
+        "icon": "village",
+        "label": "Local food stops"
+      },
+      {
+        "icon": "temple",
+        "label": "Temple-town context"
+      }
+    ],
+    "collaborator": {
+      "name": "Varkala Wellness Circle",
+      "role": "Local Wellness & Stay Partner",
+      "avatar": "/images/testimonials/avatar.webp"
+    }
+  },
+  "relatedSlugs": [
+    "alleppey-backwaters-and-village-life",
+    "periyar-spice-hills-and-lake-trails",
+    "pondicherry-and-the-coromandel-coast"
+  ],
+  "seo": {
+    "pageTitle": "Varkala Coast & Wellness Retreat — 5-Day Essential Itinerary",
+    "pageDesc": "Five coastal days in Varkala with beach time, simple wellness sessions, cliff walks, local food, and almost aggressively little rushing.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Quiet tropical coastline beneath a broad evening sky near Varkala",
+    "breadcrumbName": "Varkala Coast & Wellness Retreat",
+    "publishDate": "2026-11-07"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Varkala Coast & Wellness Retreat"
+      }
+    ],
+    "coverImage": "/images/home/solo-landscape.webp",
+    "coverAlt": "Quiet tropical coastline beneath a broad evening sky near Varkala",
+    "eyebrow": "Essential Blueprint",
+    "title": "Varkala Coast & Wellness Retreat",
+    "intro": "Five coastal days in Varkala with beach time, simple wellness sessions, cliff walks, local food, and almost aggressively little rushing.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "5 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Easy"
+      },
+      {
+        "label": "Region",
+        "value": "Kerala"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Coast & wellness"
+      },
+      {
+        "label": "Style",
+        "value": "Essential"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "STARTING BUDGET",
+    "price": "From USD 460",
+    "priceUnit": "per person",
+    "ctaTitle": "Want the simple route, adjusted for you?",
+    "ctaSubtitle": "Change the dates, stay level, pace, or one or two experiences without rebuilding the whole thing.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "shareTitle": "Varkala Coast & Wellness Retreat",
+    "shareText": "Five coastal days in Varkala with beach time, simple wellness sessions, cliff walks, local food, and almost aggressively little rushing."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Stay in one place and resist the urge to turn a wellness break into a military campaign. Schedule one or two meaningful activities a day and leave the rest alone."
+            ],
+            "caption": "Trivandrum → Varkala → Coastal Villages → Trivandrum",
+            "highlightsTitle": "What You Get",
+            "highlights": [
+              "Yoga or Ayurveda sessions",
+              "Coastal and estuary time",
+              "Local food stops",
+              "Temple-town context"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "5 days, short transfers where possible, and a practical sequence that leaves room for weather, opening times, and actual human energy."
+            ],
+            "title": "Route Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Arrival",
+                "bodySubtitle": "DAY 1 | VARKALA",
+                "listItems": [
+                  "Transfer from Trivandrum.",
+                  "Check in.",
+                  "Cliff walk at sunset."
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Wellness & Coast",
+                "bodySubtitle": "DAY 2 | VARKALA",
+                "listItems": [
+                  "Morning yoga or wellness session.",
+                  "Beach time.",
+                  "Free evening."
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Local Day",
+                "bodySubtitle": "DAY 3 | COASTAL VILLAGES",
+                "listItems": [
+                  "Short local excursion.",
+                  "Simple regional lunch.",
+                  "Return early."
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Nothing Heroic",
+                "bodySubtitle": "DAY 4 | VARKALA",
+                "listItems": [
+                  "Optional Ayurveda session.",
+                  "Read, swim, walk, eat.",
+                  "That is the itinerary. Congratulations. 😂"
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Departure",
+                "bodySubtitle": "DAY 5 | TRIVANDRUM",
+                "listItems": [
+                  "Breakfast.",
+                  "Airport or onward transfer."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Retreat Basics",
+            "items": [
+              "One Varkala base for all nights.",
+              "Private airport or station transfers.",
+              "Optional yoga and Ayurveda bookings.",
+              "Flexible free time every day."
+            ]
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Before You Go",
+            "items": [
+              "Pack beachwear plus modest local clothing.",
+              "Carry sun protection.",
+              "Discuss medical concerns directly with qualified wellness providers.",
+              "Do not confuse more appointments with more wellness."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "The luxury here is not having somewhere else to be.",
+            "author": "ESSENTIAL ROUTE NOTE"
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "PRACTICAL NOTE",
+            "text": "Wellness treatments should be chosen with qualified practitioners and matched to the traveller, not copied from a generic menu."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "Why This Route Works",
+            "paragraphs": [
+              "Varkala works because the route refuses to overperform. Sea, cliff, food, rest, a little wellness, and enough silence between them."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "LOCAL WELLNESS & STAY PARTNER • KERALA",
+            "name": "Varkala Wellness Circle",
+            "bio": "A local partner network supporting vetted wellness appointments, coastal stays, and simple on-ground logistics around Varkala.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Profile placeholder representing Varkala Wellness Circle, curator for this essential travel route"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can the route be adjusted for our dates and pace?",
+                "paragraphs": [
+                  "Yes. Essential routes are starting templates, so nights, transfer points, and activity intensity can be adjusted before confirmation."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "Who is this route best suited to?",
+                "listItems": [
+                  "Travellers wanting a straightforward 5-day plan.",
+                  "Guests interested in coast & wellness.",
+                  "People who prefer dependable logistics over a heavily authored expedition."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "Are all activities fixed?",
+                "paragraphs": [
+                  "No. Weather, local opening times, transport schedules, and personal energy can change the daily order without changing the core route."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "What does the starting price cover?",
+                "listTitle": "Typical core inclusions:",
+                "listItems": [
+                  "Accommodation in the selected category.",
+                  "Private transfers listed in the route.",
+                  "Guiding or activity support where specified.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How is the booking confirmed?",
+                "paragraphs": [
+                  "A confirmation deposit is collected after the final route, stay category, and travel dates are approved. Supplier-specific non-refundable amounts are identified before payment."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What happens if dates change?",
+                "paragraphs": [
+                  "We first try to move the same services to new dates. Any cancellation or amendment cost depends on the actual hotel, transport, guide, permit, and activity terms attached to the booking."
+                ],
+                "listItems": [
+                  "Date changes remain subject to availability.",
+                  "Non-refundable supplier charges are passed through at cost.",
+                  "Any revised balance is confirmed before rebooking."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "meta": {
+    "id": "sig-5",
+    "slug": "theyyam-coast-to-tulunadu",
+    "type": "signature",
+    "featuredHome": true,
+    "featured": true,
+    "title": "Theyyam Coast to Tulunadu",
+    "region": "Kerala & Karnataka",
+    "days": 10,
+    "categories": [
+      "culture",
+      "nature",
+      "offbeat"
+    ],
+    "tags": [
+      "#THEYYAM",
+      "#BEKAL",
+      "#TULUNADU"
+    ],
+    "intro": "Follow North Malabar into coastal Karnataka through Theyyam country, laterite forts, backwaters, temple towns, and the shared cultural world of Tulunadu.",
+    "image": "/images/journal/journal3.webp",
+    "alt": "Laterite coast and coconut groves along the cultural border of Kerala and Karnataka",
+    "featuredDescription": "A rare border-coast journey linking ritual performance, sea-facing forts, boat life, cuisine, and the living traditions of Kerala and coastal Karnataka.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "label": "Theyyam shrine traditions"
+      },
+      {
+        "icon": "boat",
+        "label": "Kasaragod coast & backwaters"
+      },
+      {
+        "icon": "village",
+        "label": "Tulu kitchens & markets"
+      },
+      {
+        "icon": "temple",
+        "label": "Udupi & Yakshagana"
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "stories-along-the-malabar-coast",
+    "wayanad-forests-and-nila-riverlands",
+    "nilgiri-rails-to-mysore-palaces"
+  ],
+  "seo": {
+    "pageTitle": "Theyyam Coast to Tulunadu | 10-Day Kerala & Karnataka Journey",
+    "pageDesc": "Follow North Malabar into coastal Karnataka through Theyyam country, Bekal, Mangaluru, Udupi, temple traditions, food, and coastal culture.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Laterite coast and coconut groves along the cultural border of Kerala and Karnataka",
+    "breadcrumbName": "Theyyam Coast to Tulunadu",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Theyyam Coast to Tulunadu"
+      }
+    ],
+    "coverImage": "/images/impact/impact5.webp",
+    "coverAlt": "Laterite coast and coconut groves along the cultural border of Kerala and Karnataka",
+    "eyebrow": "Signature Itinerary",
+    "title": "Theyyam Coast to Tulunadu",
+    "intro": "Follow North Malabar into coastal Karnataka through Theyyam country, laterite forts, backwaters, temple towns, and the shared cultural world of Tulunadu.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "10 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Unhurried"
+      },
+      {
+        "label": "Region",
+        "value": "Kerala & Karnataka"
+      },
+      {
+        "label": "Group",
+        "value": "1–4 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Ritual & coast"
+      },
+      {
+        "label": "Style",
+        "value": "Private bespoke"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "BESPOKE JOURNEY",
+    "price": "Price on request",
+    "ctaTitle": "Want this trip, but shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. Talk to us to adjust the pace, stays, or detours.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Theyyam Coast to Tulunadu",
+    "shareText": "Follow North Malabar into coastal Karnataka through Theyyam country, laterite forts, backwaters, temple towns, and the shared cultural world of Tulunadu."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "North Malabar and coastal Karnataka share a world of laterite, coconut, monsoon, temple traditions, spirit worship, seafood, and performance. This route follows that cultural continuum rather than treating the state line as a hard break.",
+              "Begin around Kannur when ritual calendars permit Theyyam encounters, continue through Kasaragod and Bekal, then cross into Mangaluru and Udupi. The journey is especially rewarding for travellers interested in living ritual, food, performance, and coastal identity."
+            ]
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "First Impressions",
+            "captionMob": true,
+            "captionPc": true,
+            "images": [
+              {
+                "src": "/images/home/travel-video.webp",
+                "alt": "Context-led Theyyam experience in North Malabar when seasonal calendars align on the Theyyam Coast to Tulunadu journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Context-led Theyyam experience in North Malabar when seasonal calendars align."
+              },
+              {
+                "src": "/images/itineraries/dummy2.webp",
+                "alt": "Bekal and Kasaragod’s forts, backwaters, and layered coastal communities on the Theyyam Coast to Tulunadu journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Bekal and Kasaragod’s forts, backwaters, and layered coastal communities."
+              },
+              {
+                "src": "/images/impact/impact2.webp",
+                "alt": "Mangalorean and Tulu food traditions explored through homes and local kitchens on the Theyyam Coast to Tulunadu journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Mangalorean and Tulu food traditions explored through homes and local kitchens."
+              },
+              {
+                "src": "/images/itineraries/dummy4.webp",
+                "alt": "Yakshagana, temple culture, and coastal landscapes around Udupi and beyond on the Theyyam Coast to Tulunadu journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Yakshagana, temple culture, and coastal landscapes around Udupi and beyond."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 10-day journey is paced around meaningful stays, sensible road movement, and enough time in each landscape to understand it rather than simply pass through."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Ritual North Malabar",
+                "bodySubtitle": "DAYS 1–3 | KANNUR",
+                "paragraphs": [
+                  "Settle into Kannur and explore local shrines, weaving traditions, coastal food, and Theyyam with careful attention to season, community protocol, and ritual context."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy1.webp",
+                    "alt": "Travel scene from Ritual North Malabar during the Theyyam Coast to Tulunadu journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Fort, Backwater & Borderland",
+                "bodySubtitle": "DAYS 4–5 | KASARAGOD & BEKAL",
+                "paragraphs": [
+                  "Travel north through Valiyaparamba-side landscapes, laterite villages, and Bekal’s sea-facing fort while tracing the cultural transition toward Tulunadu."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/impact/impact1.webp",
+                    "alt": "Landscape and local detail from Fort, Backwater & Borderland on the Theyyam Coast to Tulunadu route"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Tulu Coast",
+                "bodySubtitle": "DAYS 6–7 | MANGALURU",
+                "paragraphs": [
+                  "Cross into Karnataka for markets, historic neighbourhoods, temple traditions, and a food programme spanning coastal vegetarian and seafood kitchens."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Private culinary walk with a local host.",
+                  "Visit craft or tile-making traditions where access is available."
+                ],
+                "imageOrientation": "landscape",
+                "imageLayout": "block",
+                "images": [
+                  {
+                    "src": "/images/impact/impact5.webp",
+                    "alt": "Regional landscape encountered around Tulu Coast during the Theyyam Coast to Tulunadu journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: Faith, Performance & Shore",
+                "bodySubtitle": "DAYS 8–9 | UDUPI & COAST",
+                "paragraphs": [
+                  "Explore Udupi’s sacred centre and the coast beyond, with optional Yakshagana depending on the performance calendar."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy4.webp",
+                    "alt": "Cultural travel detail representing Faith, Performance & Shore during the Theyyam Coast to Tulunadu journey"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy8.webp",
+                    "alt": "Second editorial scene from Faith, Performance & Shore along the Theyyam Coast to Tulunadu journey"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Departure",
+                "bodySubtitle": "DAY 10 | MANGALURU",
+                "paragraphs": [
+                  "Return to Mangaluru for your onward flight after a relaxed coastal breakfast."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Standards & Inclusions",
+            "items": [
+              "Heritage homes and coastal boutique stays with strong local character.",
+              "Ritual visits scheduled only when appropriate and with local guidance.",
+              "Private road transport along a compact coastal corridor.",
+              "Food experiences designed around both vegetarian temple cuisine and regional coastal traditions."
+            ],
+            "image": "/images/impact/impact5.webp",
+            "imageAlt": "Landscape detail illustrating the stays and regional character of Kerala & Karnataka",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Light cotton clothing suited to humid coastal weather.",
+              "Modest attire for shrine and temple visits.",
+              "Sandals plus comfortable walking shoes for forts and village paths.",
+              "A light rain layer during monsoon and shoulder seasons.",
+              "Earplugs for travellers sensitive to loud ritual drums or late-night performances."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "Along this coast, performance is not staged simply for visitors. It belongs to communities, calendars, gods, memory, and place.",
+            "author": "THE DESIGNER'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "youtube",
+          "data": {
+            "eyebrow": "FIELD DISPATCH",
+            "title": "The Journey in Motion",
+            "video": {
+              "videoId": "k1OU4CqguLw",
+              "thumbnail": "/images/home/travel-video.webp",
+              "alt": "Travel film still reflecting the landscapes and cultural atmosphere of Kerala & Karnataka",
+              "width": 800,
+              "height": 450
+            },
+            "caption": "Moving impressions from Kerala & Karnataka, selected to complement the route’s slower editorial rhythm."
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "RITUAL CALENDAR NOTE",
+            "text": "Theyyam and Yakshagana are seasonal and community-rooted traditions. We never guarantee a performance on an arbitrary date; the route is shaped around authentic calendars when possible."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "A Coast Without a Hard Border",
+            "paragraphs": [
+              "The route makes sense when you stop asking where Kerala ends and Karnataka begins. Food, ritual, language, and landscape overlap in ways that are richer than a state boundary suggests.",
+              "What you carry home is not one performance or fort, but an understanding of a coastal cultural zone that remains intensely alive."
+            ],
+            "image": "/images/itineraries/dummy6.webp",
+            "imageAlt": "Quiet reflective travel scene recalling the landscapes of Kerala & Karnataka at journey’s end",
+            "imageAspectRatio": "4 / 5",
+            "caption": "A final visual note from Kerala & Karnataka."
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "LEAD ROUTE ARCHITECT • KERALA, INDIA",
+            "name": "Sreejith Raghavan",
+            "bio": "Sreejith approaches Kerala & Karnataka through slower route design, specialist local relationships, and a belief that culture, landscape, and hospitality should be experienced as one connected story.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait of Sreejith Raghavan, lead route architect for bespoke journeys across India"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can this route be tailored to our preferred dates and pace?",
+                "paragraphs": [
+                  "Yes. Every Signature itinerary is a design framework, and we adjust nights, experiences, transport, and daily intensity around your interests and travel dates."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "Can Theyyam be guaranteed on our dates?",
+                "paragraphs": [
+                  "No. Authentic Theyyam follows local ritual calendars, so we build around confirmed community events rather than staging substitutes."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "Is this route suitable for vegetarians?",
+                "paragraphs": [
+                  "Very much so. Coastal Karnataka and Udupi offer especially strong vegetarian food traditions."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "Can we add beach time?",
+                "paragraphs": [
+                  "Yes. We can add a quieter coastal stay without weakening the cultural flow of the route."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "What is included when the final journey is quoted?",
+                "paragraphs": [
+                  "The final proposal clearly separates accommodation, private transport, guiding, arranged experiences, and any route-specific permits or specialist access."
+                ],
+                "listTitle": "The exact inclusion list is confirmed before payment:",
+                "listItems": [
+                  "Chosen accommodation category and meal plan.",
+                  "Private transport and agreed transfers.",
+                  "Confirmed guiding, hosted encounters, and ticketed experiences.",
+                  "Any permits or special-access costs included in the final design."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the bespoke route, accommodation selection, and current supplier availability are approved, a 30% confirmation deposit secures the agreed services. The remaining balance is due 45 days before arrival unless the final proposal states otherwise."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We work directly with our partners to move dates whenever possible. Any non-refundable permits, transport tickets, or supplier penalties are passed through transparently."
+                ],
+                "listItems": [
+                  "60+ days before arrival: deposit refund less confirmed non-refundable costs.",
+                  "30–59 days before arrival: 50% refund or travel credit where supplier terms allow.",
+                  "Less than 30 days before arrival: cancellation follows the confirmed supplier terms in your final proposal."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

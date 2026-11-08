@@ -1,0 +1,510 @@
+{
+  "meta": {
+    "id": "col-16",
+    "slug": "oaxaca-kitchens-and-sierra-paths",
+    "type": "collaborated",
+    "featuredHome": true,
+    "featured": false,
+    "title": "Oaxaca Kitchens & Sierra Paths",
+    "region": "Oaxaca, Mexico",
+    "days": 9,
+    "categories": [
+      "culture",
+      "nature",
+      "offbeat"
+    ],
+    "tags": [
+      "#OAXACA",
+      "#FOOD",
+      "#SIERRA"
+    ],
+    "intro": "Move from Oaxaca City’s markets and kitchens into craft villages, Sierra Norte communities, and the Pacific coast on a food-and-landscape-led route.",
+    "image": "/images/home/journey-pc.webp",
+    "alt": "Oaxaca markets, woven textiles, pine mountain villages and Pacific coast glowing in warm light",
+    "collaborator": {
+      "name": "Ximena Santiago",
+      "role": "Oaxaca Food, Craft & Mountain Curator • Oaxaca, Mexico",
+      "avatar": "/images/testimonials/avatar.webp"
+    },
+    "featuredDescription": "A Oaxaca journey where markets, mezcal country, weaving villages, community mountain tourism, and the Pacific coast connect through food and local stewardship.",
+    "highlights": [
+      {
+        "icon": "village",
+        "label": "Oaxaca City markets, kitchens, and neighbourhood food traditions."
+      },
+      {
+        "icon": "temple",
+        "label": "Central Valley craft villages visited through working studios rather than souv"
+      },
+      {
+        "icon": "boat",
+        "label": "Community-managed walking and forest experiences in the Sierra Norte."
+      },
+      {
+        "icon": "wellness",
+        "label": "A final Pacific coast pause shaped around ecology and local food."
+      }
+    ]
+  },
+  "relatedSlugs": [
+    "sacred-valley-weaves-and-andean-trails",
+    "salt-looms-and-desert-villages",
+    "northern-stories-and-knuckles-green"
+  ],
+  "seo": {
+    "pageTitle": "Oaxaca Kitchens & Sierra Paths | 9-Day Oaxaca, Mexico Journey",
+    "pageDesc": "Move from Oaxaca City’s markets and kitchens into craft villages, Sierra Norte communities, and the Pacific coast on a food-and-landscape-led route.",
+    "ogImage": "/images/favicons/sreejith-og-image.jpg",
+    "ogImageAlt": "Editorial travel scene showing Oaxaca Kitchens & Sierra Paths across Oaxaca, Mexico for social sharing within this carefully",
+    "breadcrumbName": "Oaxaca Kitchens & Sierra Paths",
+    "publishDate": "2026-02-01"
+  },
+  "header": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Itineraries",
+        "to": "/itineraries"
+      },
+      {
+        "label": "Oaxaca Kitchens & Sierra Paths"
+      }
+    ],
+    "coverImage": "/images/home/travel-video.webp",
+    "coverAlt": "Editorial travel scene showing the landscapes and cultural atmosphere of Oaxaca, Mexico within this carefully designed cultural journey",
+    "eyebrow": "Collaborated Route",
+    "title": "Oaxaca Kitchens & Sierra Paths",
+    "intro": "Move from Oaxaca City’s markets and kitchens into craft villages, Sierra Norte communities, and the Pacific coast on a food-and-landscape-led route.",
+    "journeyDetails": [
+      {
+        "label": "Duration",
+        "value": "9 days"
+      },
+      {
+        "label": "Pace",
+        "value": "Immersive"
+      },
+      {
+        "label": "Region",
+        "value": "Oaxaca, Mexico"
+      },
+      {
+        "label": "Group",
+        "value": "1–6 guests"
+      },
+      {
+        "label": "Focus",
+        "value": "Food, craft & mountain community"
+      },
+      {
+        "label": "Designer",
+        "value": "Ximena Santiago"
+      }
+    ]
+  },
+  "sidebar": {
+    "budgetLabel": "ESTIMATED BUDGET",
+    "price": "From USD 2,950",
+    "priceUnit": "per person",
+    "ctaTitle": "Want this collaboration shaped around you?",
+    "ctaSubtitle": "Every route is a starting point. We can adjust pace, stays, and specialist experiences around your dates and interests.",
+    "planLabel": "Plan Your Journey",
+    "planTo": "/planYourJourney",
+    "enquireLabel": "Enquire",
+    "enquireTo": "/contact",
+    "partnerEyebrow": "FOR TRAVEL PARTNERS",
+    "consultLabel": "Consult With Me",
+    "consultTo": "/planYourJourney",
+    "phone": "+91 99433 60478",
+    "whatsapp": "919943360478",
+    "email": "sreejith@sreejithtravel.com",
+    "shareTitle": "Oaxaca Kitchens & Sierra Paths",
+    "shareText": "Move from Oaxaca City’s markets and kitchens into craft villages, Sierra Norte communities, and the Pacific coast on a food-and-landscape-led route."
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "THE JOURNEY AT A GLANCE",
+            "title": "Route Overview",
+            "paragraphs": [
+              "Oaxaca City begins with food because markets, maize, chocolate, chillies, mezcal, and regional cooking provide a vocabulary for everything that follows. Craft villages in the Central Valleys then reveal how material traditions remain tied to family workshops and local economies.",
+              "The second half climbs into the Sierra Norte for community-managed mountain experiences before descending toward the Pacific. The changing ecosystems keep the route varied without forcing too many one-night stops."
+            ],
+            "image": "/images/home/forest-portrait.webp",
+            "imageAlt": "Editorial travel scene showing an editorial portrait of Oaxaca, Mexico landscapes and local encounters within this carefully designed",
+            "imageAspectRatio": "4 / 5",
+            "caption": "Oaxaca City → Central Valleys → Sierra Norte → Pacific Coast"
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "label": "Itinerary",
+      "blocks": [
+        {
+          "type": "itinerary",
+          "data": {
+            "introTitle": "The Pace & Flow",
+            "introParagraphs": [
+              "This 9-day journey is paced around food, craft & mountain community, realistic transfers, and enough time in each region for the place to develop beyond first impressions."
+            ],
+            "title": "Detailed Progression",
+            "items": [
+              {
+                "id": "phase-01",
+                "headerTitle": "Phase 01: Markets, Maize and Mezcal Context",
+                "bodySubtitle": "DAYS 1–2 | OAXACA CITY",
+                "paragraphs": [
+                  "Settle into Oaxaca City with market walks, a cooking or food session, and neighbourhood exploration before visiting producers outside the city."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Market breakfast and ingredient-focused walk.",
+                  "Evening mezcal tasting with production context."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy6.webp",
+                    "alt": "Editorial travel scene showing Oaxaca City during the Oaxaca Kitchens & Sierra Paths journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-02",
+                "headerTitle": "Phase 02: Workshops and Village Roads",
+                "bodySubtitle": "DAYS 3–4 | CENTRAL VALLEYS",
+                "paragraphs": [
+                  "Spend two days in selected valleys for weaving, pottery, woodcarving, or mezcal visits chosen for quality and host relationships rather than quantity."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Studio visit with a working artisan family.",
+                  "Field or palenque visit explaining agave and mezcal production."
+                ],
+                "imageOrientation": "square",
+                "imageLayout": "side-by-side",
+                "images": [
+                  {
+                    "src": "/images/impact/impact6.webp",
+                    "alt": "Editorial travel scene showing Central Valleys during the Oaxaca Kitchens & Sierra Paths journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-03",
+                "headerTitle": "Phase 03: Community Forests and High Villages",
+                "bodySubtitle": "DAYS 5–6 | SIERRA NORTE",
+                "paragraphs": [
+                  "Travel into a Sierra Norte community for forest walks, mountain air, and locally managed lodging or guiding, keeping activities appropriate to weather and elevation."
+                ],
+                "listItems": [
+                  "Community-guided forest walk.",
+                  "Local meal and conversation about community tourism."
+                ],
+                "imageOrientation": "landscape",
+                "images": [
+                  {
+                    "src": "/images/journal/journal1.webp",
+                    "alt": "Editorial travel scene showing Sierra Norte during the Oaxaca Kitchens & Sierra Paths journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-04",
+                "headerTitle": "Phase 04: From Pine Forest to Warm Pacific",
+                "bodySubtitle": "DAYS 7–8 | PACIFIC COAST",
+                "paragraphs": [
+                  "Descend toward the coast for two nights of slower beach, lagoon, or mangrove experiences chosen according to location and season."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Coastal ecology or lagoon outing where appropriate.",
+                  "Seafood-focused meal with local sourcing."
+                ],
+                "imageOrientation": "portrait",
+                "images": [
+                  {
+                    "src": "/images/itineraries/dummy9.webp",
+                    "alt": "Editorial travel scene showing Pacific Coast during the Oaxaca Kitchens & Sierra Paths journey within this carefully designed"
+                  },
+                  {
+                    "src": "/images/itineraries/dummy10.webp",
+                    "alt": "Editorial travel scene showing Pacific Coast during the Oaxaca Kitchens & Sierra Paths journey within this carefully designed"
+                  }
+                ]
+              },
+              {
+                "id": "phase-05",
+                "headerTitle": "Phase 05: Departure & Onward Connections",
+                "bodySubtitle": "DAY 9 | OAXACA REGION",
+                "paragraphs": [
+                  "Use the final day for the most practical airport connection, protecting road-time buffers from the coast."
+                ],
+                "listTitle": "Selected Encounters",
+                "listItems": [
+                  "Private transfer or domestic connection.",
+                  "No fixed final excursion before travel."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "blocks": [
+        {
+          "type": "checklist",
+          "data": {
+            "title": "Journey Logistics & Stay Standards",
+            "items": [
+              "Boutique city hotel, community mountain stay, and simple coastal property mix.",
+              "Artisan and food visits arranged with working producers.",
+              "Private transfers for mountain and coast stages.",
+              "Community tourism activities booked through local host organisations."
+            ],
+            "image": "/images/impact/impact5.webp",
+            "imageAlt": "Editorial travel scene showing a representative lodging and landscape detail from Oaxaca, Mexico within this carefully designed cultural",
+            "imageAspectRatio": "1 / 1"
+          }
+        },
+        {
+          "type": "numbered-list",
+          "data": {
+            "title": "Suggested Packing & Preparation",
+            "items": [
+              "Light city clothing plus warmer layers for Sierra evenings.",
+              "Walking shoes with grip for forest and village paths.",
+              "Sun protection and insect repellent for coastal environments.",
+              "Reusable tote or packing space for responsibly purchased craft."
+            ]
+          }
+        },
+        {
+          "type": "slider",
+          "data": {
+            "eyebrow": "ROUTE IN FRAMES",
+            "title": "Selected Landscapes & Stays",
+            "images": [
+              {
+                "src": "/images/home/solo-landscape.webp",
+                "alt": "Editorial travel scene showing landscape detail from Oaxaca, Mexico on Oaxaca Kitchens & Sierra Paths within this carefully",
+                "caption": "Visual field note 1 from the landscapes and cultural atmosphere of Oaxaca, Mexico."
+              },
+              {
+                "src": "/images/home/travel-video.webp",
+                "alt": "Editorial travel scene showing landscape detail from Oaxaca, Mexico on Oaxaca Kitchens & Sierra Paths within this carefully",
+                "caption": "Visual field note 2 from the landscapes and cultural atmosphere of Oaxaca, Mexico."
+              },
+              {
+                "src": "/images/impact/impact1.webp",
+                "alt": "Editorial travel scene showing landscape detail from Oaxaca, Mexico on Oaxaca Kitchens & Sierra Paths within this carefully",
+                "caption": "Visual field note 3 from the landscapes and cultural atmosphere of Oaxaca, Mexico."
+              },
+              {
+                "src": "/images/impact/impact2.webp",
+                "alt": "Editorial travel scene showing landscape detail from Oaxaca, Mexico on Oaxaca Kitchens & Sierra Paths within this carefully",
+                "caption": "Visual field note 4 from the landscapes and cultural atmosphere of Oaxaca, Mexico."
+              },
+              {
+                "src": "/images/impact/impact3.webp",
+                "alt": "Editorial travel scene showing landscape detail from Oaxaca, Mexico on Oaxaca Kitchens & Sierra Paths within this carefully",
+                "caption": "Visual field note 5 from the landscapes and cultural atmosphere of Oaxaca, Mexico."
+              }
+            ],
+            "width": 1200,
+            "height": 800,
+            "autoplay": false,
+            "interval": 5000,
+            "captionMob": true,
+            "captionPc": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "essence",
+      "label": "Essence",
+      "blocks": [
+        {
+          "type": "quote",
+          "data": {
+            "quote": "Oaxaca makes more sense when food is treated as geography: maize, agave, smoke, forest, coast, and the hands that connect them.",
+            "author": "THE COLLABORATOR'S NOTEBOOK"
+          }
+        },
+        {
+          "type": "masonry",
+          "data": {
+            "eyebrow": "VISUAL NOTES",
+            "title": "Moments Along the Route",
+            "images": [
+              {
+                "src": "/images/fallbacks/culture.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Oaxaca, Mexico within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Oaxaca, Mexico, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/home/solo-portrait.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Oaxaca, Mexico within this carefully designed cultural journey",
+                "width": 800,
+                "height": 1050,
+                "caption": "Visual note from Oaxaca, Mexico, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/home/journey-pc.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Oaxaca, Mexico within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Oaxaca, Mexico, chosen to support the journey’s editorial atmosphere."
+              },
+              {
+                "src": "/images/home/journey-pc1.webp",
+                "alt": "Editorial travel scene showing cultural and landscape moment in Oaxaca, Mexico within this carefully designed cultural journey",
+                "width": 1200,
+                "height": 800,
+                "caption": "Visual note from Oaxaca, Mexico, chosen to support the journey’s editorial atmosphere."
+              }
+            ],
+            "captionMob": true,
+            "captionPc": true
+          }
+        },
+        {
+          "type": "tip-note",
+          "data": {
+            "title": "COMMUNITY & FOOD NOTE",
+            "text": "Cooking sessions, mezcal visits, and mountain experiences should remain small and host-led. Avoid presenting sacred or community traditions as entertainment, and ask before photographing people at work."
+          }
+        },
+        {
+          "type": "summary",
+          "data": {
+            "eyebrow": "PARTING THOUGHTS",
+            "title": "A State Read Through Ingredients and Hands",
+            "paragraphs": [
+              "Oaxaca’s scale is the surprise. City markets, dry valleys, pine forest, and humid coast can all belong to one state, yet each requires a different pace.",
+              "Food and craft provide the connective tissue because they carry landscape into daily practice."
+            ]
+          }
+        },
+        {
+          "type": "designer-profile",
+          "data": {
+            "eyebrow": "OAXACA FOOD, CRAFT & MOUNTAIN CURATOR • OAXACA, MEXICO",
+            "name": "Ximena Santiago",
+            "bio": "Ximena builds Oaxaca journeys through food systems, craft workshops, community-managed mountain tourism, and ecological transitions, with local hosts controlling the experience.",
+            "avatar": "/images/testimonials/avatar.webp",
+            "avatarAlt": "Portrait placeholder representing collaborator Ximena Santiago for this curated travel itinerary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "label": "Essentials",
+      "blocks": [
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "GOOD TO KNOW",
+            "title": "Frequently Asked Questions",
+            "items": [
+              {
+                "id": "faq-01",
+                "question": "Can Oaxaca Kitchens & Sierra Paths be tailored to our dates and interests?",
+                "paragraphs": [
+                  "Yes. Ximena Santiago’s route is a design framework rather than a fixed group departure. Stays, activity intensity, and specialist visits can be adjusted while protecting the geographic logic of the journey."
+                ],
+                "listTitle": "Common ways to personalise the route:",
+                "listItems": [
+                  "Add or remove a night at the most important base.",
+                  "Reduce walking or replace it with a lower-intensity alternative.",
+                  "Add a specialist food, craft, wildlife, or photography focus where locally appropriate."
+                ]
+              },
+              {
+                "id": "faq-02",
+                "question": "What is the best season for this journey?",
+                "paragraphs": [
+                  "Cooking sessions, mezcal visits, and mountain experiences should remain small and host-led. Avoid presenting sacred or community traditions as entertainment, and ask before photographing people at work."
+                ]
+              },
+              {
+                "id": "faq-03",
+                "question": "What is included in the estimated journey budget?",
+                "listTitle": "Typical inclusions include:",
+                "listItems": [
+                  "Handpicked accommodation described in the final confirmed proposal.",
+                  "Private or pre-arranged ground transfers listed in the route.",
+                  "Specialist guiding and scheduled cultural or nature experiences.",
+                  "On-ground coordination for the confirmed itinerary."
+                ]
+              },
+              {
+                "id": "faq-04",
+                "question": "How physically demanding is the itinerary?",
+                "paragraphs": [
+                  "The default pace is described as immersive. Walking, altitude, wildlife activity, or outdoor intensity varies by region, so the final version should be adjusted to the traveller’s fitness, health, and comfort."
+                ],
+                "listItems": [
+                  "Alternative or shorter activity options are used where practical.",
+                  "Weather and local conditions can change the day plan."
+                ]
+              },
+              {
+                "id": "faq-05",
+                "question": "How far in advance should we plan?",
+                "paragraphs": [
+                  "For small lodges, specialist guides, rail or ferry seats, light-aircraft sectors, or permit-sensitive experiences, planning several months ahead gives the best flexibility. The exact lead time depends on season and destination."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "customer-query",
+          "data": {
+            "eyebrow": "BOOKING & ROUTE POLICIES",
+            "title": "Reservation & Cancellation Terms",
+            "items": [
+              {
+                "id": "term-01",
+                "question": "How are reservations confirmed and scheduled?",
+                "paragraphs": [
+                  "Once the final route, accommodation, and specialist experiences are approved, a 30% confirmation deposit is used to secure services. The remaining balance is normally due 45 days before arrival unless a supplier requires different terms."
+                ]
+              },
+              {
+                "id": "term-02",
+                "question": "What is the policy for date changes or cancellations?",
+                "paragraphs": [
+                  "We try to shift dates or restructure the route whenever suppliers allow, but remote lodges, permits, flights, ferries, and specialist appointments may carry their own non-refundable conditions."
+                ],
+                "listItems": [
+                  "60+ days before arrival: refund or credit is calculated after non-refundable supplier costs.",
+                  "30–59 days before arrival: partial refund or rescheduling credit depends on confirmed supplier terms.",
+                  "Less than 30 days before arrival: cancellation follows the individual confirmed service conditions."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
