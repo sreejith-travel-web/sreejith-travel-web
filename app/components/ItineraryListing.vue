@@ -4,7 +4,7 @@ import { computed } from 'vue'
 import ItineraryCard from '~/components/ItineraryCard.vue'
 import type { ItineraryMeta, ItineraryCategoryId, ItineraryType } from '~~/server/utils/itinerariesData'
 
-export type ItineraryTabFilter = 'signature' | 'collaborated' | 'travelyourway'
+export type ItineraryTabFilter = 'signature' | 'collaborated' | 'categories'
 
 export interface CategoryMetaConfig {
   id: ItineraryCategoryId
@@ -29,7 +29,7 @@ const emit = defineEmits<{
 const tabsConfig: Array<{ id: ItineraryTabFilter; label: string }> = [
   { id: 'signature', label: 'SIGNATURE' },
   { id: 'collaborated', label: 'COLLABORATED' },
-  { id: 'travelyourway', label: 'CATEGORIES' }
+  { id: 'categories', label: 'CATEGORIES' }
 ]
 
 const categoryConfigs: CategoryMetaConfig[] = [
@@ -183,7 +183,7 @@ const activeTabTitle = computed(() => {
 
       <!-- 3. 6 Multi-Tinted Category Cards (Visible ONLY inside TRAVEL YOUR WAY tab) -->
       <div
-        v-if="activeTab === 'travelyourway'"
+        v-if="activeTab === 'categories'"
         class="w-full max-w-4xl mx-auto flex flex-col items-center mb-8 md:mb-10"
       >
         <p class="section-subparagraph text-secondary-light mb-4">
@@ -235,7 +235,7 @@ const activeTabTitle = computed(() => {
             {{ filteredItineraries.length }} {{ activeTabTitle }}
           </span>
 
-          <template v-if="activeTab === 'travelyourway' && selectedCategoryNames.length > 0">
+          <template v-if="activeTab === 'categories' && selectedCategoryNames.length > 0">
             <span class="text-journey-deep/35">·</span>
             <span class="section-subparagraph text-dark-gold font-medium">
               {{ selectedCategoryNames.join(', ') }}
@@ -244,7 +244,7 @@ const activeTabTitle = computed(() => {
         </div>
 
         <button
-          v-if="activeTab === 'travelyourway' && selectedCategories.length > 0"
+          v-if="activeTab === 'categories' && selectedCategories.length > 0"
           type="button"
           @click="emit('clear-filters')"
           class="section-subparagraph text-journey-deep/80 underline underline-offset-4 hover:text-intention-blue active:text-intention-blue font-medium transition-colors cursor-pointer"

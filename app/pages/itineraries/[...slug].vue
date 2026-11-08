@@ -25,7 +25,7 @@ const VALID_CATEGORIES: ItineraryCategoryId[] = [
   'bespoke'
 ]
 
-const VALID_TABS: ItineraryTabFilter[] = ['signature', 'collaborated', 'travelyourway']
+const VALID_TABS: ItineraryTabFilter[] = ['signature', 'collaborated', 'categories']
 
 const rawSlug = route.params.slug
 const slugParts = Array.isArray(rawSlug)
@@ -54,13 +54,13 @@ if (isArchiveRoute.value && slug0) {
   if (slug0 === 'signature' || slug0 === 'collaborated') {
     activeTab.value = slug0
     selectedCategories.value = []
-  } else if (slug0 === 'travelyourway') {
-    activeTab.value = 'travelyourway'
+  } else if (slug0 === 'categories') {
+    activeTab.value = 'categories'
     if (slug1 && VALID_CATEGORIES.includes(slug1 as ItineraryCategoryId)) {
       selectedCategories.value = [slug1 as ItineraryCategoryId]
     }
   } else if (VALID_CATEGORIES.includes(slug0 as ItineraryCategoryId)) {
-    activeTab.value = 'travelyourway'
+    activeTab.value = 'categories'
     selectedCategories.value = [slug0 as ItineraryCategoryId]
   }
 }
@@ -130,11 +130,11 @@ const pageData = {
 const syncBrowserUrl = () => {
   if (!import.meta.client) return
 
-  if (activeTab.value === 'travelyourway') {
+  if (activeTab.value === 'categories') {
     if (selectedCategories.value.length === 1) {
-      window.history.replaceState({}, '', `/itineraries/travelyourway/${selectedCategories.value[0]}`)
+      window.history.replaceState({}, '', `/itineraries/categories/${selectedCategories.value[0]}`)
     } else {
-      window.history.replaceState({}, '', '/itineraries/travelyourway')
+      window.history.replaceState({}, '', '/itineraries/categories')
     }
   } else {
     window.history.replaceState({}, '', `/itineraries/${activeTab.value}`)
@@ -147,7 +147,7 @@ const handleTabUpdate = (newTab: ItineraryTabFilter) => {
 }
 
 const handleCategoryToggle = (categoryId: ItineraryCategoryId) => {
-  activeTab.value = 'travelyourway'
+  activeTab.value = 'categories'
   const idx = selectedCategories.value.indexOf(categoryId)
   if (idx > -1) {
     selectedCategories.value.splice(idx, 1)
