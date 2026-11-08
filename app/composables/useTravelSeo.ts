@@ -1,6 +1,11 @@
-    // ~/app/composables/useTravelSeo.ts
+// ~/app/composables/useTravelSeo.ts
 import { useHead, useSeoMeta } from '#imports'
-import type { ItinerarySectionGroup } from '~/pages/itinerary-dummy.vue'
+import type {
+  ItinerarySectionGroup,
+  ItineraryContentBlock,
+  ItineraryProgressionItemSpec,
+  ItineraryCustomerQueryItemSpec
+} from '~~/server/utils/itinerariesData'
 
 export interface TravelSeoOptions {
   pageTitle: string
@@ -311,17 +316,17 @@ export function useTravelSeo(options: TravelSeoOptions) {
     const faqEntities: Array<{ '@type': string; name: string; acceptedAnswer: { '@type': string; text: string } }> = []
     const videoEntities: Array<Record<string, any>> = []
 
-    itinerarySections.forEach((sec) => {
-      sec.blocks.forEach((block) => {
+    itinerarySections.forEach((sec: ItinerarySectionGroup) => {
+      sec.blocks.forEach((block: ItineraryContentBlock) => {
         if (block.type === 'itinerary' && Array.isArray(block.data?.items)) {
-          block.data.items.forEach((phase) => {
+          block.data.items.forEach((phase: ItineraryProgressionItemSpec) => {
             progressionItems.push({
               headerTitle: phase.headerTitle,
               paragraphs: phase.paragraphs
             })
           })
         } else if (block.type === 'customer-query' && Array.isArray(block.data?.items)) {
-          block.data.items.forEach((q) => {
+          block.data.items.forEach((q: ItineraryCustomerQueryItemSpec) => {
             const answerParts = [
               ...(q.paragraphs || []),
               ...(q.listItems || [])

@@ -120,7 +120,7 @@ const pageData = {
     bottomQuote:
       'Whether you choose one as it is or use it as a starting point, every journey can be reimagined to match your interests, pace, and travel style.',
     ctaLabel: 'EXPLORE EXPERIENCES',
-    ctaTo: '/itineraries',
+    ctaTo: '/itineraries/signature',
     slider: {
       initialIndex: 0,
       autoplay: false,
@@ -140,7 +140,7 @@ const pageData = {
     bottomQuote:
       'Experience India through the eyes of its most passionate custodians, with journeys forged through decades of deep-rooted local relationships.',
     ctaLabel: 'DISCOVER COLLABORATIONS',
-    ctaTo: '/itineraries',
+    ctaTo: '/itineraries/collaborated',
     slider: {
       initialIndex: 0,
       autoplay: true,
@@ -157,7 +157,7 @@ const pageData = {
     subtitle: 'Explore by what moves you. Select a path below to begin crafting your bespoke journey.',
     bottomQuote: 'The true luxury of travel lies in the freedom to choose your own pace, path, and purpose.',
     ctaLabel: 'Explore All Experiences',
-    ctaTo: '/itineraries',
+    ctaTo: '/itineraries/categories',
     items: [
       {
         id: '01',
@@ -181,7 +181,7 @@ const pageData = {
         description: 'Find thoughtful stays rooted in comfort and local charm.',
         image: '/images/itineraries/category/stay.webp',
         alt: 'Kerala Courtyard with Golden Arches',
-        to: '/itineraries/stay'
+        to: '/itineraries/stays'
       },
       {
         id: '04',

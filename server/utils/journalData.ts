@@ -345,7 +345,7 @@ export const JOURNAL_DATABASE: JournalFullRecord[] = [
   {
     meta: {
       id: 'art-14',
-      slug: 'bronze-casters-of- the-kaveri-delta',
+      slug: 'bronze-casters-of-the-kaveri-delta',
       type: 'articles',
       featured: false,
       title: 'Lost-wax bronze casters of the Kaveri delta',

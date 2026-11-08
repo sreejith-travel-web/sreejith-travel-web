@@ -142,7 +142,7 @@ const nextSlide = () => {
                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 3c2.5 3 4 6 4 9a4 4 0 1 1-8 0c0-3 1.5-6 4-9z" />
                       </svg>
                     </span>
-                    <span class="card-paragraph text-journey-deep/90 font-medium line-clamp-1">
+                    <span class="section-subparagraph text-journey-deep/90 font-medium line-clamp-1">
                       {{ hl.label }}
                     </span>
                   </div>

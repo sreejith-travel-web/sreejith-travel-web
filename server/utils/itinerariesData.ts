@@ -257,7 +257,9 @@ const extractIdNumber = (id: string): number => {
 function loadItinerariesFromDisk(): ItineraryFullRecord[] {
   if (!fs.existsSync(DATA_DIR)) return []
 
-  const files = fs.readdirSync(DATA_DIR).filter((file) => file.endsWith('.json'))
+  const files: string[] = fs
+    .readdirSync(DATA_DIR)
+    .filter((file: string) => file.endsWith('.json'))
   const records: ItineraryFullRecord[] = []
 
   for (const file of files) {
@@ -267,7 +269,7 @@ function loadItinerariesFromDisk(): ItineraryFullRecord[] {
       if (parsed?.meta?.slug) {
         records.push(parsed)
       }
-    } catch (err) {
+        } catch (err) {
       console.error(`[itinerariesData] Failed to parse ${file}:`, err)
     }
   }
