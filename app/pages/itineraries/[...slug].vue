@@ -1,6 +1,6 @@
 <!-- ~/app/pages/itineraries/[...slug].vue -->
 <script setup lang="ts">
-import { ref, computed, onMounted, nextTick } from 'vue'
+import { ref, computed, watch, onMounted, onActivated, nextTick } from 'vue'
 import { useRoute, useAsyncData, createError } from '#imports'
 import PageHero from '~/components/PageHero.vue'
 import InnerPageHeader from '~/components/InnerPageHeader.vue'
@@ -27,20 +27,20 @@ const VALID_CATEGORIES: ItineraryCategoryId[] = [
 
 const VALID_TABS: ItineraryTabFilter[] = ['signature', 'collaborated', 'categories']
 
-const rawSlug = route.params.slug
-const slugParts = Array.isArray(rawSlug)
-  ? rawSlug.filter(Boolean)
-  : typeof rawSlug === 'string' && rawSlug.length > 0
-    ? [rawSlug]
-    : []
+const slugParts = computed<string[]>(() => {
+  const rawSlug = route.params.slug
+  if (Array.isArray(rawSlug)) return rawSlug.filter(Boolean)
+  if (typeof rawSlug === 'string' && rawSlug.length > 0) return [rawSlug]
+  return []
+})
 
-const slug0 = slugParts[0]?.toLowerCase() || null
-const slug1 = slugParts[1]?.toLowerCase() || null
+const slug0 = computed<string | null>(() => slugParts.value[0]?.toLowerCase() || null)
+const slug1 = computed<string | null>(() => slugParts.value[1]?.toLowerCase() || null)
 
-const isArchiveRoute = computed(() => {
-  if (!slug0) return true
-  if (VALID_TABS.includes(slug0 as ItineraryTabFilter)) return true
-  if (VALID_CATEGORIES.includes(slug0 as ItineraryCategoryId)) return true
+const isArchiveRoute = computed<boolean>(() => {
+  if (!slug0.value) return true
+  if (VALID_TABS.includes(slug0.value as ItineraryTabFilter)) return true
+  if (VALID_CATEGORIES.includes(slug0.value as ItineraryCategoryId)) return true
   return false
 })
 
@@ -48,40 +48,73 @@ const activeTab = ref<ItineraryTabFilter>('signature')
 const selectedCategories = ref<ItineraryCategoryId[]>([])
 const shouldScrollToFilterOnMount = ref(false)
 
-if (isArchiveRoute.value && slug0) {
+const syncFilterStateFromRoute = () => {
+  if (!isArchiveRoute.value) return
+
+  if (!slug0.value) {
+    activeTab.value = 'signature'
+    selectedCategories.value = []
+    shouldScrollToFilterOnMount.value = false
+    return
+  }
+
   shouldScrollToFilterOnMount.value = true
 
-  if (slug0 === 'signature' || slug0 === 'collaborated') {
-    activeTab.value = slug0
+  if (slug0.value === 'signature' || slug0.value === 'collaborated') {
+    activeTab.value = slug0.value
     selectedCategories.value = []
-  } else if (slug0 === 'categories') {
+  } else if (slug0.value === 'categories') {
     activeTab.value = 'categories'
-    if (slug1 && VALID_CATEGORIES.includes(slug1 as ItineraryCategoryId)) {
-      selectedCategories.value = [slug1 as ItineraryCategoryId]
+    if (slug1.value && VALID_CATEGORIES.includes(slug1.value as ItineraryCategoryId)) {
+      selectedCategories.value = [slug1.value as ItineraryCategoryId]
+    } else {
+      selectedCategories.value = []
     }
-  } else if (VALID_CATEGORIES.includes(slug0 as ItineraryCategoryId)) {
+  } else if (VALID_CATEGORIES.includes(slug0.value as ItineraryCategoryId)) {
     activeTab.value = 'categories'
-    selectedCategories.value = [slug0 as ItineraryCategoryId]
+    selectedCategories.value = [slug0.value as ItineraryCategoryId]
   }
 }
 
-// 1. Fetch Lightweight Archive Meta List (Only on Archive Routes)
+syncFilterStateFromRoute()
+
+// 1. Always fetch the lightweight Archive Meta List (Never return [] on single routes)
 const { data: archiveItems } = await useAsyncData<ItineraryMeta[]>(
   'itineraries-collection',
-  () => (isArchiveRoute.value ? $fetch('/api/itineraries') : Promise.resolve([])),
-  { default: () => [] }
+  () => $fetch<ItineraryMeta[]>('/api/itineraries'),
+  {
+    default: (): ItineraryMeta[] => []
+  }
 )
+
+// Direct client fallback guarantee so archiveItems is never empty after breadcrumb navigation
+const ensureArchiveItemsLoaded = async () => {
+  if (!import.meta.client) return
+  if (!archiveItems.value || archiveItems.value.length === 0) {
+    try {
+      archiveItems.value = await $fetch<ItineraryMeta[]>('/api/itineraries')
+    } catch (err) {
+      console.error('[itineraries] Failed to load archive items:', err)
+    }
+  }
+}
 
 // 2. Fetch Single Itinerary + Pre-Resolved 3 Related Cards (Only on Slug Routes)
 const { data: singleRecord, error: singleError } = await useAsyncData<ItinerarySinglePayload | null>(
-  `itinerary-single-${slug0 || 'index'}`,
-  () => (!isArchiveRoute.value && slug0 ? $fetch(`/api/itineraries/${slug0}`) : Promise.resolve(null))
+  () => `itinerary-single-${slug0.value || 'index'}`,
+  (): Promise<ItinerarySinglePayload | null> =>
+    !isArchiveRoute.value && slug0.value
+      ? $fetch<ItinerarySinglePayload>(`/api/itineraries/${slug0.value}`)
+      : Promise.resolve(null),
+  {
+    watch: [slug0]
+  }
 )
 
 if (!isArchiveRoute.value && (singleError.value || !singleRecord.value)) {
   throw createError({
     statusCode: 404,
-    statusMessage: `Itinerary "${slug0}" Not Found`,
+    statusMessage: `Itinerary "${slug0.value}" Not Found`,
     fatal: true
   })
 }
@@ -96,7 +129,7 @@ if (isArchiveRoute.value) {
     ogImage: '/images/favicons/sreejith-og-image.jpg',
     pageType: 'itineraries-index',
     breadcrumbName: 'Itineraries',
-    collectionItems: (archiveItems.value || []).map((item) => ({
+    collectionItems: (archiveItems.value || []).map((item: ItineraryMeta) => ({
       title: item.title,
       intro: item.intro,
       url: `/itineraries/${item.slug}`,
@@ -105,8 +138,8 @@ if (isArchiveRoute.value) {
   })
 }
 
-const featuredItineraries = computed(() =>
-  (archiveItems.value || []).filter((item) => item.featured)
+const featuredItineraries = computed<ItineraryMeta[]>(() =>
+  (archiveItems.value || []).filter((item: ItineraryMeta) => item.featured)
 )
 
 const pageData = {
@@ -171,23 +204,38 @@ const scrollToFilterWorkspace = () => {
   }
 }
 
-onMounted(() => {
+watch(
+  () => route.path,
+  async () => {
+    syncFilterStateFromRoute()
+    if (isArchiveRoute.value) {
+      await ensureArchiveItemsLoaded()
+    }
+  }
+)
+
+onMounted(async () => {
+  await ensureArchiveItemsLoaded()
   if (shouldScrollToFilterOnMount.value) {
     nextTick(() => {
       setTimeout(scrollToFilterWorkspace, 350)
     })
   }
 })
+
+onActivated(async () => {
+  await ensureArchiveItemsLoaded()
+})
 </script>
 
 <template>
   <div>
     <!-- BRANCH A: ARCHIVE & FILTER WORKSPACE -->
-    <div v-if="isArchiveRoute" class="overflow-x-hidden bg-bg-light">
+    <div v-if="isArchiveRoute" class="overflow-x-clip bg-bg-light">
       <PageHero :data="pageData.hero" />
       <InnerPageHeader :data="pageData.intro" />
 
-      <!-- 1. Featured Itineraries (Untouched Component) -->
+      <!-- 1. Featured Itineraries -->
       <ItineraryFeatured :items="featuredItineraries" />
 
       <!-- 2. Find Your Journey 3-Tab Workspace -->
@@ -205,6 +253,7 @@ onMounted(() => {
     <!-- BRANCH B: INDIVIDUAL ITINERARY SLUG VIEW -->
     <ItinerarySingleView
       v-else-if="singleRecord"
+      :key="singleRecord.meta.slug"
       :record="singleRecord"
     />
   </div>

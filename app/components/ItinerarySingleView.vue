@@ -205,6 +205,13 @@ useTravelSeo({
                 @open-lightbox="openLightbox"
               />
 
+              <LazyItinerariesBlocksBlockHorizontalSlider
+                v-else-if="block.type === 'horizontal-slider'"
+                hydrate-on-visible
+                :data="block.data"
+                @open-lightbox="openLightbox"
+              />
+
               <LazyItinerariesBlocksBlockYoutube
                 v-else-if="block.type === 'youtube'"
                 hydrate-on-visible

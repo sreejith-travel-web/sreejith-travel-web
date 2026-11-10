@@ -1,6 +1,6 @@
 <!-- ~/components/ItineraryListing.vue -->
 <script setup lang="ts">
-import { computed } from 'vue'
+import { ref, computed, nextTick } from 'vue'
 import ItineraryCard from '~/components/ItineraryCard.vue'
 import type { ItineraryMeta, ItineraryCategoryId, ItineraryType } from '~~/server/utils/itinerariesData'
 
@@ -79,7 +79,7 @@ const categoryConfigs: CategoryMetaConfig[] = [
 
 const isCategorySelected = (id: ItineraryCategoryId) => props.selectedCategories.includes(id)
 
-// Priority Ranking for Travel Your Way: 1 = Signature, 2 = Collaborated, 3 = Essential
+// Priority Ranking for Categories Tab: 1 = Signature, 2 = Collaborated, 3 = Essential
 const tierPriorityWeight: Record<ItineraryType, number> = {
   signature: 1,
   collaborated: 2,
@@ -95,7 +95,7 @@ const filteredItineraries = computed(() => {
     return props.items.filter((item) => item.type === 'collaborated')
   }
 
-  // TRAVEL YOUR WAY TAB: Includes Signature (1st), Collaborated (2nd), and Essential (3rd)
+  // CATEGORIES TAB: Includes Signature (1st), Collaborated (2nd), and Essential (3rd)
   const matching = props.items.filter((item) => {
     if (props.selectedCategories.length === 0) return true
     return props.selectedCategories.some((catId) => item.categories.includes(catId))
@@ -117,18 +117,90 @@ const activeTabTitle = computed(() => {
   if (props.activeTab === 'collaborated') return 'Collaborated Journeys'
   return 'Journeys Found'
 })
+
+const activeTabDescription = computed(() => {
+  if (props.activeTab === 'signature') {
+    return 'Handcrafted slow-travel routes shaped through years of ground research, intimate community access, and unhurried cultural immersion across Kerala and South India.'
+  }
+  if (props.activeTab === 'collaborated') {
+    return 'Co-created regional journeys designed alongside specialist naturalists, historians, and regional hosts across the wider Indian subcontinent.'
+  }
+  return ''
+})
+
+// =========================================================
+// PER-TAB SCROLL MEMORY (First View -> Top of Tab Content; Subsequent -> Saved ScrollY)
+// =========================================================
+const stickyTabsRef = ref<HTMLElement | null>(null)
+const tabContentTopRef = ref<HTMLElement | null>(null)
+const savedTabScrollY = ref<Partial<Record<ItineraryTabFilter, number>>>({})
+
+const getTabContentTopScrollY = (): number => {
+  if (!import.meta.client || !tabContentTopRef.value) return 0
+
+  const stickyEl = stickyTabsRef.value
+  const stickyTopPx = stickyEl
+    ? Number.parseFloat(window.getComputedStyle(stickyEl).top) || 72
+    : 72
+  const stickyBarHeight = stickyEl ? stickyEl.offsetHeight : 60
+
+  const anchorAbsoluteTop =
+    tabContentTopRef.value.getBoundingClientRect().top + window.scrollY
+
+  return Math.max(0, anchorAbsoluteTop - stickyTopPx - stickyBarHeight - 12)
+}
+
+const handleTabSelect = async (nextTab: ItineraryTabFilter) => {
+  if (!import.meta.client) {
+    emit('update:activeTab', nextTab)
+    return
+  }
+
+  const currentTab = props.activeTab
+
+  // Clicking the already-active tab scrolls cleanly back to the top of its content
+  if (nextTab === currentTab) {
+    const topY = getTabContentTopScrollY()
+    window.scrollTo({ top: topY, behavior: 'smooth' })
+    return
+  }
+
+  // 1. Save current tab's exact scroll position BEFORE DOM height changes
+  savedTabScrollY.value[currentTab] = window.scrollY
+
+  // 2. Check if target tab has been visited before
+  const previousScrollForNextTab = savedTabScrollY.value[nextTab]
+
+  // 3. Switch active tab
+  emit('update:activeTab', nextTab)
+
+  // 4. Wait for Vue to render the new tab's DOM before scrolling
+  await nextTick()
+  requestAnimationFrame(() => {
+    const contentTopY = getTabContentTopScrollY()
+    const targetY =
+      previousScrollForNextTab !== undefined
+        ? previousScrollForNextTab
+        : contentTopY
+
+    window.scrollTo({
+      top: targetY,
+      behavior: 'smooth'
+    })
+  })
+}
 </script>
 
 <template>
   <section
     id="find-your-journey"
     data-theme="light"
-    class="section-wrapper bg-bg-light text-primary-lightt"
+    class="section-wrapper overflow-x-clip! bg-bg-light text-primary-light"
   >
     <div class="w-full max-w-7xl flex flex-col items-center">
       
       <!-- 1. Section Header -->
-      <div class="relative w-full max-w-4xl flex flex-col items-center text-center mb-8 md:mb-10 px-4">
+      <div class="relative w-full max-w-4xl flex flex-col items-center text-center mb-6 md:mb-8 px-4">
         <div class="eyebrow-wrapper">
           <div class="bg-dark-gold/70 eyebrow-border" />
           <h2 class="text-journey-deep/95 eyebrow-text">
@@ -147,43 +219,65 @@ const activeTabTitle = computed(() => {
         </h2>
       </div>
 
-      <!-- 2. Centered Curved Trapezium Tabs (SIGNATURE | COLLABORATED | TRAVEL YOUR WAY) -->
+      <!-- 2. Sticky Centered Curved Trapezium Tabs (Mobile & Desktop just under Header) -->
       <div
-        role="tablist"
-        aria-label="Journey Collection Tabs"
-        class="trapezium-tab-bar max-w-4xl mx-auto mb-8 md:mb-10"
+        ref="stickyTabsRef"
+        class="sticky top-16 sm:top-18 md:top-20 z-30 w-full bg-bg-light/95 backdrop-blur-md py-2.5 sm:py-3 mb-6 md:mb-8 flex justify-center"
       >
-        <button
-          v-for="tab in tabsConfig"
-          :key="tab.id"
-          role="tab"
-          type="button"
-          :aria-selected="activeTab === tab.id"
-          @click="emit('update:activeTab', tab.id)"
-          class="trapezium-tab"
-          :class="activeTab === tab.id ? 'trapezium-tab-active' : ''"
+        <div
+          role="tablist"
+          aria-label="Journey Collection Tabs"
+          class="trapezium-tab-bar max-w-4xl mx-auto mb-0!"
         >
-          <svg
-            v-if="activeTab === tab.id"
-            class="w-3.5 h-3.5 text-dark-gold shrink-0"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2.6"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            aria-hidden="true"
+          <button
+            v-for="tab in tabsConfig"
+            :key="tab.id"
+            role="tab"
+            type="button"
+            :aria-selected="activeTab === tab.id"
+            @click="handleTabSelect(tab.id)"
+            class="trapezium-tab"
+            :class="activeTab === tab.id ? 'trapezium-tab-active' : ''"
           >
-            <polyline points="20 6 9 17 4 12" />
-          </svg>
-          <span>{{ tab.label }}</span>
-          <span v-if="activeTab === tab.id" class="trapezium-tab-indicator" />
-        </button>
+            <svg
+              v-if="activeTab === tab.id"
+              class="w-3.5 h-3.5 text-dark-gold shrink-0"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            <span>{{ tab.label }}</span>
+            <span v-if="activeTab === tab.id" class="trapezium-tab-indicator" />
+          </button>
+        </div>
       </div>
 
-      <!-- 3. 6 Multi-Tinted Category Cards (Visible ONLY inside TRAVEL YOUR WAY tab) -->
+      <!-- Invisible Scroll Anchor Marking the Top of Tab Content -->
+      <div ref="tabContentTopRef" class="w-full h-0" aria-hidden="true" />
+
+      <!-- 3A. Signature & Collaborated Intro Paragraph (Center-aligned hero-paragraph above Filter Readout Bar) -->
       <div
-        v-if="activeTab === 'categories'"
+        v-if="activeTab === 'signature' || activeTab === 'collaborated'"
+        class="w-full max-w-4xl mx-auto flex justify-center text-center mb-8 md:mb-10 px-4"
+      >
+        <p
+          :key="`tab-desc-${activeTab}`"
+          v-motion-fade-up
+          class="hero-paragraph text-secondary-light/90 max-w-3xl"
+        >
+          {{ activeTabDescription }}
+        </p>
+      </div>
+
+      <!-- 3B. 6 Multi-Tinted Category Cards (Visible ONLY inside CATEGORIES tab) -->
+      <div
+        v-else-if="activeTab === 'categories'"
         class="w-full max-w-4xl mx-auto flex flex-col items-center mb-8 md:mb-10"
       >
         <p class="section-subparagraph text-secondary-light mb-4">

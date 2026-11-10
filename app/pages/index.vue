@@ -41,7 +41,7 @@ const pageData = {
     autoplay: true,
     autoplayIntervalMs: 8500,
     subtitleText: 'Regenerative Travel Experiences',
-    headingLine1: 'Designing Cultural Immersive Travel Experiences in India',
+    headingLine1: 'Cultural Immersive Travel in India',
     headingLine2Cursive: 'Inspired by People, Places & Stories',
     description: 'Designing luxury bespoke journeys bringing together meaningful encounters, rare access, and authentic stories that conventional tourism simply cannot offer.',
     awardImage: '/images/home/award.webp',
@@ -425,7 +425,7 @@ const pageData = {
     bottomQuote: 'Travel is not merely a destination, but a new way of seeing things.',
     bottomCta: {
       label: 'READ TRAVELER STORIES',
-      to: '/journal'
+      to: '/journal/stories'
     }
   },
 
@@ -433,65 +433,16 @@ const pageData = {
     eyebrow: 'FROM THE JOURNAL',
     titleLine1: 'STORIES THAT TRAVEL',
     titleLine2Cursive: 'Beyond the journey',
-    description: 'Observations, perspectives, and field notes from years of research and on-the-ground experience. Exploring People, Culture, Heritage, Travel Trends, and Sustainability shaping meaningful journeys.',
-    posts: [
-      {
-        id: '1',
-        slug: '/journal/behind-the-doors-of-chettinad',
-        type: 'articles',
-        title: 'Behind the doors of Chettinad',
-        excerpt: 'Step inside ancestral homes where carved courtyards, family stories, and gracious hospitality reveal the living heart of Chettinad.',
-        category: 'LIVING HERITAGE',
-        readTime: '7 MIN READ',
-        tags: ['#ARCHITECTURE', '#HERITAGE', '#TAMILNADU'],
-        image: '/images/fallbacks/culture.webp',
-        alt: 'Courtyard of an ancestral Chettinad home',
-        featured: true
-      },
-      {
-        id: '2',
-        slug: '/journal/the-quiet-paths-of-the-western-ghats',
-        type: 'articles',
-        title: 'The quiet paths of the Western Ghats',
-        excerpt: 'Follow forest trails and mist-covered ridges, discovering the quiet rhythms and remarkable biodiversity of the Western Ghats.',
-        category: 'NATURE & TRAILS',
-        readTime: '5 MIN READ',
-        tags: ['#BIODIVERSITY', '#ECOLOGY', '#TRAILS'],
-        image: '/images/fallbacks/culture.webp',
-        alt: 'Mist covered ridges of the Western Ghats',
-        featured: false
-      },
-      {
-        id: '3',
-        slug: '/journal/case-study-regenerative-handloom-corridor',
-        type: 'case-studies',
-        title: 'Woven through generations',
-        excerpt: 'Meet the artisans whose patient hands and inherited skills keep local traditions alive, weaving memory into everyday objects.',
-        category: 'PEOPLE & CRAFT',
-        readTime: '6 MIN READ',
-        tags: ['#ARTISANS', '#HANDLOOM', '#CULTURE'],
-        image: '/images/fallbacks/culture.webp',
-        alt: 'Artisan weaving a traditional saree',
-        featured: false
-      },
-      {
-        id: '4',
-        slug: '/journal/a-place-at-the-kerala-table',
-        type: 'articles',
-        title: 'A place at the Kerala table',
-        excerpt: 'Discover the seasonal ingredients, generous kitchens, and cherished family recipes that turn a Kerala meal into a shared story.',
-        category: 'FOOD & CULTURE',
-        readTime: '4 MIN READ',
-        tags: ['#CULINARY', '#TRADITION', '#KERALA'],
-        image: '/images/fallbacks/culture.webp',
-        alt: 'Traditional Kerala Sadhya served on a banana leaf',
-        featured: false
-      }
+    description:
+      'Observations, perspectives, and field notes from years of research and on-the-ground experience. Exploring People, Culture, Heritage, Travel Trends, and Sustainability shaping meaningful journeys.',
+    featuredSlug: 'the-stories-that-live-beyond-the-map',
+    listingSlugs: [
+      'regenerative-handloom-corridor'
     ],
     bottomQuote: 'Every journey leaves a story worth carrying forward.',
     bottomCta: {
       label: 'EXPLORE THE JOURNAL',
-      to: '/journal'
+      to: '/journal/insights'
     }
   }
   

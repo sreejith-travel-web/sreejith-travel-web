@@ -208,6 +208,22 @@ export interface ItineraryYoutubeBlockSpec {
   caption?: string
 }
 
+export interface ItineraryHorizontalSliderBlockSpec {
+  sectionId?: string
+  eyebrow?: string
+  title?: string
+  paragraph?: string
+  /** Desktop height in px (default 400 -> 350 tablet -> 300 mobile) */
+  sliderHeight?: number
+  /** Rounds individual images inside the track when true */
+  innerRounding?: boolean
+  images: Array<string | ItineraryMasonryImageSpec>
+  caption?: string
+  captions?: string[]
+  captionMob?: boolean
+  captionPc?: boolean
+}
+
 export type ItineraryContentBlock =
   | { type: 'summary'; data: ItinerarySummaryBlockSpec }
   | { type: 'itinerary'; data: ItineraryProgressionBlockSpec }
@@ -219,6 +235,7 @@ export type ItineraryContentBlock =
   | { type: 'customer-query'; data: ItineraryCustomerQueryBlockSpec }
   | { type: 'masonry'; data: ItineraryMasonryBlockSpec }
   | { type: 'slider'; data: ItinerarySliderBlockSpec }
+  | { type: 'horizontal-slider'; data: ItineraryHorizontalSliderBlockSpec }
   | { type: 'youtube'; data: ItineraryYoutubeBlockSpec }
 
 export interface ItinerarySectionGroup {
@@ -283,3 +300,11 @@ function loadItinerariesFromDisk(): ItineraryFullRecord[] {
 }
 
 export const ITINERARIES_DATABASE: ItineraryFullRecord[] = loadItinerariesFromDisk()
+
+/** Reads fresh from disk in dev mode so JSON edits appear immediately on refresh */
+export function getItinerariesDatabase(): ItineraryFullRecord[] {
+  if (import.meta.dev) {
+    return loadItinerariesFromDisk()
+  }
+  return ITINERARIES_DATABASE
+}

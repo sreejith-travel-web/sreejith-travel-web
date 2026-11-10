@@ -1,0 +1,447 @@
+{
+  "meta": {
+    "id": "jrn-insight-01",
+    "slug": "the-stories-that-live-beyond-the-map",
+    "category": "insights",
+    "type": "insights",
+    "subcategory": "living-heritage",
+    "subcategoryLabel": "LIVING HERITAGE",
+    "contentTypeLabel": "INSIGHT",
+    "categoryLabel": "INSIGHT · LIVING HERITAGE",
+    "featured": true,
+    "title": "The Stories That Live Beyond the Map",
+    "excerpt": "A closer look at the people, places and traditions that shape a destination into something more meaningful.",
+    "headerQuote": "Every place carries stories worth preserving.",
+    "author": "Sree Jith",
+    "readTime": "8 MIN READ",
+    "publishDate": "2026-10-18",
+    "tags": ["#CULTURE", "#HERITAGE", "#PEOPLE"],
+    "categories": ["culture"],
+    "topics": ["#CULTURE", "#HERITAGE", "#PEOPLE"],
+    "image": "/images/journal/journal1.webp",
+    "alt": "Master weaver working on a traditional handloom in Kerala"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "where-the-journey-begins",
+      "eyebrow": "CHAPTER I · THE NILA BASIN",
+      "eyebrowLevel": 1,
+      "title": "Where the Journey Begins",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A slower journey along Kerala’s Malabar Coast and the <strong>Bharathapuzha</strong> river basin reveals a landscape shaped in harmony with <span class='rt-terracotta'><strong>local folklorists, <i>kasavu</i> master weavers, and ritual custodians</strong></span>. When we step away from hurried checklists—a core tenet of our <a href='/itineraries' target='_self'>bespoke Kerala itineraries</a>—an intimate portrait of South India quietly unfolds."
+        },
+        {
+          "level": 2,
+          "text": "From historic pepper ports dating back to the 14<sup>th</sup> century to shaded riverside <i>agraharams</i>, everyday life moves to an inherited seasonal cadence rather than a commercial clock."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "life-along-the-water",
+      "title": "Life Along the Water",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Every settlement along the estuary wakes with the lunar tide. Country ferries, clam divers, and traditional <i>uru</i> shipwrights in <strong>Beypore</strong> read tidal currents with a tactile fluency passed down without blueprints."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "ECOLOGICAL NOTE",
+      "eyebrowLevel": 2,
+      "title": "Reading the Monsoon Current",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Healthy estuarine mangroves sequester up to four times more atmospheric CO<sub>2</sub> per hectare than upland forests while sheltering juvenile backwater fish."
+        },
+        {
+          "level": 3,
+          "text": "Field observation recorded during the <span class='rt-action-blue'>southwest monsoon transition</span>; explore how community conservation shapes our <a href='/impact' target='_self'>regional impact commitments</a>."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "verticalAlign": "center",
+      "title": "Estuary Tides & Timber Dhows",
+      "text": "Along the river mouths of northern Kerala, shipwrights still join seasoned Malabar teak planks using hand-spun coir cordage and natural fish oils. To sit in an ancestral courtyard kitchen during harvest season is to taste centuries of botanical exchange—wild Wayanad black pepper, sun-cured <i>kodampuli</i>, and heirloom <span class='rt-deep-forest'><strong>Navara & Matta red rices</strong></span> steamed in seasoned clay vessels.",
+      "image": "/images/journal/journal2.webp",
+      "theme": "cream",
+      "imageAlt": "Traditional waterways and coastal life in Malabar"
+    },
+    {
+      "type": "text",
+      "id": "the-hands-behind-the-weave",
+      "eyebrow": "LIVING LOOMS",
+      "eyebrowLevel": 1,
+      "title": "The Hands Behind the Weave",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "In the weaving villages of <strong>Kuthampully</strong> and <strong>Chendamangalam</strong>, the wooden throw-shuttle echoes across courtyards before sunrise. Fine 80<sup>s</sup>-count and 100<sup>s</sup>-count unbleached cotton threads are sized in rice starch and brushed along open lanes."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "ATELIER SEQUENCE",
+      "eyebrowLevel": 2,
+      "title": "Four Stages of Preparing a Traditional Kasavu Warp",
+      "titleLevel": 3,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Before a single motif appears on the pit loom, three generations of a household often collaborate on warp preparation:"
+      ],
+      "list": {
+        "type": "ordered",
+        "level": 2,
+        "items": [
+          "<strong>Hank Washing & Sun Bleaching:</strong> Raw cotton hanks are rinsed in soft river water and dried cleanly under early morning light.",
+          "<strong>Street Sizing (<i>Paavu Unakkal</i>):</strong> Stretched warp threads are brushed with fermented rice gruel and coconut oil to build tensile strength.",
+          "<strong>Pirn Winding on the Charkha:</strong> Weft bobbins—including pure gold-dipped <span class='rt-dark-gold'><strong><i>kasavu</i> zari</strong></span>—are wound by hand to maintain even tension.",
+          "<strong>Extra-Weft Drafting:</strong> Geometric temple borders (<i>puliyilakara</i>) are lifted pick by pick using twin-healds and memory."
+        ]
+      }
+    },
+    {
+      "type": "youtube",
+      "data": {
+        "eyebrow": "FIELD DISPATCH",
+        "title": "Field Notes: Conservancies & Maasai Horizons",
+        "video": {
+          "videoId": "4KtLGaNl9VQ",
+          "thumbnail": "/images/home/travel-video.webp",
+          "alt": "Editorial travel scene showing moving travel impressions from Kenya and its cultural landscapes within this carefully designed cultural",
+          "width": 800,
+          "height": 450
+        },
+        "caption": "A moving editorial glimpse selected to complement the pace and atmosphere of Conservancies & Maasai Horizons."
+      }
+    },
+    {
+      "type": "text",
+      "id": "sacred-geometry-of-craft",
+      "title": "Sacred Geometry of Craft",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "North of Payyanur, the hereditary bronze casters of <strong>Kunhimangalam</strong> work by the ancient lost-wax (<i>madhuchishtavidhana</i>) method, smelting a resonant high-tin bell-metal alloy (Cu<sub>78</sub>Sn<sub>22</sub>) known locally as <span class='rt-spiced-copper'><strong><i>vengalam</i></strong></span>."
+        },
+        {
+          "level": 3,
+          "text": "Because each clay mould is broken open after pouring, <em>no two ceremonial lamps or temple sculptures can ever be identical</em>—every piece remains an unrepeatable singular casting."
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "data": {
+        "eyebrow": "VISUAL NOTES",
+        "title": "First Impressions",
+        "captionMob": false,
+        "captionPc": false,
+        "images": [
+          {
+            "src": "/images/home/journey-pc.webp",
+            "alt": "Private canoe exploration of narrow Kumarakom and Kuttanad waterways on the Backwaters, Spice Hills & Sacred Groves journey",
+            "width": 1200,
+            "height": 800,
+            "caption": "Private canoe exploration of narrow Kumarakom and Kuttanad waterways."
+          },
+          {
+            "src": "/images/home/journey-mob1.webp",
+            "alt": "Forest-edge walks and spice-garden interpretation near Periyar on the Backwaters, Spice Hills & Sacred Groves journey",
+            "width": 800,
+            "height": 1050,
+            "caption": "Forest-edge walks and spice-garden interpretation near Periyar."
+          },
+          {
+            "src": "/images/home/solo-landscape.webp",
+            "alt": "Restorative stays with room for Ayurveda and quiet mornings on the Backwaters, Spice Hills & Sacred Groves journey",
+            "width": 1200,
+            "height": 800,
+            "caption": "Restorative stays with room for Ayurveda and quiet mornings."
+          },
+          {
+            "src": "/images/itineraries/dummy1.webp",
+            "alt": "A final highland pause among Vagamon’s grasslands and plantation country on the Backwaters, Spice Hills & Sacred Groves journey",
+            "width": 800,
+            "height": 1050,
+            "caption": "A final highland pause among Vagamon’s grasslands and plantation country."
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "flavours-of-the-malabar-coast",
+      "title": "Flavours of the Malabar Coast",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "To sit in an ancestral courtyard kitchen during harvest season is to taste centuries of botanical exchange—wild Wayanad black pepper, sun-cured <i>kodampuli</i>, and heirloom <span class='rt-deep-forest'><strong>Navara & Matta red rices</strong></span> steamed in seasoned clay vessels."
+        }
+      ],
+      "list": {
+        "type": "unordered",
+        "level": 2,
+        "items": [
+          "<strong>Heirloom Peppercorns:</strong> Forest-grown <i>Kalluvally</i> vines harvested by hand on bamboo ladders each January.",
+          "<strong>Slow-Simmered Bronze Cookware:</strong> Festive <i>payasam</i> reduced over coconut-shell embers inside heavy bell-metal <i>urulis</i>.",
+          "<strong>Zero-Mile Coastal Produce:</strong> Morning estuary catches paired with freshly stone-ground coconut, shallots, and curry leaves."
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "cream",
+      "text": "Places tell you where you are.<br>Stories tell you how it was.<br>People tell you why it matters.",
+      "quoteAuthor": "Sree Jith",
+      "quoteRole": "Travel Experience Designer"
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "blue",
+      "text": "Places tell you where you are.<br>Stories tell you how it was.<br>People tell you why it matters.",
+      "quoteAuthor": "Sree Jith",
+      "quoteRole": "Travel Experience Designer"
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "mixed",
+      "text": "Places tell you where you are. Stories tell you how it was. People tell you why it matters.",
+      "quoteAuthor": "Sree Jith",
+      "quoteRole": "Travel Experience Designer"
+    },
+    {
+      "type": "image-split",
+      "imageCols": 5,
+      "aspectRatio": "16:10",
+      "imagePosition": "right",
+      "theme": "blue",
+      "mobileOrder": "image-first",
+      "eyebrow": "STUDIO OBSERVATION",
+      "title": "The Quiet Geometry of Street-Sizing",
+      "image": "/images/home/solo-landscape.webp",
+      "imageAlt": "Morning warp preparation in a Kuthampully weaver lane",
+      "paragraphs": [
+        "Long before pit looms begin their rhythmic clatter indoors, entire lanes wake together to stretch forty-yard cotton warps between granite posts.",
+        "Walking slowly with two master brush-makers reveals how tactile memory guides every pass—adjusting tension by hand as humidity shifts across the valley.",
+        "Because guests arrive in groups of two or three rather than tour coaches, conversations unfold naturally over black <i>chukku kaapi</i> without interrupting morning work."
+      ]
+    },
+    {
+      "type": "slider",
+      "data": {
+        "eyebrow": "ROUTE IN FRAMES",
+        "title": "Selected Landscapes & Stays",
+        "images": [
+          {
+            "src": "/images/journal/journal1.webp",
+            "alt": "Editorial travel scene showing landscape detail from Kenya on Conservancies & Maasai Horizons within this carefully designed cultural",
+            "caption": "Visual field note 1 from the landscapes and cultural atmosphere of Kenya."
+          },
+          {
+            "src": "/images/journal/journal2.webp",
+            "alt": "Editorial travel scene showing landscape detail from Kenya on Conservancies & Maasai Horizons within this carefully designed cultural",
+            "caption": "Visual field note 2 from the landscapes and cultural atmosphere of Kenya."
+          },
+          {
+            "src": "/images/journal/journal3.webp",
+            "alt": "Editorial travel scene showing landscape detail from Kenya on Conservancies & Maasai Horizons within this carefully designed cultural",
+            "caption": "Visual field note 3 from the landscapes and cultural atmosphere of Kenya."
+          },
+          {
+            "src": "/images/journal/journal4.webp",
+            "alt": "Editorial travel scene showing landscape detail from Kenya on Conservancies & Maasai Horizons within this carefully designed cultural",
+            "caption": "Visual field note 4 from the landscapes and cultural atmosphere of Kenya."
+          },
+          {
+            "src": "/images/journal/journal5.webp",
+            "alt": "Editorial travel scene showing landscape detail from Kenya on Conservancies & Maasai Horizons within this carefully designed cultural",
+            "caption": "Visual field note 5 from the landscapes and cultural atmosphere of Kenya."
+          }
+        ],
+        "width": 1200,
+        "height": 800,
+        "autoplay": false,
+        "interval": 5000,
+        "captionMob": false,
+        "captionPc": false
+      }
+    },
+    {
+      "type": "text",
+      "id": "custodians-of-living-heritage",
+      "title": "Custodians of Living Heritage",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Across forty rural guilds, our field collaborations connect thoughtful travellers and <a href='/partner' target='_self'>international travel partners</a> directly with master artisans—ensuring patronage sustains young apprentices rather than middlemen. Read our <span data-scroll-to='what-we-carry-home'>field etiquette guidelines below</span>."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "eyebrow": "TRAVELLER BRIEFING",
+      "title": "Visiting Working Craft Ateliers",
+      "subtitle": "Practical rhythms & cultural etiquette along the Nila basin",
+      "text": "Master weavers and bell-metal smiths welcome guests into active domestic courtyards rather than staged showrooms. Planning around <span class='rt-dark-gold'><strong>seasonal monsoon humidity and morning light</strong></span> ensures an unhurried exchange.",
+      "unorderedList": {
+        "title": "What to Keep in Mind",
+        "items": [
+          "Footwear is customarily left at the outer stone step (<i>padippura</i>) before entering loom verandahs.",
+          "Ask your host scholar before photographing sacred warp motifs or family shrines.",
+          "Carry breathable cotton attire suited for warm charcoal-and-clay casting sheds."
+        ]
+      },
+      "orderedList": {
+        "title": "How a Hosted Studio Dialogue Unfolds",
+        "items": [
+          "<strong>Morning Tea & Context:</strong> Arrive before 9:30 AM when street-sizing and loom drafting are active.",
+          "<strong>Material Walkthrough:</strong> Examine raw hank cotton, natural dyestuffs, and pure <i>kasavu</i> threads alongside the maker.",
+          "<strong>Direct Patronage:</strong> Commission bespoke weaves directly from the household ledger with zero intermediary markup."
+        ]
+      }
+    },
+    {
+      "type": "horizontal-slider",
+      "data": {
+        "eyebrow": "VISUAL CHRONICLE",
+        "title": "Frames Across the Malabar Coast",
+        "paragraph": "Drag or swipe through moments captured across sacred groves, private spice estates, and quiet backwater mornings.",
+        "sliderHeight": 400,
+        "innerRounding": false,
+        "images": [
+          {
+            "src": "/images/itineraries/dummy1.webp",
+            "alt": "Sacred Theyyam ritual preparation at dawn",
+            "width": 600,
+            "height": 900,
+            "caption": "Sacred facial painting before the dawn invocation."
+          },
+          {
+            "src": "/images/home/travel-video.webp",
+            "alt": "Portrait of a master bronze artisan in Kumbakonam",
+            "width": 800,
+            "height": 450,
+            "caption": "Seventh-generation sthapathi shaping a wax mould."
+          },
+          {
+            "src": "/images/home/solo-portrait.webp",
+            "alt": "Morning mist over a private cardamom estate in Wayanad",
+            "width": 600,
+            "height": 900,
+            "caption": "Early monsoon mist drifting through highland canopies."
+          },
+          {
+            "src": "/images/home/journey-pc.webp",
+            "alt": "Traditional wooden kettuvallam gliding across quiet backwaters",
+            "width": 1440,
+            "height": 960,
+            "caption": "Late afternoon light on the Vembanad canals."
+          },
+          {
+            "src": "/images/journal/journal1.webp",
+            "alt": "Traditional wooden kettuvallam gliding across quiet backwaters",
+            "width": 600,
+            "height": 400,
+            "caption": "Late afternoon light on the Vembanad canals."
+          }
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "blue",
+      "text": "When patronage flows directly to the courtyard studio, young apprentices see a future in inherited craft.",
+      "quoteAuthor": "Field Notes · Malabar Guilds"
+    },
+    {
+      "type": "text",
+      "id": "travelling-with-care",
+      "eyebrow": "FIELD ETIQUETTE",
+      "eyebrowLevel": 2,
+      "title": "Travelling with Care",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Unhurried travel asks us to <em>listen before we photograph</em>, to honour domestic and sacred thresholds, and to treat every workshop visit as a guest in someone’s home."
+        }
+      ]
+    },
+    {
+      "type": "highlights",
+      "title": "Principles of Our Field Encounters",
+      "items": [
+        "Direct grass-roots introductions guided by regional scholars and community elders.",
+        "Paced itineraries that leave margin for spontaneous conversation and quiet observation.",
+        "Transparent local patronage that directly supports family ateliers and conservation buffers."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "what-we-carry-home",
+      "title": "What We Carry Home",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Long after a journey ends, what stays with us is rarely a pin on a map—it is the warmth of afternoon black tea spiced with crushed cardamom in a weaver’s verandah and the quiet resilience of the hands that shaped it."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "FURTHER READING",
+      "eyebrowLevel": 2,
+      "title": "Continue Exploring",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Go deeper into Kerala’s handloom legacy, bell-metal ateliers, and wider cultural landscapes with these trusted archival resources."
+        }
+      ],
+      "list": {
+        "type": "divided",
+        "items": [
+          {
+            "title": "<a href='https://www.keralatourism.org/responsible-tourism' target='_blank'>Kerala Responsible Tourism Mission: Village Life Experiences</a>",
+            "text": "An overview of community-led craft circuits, signature weaves, and rural livelihoods across Kerala."
+          },
+          {
+            "title": "<a href='https://ich.unesco.org' target='_blank'>UNESCO Intangible Cultural Heritage Archives</a>",
+            "text": "Documentation on South India’s living ritual traditions, Sanskrit theatre, and oral performance lineages."
+          },
+          {
+            "title": "<a href='/journal/regenerative-handloom-corridor' target='_self'>Case Study: Restoring the Handloom Corridor of Kuthampully</a>",
+            "text": "See how direct atelier visits reshaped weaver household incomes along the Bharathapuzha river."
+          }
+        ]
+      }
+    },
+    {
+      "type": "author-profile"
+    }
+  ]
+}

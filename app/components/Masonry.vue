@@ -42,7 +42,7 @@ const props = withDefaults(
   defineProps<{
     block: MasonryBlockConfig
     /** Max columns on desktop for 4+ images (3 for Itineraries, configurable for Journal) */
-    maxCols?: 2 | 3 | 4
+    maxCols?: 1 | 2 | 3 | 4 | undefined
   }>(),
   {
     maxCols: 3

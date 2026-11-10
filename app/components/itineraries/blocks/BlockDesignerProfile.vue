@@ -19,7 +19,7 @@ defineProps<{
     :id="data.sectionId"
     :aria-label="`About route designer ${data.name}`"
     v-motion-fade-up
-    class="scroll-mt-36 relative w-full rounded-2xl sm:rounded-3xl bg-soft-cream/25 border border-dark-gold/30 p-6 sm:p-8 md:p-10 shadow-2xs overflow-hidden flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8 md:gap-10"
+    class="group scroll-mt-36 relative w-full rounded-2xl sm:rounded-3xl bg-linear-to-br from-soft-cream/28 via-soft-cream/10 to-surface-light border border-dark-gold/25 hover:border-dark-gold/45 p-6 sm:p-8 md:p-10 shadow-2xs hover:shadow-sm transition-all duration-500 overflow-hidden flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8 md:gap-10"
   >
     <!-- Circular Avatar (Strict 1:1 Aspect Ratio) -->
     <div class="relative w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 aspect-square rounded-full overflow-hidden border-2 border-dark-gold/40 bg-surface-light shadow-xs shrink-0 z-10">
@@ -30,7 +30,7 @@ defineProps<{
         height="288"
         loading="lazy"
         decoding="async"
-        class="absolute inset-0 w-full h-full object-cover object-center select-none"
+        class="absolute inset-0 w-full h-full object-cover object-center select-none transition-transform duration-700 ease-editorial group-hover:scale-105"
       />
     </div>
 
@@ -53,7 +53,7 @@ defineProps<{
     <svg
       viewBox="0 0 24 24"
       fill="currentColor"
-      class="pointer-events-none absolute -bottom-8 -right-4 w-48 h-48 sm:w-56 sm:h-56 text-dark-gold/10 select-none"
+      class="pointer-events-none absolute -bottom-8 -right-4 w-48 h-48 sm:w-56 sm:h-56 text-dark-gold/10 select-none transition-transform duration-700 ease-editorial group-hover:scale-105 group-hover:-translate-x-0.5 group-hover:-translate-y-0.5"
       aria-hidden="true"
     >
       <path d="M12 2L2 22h20L12 2zm0 4.2L18.4 19H5.6L12 6.2z" />

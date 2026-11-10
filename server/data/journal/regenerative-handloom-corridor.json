@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "id": "jrn-story-01",
+    "slug": "regenerative-handloom-corridor",
+    "category": "stories",
+    "type": "stories",
+    "subcategory": "case-studies",
+    "subcategoryLabel": "CASE STUDIES",
+    "contentTypeLabel": "ARTICLE",
+    "categoryLabel": "ARTICLE · CASE STUDIES",
+    "featured": true,
+    "title": "Restoring the Handloom Corridor of Kuthampully",
+    "excerpt": "How connecting discerning travellers directly with master weavers eliminated middlemen and increased artisan studio revenue by 65%.",
+    "headerQuote": "Direct patronage turns a vulnerable heritage craft into a thriving family enterprise.",
+    "author": "Sree Jith",
+    "readTime": "6 MIN READ",
+    "publishDate": "2026-10-16",
+    "tags": ["#ITINERARYDESIGN", "#OUTCOMES", "#HANDLOOMS"],
+    "categories": ["bespoke"],
+    "topics": ["#ITINERARYDESIGN", "#OUTCOMES", "#HANDLOOMS"],
+    "image": "/images/journal/journal4.webp",
+    "alt": "Traditional kasavu handloom weave in Kuthampully village"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "context-along-the-river",
+      "eyebrow": "CASE STUDY · THRISSUR & PALAKKAD BORDER",
+      "eyebrowLevel": 1,
+      "title": "Context Along the Bharathapuzha",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Nestled along a quiet bend of the Nila river, the weaving settlement of <strong>Kuthampully</strong> has dressed Kerala’s festivals for over five centuries since royal patrons brought <i>Devanga</i> master weavers from Mysore. Yet by the late 2010s, powerloom imitations and multi-tier wholesale brokers left independent pit-loom households earning bare daily margins."
+        },
+        {
+          "level": 2,
+          "text": "When we began co-designing slow cultural routes in the region, our goal was clear: replace hurried 15-minute showroom stops with <span class='rt-dark-gold'><strong>hosted, paid atelier dialogues and direct commission channels</strong></span>."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "co-designing-the-intervention",
+      "title": "Co-Designing the Journey Framework",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Working alongside twelve multi-generational weaving families, we restructured how guests experience the village—aligning visit hours with natural morning warp-sizing schedules rather than disrupting midday rest."
+        }
+      ],
+      "list": {
+        "type": "ordered",
+        "level": 2,
+        "items": [
+          "<strong>Guaranteed Host Honorariums:</strong> Every studio dialogue compensates master weavers for their teaching time regardless of textile purchases.",
+          "<strong>Zero-Commission Direct Patronage:</strong> Guests commission custom <i>kasavu</i> and natural-dyed weaves straight from the loom household at 100% maker-set pricing.",
+          "<strong>Bilingual Craft Interpretation:</strong> Local textile researchers accompany small groups (maximum 6 guests) to translate technical Jacquard and extra-weft terminology."
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "plan"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "partner"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "impact"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "about"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "contact"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "itineraries",
+      "eyebrow": "COLLABORATED TEXTILE ROUTES",
+      "title": "Walk the Loom Villages of Central Kerala",
+      "text": "Experience hosted pit-loom dialogues across Kuthampully and Chendamangalam inside our Collaborated Itineraries.",
+      "ctaLabel": "VIEW COLLABORATED ROUTES",
+      "to": "/itineraries/collaborated"
+    },
+    {
+      "type": "image-split",
+      "title": "Inside the Courtyard Pit-Loom Ateliers",
+      "text": "Unmediated conversations over morning coffee allow travellers to understand why a single hand-drafted kasavu sari takes four to nine days of focused rhythm.",
+      "image": "/images/journal/journal5.webp",
+      "imageAlt": "Artisan demonstrating warp preparation in Kuthampully"
+    },
+    {
+      "type": "quote",
+      "text": "When travellers sit beside our loom and understand the count of the cotton, they no longer bargain—they become lifelong patrons of our family’s name.",
+      "quoteAuthor": "Narayanan Master, 3rd Generation Weaver"
+    },
+    {
+      "type": "text",
+      "id": "measurable-community-outcomes",
+      "eyebrow": "24-MONTH IMPACT AUDIT",
+      "eyebrowLevel": 2,
+      "title": "Measurable Outcomes After Two Seasons",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Across two consecutive travel seasons, forty-two small-group and private journeys visited partner studios along the corridor—generating sustained income without crowding village lanes. Jump to <span data-scroll-to='lessons-for-journey-design'>our key design lessons</span>."
+        }
+      ],
+      "list": {
+        "type": "unordered",
+        "level": 2,
+        "items": [
+          "<strong>+65% Net Studio Revenue:</strong> Partner households retained full retail value plus dedicated teaching honorariums.",
+          "<strong>4 Young Apprentices Retained:</strong> Next-generation family members stayed in textile design and natural dyeing rather than migrating out of the craft.",
+          "<strong>100% Geographical Indication (GI) Integrity:</strong> Every textile acquired by guests carried verified Kuthampully handloom provenance."
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "blue",
+      "text": "When patronage flows directly to the courtyard studio, young apprentices see a future in inherited craft.",
+      "quoteAuthor": "Field Notes · Malabar Guilds"
+    },
+    {
+      "type": "text",
+      "id": "lessons-for-journey-design",
+      "title": "Lessons for Regenerative Journey Design",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "True cultural preservation thrives on <em>dignity, pacing, and economic transparency</em>. Explore how we apply this same collaborative model across our <a href='/itineraries/collaborated' target='_self'>Collaborated Itineraries</a> and <a href='/journal/the-stories-that-live-beyond-the-map' target='_self'>Living Heritage dispatches</a>."
+        }
+      ]
+    },
+    {
+      "type": "highlights",
+      "title": "Blueprint Takeaways",
+      "items": [
+        "Cap studio visits at two small groups per week per household to prevent host fatigue.",
+        "Separate educational honorariums from retail sales so artisans never feel pressured to perform.",
+        "Maintain long-term post-journey shipping support for bespoke slow-woven commissions."
+      ]
+    },
+    {
+      "type": "author-profile",
+      "theme": "blue",
+      "eyebrow": "CURATOR & FIELD LEAD",
+      "title": "Sree Jith",
+      "text": "Working alongside twelve weaving households in Kuthampully since 2022 to build commission-free atelier visits and long-term craft patronage across central Kerala."
+    }
+  ]
+}

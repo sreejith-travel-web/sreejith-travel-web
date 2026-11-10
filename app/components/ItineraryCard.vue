@@ -27,12 +27,12 @@ const props = defineProps<{
 
 const cardSurfaceClass = computed(() => {
   if (props.item.type === 'signature') {
-    return 'bg-soft-cream/5 border border-dark-gold/25 shadow-xs hover:shadow-md active:shadow-md'
+    return 'bg-linear-to-br from-soft-cream/28 via-soft-cream/10 to-surface-light border border-dark-gold/25 hover:border-dark-gold/45 active:border-dark-gold/45 shadow-xs hover:shadow-md active:shadow-md'
   }
   if (props.item.type === 'collaborated') {
-    return 'bg-soft-peach/5 border border-dark-peach/25 shadow-xs hover:shadow-md active:shadow-md'
+    return 'bg-linear-to-br from-soft-peach/22 via-soft-peach/8 to-surface-light border border-dark-peach/25 hover:border-dark-peach/45 active:border-dark-peach/45 shadow-xs hover:shadow-md active:shadow-md'
   }
-  return 'bg-surface-light border border-journey-deep/12 shadow-2xs hover:shadow-md active:shadow-md'
+  return 'bg-linear-to-br from-soft-blue/18 via-soft-blue/6 to-surface-light border border-journey-deep/12 hover:border-action-blue/40 active:border-action-blue/40 shadow-2xs hover:shadow-md active:shadow-md'
 })
 
 const dividerBarClass = computed(() => {

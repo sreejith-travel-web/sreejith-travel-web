@@ -264,6 +264,53 @@
           }
         },
         {
+          "type": "horizontal-slider",
+          "data": {
+            "eyebrow": "VISUAL CHRONICLE",
+            "title": "Frames Across the Malabar Coast",
+            "paragraph": "Drag or swipe through moments captured across sacred groves, private spice estates, and quiet backwater mornings.",
+            "sliderHeight": 400,
+            "innerRounding": false,
+            "images": [
+              {
+                "src": "/images/itineraries/dummy1.webp",
+                "alt": "Sacred Theyyam ritual preparation at dawn",
+                "width": 600,
+                "height": 900,
+                "caption": "Sacred facial painting before the dawn invocation."
+              },
+              {
+                "src": "/images/home/travel-video.webp",
+                "alt": "Portrait of a master bronze artisan in Kumbakonam",
+                "width": 800,
+                "height": 450,
+                "caption": "Seventh-generation sthapathi shaping a wax mould."
+              },
+              {
+                "src": "/images/home/solo-portrait.webp",
+                "alt": "Morning mist over a private cardamom estate in Wayanad",
+                "width": 600,
+                "height": 900,
+                "caption": "Early monsoon mist drifting through highland canopies."
+              },
+              {
+                "src": "/images/home/journey-pc.webp",
+                "alt": "Traditional wooden kettuvallam gliding across quiet backwaters",
+                "width": 1440,
+                "height": 960,
+                "caption": "Late afternoon light on the Vembanad canals."
+              },
+              {
+                "src": "/images/journal/journal1.webp",
+                "alt": "Traditional wooden kettuvallam gliding across quiet backwaters",
+                "width": 600,
+                "height": 400,
+                "caption": "Late afternoon light on the Vembanad canals."
+              }
+            ]
+          }
+        },
+        {
           "type": "numbered-list",
           "data": {
             "title": "Suggested Packing & Preparation",

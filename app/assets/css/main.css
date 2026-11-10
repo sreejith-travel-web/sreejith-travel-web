@@ -106,6 +106,10 @@
   @apply flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full;
 }
 
+@utility page-title-sans {
+  @apply font-primary uppercase text-[27px] 2xs:text-[28px] xs:text-[32px] sm:text-[38px] md:text-[42px] lg:text-[47px] xl:text-[52px] tracking-[0.02em] leading-tight font-semibold max-[320px]:text-balance;
+}
+
 @utility section-title-sans {
   @apply font-primary uppercase text-[26px] 2xs:text-[27px] xs:text-[31px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] tracking-normal leading-tight font-medium max-[320px]:text-balance;
 }
@@ -157,7 +161,7 @@
 }
 
 @utility quote-left-border {
-  @apply border-l-[3px] pl-3 md:pl-4 py-0.5 mb-6 md:mb-7;
+  @apply border-l-[5px] my-2 pl-4 sm:pl-6 py-4 sm:py-6 bg-bg-dark/7 rounded-2xl;
 }
 
 /* --- Card Utilities --- */
@@ -219,6 +223,10 @@
   @apply absolute -bottom-px inset-x-0 h-0.5 bg-journey-deep;
 }
 
+@utility journal-header-quote {
+  @apply font-quote italic font-medium text-[24px] 2xs:text-[26px] xs:text-[28px] sm:text-[30px] lg:text-[33px] xl:text-[37px] 2xl:text-[42px] leading-[1.3] tracking-tight;
+}
+
 /* Outward bottom-left and bottom-right curved extensions on active tab */
 .trapezium-tab-active::before,
 .trapezium-tab-active::after {
@@ -274,6 +282,90 @@
 .group:active .itinerary-cta-ring {
   stroke-width: 2;
 }
+
+/* --- Journal Subsection H4 Typography --- */
+@utility subsection-title {
+  @apply font-primary font-semibold text-[17px] 2xs:text-[18px] xs:text-[19px] sm:text-[20px] md:text-[21px] lg:text-[22px] xl:text-[24px] leading-[1.3] tracking-tight;
+}
+
+/* --- Journal Rich Text & Semantic Color Tokens --- */
+.journal-rich-text :where(strong, b) {
+  font-weight: 600;
+  color: var(--color-journey-deep);
+}
+
+.journal-rich-text :where(a, [class*="rt-"]) :where(strong, b) {
+  color: inherit;
+}
+
+.journal-rich-text :where(i) {
+  font-style: italic;
+}
+
+.journal-rich-text :where(em) {
+  font-style: italic;
+  font-weight: 500;
+  color: var(--color-journey-deep);
+}
+
+.journal-rich-text :where(u) {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.journal-rich-text :where(sub, sup) {
+  font-size: 0.72em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.journal-rich-text :where(sup) {
+  top: -0.45em;
+}
+
+.journal-rich-text :where(sub) {
+  bottom: -0.22em;
+}
+
+.journal-rich-text :where(a, [data-scroll-to]) {
+  color: var(--color-action-blue);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  transition: color 0.2s var(--ease-editorial), text-decoration-color 0.2s var(--ease-editorial);
+}
+
+.journal-rich-text :where(a:hover, a:active, [data-scroll-to]:hover, [data-scroll-to]:active) {
+  color: var(--color-intention-blue);
+}
+
+/* Automatic gold external-link icon on target="_blank" links */
+.journal-rich-text a[target="_blank"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.82em;
+  height: 0.82em;
+  margin-left: 0.28em;
+  vertical-align: -0.08em;
+  background-color: var(--color-dark-gold);
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cline x1='10' y1='14' x2='21' y2='3'/%3E%3C/svg%3E");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+
+/* Purge-Proof Brand Color Palette for JSON Rich Text Spans */
+.rt-journey-deep { color: var(--color-journey-deep); }
+.rt-intention-blue { color: var(--color-intention-blue); }
+.rt-action-blue { color: var(--color-action-blue); }
+.rt-dark-gold { color: var(--color-dark-gold); }
+.rt-intention-gold { color: var(--color-intention-gold); }
+.rt-terracotta { color: var(--color-terracotta); }
+.rt-deep-forest { color: var(--color-deep-forest); }
+.rt-spiced-copper { color: var(--color-spiced-copper); }
+.rt-dark-peach { color: var(--color-dark-peach); }
+.rt-muted { color: var(--color-muted); }
 
 /* Pure CSS SVG Weaving Engine (Replaces GSAP Draw Path) */
 @keyframes svg-weave-stroke {

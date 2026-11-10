@@ -33,6 +33,9 @@ const props = defineProps<{
 
 const isInitialAppLoad = useInitialAppLoad()
 const hasPlayedEntrance = ref(false)
+const isHeroActive = ref(false)
+const isReturnVideoHold = ref(false)
+const heroActivationCycle = ref(0)
 const currentSlideIndex = ref(0)
 let autoplayTimer: ReturnType<typeof setInterval> | null = null
 
@@ -45,6 +48,14 @@ const getParallax = (speed: number) => {
   if (scrollY <= 0 || scrollY > 1100) return undefined
   return { transform: `translate3d(0, -${(scrollY * speed).toFixed(1)}px, 0)` }
 }
+
+const kenBurnsDurationStyle = computed(() => {
+  const durationMs =
+    props.data.autoplayIntervalMs && props.data.autoplayIntervalMs >= 3000
+      ? props.data.autoplayIntervalMs
+      : 7000
+  return { '--ken-burns-duration': `${durationMs}ms` }
+})
 
 const VIDEO_TINT_CLASS = 'bg-linear-to-b from-journey-deep/30 via-journey-deep/60 to-journey-deep/70'
 const IMAGE_TINT_CLASS = 'bg-linear-to-b from-journey-deep/30 via-journey-deep/60 to-journey-deep/80'
@@ -98,18 +109,30 @@ const startAutoplay = () => {
 const selectSlide = (index: number) => {
   stopAutoplay()
   currentSlideIndex.value = index
+  heroActivationCycle.value += 1
   startAutoplay()
 }
 
+// Once the slide changes away from the return hold, release the hold so video plays when cycle completes
+watch(currentSlideIndex, () => {
+  if (isReturnVideoHold.value) {
+    isReturnVideoHold.value = false
+  }
+})
+
 const activateHero = () => {
   forceTransparent.value = true
+  isHeroActive.value = true
   if (hasPlayedEntrance.value) {
+    isReturnVideoHold.value = true
+    heroActivationCycle.value += 1
     startAutoplay()
   }
 }
 
 const deactivateHero = () => {
   forceTransparent.value = false
+  isHeroActive.value = false
   stopAutoplay()
 }
 
@@ -118,14 +141,15 @@ onMounted(() => {
 
   if (!isInitialAppLoad.value) {
     hasPlayedEntrance.value = true
+    isHeroActive.value = true
     startAutoplay()
   } else {
-    // Fires on the exact frame isInitialAppLoad flips false in app.vue
     const unwatch = watch(
       isInitialAppLoad,
       (isStillLoading) => {
         if (!isStillLoading) {
           hasPlayedEntrance.value = true
+          isHeroActive.value = true
           startAutoplay()
           unwatch()
         }
@@ -144,9 +168,10 @@ onUnmounted(deactivateHero)
   <section
     data-theme="dark"
     aria-label="Home page hero introduction"
+    :style="kenBurnsDurationStyle"
     class="relative w-full h-svh min-h-160 bg-bg-dark flex flex-col justify-center items-center overflow-hidden p-0 m-0 border-0"
   >
-    <!-- 1. Background Layers (Always opacity: 1 underneath PageLoader, scales 1.12 -> 1.0 on reveal) -->
+    <!-- 1. Background Layers -->
     <div class="absolute inset-0 z-0 pointer-events-none w-full h-full">
       <TransitionGroup name="fade-slide">
         <div
@@ -156,14 +181,17 @@ onUnmounted(deactivateHero)
           class="absolute inset-0 w-full h-full overflow-hidden"
           aria-hidden="true"
         >
+          <!-- Video Slide: Standard entrance on first load; expressive Ken Burns on return until slide cycle completes -->
           <div
-            :key="`zoom-media-${index}-${currentSlideIndex === index}`"
-            class="w-full h-full hero-bg-media"
-            :class="hasPlayedEntrance && index === currentSlideIndex ? 'is-revealed' : ''"
+            v-if="slide.type === 'video'"
+            :key="`video-wrap-${index}-${isReturnVideoHold ? heroActivationCycle : 'init'}`"
+            class="w-full h-full hero-video-media"
+            :class="[
+              hasPlayedEntrance && index === currentSlideIndex ? 'is-revealed' : '',
+              isReturnVideoHold && isHeroActive && index === currentSlideIndex ? 'is-return-loop' : ''
+            ]"
           >
-            <!-- Video Slide -->
             <BackgroundVideo
-              v-if="slide.type === 'video'"
               :video-webm="slide.videoWebm"
               :video-mp4="slide.videoMp4"
               :poster-desktop="slide.imageDesktop!"
@@ -177,33 +205,38 @@ onUnmounted(deactivateHero)
               :is-active="index === currentSlideIndex"
               :priority="index === 0"
             />
+          </div>
 
-            <!-- Image Slide -->
-            <template v-else>
-              <picture class="block w-full h-full">
-                <source media="(min-width: 768px)" :srcset="slide.imageDesktop" type="image/webp" width="1600" height="900" />
-                <source media="(max-width: 767px)" :srcset="slide.imageMobile" type="image/webp" width="600" height="900" />
-                <img
-                  :src="slide.imageDesktop"
-                  :alt="slide.alt"
-                  width="1600"
-                  height="900"
-                  :fetchpriority="index === 0 ? 'high' : 'low'"
-                  :loading="index === 0 ? 'eager' : 'lazy'"
-                  :decoding="index === 0 ? 'sync' : 'async'"
-                  class="w-full h-full object-cover object-center"
-                />
-              </picture>
+          <!-- Still Image Slide: Continuous looping Ken Burns zoom on every slide & every return -->
+          <div
+            v-else
+            :key="`still-zoom-${index}-${currentSlideIndex === index}-${heroActivationCycle}`"
+            class="w-full h-full hero-image-loop"
+            :class="hasPlayedEntrance && isHeroActive && index === currentSlideIndex ? 'is-animating' : ''"
+          >
+            <picture class="block w-full h-full">
+              <source media="(min-width: 768px)" :srcset="slide.imageDesktop" type="image/webp" width="1600" height="900" />
+              <source media="(max-width: 767px)" :srcset="slide.imageMobile" type="image/webp" width="600" height="900" />
+              <img
+                :src="slide.imageDesktop"
+                :alt="slide.alt"
+                width="1600"
+                height="900"
+                :fetchpriority="index === 0 ? 'high' : 'low'"
+                :loading="index === 0 ? 'eager' : 'lazy'"
+                :decoding="index === 0 ? 'sync' : 'async'"
+                class="w-full h-full object-cover object-center"
+              />
+            </picture>
 
-              <div :class="['absolute inset-0 z-5', IMAGE_TINT_CLASS]" />
-            </template>
+            <div :class="['absolute inset-0 z-5', IMAGE_TINT_CLASS]" />
           </div>
         </div>
       </TransitionGroup>
     </div>
 
-    <!-- 2. Foreground Content (Starts at 0ms right as PageLoader begins its 0.55s fade-out) -->
-    <div class="relative z-10 w-full h-full min-h-full max-w-240 mx-auto px-2 2xs:px-4 xs:px-6 sm:px-8 md:px-12 lg:px-24 flex items-center justify-center py-20">
+    <!-- 2. Foreground Content (Plays once on initial entrance, stays settled on return) -->
+    <div class="relative z-10 w-full h-full min-h-full max-w-270 mx-auto px-2 2xs:px-4 xs:px-6 sm:px-8 md:px-12 lg:px-24 flex items-center justify-center py-20">
       <div class="w-full flex flex-col items-center text-center mt-[2vh] lg:mt-[6vh]">
         
         <!-- Item 1: Eyebrow (0ms) -->
@@ -225,7 +258,7 @@ onUnmounted(deactivateHero)
           <span :style="getParallax(0.44)" class="block w-full">
             <span
               style="--stagger-delay: 90ms"
-              :class="['block text-surface-light section-title-sans capitalize hero-stagger-item', { 'is-revealed': hasPlayedEntrance }]"
+              :class="['block text-surface-light page-title-sans capitalize hero-stagger-item', { 'is-revealed': hasPlayedEntrance }]"
             >
               {{ data.headingLine1 }}
             </span>
@@ -285,12 +318,23 @@ onUnmounted(deactivateHero)
       >
         <span
           :class="[
-            'block h-1 rounded-full transition-all duration-500 ease-editorial',
+            'relative block h-1 rounded-full overflow-hidden transition-all duration-500 ease-editorial',
             index === currentSlideIndex
-              ? 'w-15 bg-warm-gold'
+              ? 'w-15 bg-surface-light/25'
               : 'w-4 bg-surface-light/40 group-hover:bg-surface-light/80 group-active:bg-surface-light/80'
           ]"
-        />
+        >
+          <span
+            v-if="index === currentSlideIndex"
+            :key="`progress-${currentSlideIndex}-${heroActivationCycle}`"
+            :class="[
+              'block w-full h-full bg-warm-gold rounded-full origin-left',
+              data.autoplay && hasPlayedEntrance && isHeroActive
+                ? 'hero-indicator-progress'
+                : 'scale-x-100'
+            ]"
+          />
+        </span>
       </button>
     </div>
 
@@ -324,18 +368,51 @@ onUnmounted(deactivateHero)
   opacity: 0;
 }
 
-/* 1. Background Zoom: Always opacity: 1 underneath PageLoader (zero black gap), zooms 1.12 -> 1.0 on reveal */
-.hero-bg-media {
-  transform: scale(1.12);
+/* 1A. Video Slide: Original 1st-Load Entrance + Expressive Return Ken Burns Hold */
+.hero-video-media {
+  transform: scale3d(1.12, 1.12, 1);
   will-change: transform;
   transition: transform 2.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.hero-bg-media.is-revealed {
-  transform: scale(1);
+.hero-video-media.is-revealed {
+  transform: scale3d(1, 1, 1);
 }
 
-/* 2. Foreground Stagger: Rises 28px over 1.0s right as PageLoader begins its 0.55s fade-out */
+.hero-video-media.is-return-loop {
+  transition: none;
+  animation: hero-video-poster-return var(--ken-burns-duration, 7000ms) cubic-bezier(0.33, 0, 0.67, 1) infinite alternate;
+}
+
+@keyframes hero-video-poster-return {
+  0% {
+    transform: scale3d(1.18, 1.18, 1) translate3d(-1.5%, -1%, 0);
+  }
+  100% {
+    transform: scale3d(1.02, 1.02, 1) translate3d(1%, 0.5%, 0);
+  }
+}
+
+/* 1B. Still Image Continuous Looping Ken Burns Animation */
+.hero-image-loop {
+  transform: scale3d(1.12, 1.12, 1);
+  will-change: transform;
+}
+
+.hero-image-loop.is-animating {
+  animation: hero-ken-burns-loop var(--ken-burns-duration, 7000ms) cubic-bezier(0.37, 0, 0.63, 1) infinite alternate;
+}
+
+@keyframes hero-ken-burns-loop {
+  0% {
+    transform: scale3d(1.12, 1.12, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/* 2. Foreground Stagger: Rises 28px over 1.0s on first entrance */
 .hero-stagger-item {
   opacity: 0;
   transform: translate3d(0, 28px, 0);
@@ -349,5 +426,21 @@ onUnmounted(deactivateHero)
 .hero-stagger-item.is-revealed {
   opacity: 1;
   transform: translate3d(0, 0, 0);
+}
+
+/* 3. Active Slide Indicator Progress Fill */
+.hero-indicator-progress {
+  transform: scale3d(0, 1, 1);
+  will-change: transform;
+  animation: hero-indicator-fill var(--ken-burns-duration, 7000ms) linear forwards;
+}
+
+@keyframes hero-indicator-fill {
+  0% {
+    transform: scale3d(0, 1, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
 }
 </style>

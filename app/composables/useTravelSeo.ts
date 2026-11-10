@@ -554,4 +554,5 @@ export function useTravelSeo(options: TravelSeoOptions) {
     twitterImage: ogImage,
     twitterImageAlt: ogImageAlt || pageTitle
   })
+
 }

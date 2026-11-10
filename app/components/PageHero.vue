@@ -133,7 +133,7 @@ onMounted(() => {
               :initial="{ opacity:0, y: 22, filter: 'blur(4px)' }"
               :enter="{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 650, ease: [0.22, 1, 0.36, 1], delay: 750 } }"
               :style="getParallax(0.2)"
-              class="section-title-sans capitalize text-surface-light block"
+              class="page-title-sans capitalize text-surface-light block"
             >
               {{ activeData.titleMain }}
             </span>
@@ -156,7 +156,7 @@ onMounted(() => {
             :initial="{ opacity:0, y: 20 }"
             :enter="{ opacity: 1, y: 0, transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 950 } }"
             :style="getParallax(0.15)"
-            class="text-surface-light hero-paragraph"
+            class="text-surface-light section-paragraph"
           >
             {{ activeData.intro }}
           </p>

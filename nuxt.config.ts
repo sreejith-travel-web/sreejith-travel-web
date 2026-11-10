@@ -273,17 +273,6 @@ export default defineNuxtConfig({
         { name: 'geo.position', content: '10.6566728;76.6299029' },
         { name: 'ICBM', content: '10.6566728, 76.6299029' },
 
-        // Global Social Layout Standards (1200x630 JPG)
-        { property: 'og:type', content: 'website' },
-        { property: 'og:locale', content: 'en_US' },
-        { property: 'og:site_name', content: 'Sree Jith Travel' },
-        { property: 'og:image', content: 'https://sreejithtravel.com/images/favicons/sreejith-og-image.jpg' },
-        { property: 'og:image:width', content: '1200' },
-        { property: 'og:image:height', content: '630' },
-        { property: 'og:image:type', content: 'image/jpeg' },
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:image', content: 'https://sreejithtravel.com/images/favicons/sreejith-og-image.jpg' },
-
         // Windows PWA & Mobile Meta Tags
         { name: 'msapplication-TileColor', content: '#051b3b' },
         { name: 'msapplication-TileImage', content: '/images/favicons/ms-icon-144x144.png' },
@@ -295,9 +284,32 @@ export default defineNuxtConfig({
         { name: 'apple-mobile-web-app-capable', content: 'yes' },
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
         { name: 'apple-mobile-web-app-title', content: 'Sree Jith Travel' },
+
+        // Global Social Layout Standards (1200x630 JPG)
+        { property: 'og:type', content: 'website' },
+        { property: 'og:locale', content: 'en_US' },
+        { property: 'og:site_name', content: 'Sree Jith Travel' },
+        { property: 'og:url', content: 'https://sreejithtravel.com/' },
+        { property: 'og:title', content: 'Sree Jith Travel | Bespoke Luxury Travel Experience Designer' },
+        { property: 'og:description', content: 'Designing luxury bespoke journeys bringing together meaningful experiences and authentic stories across Kerala and South India.' },
+        { property: 'og:image', content: 'https://sreejithtravel.com/images/og/home.jpg' },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
+        { property: 'og:image:type', content: 'image/jpeg' },
+
+        // Twitter / X Layout Standards
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:url', content: 'https://sreejithtravel.com/' },
+        { name: 'twitter:title', content: 'Sree Jith Travel | Bespoke Luxury Travel Experience Designer' },
+        { name: 'twitter:description', content: 'Designing luxury bespoke journeys bringing together meaningful experiences and authentic stories across Kerala and South India.' },
+        { name: 'twitter:image', content: 'https://sreejithtravel.com/images/og/home.jpg' },
+      
       ],
 
       link: [
+        // Strict Canonical Authority Anchor
+        { rel: 'canonical', href: 'https://sreejithtravel.com/' },
+        
         // Apple Touch Icons
         { rel: 'apple-touch-icon', sizes: '57x57', href: '/images/favicons/apple-icon-57x57.png' },
         { rel: 'apple-touch-icon', sizes: '60x60', href: '/images/favicons/apple-icon-60x60.png' },
@@ -311,10 +323,10 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', sizes: '167x167', href: '/images/favicons/apple-icon.png' },
         { rel: 'apple-touch-icon', sizes: '190x190', href: '/images/favicons/apple-icon-precomposed.png' },
         // Standard Favicons
-        { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/images/favicons/android-icon-192x192.png' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/favicons/favicon-16x16.png' },
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/favicons/favicon-32x32.png' },
         { rel: 'icon', type: 'image/png', sizes: '96x96', href: '/images/favicons/favicon-96x96.png' },
-        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/favicons/favicon-16x16.png' },
+        { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/images/favicons/android-icon-192x192.png' },
         // Web Manifest
         { rel: 'manifest', crossorigin: 'use-credentials', href: '/manifest.json' },
       ],
