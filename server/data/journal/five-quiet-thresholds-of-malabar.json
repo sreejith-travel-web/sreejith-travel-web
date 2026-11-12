@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "jrn-insight-014",
+    "slug": "five-quiet-thresholds-of-malabar",
+    "layout": "listicle",
+    "category": "insights",
+    "type": "insights",
+    "subcategory": "field-notes",
+    "subcategoryLabel": "FIELD NOTES",
+    "contentTypeLabel": "VISUAL STORY",
+    "categoryLabel": "VISUAL STORY · FIELD NOTES",
+    "featured": true,
+    "title": "Five Quiet Thresholds Across Northern Malabar",
+    "excerpt": "Five unhurried dawn encounters across sacred groves, timber shipyards, and highland spice valleys.",
+    "headerQuote": "Every threshold asks us to slow down before stepping inside.",
+    "author": "Sree Jith",
+    "readTime": "3 MIN STORY",
+    "publishDate": "2026-10-24",
+    "tags": ["#FIELDNOTES", "#HERITAGE", "#MALABAR"],
+    "categories": ["culture", "offbeat"],
+    "topics": ["#FIELDNOTES", "#HERITAGE", "#MALABAR"],
+    "image": "/images/journal/journal3.webp",
+    "alt": "Morning light across northern Kerala waterways and sacred groves"
+  },
+  "listicle": {
+    "autoplayInterval": 5000,
+    "cover": {
+      "image": "/images/home/forest-portrait.webp",
+      "alt": "Canopy light filtering into a sacred grove in northern Kerala"
+    },
+    "slides": [
+      {
+        "eyebrow": "KANNUR · SACRED GROVES",
+        "title": "Lantern Light Outside the Kavu",
+        "text": "Before sunrise drums begin, oil wicks are lit along laterite thresholds where forest patches have remained untouched for generations.",
+        "image": "/images/home/solo-portrait.webp",
+        "alt": "Quiet morning threshold in a Malabar forest sanctuary"
+      },
+      {
+        "eyebrow": "BEYPORE · ESTUARY YARDS",
+        "title": "Hand-Adzed Malabar Teak",
+        "text": "Master <i>uru</i> shipwrights stillfair ocean hulls entirely by eye and plumb-line, scenting the tidal air with seasoned timber and coir.",
+        "image": "/images/home/journey-mob.webp",
+        "alt": "Traditional timber craftsmanship along the Malabar estuary"
+      },
+      {
+        "eyebrow": "KUTHAMPULLY · LOOM LANES",
+        "title": "Forty Yards of Morning Warp",
+        "text": "Entire village lanes wake together at first light to brush rice-starch sizing along stretched cotton warps before tropical heat rises.",
+        "image": "/images/home/journey-mob1.webp",
+        "alt": "Early morning craft rhythm in central Kerala",
+        "ctaLabel": "Explore Textile Routes",
+        "to": "/itineraries"
+      },
+      {
+        "eyebrow": "WAYANAD · CLOUD RIDGES",
+        "title": "Shade-Grown Pepper & Cardamom",
+        "text": "High above the coastal plains, heirloom <i>Kalluvally</i> pepper vines climb native silver-oak and jackfruit canopies in cool monsoon mist.",
+        "image": "/images/itineraries/dummy2.webp",
+        "alt": "Highland spice canopy in Wayanad"
+      },
+      {
+        "eyebrow": "NILA BASIN · DUSK",
+        "title": "Cardamom Tea on the Verandah",
+        "text": "The richest moments happen after notebooks close—sharing black tea and stories on a cool oxide verandah as evening settles over the river.",
+        "image": "/images/itineraries/dummy5.webp",
+        "alt": "Unhurried dusk reflection along the Bharathapuzha river"
+      }
+    ]
+  }
+}

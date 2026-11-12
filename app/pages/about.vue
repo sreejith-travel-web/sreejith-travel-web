@@ -167,7 +167,7 @@ const pageData = {
         subtitle: 'The extraordinary is rarely on the standard itinerary. Because travel becomes memorable when it becomes personal.',
         closingNote: 'Meet the artisans, historians, and custodians who bring these encounters to life.',
         networkCtaLabel: 'Explore the Network',
-        networkCtaTo: '/partner',
+        networkCtaTo: '/network',
         cards: [
           {
             tag: 'PEOPLE',
@@ -259,7 +259,7 @@ const pageData = {
           title: 'Meet the People',
           description: 'Discover the regional designers, storytellers, and 200+ grassroots communities behind our journeys.',
           linkLabel: 'Explore Network',
-          to: '/partner',
+          to: '/network',
           image: '/images/fallbacks/culture.webp',
           imageAlt: 'Collaborated travel designers and community network'
         },

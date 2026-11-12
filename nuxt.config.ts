@@ -166,6 +166,92 @@ export default defineNuxtConfig({
           transition: { duration: 700, ease: [0.22, 1, 0.36, 1] },
         },
       },
+
+      // 7. Tactile Card Settle (Designers & Soft-Gradient Partnership Bento)
+      'atelier-card': {
+        initial: { opacity: 0, y: 22, scale: 0.96 },
+        visibleOnce: {
+          opacity: 1,
+          y: 0,
+          scale: 1,
+          transition: { duration: 580, ease: [0.22, 1, 0.36, 1] },
+        },
+      },
+
+      // 8. Opposing Horizontal Split Entrances (Zero Blur Repaint)
+      'glide-left': {
+        initial: { opacity: 0, x: -28 },
+        visibleOnce: {
+          opacity: 1,
+          x: 0,
+          transition: { duration: 620, ease: [0.22, 1, 0.36, 1] },
+        },
+      },
+
+      'glide-right': {
+        initial: { opacity: 0, x: 28 },
+        visibleOnce: {
+          opacity: 1,
+          x: 0,
+          transition: { duration: 620, ease: [0.22, 1, 0.36, 1] },
+        },
+      },
+
+      // 9. Organic Capsule Bloom (Community Tapestry Nodes)
+      'pill-bloom': {
+        initial: { opacity: 0, y: 14, scale: 0.9 },
+        visibleOnce: {
+          opacity: 1,
+          y: 0,
+          scale: 1,
+          transition: { duration: 520, ease: [0.22, 1, 0.36, 1] },
+        },
+      },
+
+      // 10. Wide Featured Showcase Block (Home Featured Journal, Lead Splits)
+      'editorial-showcase': {
+        initial: { opacity: 0, y: 26, scale: 0.985 },
+        visibleOnce: {
+          opacity: 1,
+          y: 0,
+          scale: 1,
+          transition: { duration: 640, ease: [0.22, 1, 0.36, 1] },
+        },
+      },
+
+      // 11. Inner Page Prologue Choreography (Zero-Blur, Pure GPU Transform + Opacity)
+      'prologue-subtitle': {
+        initial: { opacity: 0, y: 18 },
+        visibleOnce: {
+          opacity: 1,
+          y: 0,
+          transition: { duration: 580, ease: [0.22, 1, 0.36, 1] },
+        },
+      },
+      'wing-expand': {
+        initial: { opacity: 0, scaleX: 0 },
+        visibleOnce: {
+          opacity: 1,
+          scaleX: 1,
+          transition: { duration: 640, ease: [0.22, 1, 0.36, 1] },
+        },
+      },
+      'diamond-bloom': {
+        initial: { opacity: 0, scale: 0.35 },
+        visibleOnce: {
+          opacity: 1,
+          scale: 1,
+          transition: { duration: 520, ease: [0.22, 1, 0.36, 1] },
+        },
+      },
+      'prologue-copy': {
+        initial: { opacity: 0, y: 14 },
+        visibleOnce: {
+          opacity: 1,
+          y: 0,
+          transition: { duration: 620, ease: [0.22, 1, 0.36, 1] },
+        },
+      },
     },
   },
 
@@ -176,7 +262,7 @@ export default defineNuxtConfig({
       { loc: '/', changefreq: 'weekly', priority: 1.0 },
       { loc: '/about', changefreq: 'monthly', priority: 0.8 },
       { loc: '/itineraries', changefreq: 'weekly', priority: 0.9 },
-      { loc: '/partner', changefreq: 'monthly', priority: 0.8 },
+      { loc: '/network', changefreq: 'monthly', priority: 0.8 },
       { loc: '/impact', changefreq: 'monthly', priority: 0.8 },
       { loc: '/journal', changefreq: 'weekly', priority: 0.8 },
       { loc: '/planYourJourney', changefreq: 'monthly', priority: 0.9 },
@@ -200,7 +286,7 @@ export default defineNuxtConfig({
     '/about': { prerender: true },
     '/itineraries': { prerender: true },
     '/itineraries/**': { prerender: true },
-    '/partner': { prerender: true },
+    '/network': { prerender: true },
     '/impact': { prerender: true },
     '/journal': { prerender: true },
     '/journal/**': { prerender: true },

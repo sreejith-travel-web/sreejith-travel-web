@@ -1,0 +1,575 @@
+{
+  "meta": {
+    "id": "jrn-insight-006",
+    "slug": "when-local-knowledge-leads-the-journey",
+    "category": "insights",
+    "type": "insights",
+    "subcategory": "ideas-collaborations",
+    "subcategoryLabel": "IDEAS & COLLABORATIONS",
+    "contentTypeLabel": "PERSPECTIVE",
+    "categoryLabel": "PERSPECTIVE · IDEAS & COLLABORATIONS",
+    "featured": false,
+    "title": "When Local Knowledge Leads the Journey",
+    "excerpt": "What changes when artists, guides, makers and community hosts help write the journey rather than merely appear in it? An essay on fair collaboration, consent and shared creative ownership.",
+    "headerQuote": "A thoughtful journey is not simply designed for a place. It is shaped with the people who know it.",
+    "author": "Sree Jith",
+    "readTime": "18 MIN READ",
+    "publishDate": "2026-11-11",
+    "tags": [
+      "#COLLABORATION",
+      "#LOCALKNOWLEDGE",
+      "#CULTURALTRAVEL"
+    ],
+    "categories": [
+      "bespoke",
+      "culture",
+      "offbeat"
+    ],
+    "topics": [
+      "#COLLABORATION",
+      "#LOCALKNOWLEDGE",
+      "#CULTURALTRAVEL",
+      "#COMMUNITYTOURISM",
+      "#TRAVELDESIGN"
+    ],
+    "image": "/images/journal/journal4.webp",
+    "alt": "Landscape editorial travel image accompanying an essay about collaborative travel design"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "from-display-to-dialogue",
+      "eyebrow": "CHAPTER I · A DIFFERENT START",
+      "title": "The Difference Between Featuring and Listening",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "In a conventional itinerary, a village maker can become a stop between two attractions. A host demonstrates a skill, a traveller takes a photograph, and the vehicle moves on. The encounter may be pleasant. It may even be memorable. But being included in somebody else’s programme is not the same as helping to create it."
+        },
+        {
+          "level": 2,
+          "text": "A collaboration begins with a more demanding question: <strong>What would this experience look like if local knowledge had the first and final word?</strong> The answer may change the route, the group size, the price, the season, and sometimes the decision to offer an experience at all. Those changes are not inconveniences to be edited away. They are evidence that another person’s expertise has begun to matter."
+        },
+        {
+          "level": 2,
+          "text": "For culturally immersive travel in India, collaboration can connect designers with artists, farmers, craftspeople, guides, cooks, conservators and community organisers. The point is not to collect more unusual activities. It is to create room for people who understand a place from the inside to shape how that place is encountered."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "mixed",
+      "text": "A person can be present in an itinerary<br>without having a voice in its design.<br>Collaboration begins when that changes.",
+      "quoteAuthor": "EDITORIAL REFLECTION",
+      "quoteRole": "Sreejith Travel Journal"
+    },
+    {
+      "type": "text",
+      "id": "knowledge-has-a-context",
+      "eyebrow": "CHAPTER II · RESPECT THE EXPERTISE",
+      "title": "Knowledge Is Not Free Raw Material",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "An artisan may know which fibres remain workable in humid air. A farmer knows why a particular path cannot be used after heavy rain. A community guide knows when a lane is busy, when a gathering is private, and which story needs more context than a visitor can reasonably absorb in ten minutes. These are not decorative details. They are forms of professional knowledge."
+        },
+        {
+          "level": 2,
+          "text": "Yet the travel industry sometimes treats that knowledge as a resource to be extracted, translated into engaging copy, and resold as an experience. A better approach begins by asking what the contributor wishes to share, what must stay private, and how their time, preparation and intellectual contribution will be recognised."
+        },
+        {
+          "level": 2,
+          "text": "The difference is especially clear when a craft encounter shifts from watching someone “perform tradition” to <span class='rt-intention-blue'><strong>learning why the work matters today</strong></span>. A maker may discuss changing materials, difficult markets, or new designs rather than repeat a fixed demonstration. That conversation belongs to the maker as much as it belongs to the traveller."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 5,
+      "aspectRatio": "3:2",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "title": "Let the Practitioner Define the Story",
+      "image": "/images/journal/journal4.webp",
+      "imageAlt": "Landscape editorial photograph illustrating a place-based cultural experience",
+      "paragraphs": [
+        "Imagine planning a visit around a working studio. The first conversation should be with its practitioners: Which part of the day is genuinely convenient? Would they prefer discussion, a short observation, or a hands-on session? How many guests can participate without disrupting production?",
+        "A practitioner might propose an encounter that looks nothing like the brochure: fewer photographs, more questions, a walk to the source of the raw material, or a conversation about contemporary work. That is precisely the kind of authorship a collaboration can make possible."
+      ],
+      "eyebrow": "A CHANGE OF PERSPECTIVE",
+      "caption": "The image accompanies a discussion about practitioner-led encounters; it is not documentation of a particular partnership."
+    },
+    {
+      "type": "text",
+      "id": "the-invitation-must-be-mutual",
+      "eyebrow": "CHAPTER III · TWO-WAY PERMISSION",
+      "title": "The Invitation Must Be Mutual",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Consent is often discussed at the moment a camera is raised. In a genuine partnership, it is needed much earlier. There is the consent to participate in the programme, the consent to host a particular group, the consent to be named or photographed in publicity, and the ability to change a decision when circumstances change."
+        },
+        {
+          "level": 2,
+          "text": "A host is not simply an available attraction. They have customers, deadlines, family commitments and days on which welcoming visitors is not desirable. A designer should build flexibility into the route rather than quietly transferring scheduling pressure onto the host. An encounter should be one of the possibilities a place offers, not an entitlement purchased with a ticket."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "title": "Before Calling Someone a Partner",
+      "text": "A good first meeting should produce understanding rather than a promise of bookings.",
+      "eyebrow": "COLLABORATION BRIEF",
+      "unorderedList": {
+        "title": "What to agree on",
+        "level": 3,
+        "items": [
+          {
+            "title": "Purpose:",
+            "text": "Ask what the host hopes participation might provide, including non-financial goals and concerns."
+          },
+          {
+            "title": "Boundaries:",
+            "text": "Agree on privacy, photograph permissions, group sizes, timing and the right to decline."
+          },
+          {
+            "title": "Compensation:",
+            "text": "Discuss preparation, guiding, teaching and travel time—not only purchases made by visitors."
+          },
+          {
+            "title": "Representation:",
+            "text": "Confirm how the host, their work and their community will be described publicly."
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "credit-is-part-of-compensation",
+      "eyebrow": "CHAPTER IV · NAME THE CONTRIBUTION",
+      "title": "Credit Is Part of Compensation",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Payment matters. So does attribution. A visitor may remember a workshop because of one patient conversation, while the itinerary lists only the destination. That imbalance can be corrected. Where people wish to be named, use their preferred names and roles. Where they wish to remain private, respect the absence of a credit as carefully as a requested one."
+        },
+        {
+          "level": 2,
+          "text": "Photography, audio and stories need their own agreements. Permission to attend an activity is not blanket permission to use a portrait in advertising. Permission to record a demonstration is not necessarily permission to reproduce a design or teaching method. The same courtesy applies after the journey: a host should be able to flag an inaccurate caption or ask that a sensitive image be removed."
+        },
+        {
+          "level": 2,
+          "text": "A fair collaboration distinguishes between a <strong>service fee</strong>, an optional <strong>purchase</strong>, and the longer-term value of <strong>creative contribution</strong>. A traveller should be able to enjoy an exchange without being pressured into shopping, and a host should not depend on souvenir sales to be paid for their expertise."
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "FOUR FRAMES · ONE PRINCIPLE",
+      "title": "Different Forms of Local Expertise",
+      "maxCols": 2,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Landscape-format editorial photograph used to represent local expertise",
+          "width": 600,
+          "height": 400,
+          "caption": "Local knowledge may be shared through conversation as well as demonstration."
+        },
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Landscape-format editorial photograph accompanying a cultural-travel essay",
+          "width": 600,
+          "height": 400,
+          "caption": "A community encounter deserves context beyond its most photogenic moment."
+        },
+        {
+          "src": "/images/impact/impact4.webp",
+          "alt": "Landscape-format photograph in the impact image collection",
+          "width": 750,
+          "height": 500,
+          "caption": "Participation should be defined by the people doing the work."
+        },
+        {
+          "src": "/images/impact/impact5.webp",
+          "alt": "Landscape-format photograph in the impact image collection",
+          "width": 750,
+          "height": 500,
+          "caption": "Respectful travel has room for different kinds of contributors."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "who-holds-the-pen",
+      "eyebrow": "CHAPTER V · SHARED AUTHORSHIP",
+      "title": "Who Holds the Pen?",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "An itinerary is a document of decisions: whose story appears first, which route is chosen, how much time is set aside, what the traveller is asked to notice. These decisions quietly distribute power. The person writing the brochure can make a community appear endlessly available, charmingly unchanged, or strangely silent—even without intending to."
+        },
+        {
+          "level": 2,
+          "text": "The solution is not to abandon creative direction. It is to share authorship where it matters. A guide might correct the language used about a ritual. A farmer might suggest a shorter walk that avoids a working plot. A local researcher might explain why a seasonal tradition cannot be scheduled on demand. Rather than dilute the experience, these contributions make its meaning more precise."
+        },
+        {
+          "level": 2,
+          "text": "Co-design is a process, not a label. It can be as modest as presenting the proposed visitor description to a host and inviting changes, or as substantial as developing an entire trail with several local contributors. What matters is whether feedback has the power to alter the final product."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "blue",
+      "imageCols": 7,
+      "aspectRatio": "3:2",
+      "imagePosition": "left",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "title": "From Route Planner to Facilitator",
+      "image": "/images/home/journey-pc.webp",
+      "imageAlt": "Landscape editorial travel image accompanying a discussion of shared journey design",
+      "paragraphs": [
+        "The travel designer still holds an important responsibility: understanding travellers’ needs, arranging reliable transport, accounting for accessibility and creating a coherent rhythm. But that responsibility does not require controlling every story told along the way.",
+        "The strongest design work is often facilitative. It brings people into conversation, translates constraints into workable choices, and makes sure the final journey remains welcoming to visitors without asking hosts to surrender their own pace."
+      ],
+      "eyebrow": "THE DESIGN ROLE",
+      "caption": "Wide-format imagery supports a discussion of routes designed around real relationships, not only destinations."
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "blue",
+      "text": "The question is not only, “What can travellers experience here?”<br>It is also, “Who gets to decide how?”",
+      "quoteAuthor": "DESIGN PRINCIPLE",
+      "quoteRole": "Ideas & Collaborations"
+    },
+    {
+      "type": "text",
+      "id": "design-the-encounter-together",
+      "eyebrow": "CHAPTER VI · TURN PRINCIPLES INTO ROUTES",
+      "title": "Design the Encounter Together",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Suppose a journey includes a morning with a food practitioner, a short landscape walk and a visit to a maker’s studio. The tempting approach is to connect those activities with a neat series of time slots. A collaborative approach begins by learning the conditions under which each encounter would actually be welcome."
+        },
+        {
+          "level": 2,
+          "text": "Perhaps the cook prefers a conversation after the morning rush. Perhaps the maker can host one small group on alternate days. Perhaps the landscape walk should avoid a narrow path during harvest. The resulting itinerary may have fewer stops, more intervals, and a less convenient marketing headline. It may also be far more enjoyable for everyone involved."
+        },
+        {
+          "level": 2,
+          "text": "Good design makes these limits legible to the visitor. If an experience is dependent on a host’s availability, say so. If photography is restricted, say so. If the activity is a conversation rather than a performance, describe it accurately. <span class='rt-dark-gold'><strong>Transparency protects both expectation and dignity.</strong></span>"
+        }
+      ]
+    },
+    {
+      "type": "horizontal-slider",
+      "eyebrow": "COMPOSITION · PEOPLE AND PLACE",
+      "title": "A Landscape of Relationships",
+      "sliderHeight": 390,
+      "innerRounding": false,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/itineraries/dummy3.webp",
+          "alt": "Portrait-format travel photograph illustrating the human scale of a journey",
+          "width": 400,
+          "height": 600,
+          "caption": "Portrait frame: one person, one encounter, one choice at a time."
+        },
+        {
+          "src": "/images/home/journey-pc1.webp",
+          "alt": "Wide-format Kerala journey photograph",
+          "width": 1440,
+          "height": 960,
+          "caption": "Landscape frame: travel connects places that remain independent of the itinerary."
+        },
+        {
+          "src": "/images/home/forest-portrait.webp",
+          "alt": "Portrait-format forest travel photograph",
+          "width": 600,
+          "height": 900,
+          "caption": "Portrait frame: a habitat has rhythms that cannot be rearranged for convenience."
+        },
+        {
+          "src": "/images/impact/impact1.webp",
+          "alt": "Landscape photograph from the impact collection",
+          "width": 750,
+          "height": 500,
+          "caption": "Landscape frame: responsibility is distributed through many ordinary decisions."
+        },
+        {
+          "src": "/images/itineraries/dummy11.webp",
+          "alt": "Portrait-format travel photograph for the editorial filmstrip",
+          "width": 400,
+          "height": 600,
+          "caption": "Portrait frame: people remain more than the roles we assign them."
+        }
+      ],
+      "paragraph": "The photographs are editorial companions to an argument, not portraits of documented project participants."
+    },
+    {
+      "type": "text",
+      "id": "the-value-of-not-doing",
+      "eyebrow": "CHAPTER VII · PROTECT THE NO",
+      "title": "Sometimes Collaboration Means Doing Less",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Not every local skill needs to become a bookable experience. Some traditions are closely tied to family, ritual, or particular community occasions. Others happen in workplaces where visitor access would interfere with livelihood. A thoughtful collaborator can help identify those limits and honour them."
+        },
+        {
+          "level": 2,
+          "text": "This is where the distinction between access and relationship becomes clear. Access asks how to get someone inside a space. Relationship asks whether the invitation makes sense, whether it can be refused, and what remains after the visitor leaves. The most considerate itinerary may sometimes pass by a place without entering it."
+        },
+        {
+          "level": 2,
+          "text": "We often celebrate the encounters a journey makes possible. We should be equally willing to celebrate the boundaries it preserves. A private afternoon, a postponed studio visit, or a story intentionally left untold can be signs of good partnership rather than missed opportunities."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "light",
+      "imageCols": 4,
+      "aspectRatio": "2:3",
+      "imagePosition": "right",
+      "mobileOrder": "text-first",
+      "verticalAlign": "top",
+      "title": "The Boundary Is Part of the Experience",
+      "image": "/images/itineraries/dummy9.webp",
+      "imageAlt": "Portrait-format editorial travel image illustrating the importance of boundaries",
+      "paragraphs": [
+        "In a workshop, home or farm, the visitor enters a life already in progress. An invitation can be generous without being limitless. Narrower access may actually create a better exchange because expectations are honest from the start.",
+        "A co-created itinerary should define what is included and what is not: where guests may go, whom they may photograph, how long the visit lasts, and how the host can pause or cancel when ordinary life demands it."
+      ],
+      "eyebrow": "RESPECTFUL LIMITS",
+      "caption": "A portrait-format editorial frame; no specific host or property is depicted as part of an actual collaboration."
+    },
+    {
+      "type": "text",
+      "id": "creative-ownership-after-visit",
+      "eyebrow": "CHAPTER VIII · THE LONGER RELATIONSHIP",
+      "title": "Creative Ownership Does Not End at Goodbye",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The most visible phase of a partnership is the guest encounter. Less visible is everything that follows: editing promotional photographs, updating website descriptions, handling repeat enquiries, responding to feedback and deciding whether to expand a successful format. These stages also need shared expectations."
+        },
+        {
+          "level": 2,
+          "text": "A host may want the ability to review changes to the programme before publication. A photographer or craft practitioner may want clear limits on how images or original methods are reused. An association of hosts may prefer enquiries to pass through a common contact rather than through one household. None of these needs should be treated as administrative clutter."
+        },
+        {
+          "level": 2,
+          "text": "A collaborative agreement can remain plain-language and small. It should still answer the questions a warm first conversation cannot settle: who is responsible for what, who approves changes, how money flows, how cancellations work, and how to end the partnership respectfully."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "title": "A Small Partnership Agreement",
+      "text": "The purpose is not to turn every exchange into a complex contract. It is to keep essential expectations clear enough that goodwill survives a difficult day.",
+      "eyebrow": "WORKING TOOL",
+      "subtitle": "Questions to resolve before the first booking",
+      "unorderedList": {
+        "title": "What to agree on",
+        "level": 3,
+        "items": [
+          {
+            "title": "Attribution and use:",
+            "text": "Names, photographs, recordings and any original content shared for publication."
+          },
+          {
+            "title": "Operations:",
+            "text": "Visitor limits, hours, accessibility, cancellations and points of contact."
+          },
+          {
+            "title": "Fair terms:",
+            "text": "Fees, deposits, payment timing, refunds, and whether purchases are optional."
+          }
+        ]
+      },
+      "orderedList": {
+        "title": "A practical sequence",
+        "level": 3,
+        "items": [
+          "<strong>Listen:</strong> Ask each contributor what makes participation worthwhile and what would make it unacceptable.",
+          "<strong>Co-draft:</strong> Review the public description and visitor experience with the host.",
+          "<strong>Pilot:</strong> Test with a small agreed group and collect host feedback privately.",
+          "<strong>Revise:</strong> Change or discontinue the format if the experience creates unwanted pressure."
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "small-partnerships-lasting-relationships",
+      "eyebrow": "CHAPTER IX · THINK LONGER",
+      "title": "Small Partnerships, Lasting Relationships",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A thoughtful route may grow through a handful of small collaborations rather than one large campaign. A host knows when a conversation has become tiring. A researcher notices the missing context in a story. A maker suggests a workshop format that fits their actual practice. Each improvement is local, specific, and difficult to replicate by copying an itinerary."
+        },
+        {
+          "level": 2,
+          "text": "The long-term value is not automatically measured by how many visitors pass through. It might be a useful additional income stream, a stronger network among practitioners, improved visitor understanding, or simply a format a host genuinely enjoys. Such outcomes should be discussed with the partners involved rather than assumed from visitor applause."
+        },
+        {
+          "level": 2,
+          "text": "Kerala’s <a href='https://www.keralatourism.org/responsible-tourism/' target='_blank'>Responsible Tourism Mission</a> provides a real policy and programme context for community participation and local livelihood linkages. Its <a href='https://www.keralatourism.org/responsible-tourism/street-project' target='_blank'>STREET initiative</a> offers another example of planning tourism around living village activities with local participation. These are not proof that every individual project succeeds. They are reminders that shared participation can be designed into a destination rather than added as an afterthought."
+        }
+      ]
+    },
+    {
+      "type": "slider",
+      "eyebrow": "PHOTO ESSAY · IN CONTEXT",
+      "title": "Many Ways to Belong to a Journey",
+      "width": 1440,
+      "height": 960,
+      "autoplay": false,
+      "interval": 5500,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Landscape-format Kerala travel photograph",
+          "caption": "A journey is shaped by the different perspectives of its contributors."
+        },
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Landscape-format editorial impact photograph",
+          "caption": "Landscapes create both opportunity and responsibility."
+        },
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Wide editorial landscape photograph from the forest collection",
+          "caption": "Ecological limits can guide itinerary choices."
+        },
+        {
+          "src": "/images/journal/journal5.webp",
+          "alt": "Landscape-format editorial travel photograph",
+          "caption": "Meaningful collaboration is often built through ordinary exchanges."
+        }
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "partner",
+      "title": "Build a Journey With Local Voices at Its Centre",
+      "text": "If you host, research, teach, make or guide, explore what a fair and thoughtful collaboration might look like.",
+      "eyebrow": "IDEAS & COLLABORATIONS",
+      "ctaLabel": "PARTNER WITH US"
+    },
+    {
+      "type": "text",
+      "id": "questions-before-we-collaborate",
+      "eyebrow": "CHAPTER X · A BETTER QUESTION",
+      "title": "Questions Worth Carrying Into the Next Meeting",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "What would we stop doing if local contributors had genuine veto power? Which part of the experience is teaching, and which part is merely display? Who can correct an inaccurate story? What happens when the host is tired, a harvest is late, or a ceremony is private? These questions will not produce a perfect formula. They do something more useful: they make the designer accountable to people beyond the traveller."
+        },
+        {
+          "level": 2,
+          "text": "A meaningful partnership is not one in which everybody agrees immediately. It is one in which disagreement can lead to better design—and in which the people sharing their world have the freedom to remain authors of it."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "cream",
+      "text": "The best collaboration does not make a place ours to tell.<br>It helps us become better at listening to the people who live its story.",
+      "quoteAuthor": "THE JOURNAL",
+      "quoteRole": "Closing reflection"
+    },
+    {
+      "type": "highlights",
+      "theme": "blue",
+      "eyebrow": "KEY IDEAS",
+      "title": "Five Principles to Carry Forward",
+      "items": [
+        "Let local contributors define the purpose and limits of their participation.",
+        "Pay for expertise and preparation; do not replace fair fees with exposure or uncertain sales.",
+        "Ask permission separately for hosting, photography, publication and reuse.",
+        "Give hosts meaningful approval over descriptions, formats and changes.",
+        "Evaluate a partnership through host experience as well as guest satisfaction."
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "CONTINUE THE CONVERSATION",
+      "eyebrowLevel": 2,
+      "title": "Further Reading and Related Journeys",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "These resources offer useful public context for community participation in travel; they do not establish the results of any particular partnership described in this essay."
+        }
+      ],
+      "list": {
+        "type": "divided",
+        "items": [
+          {
+            "title": "<a href='https://www.keralatourism.org/responsible-tourism/objectives/3' target='_blank'>Objectives of Kerala Responsible Tourism Mission</a>",
+            "text": "Official objectives covering local employment, fair trade, capacity building and community involvement."
+          },
+          {
+            "title": "<a href='https://www.keralatourism.org/responsible-tourism/village-life-experience/12' target='_blank'>Village Life Experience</a>",
+            "text": "Kerala Tourism’s overview of participatory village experiences and native livelihoods."
+          },
+          {
+            "title": "<a href='/itineraries/collaborated' target='_self'>Explore Collaborated Itineraries</a>",
+            "text": "See how multiple interests and perspectives can inform route design."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "itineraries",
+      "title": "Explore Journeys Shaped by People and Place",
+      "text": "Browse experiences designed to leave room for genuine encounters and the knowledge of those who welcome us."
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "contact",
+      "title": "Have an Idea Worth Building Together?",
+      "text": "Start a conversation about a cultural journey, a creative collaboration, or a shared travel initiative."
+    },
+    {
+      "type": "author-profile",
+      "theme": "blue",
+      "eyebrow": "ABOUT THE AUTHOR",
+      "title": "Sree Jith",
+      "text": "Sree Jith designs culturally immersive travel experiences in India, inspired by people, places and stories. This perspective considers how local expertise, creative ownership and trust can shape better journeys; examples are illustrative unless explicitly linked to a documented programme.",
+      "image": "/images/testimonials/avatar.webp",
+      "imageAlt": "Square author-profile avatar for Sree Jith"
+    }
+  ]
+}

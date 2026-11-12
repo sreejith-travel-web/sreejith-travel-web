@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "id": "jrn-insight-017",
+    "slug": "ten-ways-travel-can-make-your-life-richer",
+    "layout": "listicle",
+    "category": "insights",
+    "type": "insights",
+    "subcategory": "travel-perspectives",
+    "subcategoryLabel": "TRAVEL PERSPECTIVES",
+    "contentTypeLabel": "VISUAL STORY",
+    "categoryLabel": "VISUAL STORY · TRAVEL PERSPECTIVES",
+    "featured": false,
+    "title": "10 Ways Travel Can Make Your Life Richer",
+    "excerpt": "Not through more stamps or souvenirs, but through attention, humility, connection, and the ways a journey can change everyday life.",
+    "headerQuote": "The richest thing you bring home may not fit in your luggage.",
+    "author": "Sree Jith",
+    "readTime": "2 MIN STORY",
+    "publishDate": "2026-11-12",
+    "tags": [
+      "#TRAVEL",
+      "#PERSPECTIVE",
+      "#SLOWTRAVEL"
+    ],
+    "categories": [
+      "culture",
+      "offbeat"
+    ],
+    "topics": [
+      "#TRAVEL",
+      "#PERSPECTIVE",
+      "#SLOWTRAVEL"
+    ],
+    "image": "/images/journal/journal3.webp",
+    "alt": "Landscape travel photograph introducing the perspective gained through thoughtful journeys."
+  },
+  "listicle": {
+    "autoplayInterval": 5000,
+    "cover": {
+      "image": "/images/journal/journal3.webp",
+      "alt": "Landscape travel photograph introducing the perspective gained through thoughtful journeys."
+    },
+    "slides": [
+      {
+        "eyebrow": "01 · ATTENTION",
+        "title": "You Learn to Notice Again",
+        "text": "Away from familiar routines, the ordinary becomes visible: a breakfast ritual, an unfamiliar tree, the way morning arrives on another street.",
+        "image": "/images/home/solo-portrait.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on careful attention to everyday details."
+      },
+      {
+        "eyebrow": "02 · LISTENING",
+        "title": "You Become a Better Listener",
+        "text": "When you cannot predict every word or custom, listening stops being a courtesy and becomes the beginning of understanding.",
+        "image": "/images/itineraries/dummy1.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on listening across languages and cultures."
+      },
+      {
+        "eyebrow": "03 · COURAGE",
+        "title": "You Practise Being New",
+        "text": "Finding your way, asking a question, trying again after confusion: small unfamiliar moments build confidence without requiring grand adventures.",
+        "image": "/images/itineraries/dummy2.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on growing comfortable with unfamiliar surroundings."
+      },
+      {
+        "eyebrow": "04 · PERSPECTIVE",
+        "title": "Your Assumptions Get Tested",
+        "text": "A different routine is not necessarily a lesser one. Travel can reveal how many habits we mistake for universal truths.",
+        "image": "/images/itineraries/dummy3.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on reconsidering habits and assumptions."
+      },
+      {
+        "eyebrow": "05 · TIME",
+        "title": "You Find Another Pace",
+        "text": "A long conversation or an unplanned pause can feel more valuable than the next attraction. Not every meaningful hour needs a checklist.",
+        "image": "/images/home/forest-portrait.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on slower and more attentive use of time."
+      },
+      {
+        "eyebrow": "06 · PATIENCE",
+        "title": "You Make Room for Uncertainty",
+        "text": "A changed plan, a missed turning, an unfamiliar timetable: travel offers chances to respond with curiosity instead of immediate frustration.",
+        "image": "/images/itineraries/dummy4.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on patience during changing travel plans."
+      },
+      {
+        "eyebrow": "07 · CONNECTION",
+        "title": "Strangers Become Individuals",
+        "text": "A shared table or thoughtful exchange can turn an anonymous place into a human one. Connection begins with respect, not instant intimacy.",
+        "image": "/images/itineraries/dummy5.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on respectful encounters and shared experiences."
+      },
+      {
+        "eyebrow": "08 · HOME",
+        "title": "You Understand Home Differently",
+        "text": "Distance can reveal what you miss, what you take for granted, and which parts of home you want to carry forward.",
+        "image": "/images/itineraries/dummy6.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on reflecting on the meaning of home."
+      },
+      {
+        "eyebrow": "09 · RESPONSIBILITY",
+        "title": "You Care Beyond the Photograph",
+        "text": "Once a place has faces and stories, its future matters more. Responsible travel begins with noticing whose home you are visiting.",
+        "image": "/images/itineraries/dummy7.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on care for the people and places we visit."
+      },
+      {
+        "eyebrow": "10 · RETURN",
+        "title": "You Bring Back a Different Habit",
+        "text": "Perhaps you listen longer, waste less, or make more time for people. A journey becomes richer when its lessons survive the return.",
+        "image": "/images/itineraries/dummy8.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on bringing lasting insights back into everyday life.",
+        "ctaLabel": "Explore Thoughtful Journeys",
+        "to": "/itineraries"
+      }
+    ]
+  }
+}

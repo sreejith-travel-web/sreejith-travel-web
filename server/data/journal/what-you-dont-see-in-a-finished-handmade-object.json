@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "id": "jrn-insight-016",
+    "slug": "what-you-dont-see-in-a-finished-handmade-object",
+    "layout": "listicle",
+    "category": "insights",
+    "type": "insights",
+    "subcategory": "living-heritage",
+    "subcategoryLabel": "LIVING HERITAGE",
+    "contentTypeLabel": "VISUAL STORY",
+    "categoryLabel": "VISUAL STORY · LIVING HERITAGE",
+    "featured": false,
+    "title": "What You Don't See in a Finished Handmade Object",
+    "excerpt": "Beyond the polished surface lie materials, judgement, repetition, repair, and the many people whose work makes craft possible.",
+    "headerQuote": "The finished object is only the last visible chapter.",
+    "author": "Sree Jith",
+    "readTime": "2 MIN STORY",
+    "publishDate": "2026-11-12",
+    "tags": [
+      "#CRAFT",
+      "#LIVINGHERITAGE",
+      "#MAKERS"
+    ],
+    "categories": [
+      "culture",
+      "offbeat"
+    ],
+    "topics": [
+      "#CRAFT",
+      "#LIVINGHERITAGE",
+      "#MAKERS"
+    ],
+    "image": "/images/journal/journal2.webp",
+    "alt": "Landscape travel photograph introducing traditional making and material culture."
+  },
+  "listicle": {
+    "autoplayInterval": 5000,
+    "cover": {
+      "image": "/images/journal/journal2.webp",
+      "alt": "Landscape travel photograph introducing traditional making and material culture."
+    },
+    "slides": [
+      {
+        "eyebrow": "ORIGINS · MATERIAL",
+        "title": "The Material Had a Life Before This",
+        "text": "Clay came from earth; fibre grew through a season; wood took years. Every object begins with resources, landscapes, and choices about how they are sourced.",
+        "image": "/images/itineraries/dummy7.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on the origins of natural craft materials."
+      },
+      {
+        "eyebrow": "PREPARATION · PATIENCE",
+        "title": "The Work Before the Work",
+        "text": "Sorting, washing, cutting, softening, or drying may take longer than the dramatic moment of making. Preparation is skill, not a footnote.",
+        "image": "/images/itineraries/dummy8.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on preparing and sorting materials."
+      },
+      {
+        "eyebrow": "TOOLS · CONTINUITY",
+        "title": "A Tool Shaped by a Hand",
+        "text": "An old tool carries tiny adjustments: a smoother grip, a repaired edge, a balance that fits its maker. Knowledge can live in equipment.",
+        "image": "/images/itineraries/dummy9.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on hand tools and accumulated craft knowledge."
+      },
+      {
+        "eyebrow": "LEARNING · REPETITION",
+        "title": "The Years Inside One Gesture",
+        "text": "A movement that looks effortless may have taken thousands of attempts. Apprenticeship teaches pressure, timing, and the moment to stop.",
+        "image": "/images/itineraries/dummy10.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on repeated gestures learned through practice."
+      },
+      {
+        "eyebrow": "JUDGEMENT · CORRECTION",
+        "title": "The Mistakes You Never See",
+        "text": "The finished surface hides every correction. A skilled maker notices tension, alignment, or texture early enough to change course.",
+        "image": "/images/itineraries/dummy11.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on craft judgment and careful correction."
+      },
+      {
+        "eyebrow": "WEATHER · RHYTHM",
+        "title": "The Weather Enters the Workshop",
+        "text": "Heat, moisture, and drying time can alter materials. A craftsperson often works with the day’s conditions rather than against a rigid clock.",
+        "image": "/images/home/journey-mob.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on the influence of weather and workshop conditions."
+      },
+      {
+        "eyebrow": "COMMUNITY · COLLABORATION",
+        "title": "No Object Is Entirely Solitary",
+        "text": "Suppliers, tool repairers, family members, and neighbouring specialists may all contribute. The maker’s name is important; the wider network matters too.",
+        "image": "/images/itineraries/dummy12.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on the community behind individual craftsmanship."
+      },
+      {
+        "eyebrow": "VALUE · LIVELIHOOD",
+        "title": "Time Must Have a Fair Price",
+        "text": "Admiration alone does not sustain a livelihood. Ask who made it, how long it took, and whether the price respects skilled labour.",
+        "image": "/images/itineraries/dummy13.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on fair recognition of skilled craft labour."
+      },
+      {
+        "eyebrow": "AFTERLIFE · CARE",
+        "title": "The Story Continues With You",
+        "text": "An object lives on through use, care, and repair. Buying thoughtfully is one way to respect the hands and resources behind it.",
+        "image": "/images/itineraries/dummy14.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on using and caring for handmade objects.",
+        "ctaLabel": "Discover Cultural Experiences",
+        "to": "/itineraries"
+      }
+    ]
+  }
+}

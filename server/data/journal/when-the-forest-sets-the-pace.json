@@ -1,0 +1,641 @@
+{
+  "meta": {
+    "id": "jrn-insight-003",
+    "slug": "when-the-forest-sets-the-pace",
+    "category": "insights",
+    "type": "insights",
+    "subcategory": "field-notes",
+    "subcategoryLabel": "FIELD NOTES",
+    "contentTypeLabel": "FIELD NOTE",
+    "categoryLabel": "FIELD NOTE · FIELD NOTES",
+    "featured": false,
+    "title": "When the Forest Sets the Pace",
+    "excerpt": "A field notebook from the Western Ghats on slowing down, reading the landscape, listening to local knowledge and walking with ecological care.",
+    "headerQuote": "The forest has its own rhythm. A thoughtful traveller learns to follow rather than interrupt it.",
+    "author": "Sree Jith",
+    "readTime": "13 MIN READ",
+    "publishDate": "2026-11-11",
+    "tags": [
+      "#FIELDNOTES",
+      "#WESTERNGHATS",
+      "#SLOWTRAVEL"
+    ],
+    "categories": [
+      "nature",
+      "offbeat",
+      "wellness"
+    ],
+    "topics": [
+      "#FIELDNOTES",
+      "#WESTERNGHATS",
+      "#SLOWTRAVEL",
+      "#FORESTWALKS",
+      "#RESPONSIBLETRAVEL"
+    ],
+    "image": "/images/home/forest-landscape.webp",
+    "alt": "Illustrative editorial cover photograph for When the Forest Sets the Pace"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "a-pace-that-is-not-ours",
+      "eyebrow": "FIELD NOTES · WALKING IN THE WESTERN GHATS",
+      "eyebrowLevel": 1,
+      "title": "A Pace That Is Not Ours",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "A forest walk often begins with the wrong unit of measurement. We ask how far the trail goes, how quickly we can finish and whether there will be a viewpoint worth reaching. Yet the first minutes beneath a canopy rarely answer those questions. They offer something quieter: a shift in temperature, a softened edge of light and the realisation that <span class='rt-deep-forest'><strong>the landscape is not arranged around our schedule</strong></span>.",
+        "These notes are an invitation to approach the Western Ghats differently. They are a thematic field notebook rather than a dated account of one particular expedition. The emphasis is not on completing a route but on learning how observation, good guidance and restraint can turn an ordinary walk into a more attentive encounter.",
+        "Slow travel is sometimes confused with doing very little. In a living forest, slowing down is active work. It means noticing the difference between a fallen leaf and a fresh shoot, between a silence that feels comfortable and a silence we should not disturb, between a path we are permitted to follow and a tempting shortcut we should leave alone."
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "mixed",
+      "text": "A trail does not become more meaningful<br>because we reach its end sooner."
+    },
+    {
+      "type": "text",
+      "id": "before-the-first-step",
+      "eyebrow": "ARRIVAL IS A PRACTICE",
+      "eyebrowLevel": 2,
+      "title": "Before the First Step",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Preparation begins before boots meet soil. The route needs to be appropriate for the weather, the group and the permissions in force. In a protected or sensitive area, visitors should rely on authorised access and qualified local guidance rather than a trail discovered through an attractive photograph or an old social-media post.",
+        "There is also a quieter form of preparation: deciding what kind of attention to bring. A camera can record the green of a hillside; it cannot tell us why one hollow stays damp while the next ridge dries quickly. That understanding grows when we make space for questions and allow a guide to explain what the place is willing to reveal."
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "blue",
+      "imageCols": 5,
+      "aspectRatio": "2:3",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "eyebrow": "LANDSCAPE STUDY",
+      "title": "The Threshold Between Road and Forest",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "The most revealing part of a walk can be the transition. A busy road gives way to a narrower verge. The air changes. Sounds that seemed distant become distinct, while the geometry of traffic and buildings disappears behind overlapping leaves.",
+        "That threshold deserves a pause. It is where we can check footwear, water, group pace and the limits of the route. More importantly, it marks the moment when we stop expecting a landscape to behave like a destination and begin recognising it as a place already occupied by other lives."
+      ],
+      "image": "/images/home/forest-portrait.webp",
+      "imageAlt": "Illustrative editorial image accompanying the threshold between road and forest",
+      "caption": "A vertical frame encourages attention to what lies within the canopy, not only beyond it."
+    },
+    {
+      "type": "text",
+      "id": "reading-what-the-ground-says",
+      "eyebrow": "CHAPTER I · THE NEARER LANDSCAPE",
+      "eyebrowLevel": 1,
+      "title": "Reading What the Ground Says",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "An experienced walker notices information that a hurried visitor may miss: whether soil is newly disturbed, where water has crossed a path, which leaves hold moisture and where the surface becomes unexpectedly slick. These are not decorative details. They influence decisions about safe movement and help explain the forest as a system of relationships.",
+        "Not every mark needs to be named. Guessing an animal from an uncertain footprint makes a better dramatic story than a reliable observation. A useful field note can simply say: <i>the ground was soft here; a small trail crossed ours; we stayed on the approved route.</i> Careful uncertainty is often more respectful than a confident invention."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "five-ways-to-look",
+      "eyebrow": "A POCKET OBSERVATION METHOD",
+      "eyebrowLevel": 2,
+      "title": "Five Ways to Look Without Taking Anything",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "A notebook need not be scientific to be precise. These five prompts help travellers change the scale of their attention without touching, collecting or disturbing the place they are visiting."
+      ],
+      "list": {
+        "type": "ordered",
+        "level": 2,
+        "items": [
+          {
+            "title": "Begin with light",
+            "text": "Notice where the canopy filters brightness and which spaces remain shaded."
+          },
+          {
+            "title": "Listen for layers",
+            "text": "Separate wind, water, insects and distant human activity without seeking to approach the sound."
+          },
+          {
+            "title": "Watch the edges",
+            "text": "Observe how vegetation changes along a path, clearing or stream without stepping off the route."
+          },
+          {
+            "title": "Read the weather",
+            "text": "Consider recent rain, clouds and visibility before committing to the next section."
+          },
+          {
+            "title": "Record one question",
+            "text": "Leave with something to ask a guide or learn from a reliable source afterward."
+          }
+        ]
+      }
+    },
+    {
+      "type": "masonry",
+      "maxCols": 3,
+      "eyebrow": "A LANDSCAPE NOTEBOOK",
+      "title": "Six Frames, One Living System",
+      "titleLevel": 2,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Illustrative horizontal editorial landscape in the journey image library",
+          "width": 600,
+          "height": 400,
+          "caption": "A frame for examining foreground details."
+        },
+        {
+          "src": "/images/impact/impact1.webp",
+          "alt": "Illustrative editorial image from the environmental impact collection",
+          "width": 750,
+          "height": 500,
+          "caption": "The same landscape can be read at different scales."
+        },
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Illustrative horizontal travel photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "Open space gives the eye room to settle."
+        },
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Illustrative travel photograph in the impact collection",
+          "width": 750,
+          "height": 500,
+          "caption": "A wider context changes the question we ask."
+        },
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Illustrative horizontal nature or travel photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "Looking carefully is different from collecting views."
+        },
+        {
+          "src": "/images/impact/impact3.webp",
+          "alt": "Illustrative landscape-format editorial photograph",
+          "width": 750,
+          "height": 500,
+          "caption": "The field note begins with observation, not certainty."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-hills-are-not-a-single-habitat",
+      "eyebrow": "CHAPTER II · ECOLOGICAL CONTRASTS",
+      "eyebrowLevel": 1,
+      "title": "The Hills Are Not a Single Habitat",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "The Western Ghats are often presented as one continuous sweep of green, but a green map conceals important differences. At higher elevations, <span class='rt-intention-blue'><strong>shola forest and montane grassland</strong></span> can form a mosaic: sheltered forest patches alongside open highland habitats. Elsewhere, elevation, rainfall and exposure produce very different plant communities.",
+        "The distinction matters because an open slope is not necessarily an empty one. Grasslands can be ecological communities in their own right. Equally, a planted hillside should not automatically be mistaken for a natural forest. The purpose of visiting thoughtfully is not to master every term in one morning, but to resist flattening a complex place into a generic photograph."
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "left",
+      "mobileOrder": "text-first",
+      "verticalAlign": "center",
+      "eyebrow": "HIGH-ALTITUDE LANDSCAPES",
+      "title": "Where Open Hills and Sheltered Trees Meet",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Shola-grassland systems are best understood as connected habitats rather than competing forms of scenery. Sheltered pockets and exposed slopes respond differently to temperature, wind and moisture. Their ecological value does not depend on whether a visitor finds them dramatic.",
+        "Rather than seeking access to a particular patch of habitat, ask an authorised guide where the landscape can be appreciated safely and legally. A distant view may offer a better lesson than a close approach that damages the ground beneath our feet."
+      ],
+      "image": "/images/home/journey-pc.webp",
+      "imageAlt": "Illustrative editorial image accompanying where open hills and sheltered trees meet",
+      "caption": "A broad 3:2 frame lets the relationship between open and sheltered terrain breathe."
+    },
+    {
+      "type": "callout-note",
+      "theme": "blue",
+      "eyebrow": "ECOLOGY NOTE",
+      "title": "A Small Correction to the Postcard",
+      "subtitle": "Not every green hillside is the same landscape",
+      "text": "The Western Ghats are recognised for exceptional biodiversity and distinctive ecological processes. Reading that diversity accurately begins by distinguishing natural habitats from agricultural or planted land.",
+      "unorderedList": {
+        "title": "Keep the distinctions in mind",
+        "level": 2,
+        "items": [
+          {
+            "title": "Shola forest",
+            "text": "Sheltered, high-elevation forest patches occur in parts of the southern Ghats."
+          },
+          {
+            "title": "Montane grassland",
+            "text": "Open highland habitats are living ecosystems, not automatically degraded forest."
+          },
+          {
+            "title": "Working landscapes",
+            "text": "Tea gardens, roads and settlements have their own histories and impacts."
+          },
+          {
+            "title": "Access",
+            "text": "Ecological significance is not permission to enter; follow local and official restrictions."
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "weather-is-a-participant",
+      "eyebrow": "THE SEASON SETS TERMS",
+      "eyebrowLevel": 2,
+      "title": "Weather Is a Participant, Not an Interruption",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Rain changes more than the colour of the leaves. It affects footing, visibility, stream levels and the time a route may safely take. Mist can be beautiful, but it can also hide a turn. A well-designed day does not treat these conditions as inconveniences to defeat; it considers them essential information.",
+        "This is why a flexible itinerary is often the more serious one. It can replace a walk with an appropriate indoor experience, shorten a route when conditions change or postpone an outing altogether. There is no failure in returning early. <span class='rt-terracotta'>The landscape does not owe a visitor perfect visibility.</span>"
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "blue",
+      "text": "A good guide knows the way forward.<br>A thoughtful guide also knows when to turn back."
+    },
+    {
+      "type": "text",
+      "id": "the-value-of-a-local-voice",
+      "eyebrow": "CHAPTER III · KNOWLEDGE AND RELATIONSHIP",
+      "eyebrowLevel": 1,
+      "title": "The Value of a Local Voice",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Guidebooks give places names and directions; local expertise gives a journey context. Someone who works in the landscape may recognise a change in conditions before a visitor sees the danger. They may also understand which stories are suitable for sharing, which areas should remain undisturbed and how a route fits into the routines of people who live nearby.",
+        "Local knowledge should not be treated as an unlimited resource that appears on demand. It takes time to develop, may be passed through generations and deserves fair payment and proper acknowledgement. When a guide says a story is private or a path is closed, those answers are part of the experience—not obstacles standing between us and the 'real' place."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "a-question-worth-changing",
+      "eyebrow": "SHIFTING THE EXPECTATION",
+      "eyebrowLevel": 2,
+      "title": "A Question Worth Changing",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Instead of asking <i>What rare animal might we see?</i>, ask <i>What should we learn to notice here?</i> The first question makes the value of the walk depend on an unpredictable encounter. The second leaves room for weather, plants, working landscapes, geological forms, seasons and the judgement of the person guiding us.",
+        "There is still space for wonder. A sudden bird call, a shift of light or a trail opening into a wide view can feel extraordinary. But the pleasure becomes more durable when it is not accompanied by the demand for an ever-closer photograph or a guaranteed sighting."
+      ]
+    },
+    {
+      "type": "horizontal-slider",
+      "eyebrow": "A VISUAL FIELD STRIP",
+      "title": "The Changing Width of Attention",
+      "titleLevel": 2,
+      "images": [
+        {
+          "src": "/images/home/forest-portrait.webp",
+          "alt": "Illustrative portrait-oriented forest photograph",
+          "width": 600,
+          "height": 900,
+          "caption": "First, the eye adjusts to a narrow field of view."
+        },
+        {
+          "src": "/images/home/journey-pc1.webp",
+          "alt": "Illustrative landscape-oriented journey photograph",
+          "width": 1440,
+          "height": 960,
+          "caption": "A wider frame restores the landscape around the detail."
+        },
+        {
+          "src": "/images/itineraries/dummy1.webp",
+          "alt": "Illustrative vertical travel image",
+          "width": 400,
+          "height": 600,
+          "caption": "A portrait view asks us to linger."
+        },
+        {
+          "src": "/images/impact/impact4.webp",
+          "alt": "Illustrative landscape image from the impact collection",
+          "width": 750,
+          "height": 500,
+          "caption": "The next frame changes the context."
+        },
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Illustrative wide forest photograph",
+          "width": 1600,
+          "height": 900,
+          "caption": "The sequence opens again toward the horizon."
+        },
+        {
+          "src": "/images/itineraries/dummy2.webp",
+          "alt": "Illustrative portrait-format travel photograph",
+          "width": 400,
+          "height": 600,
+          "caption": "One last close frame makes room for a question."
+        }
+      ],
+      "sliderHeight": 390,
+      "innerRounding": false,
+      "captionMob": false,
+      "captionPc": true
+    },
+    {
+      "type": "text",
+      "id": "a-walking-ethic",
+      "eyebrow": "CHAPTER IV · PRACTICE OVER PERFORMANCE",
+      "eyebrowLevel": 1,
+      "title": "A Walking Ethic",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Low-impact travel is not a mood created by soft music or natural colours. It is a series of small, practical decisions. We remain on designated paths, keep a respectful distance from wildlife, avoid feeding animals and take away what we bring. We follow directions about silence, group size, waste and photography even when nobody appears to be checking.",
+        "The same care extends to people. A tea worker, farmer or resident encountered along a route is not a background figure in a landscape photograph. Ask before photographing someone. Do not block a workplace or turn a private home into an unannounced cultural stop. The ethics of a walk apply on both sides of the forest edge."
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "eyebrow": "PRACTICAL FIELD CHECK",
+      "title": "What a Thoughtful Walking Day Requires",
+      "text": "Responsible travel begins with conditions and consent rather than a beautiful route description.",
+      "subtitle": "A simple checklist that protects the experience",
+      "unorderedList": {
+        "title": "Considerations",
+        "level": 2,
+        "items": [
+          {
+            "title": "Appropriate access",
+            "text": "Confirm current route rules, local permissions and guide requirements."
+          },
+          {
+            "title": "Comfort and safety",
+            "text": "Carry water, suitable footwear, rain protection and any personal essentials."
+          },
+          {
+            "title": "A quiet footprint",
+            "text": "Avoid litter, playback calls, feeding animals and off-trail wandering."
+          },
+          {
+            "title": "Respectful photography",
+            "text": "Seek consent from people and avoid sensitive wildlife or habitat disturbance."
+          }
+        ]
+      },
+      "orderedList": {
+        "title": "If plans change",
+        "level": 2,
+        "items": [
+          "Check whether the route is still appropriate.",
+          "Accept a shorter or alternative experience when needed.",
+          "Leave without forcing the original plan."
+        ]
+      }
+    },
+    {
+      "type": "slider",
+      "eyebrow": "AN OPEN LIGHTBOX GALLERY",
+      "title": "What We Notice When We Stop Rushing",
+      "titleLevel": 2,
+      "width": 1600,
+      "height": 900,
+      "autoplay": false,
+      "interval": 6000,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Illustrative panoramic forest view",
+          "caption": "Begin with the full landscape."
+        },
+        {
+          "src": "/images/home/forest-portrait.webp",
+          "alt": "Illustrative portrait image of a forest setting",
+          "caption": "Then give the vertical world its own space."
+        },
+        {
+          "src": "/images/impact/impact5.webp",
+          "alt": "Illustrative landscape-format editorial image",
+          "caption": "Observe the change in surface and context."
+        },
+        {
+          "src": "/images/itineraries/dummy3.webp",
+          "alt": "Illustrative portrait-format travel photograph",
+          "caption": "Let the next image slow the rhythm."
+        },
+        {
+          "src": "/images/home/journey-pc1.webp",
+          "alt": "Illustrative landscape journey photograph",
+          "caption": "Finish with a view that leaves room for thought."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "more-than-the-footprint",
+      "eyebrow": "CHAPTER V · THE JOURNEY BEYOND THE TRAIL",
+      "eyebrowLevel": 1,
+      "title": "More Than the Footprint",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "It is easy to reduce responsible travel to the number of footsteps taken. Yet a journey has wider consequences: the transport used, the businesses chosen, the time and income available to local guides, and the expectations placed on residents. A low-impact trail can still be part of a careless itinerary if everything around it is extractive or rushed.",
+        "A more complete question is whether the visit benefits the people who make it possible while keeping ecological pressure within reasonable limits. Kerala's Responsible Tourism initiatives explicitly recognise local livelihoods, fair trade and community participation as part of that work. In practice, good intentions matter less than arrangements that hosts can accept, adapt and decline."
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "impact"
+    },
+    {
+      "type": "text",
+      "id": "time-is-also-a-resource",
+      "eyebrow": "THE HIDDEN SCHEDULE",
+      "eyebrowLevel": 2,
+      "title": "Time Is Also a Resource",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "An hour saved by rushing through a village or a nature stop may be an hour taken away from a valuable conversation. Yet staying longer is not automatically kinder. Guides have working schedules, households have private routines and a community experience should not require someone to perform hospitality indefinitely.",
+        "The measure is fit. Was the visit planned around the host's availability? Was the guide paid for preparation as well as visible time? Was there enough flexibility to change direction without turning a delay into pressure on somebody else? These are design questions, not merely matters of politeness."
+      ]
+    },
+    {
+      "type": "masonry",
+      "maxCols": 2,
+      "eyebrow": "A TWO-COLUMN PAUSE",
+      "title": "Landscape in Four Quiet Movements",
+      "titleLevel": 2,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Illustrative landscape editorial photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "One: notice the foreground."
+        },
+        {
+          "src": "/images/journal/journal5.webp",
+          "alt": "Illustrative landscape editorial photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "Two: let the middle distance settle."
+        },
+        {
+          "src": "/images/impact/impact5.webp",
+          "alt": "Illustrative landscape-format photograph",
+          "width": 750,
+          "height": 500,
+          "caption": "Three: observe how scale changes."
+        },
+        {
+          "src": "/images/impact/impact6.webp",
+          "alt": "Illustrative landscape-format photograph",
+          "width": 750,
+          "height": 500,
+          "caption": "Four: return to the whole scene."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "designing-a-day-that-can-change",
+      "eyebrow": "CHAPTER VI · DESIGNING FOR REAL CONDITIONS",
+      "eyebrowLevel": 1,
+      "title": "Designing a Day That Can Change",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Consider a forest-led day planned around one permitted walk, one meaningful conversation with a local guide and a generous margin for rest. The route can be shorter than the headline attraction. The meal need not be scheduled to the minute. A sudden shower can shift the afternoon toward reading, a nearby cultural space or simply watching the weather change from shelter.",
+        "This is not a lack of ambition. It is a way of protecting the quality of each encounter. A day with fewer obligations can absorb weather, fatigue, accessibility needs and local circumstances without converting the entire journey into a race. <span class='rt-dark-gold'><strong>Flexibility becomes part of the craft of travel design.</strong></span>"
+      ]
+    },
+    {
+      "type": "text",
+      "id": "three-decisions-before-setting-out",
+      "eyebrow": "A SMALL PLANNING FRAMEWORK",
+      "eyebrowLevel": 2,
+      "title": "Three Decisions Before Setting Out",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "For someone planning a nature-led journey through the Ghats, these decisions usually matter more than how many viewpoints can be added to the map."
+      ],
+      "list": {
+        "type": "ordered",
+        "level": 2,
+        "items": [
+          {
+            "title": "Choose a reason to walk",
+            "text": "Are you interested in ecology, gentle movement, photography, conversation or simply the pleasure of being outdoors?"
+          },
+          {
+            "title": "Choose the right conditions",
+            "text": "Match difficulty, accessibility, weather and authorised routes to the people travelling."
+          },
+          {
+            "title": "Choose what stays unscheduled",
+            "text": "Protect time for a guide’s insight, a pause or a sensible change of plans."
+          }
+        ]
+      }
+    },
+    {
+      "type": "highlights",
+      "eyebrow": "FIELD NOTES TO KEEP",
+      "title": "The Forest-Led Journey, Distilled",
+      "items": [
+        "Go with current access information rather than assumptions.",
+        "Choose observation over a guaranteed wildlife sighting.",
+        "Respect local expertise, time and privacy.",
+        "Keep natural habitats and working landscapes distinct in your thinking.",
+        "Design space for weather, rest and changing conditions.",
+        "Leave the place with fewer demands than you brought to it."
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "itineraries"
+    },
+    {
+      "type": "text",
+      "id": "the-page-we-take-home",
+      "eyebrow": "CHAPTER VII · THE RETURN",
+      "eyebrowLevel": 1,
+      "title": "The Page We Take Home",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "A field notebook can be full without containing a single dramatic discovery. It may record a wet stone, a canopy that made the light feel blue, a guide's suggestion to wait or a decision not to continue because rain had made the next section unsafe. These fragments seldom look impressive on a travel checklist. Together, they reveal a different kind of attention.",
+        "The question after a walk is not only what we saw. It is whether the experience altered how we behave in the next place: with more patience, a sharper sense of limits and greater interest in the people whose knowledge makes travel possible. That is a memory worth carrying beyond the forest."
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "cream",
+      "text": "The most generous journey does not ask the forest<br>to be more than it already is."
+    },
+    {
+      "type": "text",
+      "id": "further-reading-western-ghats",
+      "eyebrow": "PUBLIC RESOURCES",
+      "eyebrowLevel": 2,
+      "title": "Further Reading & Context",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "For a verified starting point on the region’s ecology and on community-focused travel in Kerala, these public resources provide useful background. They are not substitutes for site-specific access information or advice from an authorised guide on the day of travel."
+      ],
+      "list": {
+        "type": "divided",
+        "level": 2,
+        "items": [
+          {
+            "title": "<a href='https://whc.unesco.org/en/list/1342' target='_blank'>UNESCO World Heritage Centre: Western Ghats</a>",
+            "text": "Overview of the region’s recognised biodiversity and ecological significance."
+          },
+          {
+            "title": "<a href='https://www.keralatourism.org/responsible-tourism/' target='_blank'>Kerala Responsible Tourism Mission</a>",
+            "text": "Context on community participation and responsible visitor experiences."
+          },
+          {
+            "title": "<a href='/impact' target='_self'>Sree Jith Travel: Impact</a>",
+            "text": "The values behind more thoughtful journey design."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "plan",
+      "eyebrow": "DESIGN YOUR OWN RHYTHM",
+      "title": "Let the Landscape Lead Your Journey",
+      "text": "Build a nature-led experience around your interests, your pace and the care each place deserves.",
+      "ctaLabel": "PLAN YOUR JOURNEY",
+      "to": "/planyourjourney"
+    },
+    {
+      "type": "author-profile",
+      "theme": "cream"
+    }
+  ]
+}

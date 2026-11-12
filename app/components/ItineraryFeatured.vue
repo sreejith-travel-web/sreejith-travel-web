@@ -63,12 +63,13 @@ const nextSlide = () => {
               :alt="item.alt"
               width="760"
               height="500"
-              :loading="idx === 0 ? 'eager' : 'lazy'"
+              :loading="'lazy'"
               decoding="async"
               :fetchpriority="idx === 0 ? 'high' : 'low'"
               class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 group-active:scale-105"
-            />
-          </div>
+              />
+            </div>
+            <!-- :loading="idx === 0 ? 'eager' : 'lazy'" -->
 
           <!-- Right Content Column (6 Cols, Reduced Padding & Compact Scale) -->
           <div class="lg:col-span-6 p-5 sm:p-6 md:p-7 flex flex-col justify-between text-left">

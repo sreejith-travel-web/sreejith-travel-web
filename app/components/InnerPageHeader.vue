@@ -1,84 +1,102 @@
-<!-- ~/components/InnerPageHeader.vue -->
+<!-- ~/app/components/InnerPageHeader.vue -->
 <script setup lang="ts">
+import { computed } from 'vue'
+
 export interface InnerPageHeaderConfig {
-  eyebrow: string
-  titleLine1: string
-  titleLine2Cursive: string
-  description: string
+  subtitle?: string
+  paragraph?: string
+  // Backwards-safe optional keys while sweeping remaining inner pages
+  eyebrow?: string
+  titleLine1?: string
+  titleLine2Cursive?: string
+  description?: string
 }
 
-defineProps<{
+// Centralized choreography tempo (ms) for effortless tuning
+const PROLOGUE_MOTION = {
+  subtitleDelayMs: 740,
+  ornamentDelayMs: 840,
+  wingDelayMs: 875,
+  paragraphDelayMs: 940
+} as const
+
+const props = defineProps<{
   data: InnerPageHeaderConfig
 }>()
+
+const resolvedSubtitle = computed<string>(() => {
+  if (props.data.subtitle?.trim()) return props.data.subtitle.trim()
+
+  const line1 = props.data.titleLine1?.trim() || ''
+  const line2 = props.data.titleLine2Cursive?.trim() || ''
+  if (!line1) return line2
+  if (!line2) return line1
+
+  // If line1 didn't end a sentence, lowercase line2's leading capital for natural flow
+  const endsSentence = /[.!?]$/.test(line1)
+  const normalizedLine2 = endsSentence
+    ? line2
+    : line2.charAt(0).toLowerCase() + line2.slice(1)
+
+  return `${line1} ${normalizedLine2}`
+})
+
+const resolvedParagraph = computed<string>(() => {
+  return (props.data.paragraph ?? props.data.description ?? '').trim()
+})
 </script>
 
 <template>
   <section
     data-theme="light"
-    class="section-wrapper pb-2 bg-bg-light text-primary-light"
+    class="inner-header-section"
   >
-    <div class="relative w-full max-w-4xl flex flex-col items-center text-center px-4">
-      <!-- 1. Eyebrow (Starts at 1050ms — right after PageHero's 950ms intro) -->
-      <div
-        v-motion
-        :initial="{ opacity: 0, y: 18 }"
-        :enter="{
-          opacity: 1,
-          y: 0,
-          transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 1050 }
-        }"
-        class="eyebrow-wrapper"
+    <div class="inner-header-container">
+      <!-- Beat 1: Editorial Prologue Subtitle -->
+      <h2
+        v-if="resolvedSubtitle"
+        v-motion-prologue-subtitle
+        :delay="PROLOGUE_MOTION.subtitleDelayMs"
+        class="inner-header-subtitle"
       >
-        <div class="bg-dark-gold/70 eyebrow-border" />
-        <h2 class="text-journey-deep/95 eyebrow-text">
-          {{ data.eyebrow }}
-        </h2>
-        <div class="bg-dark-gold/70 eyebrow-border" />
-      </div>
-
-      <!-- 2 & 3. Title Hierarchy (Line 1 at 1150ms, Line 2 Cursive at 1250ms) -->
-      <h2 class="section-title-wrapper">
-        <span
-          v-motion
-          :initial="{ opacity: 0, y: 22, filter: 'blur(4px)' }"
-          :enter="{
-            opacity: 1,
-            y: 0,
-            filter: 'blur(0px)',
-            transition: { duration: 650, ease: [0.22, 1, 0.36, 1], delay: 1150 }
-          }"
-          class="text-journey-deep section-title-sans block"
-        >
-          {{ data.titleLine1 }}
-        </span>
-
-        <span
-          v-motion
-          :initial="{ opacity: 0, y: 22, filter: 'blur(4px)' }"
-          :enter="{
-            opacity: 1,
-            y: 0,
-            filter: 'blur(0px)',
-            transition: { duration: 700, ease: [0.22, 1, 0.36, 1], delay: 1250 }
-          }"
-          class="text-dark-gold section-title-cursive"
-        >
-          {{ data.titleLine2Cursive }}
-        </span>
+        {{ resolvedSubtitle }}
       </h2>
 
-      <!-- 4. Description (Starts at 1350ms) -->
-      <p
-        v-motion
-        :initial="{ opacity: 0, y: 20 }"
-        :enter="{
-          opacity: 1,
-          y: 0,
-          transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 1350 }
-        }"
-        class="text-journey-deep/90 max-w-3xl hero-paragraph"
+      <!-- Beat 2: Center Gold Compass Diamond + Outward-Unfolding Hairline Wings -->
+      <div
+        v-if="resolvedSubtitle && resolvedParagraph"
+        aria-hidden="true"
+        class="inner-header-ornament"
       >
-        {{ data.description }}
+        <span
+          v-motion-wing-expand
+          :delay="PROLOGUE_MOTION.wingDelayMs"
+          class="inner-header-wing origin-right"
+        />
+        <svg
+          v-motion-diamond-bloom
+          :delay="PROLOGUE_MOTION.ornamentDelayMs"
+          class="w-2 h-2 sm:w-2.5 sm:h-2.5 text-dark-gold shrink-0"
+          viewBox="0 0 12 12"
+          fill="currentColor"
+        >
+          <path d="M6 0.75L11.25 6L6 11.25L0.75 6L6 0.75Z" />
+        </svg>
+        <span
+          v-motion-wing-expand
+          :delay="PROLOGUE_MOTION.wingDelayMs"
+          class="inner-header-wing-right origin-left"
+        />
+      </div>
+
+      <!-- Beat 3: Measured Lead Paragraph -->
+      <p
+        v-if="resolvedParagraph"
+        v-motion-prologue-copy
+        :delay="PROLOGUE_MOTION.paragraphDelayMs"
+        class="inner-header-paragraph"
+      >
+        {{ resolvedParagraph }}
       </p>
     </div>
   </section>

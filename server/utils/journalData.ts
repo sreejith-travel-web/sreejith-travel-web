@@ -128,6 +128,7 @@ export const JOURNAL_SUBCATEGORIES: JournalSubcategoryConfig[] = [
 export interface JournalMeta {
   id: string
   slug: string
+  layout?: 'article' | 'listicle'
   category: JournalCategoryType
   type: JournalCategoryType
   subcategory: JournalSubcategoryId
@@ -283,6 +284,36 @@ export interface JournalSinglePayload {
   related: JournalMeta[]
 }
 
+export interface JournalListicleCover {
+  image: string
+  alt?: string
+  eyebrow?: string
+  title?: string
+}
+
+export interface JournalListicleSlide {
+  id?: string
+  image: string
+  alt?: string
+  eyebrow?: string
+  title: string
+  text: string
+  ctaLabel?: string
+  to?: string
+}
+
+export interface JournalListicleConfig {
+  autoplayInterval?: number
+  cover: JournalListicleCover
+  slides: JournalListicleSlide[]
+}
+
+export interface JournalFullRecord {
+  meta: JournalMeta
+  blocks: JournalContentBlock[]
+  listicle?: JournalListicleConfig
+}
+
 function loadJournalsFromDisk(): JournalFullRecord[] {
   const dataDir = path.resolve(process.cwd(), 'server/data/journal')
 
@@ -300,9 +331,12 @@ function loadJournalsFromDisk(): JournalFullRecord[] {
     for (const file of files) {
       const fullPath = path.join(dataDir, file)
       const raw = fs.readFileSync(fullPath, 'utf-8')
-      const parsed = JSON.parse(raw) as JournalFullRecord
+      const parsed = JSON.parse(raw) as Partial<JournalFullRecord>
       if (parsed?.meta?.slug) {
-        diskRecords.push(parsed)
+        diskRecords.push({
+          ...(parsed as JournalFullRecord),
+          blocks: Array.isArray(parsed.blocks) ? parsed.blocks : []
+        })
       }
     }
 

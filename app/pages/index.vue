@@ -255,104 +255,122 @@ const pageData = {
     eyebrow: 'WAYS TO WORK TOGETHER',
     titleLine1: 'Building Meaningful Travel',
     titleLine2Cursive: 'Together.',
-    description: 'I collaborate with travel professionals, brands, organisations, and global partners to design experiences.',
-    cards: [
+    description:
+      'I collaborate with travel professionals, brands, organisations, and global partners to co-create immersive, responsible experiences across South India and beyond.',
+    bentoCards: [
       {
-        eyebrow: 'FOR TRAVEL PROFESSIONALS',
-        title: '(B2B) Travel Trade Partnerships',
-        paragraphs: [
-          'For Travel Agents, designers, Tour Operators, Event Planners, DMCs & Travel Brands seeking authentic, high-quality B2B experiences across South India.',
-          'Co-create sustainable, culturally immersive journeys backed by deep local knowledge, trusted networks, and seamless execution.'
-        ],
-        cta: { label: 'PARTNER WITH ME', to: '/partner' },
-        bgClass: 'bg-soft-cream' // soft cream
+        icon: 'users',
+        theme: 'trade-brass',
+        title: 'B2B Travel Trade Partnerships',
+        description:
+          'Collaborate on tailor-made itineraries, special interest tours, and unique regional stays crafted seamlessly for your clients.'
       },
       {
-        eyebrow: 'FOR INDIVIDUALS & ORGANISATIONS',
-        title: 'Join Our Partner Network',
-        paragraphs: [
-          'We\'re always looking for Unique Stays Providers, Passionate Travel creators, storytellers, artisans, performers, and experience providers.',
-          'Become part of a trusted ecosystem creating meaningful travel experiences that support local communities, environment and celebrate culture.'
-        ],
-        cta: { label: 'JOIN THE NETWORK', to: '/partner' },
-        bgClass: 'bg-soft-blue' // soft blue
+        icon: 'building',
+        theme: 'corporate-slate',
+        title: 'Corporate & Leadership Journeys',
+        description:
+          'Design impactful offsites, executive retreats, and team experiences deeply rooted in local place, craft, and culture.'
+      },
+      {
+        icon: 'chat',
+        theme: 'speaking-laterite',
+        title: 'Consulting & Keynote Speaking',
+        description:
+          'Share ground insights through destination advisory, keynote talks, and panel discussions on regenerative tourism.'
+      },
+      {
+        icon: 'book',
+        theme: 'academic-moss',
+        title: 'Academic & Research Programs',
+        description:
+          'Partner on faculty-led study tours, field documentation, and research initiatives that support living heritage.'
       }
     ],
-    icons: [
-      'Corporate & Team Experiences',
-      'Educational & Research Journeys',
-      'Consulting & Speaking',
-      'Boutique or Heritage Stay Development',
-      'NGOs, CSR, and Heritage Trusts'
+    partnersHeading: 'WHO WE PARTNER WITH',
+    partners: [
+      { icon: 'globe', theme: 'partner-amber', label: 'Travel Advisors & Tour Operators' },
+      { icon: 'stay', theme: 'partner-rosewood', label: 'Boutique & Heritage Stays' },
+      { icon: 'academic', theme: 'partner-olive', label: 'Universities & Study Programs' },
+      { icon: 'corporate', theme: 'partner-indigo', label: 'Purpose-Led Brands & Teams' },
+      { icon: 'trust', theme: 'partner-verdigris', label: 'NGOs, CSR & Heritage Trusts' }
     ],
     bottomCta: {
       label: "LET'S WORK TOGETHER",
-      to: '/partner'
+      to: '/network'
     }
   },
 
-  impact:{
+  impact: {
     eyebrow: 'Making a Difference',
     titleLine1: 'Travel That Leaves A Place',
     titleLine2Cursive: 'Better Than Before.',
-    description: 'We travel slowly, support local communities and protect the beauty that makes each place unforgettable. Every journey is mindful and made to give back.',
+    description:
+      'We travel slowly, support local communities and protect the beauty that makes each place unforgettable. Every journey is mindful and made to give back.',
     items: [
       {
         id: 'slow-travel',
         shortTitle: 'Slow Travel',
         longTitle: 'Slow travel,\nlasting impact',
-        intro: 'We travel slowly, supporting local communities and protecting the beauty that makes each place unforgettable.',
+        intro:
+          'We travel slowly, supporting local communities and protecting the beauty that makes each place unforgettable.',
         img: '/images/impact/impact1.webp',
         alt: 'Lush green tea estates overlooking misty mountains in Kerala, representing slow travel',
-        url: '/impact'
+        url: '/impact/slow-travel'
       },
       {
-        id: 'authentic',
+        id: 'authentic-connection',
         shortTitle: 'Authentic Over Curated',
         longTitle: 'Authentic\nover curated',
-        intro: 'Stripping away the artificial to reveal the raw, unpolished, and breathtaking reality of living cultures.',
+        intro:
+          'Stripping away the artificial to reveal the raw, unpolished, and breathtaking reality of living cultures.',
         img: '/images/impact/impact2.webp',
         alt: 'Local artisan performing a traditional dance in vibrant cultural attire',
-        url: '/impact'
+        url: '/impact/authentic-connection'
       },
       {
         id: 'local-first',
         shortTitle: 'Local First, Always',
         longTitle: 'Local first,\nalways',
-        intro: 'Directly empowering regional artisans, guides, and family-owned stays to keep the economic ecosystem thriving.',
+        intro:
+          'Directly empowering regional artisans, guides, and family-owned stays to keep the economic ecosystem thriving.',
         img: '/images/impact/impact3.webp',
         alt: 'Close-up of a potter spinning clay with bare hands, highlighting local artisans',
-        url: '/impact'
+        url: '/impact/local-first'
       },
       {
         id: 'protecting-beauty',
         shortTitle: 'Protecting Beauty',
         longTitle: 'Protecting\nnatural beauty',
-        intro: 'Implementing zero-trace practices to ensure pristine landscapes remain untouched for generations to come.',
+        intro:
+          'Implementing zero-trace practices to ensure pristine landscapes remain untouched for generations to come.',
         img: '/images/impact/impact4.webp',
         alt: 'A tranquil river reflecting dense untouched mangrove forests in South India',
-        url: '/impact'
+        url: '/impact/protecting-beauty'
       },
       {
         id: 'conscious-choices',
         shortTitle: 'Conscious Choices',
         longTitle: 'Conscious choices,\nlighter footprint',
-        intro: 'Every logistical decision is weighed against its environmental impact, prioritizing sustainable alternatives.',
+        intro:
+          'Every logistical decision is weighed against its environmental impact, prioritizing sustainable alternatives.',
         img: '/images/impact/impact5.webp',
         alt: 'Eco-friendly heritage stay nestled organically into a forested hillside',
-        url: '/impact'
+        url: '/impact/conscious-choices'
       },
       {
         id: 'giving-back',
         shortTitle: 'Giving Back',
         longTitle: 'Giving back,\nwhere we go',
-        intro: 'A percentage of every journey directly funds grassroots conservation and community education initiatives.',
+        intro:
+          'A percentage of every journey directly funds grassroots conservation and community education initiatives.',
         img: '/images/impact/impact6.webp',
         alt: 'Children from a local community smiling and learning outside a heritage village',
-        url: '/impact'
+        url: '/impact/giving-back'
       }
     ],
-    bottomQuote: 'Meaningful journeys are about making a difference that reaches far beyond the paths we travel.',
+    bottomQuote:
+      'Meaningful journeys are about making a difference that reaches far beyond the paths we travel.',
     bottomCta: {
       label: 'DISCOVER OUR VALUES',
       to: '/impact'
@@ -435,9 +453,11 @@ const pageData = {
     titleLine2Cursive: 'Beyond the journey',
     description:
       'Observations, perspectives, and field notes from years of research and on-the-ground experience. Exploring People, Culture, Heritage, Travel Trends, and Sustainability shaping meaningful journeys.',
-    featuredSlug: 'the-stories-that-live-beyond-the-map',
+    featuredSlug: 'discovering-the-living-culture-of-tamil-nadu',
     listingSlugs: [
-      'regenerative-handloom-corridor'
+      'when-the-forest-sets-the-pace',
+      'the-hands-that-keep-a-thousand-stories-alive',
+      'ten-ways-travel-can-make-your-life-richer'
     ],
     bottomQuote: 'Every journey leaves a story worth carrying forward.',
     bottomCta: {
@@ -447,7 +467,6 @@ const pageData = {
   }
   
 }
-
 
 </script>
 

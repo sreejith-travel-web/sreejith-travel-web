@@ -1,0 +1,848 @@
+{
+  "meta": {
+    "id": "jrn-insight-004",
+    "slug": "the-places-we-leave-better-than-we-found",
+    "category": "insights",
+    "type": "insights",
+    "subcategory": "responsible-travel",
+    "subcategoryLabel": "RESPONSIBLE TRAVEL",
+    "contentTypeLabel": "INSIGHT",
+    "categoryLabel": "INSIGHT · RESPONSIBLE TRAVEL",
+    "featured": true,
+    "title": "The Places We Leave Better Than We Found",
+    "excerpt": "Beyond plastic-free promises: a practical, honest look at how a thoughtfully designed journey can respect ecosystems, support livelihoods, and leave room for local communities to lead.",
+    "headerQuote": "A place is not improved by our presence alone. The difference lies in what our presence makes possible.",
+    "author": "Sree Jith",
+    "readTime": "17 MIN READ",
+    "publishDate": "2026-11-11",
+    "tags": [
+      "#RESPONSIBLETRAVEL",
+      "#KERALA",
+      "#REGENERATIVETRAVEL"
+    ],
+    "categories": [
+      "nature",
+      "culture",
+      "bespoke"
+    ],
+    "topics": [
+      "#RESPONSIBLETRAVEL",
+      "#KERALA",
+      "#REGENERATIVETRAVEL",
+      "#COMMUNITYTOURISM",
+      "#LOCALLIVELIHOODS"
+    ],
+    "image": "/images/impact/impact2.webp",
+    "alt": "Illustrative landscape image introducing responsible travel and the relationship between visitors and host places"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "beyond-the-green-label",
+      "eyebrow": "A QUESTION BEFORE THE JOURNEY",
+      "eyebrowLevel": 1,
+      "title": "What Does It Mean to Leave a Place Better?",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A traveller steps off a vehicle in Kerala and notices the shade of a roadside tree, the smell of wet earth, and a line of homes opening onto a narrow lane. The scene is beautiful. But beauty alone tells us almost nothing about whether this journey is good for the place. To understand that, we have to look beyond the photograph and ask: <strong>who decides what happens here, who benefits, and what remains after we leave?</strong>"
+        },
+        {
+          "level": 2,
+          "text": "Responsible travel is sometimes presented as a tidy collection of personal habits: carry a refillable bottle, refuse a plastic bag, reuse a towel. Those habits matter. Yet a journey can be wonderfully low on disposable packaging and still place unreasonable pressure on a household, underpay a local guide, or crowd an ecologically sensitive landscape."
+        },
+        {
+          "level": 2,
+          "text": "The more demanding idea is that travel should be accountable to the lives and environments it touches. <span class='rt-deep-forest'><strong>Regenerative ambition</strong></span> takes the question further: can a journey support positive, locally chosen change rather than merely limit harm? That is an aspiration to test, not a label we award ourselves."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "mixed",
+      "text": "Travel does not become responsible because we call it so.<br>It becomes responsible through the choices someone else can feel.",
+      "quoteAuthor": "Sree Jith",
+      "quoteRole": "Journal · Travel Design Notes"
+    },
+    {
+      "type": "text",
+      "id": "three-relationships",
+      "eyebrow": "CHAPTER I · AN HONEST FRAMEWORK",
+      "eyebrowLevel": 1,
+      "title": "A Journey Has Three Relationships",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Every itinerary creates a relationship with the land, with the people who live there, and with the economic systems that connect visitors to hosts. If any one of these is ignored, the experience may be polished but the promise of responsibility is incomplete."
+        },
+        {
+          "level": 2,
+          "text": "International sustainable-tourism guidance considers environmental, social, and economic impacts together. That is a useful starting point, but it becomes meaningful only when translated into practical decisions on a particular street, farm, trail, or waterfront."
+        }
+      ],
+      "list": {
+        "type": "unordered",
+        "level": 2,
+        "items": [
+          {
+            "title": "Ecological relationship:",
+            "text": "What water, energy, habitat, waste, noise, and transport demands does the visit create?"
+          },
+          {
+            "title": "Social and cultural relationship:",
+            "text": "Are people free to consent, refuse, shape the encounter, and protect their ordinary lives?"
+          },
+          {
+            "title": "Economic relationship:",
+            "text": "Who is paid, how fairly, how predictably, and through whose purchasing decisions?"
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "the-local-value-question",
+      "eyebrow": "THE ECONOMIC LENS",
+      "eyebrowLevel": 2,
+      "title": "The Most Important Question Is Not the Price",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A low-cost excursion can be generous to its guests and unfair to its hosts. A higher-priced experience can also be exploitative when the extra cost never reaches the people doing the work. The number on a booking page is therefore only the beginning of the conversation."
+        },
+        {
+          "level": 2,
+          "text": "Consider two hypothetical visits to a craft household. In the first, a large group arrives without a clear appointment, watches a demonstration, photographs the workspace, and leaves. In the second, the household chooses the time, sets a visitor fee for the educational exchange, limits the group size, and offers products for purchase without pressure. The difference is not merely aesthetic. It is a difference in <strong>control, compensation, and dignity</strong>."
+        },
+        {
+          "level": 2,
+          "text": "When an itinerary includes an independent host, a local driver, a cook, or a field guide, transparent procurement matters more than sentimental language about supporting the community. Local benefit should be part of the design, not a hopeful by-product."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "left",
+      "mobileOrder": "image-first",
+      "verticalAlign": "top",
+      "eyebrow": "DESIGN NOTE · LOCAL LIVELIHOODS",
+      "title": "Follow the Value, Not Just the View",
+      "image": "/images/home/journey-pc1.webp",
+      "imageAlt": "Landscape photograph used to accompany reflections on livelihoods and journey design",
+      "caption": "Editorial landscape pairing for the discussion of local economic value.",
+      "paragraphs": [
+        "A scenic stop becomes a more meaningful part of a journey when we understand the invisible work that makes it possible: someone maintains the path, someone prepares the meal, someone interprets a landscape, and someone shares knowledge gathered over years.",
+        "Local purchasing is not automatically fair purchasing. A thoughtful organiser asks hosts how they price their time, respects their minimum group arrangements, and avoids turning every encounter into a sales performance.",
+        "It also helps to resist an easy mistake: treating <i>local</i> as a guarantee of quality or ethics. The relationship still needs consent, clear expectations, and accountability."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "designing-fees",
+      "eyebrow": "PRACTICAL ECONOMICS",
+      "eyebrowLevel": 2,
+      "title": "What a Fairly Designed Experience Can Include",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "A responsible price is built out of explicit work rather than mystique. Time spent preparing, hosting, explaining, cleaning up, translating, and travelling should not disappear simply because the activity takes place in a home or a village."
+        },
+        {
+          "level": 2,
+          "text": "The fairest arrangements are often quite ordinary: fees agreed in advance, cancellations explained, purchases optional, and group sizes determined with hosts rather than imposed on them. If a visit earns publicity, decide together whether and how the host wants to be credited. If the plan changes, the financial consequences should not fall silently on the least powerful participant."
+        }
+      ],
+      "list": {
+        "type": "divided",
+        "level": 2,
+        "items": [
+          "<strong>Hosting time:</strong> budget for preparation, conversation, interpretation, and recovery—not only for the visible demonstration.",
+          "<strong>Professional expertise:</strong> pay guiding and cultural knowledge as skilled work.",
+          "<strong>Local supply:</strong> procure meals, materials, and support services through willing nearby providers where suitable.",
+          "<strong>Choice:</strong> keep any retail purchase voluntary and separate from the agreed experience fee."
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "eyebrow": "THE ORGANISER’S CHECKLIST",
+      "title": "Before Confirming a Community Visit",
+      "text": "The most useful question is not <i>Will our guests enjoy this?</i> but <i>Have the people providing it agreed to the form, timing, and value of the visit?</i>",
+      "subtitle": "Small administrative details carry large ethical consequences.",
+      "unorderedList": {
+        "level": 3,
+        "title": "Keep in mind",
+        "items": [
+          "Has the host chosen or approved the group size and duration?",
+          "Are photography, translation, accessibility needs, and any sensitive areas discussed in advance?",
+          "Does the agreed fee cover preparation and skilled time, even if guests buy nothing?"
+        ]
+      },
+      "orderedList": {
+        "level": 3,
+        "title": "Put it into practice",
+        "items": [
+          "Ask the host what a good visit looks like from their perspective.",
+          "Write the arrangement down in plain language.",
+          "Afterwards, ask whether anything should change before another group arrives."
+        ]
+      }
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "SIX IMAGES · ONE ECONOMIC QUESTION",
+      "title": "The Work Behind the Welcome",
+      "maxCols": 3,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Editorial photograph associated with Kerala cultural experiences",
+          "width": 600,
+          "height": 400,
+          "caption": "The point is not to consume a scene but to understand the work within it."
+        },
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Illustrative Kerala travel photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "Hosts should have a say in how their spaces are experienced."
+        },
+        {
+          "src": "/images/impact/impact1.webp",
+          "alt": "Landscape editorial photograph from the impact collection",
+          "width": 750,
+          "height": 500,
+          "caption": "Local choices shape a journey long before the guest arrives."
+        },
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Editorial image reflecting the relationship between travel and place",
+          "width": 750,
+          "height": 500,
+          "caption": "A landscape also supports livelihoods beyond the visitor economy."
+        },
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Illustrative image from the Kerala journal collection",
+          "width": 600,
+          "height": 400,
+          "caption": "The story behind an experience deserves attention and fair value."
+        },
+        {
+          "src": "/images/impact/impact3.webp",
+          "alt": "Editorial image from the impact series",
+          "width": 750,
+          "height": 500,
+          "caption": "Good relationships continue after the itinerary ends."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "ecology-without-spectacle",
+      "eyebrow": "CHAPTER II · THE ENVIRONMENTAL LENS",
+      "eyebrowLevel": 1,
+      "title": "The Landscape Is Not a Backdrop",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Kerala is often introduced through its contrasts: backwaters and hills, forest and coastline, cultivated fields and busy towns. Those contrasts are real and beautiful, but a landscape is also a system of lives, resources, and limits. A trail is not empty just because no one appears in the photograph. A waterway is not untouched merely because it is quiet."
+        },
+        {
+          "level": 2,
+          "text": "Responsible travel begins by accepting limits rather than negotiating around them. A closed path is not a challenge to overcome for a better view. Wildlife does not owe us a close encounter. Seasonal conditions do not exist to match our booking calendar."
+        },
+        {
+          "level": 2,
+          "text": "A journey designed around ecological care may deliberately contain fewer stops. It may favour a locally appropriate mode of transport, a permitted route, a longer stay, or a day spent learning instead of moving. The aim is not to manufacture an image of wilderness. It is to reduce unnecessary pressure on a living place."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "blue",
+      "imageCols": 7,
+      "aspectRatio": "16:9",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "eyebrow": "LANDSCAPE ETHICS · WESTERN GHATS",
+      "title": "A Forest Is More Than Its Photograph",
+      "image": "/images/home/forest-landscape.webp",
+      "imageAlt": "Wide forest landscape used to illustrate ecological responsibility",
+      "caption": "Illustrative forest landscape; access and local conditions should always be checked for a real visit.",
+      "paragraphs": [
+        "A forest can look inviting from the road while being unsuitable for unplanned visitors. Ground conditions, permitted access, seasonal restrictions, and the needs of nearby communities all deserve a place in the itinerary before any promise is made.",
+        "The practical discipline is straightforward: follow authorised access, work with knowledgeable local professionals, stay on permitted routes, carry out waste, keep noise low, and never turn wildlife into a performance.",
+        "The deeper discipline is harder. It means accepting that a memorable journey sometimes involves not entering a place at all."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "what-impact-actually-means",
+      "eyebrow": "A USEFUL DISTINCTION",
+      "eyebrowLevel": 2,
+      "title": "Low Impact Is Necessary, but Not the Whole Story",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A refillable bottle is a good habit; it does not address a guide’s wages. A small group may create less noise, but it can still be intrusive if a host never consented. Buying a locally made product can support an artisan, but it does not automatically repair an ecosystem."
+        },
+        {
+          "level": 2,
+          "text": "It helps to distinguish <strong>reducing harm</strong> from <strong>contributing to improvement</strong>. The first may involve waste prevention, careful access, and less resource-intensive choices. The second requires a clearer account of what changed, who wanted that change, and whether it lasts."
+        },
+        {
+          "level": 2,
+          "text": "A claim such as <i>this journey regenerated the landscape</i> is a significant statement. It needs credible outcomes, a relevant timeframe, and the participation of people responsible for that landscape. Without those, a humbler description is more trustworthy."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "blue",
+      "text": "The gentlest journey knows that a beautiful place<br>can still say no.",
+      "quoteAuthor": "Sree Jith",
+      "quoteRole": "Responsible Travel Field Notes"
+    },
+    {
+      "type": "text",
+      "id": "consent-is-a-design-material",
+      "eyebrow": "CHAPTER III · THE CULTURAL LENS",
+      "eyebrowLevel": 1,
+      "title": "Consent Is Part of the Itinerary",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Cultural immersion is a phrase that can hide an uncomfortable assumption: that another person’s everyday life is available whenever a visitor becomes curious. The better approach begins with permission. A home is a home before it is a hosted experience. A ritual belongs to its practitioners before it becomes a photograph. A story remains the storyteller’s to share—or not share."
+        },
+        {
+          "level": 2,
+          "text": "The most meaningful encounters often grow from arrangements made carefully in advance. A host can explain what is open to visitors and what is private. A local interpreter can help both sides understand expectations. A group can be introduced without creating the impression that visitors have purchased access to a whole community."
+        },
+        {
+          "level": 2,
+          "text": "This matters especially where livelihoods, faith, family spaces, and cultural practices overlap. Respect is not measured by how much access we gain. Sometimes it is measured by how easily a host can decline."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 4,
+      "aspectRatio": "2:3",
+      "imagePosition": "left",
+      "mobileOrder": "text-first",
+      "verticalAlign": "top",
+      "eyebrow": "THE ETHICS OF CULTURAL ACCESS",
+      "title": "A Household Is Not a Stage",
+      "image": "/images/itineraries/dummy8.webp",
+      "imageAlt": "Portrait-oriented travel photograph accompanying a discussion of community consent",
+      "caption": "Portrait-format editorial image accompanying a note on consent and private spaces.",
+      "paragraphs": [
+        "Think of a village courtyard where work and family life share the same space. Even when visitors are invited, that invitation has boundaries. The rhythm of the household should not be rearranged endlessly for a camera or a demonstration.",
+        "Ask before photographing people or interiors. Avoid requests that turn private customs into performances. If interpretation is necessary, make the interpreter part of the experience design—not an invisible extra.",
+        "Above all, allow a host to remain a person with a schedule, not simply a character in the traveller’s story."
+      ]
+    },
+    {
+      "type": "horizontal-slider",
+      "eyebrow": "VISUAL FIELD STRIP · NATIVE IMAGE PROPORTIONS",
+      "title": "Different Scales of Responsibility",
+      "sliderHeight": 400,
+      "innerRounding": false,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/itineraries/dummy5.webp",
+          "alt": "Vertical editorial travel image",
+          "width": 400,
+          "height": 600,
+          "caption": "People and places need boundaries that visitors respect."
+        },
+        {
+          "src": "/images/home/journey-pc.webp",
+          "alt": "Wide journey photograph",
+          "width": 1440,
+          "height": 960,
+          "caption": "Distances, transport, and time are part of the footprint."
+        },
+        {
+          "src": "/images/impact/impact4.webp",
+          "alt": "Editorial image from Kerala impact collection",
+          "width": 750,
+          "height": 500,
+          "caption": "The people doing the work deserve fair terms."
+        },
+        {
+          "src": "/images/home/forest-portrait.webp",
+          "alt": "Portrait-format forest image",
+          "width": 600,
+          "height": 900,
+          "caption": "The ecology of a route cannot be reduced to an attractive view."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Journal landscape photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "A local encounter should be chosen together."
+        },
+        {
+          "src": "/images/itineraries/dummy11.webp",
+          "alt": "Portrait travel photograph",
+          "width": 400,
+          "height": 600,
+          "caption": "Not every meaningful moment needs a photograph."
+        }
+      ],
+      "paragraph": "Different photo shapes invite different kinds of attention. The frame changes; the responsibility remains."
+    },
+    {
+      "type": "text",
+      "id": "regeneration-is-not-an-adjective",
+      "eyebrow": "CHAPTER IV · THE REGENERATIVE QUESTION",
+      "eyebrowLevel": 1,
+      "title": "Better for Whom, and According to Whom?",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Regenerative travel can be an inspiring ambition, but it is easy to turn it into an adjective that asks for applause without proving anything. A journey does not become regenerative because its brochure includes words such as <i>healing</i>, <i>restorative</i>, or <i>positive impact</i>. A real contribution needs a beneficiary, a mechanism, and some evidence that the change is valued locally."
+        },
+        {
+          "level": 2,
+          "text": "For one place, that might mean steadier orders for a small enterprise. For another, it could be a conservation initiative directed by the appropriate local institution. Elsewhere, the most valuable contribution may be reducing visitor pressure by not adding another group to an already busy day."
+        },
+        {
+          "level": 2,
+          "text": "There is no universal scorecard that can replace conversation. The decision has to begin with the priorities of the people and institutions who will live with its consequences."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "eyebrow": "A CLEARER LANGUAGE OF IMPACT",
+      "title": "Three Claims That Must Not Be Confused",
+      "text": "Precision is more persuasive than an inflated promise. Use language that matches the evidence available.",
+      "unorderedList": {
+        "level": 3,
+        "title": "Keep in mind",
+        "items": [
+          {
+            "title": "We aimed to reduce harm:",
+            "text": "Describe the choices made—such as permitted access, fewer transfers, and waste prevention."
+          },
+          {
+            "title": "We supported local participation:",
+            "text": "Describe the arrangement—who provided the service and how terms were agreed."
+          },
+          {
+            "title": "We improved an outcome:",
+            "text": "Only say this when the change can be explained and meaningfully assessed over time."
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "a-small-counterfactual",
+      "eyebrow": "WHAT IF WE DID NOT VISIT?",
+      "eyebrowLevel": 2,
+      "title": "The Question That Keeps Us Honest",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Imagine an excursion planned for a village during a busy agricultural week. The route is lovely, the guests are interested, and the organisers have already drafted persuasive copy. Then the intended hosts explain that the timing would interrupt essential work."
+        },
+        {
+          "level": 2,
+          "text": "The responsible choice may be to move the visit, shorten it, use a different provider, or abandon that stop altogether. Such a decision will not photograph well. It may never appear in a marketing report. Yet it says something profound about who holds power in the relationship."
+        },
+        {
+          "level": 2,
+          "text": "A useful test of any itinerary is whether the organiser can change the plan when local knowledge contradicts the original idea. <span class='rt-intention-blue'><strong>Flexibility is a form of respect.</strong></span>"
+        }
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "impact"
+    },
+    {
+      "type": "text",
+      "id": "measure-what-can-be-known",
+      "eyebrow": "CHAPTER V · FROM PROMISE TO PRACTICE",
+      "eyebrowLevel": 1,
+      "title": "Measure What You Can Actually Know",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A journal does not need to turn every human interaction into a spreadsheet. But responsible travel benefits from a few honest checks. Was the experience agreed in advance? Were hosts compensated as arranged? Did a group stay within the access and size limits? Did the visit require avoidable waste or repeated transfers? What feedback did the people delivering it offer afterwards?"
+        },
+        {
+          "level": 2,
+          "text": "These are modest questions, deliberately so. They produce information that can improve the next itinerary. The opposite approach—announcing sweeping benefits without a baseline or a way to follow up—can turn good intentions into an advertising device."
+        },
+        {
+          "level": 2,
+          "text": "In Kerala, the public Responsible Tourism Mission offers examples of approaches connecting tourism with local livelihoods and culture. Such initiatives are useful context, not proof that every private activity in every destination meets the same standards."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "two-itinerary-choices",
+      "eyebrow": "DESIGN EXERCISE",
+      "eyebrowLevel": 2,
+      "title": "The Same Afternoon, Two Different Designs",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Consider a hypothetical four-hour afternoon near a Kerala village. Both versions contain a landscape walk, a meal, and a cultural encounter. Only the second has been designed around clear local participation."
+        }
+      ],
+      "list": {
+        "type": "ordered",
+        "level": 2,
+        "items": [
+          {
+            "title": "Version A · The checklist:",
+            "text": "Drive to three scenic points, stop without an appointment at a working household, take photographs, and depart for the next attraction."
+          },
+          {
+            "title": "Version B · The relationship:",
+            "text": "Agree on one hosted visit in advance, pay a defined fee, use a permitted local route, reserve time for conversation, and remove a stop when the hosts need their afternoon back."
+          },
+          {
+            "title": "The difference:",
+            "text": "The value is not in making an itinerary sound virtuous. It is in assigning time, money, and decision-making where they belong."
+          }
+        ]
+      }
+    },
+    {
+      "type": "slider",
+      "eyebrow": "LIGHTBOX · A LANDSCAPE IS ALSO A LIVED PLACE",
+      "title": "What a Responsible Itinerary Must Consider",
+      "width": 1200,
+      "height": 800,
+      "autoplay": false,
+      "interval": 5200,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/impact/impact5.webp",
+          "alt": "Landscape editorial image from impact collection",
+          "caption": "Local livelihoods and cultural work deserve careful arrangements."
+        },
+        {
+          "src": "/images/itineraries/dummy2.webp",
+          "alt": "Portrait travel image used for a route-design reflection",
+          "caption": "Different orientations belong together in the lightbox."
+        },
+        {
+          "src": "/images/home/journey-pc1.webp",
+          "alt": "Wide landscape travel image",
+          "caption": "Transport and timing shape the quality of an encounter."
+        },
+        {
+          "src": "/images/journal/journal5.webp",
+          "alt": "Journal landscape photograph",
+          "caption": "Every attractive scene belongs to a larger place."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-footprint-beyond-the-photo",
+      "eyebrow": "CHAPTER VI · THE INVISIBLE FOOTPRINT",
+      "eyebrowLevel": 1,
+      "title": "What the Camera Does Not Count",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A camera records an instant. It does not record the generator running through the afternoon, the extra journey made to fetch a visitor, or the time a family spends preparing for an unplanned group. Environmental and social pressures frequently live outside the frame."
+        },
+        {
+          "level": 2,
+          "text": "That is why responsible itinerary design looks at the entire day. How far apart are the stops? Is there a reason to move again? Are facilities adequate for the group? Can a nearby supplier meet the need? Does the timing create crowding during a sensitive hour?"
+        },
+        {
+          "level": 2,
+          "text": "There are trade-offs. A direct transfer might use fuel but prevent multiple inefficient journeys; a small family-run business might need support to adopt better waste practices. The point is not to pretend there is one perfectly clean answer. It is to identify the trade-off and make the least harmful reasonable choice."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "quiet-economics",
+      "eyebrow": "THE SOCIAL SIDE OF DESIGN",
+      "eyebrowLevel": 2,
+      "title": "Protecting the Ordinary Day",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "It is tempting to describe village life as timeless, but people have contemporary ambitions, work schedules, school runs, bills, and private obligations. An encounter that visitors remember as a beautiful pause may require someone else to rearrange their day."
+        },
+        {
+          "level": 2,
+          "text": "A more respectful experience honours those realities. It starts on time, ends on time, allows the host to change the schedule, and resists the idea that a warm welcome entitles visitors to unlimited access. Hospitality should never become a resource that others extract without recognising its cost."
+        },
+        {
+          "level": 2,
+          "text": "The best journeys do not freeze communities into a convenient past. They give visitors room to meet people as they are, including their interests beyond the tradition or profession that first drew attention."
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "PORTRAIT AND LANDSCAPE · ASYMMETRIC MASONRY",
+      "title": "The Wider Pattern",
+      "maxCols": 3,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/itineraries/dummy1.webp",
+          "alt": "Portrait-format editorial image",
+          "width": 400,
+          "height": 600,
+          "caption": "A close detail can hold a story of effort."
+        },
+        {
+          "src": "/images/impact/impact6.webp",
+          "alt": "Landscape editorial photograph",
+          "width": 750,
+          "height": 500,
+          "caption": "Look at the wider setting and its shared use."
+        },
+        {
+          "src": "/images/itineraries/dummy6.webp",
+          "alt": "Vertical travel photograph",
+          "width": 400,
+          "height": 600,
+          "caption": "People set the terms of a welcome."
+        },
+        {
+          "src": "/images/home/journey-pc.webp",
+          "alt": "Horizontal journey photograph",
+          "width": 1440,
+          "height": 960,
+          "caption": "A destination is part of a connected route."
+        },
+        {
+          "src": "/images/itineraries/dummy9.webp",
+          "alt": "Portrait travel image",
+          "width": 400,
+          "height": 600,
+          "caption": "The small choices accumulate."
+        },
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Wide forest landscape",
+          "width": 1600,
+          "height": 900,
+          "caption": "Ecological value extends beyond the photo frame."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "cream",
+      "text": "The real souvenir of a responsible journey is not a claim of goodness.<br>It is a better way of making the next decision.",
+      "quoteAuthor": "Sree Jith",
+      "quoteRole": "Journal · Travel Design Notes"
+    },
+    {
+      "type": "text",
+      "id": "traveller-practice",
+      "eyebrow": "CHAPTER VII · A USEFUL TRAVELLER’S METHOD",
+      "eyebrowLevel": 1,
+      "title": "Five Questions to Ask Before You Book",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Travellers do not need specialist credentials to ask thoughtful questions. They need curiosity, a willingness to listen to the answers, and the confidence to choose differently when a plan does not feel right."
+        },
+        {
+          "level": 2,
+          "text": "A genuinely thoughtful operator should be able to explain important decisions without making every question sound like an accusation. The answers may include uncertainty. In fact, a clear acknowledgment of limits can be more reassuring than a glossy promise of perfection."
+        }
+      ],
+      "list": {
+        "type": "ordered",
+        "level": 2,
+        "items": [
+          {
+            "title": "Who chooses the experience?",
+            "text": "Look for evidence that hosts actively shape timing, access, activities, and group size."
+          },
+          {
+            "title": "Who receives the payment?",
+            "text": "Ask whether local partners are paid for their time and expertise, not merely offered exposure."
+          },
+          {
+            "title": "What limits are respected?",
+            "text": "Find out how routes, photography, wildlife, and sensitive cultural spaces are handled."
+          },
+          {
+            "title": "What happens if conditions change?",
+            "text": "A responsible plan should adapt to weather, host availability, and local advice."
+          },
+          {
+            "title": "What do you know afterwards?",
+            "text": "Look for specific, modest accounts of outcomes and feedback rather than sweeping impact slogans."
+          }
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "eyebrow": "PLANNING NOTEBOOK",
+      "title": "An Ethical Itinerary Is a Set of Agreements",
+      "text": "The most useful way to plan is to turn good intentions into clear, shared decisions that can be revisited.",
+      "subtitle": "A two-sided checklist for visitors and designers.",
+      "unorderedList": {
+        "level": 3,
+        "title": "Keep in mind",
+        "items": [
+          "Leave enough time for a host to speak without watching the clock.",
+          "Keep photography permission specific and revocable.",
+          "Respect any local decision to restrict or cancel an activity."
+        ]
+      },
+      "orderedList": {
+        "level": 3,
+        "title": "Put it into practice",
+        "items": [
+          "Agree the purpose, timing, fee, and maximum group size.",
+          "Confirm transport and access before promising an experience.",
+          "Invite feedback after the visit and change the plan if needed."
+        ]
+      }
+    },
+    {
+      "type": "highlights",
+      "theme": "blue",
+      "eyebrow": "THE ESSENTIALS",
+      "title": "Six Principles Worth Carrying Forward",
+      "items": [
+        "Do not confuse a beautiful photograph with evidence of positive impact.",
+        "Pay for knowledge, time, preparation, and hospitality as real work.",
+        "Treat local consent as a condition of the visit, never a decorative courtesy.",
+        "Follow permitted access and ecological limits even when they disrupt a plan.",
+        "Describe sustainability claims with the precision the evidence allows.",
+        "Be willing to reduce, move, or cancel a stop when the place asks you to."
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "itineraries",
+      "eyebrow": "CURATED WITH CARE",
+      "title": "Explore Journeys Designed Around People and Place",
+      "text": "Find routes that make room for local knowledge, unhurried encounters, and thoughtful decisions.",
+      "ctaLabel": "EXPLORE ITINERARIES",
+      "to": "/itineraries"
+    },
+    {
+      "type": "text",
+      "id": "when-no-is-the-right-answer",
+      "eyebrow": "CHAPTER VIII · WHAT WE TAKE HOME",
+      "eyebrowLevel": 1,
+      "title": "Sometimes the Best Decision Is Not to Go",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A meaningful journey is not defined by how many doors it opens. It is defined partly by its ability to respect a closed one. The path that should remain undisturbed, the household that is not available, the ritual that is not meant for a camera—these are not failures of the itinerary."
+        },
+        {
+          "level": 2,
+          "text": "They remind us that places have lives beyond tourism. That is precisely what makes them worth caring for. <span class='rt-dark-gold'><strong>Responsible travel makes space for a destination to remain itself.</strong></span> It asks guests to enjoy the privilege of visiting without mistaking that privilege for ownership."
+        },
+        {
+          "level": 2,
+          "text": "If we return home with fewer photographs but a clearer understanding of how our decisions touched another place, the journey may already have given us something more durable than a perfect view."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "responsible-travel-resources",
+      "eyebrow": "RESEARCH & CONTEXT",
+      "eyebrowLevel": 2,
+      "title": "Further Reading & Context",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "These public resources provide a starting point for the wider principles discussed here. They do not certify the impact of any particular itinerary."
+        }
+      ],
+      "list": {
+        "type": "divided",
+        "level": 2,
+        "items": [
+          {
+            "title": "<a href='https://www.untourism.int/node/15992' target='_blank'>UN Tourism · Sustainable Tourism</a>",
+            "text": "A framework considering economic, environmental, and social effects together."
+          },
+          {
+            "title": "<a href='https://www.keralatourism.org/responsible-tourism/' target='_blank'>Kerala Responsible Tourism Mission Society</a>",
+            "text": "Official context for the state’s local-livelihood and community-based tourism initiatives."
+          },
+          {
+            "title": "<a href='https://www.keralatourism.org/village-life-experience/' target='_blank'>Kerala Tourism · Village Life Experience</a>",
+            "text": "An introduction to community-linked experiences and cultural participation in Kerala."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "partner",
+      "eyebrow": "BUILD MEANINGFUL TRAVEL TOGETHER",
+      "title": "Let’s Design More Thoughtful Ways to Explore",
+      "text": "If your work connects people, culture, or conservation, explore the possibilities of collaboration.",
+      "ctaLabel": "PARTNER WITH US",
+      "to": "/network"
+    },
+    {
+      "type": "author-profile",
+      "theme": "cream",
+      "eyebrow": "ABOUT THE JOURNEY DESIGNER",
+      "title": "Sree Jith",
+      "text": "Sree Jith designs culturally immersive travel experiences inspired by people, places, and stories. This editorial essay explores the questions that can make journey planning more accountable to host communities and living landscapes.",
+      "image": "/images/testimonials/avatar.webp",
+      "imageAlt": "Author profile avatar for Sree Jith"
+    }
+  ]
+}

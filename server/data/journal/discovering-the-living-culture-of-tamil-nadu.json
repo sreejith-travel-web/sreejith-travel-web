@@ -1,0 +1,1494 @@
+{
+  "meta": {
+    "id": "jrn-insight-013",
+    "slug": "discovering-the-living-culture-of-tamil-nadu",
+    "category": "insights",
+    "type": "insights",
+    "subcategory": "living-heritage",
+    "subcategoryLabel": "LIVING HERITAGE",
+    "contentTypeLabel": "CULTURAL ESSAY",
+    "categoryLabel": "CULTURAL ESSAY · LIVING HERITAGE",
+    "featured": true,
+    "title": "Discovering the Living Culture of Tamil Nadu",
+    "excerpt": "Beyond monuments and itineraries, Tamil Nadu lives through dawn threshold drawings, active temple streets, bronze foundries, handlooms, music, kitchens, harvest calendars, and the choices of the people who sustain them. A curator’s expansive guide to encountering that culture with attention and respect.",
+    "headerQuote": "A culture is not something we arrive to see. It is something people are already living when we arrive.",
+    "author": "Sree Jith",
+    "readTime": "37 MIN READ",
+    "publishDate": "2026-11-12",
+    "tags": [
+      "#TAMILNADU",
+      "#LIVINGHERITAGE",
+      "#CULTURALTRAVEL"
+    ],
+    "categories": [
+      "culture",
+      "bespoke",
+      "offbeat"
+    ],
+    "topics": [
+      "#TAMILNADU",
+      "#LIVINGHERITAGE",
+      "#CULTURALTRAVEL",
+      "#EXPERIENCEDESIGN",
+      "#SOUTHINDIA"
+    ],
+    "image": "/images/fallbacks/culture.webp",
+    "alt": "Wide editorial photograph introducing a cultural journey through Tamil Nadu"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "culture-is-a-verb",
+      "title": "Culture Is a Verb, Not a Collection",
+      "titleLevel": 1,
+      "eyebrow": "A CURATOR’S PROLOGUE · TAMIL NADU",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Stand at the entrance to a Tamil town before its shops are fully open and the first impression may have little to do with its famous monuments. Someone rinses a stone threshold. Someone draws a <i>kolam</i>. A tea stall sends steam towards the street. A bus stops, a temple bell sounds, and a tailor lifts the shutter of a workshop. None of these moments was arranged for the visitor. That is precisely why they matter."
+        },
+        {
+          "level": 2,
+          "text": "Tamil Nadu is often presented through a familiar sequence: monumental temples, silk saris, bronze sculptures, classical dance, and richly spiced meals. Those are important points of entry, but the real subject is larger and less easily packaged. <strong>Living culture is the relationship between inherited knowledge and the people changing, practising, contesting, and caring for it today.</strong> It exists as much in a workday as in a festival; as much in new music and neighbourhood conversation as in an old inscription."
+        },
+        {
+          "level": 2,
+          "text": "For a travel experience designer, the question is therefore not merely, <i>Which cultural sites should appear on the route?</i> It is, <em>How can a guest recognise a place as a living world without treating that world as their personal performance?</em> This essay travels through thresholds, sacred architecture, craft, music, food, homes, the coast, and the hills, before returning to the practical art of curating an encounter."
+        },
+        {
+          "level": 2,
+          "text": "The examples here are researched regional contexts and <strong>design possibilities</strong>, not claims that Sreejith Travel has personally hosted each visit. Their accessibility, timing, and appropriateness need to be confirmed with local people before anyone turns them into an itinerary. <span data-scroll-to='how-a-curator-builds-the-encounter'>Continue to the practical design method</span> whenever you want to see how these principles become an experience."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "theme": "cream",
+      "variant": "boxed",
+      "text": "To enter a place well, first notice what is already happening without you.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "On the first responsibility of a guest",
+      "id": "quote"
+    },
+    {
+      "type": "text",
+      "eyebrow": "READING THIS EDITORIAL",
+      "eyebrowLevel": 2,
+      "title": "A Note on Scale and Difference",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "No single district, caste, faith, language register, art form, or cuisine can stand in for every Tamil person. Tamil Nadu is a large, internally varied society; Chennai is not Chettinad, the Kaveri delta is not the Nilgiris, and a family practice is not a universal rule."
+        },
+        {
+          "level": 3,
+          "text": "We use <span class='rt-muted'>specific examples rather than a claim of one authentic Tamil way of life</span>. Where a practice is sacred, private, or community-controlled, access is never presumed."
+        }
+      ],
+      "id": "a-note-on-scale-and-difference"
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "title": "How to Read a Living Culture",
+      "text": "Treat each possible visit as a relationship rather than a spectacle.",
+      "eyebrow": "AN EDITORIAL COMPASS",
+      "subtitle": "Four questions to carry from place to place",
+      "unorderedList": {
+        "title": "The curator’s four questions",
+        "level": 3,
+        "items": [
+          {
+            "title": "Whose practice is this?",
+            "text": "Identify the community, practitioner, household, or institution that gives the experience meaning."
+          },
+          {
+            "title": "Who decides access?",
+            "text": "Ask who can invite a guest, which places remain private, and whether photographs or recordings are appropriate."
+          },
+          {
+            "title": "Who benefits?",
+            "text": "Look for fair fees, purchases, attribution, and a reason for the hosts themselves to welcome the arrangement."
+          },
+          {
+            "title": "What changes by season?",
+            "text": "Confirm rehearsals, rituals, crop cycles, heat, rain, and ordinary working obligations."
+          }
+        ]
+      },
+      "id": "how-to-read-a-living-culture"
+    },
+    {
+      "type": "text",
+      "id": "the-threshold-speaks",
+      "title": "The Threshold Speaks Before the Door Opens",
+      "titleLevel": 1,
+      "eyebrow": "01 · EVERYDAY PRACTICE",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A <i>kolam</i> outside a home may be one of the first forms a visitor notices in Tamil Nadu: dots, loops, lines, and repeated geometry drawn near a doorway. Some are made with rice flour; other materials and styles appear in different settings. They can be devotional, aesthetic, habitual, seasonal, experimental, or several of these at once. The meaningful detail is not only the pattern. It is the ordinary decision to make it again."
+        },
+        {
+          "level": 2,
+          "text": "Public tourism imagery often treats the finished drawing as decoration. A more attentive reading considers the person and circumstances behind it: whether the courtyard must be swept, whether rain will erase the work, whether a child is learning a pattern, or whether a household simply prefers a quick design on a busy morning. <span class='rt-intention-gold'>Repetition can be a form of renewal</span>, not evidence that life has stood still."
+        },
+        {
+          "level": 2,
+          "text": "The entrance of a Tamil home also tells us what we do not know. It is not an invitation to step inside, photograph a resident, or ask them to demonstrate the practice. A curator can teach guests to appreciate a public-facing threshold without converting a private morning into an appointment."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 4,
+      "aspectRatio": "2:3",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "top",
+      "eyebrow": "THE BEAUTY OF RETURNING",
+      "title": "Patterns Made to Disappear",
+      "titleLevel": 2,
+      "image": "/images/home/journey-mob.webp",
+      "imageAlt": "Portrait-format editorial travel photograph from the Sreejith Travel image collection",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "A floor design is unusually honest about time. Rain, footsteps, wind, and the movement of a household can alter it. Its value does not depend on becoming permanent. A visitor who asks only for an undisturbed photograph may miss the more interesting idea: the maker can return tomorrow with another design."
+        },
+        {
+          "level": 2,
+          "text": "In a thoughtfully hosted workshop, a practitioner may choose to explain how a family uses dots, curves, and proportion. The form of engagement—demonstration, practice, conversation, or simply respectful observation—must belong to that practitioner, not to the expectations of the traveller."
+        }
+      ],
+      "caption": "An entrance can be both an invitation to notice and a boundary to respect.",
+      "id": "patterns-made-to-disappear"
+    },
+    {
+      "type": "text",
+      "eyebrow": "ON OBSERVATION",
+      "eyebrowLevel": 2,
+      "title": "What the Curator Notices",
+      "titleLevel": 3,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "A meaningful introduction to <i>kolam</i> might begin with these ordinary questions, not with an instruction to recreate somebody’s design:"
+      ],
+      "list": {
+        "type": "unordered",
+        "level": 2,
+        "items": [
+          {
+            "title": "Materials",
+            "text": "Are rice flour, chalk powder, or another medium used in this setting, and why?"
+          },
+          {
+            "title": "Time",
+            "text": "Is the drawing part of a daily rhythm, a festival preparation, or a special occasion?"
+          },
+          {
+            "title": "Ownership",
+            "text": "Is this a household practice the maker wishes to discuss, or simply something to appreciate from a distance?"
+          }
+        ]
+      },
+      "id": "what-the-curator-notices"
+    },
+    {
+      "type": "quote",
+      "theme": "blue",
+      "variant": "border",
+      "text": "Attention is not the same as access. Sometimes respect means admiring a threshold without crossing it.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "On homes, privacy, and consent",
+      "id": "quote-2"
+    },
+    {
+      "type": "text",
+      "id": "temples-and-the-life-around-them",
+      "title": "Temples, Towns, and the Life Around Them",
+      "titleLevel": 1,
+      "eyebrow": "02 · ARCHITECTURE IN USE",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "In Thanjavur, Gangaikondacholapuram, and Darasuram, the great 11<sup>th</sup>- and 12<sup>th</sup>-century Living Chola Temples belong to an extraordinary architectural history. UNESCO recognises the three temple complexes as a World Heritage property, but its account also stresses something fundamental: they are <strong>living temples</strong>, where worship and ritual continue. Their significance cannot be reduced to the age of stone or the ambition of a royal dynasty."
+        },
+        {
+          "level": 2,
+          "text": "A monument-only visit can explain towers, sculpture, axial alignments, and inscriptions. A living-culture visit must also notice the present-day landscape of devotion, maintenance, local labour, and community use. The enormous <i>vimana</i> at Thanjavur is a work of architecture; for a worshipper, the temple is also an <span class='rt-intention-blue'>active sacred space</span>. Both truths deserve room in the same narrative."
+        },
+        {
+          "level": 2,
+          "text": "And temples are never the whole story of a town. Beside a celebrated shrine may be ordinary streets of bookshops, eateries, flower sellers, tailors, musical-instrument repairers, transport workers, and families whose day does not revolve around tourism. Their work completes the place more than a perfect aerial photograph ever could."
+        }
+      ]
+    },
+    {
+      "type": "youtube",
+      "eyebrow": "OFFICIAL TOURISM FILM",
+      "title": "Tamil Nadu in Motion",
+      "titleLevel": 2,
+      "text": "A short official Tamil Nadu Tourism film offers a visual introduction to the state’s culture, food, heritage, and everyday life. It is an opening impression—not a substitute for the voices of local practitioners.",
+      "video": {
+        "videoId": "KVcIhD1Fvp4",
+        "thumbnail": "/images/home/travel-video.webp",
+        "alt": "Editorial video thumbnail for the official Tamil Nadu Tourism film",
+        "width": 1280,
+        "height": 720
+      },
+      "caption": "<a href='https://www.youtube.com/watch?v=KVcIhD1Fvp4' target='_blank'>TNGTS 2026 — I am Tamil Nadu</a>, published by the official Tamil Nadu Tourism YouTube channel. Presented as a broad official introduction to the state.",
+      "id": "tamil-nadu-in-motion"
+    },
+    {
+      "type": "image-split",
+      "theme": "blue",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "left",
+      "mobileOrder": "text-first",
+      "verticalAlign": "center",
+      "eyebrow": "THE LIVING CHOLA LANDSCAPE",
+      "title": "The Monument Has a Present Tense",
+      "titleLevel": 2,
+      "image": "/images/home/journey-pc.webp",
+      "imageAlt": "Landscape editorial travel photograph from the Sreejith Travel image collection",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The <span class='rt-journey-deep'>Chola temples</span>—Brihadisvara at Thanjavur, the temple at Gangaikondacholapuram, and Airavatesvara at Darasuram—invite a sophisticated balance. Architecture and religious practice need separate forms of interpretation, delivered without confusing a guide’s historical explanation for access to devotional spaces."
+        },
+        {
+          "level": 2,
+          "text": "A curator might design an early visit for comfortable walking conditions, build in time to discuss how temple cities evolved, and pause outside for the surrounding streets. Worshippers' routes, photography rules, and changing ceremonial schedules take precedence over an itinerary’s preferred sequence."
+        }
+      ],
+      "caption": "History and devotion occupy the same landscape, but ask different things of a visitor.",
+      "id": "the-monument-has-a-present-tense"
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "title": "A Temple-Town Visit: Five Useful Decisions",
+      "text": "These are questions a curator resolves with local hosts and current site information, never rules imposed from outside.",
+      "eyebrow": "FIELD DESIGN BRIEF",
+      "subtitle": "How to give history and present-day practice equal dignity",
+      "unorderedList": {
+        "title": "Protect",
+        "level": 3,
+        "items": [
+          "Check worship hours, dress requirements, permitted camera zones, and queue conditions for the date of travel.",
+          "Treat ritual observation as optional and governed by the place of worship.",
+          "Avoid occupying a worshipper’s space for a staged portrait."
+        ]
+      },
+      "orderedList": {
+        "title": "Build",
+        "level": 3,
+        "items": [
+          "Start with a historical and architectural orientation led by a knowledgeable interpreter.",
+          "Allow independent observation and time for ordinary streets, without turning every passer-by into a subject.",
+          "Invite a reflective conversation afterward: what did the visitor learn, and what remains outside their understanding?"
+        ]
+      },
+      "id": "a-temple-town-visit-five-useful-decisions"
+    },
+    {
+      "type": "text",
+      "eyebrow": "FURTHER CONTEXT",
+      "eyebrowLevel": 2,
+      "title": "Where the Historical Record Helps",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "UNESCO’s <a href='https://whc.unesco.org/en/list/250/' target='_blank'>Great Living Chola Temples listing</a> documents the three sites and their <span class='rt-action-blue'>ongoing worship traditions</span>. The curator’s responsibility is to interpret that evidence carefully while recognising that living religious practice has its own authorities and boundaries."
+        }
+      ],
+      "id": "where-the-historical-record-helps"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "about",
+      "id": "cta-banner"
+    },
+    {
+      "type": "text",
+      "id": "materials-carry-memory",
+      "title": "Materials Carry Memory: Loom, Wax, Wood, and Metal",
+      "titleLevel": 1,
+      "eyebrow": "03 · WORKING HERITAGE",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Tamil Nadu’s craft heritage is not a single golden age preserved in a display cabinet. It is a collection of particular skills, markets, places, materials, and negotiations. A silk sari is also decisions about yarn, dye, pattern, labour, credit, and a buyer. A bronze image is also a demanding sequence of modelling, mould-making, casting, chasing, and finishing. The artistry belongs to working people whose time has value."
+        },
+        {
+          "level": 2,
+          "text": "Kanchipuram’s weaving identity, Swamimalai’s bronze-icon workshops, and the painting traditions associated with Thanjavur may all appear in a cultural itinerary. But the better editorial question is <i>what can visitors learn that a showroom label does not explain?</i> How does a maker decide on a pattern? What is difficult to teach? What is changing because of materials or markets? What does an apprentice want from the future? These are living questions, not souvenir descriptions."
+        },
+        {
+          "level": 2,
+          "text": "Swamimalai bronze icons are a recognised geographical-indication craft, and the <span class='rt-dark-gold'>lost-wax process</span> connects present-day workshops to a much older sculptural lineage. That heritage is not a licence to open sacred or commercial work to anyone with a camera. A hosted visit, when a workshop genuinely offers one, needs a clear scope and fair terms."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "light",
+      "imageCols": 5,
+      "aspectRatio": "2:3",
+      "imagePosition": "left",
+      "mobileOrder": "image-first",
+      "verticalAlign": "top",
+      "eyebrow": "WEAVING AS KNOWLEDGE",
+      "title": "The Loom Is a Place of Work",
+      "titleLevel": 2,
+      "image": "/images/home/solo-portrait.webp",
+      "imageAlt": "Portrait-format editorial travel photograph from the Sreejith Travel image collection",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "A loom is often introduced as a beautiful visual: coloured threads, a moving shuttle, perhaps the sound of the mechanism. Yet a thoughtful encounter pays attention to <strong>tension, counting, preparation, body posture, repetitive strain, design choices, and the mathematics of the weave</strong>."
+        },
+        {
+          "level": 2,
+          "text": "The right host might prefer a short, paid discussion before or after active production, rather than a long demonstration. Purchasing an object is another kind of relationship: ask about origin, authorship, and price without assuming the visitor deserves a discount because they have shown interest."
+        }
+      ],
+      "caption": "The hand, the material, and the working day belong in the story of a craft.",
+      "id": "the-loom-is-a-place-of-work"
+    },
+    {
+      "type": "quote",
+      "theme": "mixed",
+      "variant": "boxed",
+      "text": "What looks effortless in a finished object is often years of decisions made by hand.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "On learning to see craft labour",
+      "id": "quote-3"
+    },
+    {
+      "type": "text",
+      "title": "What a Craft Visit Should Actually Teach",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The best craft encounters are not miniature factories staged for guest entertainment. They clarify what the visitor is seeing, which parts require permission, and why the work deserves a fair price. A curator can invite a conversation about the maker’s training and contemporary market without forcing an artisan to perform personal hardship as the price of being interesting."
+        },
+        {
+          "level": 2,
+          "text": "In a bronze foundry, for instance, a short explanation of a <i>lost-wax</i> sequence may be appropriate, while active casting areas remain unsafe. In a textile workshop, hands-on participation might be welcomed in a designated teaching area, while a commissioned order remains untouched. The host determines the line."
+        }
+      ],
+      "eyebrow": "BETWEEN DEMONSTRATION AND WORK",
+      "eyebrowLevel": 2,
+      "id": "what-a-craft-visit-should-actually-teach"
+    },
+    {
+      "type": "slider",
+      "eyebrow": "MATERIALS & PROCESSES",
+      "title": "A Wider View of the Working Landscape",
+      "titleLevel": 2,
+      "text": "A sequence of images can suggest pace and texture, but the real craft story belongs to the people who practise it.",
+      "width": 1600,
+      "height": 900,
+      "autoplay": false,
+      "interval": 5500,
+      "captionMob": true,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Landscape image from the project’s editorial travel collection",
+          "caption": "Material knowledge is held in techniques and working relationships."
+        },
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Landscape image from the impact photo collection",
+          "caption": "A craft experience should compensate the time spent teaching."
+        },
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Landscape editorial photograph",
+          "caption": "An image can pause a narrative without making claims about a particular workshop."
+        },
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Wide forest landscape photograph from the project collection",
+          "caption": "Crafts also belong to places, resources, and seasons."
+        }
+      ],
+      "id": "a-wider-view-of-the-working-landscape"
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "title": "The Three-Part Craft Agreement",
+      "eyebrow": "PRACTICAL CURATION",
+      "paragraphs": [
+        "Even a small hosted studio visit benefits from simple terms stated in advance. The traveller should understand that a workshop is not an unlimited-access museum."
+      ],
+      "unorderedList": {
+        "title": "Agree before the visit",
+        "level": 2,
+        "items": [
+          {
+            "title": "Time",
+            "text": "Duration, breaks, group size, and how interruptions to work are handled."
+          },
+          {
+            "title": "Payment",
+            "text": "A teaching or hosting fee that is separate from any optional purchase."
+          },
+          {
+            "title": "Permissions",
+            "text": "Where photographs, recordings, handling of materials, and publication are allowed."
+          }
+        ]
+      },
+      "id": "the-three-part-craft-agreement"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "partner",
+      "eyebrow": "PARTNERSHIPS BUILT ON PRACTICE",
+      "title": "Create Cultural Experiences With the People Who Sustain Them",
+      "text": "Meaningful collaborations begin with clear expectations, fair exchange, and respect for the maker’s working day.",
+      "ctaLabel": "EXPLORE PARTNERSHIPS",
+      "to": "/network",
+      "id": "create-cultural-experiences-with-the-people-who-sustain-them"
+    },
+    {
+      "type": "text",
+      "id": "a-culture-that-sounds",
+      "title": "A Culture That Sounds Different in Every Setting",
+      "titleLevel": 1,
+      "eyebrow": "04 · PERFORMANCE & THE ORDINARY AUDIENCE",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Tamil Nadu’s soundscape can change dramatically in a single day. There may be a devotional <i>nadaswaram</i> ensemble associated with a ceremony, a Carnatic lesson in a private studio, a street procession with percussion, or a cinema song pouring out of a small shop. The existence of classical traditions does not make other sound worlds secondary. Tamil culture also lives through popular music, local theatre, folk performance, film, spoken poetry, and contemporary experimental work."
+        },
+        {
+          "level": 2,
+          "text": "Bharatanatyam is often presented as a polished stage form; its history is much more complex, including hereditary practitioners, changing institutions, social reform, and modern reinterpretation. Carnatic music likewise exists through teaching, practice, concerts, debate, and audiences—not only through a famous annual season. A curator should make room for practitioners to explain their own lineages and current questions rather than telling a tidy, uncontested story of timeless tradition."
+        },
+        {
+          "level": 2,
+          "text": "A useful starting point is to distinguish an <strong>event created for an audience</strong> from a <strong>ritual or community practice that has other purposes</strong>. Buying a ticket to a public performance is different from assuming a neighbourhood ceremony is available as entertainment. A well-designed journey respects that difference."
+        }
+      ]
+    },
+    {
+      "type": "horizontal-slider",
+      "eyebrow": "A FILMSTRIP FOR THE LISTENER",
+      "title": "A Rhythm of Spaces and Silences",
+      "titleLevel": 2,
+      "paragraph": "A mixed-orientation sequence can change the article’s pace, just as a good itinerary moves between energetic public settings and quiet independent observation.",
+      "sliderHeight": 380,
+      "innerRounding": false,
+      "captionMob": true,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/home/journey-mob.webp",
+          "alt": "Tall editorial travel photograph",
+          "width": 960,
+          "height": 1440,
+          "caption": "A portrait frame asks the reader to pause."
+        },
+        {
+          "src": "/images/impact/impact1.webp",
+          "alt": "Landscape photograph from the impact collection",
+          "width": 750,
+          "height": 500,
+          "caption": "The setting around an event matters as much as the performance."
+        },
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Landscape editorial journal photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "Listen for the rhythms of place beyond the stage."
+        },
+        {
+          "src": "/images/itineraries/dummy3.webp",
+          "alt": "Tall photograph from the itinerary image collection",
+          "width": 400,
+          "height": 600,
+          "caption": "Visual placeholder for future performer-authorised photography."
+        },
+        {
+          "src": "/images/home/journey-pc1.webp",
+          "alt": "Wide editorial travel photograph",
+          "width": 1440,
+          "height": 960,
+          "caption": "A wider frame returns the reader to the town."
+        }
+      ],
+      "id": "a-rhythm-of-spaces-and-silences"
+    },
+    {
+      "type": "text",
+      "eyebrow": "DISTINCTIONS WORTH MAKING",
+      "eyebrowLevel": 2,
+      "title": "Three Ways to Listen",
+      "titleLevel": 3,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "A curator can offer different kinds of engagement while keeping the terms clear:"
+      ],
+      "list": {
+        "type": "ordered",
+        "level": 2,
+        "items": [
+          "<strong>Attend a public performance:</strong> Purchase the right ticket, confirm the programme, and brief guests on etiquette.",
+          "<strong>Join an artist-led introduction:</strong> Pay a musician or dancer for an agreed teaching session; let them choose how much to demonstrate.",
+          "<strong>Listen to everyday place:</strong> Leave some time unscripted—no recording, no commentary, no demand that a street become a stage."
+        ]
+      },
+      "id": "three-ways-to-listen"
+    },
+    {
+      "type": "quote",
+      "theme": "cream",
+      "variant": "border",
+      "text": "The performance ends. The practice that made it possible continues.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "On respecting an artist’s life beyond the stage",
+      "id": "quote-4"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "itineraries",
+      "id": "cta-banner-2"
+    },
+    {
+      "type": "text",
+      "id": "the-many-tamil-kitchens",
+      "title": "There Is No Single Tamil Kitchen",
+      "titleLevel": 1,
+      "eyebrow": "05 · FOOD AS REGIONAL MEMORY",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "It is tempting to describe Tamil food through a handful of celebrated dishes. But a travel curator quickly discovers how inadequate that is. The cooking associated with Chettinad differs from the home traditions of Kongunadu; foodways around Madurai, Thanjavur, Chennai, and coastal settlements carry their own histories of migration, cultivation, livelihood, ritual, caste, commerce, and taste. Households within the same region can differ as much as districts."
+        },
+        {
+          "level": 2,
+          "text": "The most interesting culinary conversation may start before the first mouthful. Why is a particular rice used here? Who grinds the spice mixture? What changes for a festival, a fishing season, or a vegetarian observance? How do restaurant versions differ from daily home food? A good curator resists presenting <span class='rt-dark-peach'>a single family’s answer</span> as a universal rule."
+        },
+        {
+          "level": 2,
+          "text": "Chettinad cooking is known for complex spice combinations and both vegetarian and non-vegetarian preparations. Kongunadu cooking has its own regional repertoire; the wider state includes millet dishes, lentil preparations, coastal fish, rice-based breakfasts, sweets, and many contemporary adaptations. <span class='rt-spiced-copper'><strong>Variation is the point.</strong></span> The food becomes richer when its context is allowed to remain complicated."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 7,
+      "aspectRatio": "3:2",
+      "imagePosition": "right",
+      "mobileOrder": "text-first",
+      "verticalAlign": "center",
+      "eyebrow": "THE TABLE AS A CULTURAL SPACE",
+      "title": "A Meal Has a Social Architecture",
+      "titleLevel": 2,
+      "image": "/images/home/journey-pc1.webp",
+      "imageAlt": "Editorial travel photograph accompanying a discussion of Tamil Nadu’s living culture",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The banana leaf appears repeatedly in descriptions of South Indian meals, but serving style changes with place, event, institution, and household. Rather than treating etiquette as a theatrical checklist, ask the host how they actually serve and eat. A shared meal can create connection; it can also carry unspoken social hierarchies that a responsible curator must not romanticise."
+        },
+        {
+          "level": 2,
+          "text": "In a paid hosted kitchen experience, the guest’s role should be explicit. Are they observing, washing vegetables, grinding a paste, learning a recipe, or simply eating with the host? Hospitality is not permission to move freely through a private household."
+        }
+      ],
+      "caption": "A meal tells its story through timing, ingredients, labour, and welcome.",
+      "id": "a-meal-has-a-social-architecture"
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "TABLES, MATERIALS, MEMORY",
+      "title": "A Four-Frame Culinary Pause",
+      "titleLevel": 2,
+      "maxCols": 4,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Editorial landscape photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "A meal begins with the decisions of a household."
+        },
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Editorial landscape photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "Spice is a regional language with many dialects."
+        },
+        {
+          "src": "/images/impact/impact3.webp",
+          "alt": "Landscape photograph from impact collection",
+          "width": 750,
+          "height": 500,
+          "caption": "Food knowledge moves between generations and markets."
+        },
+        {
+          "src": "/images/impact/impact4.webp",
+          "alt": "Landscape photograph from impact collection",
+          "width": 750,
+          "height": 500,
+          "caption": "A curator makes space for variation."
+        }
+      ],
+      "id": "a-four-frame-culinary-pause"
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "title": "Design a Meal Without Turning a Home into a Stage",
+      "text": "Use a host-led plan, and pay for preparation, knowledge, ingredients, and time. A successful experience does not require a visitor to enter every room or become a family member for an afternoon.",
+      "eyebrow": "HOSTED CULINARY EXPERIENCE",
+      "orderedList": {
+        "title": "A respectful sequence",
+        "level": 3,
+        "items": [
+          "Discuss the host’s preferred role, food restrictions, kitchen capacity, and maximum group size.",
+          "Decide which elements are offered as demonstration and which are participation; agree on a fee.",
+          "Brief guests on food safety, photography, dress, allergies, and household boundaries.",
+          "Allow time to eat, ask questions, and leave without treating the family’s private life as content."
+        ]
+      },
+      "id": "design-a-meal-without-turning-a-home-into-a-stage"
+    },
+    {
+      "type": "text",
+      "eyebrow": "SMALL GEOGRAPHY OF FOOD",
+      "eyebrowLevel": 2,
+      "title": "Three Regional Windows",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "<strong>Chettinad:</strong> Consider the relationship between merchant histories, domestic architecture, and kitchens known for layered spice blends and regional dishes. <strong>Kongunadu:</strong> Look at inland ingredients, millets, and home cooking rather than assuming every table resembles coastal cuisine. <strong>Madurai:</strong> Explore the meeting of temple-town life, street food, and everyday urban routines. None of these short descriptions replaces a conversation with a local cook."
+        }
+      ],
+      "id": "three-regional-windows"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "plan",
+      "eyebrow": "BEGIN WITH YOUR CURIOSITY",
+      "title": "Design a Journey Around the Culture You Want to Understand",
+      "text": "Food can lead into markets, agriculture, crafts, family histories, and new conversations. Tell us what interests you.",
+      "ctaLabel": "PLAN A CULTURAL JOURNEY",
+      "to": "/planyourjourney",
+      "id": "design-a-journey-around-the-culture-you-want-to-understand"
+    },
+    {
+      "type": "text",
+      "id": "homes-built-by-movement",
+      "title": "Homes Built by Movement: Chettinad and the Wider World",
+      "titleLevel": 1,
+      "eyebrow": "06 · ARCHITECTURE, COMMERCE & DOMESTIC LIFE",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A Chettinad mansion can seem, at first glance, like an architectural surprise: broad courtyards, intricate timber doors, <span class='rt-terracotta'>patterned floors</span>, deep interior sequences, and materials with international histories. The merchant networks associated with many historic homes connected parts of Tamil Nadu with Southeast Asia and beyond. Local histories are therefore not sealed regional stories; they are stories of movement, trade, aspiration, labour, and change."
+        },
+        {
+          "level": 2,
+          "text": "But a house is not only its details. Some historic properties remain homes; others are adapted for hospitality, conservation, or new uses. Their accessibility differs, and not every impressive doorway is an invitation to enter. A curator must distinguish a heritage stay, a publicly open building, and someone’s private property. Those distinctions change the design of the experience."
+        },
+        {
+          "level": 2,
+          "text": "Architecture can also be read at human scale: the courtyard’s changing light, circulation between rooms, water and ventilation choices, the relationship between family gatherings and private life. The story becomes more meaningful when the building is interpreted with its current stewards rather than photographed as an empty set."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "blue",
+      "imageCols": 4,
+      "aspectRatio": "2:3",
+      "imagePosition": "left",
+      "mobileOrder": "text-first",
+      "verticalAlign": "top",
+      "eyebrow": "CHETTINAD HOUSEHOLD HISTORIES",
+      "title": "A House Is Never Only a Facade",
+      "titleLevel": 2,
+      "image": "/images/itineraries/dummy7.webp",
+      "imageAlt": "Editorial travel photograph accompanying a discussion of Tamil Nadu’s living culture",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "A portrait frame suits the architectural language of doorways, tall interiors, and layered passages, but the frame must not imply ownership of a resident’s life. In a real visit, ask what parts of a property are open, whether photography is permitted, and who is available to interpret the house."
+        },
+        {
+          "level": 2,
+          "text": "Some buildings tell stories of the <i>Nagarathar</i> merchant community and overseas trade; others have more recent histories of adaptation and care. Ask what is currently being preserved, what has changed, and what the property’s caretakers hope it can become."
+        }
+      ],
+      "caption": "Every doorway belongs to a place with its own present life.",
+      "id": "a-house-is-never-only-a-facade"
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "ARCHITECTURAL BREATHING ROOM",
+      "title": "Space, Pattern, Passage",
+      "titleLevel": 2,
+      "maxCols": 2,
+      "captionMob": true,
+      "captionPc": false,
+      "images": [
+        "/images/home/journey-pc.webp",
+        "/images/impact/impact5.webp"
+      ],
+      "id": "space-pattern-passage"
+    },
+    {
+      "type": "quote",
+      "theme": "blue",
+      "variant": "boxed",
+      "text": "A beautiful building becomes more interesting when we learn who still cares for it.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "On heritage stewardship",
+      "id": "quote-5"
+    },
+    {
+      "type": "text",
+      "id": "many-tamil-nadus",
+      "title": "Many Tamil Nadus: Coast, City, Delta, and Hills",
+      "titleLevel": 1,
+      "eyebrow": "07 · A REGIONAL MOSAIC",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "No single cultural route can encompass a state this diverse. Chennai’s dense contemporary life, the historical urbanism of Madurai, delta agricultural landscapes, the textile economies of western Tamil Nadu, the port and fishing cultures of the eastern coast, and Indigenous histories of the Nilgiris require different guides and different sensitivities. A responsible itinerary does not stitch them together solely because the map makes them look near. For landscapes under pressure from travel, even the familiar shorthand CO<sub>2</sub> must not eclipse questions of water, land, access, and local livelihoods."
+        },
+        {
+          "level": 2,
+          "text": "Tamil Nadu has been shaped by Tamil literary traditions and regional dynasties, but also by contact, commerce, migration, religious pluralism, labour, social reform, and present-day cultural production. Muslim, Christian, Jain, Hindu, and other communities contribute to its lived landscape; so do people whose experiences are not well represented in standard heritage narratives. The <strong>curator’s responsibility is not to flatten this plurality into one postcard identity</strong>."
+        },
+        {
+          "level": 2,
+          "text": "Consider a Chennai walking conversation shaped around neighbourhood history and present-day creative work, a delta visit rooted in agriculture, or a coastal trip that begins with a discussion of fishing livelihoods and sea conditions. Each asks for a different local collaborator. The curator’s expertise lies in knowing which questions to ask—and when a proposed encounter should not happen at all."
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "FROM CITY TO COUNTRY",
+      "title": "A Portrait-and-Landscape Mosaic",
+      "titleLevel": 2,
+      "maxCols": 3,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/home/journey-mob1.webp",
+          "alt": "Tall editorial travel photograph",
+          "width": 960,
+          "height": 1440,
+          "caption": "A portrait suggests one human scale of place."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Landscape journal photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "A landscape suggests a different rhythm."
+        },
+        {
+          "src": "/images/itineraries/dummy9.webp",
+          "alt": "Tall itinerary photograph",
+          "width": 400,
+          "height": 600,
+          "caption": "An editorial transition, not site evidence."
+        },
+        {
+          "src": "/images/home/solo-landscape.webp",
+          "alt": "Wide landscape photograph",
+          "width": 1600,
+          "height": 900,
+          "caption": "A wider frame allows the reader to consider geography."
+        },
+        {
+          "src": "/images/impact/impact6.webp",
+          "alt": "Landscape impact photograph",
+          "width": 750,
+          "height": 500,
+          "caption": "Local context gives travel its proportions."
+        }
+      ],
+      "id": "a-portrait-and-landscape-mosaic"
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "title": "What Does a Coastal Visit Require?",
+      "text": "Fishing harbours, markets, beaches, and coastal settlements can be compelling settings, but active work and safety always come before the guest’s interest.",
+      "eyebrow": "LIVELIHOODS FIRST",
+      "unorderedList": {
+        "title": "Design guardrails",
+        "level": 3,
+        "items": [
+          "Check weather, sea-state warnings, and local access restrictions rather than relying on a seasonal brochure.",
+          "Never assume an active landing site is a visitor attraction or that fishers have time for interviews.",
+          "Seek willing local interpreters who can explain ecology, trade, and daily work without interrupting it.",
+          "Treat photographs of people, children, and working equipment as permission-based."
+        ]
+      },
+      "id": "what-does-a-coastal-visit-require"
+    },
+    {
+      "type": "horizontal-slider",
+      "eyebrow": "THE EDITORIAL FILMSTRIP",
+      "title": "Changing Scales of Tamil Nadu",
+      "titleLevel": 2,
+      "paragraph": "A changing rhythm of landscape and portrait frames invites the reader to consider how many different kinds of place coexist across one state.",
+      "sliderHeight": 420,
+      "innerRounding": true,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/itineraries/dummy2.webp",
+          "alt": "Tall itinerary photograph",
+          "width": 400,
+          "height": 600,
+          "caption": "Portrait emphasis — human scale."
+        },
+        {
+          "src": "/images/impact/impact4.webp",
+          "alt": "Landscape editorial photograph",
+          "width": 750,
+          "height": 500,
+          "caption": "Working landscapes."
+        },
+        {
+          "src": "/images/home/forest-portrait.webp",
+          "alt": "Tall forest photograph",
+          "width": 600,
+          "height": 900,
+          "caption": "Ecological setting."
+        },
+        {
+          "src": "/images/journal/journal5.webp",
+          "alt": "Landscape journal photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "Everyday place."
+        },
+        {
+          "src": "/images/home/solo-landscape.webp",
+          "alt": "Wide travel landscape",
+          "width": 1600,
+          "height": 900,
+          "caption": "Geographic context."
+        }
+      ],
+      "id": "changing-scales-of-tamil-nadu"
+    },
+    {
+      "type": "text",
+      "id": "the-nilgiris-have-their-own-voices",
+      "title": "The Nilgiris Have Their Own Voices",
+      "titleLevel": 1,
+      "eyebrow": "08 · INDIGENOUS KNOWLEDGE & BOUNDARIES",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "The Nilgiris are often represented through tea gardens, cool air, old railway imagery, and hill-station nostalgia. They are also a lived landscape with multiple Indigenous communities, distinct histories, and ongoing questions around land, ecology, cultural representation, and economic change. The hill-station image is only one layer—and often not the one a curator should begin with."
+        },
+        {
+          "level": 2,
+          "text": "Toda <i>pugar</i> embroidery is an example of a culturally specific craft associated with Toda women, recognised in Indian tourism and handicraft resources. That factual point can orient a reader; it does not mean a visitor is automatically entitled to meet artisans or enter settlements. A community can choose whether it wants tourism involvement, what knowledge it wishes to share, and how any product, workshop, or image is represented."
+        },
+        {
+          "level": 2,
+          "text": "The right question is not, <i>Where can we see a tribe?</i> That language turns people into exhibits. Ask instead whether a community-led public initiative exists, whether the hosts have clearly chosen to participate, and whether the proposed exchange offers tangible value under their control. Sometimes the ethically correct itinerary keeps to public museums, authorised markets, environmental interpretation, or no visit at all."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "light",
+      "imageCols": 5,
+      "aspectRatio": "2:3",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "eyebrow": "HIGHLANDS & CULTURAL OWNERSHIP",
+      "title": "Leave Room for Community Choice",
+      "titleLevel": 2,
+      "image": "/images/home/forest-portrait.webp",
+      "imageAlt": "Editorial travel photograph accompanying a discussion of Tamil Nadu’s living culture",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The Nilgiris should be approached as an inhabited, ecologically complex region, not as a convenient backdrop for an encounter with supposedly unchanged tradition. Culture can be guarded, shared, adapted, or withheld; none of those choices needs a traveller’s approval."
+        },
+        {
+          "level": 2,
+          "text": "A curator who values cultural immersion must also value <strong>the right not to participate</strong>. This is especially important for Indigenous knowledge, ritual practice, domestic spaces, and images that may circulate far beyond the original encounter."
+        }
+      ],
+      "caption": "The landscape cannot speak on behalf of the communities who live within it.",
+      "id": "leave-room-for-community-choice"
+    },
+    {
+      "type": "callout-note",
+      "theme": "blue",
+      "eyebrow": "COMMUNITY-LED ONLY",
+      "title": "An Access Decision Tree",
+      "paragraphs": [
+        "When researching an Indigenous craft or settlement, use the community’s own public information and authorised representatives as the point of departure—not the promise of an outsider’s tour."
+      ],
+      "orderedList": {
+        "title": "Before proposing an experience",
+        "level": 3,
+        "items": [
+          "Is there a clearly community-authorised activity intended for visitors?",
+          "Have its organisers defined pricing, group limits, images, intellectual-property terms, and boundaries?",
+          "Can the guest learn through a public or community-controlled setting without entering homes or sacred spaces?",
+          "If any answer is uncertain, remove the activity until it can be responsibly resolved."
+        ]
+      },
+      "id": "an-access-decision-tree"
+    },
+    {
+      "type": "quote",
+      "theme": "cream",
+      "variant": "boxed",
+      "text": "Culture has the right to be shared on its own terms—and the right not to be shared.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "On cultural ownership",
+      "id": "quote-6"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "impact",
+      "id": "cta-banner-3"
+    },
+    {
+      "type": "text",
+      "id": "the-calendar-is-not-an-event-menu",
+      "title": "The Calendar Is Not an Event Menu",
+      "titleLevel": 1,
+      "eyebrow": "09 · HARVEST, DEVOTION & PUBLIC LIFE",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "In Tamil Nadu, time is cultural as well as meteorological. <i>Pongal</i>, usually celebrated in January, is closely associated with harvest, gratitude, food preparation, and varied family or community observances. <i>Chithirai</i> festivities give Madurai a very different civic rhythm during their annual cycle. In Chennai, the music-and-dance season associated with the Margazhi period can change the availability of performances and teachers. Yet no festival is a guaranteed, visitor-ready product."
+        },
+        {
+          "level": 2,
+          "text": "At the same time, seasonal travel here requires care with the weather. The east coast and much of Tamil Nadu receive substantial rainfall during the October–December northeast-monsoon period. A curator planning a coastal itinerary in those months needs up-to-date forecasts, contingency routes, and sensible expectations; generic advice about South India’s 'dry season' can be misleading."
+        },
+        {
+          "level": 2,
+          "text": "The best travel dates emerge from overlapping calendars: public events, the private commitments of hosts, working seasons, school holidays, climate, and the traveller’s own energy. A festival may warrant a whole journey, or it may be more respectful to let a guest experience the town before and after the crowds. <span class='rt-deep-forest'>Seasonality is not just scenery; it shapes who has time for us.</span>"
+        }
+      ]
+    },
+    {
+      "type": "slider",
+      "eyebrow": "TIME IN A WIDE FRAME",
+      "title": "Culture Changes With the Calendar",
+      "titleLevel": 2,
+      "text": "Every season rearranges the working day, the landscape, and the kind of encounter a journey can sustain.",
+      "width": 1500,
+      "height": 1000,
+      "autoplay": true,
+      "interval": 7000,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/home/journey-pc.webp",
+          "alt": "Landscape from the project travel collection",
+          "caption": "Weather belongs in the design brief."
+        },
+        {
+          "src": "/images/impact/impact1.webp",
+          "alt": "Landscape from project impact collection",
+          "caption": "A festival belongs first to its community."
+        },
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Forest landscape photograph",
+          "caption": "Terrain and season can change access."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Journal landscape photograph",
+          "caption": "The local working calendar also matters."
+        }
+      ],
+      "id": "culture-changes-with-the-calendar"
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "title": "A Tamil Nadu Seasonal Planning Lens",
+      "text": "Use these as planning questions rather than fixed promises. Exact festival dates, performances, and access need annual confirmation.",
+      "eyebrow": "DESIGNING WITH TIME",
+      "unorderedList": {
+        "title": "Observe",
+        "level": 3,
+        "items": [
+          {
+            "title": "January harvest season",
+            "text": "Pongal may offer public cultural context, but household rituals are not automatically visitor experiences."
+          },
+          {
+            "title": "Spring cultural calendars",
+            "text": "Madurai’s Chithirai events can bring dense crowds and very different mobility conditions."
+          },
+          {
+            "title": "October–December rain",
+            "text": "Northeast-monsoon rain and coastal weather need a real contingency plan."
+          },
+          {
+            "title": "Concert schedules",
+            "text": "Ticketing, venue access, and artist availability are confirmed locally, not inferred from an annual pattern."
+          }
+        ]
+      },
+      "id": "a-tamil-nadu-seasonal-planning-lens"
+    },
+    {
+      "type": "paragraph",
+      "eyebrow": "THE WEATHER QUESTION",
+      "eyebrowLevel": 2,
+      "title": "What the Forecast Changes",
+      "titleLevel": 3,
+      "paragraphLevel": 3,
+      "paragraphs": [
+        {
+          "level": 3,
+          "text": "Weather can alter an entire design: the location of an outdoor event, the safety of a coastal road, the comfort of a courtyard conversation, and the availability of the host. For current conditions, consult the <a href='https://mausam.imd.gov.in/' target='_blank'>India Meteorological Department</a>; for the editorial principles behind timing, see <a href='/journal/the-art-of-traveling-with-the-seasons' target='_self'>The Art of Traveling with the Seasons</a>."
+        }
+      ],
+      "id": "what-the-forecast-changes",
+      "text": "The most useful itinerary is one that can change safely when real weather disagrees with the plan."
+    },
+    {
+      "type": "text",
+      "id": "how-a-curator-builds-the-encounter",
+      "title": "How a Curator Builds the Encounter",
+      "titleLevel": 1,
+      "eyebrow": "10 · FROM RESEARCH TO RELATIONSHIP",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "After all these regional stories, the curator faces a deceptively plain task: deciding how much of the place belongs in one person’s journey. A fourteen-day itinerary should not be a contest to collect fourteen kinds of culture. It should offer an intelligible progression: some days for context, some for encounter, some for quiet observation, and some simply for rest. A visitor who understands less but understands it well may carry home more than one who has seen everything at speed."
+        },
+        {
+          "level": 2,
+          "text": "The work begins with research, not a preselected experience. A designer learns which people are already interpreting the culture, what public resources exist, what a practitioner would actually welcome, and where access is inappropriate. The next step is negotiation: fees, schedules, group sizes, cancellation terms, language support, accessibility, and rights to recordings or images. Only then does the curator place an experience on a route."
+        },
+        {
+          "level": 2,
+          "text": "The guest also has responsibilities. Curatorial design can prepare them to listen, dress appropriately, ask permission, and recognise uncertainty. The itinerary may specify a place and a time; it cannot guarantee emotional intimacy, spontaneous hospitality, or another person’s affection. A good experience creates conditions for a respectful exchange without pretending to control its outcome."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "THE DESIGN PROCESS",
+      "eyebrowLevel": 2,
+      "title": "Six Decisions Before a Cultural Experience Goes Live",
+      "titleLevel": 3,
+      "paragraphs": [
+        "A working sequence that can be adapted to heritage walks, kitchens, craft studios, music introductions, and locally designed routes:"
+      ],
+      "list": {
+        "type": "ordered",
+        "level": 2,
+        "items": [
+          {
+            "title": "1. Define the purpose",
+            "text": "What should guests understand—and why does that understanding matter?"
+          },
+          {
+            "title": "2. Identify the authority",
+            "text": "Who owns the practice, space, story, or knowledge, and who may authorise access?"
+          },
+          {
+            "title": "3. Agree on exchange",
+            "text": "Fees, credit, consent, limits, cancellations, and follow-up are written clearly."
+          },
+          {
+            "title": "4. Prototype gently",
+            "text": "A small invited pilot tests the timing, accessibility, and burdens on the host."
+          },
+          {
+            "title": "5. Revise from feedback",
+            "text": "Host and guest perspectives matter, but host boundaries are not negotiable because someone left a poor review."
+          },
+          {
+            "title": "6. Retire when necessary",
+            "text": "An experience that stops serving its people should be changed or removed."
+          }
+        ]
+      },
+      "id": "six-decisions-before-a-cultural-experience-goes-live"
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "ONE WIDE FRAME",
+      "title": "A Pause Before the Final Design",
+      "titleLevel": 2,
+      "maxCols": 1,
+      "image": "/images/home/solo-landscape.webp",
+      "imageAlt": "Wide scenic travel landscape from the project image library",
+      "caption": "Some journeys need one fewer appointment and one more hour to notice what is already there.",
+      "captionMob": true,
+      "captionPc": true,
+      "id": "a-pause-before-the-final-design"
+    },
+    {
+      "type": "quote",
+      "theme": "blue",
+      "variant": "border",
+      "text": "The experience is not the person we meet. It is the respectful relationship we make possible.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "On designing encounters without scripting people",
+      "id": "quote-7"
+    },
+    {
+      "type": "highlights",
+      "theme": "blue",
+      "eyebrow": "AT A GLANCE",
+      "title": "What Makes a Cultural Experience Meaningful?",
+      "items": [
+        "It offers genuine context, not an exoticised performance.",
+        "The host sets boundaries and receives fair compensation.",
+        "The guest is prepared to observe, ask, and listen with humility.",
+        "There is time to experience the place outside the scheduled activity.",
+        "The curator can change or cancel a plan when conditions change."
+      ],
+      "id": "what-makes-a-cultural-experience-meaningful"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "contact",
+      "id": "cta-banner-4"
+    },
+    {
+      "type": "text",
+      "id": "four-curatorial-conversations",
+      "title": "Four Curatorial Conversations Across Tamil Nadu",
+      "titleLevel": 1,
+      "eyebrow": "11 · POSSIBLE JOURNEY THREADS",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Instead of proposing one exhaustive grand tour, imagine four different inquiries. Each starts with a question and allows the region to answer in its own way. These are <strong>conceptual editorial arcs</strong>—not itineraries with confirmed visits, host relationships, or promises of private access. Some would require several days and some would need to be built entirely differently for different travellers."
+        },
+        {
+          "level": 2,
+          "text": "What matters is the logic of association. A journey can be designed around material and craft, around performance and its audiences, around the exchange between home and street, or around the ecological and cultural histories of highlands. That is more useful than collecting a sequence of unrelated famous names."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "POSSIBLE ROUTES",
+      "eyebrowLevel": 2,
+      "title": "Four Threads Worth Following",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Think of these as starting points for conversations with local experts, not products available to book unchanged."
+        }
+      ],
+      "list": {
+        "type": "divided",
+        "level": 2,
+        "items": [
+          {
+            "title": "<strong>Thanjavur · Darasuram · Swamimalai — Art in Use</strong>",
+            "text": "Pair publicly accessible Chola heritage with contextual talks about sculpture and a workshop encounter only where genuinely offered by its maker. Allow a separate day for the surrounding town."
+          },
+          {
+            "title": "<strong>Chettinad · Karaikudi — Homes, Trade, and Taste</strong>",
+            "text": "Explore how merchant networks, domestic architecture, food, and current preservation efforts intersect. Build visits only around homes and kitchens that explicitly welcome guests."
+          },
+          {
+            "title": "<strong>Chennai — Music, City, and Contemporary Culture</strong>",
+            "text": "Combine a public performance or artist-led introduction with neighbourhood interpretation, books, art, cinema, and present-day city life; never assume every venue belongs to the same tradition."
+          },
+          {
+            "title": "<strong>Coimbatore · Nilgiris — Textiles, Hills, and Community Choice</strong>",
+            "text": "Investigate western Tamil Nadu’s industrial and craft histories, environmental context, and publicly available Indigenous cultural interpretation, without assuming access to settlements."
+          }
+        ]
+      },
+      "id": "four-threads-worth-following"
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 5,
+      "aspectRatio": "3:4",
+      "imagePosition": "left",
+      "mobileOrder": "image-first",
+      "verticalAlign": "top",
+      "eyebrow": "ROUTES THAT BEGIN WITH CURIOSITY",
+      "title": "The Map Is a Question, Not the Answer",
+      "titleLevel": 2,
+      "image": "/images/video-posters/sreejith-hero-portrait.webp",
+      "imageAlt": "Portrait-oriented video still from the Sreejith Travel project library",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The distance between two pins can be measured. The distance between their meanings cannot. An experienced curator asks whether two experiences belong in the same narrative, whether the route leaves room to think, and whether the hosts on both ends would actually welcome the plan."
+        },
+        {
+          "level": 2,
+          "text": "When one encounter has deepened a guest’s curiosity, a shorter route may be worth more than another landmark. Equally, a visitor with limited time or mobility may benefit from a single well-interpreted place and the freedom to explore it comfortably."
+        }
+      ],
+      "caption": "Routes become meaningful when they are shaped by curiosity instead of distance alone.",
+      "id": "the-map-is-a-question-not-the-answer"
+    },
+    {
+      "type": "text",
+      "id": "the-ethics-of-being-invited",
+      "title": "The Ethics of Being Invited",
+      "titleLevel": 1,
+      "eyebrow": "12 · CONSENT, CARE & REPRESENTATION",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Cultural tourism can create opportunities for artists, guides, and communities; it can also extract images, stories, and time while returning little of value. A curator has to work in the tension between discovery and intrusion. That means avoiding claims like <i>untouched</i>, <i>pure</i>, or <i>unchanged for centuries</i> when describing real people. It means making a difference between a public event and a private ceremony, between a paid workshop and a household routine, between a heritage resource and a source of social inequality that also belongs in the story."
+        },
+        {
+          "level": 2,
+          "text": "Consent is specific. A person may agree to host a conversation but not to be filmed; to explain a craft but not disclose a family technique; to welcome guests today but not every weekend. Children, worshippers, and people at work deserve particular care. So do sources whose cultural knowledge has been repeatedly misrepresented by outsiders."
+        },
+        {
+          "level": 2,
+          "text": "The guiding principle is not complicated: <strong>people must remain more important than the itinerary.</strong> The measure of an experience cannot be only the traveller’s delight. It must include whether the host felt respected, whether the practical terms were fair, and whether the relationship is worth continuing."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "title": "A Guest Briefing Worth Giving",
+      "text": "The same promises do not fit every home, temple, studio, or performance. These are a starting point for the host’s own guidelines.",
+      "eyebrow": "TRAVEL ETHICS · PRACTICAL",
+      "subtitle": "Respect is most effective when it is specific",
+      "unorderedList": {
+        "title": "What to do",
+        "level": 3,
+        "items": [
+          "Ask before photographing people, workspaces, ceremonies, or any activity that might be private.",
+          "Follow local dress and access rules without treating religious practice as theatre.",
+          "Pay agreed host fees and purchase directly when appropriate—without pressure to buy.",
+          "Keep questions curious but not entitled; accept a polite no as a complete answer."
+        ]
+      },
+      "orderedList": {
+        "title": "If something changes",
+        "level": 3,
+        "items": [
+          "Stop the activity if weather, crowding, a host’s availability, or safety makes it unsuitable.",
+          "Use the agreed alternative or give the day back to unstructured exploration.",
+          "Follow up with the host and improve the design before offering it again."
+        ]
+      },
+      "id": "a-guest-briefing-worth-giving"
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "title": "A Quick Publication Check",
+      "eyebrow": "AFTER THE JOURNEY",
+      "items": [
+        "Do image captions accurately identify what is shown and where?",
+        "Do any quotations have the named person’s approval?",
+        "Was the contributor credited and compensated as agreed?",
+        "Does the story acknowledge uncertainty rather than inventing personal details?"
+      ],
+      "listType": "ordered",
+      "id": "a-quick-publication-check"
+    },
+    {
+      "type": "quote",
+      "theme": "cream",
+      "variant": "boxed",
+      "text": "A journey is only as thoughtful as the care it takes with the people who make it possible.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "On accountability after the guest leaves",
+      "id": "quote-8"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "impact",
+      "eyebrow": "BEYOND A BEAUTIFUL ITINERARY",
+      "title": "Let Care Become Part of the Journey",
+      "text": "Explore the principles that connect cultural encounters to long-term respect for people, places, and living systems.",
+      "ctaLabel": "EXPLORE OUR IMPACT",
+      "to": "/impact",
+      "id": "let-care-become-part-of-the-journey"
+    },
+    {
+      "type": "text",
+      "id": "what-remains-after-we-leave",
+      "title": "What Remains After We Leave",
+      "titleLevel": 1,
+      "eyebrow": "13 · EPILOGUE",
+      "eyebrowLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "To discover the living culture of Tamil Nadu is not to complete a list of icons. It is to recognise how many lives are already in motion: the woman drawing a threshold pattern before breakfast, a sculptor planning the next stage of a casting, an artist rehearsing long after the audience has gone, a cook adjusting a familiar preparation, a caretaker opening a heritage building, or a community deciding what it wishes to share and what it would rather keep its own."
+        },
+        {
+          "level": 2,
+          "text": "Some of those lives are public, some private; some are connected to old institutions, some to modern industries and new forms of expression. They need not be picturesque to be significant. A curator’s most valuable contribution may be helping the visitor see the difference—and helping the host retain the power to define the encounter."
+        },
+        {
+          "level": 2,
+          "text": "Travel can introduce people to a place. But <span class='rt-journey-deep'><strong>attention, consent, and context</strong></span> determine whether that introduction becomes understanding. Leave enough space for what cannot be arranged. Let the culture belong, first and always, to the people living it."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "theme": "mixed",
+      "variant": "boxed",
+      "text": "Come for the places.<br>Stay curious about the people.<br>Leave with more questions than photographs.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "A closing reflection on cultural travel",
+      "id": "quote-9"
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "FINAL IMAGE · OPEN HORIZON",
+      "title": "A Place Continues Beyond Our Visit",
+      "titleLevel": 2,
+      "maxCols": 1,
+      "image": "/images/home/forest-landscape.webp",
+      "imageAlt": "Wide landscape photograph creating a quiet closing pause",
+      "caption": "The cultural life of a place continues long after the traveller leaves.",
+      "captionMob": false,
+      "captionPc": true,
+      "id": "a-place-continues-beyond-our-visit"
+    },
+    {
+      "type": "heading",
+      "eyebrow": "VERIFIABLE READING",
+      "eyebrowLevel": 2,
+      "title": "Sources, Archives & Further Exploration",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The references below support the historical and regional context of this editorial. They do not verify private access, future festival schedules, or the availability of any named artisan or community experience."
+        }
+      ],
+      "list": {
+        "type": "divided",
+        "level": 2,
+        "items": [
+          {
+            "title": "<a href='https://whc.unesco.org/en/list/250/' target='_blank'>UNESCO — Great Living Chola Temples</a>",
+            "text": "Historical and conservation information on Thanjavur, Gangaikondacholapuram, and Darasuram, including their ongoing use as temples."
+          },
+          {
+            "title": "<a href='https://www.unesco.org/en/articles/great-living-chola-temples' target='_blank'>UNESCO — Living Heritage of the Chola Temples</a>",
+            "text": "Accessible overview of worship, ritual continuity, and sculpture traditions."
+          },
+          {
+            "title": "<a href='https://www.incredibleindia.gov.in/en/tamil-nadu' target='_blank'>Incredible India — Tamil Nadu</a>",
+            "text": "Government tourism overview of the region’s landscapes, arts, food, and cultural practices."
+          },
+          {
+            "title": "<a href='https://www.incredibleindia.gov.in/en/tamil-nadu/chennai/a-foodies-guide-to-trying-local' target='_blank'>Incredible India — Regional Tamil Cuisines</a>",
+            "text": "An accessible introduction to the differences among Chettinad, Kongunadu, and other Tamil foodways."
+          },
+          {
+            "title": "<a href='https://www.incredibleindia.gov.in/en/tamil-nadu/ooty' target='_blank'>Incredible India — Ooty and the Nilgiris</a>",
+            "text": "Visitor-facing regional background including discussion of Toda embroidery."
+          },
+          {
+            "title": "<a href='https://ccrtindia.gov.in/performing-arts/' target='_blank'>Centre for Cultural Resources and Training — Performing Arts</a>",
+            "text": "Context for India’s classical, folk, regional music, dance, and theatre traditions."
+          },
+          {
+            "title": "<a href='https://mausam.imd.gov.in/' target='_blank'>India Meteorological Department</a>",
+            "text": "Current weather forecasts, advisories, and seasonal information for practical travel planning."
+          }
+        ]
+      },
+      "id": "sources-archives-further-exploration"
+    },
+    {
+      "type": "author-profile",
+      "theme": "blue",
+      "eyebrow": "ABOUT THIS EDITORIAL PERSPECTIVE",
+      "title": "Sree Jith",
+      "text": "This Journal explores cultural travel through the lens of research, respectful collaboration, and thoughtful experience design. The regional examples are editorial possibilities and should be locally verified before they become hosted journeys.",
+      "image": "/images/testimonials/avatar.webp",
+      "imageAlt": "Editorial author avatar used by the Sreejith Travel website",
+      "id": "sree-jith"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "plan",
+      "id": "cta-banner-5"
+    },
+    {
+      "type": "author-profile",
+      "id": "author-profile"
+    }
+  ]
+}

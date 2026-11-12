@@ -46,7 +46,7 @@ const leftLinks = [
 ]
 
 const rightLinks = [
-  { name: 'Partner', path: '/partner' },
+  { name: 'Network', path: '/network' },
   { name: 'Impact', path: '/impact' },
   { name: 'Journal', path: '/journal' },
 ]

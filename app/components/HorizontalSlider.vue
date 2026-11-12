@@ -463,14 +463,15 @@ onBeforeUnmount(() => {
             :alt="slide.alt"
             :width="slide.width || 600"
             :height="slide.height || 600"
-            :loading="idx < 2 ? 'eager' : 'lazy'"
+            :loading="'lazy'"
             decoding="async"
             draggable="false"
             class="w-full h-full object-cover object-center select-none pointer-events-none transition-transform duration-700 ease-out group-hover/slide:scale-[1.02]"
             @load="onImageLoad(idx, $event)"
-          />
+            />
+          </div>
         </div>
-      </div>
+        <!-- :loading="idx < 2 ? 'eager' : 'lazy'" -->
 
       <!-- TRANSLUCENT LEFT ARROW (Desktop Hover Only + Only When Needed) -->
       <button

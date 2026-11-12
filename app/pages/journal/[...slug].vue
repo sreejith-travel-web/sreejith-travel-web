@@ -1,11 +1,22 @@
 <!-- ~/app/pages/journal/[...slug].vue -->
 <script setup lang="ts">
-import { ref, computed, watch, onMounted, onActivated, nextTick } from 'vue'
+import {
+  ref,
+  computed,
+  watch,
+  onMounted,
+  onActivated,
+  onDeactivated,
+  nextTick
+} from 'vue'
 import { useRoute, useAsyncData, createError } from '#imports'
 import PageHero from '~/components/PageHero.vue'
 import InnerPageHeader from '~/components/InnerPageHeader.vue'
 import JournalFeatured from '~/components/JournalFeatured.vue'
 import JournalSingleView from '~/components/JournalSingleView.vue'
+import JournalListicleView from '~/components/JournalListicleView.vue'
+import { useSessionScroll } from '~/composables/useSessionScroll'
+import { useEditorialGlide } from '~/composables/useEditorialGlide'
 import type {
   JournalMeta,
   JournalCategoryType,
@@ -13,9 +24,18 @@ import type {
   JournalSinglePayload
 } from '~~/server/utils/journalData'
 
-const route = useRoute()
+type JournalArchiveTab = 'all' | JournalCategoryType
 
-// Client-safe subcategory -> parent category map (prevents bundling server/utils into browser)
+const route = useRoute()
+const { glidePageScrollTo } = useEditorialGlide()
+const {
+  hasSavedScrollPosition,
+  setActiveRouteAlias,
+  saveJournalArchiveState,
+  getJournalArchiveState
+} = useSessionScroll()
+
+// Client-safe subcategory -> parent category map
 const SUBCATEGORY_CATEGORY_MAP: Record<JournalSubcategoryId, JournalCategoryType> = {
   'field-notes': 'insights',
   'living-heritage': 'insights',
@@ -39,8 +59,9 @@ const slugParts = computed<string[]>(() => {
 const slug0 = computed<string | null>(() => slugParts.value[0]?.toLowerCase() || null)
 const slug1 = computed<string | null>(() => slugParts.value[1]?.toLowerCase() || null)
 
-const resolveCategoryFromSegment = (segment: string | null): JournalCategoryType | null => {
+const resolveArchiveTabFromSegment = (segment: string | null): JournalArchiveTab | null => {
   if (!segment) return null
+  if (segment === 'all') return 'all'
   if (
     segment === 'insights' ||
     segment === 'insight' ||
@@ -64,7 +85,7 @@ const resolveSubcategoryFromSegment = (segment: string | null): JournalSubcatego
   return null
 }
 
-const matchedCategory = computed(() => resolveCategoryFromSegment(slug0.value))
+const matchedCategory = computed(() => resolveArchiveTabFromSegment(slug0.value))
 const matchedSubcategory = computed(() =>
   resolveSubcategoryFromSegment(slug1.value || slug0.value)
 )
@@ -76,32 +97,81 @@ const isArchiveRoute = computed<boolean>(() => {
   return false
 })
 
-const activeTab = ref<JournalCategoryType>('insights')
+const activeTab = ref<JournalArchiveTab>('all')
 const selectedSubcategories = ref<JournalSubcategoryId[]>([])
 const shouldScrollToWorkspaceOnMount = ref(false)
+const isPageActive = ref(true)
+
+const resolveArchiveAliasUrl = (): string => {
+  if (activeTab.value === 'all') {
+    return '/journal'
+  }
+  if (selectedSubcategories.value.length === 1) {
+    return `/journal/${activeTab.value}/${selectedSubcategories.value[0]}`
+  }
+  return `/journal/${activeTab.value}`
+}
+
+const persistArchiveSessionState = (aliasUrl: string) => {
+  setActiveRouteAlias(aliasUrl)
+  saveJournalArchiveState({
+    activeTab: activeTab.value as JournalCategoryType,
+    selectedSubcategories: selectedSubcategories.value,
+    aliasPath: aliasUrl
+  })
+}
+
+const syncBrowserUrl = () => {
+  if (!import.meta.client) return
+  const targetUrl = resolveArchiveAliasUrl()
+  window.history.replaceState({ ...window.history.state }, '', targetUrl)
+  persistArchiveSessionState(targetUrl)
+}
 
 const syncFilterStateFromRoute = () => {
   if (!isArchiveRoute.value) return
 
   if (!slug0.value) {
-    activeTab.value = 'insights'
+    const savedArchive = getJournalArchiveState()
+    if (savedArchive) {
+      activeTab.value = (savedArchive.activeTab as JournalArchiveTab) || 'all'
+      selectedSubcategories.value = [...savedArchive.selectedSubcategories]
+      shouldScrollToWorkspaceOnMount.value = false
+      if (import.meta.client) {
+        window.history.replaceState(
+          { ...window.history.state },
+          '',
+          savedArchive.aliasPath
+        )
+        setActiveRouteAlias(savedArchive.aliasPath)
+      }
+      return
+    }
+
+    activeTab.value = 'all'
     selectedSubcategories.value = []
     shouldScrollToWorkspaceOnMount.value = false
+    persistArchiveSessionState('/journal')
     return
   }
 
-  shouldScrollToWorkspaceOnMount.value = true
+  shouldScrollToWorkspaceOnMount.value = !hasSavedScrollPosition(route.path)
 
   if (matchedSubcategory.value) {
     const subId = matchedSubcategory.value
-    activeTab.value = SUBCATEGORY_CATEGORY_MAP[subId]
+    activeTab.value =
+      matchedCategory.value === 'all' ? 'all' : SUBCATEGORY_CATEGORY_MAP[subId]
     selectedSubcategories.value = [subId]
+    persistArchiveSessionState(route.path)
     return
   }
 
   if (matchedCategory.value) {
     activeTab.value = matchedCategory.value
     selectedSubcategories.value = []
+    persistArchiveSessionState(
+      matchedCategory.value === 'all' ? '/journal' : route.path
+    )
   }
 }
 
@@ -128,7 +198,11 @@ const ensureArchivePostsLoaded = async () => {
 }
 
 // 2. Fetch Single Journal Story + 3 Related Cards (Only on Slug Routes)
-const { data: singlePayload, error: singleError } = await useAsyncData<JournalSinglePayload | null>(
+const {
+  data: singlePayload,
+  error: singleError,
+  status: singleStatus
+} = await useAsyncData<JournalSinglePayload | null>(
   () => `journal-single-${slug0.value || 'index'}`,
   (): Promise<JournalSinglePayload | null> =>
     !isArchiveRoute.value && slug0.value
@@ -147,6 +221,17 @@ if (!isArchiveRoute.value && (singleError.value || !singlePayload.value?.record)
   })
 }
 
+watch(singleStatus, (status) => {
+  if (!isPageActive.value || isArchiveRoute.value) return
+  if (status === 'error' && singleError.value) {
+    throw createError({
+      statusCode: 404,
+      statusMessage: `Journal Story "${slug0.value}" Not Found`,
+      fatal: true
+    })
+  }
+})
+
 const featuredJournalPosts = computed<JournalMeta[]>(() =>
   (archivePosts.value || []).filter((post: JournalMeta) => post.featured)
 )
@@ -163,28 +248,13 @@ const pageData = {
     alt: 'Stories and field notes from the journal'
   },
   intro: {
-    eyebrow: 'WHAT TRAVEL MEANS TO ME',
-    titleLine1: 'Places tell you where you are.',
-    titleLine2Cursive: 'People tell you why it matters.',
-    description:
+    subtitle: 'Places tell you where you are. People tell you why it matters.',
+    paragraph:
       'I believe people are the destination, along with the places and everything they represent. The most memorable journeys are created through conversations, relationships, and moments that cannot be found in a guidebook.'
-  }
+  },
 }
 
-const syncBrowserUrl = () => {
-  if (!import.meta.client) return
-  if (selectedSubcategories.value.length === 1) {
-    window.history.replaceState(
-      {},
-      '',
-      `/journal/${activeTab.value}/${selectedSubcategories.value[0]}`
-    )
-  } else {
-    window.history.replaceState({}, '', `/journal/${activeTab.value}`)
-  }
-}
-
-const handleTabUpdate = (newTab: JournalCategoryType) => {
+const handleTabUpdate = (newTab: JournalArchiveTab) => {
   activeTab.value = newTab
   selectedSubcategories.value = []
   syncBrowserUrl()
@@ -206,35 +276,49 @@ const handleClearSubcategories = () => {
 }
 
 const scrollToWorkspace = () => {
-  if (!import.meta.client) return
+  if (!import.meta.client || !isPageActive.value) return
   const el = document.getElementById('journal-workspace')
   if (el) {
     const y = el.getBoundingClientRect().top + window.scrollY - 90
-    window.scrollTo({ top: y, behavior: 'smooth' })
+    glidePageScrollTo(Math.max(0, y))
   }
+}
+
+const maybeScrollToWorkspace = () => {
+  if (!shouldScrollToWorkspaceOnMount.value) return
+  shouldScrollToWorkspaceOnMount.value = false
+  nextTick(() => {
+    setTimeout(scrollToWorkspace, 620)
+  })
 }
 
 watch(
   () => route.path,
   async () => {
+    if (!isPageActive.value) return
     syncFilterStateFromRoute()
     if (isArchiveRoute.value) {
       await ensureArchivePostsLoaded()
+      maybeScrollToWorkspace()
     }
   }
 )
 
 onMounted(async () => {
+  isPageActive.value = true
   await ensureArchivePostsLoaded()
-  if (shouldScrollToWorkspaceOnMount.value) {
-    nextTick(() => {
-      setTimeout(scrollToWorkspace, 350)
-    })
-  }
+  maybeScrollToWorkspace()
 })
 
 onActivated(async () => {
+  isPageActive.value = true
+  syncFilterStateFromRoute()
   await ensureArchivePostsLoaded()
+  maybeScrollToWorkspace()
+})
+
+onDeactivated(() => {
+  isPageActive.value = false
 })
 </script>
 
@@ -254,7 +338,7 @@ onActivated(async () => {
         <JournalFeatured :items="featuredJournalPosts" />
       </section>
 
-      <!-- 2. Main Search, Tabs & 3-Column Card Listing -->
+      <!-- 2. Main Search, Tabs (ALL / INSIGHTS / STORIES) & Flex-Wrap Card Listing -->
       <LazyJournalListing
         hydrate-on-visible
         :items="archivePosts"
@@ -266,10 +350,22 @@ onActivated(async () => {
       />
     </div>
 
-    <!-- BRANCH B: INDIVIDUAL INSIGHT OR STORY VIEW -->
+    <!-- BRANCH B1: IMMERSIVE 2:3 LISTICLE WEB STORY -->
+    <JournalListicleView
+      v-else-if="
+        singlePayload?.record &&
+        singlePayload.record.meta.layout === 'listicle' &&
+        singlePayload.record.listicle
+      "
+      :key="`listicle-${singlePayload.record.meta.slug}`"
+      :record="singlePayload.record"
+      :related="singlePayload.related"
+    />
+
+    <!-- BRANCH B2: STANDARD EDITORIAL ARTICLE -->
     <JournalSingleView
       v-else-if="singlePayload?.record"
-      :key="singlePayload.record.meta.slug"
+      :key="`article-${singlePayload.record.meta.slug}`"
       :record="singlePayload.record"
       :related="singlePayload.related"
     />

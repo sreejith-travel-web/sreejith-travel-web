@@ -1,0 +1,549 @@
+{
+  "meta": {
+    "id": "jrn-insight-010",
+    "slug": "designing-with-people-not-around-them",
+    "category": "insights",
+    "type": "insights",
+    "subcategory": "ideas-collaborations",
+    "subcategoryLabel": "IDEAS & COLLABORATIONS",
+    "contentTypeLabel": "PERSPECTIVE",
+    "categoryLabel": "PERSPECTIVE · IDEAS & COLLABORATIONS",
+    "featured": true,
+    "title": "Designing With People, Not Around Them",
+    "excerpt": "What does genuine co-creation look like after the first conversation? A practical curator’s notebook on shared decisions, fair agreements, hosted experiences, guest preparation, and the work of building partnerships that last.",
+    "headerQuote": "A memorable experience is designed with the people who make it possible—not merely staged around them.",
+    "author": "Sree Jith",
+    "readTime": "18 MIN READ",
+    "publishDate": "2026-11-11",
+    "tags": [
+      "#EXPERIENCEDESIGN",
+      "#LOCALPARTNERSHIPS",
+      "#COLLABORATION"
+    ],
+    "categories": [
+      "bespoke",
+      "culture"
+    ],
+    "topics": [
+      "#EXPERIENCEDESIGN",
+      "#LOCALPARTNERSHIPS",
+      "#COLLABORATION",
+      "#COMMUNITYTOURISM",
+      "#TRAVELCURATION"
+    ],
+    "image": "/images/journal/journal4.webp",
+    "alt": "Landscape editorial photograph opening an essay on shared travel-experience design"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "the-first-meeting-is-not-the-partnership",
+      "title": "The First Meeting Is Not the Partnership",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "CURATOR’S WORKBENCH · BEYOND THE INTRODUCTION",
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Imagine a curator stepping into a craft studio with a promising idea. The workshop has warmth, expertise, and a story worth understanding. The curator can already picture a beautiful itinerary: a small group arriving, a demonstration unfolding, questions exchanged, perhaps an object made by hand and taken home. It is a compelling image. It is also almost entirely the curator’s image. <strong>Nothing has been designed together yet.</strong>"
+        },
+        {
+          "level": 2,
+          "text": "The studio owner may be trying to finish orders, manage materials, teach apprentices, and keep a working space safe. A guest visit could bring welcome income, or it could interrupt the most valuable part of the day. The host may love talking about technique but dislike being photographed. They may welcome two guests and reject eight. They may want to teach, not perform. Every one of those differences changes the design more profoundly than the font on the itinerary."
+        },
+        {
+          "level": 2,
+          "text": "This essay follows the part of curatorial work that begins after the inspiring discovery: turning a possible encounter into an experience with <i>shared decisions, clear terms, and the power to revise</i>. It is not a claimed account of a particular Sreejith Travel partnership. It is an editorial operating model for what respectful co-creation can require."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "mixed",
+      "text": "Being invited into someone’s work is not the same as being entitled to redesign it.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "On beginning a collaboration"
+    },
+    {
+      "type": "text",
+      "id": "begin-with-the-hosts-working-day",
+      "title": "Begin With the Host’s Working Day",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "01 · READ THE REAL WORKFLOW",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "An itinerary designer often begins with a guest question: what would make this visit memorable? A collaborator-led process opens with a second question: what would make this visit workable for the person hosting it? The answers may change the entire proposal. Before discussing a signature activity or a guest price, we need to learn how the ordinary day operates."
+        },
+        {
+          "level": 2,
+          "text": "What time does meaningful work actually happen? Which parts of that work may be observed without disruption? Are there materials that should not be handled or procedures that require distance? Does the space belong to one practitioner, a family, a collective, or an employer? Who has the authority to agree? Even an enthusiastic conversation with one person may not amount to permission for the entire space."
+        },
+        {
+          "level": 2,
+          "text": "A good initial visit is therefore more listening than pitching. The curator sketches the working rhythm, identifies the people affected, and asks which forms of participation the host would find satisfying. Sometimes the best collaboration begins not as a visit to the workshop at all, but as a scheduled conversation in an adjacent, more comfortable space. The experience belongs to the realities of work before it belongs to the language of travel."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "title": "A Host-First Discovery Brief",
+      "eyebrow": "BEFORE THE CONCEPT NOTE",
+      "text": "Use these questions in a conversation, not as a form to demand that someone completes. The aim is to uncover whether there is a mutually worthwhile idea.",
+      "unorderedList": {
+        "level": 3,
+        "items": [
+          {
+            "title": "Work and timing",
+            "text": "Which hours are available without delaying orders, production, family responsibilities, or rest?"
+          },
+          {
+            "title": "Comfort and consent",
+            "text": "Which spaces, topics, materials, and photographs are off-limits?"
+          },
+          {
+            "title": "Ownership",
+            "text": "Who should decide the activity, its language, and what the visitor may take away?"
+          },
+          {
+            "title": "Value",
+            "text": "What payment, recognition, and possible longer-term benefit would make the collaboration worthwhile?"
+          },
+          {
+            "title": "Exit",
+            "text": "How can the host pause, decline, or discontinue without being pressured?"
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "the-brief-is-a-two-way-document",
+      "title": "The Brief Is a Two-Way Document",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "02 · WRITE THE AGREEMENT TOGETHER",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "A traditional supplier brief tells someone what the buyer wants. A collaborative brief should record what both parties are trying to create and what neither is willing to compromise. That distinction is more than polite language. It changes who has the right to challenge the plan. If a photographer wants a posed sequence that interrupts a craftsperson’s work, the host should not need to plead for an exception. The agreed brief already protects the ordinary working process."
+        },
+        {
+          "level": 2,
+          "text": "For example, the curator may propose a ninety-minute introductory workshop. The host might suggest forty-five minutes of guided observation followed by a smaller hands-on task in a separate space. The curator might worry that fewer activities look less marketable. The host may recognise that a focused activity is safer, more teachable, and more satisfying. The stronger experience is often the second version. Co-design requires the curator to let expertise outside the travel industry change the product."
+        },
+        {
+          "level": 2,
+          "text": "The brief should be readable, revisable, and understandable in the language both parties use comfortably. Elaborate presentation decks do not substitute for agreement. A simple written record can capture purpose, maximum guests, host tasks, guest tasks, timings, photography rules, fee structure, responsibilities, safety considerations, and cancellation conditions. What matters is that the people named in it can actually influence it."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "title": "Who Gets to Make the Call?",
+      "theme": "blue",
+      "imageCols": 5,
+      "aspectRatio": "2:3",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "top",
+      "image": "/images/home/solo-portrait.webp",
+      "imageAlt": "Editorial travel photograph accompanying who gets to make the call?",
+      "paragraphs": [
+        "Attractive travel design can hide an unbalanced decision structure. If the curator owns the schedule, script, images, and pricing while the practitioner merely supplies the setting, the language of partnership becomes decorative.",
+        "A co-created experience needs explicit decision rights: the host controls access to their workplace and practice; the curator manages travel logistics and guest communication; safety decisions must be enforceable; shared matters are resolved before anyone sells the experience. <strong>Agreement should be visible in the workflow, not only in the introduction.</strong>"
+      ],
+      "caption": "Illustrative editorial portrait from the approved website library; not a portrait of a documented collaborator."
+    },
+    {
+      "type": "text",
+      "id": "name-the-decisions-and-the-deciders",
+      "title": "Name the Decisions—and the Deciders",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "03 · TURN RESPECT INTO DECISION RIGHTS",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "One practical way to avoid vague ownership is to separate decisions into three sets. Some belong to the host: the content of their story, whether a demonstration is possible, which photographs may be taken, and when a visit must end. Some belong to the curator: transport coordination, accessibility communication, booking management, and traveller expectations. Others require agreement: group size, final pricing, use of the host’s name, cancellation penalties, and whether the visit may be repeated."
+        },
+        {
+          "level": 2,
+          "text": "The distinction is especially important when the experience includes cultural knowledge. A host’s explanation can be interpreted, edited into a brochure, or circulated widely without their seeing the final result. A collaborator-led workflow returns that material for approval when feasible and does not treat one person’s account as a comprehensive statement about a whole community. Expertise is neither a prop nor an unlimited content licence."
+        },
+        {
+          "level": 2,
+          "text": "In a group setting, the individual who speaks most confidently may not represent every affected person. A shared courtyard, a family kitchen, or a common work area can involve several legitimate stakeholders. The curator should ask who else needs to be consulted and avoid equating one convenient yes with universal consent. Participation can be enthusiastic and still need limits. A well-built experience gives those limits an ordinary place in its design."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "title": "A Simple Decision-Rights Map",
+      "eyebrow": "COLLABORATION ARCHITECTURE",
+      "text": "This working split is illustrative. Every partnership should be adjusted to its actual people, legal requirements, and operating environment.",
+      "orderedList": {
+        "level": 3,
+        "items": [
+          "<strong>Host leads:</strong> Workplace access, teaching content, personal boundaries, and approval of depictions of their practice.",
+          "<strong>Curator leads:</strong> Guest briefing, transfers, scheduling across the broader journey, and clear booking communication.",
+          "<strong>Shared approval:</strong> Numbers, payment structure, photography use, emergency arrangements, and modifications to the experience.",
+          "<strong>Anyone can raise a concern:</strong> Stop, review, and revise a risky or uncomfortable activity without treating the concern as a failure."
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "put-money-in-the-first-draft",
+      "title": "Put Money in the First Draft",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "04 · BUILD A REAL ECONOMIC ARRANGEMENT",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Payment should not arrive as an awkward subject after the experience has been shaped. It belongs among the earliest design questions. A craftsperson may lose productive hours while explaining a process. A host may buy ingredients, prepare a space, clean afterward, and coordinate family help. A guide may spend time researching, rehearsing, and adjusting an interpretive walk. None of that preparation disappears because guests only see the final hour."
+        },
+        {
+          "level": 2,
+          "text": "A useful costing exercise distinguishes preparation time, live hosting, materials, supporting staff, transport, contingency, and the curator’s own work. It also identifies whether compensation is due for a cancelled session, a late change, or an unplanned extension. A host should not have to depend on guest shopping, donations, or tips to receive the promised value of their labour. Purchases can be welcome, but they should remain voluntary and separate from the hosting fee."
+        },
+        {
+          "level": 2,
+          "text": "The phrase <i>fair price</i> is easy to print and difficult to prove. The more honest approach is to describe the process: negotiate openly, make costs and responsibilities visible, ask whether the terms work for the host, and revisit them when conditions change. A fixed fee may suit one experience; another might require a base fee plus materials and additional teaching time. The curator’s responsibility is not to impose one supposedly universal model, but to ensure the partnership is transparent and workable."
+        }
+      ]
+    },
+    {
+      "type": "slider",
+      "title": "The Partnership in Four Frames",
+      "titleLevel": 2,
+      "width": 1600,
+      "height": 900,
+      "autoplay": false,
+      "interval": 5000,
+      "captionMob": true,
+      "captionPc": true,
+      "eyebrow": "CURATED EDITORIAL SEQUENCE · WIDE FRAME",
+      "images": [
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Editorial travel image 1 accompanying the partnership in four frames",
+          "caption": "First, understand the working setting rather than treating it as a stage."
+        },
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Editorial travel image 2 accompanying the partnership in four frames",
+          "caption": "Next, agree on the experience the host actually wants to offer."
+        },
+        {
+          "src": "/images/home/journey-pc.webp",
+          "alt": "Editorial travel image 3 accompanying the partnership in four frames",
+          "caption": "Then design time, access, staffing, and visitor preparation around that agreement."
+        },
+        {
+          "src": "/images/impact/impact5.webp",
+          "alt": "Editorial travel image 4 accompanying the partnership in four frames",
+          "caption": "Finally, revisit whether the relationship is worth repeating for everyone involved."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "design-the-guest-before-the-visit",
+      "title": "Design the Guest Experience Before Arrival",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "05 · BRIEF THE VISITOR, PROTECT THE HOST",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Collaboration can be undone by a poor briefing. Guests may arrive expecting a performance when the host has agreed to a conversation. They may anticipate making a finished product when the activity is introductory observation. They may photograph continuously because nobody explained that the space is a workplace. If the curator sells the wrong promise, the host is left to correct it in person—often while trying to remain hospitable."
+        },
+        {
+          "level": 2,
+          "text": "A strong pre-visit note explains what the session is, how long it lasts, what participation is optional, whether photography needs permission, and what the setting cannot accommodate. It should also prepare guests for uncertainty. A living practice is not a theatre production: work may change, a material may not be ready, or an unexpected task may take priority. That is a reason for careful scheduling and honest framing, not a reason to demand a performance on cue."
+        },
+        {
+          "level": 2,
+          "text": "Language and interpretation deserve similar care. If the host prefers to speak in Malayalam or Tamil, the curator can arrange facilitation without stripping away the voice of the person being heard. Translation should clarify ideas, not overwrite them with glossy promotional vocabulary. A well-designed visit makes visitors more comfortable precisely because it establishes expectations in advance."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "title": "The Welcome Is Not the Whole Experience",
+      "theme": "cream",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "left",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "image": "/images/impact/impact1.webp",
+      "imageAlt": "Editorial travel photograph accompanying the welcome is not the whole experience",
+      "paragraphs": [
+        "The experience begins before arrival and continues after departure. Curators set its rhythm by confirming the visit, helping people arrive appropriately, and protecting an agreed end time. Hosts decide what welcome feels natural in their own space.",
+        "Neither party should be forced to compensate for poor preparation through extra generosity. When expectations are accurate, small moments of genuine conversation have a better chance of emerging on their own terms."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "prototype-the-smallest-honest-version",
+      "title": "Prototype the Smallest Honest Version",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "06 · TEST, PAY, LISTEN, REVISE",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Not every promising partnership should launch as a fully packaged signature experience. A small paid trial can reveal problems that an elegant concept note cannot. Does the guest hear the host over the background noise? Is the activity physically comfortable? Does the host have enough preparation time? Are the explanations too abstract, too long, or too compressed? Does travel time leave the participants tired before they begin? These are design questions, not verdicts on the worth of the cultural practice."
+        },
+        {
+          "level": 2,
+          "text": "The trial group should be modest and clearly briefed that the format is being tested. The host should be paid for their work whether the concept is later retained or revised. Afterward, feedback belongs in two separate conversations: one with guests and one with the host. Asking both together may reward politeness over candour. A curator should ask the host what felt disruptive, which questions recurred, and what they would change before another group arrives."
+        },
+        {
+          "level": 2,
+          "text": "If the test fails, it does not necessarily mean the place or people are unsuitable. It may mean the visit is being offered at the wrong hour, through the wrong entry point, at an unreasonable scale, or with expectations the host never chose. Revision can be a change of timing, group size, teaching format, price, or even a decision not to offer the visit at all. The pilot has succeeded if it has made that decision more informed."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "title": "A Small-Pilot Review Sheet",
+      "eyebrow": "AFTER THE FIRST SESSION",
+      "text": "Instead of collecting only a star rating, ask questions that can actually change the design. Proposed measures are qualitative and should be tailored to the partnership.",
+      "orderedList": {
+        "level": 3,
+        "items": [
+          "<strong>Host experience:</strong> Was the preparation reasonable and was the visit worth the time?",
+          "<strong>Guest clarity:</strong> Did participants understand what they had been invited to learn or do?",
+          "<strong>Boundaries:</strong> Were private spaces, photography rules, and end times respected?",
+          "<strong>Operations:</strong> Did the route, accessibility, safety, and communication work in practice?",
+          "<strong>Revision:</strong> What should remain, change, stop, or be tested again?"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "photography-and-the-problem-of-ownership",
+      "title": "Photography, Language, and the Problem of Ownership",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "07 · THE STORY STILL BELONGS TO SOMEONE",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "A partnership that feels fair in person can become unfair online. A visitor may post a short clip with a misleading caption. A curator may use a practitioner’s face in promotional material beyond the original agreement. An ordinary working moment can be turned into an image of timeless poverty, ancient mystery, or effortless authenticity. The audience sees a compelling story; the person represented may see a version of themselves they never approved."
+        },
+        {
+          "level": 2,
+          "text": "Photo and storytelling permissions should therefore be specific. Does consent cover editorial use, paid advertisements, social media reels, or future campaigns? Can it be withdrawn for future use? Will the practitioner be named or prefer privacy? Is the work itself subject to restrictions? Even when a photograph is legally permissible, the curator still has editorial choices about captioning, credit, and whether it belongs in the story at all."
+        },
+        {
+          "level": 2,
+          "text": "It is better to describe a person as a skilled maker with an active contemporary practice than to frame them as a disappearing relic. Living traditions change. People combine inherited techniques with new tools, sell to new markets, and decide which knowledge to share. Our job is not to photograph them outside time. It is to invite visitors into an accurate, bounded encounter with a living practice."
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "title": "A Working Relationship, Not a Display Case",
+      "titleLevel": 2,
+      "maxCols": 2,
+      "captionMob": true,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Editorial image 1 illustrating a working relationship, not a display case",
+          "width": 600,
+          "height": 400,
+          "caption": "Editorial landscape used to represent context and preparation; not a recorded partner visit."
+        },
+        {
+          "src": "/images/impact/impact3.webp",
+          "alt": "Editorial image 2 illustrating a working relationship, not a display case",
+          "width": 750,
+          "height": 500,
+          "caption": "Illustrative visual pause for the people and work behind travel experiences."
+        },
+        {
+          "src": "/images/journal/journal5.webp",
+          "alt": "Editorial image 3 illustrating a working relationship, not a display case",
+          "width": 600,
+          "height": 400,
+          "caption": "An editorial frame for the importance of clear, accurate representation."
+        },
+        {
+          "src": "/images/impact/impact6.webp",
+          "alt": "Editorial image 4 illustrating a working relationship, not a display case",
+          "width": 750,
+          "height": 500,
+          "caption": "A companion image representing ongoing evaluation and change."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "give-the-relationship-a-way-to-grow",
+      "title": "Give the Relationship a Way to Grow",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "08 · BUILD A RELATIONSHIP THAT CAN CHANGE",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The first booking is not proof of a healthy partnership. The real test often arrives after the novelty fades. Can the host say that a particular day no longer works? Does the curator adjust when material costs rise? Are return visitors consuming a disproportionate share of a practitioner’s time? Has the original demonstration become repetitive or tiring? Has the host developed a better format and been given the authority to propose it? A partnership should have a way to learn without waiting for conflict."
+        },
+        {
+          "level": 2,
+          "text": "This is where simple administration becomes a creative tool. Keep a shared record of agreed fees, schedules, boundaries, contact responsibilities, image permissions, and lessons from each session. Check in at sensible intervals rather than communicating only when a booking comes in. If the collaborator wants fewer guests, different timing, or a new subject, treat that suggestion as design input. Sometimes the most important new feature is the permission to stop doing an old one."
+        },
+        {
+          "level": 2,
+          "text": "The same principle applies to a network of multiple collaborators. One successful experience should not become a template imposed on every craft, household, or region. A musician’s rehearsal, a food host’s kitchen, and a guide’s landscape walk have different rhythms and different risks. The common method is respect for local agency; the resulting experiences should remain distinct."
+        }
+      ]
+    },
+    {
+      "type": "horizontal-slider",
+      "title": "Details That Matter Between Bookings",
+      "titleLevel": 2,
+      "sliderHeight": 340,
+      "innerRounding": false,
+      "captionMob": true,
+      "captionPc": true,
+      "eyebrow": "EDITORIAL FILMSTRIP · CONTINUITY",
+      "images": [
+        {
+          "src": "/images/home/journey-mob.webp",
+          "alt": "Editorial travel photograph 1 in the details that matter between bookings series",
+          "width": 960,
+          "height": 1440,
+          "caption": "A reminder to revisit the brief after the first successful session."
+        },
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Editorial travel photograph 2 in the details that matter between bookings series",
+          "width": 600,
+          "height": 400,
+          "caption": "The setting may be the same while the host’s availability changes."
+        },
+        {
+          "src": "/images/itineraries/dummy7.webp",
+          "alt": "Editorial travel photograph 3 in the details that matter between bookings series",
+          "width": 400,
+          "height": 600,
+          "caption": "An illustrative portrait-format editorial image for personal boundaries."
+        },
+        {
+          "src": "/images/impact/impact4.webp",
+          "alt": "Editorial travel photograph 4 in the details that matter between bookings series",
+          "width": 750,
+          "height": 500,
+          "caption": "A landscape view representing shared planning and revision."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "when-the-answer-is-no",
+      "title": "When the Answer Is No",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "09 · THE INTEGRITY OF AN OPEN DOOR",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Not every relationship needs to become a travel product. A practitioner may enjoy sharing knowledge but have no interest in hosting paying guests. A family may find the administrative work too burdensome. A neighbourhood may prefer to keep a site outside visitor programming. The curator may conclude that a compelling encounter cannot be delivered safely or fairly at the proposed scale. These are not obstacles to be talked around until someone relents."
+        },
+        {
+          "level": 2,
+          "text": "The right response is sometimes to support a different form of connection: recommend a public exhibition, commission work directly, invite an expert to contribute to written interpretation, or simply leave the idea alone. A collaborator’s ability to refuse is evidence that the process is genuinely collaborative. If the only acceptable answer is yes, the invitation is not an invitation."
+        },
+        {
+          "level": 2,
+          "text": "In tourism, it is possible to speak warmly about communities while systematically removing their control. A better model is less dramatic and more operational. It asks who gets paid, who approves, who changes the plan, who carries the risk, and who can walk away. It is in those decisions—not in the adjectives on the brochure—that the ethics of a journey become visible."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "title": "The Co-Creation Checklist",
+      "eyebrow": "BEFORE OFFERING THE EXPERIENCE",
+      "text": "A final working checklist for curators preparing a hosted experience. It is a planning aid, not a guarantee or a certification.",
+      "unorderedList": {
+        "level": 3,
+        "items": [
+          "The right host or stakeholder has agreed, with meaningful ability to change the format.",
+          "The activity has a clear purpose that guests can understand without inflated promises.",
+          "Fees include preparation, materials, live time, and agreed cancellation or extra-work terms.",
+          "Guest numbers, access, safety, photo rules, and start/end times are explicit.",
+          "A paid pilot or appropriately small trial has identified the necessary revisions.",
+          "Both guests and hosts can give feedback privately; there is a plan for continued review."
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "an-experience-needs-more-than-a-curator",
+      "title": "An Experience Needs More Than a Curator",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "10 · SHARED AUTHORSHIP",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "A travel experience designer contributes an important skill: noticing how people, places, logistics, learning, and atmosphere might form a meaningful whole. But the curator is rarely the person who knows the landscape best, holds the craft in their hands, prepares the household meal, or carries the living memory of a place. Those forms of knowledge are not raw material to be extracted. They are the foundation of the experience."
+        },
+        {
+          "level": 2,
+          "text": "Designing with people asks the curator to be ambitious and humble at the same time. Ambitious enough to propose a memorable encounter, to invest in interpretation, and to take responsibility for its professional delivery. Humble enough to accept that a host may have a better idea, a different rhythm, a boundary that changes the plan, or a reason not to participate. The final experience becomes richer precisely because it is not authored by one person alone."
+        },
+        {
+          "level": 2,
+          "text": "The question to carry into the next collaboration is therefore not merely, <i>what can we create here?</i> It is <strong>who gets to shape it, who benefits from it, and who still feels comfortable when the guests have gone home?</strong> If those questions are answered well, the resulting journey has a chance to be meaningful on both sides of the welcome."
+        }
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "partner",
+      "title": "Build Experiences Through Real Collaboration",
+      "text": "If you are a local practitioner, guide, researcher, artist, or community host, explore how thoughtful partnerships can begin with a conversation.",
+      "eyebrow": "PARTNER WITH SREEJITH TRAVEL"
+    },
+    {
+      "type": "text",
+      "id": "a-note-on-the-principles",
+      "title": "Notes, Standards, and Further Reading",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "eyebrow": "EDITORIAL CONTEXT",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The approach described here is an editorial working model, not evidence of a specific completed partnership. Its emphasis on host participation and shared benefit is consistent with the <a href='https://www.untourism.int/sustainable-development' target='_blank'>UN Tourism sustainable-development principles</a> and UNESCO’s <a href='https://whc.unesco.org/en/sustainabletourismtoolkit/' target='_blank'>Sustainable Tourism Toolkit</a>, which includes guidance on engaging communities, creating experiences, and monitoring outcomes."
+        },
+        {
+          "level": 2,
+          "text": "No external standard can decide the right arrangement for every home, workshop, performance, or landscape. Local laws, safety requirements, actual stakeholders, and the host’s own judgement must shape the final terms. The images in this article are illustrative assets from the approved Sreejith Travel library and do not document a named partner."
+        }
+      ]
+    },
+    {
+      "type": "author-profile",
+      "theme": "cream",
+      "eyebrow": "ABOUT THE CURATOR",
+      "title": "Sree Jith",
+      "text": "Sree Jith designs cultural and immersive travel experiences with attention to the people, research, and practical decisions behind them. This essay shares an editorial collaboration framework, not a claim about named or completed client partnerships."
+    }
+  ]
+}

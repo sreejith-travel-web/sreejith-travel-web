@@ -1,4 +1,4 @@
-<!-- ~/components/JournalCard.vue -->
+<!-- ~/app/components/JournalCard.vue -->
 <script setup lang="ts">
 import { computed } from 'vue'
 
@@ -30,30 +30,30 @@ const resolvedHref = computed(() => {
 const displayCategory = computed(() => {
   return props.post.categoryLabel || props.post.category || 'FIELD NOTES'
 })
+
+const visibleTags = computed(() => (props.post.tags || []).slice(0, 3))
 </script>
 
 <template>
   <NuxtLink
     :to="resolvedHref"
     draggable="false"
-    class="group relative w-full h-full p-5 sm:p-6 flex flex-col rounded-2xl overflow-hidden bg-linear-to-br from-soft-peach/10 via-surface-light/45 to-soft-blue/25 border border-journey-deep/22 hover:border-action-blue/50 active:border-action-blue/40 shadow-xs hover:shadow-xl active:shadow-xl transition-all duration-500 text-left outline-none focus-visible:ring-2 focus-visible:ring-action-blue"
+    class="group journal-card-shell"
   >
-    <!-- 1. Top Header Stack (Locked Height Reserve on sm+ so Inset Photos Align Horizontally) -->
+    <!-- 1. Top Header Stack (Exact 2.5em 2-Line Reserve so Inset Photos Align Horizontally) -->
     <div class="w-full flex flex-col items-start shrink-0">
-      <!-- Category Eyebrow (Single-Line Locked) -->
-      <span class="card-tag font-primary font-bold text-dark-gold tracking-[0.12em] truncate max-w-full mb-2.5">
+      <span class="card-tag font-primary font-bold text-dark-gold tracking-[0.12em] truncate max-w-full mb-2">
         {{ displayCategory }}
       </span>
 
-      <!-- 3-Line Title Reserve (3 * 1.25em = 3.75em across all responsive font sizes) -->
-      <h3 class="card-title font-medium leading-tight text-journey-deep group-hover:text-intention-blue group-active:text-intention-blue transition-colors duration-300 line-clamp-2 sm:min-h-[3em] mb-2">
+      <h3 class="card-title drop-shadow-none! font-medium leading-tight text-journey-deep group-hover:text-intention-blue group-active:text-intention-blue transition-colors duration-300 line-clamp-2 sm:min-h-[2.5em] mb-2.5">
         {{ post.title }}
       </h3>
 
-      <!-- Gold Accent Rule (Expands & Shifts to Intention Blue on Hover) -->
+      <!-- GPU Scale-X Accent Rule -->
       <div
-        class="w-10 h-0.5 rounded-full bg-dark-gold mb-4 sm:mb-5 transition-all duration-300 ease-editorial group-hover:w-14 group-hover:bg-intention-blue group-active:w-14 group-active:bg-intention-blue"
         aria-hidden="true"
+        class="journal-card-rule group-hover:scale-x-100 group-hover:bg-intention-blue group-active:scale-x-100 group-active:bg-intention-blue"
       />
     </div>
 
@@ -72,49 +72,49 @@ const displayCategory = computed(() => {
         :loading="eager ? 'eager' : 'lazy'"
         :decoding="eager ? 'sync' : 'async'"
         :fetchpriority="eager ? 'high' : 'low'"
-        class="w-full h-full object-cover object-center transition-transform duration-700 ease-editorial group-hover:scale-105 group-active:scale-105 select-none"
+        class="pointer-events-none select-none w-full h-full object-cover object-center transition-transform duration-700 ease-editorial group-hover:scale-105 group-active:scale-103"
       />
     </div>
 
-    <!-- 3. Excerpt + Bottom Tags & Outline CTA -->
+    <!-- 3. Excerpt + Multi-Line-Safe Footer (Tags Left + Scale-Only Ring CTA Bottom-Right) -->
     <div class="w-full flex flex-col grow justify-between">
-      <p class="section-subparagraph text-secondary-light/95 leading-[1.6] line-clamp-3 sm:min-h-[4.8em] mb-5">
+      <p class="section-subparagraph text-secondary-light/95 leading-[1.6] line-clamp-3 sm:min-h-[4.8em] mb-4">
         {{ post.excerpt }}
       </p>
 
-      <div class="w-full flex flex-col items-start gap-4 mt-auto">
-        <!-- 3 Auto-Width Hashtag Pills -->
-        <div
-          v-if="post.tags && post.tags.length"
-          class="flex flex-wrap items-center gap-1.5"
-        >
+      <div class="journal-card-footer">
+        <!-- 2-Line Capped Tag Tray (Never Pushes Card Height or Ring Position) -->
+        <div class="journal-card-tags-tray">
           <span
-            v-for="tag in post.tags.slice(0, 3)"
+            v-for="tag in visibleTags"
             :key="tag"
-            class="rounded-sm bg-surface-light/85 border border-journey-deep/16 text-journey-deep/85 card-tag font-primary font-medium px-2.5 pt-1.5 pb-1 transition-colors duration-300 group-hover:border-journey-deep/28"
+            class="journal-card-tag-pill card-tag group-hover:border-journey-deep/28"
           >
             {{ tag }}
           </span>
         </div>
 
-        <!-- Rounded Outline CTA Button -->
-        <div class="w-fit">
-          <div class="shrink-0 inline-flex items-center justify-center border-[1.5px] border-journey-deep/35 bg-surface-light/80 px-3 h-9 rounded-sm text-[10px] md:text-[11px] font-uppercase font-semibold tracking-[0.18em] text-journey-deep uppercase transition-all duration-300 group-hover:border-intention-blue group-hover:bg-intention-blue group-hover:text-surface-light group-active:border-intention-blue group-active:bg-intention-blue group-active:text-surface-light gap-2 group-active:scale-96">
-            <span class="pt-1 leading-none">READ STORY</span>
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.7"
+        <!-- Scale-Only Circular Ring CTA (Zero Inner Arrow Translation) -->
+        <div
+          aria-hidden="true"
+          class="itinerary-cta-circle journal-card-ring-cta group-hover:text-intention-blue group-hover:scale-108 group-active:text-intention-blue group-active:scale-95"
+        >
+          <svg
+            class="w-full h-full overflow-visible"
+            viewBox="0 0 44 44"
+            fill="none"
+            stroke="currentColor"
+          >
+            <circle cx="22" cy="22" r="20.5" class="itinerary-cta-ring" />
+            <g
+              stroke-width="1.75"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="w-4 h-4 shrink-0 transition-transform duration-300 group-hover:translate-x-1 group-active:translate-x-1"
-              aria-hidden="true"
             >
-              <path d="M5 12h14" />
-              <path d="m12 5 7 7-7 7" />
-            </svg>
-          </div>
+              <path d="M15 29L29 15" />
+              <path d="M21 15h8v8" />
+            </g>
+          </svg>
         </div>
       </div>
     </div>

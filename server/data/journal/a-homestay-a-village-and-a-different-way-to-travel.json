@@ -1,0 +1,613 @@
+{
+  "meta": {
+    "id": "jrn-story-006",
+    "slug": "a-homestay-a-village-and-a-different-way-to-travel",
+    "category": "stories",
+    "type": "stories",
+    "subcategory": "case-studies",
+    "subcategoryLabel": "CASE STUDIES",
+    "contentTypeLabel": "CASE STUDY",
+    "categoryLabel": "CASE STUDY · CASE STUDIES",
+    "featured": true,
+    "title": "A Homestay, a Village, and a Different Way to Travel",
+    "excerpt": "An explicitly illustrative Kerala homestay case study: how a host-led village experience could be co-designed, fairly priced, piloted and evaluated without turning daily life into a performance.",
+    "headerQuote": "A home can open its doors to a traveller without turning the lives around it into an attraction.",
+    "author": "Sree Jith",
+    "readTime": "17 MIN READ",
+    "publishDate": "2026-11-11",
+    "tags": [
+      "#CASESTUDY",
+      "#HOMESTAY",
+      "#COMMUNITYTRAVEL"
+    ],
+    "categories": [
+      "stays",
+      "bespoke",
+      "culture"
+    ],
+    "topics": [
+      "#CASESTUDY",
+      "#HOMESTAY",
+      "#COMMUNITYTRAVEL",
+      "#RESPONSIBLETOURISM",
+      "#KERALA"
+    ],
+    "image": "/images/home/journey-pc1.webp",
+    "alt": "Landscape travel photograph illustrating a hypothetical Kerala homestay and community-travel design"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "a-house-before-a-holiday",
+      "eyebrow": "CASE STUDY · THE SETTING",
+      "title": "The Homestay Before It Becomes a Product",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "At the edge of an imagined backwater village in Kerala stands a modest family home. A shaded verandah faces a narrow lane. The kitchen is busiest before breakfast. Beyond the gate, a path runs toward water, cultivated land and neighbours who have lived there long before visitors began looking for quieter ways to travel."
+        },
+        {
+          "level": 2,
+          "text": "The house is comfortable, but it is not a resort. Its attraction lies in the possibility of being welcomed into a real place without asking that place to rearrange itself entirely around guests. A small homestay could become a starting point for a different kind of journey—one designed with local people, practical limits and enough unplanned time to let the village remain itself."
+        },
+        {
+          "level": 2,
+          "text": "<strong>Editorial note:</strong> This is an illustrative case study, not a documented Sreejith Travel client project. The homestay, household and proposed design decisions below are a composite scenario. They show how an approach <i>could</i> work; no bookings, income changes or guest outcomes are claimed as actual results."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "eyebrow": "TRANSPARENCY NOTE",
+      "title": "An Illustrative Design Case",
+      "text": "The village and homestay are deliberately unnamed and hypothetical. All phases, roles and example measures below are proposed design choices, not evidence of a completed intervention. Any real-world application would require consent, on-site research and verification with the host community."
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "mixed",
+      "text": "A homestay is not a small hotel with fewer rooms.<br>At its best, it is an invitation to encounter a place at human scale.",
+      "quoteAuthor": "CASE STUDY FRAMEWORK",
+      "quoteRole": "Illustrative design principle"
+    },
+    {
+      "type": "text",
+      "id": "two-ambitions-one-brief",
+      "eyebrow": "PHASE I · DEFINE THE PURPOSE",
+      "title": "A Brief with Two Different Ambitions",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "In our hypothetical brief, the household wants a dependable supplementary income without losing control of its days. Guests, meanwhile, want more than a bed and a view: they hope to learn about the food, water, work and traditions that shape the surrounding landscape. These wishes overlap, but they are not identical. A good plan has to respect both."
+        },
+        {
+          "level": 2,
+          "text": "The first temptation is to fill every hour with a demonstration. A morning farm walk, an afternoon craft visit, an evening performance, an elaborate meal: the programme looks rich on paper. But the household may be exhausted, neighbours may not wish to participate, and the traveller may come home having observed many things without understanding any of them."
+        },
+        {
+          "level": 2,
+          "text": "So the proposed brief changes. Rather than asking, “How many experiences can this homestay sell?”, the designer asks <span class='rt-intention-blue'><strong>“What can this household comfortably host, and what can the surrounding community genuinely choose to share?”</strong></span> A shorter list, developed together, becomes the stronger starting point."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "left",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "title": "The House Is the Anchor, Not the Attraction",
+      "image": "/images/journal/journal2.webp",
+      "imageAlt": "Landscape-format editorial travel photograph accompanying a hypothetical Kerala homestay design",
+      "paragraphs": [
+        "The proposed guest experience begins and ends at the host home. Breakfast is not staged as a cultural performance; it is a meal agreed with the household, with attention to dietary needs, preparation time and the reality of a working kitchen.",
+        "The host can offer a welcome and a few suggestions, while a trained local guide leads activities outside the home. This division keeps hospitality from becoming an expectation that one family must provide every service, every explanation and every moment of the visitor’s day."
+      ],
+      "eyebrow": "DESIGN INTENT",
+      "caption": "Illustrative editorial photography only; it does not depict the proposed homestay."
+    },
+    {
+      "type": "text",
+      "id": "map-the-life-around-the-house",
+      "eyebrow": "PHASE II · UNDERSTAND THE PLACE",
+      "title": "Map the Village Before Drawing the Route",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "The next step is not creating a map of attractions. It is creating a map of relationships. Who uses the lane early in the morning? Which paths are public? Which fields are actively worked? Where would a small group cause inconvenience? Which residents already guide visitors, and who would prefer not to be involved at all?"
+        },
+        {
+          "level": 2,
+          "text": "In a real project, this would mean talking to residents, local guides, the host family and relevant local bodies. The aim would be to identify opportunities and exclusions—not to treat every doorstep as available cultural material. A household courtyard, religious event, or farming task should never enter a commercial itinerary by default."
+        },
+        {
+          "level": 2,
+          "text": "A proposed route might eventually connect a waterside path, a locally run food experience and a short conversation with a willing craft practitioner. The order would be decided after checking practical access, fair payment, accessibility and the seasonal rhythm of each activity. <strong>The route would emerge from permission, not from a list of pins.</strong>"
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "EDITORIAL MOODBOARD · FOUR LANDSCAPES",
+      "title": "The Setting, Not a Stage",
+      "maxCols": 2,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Landscape-format editorial photograph for the imagined village setting",
+          "width": 600,
+          "height": 400,
+          "caption": "An editorial frame evoking the detail a visitor might notice near a host home."
+        },
+        {
+          "src": "/images/impact/impact1.webp",
+          "alt": "Landscape-format photograph from the impact collection",
+          "width": 750,
+          "height": 500,
+          "caption": "A small place contains many kinds of everyday work."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Landscape-format Kerala editorial travel photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "Culture appears in ordinary decisions, not only scheduled activities."
+        },
+        {
+          "src": "/images/impact/impact3.webp",
+          "alt": "Landscape-format photograph from the impact collection",
+          "width": 750,
+          "height": 500,
+          "caption": "Land and livelihood should inform how a route is proposed."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-host-is-not-a-performer",
+      "eyebrow": "PHASE III · MAKE THE TERMS FAIR",
+      "title": "Begin with the Host Household",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "A successful design starts by separating what the host is happy to provide from what visitors might imagine they are entitled to receive. The household may welcome guests at breakfast and dinner, but want afternoons undisturbed. It may happily share recipes in conversation while preferring not to offer cooking demonstrations. It may be comfortable with photographs of the courtyard but not family members."
+        },
+        {
+          "level": 2,
+          "text": "Those preferences are not obstacles; they are operating requirements. A transparent description prevents the familiar disappointment of a guest expecting unrestricted access and a host feeling obliged to oblige. In the illustrative model, the family chooses hosting hours, agrees on a group limit, and retains the ability to pause the experience."
+        },
+        {
+          "level": 2,
+          "text": "One person in the family should not be expected to cook, guide, clean, perform and manage communications without separate recognition of that labour. A simple hosting plan can identify who does which task, whether extra help is needed and how any added work is paid for."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "title": "A Guest Experience with Clear Boundaries",
+      "text": "These are suggested operating rules for a hypothetical small-scale pilot, not existing rules at any named property.",
+      "eyebrow": "HOST OPERATIONS",
+      "unorderedList": {
+        "title": "What to agree on",
+        "level": 3,
+        "items": [
+          {
+            "title": "Host-led schedule:",
+            "text": "The family selects arrival windows, quiet periods and which meals or conversations are offered."
+          },
+          {
+            "title": "Small-group preference:",
+            "text": "A tentative pilot cap is agreed jointly and adjusted to suit actual room capacity and host comfort."
+          },
+          {
+            "title": "Separate services:",
+            "text": "Guiding, workshops and transport have identified providers and clear fees."
+          },
+          {
+            "title": "Privacy by default:",
+            "text": "No guest photographs of family members, neighbouring homes or private spaces without consent."
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "design-a-day-with-breathing-room",
+      "eyebrow": "PHASE IV · COMPOSE THE DAY",
+      "title": "Design a Day Without Turning Life into a Show",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Picture a possible guest day. Morning begins slowly at the homestay, with breakfast and a short orientation. The traveller then joins a local guide for a walk along public paths, learning how the land and waterways shape the neighbourhood. The guide can adjust the route if rain, farm work or local activity makes a stretch unsuitable."
+        },
+        {
+          "level": 2,
+          "text": "After lunch, the programme deliberately opens up. Guests may read, rest, explore independently where appropriate, or speak with their host if invited. An optional encounter with a local practitioner could happen later in the day, but only when it has been jointly planned. The schedule does not promise access to a household or workplace that has not agreed to receive visitors."
+        },
+        {
+          "level": 2,
+          "text": "This would not be the most activity-heavy itinerary. It could, however, be more coherent. The homestay would hold the sense of place while local collaborators bring their own knowledge. <span class='rt-dark-gold'><strong>Space between experiences is part of the experience.</strong></span>"
+        }
+      ]
+    },
+    {
+      "type": "horizontal-slider",
+      "eyebrow": "HYPOTHETICAL GUEST DAY",
+      "title": "A Possible Day, Seen in Fragments",
+      "sliderHeight": 420,
+      "innerRounding": true,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/home/journey-mob.webp",
+          "alt": "Portrait-format editorial travel image suggesting a gentle start to the day",
+          "width": 960,
+          "height": 1440,
+          "caption": "Morning: begin with time to arrive rather than a rushed departure."
+        },
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Landscape-format editorial travel photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "Midmorning: a guided encounter shaped by local availability."
+        },
+        {
+          "src": "/images/itineraries/dummy7.webp",
+          "alt": "Portrait-format travel photograph for the illustrative village journey",
+          "width": 400,
+          "height": 600,
+          "caption": "Afternoon: allow unstructured time instead of filling every hour."
+        },
+        {
+          "src": "/images/home/journey-pc.webp",
+          "alt": "Landscape-format editorial photograph from the journey image collection",
+          "width": 1440,
+          "height": 960,
+          "caption": "Later: a landscape can become a conversation, not only a photo stop."
+        },
+        {
+          "src": "/images/itineraries/dummy13.webp",
+          "alt": "Portrait-format travel photograph for an imagined guest journey",
+          "width": 400,
+          "height": 600,
+          "caption": "Evening: return to a home whose ordinary rhythm remains intact."
+        }
+      ],
+      "paragraph": "These images illustrate the proposed rhythm; they are not photographs of a documented itinerary or its participants."
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "blue",
+      "text": "The most generous itinerary is not the one that claims every hour.<br>It is the one that knows which hours to leave alone.",
+      "quoteAuthor": "THE JOURNAL",
+      "quoteRole": "Illustrative case-study reflection"
+    },
+    {
+      "type": "text",
+      "id": "price-the-work-not-only-the-room",
+      "eyebrow": "PHASE V · SHARE THE VALUE",
+      "title": "Price the Work, Not Just the Room",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The design must eventually become an honest financial arrangement. Room revenue belongs to the accommodation provider under agreed terms. A guide needs a clear guiding fee. A practitioner who prepares a workshop should be compensated for their time whether or not guests buy anything. If transport is included, it has to be priced transparently and delivered safely."
+        },
+        {
+          "level": 2,
+          "text": "The proposed itinerary price therefore should not be built by adding a vague “cultural experience” premium and hoping the community benefits. A simple cost sheet can identify each service, provider, fee, payment date and cancellation rule. The designer’s coordination fee can be visible internally without being confused with the host’s earnings."
+        },
+        {
+          "level": 2,
+          "text": "It would also be important to consider work that is often overlooked: planning menus, cleaning additional rooms, answering messages, arranging accessible assistance, and interpreting between visitors and hosts. A model that looks inexpensive to guests may be unsustainable if those efforts are effectively unpaid."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "blue",
+      "imageCols": 4,
+      "aspectRatio": "2:3",
+      "imagePosition": "right",
+      "mobileOrder": "text-first",
+      "verticalAlign": "top",
+      "title": "The Economics of a Small Welcome",
+      "image": "/images/itineraries/dummy10.webp",
+      "imageAlt": "Portrait-format editorial travel photograph accompanying discussion of fair local payment",
+      "paragraphs": [
+        "The household’s return should reflect more than the occupied bed. If the experience asks for additional hosting work, that work needs a cost and a choice. If a neighbour provides guiding or a workshop, the payment should reach them as agreed.",
+        "No hypothetical percentage is presented as a measured benefit. In a real pilot, costs and income distribution would need to be documented privately with each provider and reviewed before the itinerary was promoted more widely."
+      ],
+      "eyebrow": "FAIR VALUE EXCHANGE",
+      "caption": "The portrait image is a visual companion, not evidence of a specific homestay or income outcome."
+    },
+    {
+      "type": "text",
+      "id": "privacy-is-a-design-choice",
+      "eyebrow": "PHASE VI · PROTECT ORDINARY LIFE",
+      "title": "Access, Privacy and the Right to Decline",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "A village is not a set of open doors. The guest who arrives with enthusiasm may not know which moments are private or which gestures feel intrusive. Rather than relying on hosts to correct misunderstandings in the moment, a good experience gives visitors a clear introduction: where they can walk, when to ask before photographing, and why some invitations cannot be assumed."
+        },
+        {
+          "level": 2,
+          "text": "A local guide can help translate that etiquette without turning neighbours into subjects of a tour. At the homestay, boundaries can be written into pre-arrival information so the family does not have to repeat them awkwardly. Guests deserve to know what has been arranged; residents deserve to know what has not."
+        },
+        {
+          "level": 2,
+          "text": "An essential line in the hypothetical operating plan would read: <strong>any host or contributor can withdraw from an activity without pressure to invent an explanation.</strong> A substitute experience or a transparent refund policy would then become the designer’s responsibility—not the individual’s burden."
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "GALLERY · PRIVACY AND PLACE",
+      "title": "Room for the Village to Remain Itself",
+      "maxCols": 3,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/home/forest-portrait.webp",
+          "alt": "Portrait-format forest editorial photograph",
+          "width": 600,
+          "height": 900,
+          "caption": "The living landscape is not available on demand."
+        },
+        {
+          "src": "/images/impact/impact6.webp",
+          "alt": "Landscape-format editorial image from the impact collection",
+          "width": 750,
+          "height": 500,
+          "caption": "Public space and private life need different kinds of access."
+        },
+        {
+          "src": "/images/itineraries/dummy6.webp",
+          "alt": "Portrait-format editorial travel photograph",
+          "width": 400,
+          "height": 600,
+          "caption": "A meaningful visit can be small and unhurried."
+        },
+        {
+          "src": "/images/journal/journal5.webp",
+          "alt": "Landscape-format travel photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "The best encounter is one its host is glad to repeat."
+        },
+        {
+          "src": "/images/itineraries/dummy12.webp",
+          "alt": "Portrait-format travel photograph for a hypothetical village journey",
+          "width": 400,
+          "height": 600,
+          "caption": "Not every moment needs to become content."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "pilot-then-decide",
+      "eyebrow": "PHASE VII · PROTOTYPE RESPONSIBLY",
+      "title": "Test Small Before Growing",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A project is not validated because its proposal sounds beautiful. If the family and contributing neighbours wanted to proceed, the next phase would be a small trial with people prepared to give constructive feedback. The purpose would not be to manufacture glowing testimonials. It would be to learn where the experience creates delight, confusion, fatigue or unnecessary work."
+        },
+        {
+          "level": 2,
+          "text": "The pilot should be scheduled only after confirming the local providers, their payment terms, access arrangements and any necessary operational requirements. Hosts might then debrief separately from guests, so feedback can be honest without the pressure of performing hospitality. A designer could revise the route or remove an activity rather than defending the first version."
+        },
+        {
+          "level": 2,
+          "text": "This hypothetical study stops at the design and evaluation framework. No trial has been conducted for this imagined home, and there are no actual results to report. The next section identifies what we would seek to learn <i>if</i> such a pilot took place."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "title": "A Proposed Pilot Sequence",
+      "text": "Four steps to test the design before describing it publicly as an established success.",
+      "eyebrow": "NOT A COMPLETED PROJECT",
+      "orderedList": {
+        "title": "A practical sequence",
+        "level": 3,
+        "items": [
+          {
+            "title": "Co-confirm:",
+            "text": "Agree on host availability, visitor boundaries, fees and the local guide’s responsibilities."
+          },
+          {
+            "title": "Trial:",
+            "text": "Invite a small test group appropriate to the home’s actual capacity and accessibility."
+          },
+          {
+            "title": "Listen separately:",
+            "text": "Collect host and provider feedback independently from visitor feedback."
+          },
+          {
+            "title": "Decide together:",
+            "text": "Revise, repeat on a smaller scale, or stop if the trade-offs are not worthwhile."
+          }
+        ]
+      }
+    },
+    {
+      "type": "slider",
+      "eyebrow": "ILLUSTRATIVE PLANNING FRAMES",
+      "title": "How a Prototype Might Be Framed",
+      "width": 1600,
+      "height": 900,
+      "autoplay": false,
+      "interval": 5500,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/home/solo-landscape.webp",
+          "alt": "Wide editorial Kerala travel photograph",
+          "caption": "Context first: visitors understand the wider landscape before the activities."
+        },
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Landscape editorial travel photograph",
+          "caption": "Host comfort: welcome is offered, never demanded."
+        },
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Landscape editorial photograph from the impact collection",
+          "caption": "Local knowledge: nearby contributors decide what they want to share."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Landscape-format travel photograph",
+          "caption": "Review and adjust: the prototype can change after feedback."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "measure-what-matters",
+      "eyebrow": "PHASE VIII · EVALUATE HONESTLY",
+      "title": "What Would Count as Success?",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "A guest may rate a trip highly because it felt intimate and unhurried. That matters, but it is only one part of the picture. The host might have worked unsustainably long hours, or a guide might have received more visitors than expected. To judge whether this model was worth repeating, a real project would need to gather evidence from both sides."
+        },
+        {
+          "level": 2,
+          "text": "The most useful questions are simple enough to answer consistently. Did providers receive payment when agreed? Did they feel able to decline requests? Did the household earn enough to justify the work? Were guests prepared for the programme they actually experienced? Did the visit affect neighbours or sensitive places in ways that should change the route?"
+        },
+        {
+          "level": 2,
+          "text": "These would be <strong>proposed indicators</strong>, not claims of demonstrated success. A careful final report would distinguish evidence, participant perceptions, and aspirations. It would name unexpected difficulties alongside encouraging feedback. An outcome that cannot be verified should remain a question, not become a headline."
+        }
+      ]
+    },
+    {
+      "type": "highlights",
+      "theme": "cream",
+      "eyebrow": "EVALUATION FRAMEWORK",
+      "title": "Five Measures a Real Pilot Could Track",
+      "items": [
+        "Host comfort and workload, recorded privately after each stay.",
+        "Timely payment and clarity of fees for each local provider.",
+        "Guest understanding of cultural and privacy expectations.",
+        "Practical accessibility, route reliability and flexibility in difficult weather.",
+        "Willingness of hosts and contributors to continue—or their reasons not to."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "a-community-model-not-a-copy-paste",
+      "eyebrow": "PHASE IX · LEARN WITHOUT COPYING",
+      "title": "A Model to Adapt, Not a Formula to Copy",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "There are real precedents for community participation in Kerala tourism, but this hypothetical home is not presented as one of them. The <a href='https://www.keralatourism.org/responsible-tourism/' target='_blank'>Kerala Responsible Tourism Mission</a> documents programmes that link visitors with local livelihoods. Its <a href='https://www.keralatourism.org/responsible-tourism/village-life-experience/12' target='_blank'>Village Life Experience</a> approach describes participation by farmers, artisans and small entrepreneurs. Those public programmes offer useful context, not a licence to assume any particular village wishes to receive guests."
+        },
+        {
+          "level": 2,
+          "text": "A location near the backwaters, a hill village and a weaving settlement would each require a different design. Different hosts may want different kinds of relationships with travellers—or no commercial visits at all. The transferable lesson is not the proposed menu of activities. It is the method of asking, listening, costing, testing and letting residents retain a meaningful say."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "light",
+      "imageCols": 7,
+      "aspectRatio": "16:9",
+      "imagePosition": "left",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "title": "The Landscape Still Belongs to Its Own Life",
+      "image": "/images/home/forest-landscape.webp",
+      "imageAlt": "Wide-format forest landscape photograph accompanying the reflective conclusion",
+      "paragraphs": [
+        "The imagined guest eventually leaves. The household prepares for an ordinary evening. A neighbour returns to work. The waterway changes with light and weather. Nothing about those rhythms depends on a booking.",
+        "That is the ambition behind this design exercise: visitors encounter a place with more context, while the people who live there remain free to live there. The journey should fit into the village’s life—not swallow it."
+      ],
+      "eyebrow": "A DIFFERENT MEASURE OF SUCCESS",
+      "caption": "The wide landscape photograph is illustrative and does not depict the fictional project site."
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "impact",
+      "title": "See the Principles Behind Responsible Journeys",
+      "text": "Explore how thoughtful travel design can consider community livelihoods, local agency and the landscapes that welcome us."
+    },
+    {
+      "type": "text",
+      "id": "a-different-way-to-travel",
+      "eyebrow": "CONCLUSION · AN INVITATION WITH LIMITS",
+      "title": "A Different Way to Travel",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "The promise of a homestay experience is not that visitors become villagers for a day. They do not. The promise is smaller, more credible, and often more moving: for a little while, they may be welcomed into a place without pretending to own its stories."
+        },
+        {
+          "level": 2,
+          "text": "In this illustrative scenario, the best outcome would not be an itinerary packed with activities. It would be a mutually welcome relationship: guests arriving with curiosity, hosts retaining control, local contributors being paid and heard, and the design changing when evidence suggests it should. Whether any real project achieves that remains a question for its actual participants to answer."
+        },
+        {
+          "level": 2,
+          "text": "Perhaps that is the different way to travel: beginning with a home, but remembering that the home belongs to someone; beginning with a village, but remembering that the village is not ours to curate. <span class='rt-deep-forest'><strong>Travel can bring us closer without asking a place to become ours.</strong></span>"
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "cream",
+      "text": "A good journey leaves the traveller with memories.<br>A better-designed one also leaves its hosts with choices.",
+      "quoteAuthor": "THE JOURNAL",
+      "quoteRole": "Closing reflection"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "itineraries",
+      "title": "Discover Experiences Designed With Care",
+      "text": "Explore culturally immersive journeys and the different ways people, places and stories can shape a route."
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "plan",
+      "title": "Tell Us What a Meaningful Journey Looks Like to You",
+      "text": "Start with your interests and travel pace. A thoughtful route begins by asking better questions, not promising every experience in advance."
+    },
+    {
+      "type": "author-profile",
+      "theme": "cream",
+      "eyebrow": "ABOUT THE AUTHOR",
+      "title": "Sree Jith",
+      "text": "Sree Jith designs culturally immersive travel experiences in India, inspired by people, places and stories. This article is an explicitly hypothetical case study showing how a community-sensitive homestay experience might be planned and evaluated; it does not report a completed client project.",
+      "image": "/images/testimonials/avatar.webp",
+      "imageAlt": "Square author-profile avatar for Sree Jith"
+    }
+  ]
+}

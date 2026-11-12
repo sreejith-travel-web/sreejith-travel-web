@@ -1,0 +1,780 @@
+{
+  "meta": {
+    "id": "jrn-story-004",
+    "slug": "the-road-that-wasnt-on-our-itinerary",
+    "category": "stories",
+    "type": "stories",
+    "subcategory": "journey-stories",
+    "subcategoryLabel": "JOURNEY STORIES",
+    "contentTypeLabel": "STORY",
+    "categoryLabel": "STORY · JOURNEY STORIES",
+    "featured": false,
+    "title": "The Road That Wasn’t on Our Itinerary",
+    "excerpt": "One unplanned turn, a roadside cup of tea, and a rain-softened afternoon in Kerala become a reminder that the best part of a journey cannot always be scheduled.",
+    "headerQuote": "We had planned where to arrive. We had not planned what the road might give us.",
+    "author": "Sree Jith",
+    "readTime": "17 MIN READ",
+    "publishDate": "2026-11-11",
+    "tags": [
+      "#JOURNEYSTORIES",
+      "#KERALA",
+      "#SLOWTRAVEL"
+    ],
+    "categories": [
+      "offbeat",
+      "nature",
+      "culture"
+    ],
+    "topics": [
+      "#JOURNEYSTORIES",
+      "#KERALA",
+      "#SLOWTRAVEL",
+      "#COUNTRYSIDE",
+      "#UNPLANNEDMOMENTS"
+    ],
+    "image": "/images/home/journey-pc1.webp",
+    "alt": "Illustrative landscape image introducing a reflective road journey through Kerala"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "the-turn-we-didnt-plan",
+      "eyebrow": "A REPRESENTATIVE JOURNEY STORY",
+      "eyebrowLevel": 1,
+      "title": "The Turn We Hadn’t Planned",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "We had a route on the screen, a destination pencilled into the afternoon, and enough time—at least in theory—to reach it before the light softened. The morning had followed a familiar rhythm: road signs, small towns, the occasional glimpse of water between houses, the driver’s quiet attention to the traffic ahead. There was nothing wrong with the plan."
+        },
+        {
+          "level": 2,
+          "text": "Then a diversion appeared. A short line of vehicles slowed near a junction, and the road we expected to follow was no longer the easiest way through. We could have sat in the queue and watched the minutes disappear. Instead, after checking that an alternative public road was suitable, we turned towards a narrower stretch of countryside."
+        },
+        {
+          "level": 2,
+          "text": "What follows is a <strong>representative, imagined journey through Kerala</strong>, composed from familiar landscapes and travel rhythms—not a report of a documented trip, a named household, or a route offered for navigation. Its purpose is to explore an experience that happens to travellers everywhere: the moment a plan loosens and curiosity finds a little room."
+        },
+        {
+          "level": 2,
+          "text": "At first, it was simply a detour. None of us knew it would become the part of the day we remembered most."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "blue",
+      "text": "Sometimes the road you meant to take<br>is only the beginning of the journey.",
+      "quoteAuthor": "Sree Jith",
+      "quoteRole": "Journal · Travel Design Notes"
+    },
+    {
+      "type": "text",
+      "id": "the-road-narrows",
+      "eyebrow": "CHAPTER I · A CHANGE OF DIRECTION",
+      "eyebrowLevel": 1,
+      "title": "Where the Road Became Smaller",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "The first sign that we had left the ordinary route was not spectacular. It was the way the buildings pulled back. Shops gave way to compound walls, then to short stretches of open ground. The traffic thinned. A dog slept in the shade of a gate. Someone had spread a bright cloth over a low wall to dry in the sun."
+        },
+        {
+          "level": 2,
+          "text": "Beyond a bend, fields appeared in pieces. Water gathered along the edges of the road, holding small reflections of coconut fronds. The sky was an uneven grey, still bright enough to make the green look almost luminous."
+        },
+        {
+          "level": 2,
+          "text": "Our driver slowed for a cyclist and lifted a hand in thanks when there was room to pass. No one in the vehicle called the scene extraordinary. That was part of its charm: nothing had announced itself as an attraction. The countryside was simply being a countryside."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 7,
+      "aspectRatio": "3:2",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "eyebrow": "THE FIRST UNPLANNED FRAME",
+      "title": "The View Between Destinations",
+      "image": "/images/home/journey-pc.webp",
+      "imageAlt": "Landscape travel photograph accompanying a narrative about a countryside detour",
+      "caption": "An illustrative road-journey image, used to evoke the unplanned stretch of countryside.",
+      "paragraphs": [
+        "A winding route can make the day feel longer without making it feel wasted. As the familiar road recedes, attention begins to settle on things that would usually stay at the edge of a window: an open verandah, the turn of a canal, the precise shade of a field after rain.",
+        "We were still moving towards our original destination, but the journey had quietly changed its centre of gravity. For a while, the road itself was the reason to look up.",
+        "In a planned itinerary, such moments are often described as transfers. On this afternoon they stopped feeling like the space between experiences and became the experience."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "a-road-without-a-headline",
+      "eyebrow": "THE FIRST SHIFT",
+      "eyebrowLevel": 2,
+      "title": "Nothing Was Asking to Be Seen",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "The map continued drawing a thin blue line through the countryside. Yet the landscape did not behave like a map. A lane widened near a shop, narrowed beside a wall, and opened unexpectedly towards a patch of still water. Every few minutes, the view seemed to change its mind."
+        },
+        {
+          "level": 2,
+          "text": "There was a pleasure in no longer naming each bend. We did not need every stand of trees to be a forest reserve, every old building to be a monument, or every glimpse of water to be a famous backwater viewpoint. It was enough to notice how the afternoon moved."
+        },
+        {
+          "level": 2,
+          "text": "The trip had not become less interesting because we were off the advertised route. It had become less predictable—and therefore more available to our attention."
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "SIX FRAMES · A SYMMETRICAL PAUSE",
+      "title": "The Small Things Along the Way",
+      "maxCols": 3,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Editorial Kerala journal photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "There are many ways to begin looking."
+        },
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Editorial image from the travel journal collection",
+          "width": 600,
+          "height": 400,
+          "caption": "An ordinary scene can be worth remembering."
+        },
+        {
+          "src": "/images/impact/impact1.webp",
+          "alt": "Landscape-oriented Kerala travel photograph",
+          "width": 750,
+          "height": 500,
+          "caption": "The route is more than a line on a map."
+        },
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Landscape photograph used to suggest a changing countryside",
+          "width": 750,
+          "height": 500,
+          "caption": "A change in pace changes the scale of attention."
+        },
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Editorial photograph from Kerala journal imagery",
+          "width": 600,
+          "height": 400,
+          "caption": "Every road moves alongside someone else’s life."
+        },
+        {
+          "src": "/images/impact/impact3.webp",
+          "alt": "Landscape editorial photograph",
+          "width": 750,
+          "height": 500,
+          "caption": "There is detail beyond the familiar stop."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-shop-at-the-bend",
+      "eyebrow": "CHAPTER II · THE PAUSE",
+      "eyebrowLevel": 1,
+      "title": "A Cup of Tea at an Unnamed Turning",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A modest shop stood where two roads met. There was a sheltered place to pull in, and the driver suggested a short pause while we checked the remaining journey. Inside, steel glasses stood upside down on a counter. A kettle murmured. Somewhere behind the doorway, a radio was playing low enough that we could not recognise the song."
+        },
+        {
+          "level": 2,
+          "text": "In the imagined scene, the shopkeeper does not deliver a perfect travel-guide speech. They are busy. Tea needs making; customers come and go. We order, pay, and stand where we are not in anyone’s way. A few words about the road are exchanged. Our driver checks the directions carefully, because a friendly suggestion is not the same thing as proof that every lane is suitable for a visiting vehicle."
+        },
+        {
+          "level": 2,
+          "text": "The tea arrives hot, sweet, and stronger than expected. Outside, a brief gust shifts the leaves at the edge of the roof. We drink slowly enough to notice the sound. Nothing has been organised for us, and that is exactly why the moment feels different from a scheduled stop."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "why-the-tea-matters",
+      "eyebrow": "THE PLEASURE OF A SIMPLE STOP",
+      "eyebrowLevel": 2,
+      "title": "Why We Remember the Tea",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "There are cups of tea in every journey. Most disappear into the background. This one stays, not because of a secret ingredient or a dramatic conversation, but because of the circumstances around it. We had arrived with no expectation that the place would justify our detour."
+        },
+        {
+          "level": 2,
+          "text": "A small stop has its own terms. We can buy something, leave the counter clear, take up only as much space as is appropriate, and move on. The shop does not need to become a performance or a story about how charmingly simple other people live."
+        },
+        {
+          "level": 2,
+          "text": "What matters is the sensation of being briefly part of an afternoon that would have continued perfectly well without us. For the first time that day, we are not counting the remaining kilometres."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "cream",
+      "text": "The best memory of an afternoon<br>can be something small enough to fit in a tea glass.",
+      "quoteAuthor": "Sree Jith",
+      "quoteRole": "Journey Story · A Roadside Pause"
+    },
+    {
+      "type": "text",
+      "id": "after-the-first-rain",
+      "eyebrow": "CHAPTER III · THE SKY TAKES OVER",
+      "eyebrowLevel": 1,
+      "title": "When the Weather Changed the Scene",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "The rain began while we were still near the junction. Not a dramatic monsoon wall, just a steady spill of water that made the road briefly shine. The driver waited for visibility to improve. A scooter rolled carefully past. Across the road, a tree shook out a hundred tiny movements as drops reached the branches."
+        },
+        {
+          "level": 2,
+          "text": "Our original destination was beginning to feel less urgent. We looked at the time and understood that going on exactly as planned would now mean rushing. The rain had made the decision for us—or perhaps it had simply made the decision visible."
+        },
+        {
+          "level": 2,
+          "text": "We had two sensible options: continue towards a shorter visit, or let the afternoon become a quieter journey with an earlier return. There was no heroic third option that involved pushing through poor conditions for the sake of a photograph."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "blue",
+      "imageCols": 4,
+      "aspectRatio": "2:3",
+      "imagePosition": "left",
+      "mobileOrder": "text-first",
+      "verticalAlign": "top",
+      "eyebrow": "RAIN, FOLIAGE, AND THE SHAPE OF WAITING",
+      "title": "An Afternoon in Vertical Lines",
+      "image": "/images/home/forest-portrait.webp",
+      "imageAlt": "Portrait forest image used to evoke the vertical textures of rain and vegetation",
+      "caption": "Portrait-format editorial nature image paired with a rain-soaked scene.",
+      "paragraphs": [
+        "Rain changes the way a place sounds. Wheels pass more slowly, leaves seem closer, and distant colours soften into one another. The world does not stop; it asks for a different tempo.",
+        "From under shelter, we can watch without entering fields or private property. That distinction matters. Not every beautiful patch of land is public space, and not every narrow lane is a walking trail.",
+        "The moment teaches us something no timetable can: a pause imposed by weather can become the most attentive part of the day."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "a-landscape-without-a-checkpoint",
+      "eyebrow": "THE WEATHER IS NOT AN INTERRUPTION",
+      "eyebrowLevel": 2,
+      "title": "The View Was Never Guaranteed",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A carefully composed itinerary often reads as if light, traffic, water, and weather are all prepared to cooperate. Real travel is less obedient. The best available viewpoint can be cloudy; a road may be busy; a host can need the afternoon back."
+        },
+        {
+          "level": 2,
+          "text": "There is freedom in letting that be true. When the rain relents, we do not rush to recover every minute. We lower the windows a little. The smell of warm earth returns. The road is darker than before, and shallow puddles gather along the verge."
+        },
+        {
+          "level": 2,
+          "text": "It has become a different afternoon from the one we planned. We decide not to describe that difference as a failure."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "eyebrow": "A GENTLE ROAD NOTE",
+      "title": "Spontaneity Still Needs Good Judgement",
+      "text": "An unexpected turn is most enjoyable when it stays within the boundaries of safety, legality, and respect for the people who live along it.",
+      "unorderedList": {
+        "level": 3,
+        "title": "Keep in mind",
+        "items": [
+          "Use roads appropriate for the vehicle; verify closures and restrictions instead of improvising through private lanes.",
+          "Stop only where parking is permitted and safe, without obstructing residents or emergency access.",
+          "Avoid photographing private homes or people without their permission.",
+          "Never enter farmland, waterways, forest areas, or private pathways simply because they look inviting.",
+          "Let weather and daylight change the plan without treating caution as a disappointment."
+        ]
+      }
+    },
+    {
+      "type": "horizontal-slider",
+      "eyebrow": "NATIVE-RATIO FILMSTRIP · ROADS AND ROADSIDE MOMENTS",
+      "title": "An Afternoon of Changing Shapes",
+      "sliderHeight": 420,
+      "innerRounding": true,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/itineraries/dummy3.webp",
+          "alt": "Portrait editorial travel photograph",
+          "width": 400,
+          "height": 600,
+          "caption": "The road narrows and attention sharpens."
+        },
+        {
+          "src": "/images/home/journey-pc1.webp",
+          "alt": "Horizontal journey landscape photograph",
+          "width": 1440,
+          "height": 960,
+          "caption": "The countryside opens for a moment."
+        },
+        {
+          "src": "/images/home/solo-portrait.webp",
+          "alt": "Portrait-format travel photograph",
+          "width": 600,
+          "height": 900,
+          "caption": "Rain changes the character of an ordinary stop."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Horizontal journal image",
+          "width": 600,
+          "height": 400,
+          "caption": "A small detail becomes a whole memory."
+        },
+        {
+          "src": "/images/itineraries/dummy10.webp",
+          "alt": "Vertical Kerala travel photograph",
+          "width": 400,
+          "height": 600,
+          "caption": "A pause is not an empty part of the journey."
+        },
+        {
+          "src": "/images/home/solo-landscape.webp",
+          "alt": "Wide landscape travel photograph",
+          "width": 1600,
+          "height": 900,
+          "caption": "Even the return road deserves attention."
+        }
+      ],
+      "paragraph": "A horizontal notebook of the changing afternoon, with each image retaining its original proportions."
+    },
+    {
+      "type": "text",
+      "id": "towards-the-water",
+      "eyebrow": "CHAPTER IV · THE UNEXPECTED OPENING",
+      "eyebrowLevel": 1,
+      "title": "Where the Road Met Water",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Past the next turn, the landscape opened towards a broad stretch of water. We did not know whether it was a canal, a connected backwater, or a seasonal flooded field; from the road, the boundaries were difficult to read. What we could see was enough: a pale surface beneath a low sky, broken by the reflections of palms."
+        },
+        {
+          "level": 2,
+          "text": "The vehicle pulled into a legitimate roadside stopping place. For a few minutes, we watched the light move across the water. A bird passed at a distance. A breeze carried the faint sound of an engine from somewhere beyond the trees."
+        },
+        {
+          "level": 2,
+          "text": "It would have been easy to make the scene grander in the retelling. We might have called it secret, untouched, or hidden. But the water was not ours to discover. People had lived alongside it, travelled near it, and understood it long before we came around the bend. What was new was only <strong>our attention</strong>."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "no-need-to-own-a-discovery",
+      "eyebrow": "A DIFFERENT WAY TO DESCRIBE PLACE",
+      "eyebrowLevel": 2,
+      "title": "Not Every Beautiful View Needs a Name",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Some travellers collect exact coordinates. Others collect photographs that prove they have reached places fewer people know. There is nothing wrong with sharing a location when doing so is appropriate. Yet an unexpected stop can carry meaning without becoming a recommendation for everyone to visit it."
+        },
+        {
+          "level": 2,
+          "text": "We can remember the quality of the light without encouraging a rush towards a narrow road. We can appreciate a place without claiming to be the first outsiders to see it. We can tell a good story and still protect the ordinary privacy of the people around it."
+        },
+        {
+          "level": 2,
+          "text": "In our imagined afternoon, the unnamed waterside view remains unnamed. Its importance is not its exclusivity. It is the way it changes what the group wants from the rest of the day."
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "ASYMMETRIC MASONRY · THE UNPLANNED VIEW",
+      "title": "Land and Water, Close and Far",
+      "maxCols": 3,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/itineraries/dummy4.webp",
+          "alt": "Portrait travel photograph in native 2:3 format",
+          "width": 400,
+          "height": 600,
+          "caption": "Something close to the road holds our eye."
+        },
+        {
+          "src": "/images/home/journey-pc.webp",
+          "alt": "Landscape journey photograph in native 3:2 format",
+          "width": 1440,
+          "height": 960,
+          "caption": "The wider setting changes the story."
+        },
+        {
+          "src": "/images/itineraries/dummy5.webp",
+          "alt": "Portrait editorial photograph in native 2:3 format",
+          "width": 400,
+          "height": 600,
+          "caption": "A small frame can suggest a longer afternoon."
+        },
+        {
+          "src": "/images/impact/impact5.webp",
+          "alt": "Landscape editorial photograph in native 3:2 format",
+          "width": 750,
+          "height": 500,
+          "caption": "The everyday landscape can be the destination."
+        },
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Forest landscape photograph in native 16:9 format",
+          "width": 1600,
+          "height": 900,
+          "caption": "The wider scene belongs to its own living system."
+        },
+        {
+          "src": "/images/itineraries/dummy12.webp",
+          "alt": "Portrait travel photograph in native 2:3 format",
+          "width": 400,
+          "height": 600,
+          "caption": "We leave more of the scene unclaimed."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "another-kind-of-itinerary",
+      "eyebrow": "CHAPTER V · THE PLAN CHANGES",
+      "eyebrowLevel": 1,
+      "title": "The Moment We Stopped Trying to Catch Up",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "We returned to the vehicle with wet shoes, an emptier schedule, and a small decision to make. The original destination was still possible, but only as a rushed visit. We could continue and count it as completed. Or we could let it go and make the return journey part of the day."
+        },
+        {
+          "level": 2,
+          "text": "The second option sounded disappointingly simple when first spoken aloud. No dramatic sunset, no final viewpoint, no reassuring tick beside the place we had intended to see. And then, almost immediately, it felt right."
+        },
+        {
+          "level": 2,
+          "text": "We sent a message adjusting the expected return time, checked the road ahead, and turned back at a comfortable pace. The landscape did not suddenly reveal a secret. The reward was quieter: conversation returned to the vehicle. We no longer needed the afternoon to meet a promise it had not made."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "what-we-talked-about",
+      "eyebrow": "A CONVERSATION WITHOUT A DEADLINE",
+      "eyebrowLevel": 2,
+      "title": "The Drive Back Sounded Different",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "On the outward journey, each conversation had been interrupted by directions. Which turn? How much longer? Would we arrive in time? On the return, the questions grew smaller and more interesting. Someone remembered the tea. Someone noticed the way the rain had darkened the roadside walls."
+        },
+        {
+          "level": 2,
+          "text": "There was a long silence that did not require filling. The driver pointed out an easier stretch of road ahead. Another passenger began a story about a different journey that had also gone wrong on paper and wonderfully right in memory."
+        },
+        {
+          "level": 2,
+          "text": "By now, the afternoon had stopped being a detour in our minds. The detour had become the route, and the destination was simply wherever the day ended."
+        }
+      ]
+    },
+    {
+      "type": "slider",
+      "eyebrow": "SLIDER · NO SINGLE FRAME DEFINES A DAY",
+      "title": "The Journey in an Open Lightbox",
+      "width": 1440,
+      "height": 960,
+      "autoplay": false,
+      "interval": 5200,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/home/journey-pc1.webp",
+          "alt": "Landscape travel photograph from the journey image set",
+          "caption": "The open road, before the day changed direction."
+        },
+        {
+          "src": "/images/itineraries/dummy7.webp",
+          "alt": "Portrait travel image with a different natural orientation",
+          "caption": "A detail remembered from a shorter stop."
+        },
+        {
+          "src": "/images/impact/impact6.webp",
+          "alt": "Horizontal editorial Kerala landscape image",
+          "caption": "The landscape carries its own rhythm."
+        },
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Wide forest landscape photograph",
+          "caption": "The mood of the day shifts with the weather."
+        },
+        {
+          "src": "/images/itineraries/dummy13.webp",
+          "alt": "Portrait Kerala travel photograph",
+          "caption": "Every frame opens larger in the lightbox."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "a-day-is-more-than-its-route",
+      "eyebrow": "THE VALUE OF IMPERFECTION",
+      "eyebrowLevel": 2,
+      "title": "A Different Kind of Completion",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "We are often encouraged to experience travel as a sequence of accomplishments. Visit the viewpoint. Reach the waterfall. Take the photograph. Arrive in time for the next reservation. There is satisfaction in a well-made itinerary, and good planning can protect a trip from unnecessary stress."
+        },
+        {
+          "level": 2,
+          "text": "But there is also a kind of attention that appears only when a plan leaves a margin. A short pause allows a question to become a conversation. A change of route makes a familiar landscape feel new. The day becomes something we inhabit rather than something we finish."
+        },
+        {
+          "level": 2,
+          "text": "That does not mean poor planning is desirable. The best flexibility grows from preparation: knowing the options, respecting the limits, and leaving enough room to choose without pressure."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "mixed",
+      "text": "We missed the place marked on the map.<br>We did not miss the journey.",
+      "quoteAuthor": "Sree Jith",
+      "quoteRole": "Journey Story · The Return"
+    },
+    {
+      "type": "text",
+      "id": "the-meaning-of-unscheduled-time",
+      "eyebrow": "CHAPTER VI · WHAT THE DETOUR GAVE US",
+      "eyebrowLevel": 1,
+      "title": "The Unscheduled Hours",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "At the beginning, we would have described the empty space in our timetable as spare time. By the end, it had become the part of the day that felt most complete. We had noticed the small change in light after rain, the pleasure of hot tea when no one was in a hurry, and the way a quiet road can rearrange a conversation."
+        },
+        {
+          "level": 2,
+          "text": "Nothing in the story requires a spectacular discovery. That is its point. The landscapes around ordinary routes are not lesser simply because they do not appear on a must-see list. They are still homes, workplaces, habitats, and places of memory."
+        },
+        {
+          "level": 2,
+          "text": "The unplanned afternoon did not teach us to abandon itineraries. It taught us to design them with a little less fear of uncertainty."
+        }
+      ]
+    },
+    {
+      "type": "highlights",
+      "theme": "blue",
+      "eyebrow": "THE ESSENTIALS",
+      "title": "What the Detour Left With Us",
+      "items": [
+        "Leave room between major stops so that an unexpected pause does not become a crisis.",
+        "Check routes and access properly; a spontaneous idea is not permission to enter anywhere.",
+        "Value everyday landscapes without turning every roadside scene into an attraction.",
+        "Let changing weather alter the plan when safety and comfort require it.",
+        "A thoughtful journey can feel complete even when one destination is skipped."
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "plan",
+      "eyebrow": "BESPOKE JOURNEY DESIGN",
+      "title": "Make Room for the Unexpected",
+      "text": "Design a Kerala journey with thoughtful structure, local understanding, and enough freedom for a different kind of day.",
+      "ctaLabel": "PLAN YOUR JOURNEY",
+      "to": "/planyourjourney"
+    },
+    {
+      "type": "text",
+      "id": "routes-with-breathing-space",
+      "eyebrow": "CHAPTER VII · THE ART OF MAKING ROOM",
+      "eyebrowLevel": 1,
+      "title": "How to Plan Without Losing the Possibility of Surprise",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A good itinerary can be precise without being rigid. It can choose a few meaningful anchors, arrange safe transfers, and allow enough time between commitments for the unexpected to feel welcome. That balance is especially valuable in places where weather, traffic, and local schedules can change the character of a day."
+        },
+        {
+          "level": 2,
+          "text": "It helps to plan in <strong>layers</strong>. The first layer contains essentials: confirmed access, accommodation, necessary transfers, and any appointments that affect other people. The second includes experiences that can move. The third is simply open space: time to stop for tea, take a longer conversation, or enjoy the road without needing a justification."
+        },
+        {
+          "level": 2,
+          "text": "This is not permission to intrude on private spaces or improvise beyond local guidance. Flexibility works best when it is informed, considerate, and unhurried."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "an-example-of-flexible-day",
+      "eyebrow": "TRAVEL DESIGN NOTE",
+      "eyebrowLevel": 2,
+      "title": "A Simple Day With Three Layers",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Imagine a countryside day designed around just one confirmed hosted experience and a relaxed scenic transfer. The structure might look like this—not as a route to follow literally, but as a way of protecting attention."
+        }
+      ],
+      "list": {
+        "type": "ordered",
+        "level": 2,
+        "items": [
+          {
+            "title": "Anchor · One meaningful appointment:",
+            "text": "Agree on the host, start time, access, and duration. Keep this commitment unless circumstances require a change."
+          },
+          {
+            "title": "Flexible · One landscape window:",
+            "text": "Choose a permitted, locally appropriate place that can be shortened or skipped if weather or travel conditions change."
+          },
+          {
+            "title": "Open · Time with no assignment:",
+            "text": "Leave a generous margin for a safe stop, a meal, a conversation, or simply a slower return."
+          }
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "eyebrow": "THE JOURNEY DESIGNER’S NOTE",
+      "title": "What to Keep Flexible, and What to Confirm",
+      "text": "The point is not to remove structure but to distinguish what is negotiable from what affects other people’s work and safety.",
+      "subtitle": "Spontaneity should never mean improvising at someone else’s expense.",
+      "unorderedList": {
+        "level": 3,
+        "title": "Keep in mind",
+        "items": [
+          "<strong>Confirm:</strong> transport, permissions, weather considerations, timings with hosts, and essential bookings.",
+          "<strong>Allow to move:</strong> public viewpoints, optional stops, and meals where no advance arrangement is needed.",
+          "<strong>Keep open:</strong> a small portion of the day that does not need to produce a highlight.",
+          "<strong>Accept:</strong> sometimes the best change is to return early and enjoy the journey that happened."
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "itineraries"
+    },
+    {
+      "type": "text",
+      "id": "the-memory-that-travelled-home",
+      "eyebrow": "CHAPTER VIII · WHAT STAYS",
+      "eyebrowLevel": 1,
+      "title": "The Memory We Took Home",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "That evening, the details came back in an unexpected order. Not the junction first, and not the reason for the diversion. The tea came back. Then the rain on the roof. Then the pale strip of water beyond the fields. The day was stored not as a route, but as a collection of sensations that seemed to belong together."
+        },
+        {
+          "level": 2,
+          "text": "We had not completed the original itinerary. The destination on the screen remained a place to visit another time. Yet the afternoon felt oddly whole. Perhaps that was because we had stopped asking it to prove itself."
+        },
+        {
+          "level": 2,
+          "text": "A journey is allowed to be both designed and surprising. We can prepare with care, travel with curiosity, and still leave room for a road we had not imagined. The map can get us moving. <span class='rt-dark-gold'><strong>Attention is what helps us arrive.</strong></span>"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "a-note-on-the-story",
+      "eyebrow": "EDITORIAL TRANSPARENCY",
+      "eyebrowLevel": 2,
+      "title": "About This Journey Story",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "This article is a <strong>representative, imagined narrative</strong> rather than a documented trip by Sree Jith or a specific traveller. The dialogue, sequence, unnamed roadside stop, and detour are creative devices used to explore slower, more attentive travel. The images are illustrative, not evidence of a single visit."
+        },
+        {
+          "level": 2,
+          "text": "For travellers who want to explore community-linked Kerala experiences, official public resources describe programmes and places where visits can be researched and arranged through appropriate channels."
+        }
+      ],
+      "list": {
+        "type": "divided",
+        "level": 2,
+        "items": [
+          {
+            "title": "<a href='https://www.keralatourism.org/responsible-tourism/' target='_blank'>Kerala Responsible Tourism Mission Society</a>",
+            "text": "A public starting point for learning about organised community-linked tourism initiatives."
+          },
+          {
+            "title": "<a href='https://www.keralatourism.org/responsible-tourism/life-experience-trails-keralam/trails' target='_blank'>Life Experience Trails · Kerala</a>",
+            "text": "An official index of village, craft, farm, and landscape-oriented travel experiences."
+          },
+          {
+            "title": "<a href='/journal/when-the-forest-sets-the-pace' target='_self'>When the Forest Sets the Pace</a>",
+            "text": "A related reflection on respecting ecological rhythms and choosing a slower pace."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "about",
+      "eyebrow": "BEYOND DESTINATIONS",
+      "title": "Explore the Thinking Behind Every Journey",
+      "text": "Discover a travel-design philosophy shaped by local knowledge, meaningful encounters, and the freedom to notice.",
+      "ctaLabel": "OUR STORY",
+      "to": "/about"
+    },
+    {
+      "type": "author-profile",
+      "theme": "blue",
+      "eyebrow": "ABOUT THE JOURNEY DESIGNER",
+      "title": "Sree Jith",
+      "text": "Sree Jith creates culturally immersive travel experiences in India, inspired by people, places, and stories. This representative narrative imagines the gentle discoveries that can emerge when an itinerary makes room for an unexpected turn.",
+      "image": "/images/testimonials/avatar.webp",
+      "imageAlt": "Author profile avatar for Sree Jith"
+    }
+  ]
+}

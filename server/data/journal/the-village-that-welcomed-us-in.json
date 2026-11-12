@@ -1,0 +1,639 @@
+{
+  "meta": {
+    "id": "jrn-story-003",
+    "slug": "the-village-that-welcomed-us-in",
+    "category": "stories",
+    "type": "stories",
+    "subcategory": "people-communities",
+    "subcategoryLabel": "PEOPLE & COMMUNITIES",
+    "contentTypeLabel": "COMMUNITY STORY",
+    "categoryLabel": "COMMUNITY STORY · PEOPLE & COMMUNITIES",
+    "featured": false,
+    "title": "The Village That Welcomed Us In",
+    "excerpt": "An evocative, representative village-journey narrative about shared tables, patient conversation, privacy and the meaning of being welcomed as a guest.",
+    "headerQuote": "Belonging is not something a visitor can claim. Hospitality is a gift we are invited to receive with care.",
+    "author": "Sree Jith",
+    "readTime": "13 MIN READ",
+    "publishDate": "2026-11-11",
+    "tags": [
+      "#PEOPLEANDCOMMUNITIES",
+      "#KERALA",
+      "#MEANINGFULTRAVEL"
+    ],
+    "categories": [
+      "culture",
+      "offbeat",
+      "bespoke"
+    ],
+    "topics": [
+      "#PEOPLEANDCOMMUNITIES",
+      "#KERALA",
+      "#MEANINGFULTRAVEL",
+      "#COMMUNITYTOURISM",
+      "#CULTURALIMMERSION"
+    ],
+    "image": "/images/journal/journal2.webp",
+    "alt": "Illustrative editorial cover photograph for The Village That Welcomed Us In"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "a-doorway-not-a-destination",
+      "eyebrow": "A REPRESENTATIVE COMMUNITY JOURNEY",
+      "eyebrowLevel": 1,
+      "title": "A Doorway, Not a Destination",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Imagine arriving at a village after the most demanding part of the journey is already behind you. The road narrows. A bicycle moves past. Somewhere beyond a wall, someone is working while an ordinary afternoon continues. There is no ceremonial welcome, no banner announcing an authentic experience. The village is simply going about its day.",
+        "This is a <strong>representative travel narrative</strong>—a composed scene exploring what respectful community-based journeys can feel like. It is not a report of one verified visit, nor are its unnamed hosts or conversations presented as documented individuals. That distinction matters because the beauty of an encounter should never depend on inventing testimony for people who did not give it.",
+        "What follows is a story about the space between arriving and being received. It asks what changes when a visitor approaches a village not as a collection of attractions, but as a home to many lives that began long before the journey and will continue after it ends."
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "blue",
+      "text": "A place begins to open when we arrive<br>without expecting it to perform for us."
+    },
+    {
+      "type": "text",
+      "id": "the-first-few-minutes",
+      "eyebrow": "CHAPTER I · ARRIVING WITH PERMISSION",
+      "eyebrowLevel": 1,
+      "title": "The First Few Minutes",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "In the imagined scene, a local coordinator has arranged the visit beforehand. The group is small, the timing is agreed and the residents involved know why the travellers are coming. It may sound unromantic to begin with permission, but that quiet preparation is what allows a genuine welcome to remain a choice.",
+        "A host greets the visitors at the entrance to a courtyard. The conversation is tentative at first, as many real conversations are. Someone checks whether the group would prefer to sit in the shade. A visitor offers a greeting in Malayalam, gets the pronunciation imperfectly right and receives a kind correction. Nobody needs to turn the moment into a performance."
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 4,
+      "aspectRatio": "2:3",
+      "imagePosition": "left",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "eyebrow": "A HUMAN-SCALE ARRIVAL",
+      "title": "The Courtyard Is Someone’s Everyday World",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "A courtyard can be beautiful to a visitor: afternoon light, a doorway, a place to sit, perhaps the small sounds of work continuing nearby. To the people who live there, it is also where things are repaired, vegetables may be sorted, conversations happen and the day moves forward.",
+        "The difference in perspective is important. An invitation to sit is not an invitation to photograph every room. A guided visit is not open access to a household. Hospitality becomes more comfortable when boundaries are understood without requiring the host to defend them repeatedly."
+      ],
+      "image": "/images/home/solo-portrait.webp",
+      "imageAlt": "Illustrative editorial image accompanying the courtyard is someone’s everyday world",
+      "caption": "A portrait-format editorial frame evokes the intimacy of a place without claiming to document this imagined household."
+    },
+    {
+      "type": "text",
+      "id": "the-kindness-of-a-small-greeting",
+      "eyebrow": "WARMTH WITHOUT A SCRIPT",
+      "eyebrowLevel": 2,
+      "title": "The Kindness of a Small Greeting",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "A thoughtful welcome often lives in details that would be lost in a hurried itinerary. It might be the offer of a seat where the breeze reaches, a question about the journey or a willingness to explain what happens in the neighbourhood on an ordinary weekday. None is grand enough for a brochure headline. Each makes a visitor feel less like an audience and more like a guest.",
+        "The important word is <span class='rt-dark-gold'><strong>guest</strong></span>. A guest accepts a welcome without claiming ownership of it. There can be warmth without instant intimacy, curiosity without intrusion and shared amusement without turning every unfamiliar custom into something to collect or imitate."
+      ]
+    },
+    {
+      "type": "masonry",
+      "maxCols": 3,
+      "eyebrow": "A SYMMETRICAL VISUAL INTERLUDE",
+      "title": "A Village in Six Gentle Frames",
+      "titleLevel": 2,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Illustrative editorial photograph representing a moment along a cultural journey",
+          "width": 600,
+          "height": 400,
+          "caption": "The afternoon begins in ordinary surroundings."
+        },
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Illustrative landscape-format editorial photograph for a community narrative",
+          "width": 600,
+          "height": 400,
+          "caption": "A frame for the places between destinations."
+        },
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Illustrative horizontal editorial photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "A quieter detail receives attention."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Illustrative landscape-format image from the journal collection",
+          "width": 600,
+          "height": 400,
+          "caption": "The story shifts toward the everyday."
+        },
+        {
+          "src": "/images/journal/journal5.webp",
+          "alt": "Illustrative horizontal travel image",
+          "width": 600,
+          "height": 400,
+          "caption": "A moment that does not need to become a spectacle."
+        },
+        {
+          "src": "/images/impact/impact1.webp",
+          "alt": "Illustrative landscape-format community or travel photograph",
+          "width": 750,
+          "height": 500,
+          "caption": "A broader perspective holds the village in context."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "a-table-for-conversation",
+      "eyebrow": "CHAPTER II · THE SHARED TABLE",
+      "eyebrowLevel": 1,
+      "title": "A Table for Conversation",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "In this composite story, refreshments arrive without fuss. Perhaps there is tea; perhaps a simple snack prepared as part of a planned hosting experience. The visitors ask what is customary and follow the host's lead. Someone begins to describe a family recipe, not as a museum specimen but as something that changes depending on the season, the kitchen and who is visiting.",
+        "The table is an easy place to romanticise village life, so it helps to remember that hosting takes labour. Ingredients cost money. Preparation requires time. If food is part of a curated experience, the people preparing and serving it should have agreed to the arrangement and be compensated fairly. The most respectful compliment is sometimes to value the work as much as the flavour."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "what-a-meal-can-teach",
+      "eyebrow": "CULTURE IS ALSO PRACTICAL",
+      "eyebrowLevel": 2,
+      "title": "What a Meal Can Teach",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "There is no need for the visitors to recognise every ingredient or claim that a taste is uniquely authentic. A better conversation begins with simple questions: what is in season, what is normally cooked on busy days and whether a dish has changed across generations. The answers may be unexpectedly practical rather than poetic, which is precisely what makes them interesting.",
+        "Food is both culture and work. It involves buying, growing, storing, cooking, cleaning and deciding who has time to do which task. Listening to those ordinary details can reveal more about a place than a menu arranged solely around what outsiders hope a traditional meal should look like."
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "cream",
+      "text": "A shared table does not erase our differences.<br>It gives us somewhere comfortable to ask about them."
+    },
+    {
+      "type": "text",
+      "id": "the-streets-between-stories",
+      "eyebrow": "CHAPTER III · LIFE BETWEEN THE HIGHLIGHTS",
+      "eyebrowLevel": 1,
+      "title": "The Streets Between Stories",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Later, the imagined walk continues along a village street with a local host or guide. A repair shop is open. Children may be returning from school. A delivery interrupts a conversation. These are not distractions from the cultural experience; they are evidence that this is a place with its own schedule, not a stage reset between tour groups.",
+        "A visitor might be drawn to a painted doorway or a line of drying clothes. Yet a beautiful composition does not make a private moment available for public use. There is value in learning to enjoy something without photographing it. There is equal value in asking before entering a business or recording the people who work there."
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "blue",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "right",
+      "mobileOrder": "text-first",
+      "verticalAlign": "center",
+      "eyebrow": "LOOKING WITHOUT CLAIMING",
+      "title": "The Story Within the Ordinary",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "An open shopfront, a wall warmed by sunlight or a lane after rain can give the visitor a strong sense of place. But the richest observation is not always visual. It can be the rhythm of customers, the way a neighbour is greeted or the pauses between tasks.",
+        "Good community-led journeys allow residents to choose what they share. They may introduce a craft, explain a farming practice or simply speak about the small changes they have seen around them. None should be required to become a permanent character in someone else's travel story."
+      ],
+      "image": "/images/impact/impact4.webp",
+      "imageAlt": "Illustrative editorial image accompanying the story within the ordinary",
+      "caption": "A native 3:2 landscape frame leaves room for the broader rhythms of a place."
+    },
+    {
+      "type": "text",
+      "id": "not-every-story-is-for-us",
+      "eyebrow": "THE RIGHT TO KEEP SOMETHING PRIVATE",
+      "eyebrowLevel": 2,
+      "title": "Not Every Story Is for Us",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "In a conversation about a festival, a family memory or a local tradition, a visitor may reach for the most personal question first. Restraint can make the exchange richer. Ask what the host enjoys discussing, listen when a subject changes and avoid pressing for a private account simply because it would make compelling content.",
+        "This is especially important when stories concern religion, income, loss or the lives of people who have not agreed to participate. We are free to be curious, but curiosity does not override consent. A good journey leaves the speaker in control of their own story and of whether any part of it is repeated afterward."
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "eyebrow": "THE GUEST’S NOTEBOOK",
+      "title": "How to Be Welcomed Without Becoming Intrusive",
+      "subtitle": "A few small habits make a large difference",
+      "text": "These are suggested practices for planned community visits, not rules imposed on any particular household or village.",
+      "unorderedList": {
+        "title": "Respect the invitation",
+        "level": 2,
+        "items": [
+          {
+            "title": "Arrive by arrangement",
+            "text": "Use a host-approved time and group size rather than an unannounced drop-in."
+          },
+          {
+            "title": "Ask before recording",
+            "text": "People, homes, workplaces and children should not become content without appropriate consent."
+          },
+          {
+            "title": "Value preparation",
+            "text": "Pay agreed fees fairly for hosting, guidance, demonstrations and food."
+          },
+          {
+            "title": "Accept boundaries",
+            "text": "A polite no, a closed door or a shortened visit is a complete answer."
+          },
+          {
+            "title": "Share stories carefully",
+            "text": "Check whether names, photographs or private details may be published."
+          }
+        ]
+      }
+    },
+    {
+      "type": "horizontal-slider",
+      "eyebrow": "A MIXED-ORIENTATION FILMSTRIP",
+      "title": "The Village at Different Distances",
+      "titleLevel": 2,
+      "images": [
+        {
+          "src": "/images/itineraries/dummy4.webp",
+          "alt": "Illustrative portrait-format image used to frame a community story",
+          "width": 400,
+          "height": 600,
+          "caption": "An intimate vertical view begins the sequence."
+        },
+        {
+          "src": "/images/home/journey-pc.webp",
+          "alt": "Illustrative 3:2 horizontal travel image",
+          "width": 1440,
+          "height": 960,
+          "caption": "A wider frame returns us to the setting."
+        },
+        {
+          "src": "/images/itineraries/dummy5.webp",
+          "alt": "Illustrative tall travel image",
+          "width": 400,
+          "height": 600,
+          "caption": "The composition pauses on a smaller moment."
+        },
+        {
+          "src": "/images/journal/journal5.webp",
+          "alt": "Illustrative horizontal editorial image",
+          "width": 600,
+          "height": 400,
+          "caption": "Another scene opens room for context."
+        },
+        {
+          "src": "/images/home/solo-portrait.webp",
+          "alt": "Illustrative 2:3 portrait-oriented editorial image",
+          "width": 600,
+          "height": 900,
+          "caption": "A portrait frame reminds us to slow down."
+        },
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Illustrative horizontal editorial image",
+          "width": 750,
+          "height": 500,
+          "caption": "The journey continues beyond any single person."
+        }
+      ],
+      "sliderHeight": 400,
+      "innerRounding": true,
+      "captionMob": true,
+      "captionPc": false
+    },
+    {
+      "type": "text",
+      "id": "learning-to-listen",
+      "eyebrow": "CHAPTER IV · THE SPACE BETWEEN LANGUAGES",
+      "eyebrowLevel": 1,
+      "title": "Learning to Listen Across Languages",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Not every conversation travels neatly between languages. A translation may carry the meaning while losing a joke, a pause or a phrase whose warmth depends on familiarity. There is no need to pretend fluency. A patient visitor can wait, ask a clearer question or admit they did not understand instead of nodding through a story and inventing its meaning later.",
+        "A local interpreter or guide can make such exchanges possible, but their role deserves acknowledgement too. Translation is not an invisible service. It calls for judgement about tone, context and what should remain private. When conversation works well, it is because several people have contributed to making it comfortable."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-conversation-that-doesnt-fill-the-silence",
+      "eyebrow": "THE VALUE OF AN UNHURRIED PAUSE",
+      "eyebrowLevel": 2,
+      "title": "The Conversation That Does Not Fill Every Silence",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "In our imagined afternoon, the group settles into an easy pause. A vessel is cleared from the table. Someone attends to a household task. A visitor watches the changing light and resists the urge to create another activity. This quiet interval is not a gap to be fixed by the itinerary; it is part of the experience of sharing time with other people.",
+        "Travel has trained many of us to ask what comes next. Community encounters can gently reverse that habit. We discover that a visit need not move continuously through performances, demonstrations and photographs. Sometimes the most memorable moment is the one in which nothing is being presented at all."
+      ]
+    },
+    {
+      "type": "slider",
+      "eyebrow": "LIGHTBOX · EVERYDAY PERSPECTIVES",
+      "title": "A Journey in Open Frames",
+      "titleLevel": 2,
+      "width": 1600,
+      "height": 900,
+      "autoplay": false,
+      "interval": 5500,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/impact/impact3.webp",
+          "alt": "Illustrative travel image in the impact collection",
+          "caption": "A broad frame sets the atmosphere."
+        },
+        {
+          "src": "/images/itineraries/dummy6.webp",
+          "alt": "Illustrative portrait-format travel image",
+          "caption": "A vertical perspective brings the scene closer."
+        },
+        {
+          "src": "/images/home/solo-landscape.webp",
+          "alt": "Illustrative wide editorial image",
+          "caption": "The next frame leaves room for surroundings."
+        },
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Illustrative 3:2 image in the journal collection",
+          "caption": "A quieter detail changes the rhythm."
+        },
+        {
+          "src": "/images/itineraries/dummy7.webp",
+          "alt": "Illustrative portrait-format travel image",
+          "caption": "The sequence closes without a posed finale."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "what-the-visitor-does-not-see",
+      "eyebrow": "CHAPTER V · THE WORK BEHIND WELCOME",
+      "eyebrowLevel": 1,
+      "title": "What the Visitor Does Not See",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Behind a warm welcome is often a schedule that guests do not witness. The house has to be prepared, ingredients purchased, a guide coordinated and other responsibilities fitted around a planned visit. A small business may rely on several people whose contribution never appears in the final photographs. When an encounter feels effortless, that may be because someone has worked carefully to make it so.",
+        "Responsible tourism asks us to notice those arrangements without turning hospitality into an audit conducted over the host's shoulder. The practical work belongs in the design: transparent terms, realistic group sizes, locally agreed compensation, clear expectations and room for feedback. The emotional warmth of a meeting is strongest when its economic foundation is treated seriously."
+      ]
+    },
+    {
+      "type": "highlights",
+      "eyebrow": "WHAT A MEANINGFUL VISIT MAKES POSSIBLE",
+      "title": "Five Quiet Forms of Exchange",
+      "items": [
+        "An introduction in which both visitors and hosts know what to expect.",
+        "A conversation that can wander without being forced into a script.",
+        "Fair value for the time, food, knowledge and coordination contributed.",
+        "Respect for the parts of a household or community that stay private.",
+        "A memory grounded in connection rather than access or spectacle."
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "partner"
+    },
+    {
+      "type": "text",
+      "id": "what-community-led-really-means",
+      "eyebrow": "CHAPTER VI · THE SHAPE OF A FAIR ENCOUNTER",
+      "eyebrowLevel": 1,
+      "title": "What Community-Led Really Means",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "A journey is not community-led simply because it takes place in a village. The people involved must have a say in what is offered, how often visits happen, what the experience costs and which spaces remain off limits. Different households and local businesses may want different kinds of participation; none should be treated as interchangeable representatives of a whole community.",
+        "Kerala's Responsible Tourism approach emphasises local procurement, livelihoods and community participation. Those goals provide a useful framework, but each individual experience still needs to earn trust through its everyday practices. A beautifully written itinerary cannot stand in for consent or fair arrangements on the ground."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-balance-of-giving-and-receiving",
+      "eyebrow": "RECIPROCITY WITHOUT PERFORMANCE",
+      "eyebrowLevel": 2,
+      "title": "The Balance of Giving and Receiving",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Visitors often ask what they can give back, and it is a worthwhile question. But giving back need not mean arriving with gifts or promises of transformation. It may begin with something simpler: paying a fair price, buying only what is genuinely wanted, crediting the right people and respecting the community's decision about how an experience should develop.",
+        "The host is not obliged to offer friendship, and the traveller is not required to leave with a life-changing revelation. The exchange can be modest and still be meaningful. That modesty protects both sides from expectations that are impossible to fulfil."
+      ]
+    },
+    {
+      "type": "masonry",
+      "maxCols": 4,
+      "eyebrow": "PORTRAIT AND LANDSCAPE IN NATIVE PROPORTIONS",
+      "title": "An Asymmetric Notebook of Encounters",
+      "titleLevel": 2,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/itineraries/dummy8.webp",
+          "alt": "Illustrative vertical image for a reflective village-journey sequence",
+          "width": 400,
+          "height": 600,
+          "caption": "Portrait one: space to notice an ordinary detail."
+        },
+        {
+          "src": "/images/impact/impact5.webp",
+          "alt": "Illustrative horizontal image for a community-journey sequence",
+          "width": 750,
+          "height": 500,
+          "caption": "Landscape one: the wider setting matters."
+        },
+        {
+          "src": "/images/itineraries/dummy9.webp",
+          "alt": "Illustrative vertical travel image",
+          "width": 400,
+          "height": 600,
+          "caption": "Portrait two: the narrative comes closer."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Illustrative horizontal travel or cultural photograph",
+          "width": 600,
+          "height": 400,
+          "caption": "Landscape two: context returns."
+        },
+        {
+          "src": "/images/itineraries/dummy10.webp",
+          "alt": "Illustrative vertical editorial travel image",
+          "width": 400,
+          "height": 600,
+          "caption": "Portrait three: another moment held with care."
+        },
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Illustrative wide forest landscape image",
+          "width": 1600,
+          "height": 900,
+          "caption": "Wide frame: every village is part of a larger environment."
+        },
+        {
+          "src": "/images/itineraries/dummy11.webp",
+          "alt": "Illustrative portrait-format editorial photograph",
+          "width": 400,
+          "height": 600,
+          "caption": "Portrait four: the human scale continues."
+        },
+        {
+          "src": "/images/impact/impact6.webp",
+          "alt": "Illustrative landscape-format editorial photograph",
+          "width": 750,
+          "height": 500,
+          "caption": "The last frame opens rather than closes the story."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "leaving-while-the-day-continues",
+      "eyebrow": "CHAPTER VII · A GOOD DEPARTURE",
+      "eyebrowLevel": 1,
+      "title": "Leaving While the Day Continues",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "In the representative story, the visit ends without a dramatic farewell. The group thanks the hosts, checks that any agreed payment and purchases are settled, and makes sure no photograph will be shared against someone's wishes. The courtyard returns to its ordinary use. Perhaps somebody has another task to finish before evening.",
+        "The visitors carry away details they could not have planned: a correction to a greeting, the humour of an imperfect translation, the difference between being offered food and being expected to admire it. These are not souvenirs in the usual sense. They are small reminders that warmth has been received, not acquired."
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "mixed",
+      "text": "We came looking for a place to remember.<br>We left remembering how to be guests."
+    },
+    {
+      "type": "text",
+      "id": "the-story-after-the-story",
+      "eyebrow": "TELLING THE STORY RESPONSIBLY",
+      "eyebrowLevel": 2,
+      "title": "The Story After the Story",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Once home, it is tempting to tell the village story in sweeping terms: everyone was generous, life was simple, time stood still. Such phrases may sound affectionate, but they can flatten a community into a fantasy. Villages have ambitions, disagreements, modern technology, busy lives and changing circumstances just as cities do. No brief visit can define them.",
+        "A better account stays close to what the encounter actually allowed. We can speak about a welcome without claiming universal hospitality; about a meal without reducing a culture to a recipe; about a conversation without retelling what was private. <span class='rt-intention-blue'><strong>Respect continues in the way the story is shared.</strong></span>"
+      ]
+    },
+    {
+      "type": "text",
+      "id": "three-questions-to-carry",
+      "eyebrow": "A JOURNEY DESIGN PROMPT",
+      "eyebrowLevel": 2,
+      "title": "Three Questions to Carry Into Your Next Visit",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "If you would like a community experience to feel less transactional and more grounded, begin by asking these questions before making arrangements."
+      ],
+      "list": {
+        "type": "ordered",
+        "level": 2,
+        "items": [
+          {
+            "title": "Who has chosen to welcome visitors?",
+            "text": "Look for experiences developed with willing hosts and clear local coordination."
+          },
+          {
+            "title": "What does the visit contribute?",
+            "text": "Understand the time, skills, income and preparation involved."
+          },
+          {
+            "title": "What should remain private?",
+            "text": "Treat consent and personal boundaries as part of the experience, not fine print."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "itineraries"
+    },
+    {
+      "type": "text",
+      "id": "what-a-welcome-leaves-behind",
+      "eyebrow": "CHAPTER VIII · BELONGING IS NOT THE GOAL",
+      "eyebrowLevel": 1,
+      "title": "What a Welcome Leaves Behind",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "The imagined village does not need a name to carry this lesson. Its purpose is not to replace a real destination or invent a host's words; it is to remind us what we should look for when planning an encounter in any real community. Meaningful travel is built from the small, careful agreements that make warmth possible.",
+        "The next time a journey takes us into a place where other people live and work, we can arrive with curiosity, pay attention and accept that not everything is ours to see. If a door opens, we can be grateful. If it remains closed, we can respect that too. In either case, the measure of the journey is not how much access we gained, but how well we honoured the people on the other side."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "community-travel-reading",
+      "eyebrow": "PUBLIC RESOURCES",
+      "eyebrowLevel": 2,
+      "title": "Further Reading & Context",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "For readers who want background on community-led tourism and local livelihood initiatives, these public resources explain the wider principles. They do not verify the fictionalised encounter described above."
+      ],
+      "list": {
+        "type": "divided",
+        "level": 2,
+        "items": [
+          {
+            "title": "<a href='https://www.keralatourism.org/responsible-tourism/' target='_blank'>Kerala Responsible Tourism Mission</a>",
+            "text": "State programme information on local participation, livelihoods and community-centred tourism."
+          },
+          {
+            "title": "<a href='https://www.keralatourism.org/responsible-tourism/objectives/3' target='_blank'>Responsible Tourism Mission Objectives</a>",
+            "text": "Objectives include local procurement, community participation and fair trade."
+          },
+          {
+            "title": "<a href='/impact' target='_self'>Sree Jith Travel: Impact</a>",
+            "text": "Our approach to thoughtful, people-centred journey design."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "plan",
+      "eyebrow": "TRAVEL THROUGH CONNECTION",
+      "title": "Let the People and Places Shape the Journey",
+      "text": "Explore community-led experiences built around agreed access, authentic conversation and a pace that respects everyday life.",
+      "ctaLabel": "PLAN YOUR JOURNEY",
+      "to": "/planyourjourney"
+    },
+    {
+      "type": "author-profile",
+      "theme": "blue",
+      "eyebrow": "ABOUT THE JOURNEY DESIGNER",
+      "title": "Sree Jith",
+      "text": "Sree Jith designs cultural and immersive travel experiences inspired by people, places and stories. His Journal considers how thoughtful encounters can deepen our understanding of both the places we visit and the responsibilities we carry as guests.",
+      "image": "/images/testimonials/avatar.webp",
+      "imageAlt": "Illustrative author-avatar image from the supplied site assets"
+    }
+  ]
+}

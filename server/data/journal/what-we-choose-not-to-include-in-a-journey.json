@@ -1,0 +1,504 @@
+{
+  "meta": {
+    "id": "jrn-insight-009",
+    "slug": "what-we-choose-not-to-include-in-a-journey",
+    "category": "insights",
+    "type": "insights",
+    "subcategory": "responsible-travel",
+    "subcategoryLabel": "RESPONSIBLE TRAVEL",
+    "contentTypeLabel": "INSIGHT",
+    "categoryLabel": "INSIGHT · RESPONSIBLE TRAVEL",
+    "featured": true,
+    "title": "What We Choose Not to Include in a Journey",
+    "excerpt": "A travel curator’s most meaningful decisions are often invisible. Why we remove an experience, leave an afternoon open, or refuse a compelling photograph can define the integrity of a journey.",
+    "headerQuote": "The itinerary becomes more thoughtful each time we ask what does not belong.",
+    "author": "Sree Jith",
+    "readTime": "17 MIN READ",
+    "publishDate": "2026-11-11",
+    "tags": [
+      "#CURATORSPERSPECTIVE",
+      "#RESPONSIBLETRAVEL",
+      "#TRAVELDESIGN"
+    ],
+    "categories": [
+      "bespoke",
+      "nature",
+      "culture"
+    ],
+    "topics": [
+      "#CURATORSPERSPECTIVE",
+      "#RESPONSIBLETRAVEL",
+      "#TRAVELDESIGN",
+      "#EXPERIENCECURATION",
+      "#ETHICALTOURISM"
+    ],
+    "image": "/images/home/journey-pc1.webp",
+    "alt": "Landscape travel photograph selected to introduce an essay on intentional itinerary design"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "the-route-that-almost-made-it",
+      "title": "The Route That Almost Made It",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "CURATOR’S NOTEBOOK · THE UNSEEN EDIT",
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A journey proposal can look flawless and still feel wrong. Imagine a four-day itinerary with every transfer neatly calculated, every viewpoint photographed in advance, every meal attached to a carefully timed stop. The client sees variety. The spreadsheet shows efficiency. The route appears ready to publish. Yet the person who designed it has one unsettled feeling: <strong>there is nowhere in the plan for the place itself to breathe</strong>."
+        },
+        {
+          "level": 2,
+          "text": "This is often where the curator’s real work begins. It is tempting to think of travel design as the art of adding: an experience that feels rare, another remarkable host, an extra destination before sunset. Addition is visible, easy to describe, and reassuring on a proposal. Exclusion is harder to sell. How do you explain the experience you deliberately left out, the detour you refused, or the invitation you chose not to pursue?"
+        },
+        {
+          "level": 2,
+          "text": "But an itinerary is not a warehouse of attractions. It is a considered sequence of encounters between travellers, hosts, landscapes, and the realities of time. Every inclusion creates an obligation somewhere else. The decision to remove something can protect the quality of what remains. This essay looks at that quieter skill from the curator’s side of the table: not the glamorous final selection, but the difficult edits that give a journey its integrity."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "mixed",
+      "text": "A strong journey is not everything we could arrange.<br>It is everything we can responsibly stand behind.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "On the discipline of selection"
+    },
+    {
+      "type": "text",
+      "id": "the-question-before-the-checklist",
+      "title": "Before We Ask Whether It Is Possible",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "01 · FIT BEFORE FEASIBILITY",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Curators are often asked whether a particular experience is possible. Can a village visit fit after lunch? Can a household demonstration be arranged before the train? Can the group enter a workshop during working hours? Logistics can usually produce an answer. The more useful opening question is different: <i>should this particular experience belong in this particular journey?</i>"
+        },
+        {
+          "level": 2,
+          "text": "Availability is not suitability. A guide may know someone willing to open a door, but that does not make the visit comfortable for the family. A route may be physically drivable, but still leave a tired traveller arriving without the attention needed to appreciate it. A beautiful ecological setting may be accessible for much of the year and inappropriate during a sensitive period. Availability tells us what can be booked; curation asks what can be justified."
+        },
+        {
+          "level": 2,
+          "text": "One way of clarifying the decision is to give each proposed stop a purpose beyond novelty. Is it helping the traveller understand the region, take part in an activity, recover between demanding experiences, or meet a practitioner on mutually agreed terms? If we remove the stop, does the journey lose a meaningful layer—or merely one more item to tick off? The answer need not be dramatic. Sometimes a quiet afternoon offers more value than a fourth scheduled attraction."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "title": "Five Questions Before an Experience Earns Its Place",
+      "eyebrow": "THE FIRST CURATORIAL FILTER",
+      "text": "This is an editorial screening framework, not a formal certification. It helps surface trade-offs early, before a promising idea becomes a paid commitment.",
+      "unorderedList": {
+        "level": 3,
+        "items": [
+          {
+            "title": "Purpose",
+            "text": "What understanding, enjoyment, learning, or connection does this experience add?"
+          },
+          {
+            "title": "People",
+            "text": "Does the host genuinely want this interaction, with an agreed role, boundaries, and payment?"
+          },
+          {
+            "title": "Place",
+            "text": "Can the setting accommodate the visit at this time without avoidable disruption?"
+          },
+          {
+            "title": "Pace",
+            "text": "Will the experience be appreciated, or simply survived between transfers?"
+          },
+          {
+            "title": "Alternatives",
+            "text": "Could a less intrusive, more suitable option serve the same purpose better?"
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "the-cost-of-filling-every-hour",
+      "title": "The Cost of Filling Every Hour",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "02 · LEAVE ROOM FOR ATTENTION",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "An overfilled journey often fails without any single disaster. Nothing breaks down. The guide is punctual; the transport arrives; the viewpoints are as promised. What disappears is the traveller’s capacity to notice. By the third scheduled encounter, introductions begin to sound alike. A conversation is cut short because the vehicle is waiting. A meal becomes a transaction between two activities rather than an experience in its own right."
+        },
+        {
+          "level": 2,
+          "text": "Curators work with an awkward truth: <strong>the most important resource in an itinerary is not transport or accommodation, but attention</strong>. Attention is finite. It changes with age, health, unfamiliar food, heat, rain, language barriers, and the simple fatigue of being somewhere new. Schedules designed solely around distance underestimate the emotional work of travel. Twenty kilometres on a difficult road and twenty kilometres through a city are not interchangeable. Neither are two experiences that ask completely different things of the guest."
+        },
+        {
+          "level": 2,
+          "text": "Good editing therefore includes deliberate intervals. It might mean removing a market visit to give a host conversation the time it deserves, or avoiding a dramatic pre-dawn start after an overnight arrival. A rest period should not have to disguise itself as an attraction. Sometimes it is the most hospitable part of the plan. That does not make a journey unambitious. It makes the ambition sustainable."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "title": "The Space Between Experiences",
+      "theme": "cream",
+      "imageCols": 5,
+      "aspectRatio": "2:3",
+      "imagePosition": "left",
+      "mobileOrder": "image-first",
+      "verticalAlign": "top",
+      "image": "/images/home/forest-portrait.webp",
+      "imageAlt": "Editorial travel photograph accompanying the space between experiences",
+      "paragraphs": [
+        "A blank hour can look like an omission on an itinerary, but in practice it may be the part that holds the day together. It allows a traveller to recover, a conversation to continue, and a local host to return to ordinary life without watching the clock.",
+        "We can describe that time honestly. Instead of pretending every moment is programmed, we can say: <strong>this afternoon is intentionally open</strong>. It is an invitation to respond to the place rather than a gap awaiting one more activity."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-encounter-that-asks-too-much",
+      "title": "The Encounter That Asks Too Much",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "03 · PEOPLE ARE NOT PROGRAMMING",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Cultural immersion is one of travel’s most attractive promises, and also one of its easiest to misuse. Consider a proposed visit to a home where a family is asked to demonstrate domestic routines for unfamiliar guests. The visitors are curious and respectful. The intermediary is enthusiastic. Even so, the arrangement may quietly turn hospitality into performance, especially when the family feels obliged to remain agreeable because future bookings depend on it."
+        },
+        {
+          "level": 2,
+          "text": "Curatorial consent must be more than permission secured once through someone else. Who is hosting? What do they want to share? Are there rooms, rituals, topics, or photographs that remain private? Can the host change the plan or end the visit without penalty? Is compensation agreed independently of sales or tips? Can guests participate without expecting the host’s entire day to become available? These questions do not reduce spontaneity; they create conditions in which spontaneity is possible without pressure."
+        },
+        {
+          "level": 2,
+          "text": "We sometimes choose not to include an experience because its human boundaries cannot be made clear enough. That decision can disappoint the person planning the holiday. Yet an honest curator is not selling unlimited access to other people’s lives. The right to withdraw, decline a photograph, or reserve part of a home is not an inconvenience to work around. It is part of what makes the encounter respectful."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "blue",
+      "text": "An open door is not an open-ended invitation.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "On the boundaries of cultural access"
+    },
+    {
+      "type": "text",
+      "id": "when-a-landscape-should-be-left-alone",
+      "title": "When a Landscape Should Be Left Alone",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "04 · THE LANDSCAPE HAS A SAY",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Some of the most persuasive photographs are taken at the least persuasive moment to send more people to the same place. A narrow trail shines after rain; a quiet wetland looks utterly empty; a hillside viewpoint appears untouched. Yet the image cannot tell us whether the surface is safe, whether access is permitted, whether wildlife may be disturbed, or whether a community is already struggling with visitor pressure."
+        },
+        {
+          "level": 2,
+          "text": "The curator’s job is not to turn every extraordinary setting into an excursion. It is to understand seasonal conditions, actual local rules, group size, waste arrangements, transport access, and the obligations of any local guide. Conditions change, so old photographs and old promises are insufficient. If a forest access route is closed, if rain has made a trail hazardous, or if the available visit would overwhelm a small site, postponement or substitution may be the responsible choice."
+        },
+        {
+          "level": 2,
+          "text": "There is a temptation to describe such decisions as a loss: <i>we could not include the viewpoint</i>. A stronger interpretation is that the journey has respected a limit. A carefully chosen alternative—a guided walk in an appropriate area, a landscape conversation, a slower stop outside the sensitive zone—can often give travellers a better understanding of the place than an intrusive visit would. Not everything we value must be entered, photographed, or claimed."
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "title": "A Landscape Is More Than a Backdrop",
+      "titleLevel": 2,
+      "maxCols": 3,
+      "captionMob": true,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/impact/impact1.webp",
+          "alt": "Editorial image 1 illustrating a landscape is more than a backdrop",
+          "width": 750,
+          "height": 500,
+          "caption": "Editorial image illustrating the need to read landscapes beyond a scenic view."
+        },
+        {
+          "src": "/images/impact/impact3.webp",
+          "alt": "Editorial image 2 illustrating a landscape is more than a backdrop",
+          "width": 750,
+          "height": 500,
+          "caption": "Editorial image for an essay about seasonal and ecological limits."
+        },
+        {
+          "src": "/images/impact/impact5.webp",
+          "alt": "Editorial image 3 illustrating a landscape is more than a backdrop",
+          "width": 750,
+          "height": 500,
+          "caption": "Editorial image illustrating the relationship between access, time, and care."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-hidden-cost-of-a-cheap-stop",
+      "title": "The Hidden Cost of a Convenient Stop",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "05 · FOLLOW THE VALUE",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "A good stop is not automatically an ethical stop because it supports the local economy in a general sense. We have to ask who performs the work, who controls the price, who gets paid, and how much preparation is invisible. The comfortable arithmetic of the traveller’s quote can conceal the host’s early start, additional cleaning, ingredients purchased in advance, or lost time from their normal livelihood."
+        },
+        {
+          "level": 2,
+          "text": "Imagine a food experience that takes two hours for guests. For the household it may require shopping, advance preparation, language support, welcoming and cleaning long after the group departs. A fee that appears generous for two hours may not cover the work that surrounds it. Likewise, a craft demonstration might interrupt production while leaving the artisan dependent on whether a visitor chooses to buy something. Ethical design separates payment for time and expertise from optional purchases."
+        },
+        {
+          "level": 2,
+          "text": "Sometimes we remove an experience because the numbers do not yet work fairly. Sometimes we redesign it: fewer guests, a different duration, a clearer teaching fee, a sustainable booking frequency. The point is not to demand that every encounter generate a grand social impact story. It is to avoid presenting someone else’s underpaid labour as a charming bargain."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "title": "A Price Is a Design Decision",
+      "theme": "blue",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "image": "/images/journal/journal2.webp",
+      "imageAlt": "Editorial travel photograph accompanying a price is a design decision",
+      "paragraphs": [
+        "A fee is not an administrative footnote added after the experience has been invented. It affects how long a host must prepare, how many people they can welcome, and whether the exchange remains worthwhile for everyone involved.",
+        "In the curator’s working notes, compensation should have a line of its own, along with cancellation terms, group limits, preparation time, and any costs the host should never be left to absorb."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-stories-we-refuse-to-simplify",
+      "title": "The Stories We Refuse to Simplify",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "06 · DO NOT SELL A SIMPLIFIED CULTURE",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "It is easy to market a culture through a few beautiful nouns: ancient, timeless, untouched, authentic. These words travel well in brochures because they require so little explanation. They can also flatten real communities into decorative fragments. A craft may be centuries old and constantly changing. A festival can be an act of faith, an expression of local identity, a complex public gathering, and a living tradition all at once. No single adjective can carry the whole story."
+        },
+        {
+          "level": 2,
+          "text": "Sometimes the most responsible curatorial edit is a change of language. We remove a claim that every family follows the same practice. We replace a grand narrative of the ‘unchanged village’ with a description of how residents work, adapt, disagree, and create contemporary lives. We avoid promising access to religious or private activities as if tradition existed for tourists to witness. Where interpretation is possible, we ask knowledgeable local voices to explain what they are comfortable sharing, rather than placing the curator’s summary above their authority."
+        },
+        {
+          "level": 2,
+          "text": "This restraint should also shape photography and captions. An image from the asset library may suggest an atmosphere, but it is not evidence that a particular person or location was visited. We should never let a pleasing visual quietly become an undocumented claim. A journey does not become less compelling when we admit complexity. It becomes more worthy of trust."
+        }
+      ]
+    },
+    {
+      "type": "horizontal-slider",
+      "title": "The Editorial Eye: Four Frames, Four Questions",
+      "titleLevel": 2,
+      "sliderHeight": 340,
+      "innerRounding": false,
+      "captionMob": true,
+      "captionPc": true,
+      "eyebrow": "VISUAL INTERLUDE · READING AN IMAGE",
+      "images": [
+        {
+          "src": "/images/itineraries/dummy3.webp",
+          "alt": "Editorial travel photograph 1 in the the editorial eye: four frames, four questions series",
+          "width": 400,
+          "height": 600,
+          "caption": "What is outside the frame—and does it matter?"
+        },
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Editorial travel photograph 2 in the the editorial eye: four frames, four questions series",
+          "width": 600,
+          "height": 400,
+          "caption": "Who understands the context behind the scene?"
+        },
+        {
+          "src": "/images/home/journey-mob.webp",
+          "alt": "Editorial travel photograph 3 in the the editorial eye: four frames, four questions series",
+          "width": 960,
+          "height": 1440,
+          "caption": "What do seasons and timing change here?"
+        },
+        {
+          "src": "/images/impact/impact4.webp",
+          "alt": "Editorial travel photograph 4 in the the editorial eye: four frames, four questions series",
+          "width": 750,
+          "height": 500,
+          "caption": "Would the caption overclaim what the image shows?"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "not-right-for-every-traveller",
+      "title": "Not Right for Every Traveller",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "07 · PERSONALISATION IS ALSO PROTECTION",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "A particular activity may be excellent in itself and still be a poor fit for an individual guest. An early forest walk asks for different mobility and energy than a quiet heritage conversation. A long shared meal may be perfect for travellers eager to learn through food and uncomfortable for others who prefer privacy. A busy festival can be exhilarating for one person and overwhelming for another. If we call everything ‘unmissable’, we stop paying attention to the traveller."
+        },
+        {
+          "level": 2,
+          "text": "Designing around suitability is not about assuming what someone can or cannot do. It means asking about preferred pace, accessibility, dietary needs, sensory comfort, social energy, and the practical details that might change an encounter. The answer belongs to the traveller. The curator’s task is to present options candidly and to avoid making a guest defend their limits. Where a requirement cannot be accommodated reliably, it is better to say so than to offer hopeful reassurance."
+        },
+        {
+          "level": 2,
+          "text": "The act of exclusion becomes especially valuable here. We may remove a strenuous stop and retain a slower route through the same region. We may replace an intimate household experience with a public workshop where guests can join at their own comfort level. We may decline to promise a particular performance when the calendar has not been confirmed. The final journey is not smaller because the choices are more personal. It is more coherent."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "title": "A Practical Suitability Conversation",
+      "eyebrow": "CURATOR’S BRIEF",
+      "text": "These are prompts for a planning discussion—not questions to turn into assumptions about any traveller.",
+      "orderedList": {
+        "level": 3,
+        "items": [
+          "<strong>Ask about energy:</strong> What pace feels enjoyable after travel days and transfers?",
+          "<strong>Ask about participation:</strong> Would guests rather observe, try a guided task, or join a group activity?",
+          "<strong>Ask about needs:</strong> Are there dietary, accessibility, rest, or sensory considerations to plan around?",
+          "<strong>Explain what cannot be guaranteed:</strong> Weather, local permissions, and host availability may require adaptation.",
+          "<strong>Offer a meaningful substitute:</strong> Make the alternative attractive on its own terms, not a consolation prize."
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "how-to-explain-the-no",
+      "title": "How We Explain the No",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "08 · TRANSPARENCY, NOT DEFENSIVENESS",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "A responsible decision still needs a generous explanation. Imagine that a traveller requests an intimate ritual visit, drawn by a photograph online. A vague ‘not possible’ can sound evasive or unhelpful. A better response offers the reasoning without exposing anyone’s private circumstances: the occasion is not arranged as a visitor activity; the group would not have appropriate access; a local cultural practitioner is available for a contextual conversation instead."
+        },
+        {
+          "level": 2,
+          "text": "The language matters. We are not scolding the traveller for being curious. Curiosity is often what brings people toward cultural travel in the first place. We are distinguishing curiosity from entitlement, and offering a route for learning that does not require crossing a boundary. The best alternative answers the original motivation: Was the guest looking for beauty, understanding, participation, or a meaningful conversation? That desire may be met more completely somewhere else."
+        },
+        {
+          "level": 2,
+          "text": "Honest proposals also describe contingency without alarming people. ‘This walk is offered only when locally permitted and conditions are suitable; otherwise we will arrange a related experience’ is more trustworthy than silently treating nature as a fixed timetable. Clarity is a form of hospitality. It gives travellers a chance to consent to the kind of journey they are actually booking."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "title": "An Alternative Should Be an Invitation",
+      "theme": "light",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "left",
+      "mobileOrder": "text-first",
+      "verticalAlign": "center",
+      "image": "/images/home/journey-pc.webp",
+      "imageAlt": "Editorial travel photograph accompanying an alternative should be an invitation",
+      "paragraphs": [
+        "The invitation behind a thoughtful refusal is simple: <i>let us show you another way to encounter what drew you here</i>. If the original request was a crowded photo stop, perhaps the alternative is an unhurried local walk with interpretation. If it was an intrusive home visit, perhaps it is a small public demonstration led by a willing practitioner.",
+        "An alternative earns its place because it brings its own knowledge and pleasures. It should never be described as a second-best replacement designed only to protect an itinerary from looking empty."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "a-route-that-survives-the-edit",
+      "title": "The Route That Survives the Edit",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "09 · THE ART OF REMOVAL",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The finished itinerary rarely reveals the full series of decisions behind it. It shows the host confirmed, the route simplified, the resting hour left open, and the encounter given adequate time. It does not show the late-night removal of an impossible transfer, the conversation about fair payment, the photograph we declined to use, or the promising idea postponed until the season changes. Those omissions are not failed opportunities. They are evidence of care."
+        },
+        {
+          "level": 2,
+          "text": "A curator needs the courage to make these calls while remaining curious. Not every risk should lead to avoidance, and not every unfamiliar experience is unsuitable. The goal is not sterile perfection. The goal is a journey willing to negotiate with reality: weather, hosts, accessibility, context, the traveller’s interests, and the limits of place. That requires research, creative alternatives, local collaboration, and the humility to revise an attractive concept."
+        },
+        {
+          "level": 2,
+          "text": "So when a journey feels unusually natural—when nothing seems forced, when conversations have room, when each stop deepens the next—it may be worth remembering what you cannot see. Somewhere before the final route was sent, somebody made a choice not to include everything. <strong>That is not the absence of design. It is the heart of it.</strong>"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "title": "The Curator’s Final Edit",
+      "eyebrow": "WORKING METHOD",
+      "text": "Before a journey is presented, one last pass can identify what the initial excitement concealed.",
+      "unorderedList": {
+        "level": 3,
+        "items": [
+          "Remove any stop that has no clear purpose beyond adding another attraction.",
+          "Check that host participation, boundaries, fees, and cancellation conditions are agreed.",
+          "Verify current permissions, seasonal constraints, travel time, and sensible contingencies.",
+          "Preserve recovery time and avoid scheduling meaningful encounters back-to-back.",
+          "Describe cultural settings accurately without promising private access or guaranteed performances.",
+          "Offer travellers honest choices that match their interests and practical needs."
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "impact",
+      "title": "Travel That Makes Room for People and Place",
+      "text": "Explore the principles that guide how we think about meaningful encounters, local livelihoods, and responsible journeys.",
+      "eyebrow": "BEYOND THE ITINERARY"
+    },
+    {
+      "type": "text",
+      "id": "the-most-generous-thing-we-can-leave-out",
+      "title": "The Most Generous Thing We Can Leave Out",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "CLOSING REFLECTION",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The best itinerary is not necessarily the fullest one or the one most difficult for a competitor to reproduce. It is the one that makes good on its promises without asking hosts or places to absorb costs the proposal failed to notice. The curation may be invisible in the traveller’s photographs, but it remains present in the quality of each hour."
+        },
+        {
+          "level": 2,
+          "text": "A deliberately open afternoon. A clearly compensated conversation. A fragile place respectfully left alone. A story told without pretending it is the whole story. These are design decisions, not missing features. Together, they make the difference between assembling attractions and creating a journey people can inhabit with ease and curiosity."
+        },
+        {
+          "level": 2,
+          "text": "The invitation is not to travel less boldly. It is to travel with sharper attention. Sometimes, the most memorable part of a beautifully designed journey is the space that someone had the judgment to leave untouched."
+        }
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "plan",
+      "title": "Let’s Design a Journey With Purpose",
+      "text": "Tell us what interests you, how you like to travel, and what you hope to understand. We can begin with the right questions—not a longer checklist."
+    },
+    {
+      "type": "author-profile",
+      "theme": "cream",
+      "eyebrow": "ABOUT THE CURATOR",
+      "title": "Sree Jith",
+      "text": "Sree Jith is a travel experience designer whose editorial work explores the choices, conversations, and collaborations behind meaningful cultural journeys. This essay presents a curatorial framework, not a report of specific completed bookings."
+    }
+  ]
+}

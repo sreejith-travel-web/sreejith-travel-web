@@ -1,0 +1,709 @@
+{
+  "meta": {
+    "id": "jrn-story-005",
+    "slug": "somewhere-between-solitude-and-belonging",
+    "category": "stories",
+    "type": "stories",
+    "subcategory": "traveller-stories",
+    "subcategoryLabel": "TRAVELLER STORIES",
+    "contentTypeLabel": "STORY",
+    "categoryLabel": "STORY · TRAVELLER STORIES",
+    "featured": false,
+    "title": "Somewhere Between Solitude and Belonging",
+    "excerpt": "An imagined solo traveller arrives in Kerala hoping for quiet and discovers, through a handful of ordinary moments, that solitude and connection do not have to be opposites.",
+    "headerQuote": "She had come to be alone. She had not expected to feel so gently included.",
+    "author": "Sree Jith",
+    "readTime": "17 MIN READ",
+    "publishDate": "2026-11-11",
+    "tags": [
+      "#SOLOTRAVEL",
+      "#TRAVELLERSTORIES",
+      "#KERALA"
+    ],
+    "categories": [
+      "bespoke",
+      "nature",
+      "offbeat"
+    ],
+    "topics": [
+      "#SOLOTRAVEL",
+      "#TRAVELLERSTORIES",
+      "#KERALA",
+      "#SLOWTRAVEL",
+      "#BELONGING"
+    ],
+    "image": "/images/home/solo-landscape.webp",
+    "alt": "Atmospheric landscape travel image accompanying a fictional solo-travel story set in Kerala"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "the-seat-beside-her",
+      "eyebrow": "A REPRESENTATIVE TRAVELLER STORY",
+      "eyebrowLevel": 1,
+      "title": "The Seat Beside Her Was Empty",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "At the station, Ananya checked the number on her ticket, lifted her bag and found the window seat she had booked weeks earlier. There was no second boarding pass, no familiar voice asking whether she had packed a charger, no one to negotiate where they would eat when they arrived. The seat beside her stayed empty as the train began to move."
+        },
+        {
+          "level": 2,
+          "text": "She had wanted this. For months she had been speaking in the plural—<i>we should go, we might try, shall we plan</i>—and putting off the small things she wanted until someone else's calendar opened. This journey to Kerala was an experiment in the singular. She did not want to prove that she was brave. She wanted to discover whether she could enjoy a day without asking anyone else to approve it."
+        },
+        {
+          "level": 2,
+          "text": "<strong>This is an imagined, representative traveller story.</strong> Ananya, her hosts and the encounters that follow are fictional, created to explore emotions that many solo travellers recognise. The story is not a testimonial, a documented guest experience, or a description of an identifiable homestay."
+        },
+        {
+          "level": 2,
+          "text": "The train moved through changing patches of green and built-up streets. Her phone rested face down on the tray. For the first time in a long while, nobody needed an answer from her before the next stop."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "blue",
+      "text": "Being on your own is a fact.<br>Feeling alone is a different kind of weather."
+    },
+    {
+      "type": "text",
+      "id": "arrival-without-an-audience",
+      "eyebrow": "01 · ARRIVAL",
+      "eyebrowLevel": 1,
+      "title": "Arriving Without an Audience",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "By the time she reached the small hillside settlement, the light had thinned into a pale gold. A driver pointed out the final bend and slowed near a modest guesthouse set back from the road. There were plants in mismatched pots, a covered verandah and the sound of dishes being moved somewhere beyond the door. No dramatic entrance. No view announcing itself with a thousand perfect angles."
+        },
+        {
+          "level": 2,
+          "text": "Ananya stood for a moment beside her bag. She felt a small, unexpected awkwardness. On a shared trip, arrival is a performance two people help each other through: someone admires the room, someone makes a joke, someone announces that the holiday has begun. Here there was nobody to fill the pause. She noticed the damp smell of earth instead."
+        },
+        {
+          "level": 2,
+          "text": "The person welcoming her—Leela, who would become a quiet presence over the next few days—showed her where to leave her shoes, pointed out the drinking water and asked when she preferred breakfast. The questions were ordinary, which was precisely why they helped. Nothing required Ananya to be interesting yet."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 4,
+      "aspectRatio": "2:3",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "eyebrow": "THE FIRST EVENING",
+      "title": "A Room With Space for Silence",
+      "image": "/images/home/solo-portrait.webp",
+      "imageAlt": "Editorial travel photograph used as a visual companion to this section",
+      "paragraphs": [
+        "The room was simple: a bed, a wooden chair, a window that opened towards a green slope. She placed her bag down and sat without unpacking. Outside, something moved in the leaves; inside, the ceiling fan hummed with the steady indifference of a familiar machine.",
+        "She had imagined solitude as peace arriving immediately. Instead, the first hour felt a little exposed. The quiet gave her room to hear her own thoughts before she had decided whether she liked them."
+      ],
+      "caption": "A portrait travel image accompanies the story; the guesthouse and characters are fictional."
+    },
+    {
+      "type": "text",
+      "id": "the-noise-she-carried",
+      "title": "The Noise She Had Brought With Her",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "At home, Ananya's days were full of pleasant and exhausting interruptions: messages that began with 'quick question', meals eaten between errands, the constant low pressure to account for her time. She had believed a quiet place would erase that pressure. Instead, it seemed to have travelled in her bag. She reached for her phone twice in the first ten minutes and then laughed at herself for doing it."
+        },
+        {
+          "level": 2,
+          "text": "She went outside and sat on the verandah. Somewhere below, a scooter climbed the road with a determined engine; a bird called once, then again. The settlement was not silent. It was simply uninterested in performing for her. That was strangely comforting. She did not need to photograph the moment or explain it to somebody. She could let it pass."
+        },
+        {
+          "level": 2,
+          "text": "Before bed she wrote one sentence in the notebook she had packed and nearly forgotten: <span class='rt-intention-blue'>I thought I needed silence. Perhaps I need to stop being frightened of it.</span>"
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "SYMMETRIC GALLERY · NATIVE 3:2",
+      "title": "The First Evening, in Four Frames",
+      "maxCols": 2,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Landscape-format editorial travel image",
+          "width": 600,
+          "height": 400,
+          "caption": "A slow arrival begins with observation."
+        },
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Landscape-format editorial travel image",
+          "width": 600,
+          "height": 400,
+          "caption": "The day holds ordinary details worth keeping."
+        },
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Landscape-format editorial travel image",
+          "width": 600,
+          "height": 400,
+          "caption": "A place does not need to perform to become memorable."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Landscape-format editorial travel image",
+          "width": 600,
+          "height": 400,
+          "caption": "The first evening asks for nothing dramatic."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "a-morning-of-her-own",
+      "eyebrow": "02 · LEARNING A NEW PACE",
+      "eyebrowLevel": 1,
+      "title": "The Morning Nobody Had Planned for Her",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "She woke before her alarm because of the light. Not bright sunshine, but the soft grey that arrives when clouds still hold the edges of a hill. She made tea and carried it outside. There was no agenda in the next hour. She was free to read, walk, ask about breakfast or return to bed. The freedom was almost embarrassingly difficult to use."
+        },
+        {
+          "level": 2,
+          "text": "Ananya had built the trip with room to breathe: one guided walk, one afternoon exploring the area and no promise that every gap would be filled. That decision now seemed more radical than she had expected. Usually she measured a day by what had been accomplished. Here the first accomplishment was sitting still long enough to finish a cup of tea while it was warm."
+        },
+        {
+          "level": 2,
+          "text": "Below the verandah, Leela moved a watering can between pots. When she noticed Ananya awake, she waved but did not interrupt. The small courtesy mattered: an invitation to belong without a demand to participate."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "breakfast-without-small-talk",
+      "title": "A Breakfast Without Obligatory Conversation",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Breakfast came with an easy question: did Ananya prefer to eat outside? She said yes. Leela set the plate down, explained what it contained and told her where to find more water. Then she left. Ananya could have filled the silence with polite questions. Instead, she took a bite, watched a line of ants moving along the edge of a step and discovered that there was no penalty for being quiet."
+        },
+        {
+          "level": 2,
+          "text": "Later, when the dishes were cleared, she asked Leela about a flowering plant by the gate. The answer became a short conversation about how much rain the garden had received. It wasn't profound, and that was its gift. They had spoken because something interested her, not because a travel experience required a memorable exchange."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "cream",
+      "text": "Perhaps belonging begins when we are allowed to be ordinary in somebody else’s world."
+    },
+    {
+      "type": "text",
+      "id": "being-alone-being-unseen",
+      "eyebrow": "03 · THE QUIET SHIFT",
+      "eyebrowLevel": 1,
+      "title": "The Difference Between Being Alone and Being Unseen",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "On the second morning, Ananya walked towards a small public café near the main road. She chose a table where she could watch people coming and going. At first she felt conspicuous: one person, one cup, one chair. But the waiter took her order without curiosity, and the other customers continued discussing their own mornings. Her imagined spotlight went out."
+        },
+        {
+          "level": 2,
+          "text": "She realised how much of her unease came from expecting that being alone would need an explanation. People travelled in pairs or families; she was travelling alone. In a setting where nobody treated this as a problem, she stopped treating it as one too. She read three pages of her book and lost the thread because she was watching the steam curl from her cup. She didn't mind."
+        },
+        {
+          "level": 2,
+          "text": "When she returned, Leela asked how the tea had been. Ananya said, 'Very good. And I spent the whole time doing absolutely nothing.' Leela smiled. 'Then you must have been comfortable.' It was the first time Ananya thought that perhaps comfort was a kind of discovery."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "light",
+      "imageCols": 7,
+      "aspectRatio": "16:9",
+      "imagePosition": "left",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "eyebrow": "THE WIDER FRAME",
+      "title": "A Landscape That Didn’t Ask Her to Perform",
+      "image": "/images/home/forest-landscape.webp",
+      "imageAlt": "Editorial travel photograph used as a visual companion to this section",
+      "paragraphs": [
+        "She had imagined that solo travel required constant activity: hiking, exploring, meeting new people, collecting evidence that a person alone could be having an excellent time. The green hills offered another possibility. She could simply look.",
+        "A quiet day does not have to become a story of transformation. Sometimes it is a day in which a person eats well, walks carefully and returns with enough energy to notice the evening. For Ananya, that was starting to feel surprisingly abundant."
+      ],
+      "caption": "A wide landscape image retained in native 16:9 proportions."
+    },
+    {
+      "type": "text",
+      "id": "not-a-project-to-fix",
+      "title": "She Wasn’t a Project to Be Fixed",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Ananya had not come to solve a crisis. Her life at home held work she cared about, friends she loved and responsibilities she did not want to abandon. She was simply tired of feeling that every minute needed to be accounted for. The trip did not cure that habit. It gave her small chances to notice it, and sometimes to choose something else."
+        },
+        {
+          "level": 2,
+          "text": "This distinction matters in stories about travel. A new place is not a miracle treatment, and the people who live there are not characters hired to teach visitors a lesson. Ananya's hosts did not exist to transform her. They were living their own days. The sense of relief she felt came partly from learning how to be a respectful guest within that ordinary life."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "eyebrow": "PRACTICAL TRAVEL NOTE",
+      "title": "A Note on Travelling Alone",
+      "text": "A solo journey can be deeply rewarding without requiring a traveller to ignore practical care or personal boundaries.",
+      "unorderedList": {
+        "level": 2,
+        "title": "What to consider",
+        "items": [
+          "Share essential travel and accommodation details with someone you trust, if that suits your circumstances.",
+          "Choose reputable transport and lodging, and confirm current access and weather conditions.",
+          "Treat invitations as optional; you can be friendly and still prefer your own space.",
+          "Build time for rest instead of treating every empty hour as something to fill.",
+          "Pay attention to local guidance and do not enter private or restricted areas."
+        ]
+      }
+    },
+    {
+      "type": "horizontal-slider",
+      "eyebrow": "MIXED-ORIENTATION FILMSTRIP · NATIVE RATIOS",
+      "title": "A Journey Seen at Different Distances",
+      "sliderHeight": 440,
+      "innerRounding": true,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/home/solo-portrait.webp",
+          "alt": "Portrait-format editorial travel image",
+          "width": 600,
+          "height": 900,
+          "caption": "A portrait frame carries the feeling of a journey taken alone."
+        },
+        {
+          "src": "/images/home/journey-pc1.webp",
+          "alt": "Landscape-format editorial travel image",
+          "width": 1440,
+          "height": 960,
+          "caption": "The larger landscape gives that small moment context."
+        },
+        {
+          "src": "/images/itineraries/dummy2.webp",
+          "alt": "Portrait-format editorial travel image",
+          "width": 400,
+          "height": 600,
+          "caption": "The details of a day often arrive unexpectedly."
+        },
+        {
+          "src": "/images/journal/journal5.webp",
+          "alt": "Landscape-format editorial travel image",
+          "width": 600,
+          "height": 400,
+          "caption": "An ordinary pause can stay in memory."
+        },
+        {
+          "src": "/images/home/journey-mob.webp",
+          "alt": "Portrait-format editorial travel image",
+          "width": 960,
+          "height": 1440,
+          "caption": "A tall frame leaves room for a quieter perspective."
+        },
+        {
+          "src": "/images/home/solo-landscape.webp",
+          "alt": "Landscape-format editorial travel image",
+          "width": 1600,
+          "height": 900,
+          "caption": "The horizon remains open even when nothing is scheduled."
+        }
+      ],
+      "paragraph": "Each image keeps its original width-to-height relationship, mirroring the way attention shifts between the personal and the expansive."
+    },
+    {
+      "type": "text",
+      "id": "an-invitation-without-pressure",
+      "eyebrow": "04 · A SHARED MOMENT",
+      "eyebrowLevel": 1,
+      "title": "An Invitation Without Pressure",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "That afternoon Leela mentioned that she was preparing a few vegetables for dinner and asked whether Ananya wanted to see how a local dish was made. She offered the invitation the same way she had offered extra tea: without insistence. Ananya said yes, then asked whether she would be in the way. Leela laughed gently and showed her where to stand."
+        },
+        {
+          "level": 2,
+          "text": "They washed vegetables, talked about the difference between the vegetables Ananya bought at home and the ones used here, and shared the mild comedy of a knife that refused to cut cleanly. Ananya was not taught a secret recipe or given access to a private tradition. She was simply allowed to watch a small domestic task because her host had offered it. When it was time to finish cooking, Leela took over, and Ananya stepped back."
+        },
+        {
+          "level": 2,
+          "text": "Later she wrote down the names of two ingredients, then crossed out an ambitious paragraph about 'authentic village life'. That would have turned a kind gesture into a claim far larger than it deserved. The evening had been enough without making it stand for an entire community."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-talk-between-tasks",
+      "title": "The Talk Between Tasks",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The conversation came in fragments. Leela asked what work kept Ananya busy. Ananya tried to explain, realised it sounded more exhausting than impressive, and they both smiled. Leela spoke about her own routines, the unremarkable decisions that organised a household, and the way plans changed when the rain arrived earlier than expected. They did not compare entire lives. They found small corners where their experiences touched."
+        },
+        {
+          "level": 2,
+          "text": "There was no dramatic confession and no speech to remember word for word. There was just an hour in which Ananya listened without preparing her next response. When she returned to her room, she understood why the evening felt larger than it had been: it was a conversation with room around it."
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "ASYMMETRIC MASONRY · NATURAL PROPORTIONS",
+      "title": "Small Details, Wide Feelings",
+      "maxCols": 3,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/itineraries/dummy6.webp",
+          "alt": "Portrait-format editorial travel image",
+          "width": 400,
+          "height": 600,
+          "caption": "The story turns on gestures smaller than a destination."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Landscape-format editorial travel image",
+          "width": 600,
+          "height": 400,
+          "caption": "A shared table does not need to become a performance."
+        },
+        {
+          "src": "/images/home/solo-landscape.webp",
+          "alt": "Landscape-format editorial travel image",
+          "width": 1600,
+          "height": 900,
+          "caption": "The larger setting keeps its quiet presence."
+        },
+        {
+          "src": "/images/itineraries/dummy11.webp",
+          "alt": "Portrait-format editorial travel image",
+          "width": 400,
+          "height": 600,
+          "caption": "A portrait frame holds the slower pace of the afternoon."
+        },
+        {
+          "src": "/images/impact/impact5.webp",
+          "alt": "Landscape-format editorial travel image",
+          "width": 750,
+          "height": 500,
+          "caption": "Time together is also time offered by a host."
+        },
+        {
+          "src": "/images/home/forest-portrait.webp",
+          "alt": "Portrait-format editorial travel image",
+          "width": 600,
+          "height": 900,
+          "caption": "Solitude remains part of the journey even after connection."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "outside-the-postcard",
+      "eyebrow": "05 · A WALK AT HUMAN SPEED",
+      "eyebrowLevel": 1,
+      "title": "Outside the Postcard",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The following day, Ananya joined a short walk arranged through the guesthouse with a local guide. He explained where the public route went, which paths were not open to visitors and why the group would turn back if rain made the ground unsafe. There were no grand promises about hidden waterfalls or untouched wilderness. The modesty of the plan reassured her."
+        },
+        {
+          "level": 2,
+          "text": "They moved through a patchwork of open views and shaded stretches. The guide spoke when something needed explaining and allowed quiet when nothing did. Ananya asked fewer questions than she had expected. She was noticing a different sort of information: how carefully someone familiar with a place read the ground, how ordinary the hillside looked to people passing on their way to work, and how easy it would be to mistake that ordinariness for a lack of interest."
+        },
+        {
+          "level": 2,
+          "text": "At a clear viewpoint they stopped briefly. Ananya took one photograph and put the phone away. She had become less concerned with proving that she had been there, and more interested in actually being there."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "not-every-door-is-ours",
+      "title": "Not Every Door Is Ours to Open",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "On the way back they passed a side path that looked as though it might lead to an extraordinary view. Ananya asked about it. The guide said it crossed private land, so they stayed on the public route. She felt a moment of disappointment, followed almost immediately by embarrassment at the assumption beneath it: that a promising view was an invitation."
+        },
+        {
+          "level": 2,
+          "text": "The path they continued along was hardly less interesting. She noticed the texture of a stone wall, a narrow channel carrying recent rainwater, and the way the cloud shadow moved across the hillside. The small refusal had not diminished the walk. It had helped her understand that the place had boundaries independent of her curiosity."
+        }
+      ]
+    },
+    {
+      "type": "slider",
+      "eyebrow": "STANDARD SLIDER · FULL-SCREEN LIGHTBOX",
+      "title": "An Open Lightbox of Quiet Moments",
+      "width": 1600,
+      "height": 900,
+      "autoplay": false,
+      "interval": 5300,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/home/solo-landscape.webp",
+          "alt": "Editorial photograph of travel in Kerala",
+          "caption": "An expansive frame for the unhurried morning."
+        },
+        {
+          "src": "/images/itineraries/dummy3.webp",
+          "alt": "Editorial photograph of travel in Kerala",
+          "caption": "A portrait image for the details between destinations."
+        },
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Editorial photograph of travel in Kerala",
+          "caption": "A smaller observation deserves space of its own."
+        },
+        {
+          "src": "/images/home/forest-portrait.webp",
+          "alt": "Editorial photograph of travel in Kerala",
+          "caption": "The vertical shape of a forest-side pause."
+        },
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Editorial photograph of travel in Kerala",
+          "caption": "A landscape remembered without needing a grand conclusion."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-conversation-she-didnt-plan",
+      "eyebrow": "06 · CONNECTION WITHOUT A PERFORMANCE",
+      "eyebrowLevel": 1,
+      "title": "A Conversation Without a Grand Revelation",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "That evening Ananya spoke to Leela for a while after dinner. They discussed rain, missing buses, favourite foods and the inconvenience of finding a particular household item when one suddenly needed it. Nothing especially revealing happened. But the conversation was easy enough that they occasionally let a silence settle before beginning again."
+        },
+        {
+          "level": 2,
+          "text": "Ananya noticed that she wasn't trying to fill each pause with a performance of being an adventurous traveller. She was simply a guest telling another person about an ordinary life. The distance between them—different households, different routines, different experiences—remained real. It no longer felt like a problem to overcome."
+        },
+        {
+          "level": 2,
+          "text": "When she returned to her room, she did not say she had found a second home. That would have made too large a claim on a place she had known for only a few days. She wrote something smaller and truer: <span class='rt-dark-gold'>I felt welcome without having to become someone else.</span>"
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "mixed",
+      "text": "The beautiful surprise was not that the loneliness vanished.<br>It was that she no longer feared every quiet moment."
+    },
+    {
+      "type": "text",
+      "id": "enough-connection",
+      "eyebrow": "07 · THE TURNING POINT",
+      "eyebrowLevel": 1,
+      "title": "Enough Connection, Enough Space",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Her last full day began with a question she had never asked herself so plainly: <i>What would I like to do today if nobody were watching?</i> She considered another outing, then decided to stay close to the guesthouse. She read on the verandah, walked to the café, and spent the afternoon writing postcards that she might or might not send."
+        },
+        {
+          "level": 2,
+          "text": "She was not becoming a different person. She still checked her messages. She still wondered what her friends were doing. But the idea that a day alone was a day missing something had loosened. Solitude could hold meals, curiosity, kindness, boredom, rest and laughter. It did not have to be empty to be solitary."
+        },
+        {
+          "level": 2,
+          "text": "The trip was also teaching her that connection came in many sizes. It might be the care of someone explaining a route, a brief conversation over breakfast, or the quiet confidence of sitting among strangers without having to earn her place."
+        }
+      ]
+    },
+    {
+      "type": "highlights",
+      "theme": "cream",
+      "eyebrow": "CARRY THIS FORWARD",
+      "title": "What This Imagined Journey Leaves With Us",
+      "items": [
+        "Solitude can feel unfamiliar at first; that does not make it a mistake.",
+        "Being welcomed is different from being owed access to somebody’s life.",
+        "A meaningful encounter does not need to become a dramatic revelation.",
+        "A travel plan can support quiet days as intentionally as active ones.",
+        "Feeling at home for a moment is not the same as claiming a place as your own."
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "plan",
+      "title": "Let a Journey Make Room for You",
+      "text": "Explore a thoughtful India journey designed around your pace, interests and the kind of connection you hope to find.",
+      "ctaLabel": "PLAN YOUR JOURNEY",
+      "to": "/planyourjourney",
+      "eyebrow": "YOUR JOURNEY · YOUR RHYTHM"
+    },
+    {
+      "type": "text",
+      "id": "the-packing-of-small-things",
+      "eyebrow": "08 · DEPARTURE",
+      "eyebrowLevel": 1,
+      "title": "The Small Things She Chose to Pack",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "On the morning of departure, Ananya folded her clothes and found the notebook beneath a book she had barely finished. It held no spectacular discoveries: a sentence about a rainy morning, the name of a plant she had asked about, two ingredients from a kitchen conversation, and a sketch of the verandah railing that was not particularly accurate."
+        },
+        {
+          "level": 2,
+          "text": "She packed the notebook carefully. The objects she was taking home were ordinary; the shift in her attention was harder to describe. She was leaving with memories that belonged to nobody else's approval. There would be no dramatic final photograph of her standing triumphantly above a valley. She had taken a few pictures and allowed many moments to remain unrecorded."
+        },
+        {
+          "level": 2,
+          "text": "Before leaving, she thanked Leela for hosting her. She did not ask for an emotional farewell or insist that they had become family. Leela wished her a safe journey. It was an exchange simple enough to be sincere."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-journey-after-the-journey",
+      "title": "The Journey After the Journey",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "On the return train, the seat beside Ananya was occupied by someone who immediately fell asleep. She smiled at the symmetry. When she had left, an empty seat had made the journey feel unfamiliar. Now she was comfortable with an occupied seat that required nothing from her either. She watched the changing light across the windows and let the ride be what it was."
+        },
+        {
+          "level": 2,
+          "text": "She knew she would return to busy mornings, unanswered messages and plans that involved other people. She was glad of it. The trip had not taught her to reject company. It had taught her that she could choose company without using it as proof that she belonged."
+        },
+        {
+          "level": 2,
+          "text": "Somewhere between solitude and belonging, she had found a small, durable freedom: the ability to spend time in her own presence and still remain open to the world."
+        }
+      ]
+    },
+    {
+      "type": "horizontal-slider",
+      "eyebrow": "CLOSING FILMSTRIP · NATIVE ORIENTATIONS",
+      "title": "After the Last Goodbye",
+      "sliderHeight": 360,
+      "innerRounding": false,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/home/solo-portrait.webp",
+          "alt": "Portrait-format editorial travel image",
+          "width": 600,
+          "height": 900,
+          "caption": "A portrait suggests the scale of a private memory."
+        },
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Landscape-format editorial travel image",
+          "width": 600,
+          "height": 400,
+          "caption": "Ordinary moments continue beyond departure."
+        },
+        {
+          "src": "/images/home/journey-pc.webp",
+          "alt": "Landscape-format editorial travel image",
+          "width": 1440,
+          "height": 960,
+          "caption": "The road home is part of the story too."
+        },
+        {
+          "src": "/images/itineraries/dummy14.webp",
+          "alt": "Portrait-format editorial travel image",
+          "width": 400,
+          "height": 600,
+          "caption": "The details return to memory in their own time."
+        },
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Landscape-format editorial travel image",
+          "width": 1600,
+          "height": 900,
+          "caption": "The wider landscape remains long after the itinerary ends."
+        }
+      ],
+      "paragraph": "A final mixed-format image sequence, presented without captions so the journey can settle quietly."
+    },
+    {
+      "type": "text",
+      "id": "a-kind-of-belonging",
+      "eyebrow": "09 · WHAT SHE CARRIED HOME",
+      "eyebrowLevel": 1,
+      "title": "A Kind of Belonging That Does Not Need to Possess",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Ananya had come to Kerala alone. That fact was unchanged. What changed was the meaning she gave it. Alone did not have to mean disconnected; welcomed did not have to mean included in everything; and a memorable journey did not have to deliver a dramatic new identity. It could offer attention, ordinary hospitality and the chance to listen to herself."
+        },
+        {
+          "level": 2,
+          "text": "There is a tenderness in travel that does not ask a destination to repair us. It allows a place to be itself and lets us respond with curiosity. The journey may end with no grand revelation, only the quiet sense that we have become more comfortable in our own company—and a little more generous towards the worlds we enter."
+        }
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "itineraries",
+      "title": "Find a Journey With Room to Breathe",
+      "text": "Explore culturally immersive experiences that honour meaningful encounters, personal space and the joy of travelling at your own pace.",
+      "ctaLabel": "EXPLORE ITINERARIES",
+      "to": "/itineraries",
+      "eyebrow": "TRAVEL WITH INTENTION"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "contact"
+    },
+    {
+      "type": "author-profile",
+      "theme": "blue",
+      "eyebrow": "ABOUT THE JOURNEY DESIGNER",
+      "title": "Sree Jith",
+      "text": "Sree Jith designs culturally immersive travel experiences in India, inspired by people, places and stories. This imagined traveller narrative reflects the possibility of finding both quiet and connection through attentive travel; it does not portray an actual client testimonial.",
+      "image": "/images/testimonials/avatar.webp",
+      "imageAlt": "Profile avatar representing Sree Jith"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "id": "jrn-insight-015",
+    "slug": "seven-details-that-tell-the-story-of-a-place",
+    "layout": "listicle",
+    "category": "insights",
+    "type": "insights",
+    "subcategory": "research-and-perspectives",
+    "subcategoryLabel": "RESEARCH & PERSPECTIVES",
+    "contentTypeLabel": "VISUAL STORY",
+    "categoryLabel": "VISUAL STORY · RESEARCH & PERSPECTIVES",
+    "featured": true,
+    "title": "Seven Details That Tell the Story of a Place",
+    "excerpt": "A doorway, a patch of shade, a repaired wall: seven everyday clues that reveal how a place is lived in, not merely looked at.",
+    "headerQuote": "A place rarely tells its whole story through its monuments.",
+    "author": "Sree Jith",
+    "readTime": "2 MIN STORY",
+    "publishDate": "2026-11-12",
+    "tags": [
+      "#CULTURE",
+      "#OBSERVATION",
+      "#PLACEMAKING"
+    ],
+    "categories": [
+      "culture",
+      "offbeat"
+    ],
+    "topics": [
+      "#CULTURE",
+      "#OBSERVATION",
+      "#PLACEMAKING"
+    ],
+    "image": "/images/journal/journal1.webp",
+    "alt": "Landscape travel photograph introducing the everyday details of a lived-in place."
+  },
+  "listicle": {
+    "autoplayInterval": 5000,
+    "cover": {
+      "image": "/images/journal/journal1.webp",
+      "alt": "Landscape travel photograph introducing the everyday details of a lived-in place."
+    },
+    "slides": [
+      {
+        "eyebrow": "THRESHOLDS · WELCOME",
+        "title": "Begin at the Doorway",
+        "text": "A worn doorstep, shoes set aside, a curtain lifted for air. Thresholds show where private routines meet the life of the street.",
+        "image": "/images/itineraries/dummy1.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on doorways and the boundary between home and street."
+      },
+      {
+        "eyebrow": "CLIMATE · COMMON SPACE",
+        "title": "Notice Where Shade Falls",
+        "text": "A verandah or tree canopy is more than shelter. Watch who gathers there, and you begin to understand a place’s daily rhythm.",
+        "image": "/images/home/forest-portrait.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on shade as shared public space."
+      },
+      {
+        "eyebrow": "MATERIALS · MEMORY",
+        "title": "Read the Walls Closely",
+        "text": "Laterite, limewash, timber, fresh cement: materials carry histories of climate, available skills, changing budgets, and the choice to repair rather than replace.",
+        "image": "/images/itineraries/dummy2.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on buildings, materials, and traces of repair."
+      },
+      {
+        "eyebrow": "MARKETS · SEASONS",
+        "title": "Look at What Is in Season",
+        "text": "Market stalls offer a changing map of nearby farms, waters, and kitchens. What arrives in abundance often says more than a souvenir shelf.",
+        "image": "/images/itineraries/dummy3.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on seasonal produce and daily markets."
+      },
+      {
+        "eyebrow": "WATER · SETTLEMENT",
+        "title": "Follow the Water",
+        "text": "Wells, steps, canals, rain channels: water shapes where people build, gather, grow food, and find relief. Its route is part of the settlement’s design.",
+        "image": "/images/itineraries/dummy4.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on water sources and settlement design."
+      },
+      {
+        "eyebrow": "WORK · EVERYDAY SKILL",
+        "title": "See What Gets Repaired",
+        "text": "A stitched bag or mended chair reveals useful knowledge. Repair tells us what a community values enough to keep in circulation.",
+        "image": "/images/itineraries/dummy5.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on the everyday work of maintenance and repair."
+      },
+      {
+        "eyebrow": "PUBLIC LIFE · BELONGING",
+        "title": "Stay for the Ordinary Hour",
+        "text": "After the landmark crowds leave, a street keeps speaking through greetings, games, and evening errands. Observe gently; people are not exhibits.",
+        "image": "/images/itineraries/dummy6.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on unhurried everyday encounters in public spaces.",
+        "ctaLabel": "Explore Cultural Journeys",
+        "to": "/itineraries"
+      }
+    ]
+  }
+}

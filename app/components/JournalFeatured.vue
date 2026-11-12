@@ -14,7 +14,7 @@ const props = withDefaults(
   }>(),
   {
     showHeader: true,
-    eager: true,
+    eager: false,
     eyebrow: 'FEATURED DISPATCH',
     titleLine1: 'Stories worth slowing',
     titleLine2Cursive: 'Down for.'
@@ -197,7 +197,7 @@ const onKeyDown = (e: KeyboardEvent) => {
     :role="isInteractiveDeck ? 'region' : undefined"
     :aria-roledescription="isInteractiveDeck ? 'carousel' : undefined"
     :aria-label="isInteractiveDeck ? 'Featured journal stories' : undefined"
-    class="w-full max-w-5xl mx-auto flex flex-col items-center outline-none"
+    class="w-full max-w-7xl mx-auto flex flex-col items-center outline-none"
     @keydown="onKeyDown"
   >
     <!-- Zero-CLS Single-Cell Grid Deck (White-to-Whisper-Blue Gradient) -->

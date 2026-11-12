@@ -16,14 +16,14 @@ export interface TravelSeoOptions {
   ogImageAlt?: string
   /**
    * Schema archetype for the page:
-   * 'home' | 'about' | 'itineraries-index' | 'itinerary' | 'partner' | 'impact' | 'journal-index' | 'article' | 'plan' | 'contact' | 'faq' | 'legal' | 'webpage'
+   * 'home' | 'about' | 'itineraries-index' | 'itinerary' | 'network' | 'impact' | 'journal-index' | 'article' | 'plan' | 'contact' | 'faq' | 'legal' | 'webpage'
    */
   pageType?:
     | 'home'
     | 'about'
     | 'itineraries-index'
     | 'itinerary'
-    | 'partner'
+    | 'network'
     | 'impact'
     | 'journal-index'
     | 'article'
@@ -76,7 +76,7 @@ const SITELINK_NAV_ITEMS = [
   },
   {
     name: 'Partner With Us',
-    url: `${SITE_URL}/partner`,
+    url: `${SITE_URL}/network`,
     description:
       'Collaborate with Sree Jith Travel as an international travel partner, boutique agency, or regional specialist.'
   },

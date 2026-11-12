@@ -1,6 +1,6 @@
 {
   "meta": {
-    "id": "jrn-insight-01",
+    "id": "jrn-insight-001",
     "slug": "the-stories-that-live-beyond-the-map",
     "category": "insights",
     "type": "insights",
@@ -293,7 +293,7 @@
       "paragraphs": [
         {
           "level": 1,
-          "text": "Across forty rural guilds, our field collaborations connect thoughtful travellers and <a href='/partner' target='_self'>international travel partners</a> directly with master artisans—ensuring patronage sustains young apprentices rather than middlemen. Read our <span data-scroll-to='what-we-carry-home'>field etiquette guidelines below</span>."
+          "text": "Across forty rural guilds, our field collaborations connect thoughtful travellers and <a href='/network' target='_self'>international travel partners</a> directly with master artisans—ensuring patronage sustains young apprentices rather than middlemen. Read our <span data-scroll-to='what-we-carry-home'>field etiquette guidelines below</span>."
         }
       ]
     },

@@ -57,7 +57,7 @@ const BANNER_PRESETS: Record<JournalBannerType, BannerPresetConfig> = {
     title: 'Co-Create Meaningful Regional Journeys With Us',
     text: 'We partner with discerning travel designers, DMCs, and cultural institutions seeking grounded South India expertise.',
     ctaLabel: 'PARTNER WITH US',
-    to: '/partner',
+    to: '/network',
     surfaceClass:
       'banner-surface-partner border border-[#f7dfc2]/26 hover:border-[#f7dfc2]/50 shadow-sm hover:shadow-xl',
     eyebrowClass: 'text-[#f7dfc2]',

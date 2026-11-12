@@ -1,8 +1,14 @@
-<!-- ~/components/ItineraryListing.vue -->
+<!-- ~/app/components/ItineraryListing.vue -->
 <script setup lang="ts">
 import { ref, computed, nextTick } from 'vue'
 import ItineraryCard from '~/components/ItineraryCard.vue'
-import type { ItineraryMeta, ItineraryCategoryId, ItineraryType } from '~~/server/utils/itinerariesData'
+import TrapeziumTabBar, { type TrapeziumTabOption } from '~/components/TrapeziumTabBar.vue'
+import { useEditorialGlide } from '~/composables/useEditorialGlide'
+import type {
+  ItineraryMeta,
+  ItineraryCategoryId,
+  ItineraryType
+} from '~~/server/utils/itinerariesData'
 
 export type ItineraryTabFilter = 'signature' | 'collaborated' | 'categories'
 
@@ -26,7 +32,13 @@ const emit = defineEmits<{
   (e: 'clear-filters'): void
 }>()
 
-const tabsConfig: Array<{ id: ItineraryTabFilter; label: string }> = [
+const {
+  glidePageScrollTo,
+  lockPanelHeightBeforeLeave,
+  releasePanelHeightAfterEnter
+} = useEditorialGlide()
+
+const tabsConfig: TrapeziumTabOption[] = [
   { id: 'signature', label: 'SIGNATURE' },
   { id: 'collaborated', label: 'COLLABORATED' },
   { id: 'categories', label: 'CATEGORIES' }
@@ -95,7 +107,6 @@ const filteredItineraries = computed(() => {
     return props.items.filter((item) => item.type === 'collaborated')
   }
 
-  // CATEGORIES TAB: Includes Signature (1st), Collaborated (2nd), and Essential (3rd)
   const matching = props.items.filter((item) => {
     if (props.selectedCategories.length === 0) return true
     return props.selectedCategories.some((catId) => item.categories.includes(catId))
@@ -129,28 +140,17 @@ const activeTabDescription = computed(() => {
 })
 
 // =========================================================
-// PER-TAB SCROLL MEMORY (First View -> Top of Tab Content; Subsequent -> Saved ScrollY)
+// PER-TAB SCROLL MEMORY & SILK GLIDE
 // =========================================================
-const stickyTabsRef = ref<HTMLElement | null>(null)
+const tabBarRef = ref<InstanceType<typeof TrapeziumTabBar> | null>(null)
 const tabContentTopRef = ref<HTMLElement | null>(null)
 const savedTabScrollY = ref<Partial<Record<ItineraryTabFilter, number>>>({})
 
-const getTabContentTopScrollY = (): number => {
-  if (!import.meta.client || !tabContentTopRef.value) return 0
+const getTabContentTopScrollY = (): number =>
+  tabBarRef.value?.getAnchorTargetScrollY(tabContentTopRef.value) ?? 0
 
-  const stickyEl = stickyTabsRef.value
-  const stickyTopPx = stickyEl
-    ? Number.parseFloat(window.getComputedStyle(stickyEl).top) || 72
-    : 72
-  const stickyBarHeight = stickyEl ? stickyEl.offsetHeight : 60
-
-  const anchorAbsoluteTop =
-    tabContentTopRef.value.getBoundingClientRect().top + window.scrollY
-
-  return Math.max(0, anchorAbsoluteTop - stickyTopPx - stickyBarHeight - 12)
-}
-
-const handleTabSelect = async (nextTab: ItineraryTabFilter) => {
+const handleTabSelect = async (rawTabId: string) => {
+  const nextTab = rawTabId as ItineraryTabFilter
   if (!import.meta.client) {
     emit('update:activeTab', nextTab)
     return
@@ -158,23 +158,16 @@ const handleTabSelect = async (nextTab: ItineraryTabFilter) => {
 
   const currentTab = props.activeTab
 
-  // Clicking the already-active tab scrolls cleanly back to the top of its content
   if (nextTab === currentTab) {
-    const topY = getTabContentTopScrollY()
-    window.scrollTo({ top: topY, behavior: 'smooth' })
+    glidePageScrollTo(getTabContentTopScrollY())
     return
   }
 
-  // 1. Save current tab's exact scroll position BEFORE DOM height changes
   savedTabScrollY.value[currentTab] = window.scrollY
-
-  // 2. Check if target tab has been visited before
   const previousScrollForNextTab = savedTabScrollY.value[nextTab]
 
-  // 3. Switch active tab
   emit('update:activeTab', nextTab)
 
-  // 4. Wait for Vue to render the new tab's DOM before scrolling
   await nextTick()
   requestAnimationFrame(() => {
     const contentTopY = getTabContentTopScrollY()
@@ -183,10 +176,7 @@ const handleTabSelect = async (nextTab: ItineraryTabFilter) => {
         ? previousScrollForNextTab
         : contentTopY
 
-    window.scrollTo({
-      top: targetY,
-      behavior: 'smooth'
-    })
+    glidePageScrollTo(targetY)
   })
 }
 </script>
@@ -198,7 +188,6 @@ const handleTabSelect = async (nextTab: ItineraryTabFilter) => {
     class="section-wrapper overflow-x-clip! bg-bg-light text-primary-light"
   >
     <div class="w-full max-w-7xl flex flex-col items-center">
-      
       <!-- 1. Section Header -->
       <div class="relative w-full max-w-4xl flex flex-col items-center text-center mb-6 md:mb-8 px-4">
         <div class="eyebrow-wrapper">
@@ -209,7 +198,7 @@ const handleTabSelect = async (nextTab: ItineraryTabFilter) => {
           <div class="bg-dark-gold/70 eyebrow-border" />
         </div>
 
-        <h2 class="section-title-wrapper">
+        <h2 class="section-title-wrapper drop-shadow-none!">
           <span class="text-journey-deep section-title-sans">
             FIND YOUR JOURNEY
           </span>
@@ -219,166 +208,152 @@ const handleTabSelect = async (nextTab: ItineraryTabFilter) => {
         </h2>
       </div>
 
-      <!-- 2. Sticky Centered Curved Trapezium Tabs (Mobile & Desktop just under Header) -->
-      <div
-        ref="stickyTabsRef"
-        class="sticky top-16 sm:top-18 md:top-20 z-30 w-full bg-bg-light/95 backdrop-blur-md py-2.5 sm:py-3 mb-6 md:mb-8 flex justify-center"
-      >
-        <div
-          role="tablist"
-          aria-label="Journey Collection Tabs"
-          class="trapezium-tab-bar max-w-4xl mx-auto mb-0!"
-        >
-          <button
-            v-for="tab in tabsConfig"
-            :key="tab.id"
-            role="tab"
-            type="button"
-            :aria-selected="activeTab === tab.id"
-            @click="handleTabSelect(tab.id)"
-            class="trapezium-tab"
-            :class="activeTab === tab.id ? 'trapezium-tab-active' : ''"
-          >
-            <svg
-              v-if="activeTab === tab.id"
-              class="w-3.5 h-3.5 text-dark-gold shrink-0"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2.6"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              aria-hidden="true"
-            >
-              <polyline points="20 6 9 17 4 12" />
-            </svg>
-            <span>{{ tab.label }}</span>
-            <span v-if="activeTab === tab.id" class="trapezium-tab-indicator" />
-          </button>
-        </div>
-      </div>
+      <!-- 2. Unified Sticky Curved Trapezium Tabs -->
+      <TrapeziumTabBar
+        ref="tabBarRef"
+        :tabs="tabsConfig"
+        :active-tab="activeTab"
+        aria-label="Journey Collection Tabs"
+        max-width-class="max-w-4xl"
+        wrapper-class="mb-6 md:mb-8"
+        id-prefix="itinerary"
+        @select="handleTabSelect"
+      />
 
       <!-- Invisible Scroll Anchor Marking the Top of Tab Content -->
       <div ref="tabContentTopRef" class="w-full h-0" aria-hidden="true" />
 
-      <!-- 3A. Signature & Collaborated Intro Paragraph (Center-aligned hero-paragraph above Filter Readout Bar) -->
-      <div
-        v-if="activeTab === 'signature' || activeTab === 'collaborated'"
-        class="w-full max-w-4xl mx-auto flex justify-center text-center mb-8 md:mb-10 px-4"
-      >
-        <p
-          :key="`tab-desc-${activeTab}`"
-          v-motion-fade-up
-          class="hero-paragraph text-secondary-light/90 max-w-3xl"
+      <!-- 3. Active Tab Panel (Slow 380ms/740ms Glide + Zero-CLS Height Lock) -->
+      <div class="w-full">
+        <Transition
+          name="editorial-tab-panel"
+          mode="out-in"
+          @before-leave="lockPanelHeightBeforeLeave"
+          @after-enter="releasePanelHeightAfterEnter"
         >
-          {{ activeTabDescription }}
-        </p>
-      </div>
-
-      <!-- 3B. 6 Multi-Tinted Category Cards (Visible ONLY inside CATEGORIES tab) -->
-      <div
-        v-else-if="activeTab === 'categories'"
-        class="w-full max-w-4xl mx-auto flex flex-col items-center mb-8 md:mb-10"
-      >
-        <p class="section-subparagraph text-secondary-light mb-4">
-          Select one or more interests to filter routes
-        </p>
-
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 w-full">
-          <button
-            v-for="cat in categoryConfigs"
-            :key="cat.id"
-            type="button"
-            :aria-pressed="isCategorySelected(cat.id)"
-            @click="emit('toggle-category', cat.id)"
-            class="category-filter-card"
-            :class="isCategorySelected(cat.id) ? cat.cardSelectedClass : cat.cardUnselectedClass"
+          <div
+            :id="`itinerary-panel-${activeTab}`"
+            :key="activeTab"
+            role="tabpanel"
+            :aria-labelledby="`itinerary-tab-${activeTab}`"
+            class="w-full flex flex-col items-center"
           >
-            <span
-              class="category-checkbox-box"
-              :class="
-                isCategorySelected(cat.id)
-                  ? cat.checkboxSelectedClass
-                  : 'bg-surface-light/80 border-journey-deep/30 text-transparent'
-              "
+            <!-- 3A. Signature & Collaborated Intro Paragraph -->
+            <div
+              v-if="activeTab === 'signature' || activeTab === 'collaborated'"
+              class="w-full max-w-4xl mx-auto flex justify-center text-center mb-8 md:mb-10 px-4"
             >
-              <svg
-                class="w-3.5 h-3.5 stroke-current"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke-width="3"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                aria-hidden="true"
+              <p class="hero-paragraph text-secondary-light/90 max-w-3xl">
+                {{ activeTabDescription }}
+              </p>
+            </div>
+
+            <!-- 3B. 6 Multi-Tinted Category Cards (Visible ONLY inside CATEGORIES tab) -->
+            <div
+              v-else-if="activeTab === 'categories'"
+              class="w-full max-w-4xl mx-auto flex flex-col items-center mb-8 md:mb-10"
+            >
+              <p class="section-subparagraph text-secondary-light mb-4">
+                Select one or more interests to filter routes
+              </p>
+
+              <div class="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 w-full">
+                <button
+                  v-for="cat in categoryConfigs"
+                  :key="cat.id"
+                  type="button"
+                  :aria-pressed="isCategorySelected(cat.id)"
+                  class="category-filter-card"
+                  :class="isCategorySelected(cat.id) ? cat.cardSelectedClass : cat.cardUnselectedClass"
+                  @click="emit('toggle-category', cat.id)"
+                >
+                  <span
+                    class="category-checkbox-box"
+                    :class="
+                      isCategorySelected(cat.id)
+                        ? cat.checkboxSelectedClass
+                        : 'bg-surface-light/80 border-journey-deep/30 text-transparent'
+                    "
+                  >
+                    <svg
+                      class="w-3.5 h-3.5 stroke-current"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </span>
+
+                  <span class="section-subparagraph font-medium text-journey-deep leading-snug">
+                    {{ cat.label }}
+                  </span>
+                </button>
+              </div>
+            </div>
+
+            <!-- 4. Live Filter Readout Bar -->
+            <div class="filter-readout-bar">
+              <div class="flex flex-wrap items-center gap-2 text-left">
+                <span class="section-subparagraph font-semibold text-journey-deep">
+                  {{ filteredItineraries.length }} {{ activeTabTitle }}
+                </span>
+
+                <template v-if="activeTab === 'categories' && selectedCategoryNames.length > 0">
+                  <span class="text-journey-deep/35">·</span>
+                  <span class="section-subparagraph text-dark-gold font-medium">
+                    {{ selectedCategoryNames.join(', ') }}
+                  </span>
+                </template>
+              </div>
+
+              <button
+                v-if="activeTab === 'categories' && selectedCategories.length > 0"
+                type="button"
+                class="section-subparagraph text-journey-deep/80 underline underline-offset-4 hover:text-intention-blue active:text-intention-blue font-medium transition-colors cursor-pointer"
+                @click="emit('clear-filters')"
               >
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-            </span>
+                Clear filters
+              </button>
+            </div>
 
-            <span class="section-subparagraph font-medium text-journey-deep leading-snug">
-              {{ cat.label }}
-            </span>
-          </button>
-        </div>
+            <!-- 5. 3-Column Equal-Height Itinerary Card Grid -->
+            <div
+              v-if="filteredItineraries.length > 0"
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-full max-w-md mx-auto md:max-w-3xl lg:max-w-full items-stretch"
+            >
+              <ItineraryCard
+                v-for="item in filteredItineraries"
+                :key="item.id"
+                :item="item"
+              />
+            </div>
+
+            <!-- Empty State -->
+            <div
+              v-else
+              class="w-full py-16 px-6 rounded-2xl bg-surface-light border border-journey-deep/10 flex flex-col items-center text-center"
+            >
+              <p class="section-subtitle text-journey-deep mb-2">
+                No journeys match this exact selection.
+              </p>
+              <p class="section-paragraph text-secondary-light mb-6">
+                Try clearing one of your selected categories.
+              </p>
+              <button
+                type="button"
+                class="px-6 py-3 rounded-sm border-2 border-journey-deep text-journey-deep font-uppercase text-[11px] tracking-[0.2em] uppercase hover:bg-intention-blue hover:border-intention-blue hover:text-surface-light active:bg-intention-blue active:text-surface-light transition-all cursor-pointer"
+                @click="emit('clear-filters')"
+              >
+                Clear Category Filters
+              </button>
+            </div>
+          </div>
+        </Transition>
       </div>
-
-      <!-- 4. Live Filter Readout Bar -->
-      <div class="filter-readout-bar">
-        <div class="flex flex-wrap items-center gap-2 text-left">
-          <span class="section-subparagraph font-semibold text-journey-deep">
-            {{ filteredItineraries.length }} {{ activeTabTitle }}
-          </span>
-
-          <template v-if="activeTab === 'categories' && selectedCategoryNames.length > 0">
-            <span class="text-journey-deep/35">·</span>
-            <span class="section-subparagraph text-dark-gold font-medium">
-              {{ selectedCategoryNames.join(', ') }}
-            </span>
-          </template>
-        </div>
-
-        <button
-          v-if="activeTab === 'categories' && selectedCategories.length > 0"
-          type="button"
-          @click="emit('clear-filters')"
-          class="section-subparagraph text-journey-deep/80 underline underline-offset-4 hover:text-intention-blue active:text-intention-blue font-medium transition-colors cursor-pointer"
-        >
-          Clear filters
-        </button>
-      </div>
-
-      <!-- 5. 3-Column Equal-Height Itinerary Card Grid -->
-      <div
-        v-if="filteredItineraries.length > 0"
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-full max-w-xs xs:max-w-sm md:max-w-3xl lg:max-w-full items-center"
-      >
-        <ItineraryCard
-          v-for="item in filteredItineraries"
-          :key="item.id"
-          :item="item"
-        />
-      </div>
-
-      <!-- Empty State -->
-      <div
-        v-else
-        class="w-full py-16 px-6 rounded-2xl bg-surface-light border border-journey-deep/10 flex flex-col items-center text-center"
-      >
-        <p class="section-subtitle text-journey-deep mb-2">
-          No journeys match this exact selection.
-        </p>
-        <p class="section-paragraph text-secondary-light mb-6">
-          Try clearing one of your selected categories.
-        </p>
-        <button
-          type="button"
-          @click="emit('clear-filters')"
-          class="px-6 py-3 rounded-sm border-2 border-journey-deep text-journey-deep font-uppercase text-[11px] tracking-[0.2em] uppercase hover:bg-intention-blue hover:border-intention-blue hover:text-surface-light active:bg-intention-blue active:text-surface-light transition-all cursor-pointer"
-        >
-          Clear Category Filters
-        </button>
-      </div>
-
     </div>
   </section>
 </template>

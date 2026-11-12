@@ -1,4 +1,4 @@
-<!-- ~/components/HomeJournal.vue -->
+<!-- ~/app/components/HomeJournal.vue -->
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useAsyncData } from '#imports'
@@ -50,13 +50,11 @@ const { data: homeJournal } = await useAsyncData<HomeFeaturedJournalResponse>(
   }
 )
 
-// Strictly 0 or 1 item -> JournalFeatured automatically renders as a static single card
 const featuredPosts = computed<JournalPost[]>(() => {
   if (!homeJournal.value?.featured) return []
   return [homeJournal.value.featured as unknown as JournalPost]
 })
 
-// Strictly 0 to 3 items
 const listingPosts = computed<JournalPost[]>(() => {
   return (homeJournal.value?.listing || []).slice(0, 3) as unknown as JournalPost[]
 })
@@ -65,11 +63,11 @@ const listingPosts = computed<JournalPost[]>(() => {
 <template>
   <section
     data-theme="light"
-    class="text-primary-light overflow-hidden section-wrapper"
+    class="section-wrapper overflow-x-clip bg-bg-light text-primary-light"
   >
     <div class="relative z-10 w-full max-w-7xl flex flex-col items-center">
       <!-- 1. HEADER -->
-      <div class="relative w-full max-w-4xl flex flex-col items-center text-center mb-8 md:mb-12 px-4">
+      <div class="relative w-full max-w-4xl flex flex-col items-center text-center mb-8 md:mb-12">
         <div v-motion-fade-up class="eyebrow-wrapper">
           <div class="bg-dark-gold/70 eyebrow-border" />
           <h2 class="text-journey-deep/95 eyebrow-text">
@@ -80,8 +78,8 @@ const listingPosts = computed<JournalPost[]>(() => {
 
         <h2
           v-motion-fade-up
-          :delay="100"
-          class="section-title-wrapper"
+          :delay="90"
+          class="section-title-wrapper drop-shadow-none!"
         >
           <span class="text-journey-deep section-title-sans">
             {{ data.titleLine1 }}
@@ -93,8 +91,8 @@ const listingPosts = computed<JournalPost[]>(() => {
 
         <p
           v-motion-fade-up
-          :delay="200"
-          class="text-journey-deep/90 max-w-3xl section-paragraph"
+          :delay="170"
+          class="text-secondary-light max-w-3xl section-paragraph"
         >
           {{ data.description }}
         </p>
@@ -103,9 +101,9 @@ const listingPosts = computed<JournalPost[]>(() => {
       <!-- 2. TOP ROW: ADAPTIVE SINGLE FEATURED JOURNAL CARD -->
       <div
         v-if="featuredPosts.length > 0"
-        v-motion-fade-up
-        :delay="250"
-        class="w-full px-4 sm:px-6 md:px-8 xl:px-0 mb-8 md:mb-10"
+        v-motion-editorial-showcase
+        :delay="180"
+        class="w-full mb-8 md:mb-10"
       >
         <JournalFeatured
           :items="featuredPosts"
@@ -114,17 +112,17 @@ const listingPosts = computed<JournalPost[]>(() => {
         />
       </div>
 
-      <!-- 3. BOTTOM ROW: 0 TO 3 LISTING CARDS -->
+      <!-- 3. BOTTOM ROW: SELF-CENTERED FLEX-WRAP CARDS (0 TO 3 ITEMS) -->
       <div
         v-if="listingPosts.length > 0"
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-full mt-6 px-4 sm:px-6 md:px-8 xl:px-0 items-stretch"
+        class="home-journal-flex mt-2"
       >
         <div
           v-for="(post, idx) in listingPosts"
           :key="post.id"
-          v-motion-fade-up
-          :delay="300 + idx * 60"
-          class="flex w-full"
+          v-motion-atelier-card
+          :delay="140 + idx * 85"
+          class="home-journal-slot"
         >
           <JournalCard :post="post" />
         </div>
@@ -143,8 +141,8 @@ const listingPosts = computed<JournalPost[]>(() => {
       <!-- 5. BOTTOM CENTERED CTA BUTTON -->
       <div
         v-motion-fade-up
-        :delay="100"
-        class="flex justify-center w-full will-change-transform"
+        :delay="90"
+        class="flex justify-center w-full"
       >
         <CtaButton
           :to="data.bottomCta.to"

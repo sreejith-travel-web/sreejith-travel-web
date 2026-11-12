@@ -1,0 +1,433 @@
+{
+  "meta": {
+    "id": "jrn-story-008",
+    "slug": "the-journey-that-began-after-we-stopped-rushing",
+    "category": "stories",
+    "type": "stories",
+    "subcategory": "journey-stories",
+    "subcategoryLabel": "JOURNEY STORIES",
+    "contentTypeLabel": "STORY",
+    "categoryLabel": "STORY · JOURNEY STORIES",
+    "featured": false,
+    "title": "The Journey That Began After We Stopped Rushing",
+    "excerpt": "Two travellers arrive in Kerala determined to see everything. A rainy morning and an unscheduled cup of tea teach them what they had forgotten to leave room for.",
+    "headerQuote": "The most important part of the journey began when the timetable ended.",
+    "author": "Sree Jith",
+    "readTime": "18 MIN READ",
+    "publishDate": "2026-11-11",
+    "tags": [
+      "#JOURNEYSTORIES",
+      "#SLOWTRAVEL",
+      "#KERALA"
+    ],
+    "categories": [
+      "offbeat",
+      "nature",
+      "bespoke"
+    ],
+    "topics": [
+      "#JOURNEYSTORIES",
+      "#SLOWTRAVEL",
+      "#KERALA",
+      "#THOUGHTFULTRAVEL",
+      "#TRAVELREFLECTIONS"
+    ],
+    "image": "/images/home/forest-landscape.webp",
+    "alt": "Landscape travel photograph selected as an editorial cover for The Journey That Began After We Stopped Rushing"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "the-list-on-the-seat",
+      "title": "The List on the Passenger Seat",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "By the time they reached the first bend in the hill road, the list had slipped from the dashboard to the passenger seat. Ira caught it before it fell into the footwell. Two pages, printed in colour, held down by a pen and a packet of biscuits. The first page began at 6:15 a.m. and ended at 9:40 p.m. The second was headed OPTIONAL, although both of them knew the options had already become obligations."
+        },
+        "Neel was driving with the careful attention of someone who wanted to enjoy the scenery and did not know how to stop checking the navigation. Every few minutes, the blue route shifted on the screen. Ira read aloud the names of viewpoints, cafés, gardens, and trails, marking off those that might still be possible before sunset. She had spent weeks building the itinerary. There had been a spreadsheet, a shared map, dozens of saved photographs, and the confident belief that planning well meant leaving nothing out.",
+        "They were travelling through a fictionalised stretch of Kerala’s hill country, on a journey they had promised each other after a long year of postponed weekends. It was meant to be time together. Instead, every approaching junction felt like an examination: take the right turn and they might gain a waterfall; take the left and the lookout would be lost. The mountains were already visible through the window. Somehow the two travellers had not looked at them for more than a few seconds."
+      ],
+      "eyebrow": "CHAPTER I · A FICTIONAL JOURNEY"
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "eyebrow": "EDITORIAL TRANSPARENCY",
+      "title": "About This Story",
+      "text": "Ira, Neel, their dialogue, guesthouse, and encounters are fictional. The journey is an illustrative narrative set amid the general atmosphere of Kerala’s hill country, not an account of a real traveller, route, or booking. The editorial photographs below are mood images from the site’s existing asset library, not records of these characters."
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "text": "They had planned every hour except the hour in which they might simply arrive.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "From this fictional journey",
+      "theme": "cream"
+    },
+    {
+      "type": "text",
+      "id": "the-work-of-having-a-good-time",
+      "title": "The Work of Having a Good Time",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "The first day had looked perfect on paper. They reached the morning stop, took photographs, and departed while the light was still good. At lunch, Neel asked whether they could stay for another cup of tea. Ira glanced at the clock. “After the next place,” she said. He nodded, but the promised cup of tea slowly moved down the day, always just beyond the next activity.",
+        "By evening they had visited almost everything they meant to. They could describe the road conditions, which parking areas were crowded, and the places where their phone signal dropped. They could not remember what the air had smelled like at breakfast. Ira realised they had been talking mostly about departure times. At dinner, Neel asked which moment she had liked best. She began to answer, then found herself explaining which stop had taken the longest.",
+        "It was not an argument. Neither blamed the other. Their trip had acquired an odd efficiency, and both had helped build it. Ira felt responsible because the research had been hers. Neel kept agreeing because he knew how much effort she had put into every detail. The silence between them was less anger than exhaustion, sharpened by the suspicion that they were getting good at something neither had actually wanted to do."
+      ],
+      "eyebrow": "CHAPTER II · TOO MUCH TO SEE"
+    },
+    {
+      "type": "image-split",
+      "theme": "blue",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "title": "An Entire Landscape, Measured in Minutes",
+      "image": "/images/home/journey-pc1.webp",
+      "imageAlt": "Editorial photograph accompanying the article’s reflection on an entire landscape, measured in minutes",
+      "paragraphs": [
+        "The view kept changing beyond the vehicle window: trees leaning over the road, a hillside dissolving into cloud, the quick shine of water beside a turn. Ira noticed these details in fragments between reading directions. She had imagined the journey as a sequence of destinations; the road between them had been treated as empty time.",
+        "There was nothing wrong with wanting to see beautiful places. The problem was the assumption that every view needed a named stop and every stop a result. A journey could be full of experiences and still feel strangely uninhabited."
+      ],
+      "eyebrow": "BETWEEN ONE STOP AND THE NEXT",
+      "caption": "Landscape photography used to suggest the movement and changing light of the imagined journey."
+    },
+    {
+      "type": "text",
+      "id": "the-morning-the-weather-changed",
+      "title": "The Morning the Weather Changed",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "On the second morning, rain arrived without ceremony. Not a dramatic storm, just a patient, steady sheet that settled on the leaves outside their guesthouse. Neel stood near the door holding two cups of tea. Ira opened the itinerary on her phone. Their first stop depended on an early start. The second would be slippery if the weather continued. The third required a long drive to make the afternoon slot.",
+        "“We can still do some of it,” she said. “We’ll just have to move things around.” Neel looked at the rain for a moment before replying. “I think I’ve spent more time looking at the route than looking at this place.” Ira wanted to protest. The road had been beautiful. The places had been beautiful. He had said so himself. But he had not criticised the scenery. He had named the feeling she had been trying not to admit.",
+        "She closed the calendar, then reopened it. A coloured grid filled the screen, every hour occupied. She was suddenly embarrassed by how quickly a holiday could begin to resemble work. “I thought if I planned it properly,” she said, “we wouldn’t miss anything.” Neel moved one of the cups toward her. “Maybe we’re missing the part between things.” They stood together in the doorway, not yet prepared to do something as radical as change their minds."
+      ],
+      "eyebrow": "CHAPTER III · A SMALL INTERRUPTION"
+    },
+    {
+      "type": "horizontal-slider",
+      "eyebrow": "FILMSTRIP · THE ROAD BETWEEN STOPS",
+      "title": "When the View Is Not a Destination",
+      "sliderHeight": 410,
+      "innerRounding": true,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/home/journey-mob.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of a route can be beautiful even when no stop is planned.",
+          "width": 960,
+          "height": 1440,
+          "caption": "A route can be beautiful even when no stop is planned."
+        },
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of some mornings ask for a different pace.",
+          "width": 1600,
+          "height": 900,
+          "caption": "Some mornings ask for a different pace."
+        },
+        {
+          "src": "/images/itineraries/dummy7.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of a moment does not need a name to stay with us.",
+          "width": 400,
+          "height": 600,
+          "caption": "A moment does not need a name to stay with us."
+        },
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of the landscape remains while the schedule changes.",
+          "width": 600,
+          "height": 400,
+          "caption": "The landscape remains while the schedule changes."
+        },
+        {
+          "src": "/images/home/solo-portrait.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of the smallest details are often the ones we remember.",
+          "width": 600,
+          "height": 900,
+          "caption": "The smallest details are often the ones we remember."
+        }
+      ],
+      "paragraph": "Atmospheric travel images, used as visual accompaniment to a fictional story rather than evidence of a particular route."
+    },
+    {
+      "type": "text",
+      "id": "the-courage-to-leave-a-blank",
+      "title": "The Courage to Leave a Blank",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Ira pulled a notebook out of her bag. On one page she had copied the addresses of places they might visit. On another, she had written reminders about opening hours, tickets, and the things that closed early. Neel expected her to begin rearranging the plan. Instead, she drew a line through the afternoon and wrote two words in the newly empty space: <strong>Nothing scheduled.</strong>",
+        "“That makes me nervous,” she admitted. Neel laughed—not at her, but in recognition. “It makes me nervous too.” Neither wanted to spend the day scrolling through their phones or drifting in boredom. They simply wanted to discover whether travelling could feel different when the next hour did not already belong to the one after it.",
+        "They called the guesthouse desk and asked whether a short walk nearby would be suitable once the rain eased. The answer was a simple suggestion: wait for the weather to settle, keep to the public lane, and take care on wet ground. No secret trail was offered; no extraordinary encounter was promised. The ordinariness of the advice was oddly comforting. For the first time in two days, they were not trying to optimise a recommendation. They were allowing a sensible suggestion to remain small."
+      ],
+      "eyebrow": "CHAPTER IV · A DELIBERATE NO"
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 5,
+      "aspectRatio": "2:3",
+      "imagePosition": "left",
+      "mobileOrder": "text-first",
+      "verticalAlign": "top",
+      "title": "A Plan Can Be Useful Without Becoming the Boss",
+      "image": "/images/home/journey-mob1.webp",
+      "imageAlt": "Editorial photograph accompanying the article’s reflection on a plan can be useful without becoming the boss",
+      "paragraphs": [
+        "Ira had worked hard to make their trip possible. Cancelling part of the schedule felt, at first, like erasing that effort. Then she saw what planning had already given them: a safe place to stay, realistic travel arrangements, a basic understanding of the region, and useful options if the weather changed. The plan had succeeded. It simply did not have to dictate every moment.",
+        "A good itinerary can hold both structure and space. There are commitments worth keeping—reservations, local hosts’ time, access rules, and safety considerations. Around those commitments, freedom can become a design decision rather than an accident."
+      ],
+      "eyebrow": "THE USEFUL PART OF PLANNING",
+      "caption": "Portrait editorial travel image evoking the pause that changes the fictional itinerary."
+    },
+    {
+      "type": "text",
+      "id": "eleven-forty-and-no-next-stop",
+      "title": "Eleven Forty, and No Next Stop",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "The rain softened by late morning. They walked to a small tea shop on the public road, a place with a few tables, a counter, and a roof that held the damp air beneath it. There was no dramatic discovery. A radio played quietly somewhere behind the counter. Two people talked about an ordinary problem in a language the visitors understood only in fragments. A customer paid for a parcel and left. Outside, water slid from a leaf and struck the ground in a tiny repeated rhythm.",
+        "Neel ordered tea. Ira asked for something warm to eat. They sat by the window, watching the road come back to life. No one approached them to deliver a lesson about local culture. The shop was simply doing its work. Neel began talking about an old family trip, one that had gone wrong when a bus broke down. He remembered almost nothing about the destination, he said, but could still picture everyone sharing biscuits while they waited. Ira confessed that her favourite childhood journey had ended with an hour spent looking for a lost sandal.",
+        "They laughed, and then kept talking. Not the practical conversations that had filled the last two days—where to park, whether the entrance would close, how long to drive—but the kind that only happened when neither person was listening for the next reminder. At 11:40, Ira glanced at the clock and felt a moment of alarm. Then she realised there was nowhere they were late to be."
+      ],
+      "eyebrow": "CHAPTER V · TIME RETURNS"
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "text": "The tea tasted ordinary. The hour around it felt unexpectedly generous.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "From the imagined afternoon",
+      "theme": "blue"
+    },
+    {
+      "type": "text",
+      "id": "learning-the-shape-of-a-slower-day",
+      "title": "Learning the Shape of a Slower Day",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "They walked back by the same road. Neel paused to photograph the pattern of rain on a wall, carefully framing the image without including anyone who had not agreed to be photographed. Ira stood under a tree while a brief shower passed. Neither moment would appear on a list of essential experiences. Both were easy to remember because they had been allowed to last.",
+        "Back at the guesthouse, they spent the afternoon reading and talking. At one point they considered visiting a nearby public viewpoint if conditions improved. They checked the weather and road information, decided it was not worth making a rushed trip in uncertain conditions, and returned to their books. There was no grand transformation in this decision. They were simply paying attention to what the day required rather than asking the day to obey them.",
+        "Ira discovered that doing less did not automatically mean feeling more. Some of the afternoon was awkward. Neel grew restless. She reached for her phone several times, almost opening the list out of habit. Slowness was not a magical cure for every discomfort. It was a different kind of practice—one in which they could notice the urge to fill a silence and choose, occasionally, not to."
+      ],
+      "eyebrow": "CHAPTER VI · THE UNPHOTOGRAPHED HOURS"
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "QUIET GALLERY · THE SPACE BETWEEN EVENTS",
+      "title": "Four Frames for an Unhurried Afternoon",
+      "maxCols": 2,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of the world does not pause to become a perfect itinerary.",
+          "width": 600,
+          "height": 400,
+          "caption": "The world does not pause to become a perfect itinerary."
+        },
+        {
+          "src": "/images/impact/impact3.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of the light shifts even when we stay still.",
+          "width": 750,
+          "height": 500,
+          "caption": "The light shifts even when we stay still."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of an ordinary view can become an anchor for memory.",
+          "width": 600,
+          "height": 400,
+          "caption": "An ordinary view can become an anchor for memory."
+        },
+        {
+          "src": "/images/impact/impact6.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of a quiet moment deserves its own scale.",
+          "width": 750,
+          "height": 500,
+          "caption": "A quiet moment deserves its own scale."
+        }
+      ],
+      "text": "Illustrative landscape photography accompanying the mood of the fictional afternoon; not a record of Ira or Neel’s journey."
+    },
+    {
+      "type": "text",
+      "id": "two-people-in-the-same-place",
+      "title": "Two People, Finally in the Same Place",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "That evening, Neel mentioned something Ira had not known. For weeks before the trip he had been tired in a way he found difficult to explain. He had looked forward to getting away, then felt guilty when he could not match her excitement. He thought she would be disappointed if they skipped even one of the places she had carefully chosen.",
+        "Ira listened with her feet folded beneath her on the chair. She said she had been afraid of disappointing him too. The itinerary had become proof that she cared, proof that the trip would be worthwhile. If they returned home without seeing everything, she thought, he might remember it as wasted time. They had both confused effort with affection, though neither had meant to. The conversation did not solve every difference between them. But it made a simple future question possible: what kind of day did each of them actually want?",
+        "“I still want to see some places,” Ira said. “Of course,” Neel replied. “So do I.” They looked at the remaining list and chose one experience for the following morning, leaving enough time to reach it comfortably and enough space afterwards to change their minds. They were not rejecting discovery. They were giving it room to happen."
+      ],
+      "eyebrow": "CHAPTER VII · THE OTHER PERSON"
+    },
+    {
+      "type": "image-split",
+      "theme": "light",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "title": "Enough Space for the Conversation",
+      "image": "/images/journal/journal5.webp",
+      "imageAlt": "Editorial photograph accompanying the article’s reflection on enough space for the conversation",
+      "paragraphs": [
+        "Often the most meaningful thing about travelling together is not a landscape but a conversation that daily life has postponed. The conversation cannot be booked into existence. It requires a little openness, sometimes a little boredom, and the feeling that neither person needs to keep performing enjoyment.",
+        "The trip had not changed the travellers’ personalities. Ira still liked lists. Neel still appreciated decisions made in advance. What shifted was the idea that their preferences needed to be concealed from each other for the holiday to succeed."
+      ],
+      "eyebrow": "AN INTIMATE TURNING POINT",
+      "caption": "Landscape editorial imagery used as a quiet pause between scenes."
+    },
+    {
+      "type": "text",
+      "id": "the-next-morning-was-not-perfect",
+      "title": "The Next Morning Was Not Perfect",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "They left after breakfast, much later than the original plan would have permitted. The light was soft, and the road was quiet for a while. Then traffic slowed near a bend. A patch of cloud covered the hills just as they reached the place they had chosen to visit. Neel looked disappointed. Ira felt the familiar impulse to salvage the morning by proposing another stop, another drive, another possibility.",
+        "Instead, they stayed where visitors were permitted to stand and watched the cloud move. They had checked that the place was open and the conditions were safe before setting out. There was no reason to force a better view out of a landscape that was offering something different. When the hills appeared briefly through the mist, they looked without racing for their phones. The moment was small, and it passed.",
+        "Later they did take a photograph, then another. They went back to the vehicle without having conquered an itinerary. At lunch, Ira smiled and said, “That was a terrible view, technically.” Neel considered this. “I liked it.” She did too. Not because disappointment had secretly been a gift, but because disappointment had ceased to threaten the whole journey."
+      ],
+      "eyebrow": "CHAPTER VIII · WEATHER WITHOUT AN AGENDA"
+    },
+    {
+      "type": "slider",
+      "eyebrow": "SCENIC INTERLUDE · LEAVING ROOM",
+      "title": "Landscapes Without a Deadline",
+      "width": 1200,
+      "height": 800,
+      "autoplay": false,
+      "interval": 5000,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Editorial landscape photograph serving as a visual reflection on a ridge does not owe us clear weather.",
+          "caption": "A ridge does not owe us clear weather."
+        },
+        {
+          "src": "/images/home/solo-landscape.webp",
+          "alt": "Editorial landscape photograph serving as a visual reflection on a wide landscape can hold a very quiet moment.",
+          "caption": "A wide landscape can hold a very quiet moment."
+        },
+        {
+          "src": "/images/home/journey-pc.webp",
+          "alt": "Editorial landscape photograph serving as a visual reflection on the spaces between stops belong to the journey.",
+          "caption": "The spaces between stops belong to the journey."
+        },
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Editorial landscape photograph serving as a visual reflection on the day can be memorable without being complete.",
+          "caption": "The day can be memorable without being complete."
+        }
+      ],
+      "text": "Atmospheric landscape images from the approved library; no visual claim that these are the exact locations in the fictional story."
+    },
+    {
+      "type": "text",
+      "id": "the-places-they-didnt-go",
+      "title": "The Places They Didn’t Go",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "By the final evening, the list was full of crossed-out names. Some had been impossible because of weather; others they had simply chosen not to visit. A year earlier, Ira might have turned the gaps into regrets before they even reached home. Now she studied the blank spaces and could remember what had filled them: a long conversation, a second cup of tea, the view of a wet wall, the unexpected freedom of waking without a demanding alarm.",
+        "She did not decide that all sightseeing was superficial or that meticulous planning was a mistake. Several planned experiences had been wonderful. Their problem had been a quiet belief that worth could be counted by the number of things completed. A good journey needed design, but it also needed flexibility, and the good judgement to honour the people and conditions that made the design possible.",
+        "Neel folded the list and put it into the pocket of his bag. “You can throw that away,” Ira said. He shook his head. “I want to keep it.” She thought he was teasing. “Why?” “Because we can see where we changed our minds.” She laughed, then asked him to leave it where she could find it later."
+      ],
+      "eyebrow": "CHAPTER IX · THE UNVISITED MAP"
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "eyebrow": "AN EDITORIAL NOTE · NOT A CHECKLIST",
+      "title": "How to Leave Breathing Room in a Journey",
+      "text": "A slower itinerary is not an empty itinerary. It is one designed with room for weather, tiredness, conversation, local schedules, and surprise.",
+      "unorderedList": {
+        "title": "Consider this",
+        "level": 2,
+        "items": [
+          "Choose fewer anchors for each day, and allow realistic travel and rest time between them.",
+          "Protect confirmed reservations and hosts’ time; flexibility should never mean leaving another person waiting without notice.",
+          "Keep weather and access information current, especially around hill roads and outdoor activities.",
+          "Include optional time that is genuinely optional rather than a disguised list of obligations.",
+          "Ask travel companions what they hope to feel as well as what they hope to see."
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "the-drive-home",
+      "title": "The Drive Home",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "They left the hills under a pale morning sky. For a while there was little to say. The road required attention, and Neel kept both hands on the wheel. Ira watched the first familiar towns return through the window. She had expected the trip to give them stories about dramatic views and rare discoveries. They had those, in small measure. What surprised her was which details came back first.",
+        "She remembered the shape of Neel’s hands around a warm cup. She remembered rain moving in bands across the guesthouse roof. She remembered how difficult it had been to cross out the afternoon, and how little she had regretted it afterwards. She even remembered the restless hour when she almost reopened the itinerary; that hour had become part of the trip too, proof that learning to travel differently could be ordinary and imperfect.",
+        "Near the end of the drive, Neel asked where they should go next time. Ira reached for the list, then stopped. “Somewhere with a place we really want to see,” she said. “And?” he asked. She looked out of the window at a road with no name on their map. “And enough time to be there.” Neel smiled. Nothing else needed to be decided yet."
+      ],
+      "eyebrow": "CHAPTER X · WHAT CAME HOME"
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "text": "They returned with fewer places crossed off—and more of the journey still alive inside them.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "Closing reflection from the fictional story",
+      "theme": "cream"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "plan",
+      "eyebrow": "TRAVEL AT YOUR OWN RHYTHM",
+      "title": "Design a Journey With Space to Feel It",
+      "text": "Tell us what matters most—places, people, experiences, or the simple luxury of time. We’ll help shape a route that makes room for all of it.",
+      "ctaLabel": "PLAN YOUR JOURNEY"
+    },
+    {
+      "type": "text",
+      "id": "a-note-on-this-fictional-journey",
+      "title": "A Note on the Story",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "The travellers, conversations, and sequence of events in this article are invented. The story is written to explore a genuine travel-design question: what happens when a journey makes space for attention rather than measuring success by the number of attractions visited? No guest testimony or specific hosted travel experience is being represented.",
+        "Weather, road access, and safety decisions should always be assessed for the actual journey being planned. This narrative is not a route guide, and the photographs are illustrative selections from the Sreejith Travel image library."
+      ],
+      "eyebrow": "EDITORIAL DISCLOSURE"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "itineraries",
+      "eyebrow": "SLOWER MOMENTS · DEEPER CONNECTIONS",
+      "title": "Discover Journeys Designed for More Than a Checklist",
+      "text": "Explore thoughtful itineraries that balance distinctive experiences with room for rest, conversation, and the unexpected.",
+      "ctaLabel": "EXPLORE ITINERARIES"
+    },
+    {
+      "type": "author-profile",
+      "theme": "blue",
+      "eyebrow": "ABOUT THE AUTHOR",
+      "title": "Sree Jith",
+      "text": "Sree Jith believes the best travel design balances thoughtful preparation with enough freedom for people, places, and moments to be experienced on their own terms.",
+      "image": "/images/testimonials/avatar.webp",
+      "imageAlt": "Portrait image for Sree Jith’s author profile"
+    }
+  ]
+}

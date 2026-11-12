@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "id": "jrn-story-011",
+    "slug": "the-stops-between-the-destinations",
+    "layout": "listicle",
+    "category": "stories",
+    "type": "stories",
+    "subcategory": "journey-stories",
+    "subcategoryLabel": "JOURNEY STORIES",
+    "contentTypeLabel": "VISUAL STORY",
+    "categoryLabel": "VISUAL STORY · JOURNEY STORIES",
+    "featured": true,
+    "title": "The Stops Between the Destinations",
+    "excerpt": "An evocative South Indian rail journey told through the small pauses, people, and passing scenes that rarely make it onto an itinerary.",
+    "headerQuote": "The places between departures and arrivals have stories of their own.",
+    "author": "Sree Jith",
+    "readTime": "2 MIN STORY",
+    "publishDate": "2026-11-12",
+    "tags": [
+      "#RAILJOURNEYS",
+      "#SLOWTRAVEL",
+      "#ENCOUNTERS"
+    ],
+    "categories": [
+      "offbeat",
+      "culture"
+    ],
+    "topics": [
+      "#RAILJOURNEYS",
+      "#SLOWTRAVEL",
+      "#ENCOUNTERS"
+    ],
+    "image": "/images/journal/journal4.webp",
+    "alt": "Landscape travel photograph introducing rail travel and the discoveries between destinations."
+  },
+  "listicle": {
+    "autoplayInterval": 5000,
+    "cover": {
+      "image": "/images/journal/journal4.webp",
+      "alt": "Landscape travel photograph introducing rail travel and the discoveries between destinations."
+    },
+    "slides": [
+      {
+        "eyebrow": "THE PLATFORM · EARLY MORNING",
+        "title": "Before the Train Has a Story",
+        "text": "A suitcase rests against a bench. Somewhere nearby, tea is being poured. The journey begins before anyone takes a seat.",
+        "image": "/images/home/journey-mob.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on the anticipation of a railway platform."
+      },
+      {
+        "eyebrow": "DEPARTURE · FIRST MOVEMENT",
+        "title": "The City Loosens Its Hold",
+        "text": "Shops give way to back walls, gardens, and brief glimpses into morning routines. The window turns ordinary lives into passing fragments.",
+        "image": "/images/itineraries/dummy9.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on landscapes changing beyond a train window."
+      },
+      {
+        "eyebrow": "A SMALL STOP · TEA",
+        "title": "Five Minutes, One Paper Cup",
+        "text": "The train pauses just long enough for warm tea and a new chorus of voices. A small station has its own tempo.",
+        "image": "/images/itineraries/dummy10.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on a brief station stop and tea."
+      },
+      {
+        "eyebrow": "THE COMPARTMENT · COMPANY",
+        "title": "A Seat Becomes a Shared Space",
+        "text": "Bags are shifted to make room. Someone offers the window. Hospitality here is less a speech than a series of small adjustments.",
+        "image": "/images/home/solo-portrait.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on small acts of consideration on a journey."
+      },
+      {
+        "eyebrow": "BETWEEN STATIONS · LANDSCAPE",
+        "title": "The View Refuses to Be a Postcard",
+        "text": "A field, a workshop roof, a line of washing, a distant hill: nothing arranged for visitors, all of it part of the place.",
+        "image": "/images/itineraries/dummy11.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on ordinary scenes glimpsed from the railway."
+      },
+      {
+        "eyebrow": "UNSCHEDULED HALT · WAITING",
+        "title": "The Pause Nobody Planned",
+        "text": "For a moment, movement stops. The landscape does not. Birds cross the wires; a breeze reaches the open window.",
+        "image": "/images/itineraries/dummy12.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on waiting during an unscheduled pause."
+      },
+      {
+        "eyebrow": "MID-JOURNEY · A CONVERSATION",
+        "title": "A Place Enters Through a Voice",
+        "text": "A fellow traveller names a river and recalls a childhood crossing. Suddenly the view holds a memory you could never photograph.",
+        "image": "/images/itineraries/dummy13.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on a conversation connecting travellers to place."
+      },
+      {
+        "eyebrow": "LATE AFTERNOON · LIGHT",
+        "title": "The Window Changes Its Mind",
+        "text": "Harsh noon light softens. Reflections appear in the glass, briefly placing the passengers and passing landscape in the same frame.",
+        "image": "/images/home/journey-mob1.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on changing afternoon light through a train window."
+      },
+      {
+        "eyebrow": "ARRIVAL · PLATFORM",
+        "title": "The Destination Finally Arrives",
+        "text": "The station name is familiar from the ticket. The journey feels less familiar now, filled with moments no booking confirmation promised.",
+        "image": "/images/itineraries/dummy14.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on arriving at a railway station."
+      },
+      {
+        "eyebrow": "AFTER THE JOURNEY · MEMORY",
+        "title": "What Stays Is Often In Between",
+        "text": "Later, the landmarks may blur. The tea, the offered seat, the unexpected silence remain: a second map of the journey.",
+        "image": "/images/itineraries/dummy1.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on the intimate memories of travel between destinations."
+      }
+    ]
+  }
+}

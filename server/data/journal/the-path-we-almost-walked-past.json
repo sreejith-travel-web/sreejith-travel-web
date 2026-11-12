@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "id": "jrn-story-012",
+    "slug": "the-path-we-almost-walked-past",
+    "layout": "listicle",
+    "category": "stories",
+    "type": "stories",
+    "subcategory": "field-notes",
+    "subcategoryLabel": "FIELD NOTES",
+    "contentTypeLabel": "VISUAL STORY",
+    "categoryLabel": "VISUAL STORY · FIELD NOTES",
+    "featured": false,
+    "title": "The Path We Almost Walked Past",
+    "excerpt": "A quiet field-story vignette about a modest turning, a slower walk, and the difference between finding a hidden place and learning to pay attention.",
+    "headerQuote": "Not every turning leads somewhere new. Some teach us how to look.",
+    "author": "Sree Jith",
+    "readTime": "2 MIN STORY",
+    "publishDate": "2026-11-12",
+    "tags": [
+      "#FIELDNOTES",
+      "#NATURE",
+      "#SLOWTRAVEL"
+    ],
+    "categories": [
+      "nature",
+      "offbeat"
+    ],
+    "topics": [
+      "#FIELDNOTES",
+      "#NATURE",
+      "#SLOWTRAVEL"
+    ],
+    "image": "/images/journal/journal5.webp",
+    "alt": "Landscape travel photograph introducing a quiet path and attentive travel."
+  },
+  "listicle": {
+    "autoplayInterval": 5000,
+    "cover": {
+      "image": "/images/journal/journal5.webp",
+      "alt": "Landscape travel photograph introducing a quiet path and attentive travel."
+    },
+    "slides": [
+      {
+        "eyebrow": "THE JUNCTION · FIRST LIGHT",
+        "title": "The Road Everyone Followed",
+        "text": "The wider track promised a view. Just beside it, a narrow footpath disappeared behind leaves without a sign or a grand invitation.",
+        "image": "/images/home/forest-portrait.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on a narrow path alongside a familiar road."
+      },
+      {
+        "eyebrow": "THE TURN · HESITATION",
+        "title": "We Nearly Kept Walking",
+        "text": "It was easy to dismiss the opening as nothing. A local guide paused, checked that the route was appropriate, and suggested a slower way.",
+        "image": "/images/itineraries/dummy2.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on choosing a quieter route with a local guide."
+      },
+      {
+        "eyebrow": "UNDERFOOT · TEXTURE",
+        "title": "The Ground Changed First",
+        "text": "Gravel gave way to cool earth. Fallen leaves softened each step; the familiar sound of the road began to loosen behind us.",
+        "image": "/images/itineraries/dummy3.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on the textures of an earthen walking path."
+      },
+      {
+        "eyebrow": "CANOPY · SOUND",
+        "title": "The Forest Had Several Voices",
+        "text": "Water moved somewhere out of sight. Insects carried the higher notes. A bird called once, then let the silence answer.",
+        "image": "/images/itineraries/dummy4.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on sound and stillness beneath a tree canopy."
+      },
+      {
+        "eyebrow": "A CROSSING · WATER",
+        "title": "A Stream, Not a Spectacle",
+        "text": "The water was shallow enough to hear against stones. We stopped without needing to name it, photograph it, or call it a discovery.",
+        "image": "/images/itineraries/dummy5.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on a modest stream along a forest walk."
+      },
+      {
+        "eyebrow": "THE PATH · PEOPLE",
+        "title": "Someone Already Knew This Way",
+        "text": "A cleared branch and careful stonework reminded us the route was not untouched wilderness. Its quiet depended on people who knew it.",
+        "image": "/images/itineraries/dummy6.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on signs of care and knowledge along a path."
+      },
+      {
+        "eyebrow": "THE PAUSE · RESPECT",
+        "title": "Not Every Turning Is an Invitation",
+        "text": "A path can pass homes, working land, or sensitive habitat. Following a guide’s judgement meant knowing where to stop, not just where to go.",
+        "image": "/images/itineraries/dummy7.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on respect for local routes and sensitive spaces."
+      },
+      {
+        "eyebrow": "THE RETURN · NEW EYES",
+        "title": "The Way Back Looked Different",
+        "text": "The same stones, tree roots, and patches of light were still there. We noticed them now because the rush had fallen away.",
+        "image": "/images/itineraries/dummy8.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on seeing a familiar walking path differently."
+      },
+      {
+        "eyebrow": "THE LESSON · AFTERWARDS",
+        "title": "The Real Find Was Attention",
+        "text": "We came away without a secret location to share. We carried something better: the habit of asking what a place needs from us.",
+        "image": "/images/home/solo-portrait.webp",
+        "alt": "Portrait travel photograph accompanying a reflection on remembering a quieter and more respectful journey.",
+        "ctaLabel": "Explore Nature Journeys",
+        "to": "/itineraries"
+      }
+    ]
+  }
+}

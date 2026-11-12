@@ -1,0 +1,768 @@
+{
+  "meta": {
+    "id": "jrn-story-002",
+    "slug": "beyond-the-tea-gardens-a-different-side-of-munnar",
+    "category": "stories",
+    "type": "stories",
+    "subcategory": "travel-experiences",
+    "subcategoryLabel": "TRAVEL EXPERIENCES",
+    "contentTypeLabel": "TRAVEL EXPERIENCE",
+    "categoryLabel": "TRAVEL EXPERIENCE · TRAVEL EXPERIENCES",
+    "featured": false,
+    "title": "Beyond the Tea Gardens: A Different Side of Munnar",
+    "excerpt": "Look beyond Munnar’s familiar tea slopes and discover a slower way to experience its shola forests, changing light, everyday places and highland rhythms.",
+    "headerQuote": "The hills reveal a different story when the journey makes room to listen.",
+    "author": "Sree Jith",
+    "readTime": "15 MIN READ",
+    "publishDate": "2026-11-10",
+    "tags": [
+      "#MUNNAR",
+      "#WESTERNGHATS",
+      "#SLOWTRAVEL"
+    ],
+    "categories": [
+      "nature",
+      "offbeat",
+      "wellness"
+    ],
+    "topics": [
+      "#MUNNAR",
+      "#WESTERNGHATS",
+      "#SLOWTRAVEL",
+      "#SHOLAFORESTS",
+      "#CULTURALIMMERSION"
+    ],
+    "image": "/images/home/forest-landscape.webp",
+    "alt": "Illustrative green landscape introducing a reflective journey through Munnar’s high ranges"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "before-the-hills-wake",
+      "eyebrow": "CHAPTER I · AN UNHURRIED ARRIVAL",
+      "eyebrowLevel": 1,
+      "title": "Before the Hills Wake",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "There is a moment in Munnar when the landscape seems to hesitate between night and morning. The ridgelines are present but indistinct; the valleys hold their mist; the road bends around a hillside before revealing what lies ahead. It is the kind of place that asks the traveller to look twice."
+        },
+        {
+          "level": 2,
+          "text": "Most journeys to Munnar begin with a familiar image: green tea slopes arranged in precise lines, clouds drifting over a viewpoint, a hot cup held against the mountain air. These are honest pleasures. But they are not the whole story of the high ranges. Beyond the plantations are <span class='rt-deep-forest'><strong>shola forests</strong></span>, grasslands, working settlements, streams and stretches of quiet that cannot be reduced to a postcard."
+        },
+        {
+          "level": 2,
+          "text": "This is not a diary of one claimed trip or a promise that every viewpoint will be empty. It is an invitation to imagine a different pace: a journey guided by changing landscapes, time to notice and a willingness to let the place be more complicated than its most photographed view."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "blue",
+      "text": "The hills do not always reveal more when you travel farther.<br>Sometimes they reveal more when you stay a little longer."
+    },
+    {
+      "type": "text",
+      "id": "leaving-familiar-viewpoints",
+      "eyebrow": "CHAPTER II · BEYOND THE POSTCARD",
+      "eyebrowLevel": 1,
+      "title": "Leaving the Familiar Viewpoints",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "The first surprise is how many ways there are to look at the same mountain. From one bend, tea rows make the slopes seem carefully combed. From another, a dark fold of forest interrupts the pattern. A ridge that appeared gentle from below suddenly reveals a steep edge. The road is not merely carrying you between attractions; it is changing your sense of scale."
+        },
+        {
+          "level": 2,
+          "text": "A slower route leaves room for those transitions. Instead of racing through a checklist, choose a few places and watch the light, weather and human activity alter their character. Even an ordinary stop for tea can become a useful pause when the journey is not measured only by how many photographs have been taken."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "blue",
+      "imageCols": 7,
+      "aspectRatio": "3:2",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "eyebrow": "THE SHIFTING VIEW",
+      "title": "When the Tea Rows Give Way to the Hills",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Plantations are part of Munnar's visual identity, but they sit within a more varied highland landscape. Look beyond the repetition of clipped bushes and the outline becomes less orderly: deeper valleys, rocky ridges and forested folds appear.",
+        "The pleasure of moving through this terrain lies in contrast. A carefully maintained estate road meets a rougher hillside; an open view narrows into shade; a stretch of wind becomes sheltered stillness. It is a geography that rewards patience more than speed."
+      ],
+      "image": "/images/home/journey-pc1.webp",
+      "imageAlt": "Illustrative image accompanying when the tea rows give way to the hills",
+      "caption": "The composition of the hills changes with every turn."
+    },
+    {
+      "type": "masonry",
+      "maxCols": 3,
+      "title": "A Landscape of Changing Perspectives",
+      "titleLevel": 2,
+      "eyebrow": "MIXED-ORIENTATION PHOTO ESSAY",
+      "captionMob": true,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Illustrative editorial photograph: The wider landscape sets the pace",
+          "width": 1600,
+          "height": 900,
+          "caption": "The wider landscape sets the pace."
+        },
+        {
+          "src": "/images/home/journey-mob.webp",
+          "alt": "Illustrative editorial photograph: A narrower vertical view invites a closer look",
+          "width": 960,
+          "height": 1440,
+          "caption": "A narrower vertical view invites a closer look."
+        },
+        {
+          "src": "/images/home/journey-pc.webp",
+          "alt": "Illustrative editorial photograph: An open frame restores a sense of distance",
+          "width": 1440,
+          "height": 960,
+          "caption": "An open frame restores a sense of distance."
+        },
+        {
+          "src": "/images/itineraries/dummy4.webp",
+          "alt": "Illustrative editorial photograph: A portrait crop changes the rhythm",
+          "width": 400,
+          "height": 600,
+          "caption": "A portrait crop changes the rhythm."
+        },
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Illustrative editorial photograph: The highland story is made of transitions",
+          "width": 750,
+          "height": 500,
+          "caption": "The highland story is made of transitions."
+        },
+        {
+          "src": "/images/home/forest-portrait.webp",
+          "alt": "Illustrative editorial photograph: A final vertical frame holds the moment",
+          "width": 600,
+          "height": 900,
+          "caption": "A final vertical frame holds the moment."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "a-road-is-not-a-race",
+      "eyebrow": "THE TRAVEL RHYTHM",
+      "eyebrowLevel": 2,
+      "title": "A Road Is Not a Race",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Munnar is a working town and a major tourism destination, not an untouched wilderness. Roads can be busy, and popular stops attract crowds. A meaningful itinerary works with that reality. It may mean leaving room between activities rather than pretending everything can be enjoyed at once.",
+        "The point is not to avoid well-known sights out of principle. A tea museum, a public viewpoint or a recognised nature interpretation centre can add useful context. The difference lies in what happens around them: a stop long enough to ask a question, a walk taken with permission, a conversation that is not hurried to its conclusion."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tea-history-beyond-the-view",
+      "eyebrow": "A PLACE TO ASK WHY",
+      "eyebrowLevel": 2,
+      "title": "Tea History Beyond the View",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "The tea landscapes surrounding Munnar are not simply a naturally repeating pattern of green. They developed through plantation history and continue through the work of cultivation, transport and processing. An interpretation stop such as the Tea Museum can add an important layer: the tools, photographs and stories behind an image that visitors often treat as timeless.",
+        "The town itself takes its name from three rivers or streams traditionally identified as the Muthirapuzha, Nallathanni and Kundala. That meeting of watercourses is another reminder that Munnar is a place shaped by terrain and human movement, not only a scenic stage for visiting cameras.",
+        "When there is time, a visit to a public interpretation space can be more useful than adding a third nearly identical viewpoint. It changes the question from <em>Where is the best photograph?</em> to <span class='rt-action-blue'><strong>What am I actually looking at?</strong></span>"
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tea-slopes-give-way",
+      "eyebrow": "CHAPTER III · THE HILLS BENEATH THE HILLS",
+      "eyebrowLevel": 1,
+      "title": "Where the Tea Slopes Give Way",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "The Western Ghats hold ecological patterns that are easy to miss from a distance. Among the most distinctive are the <i>shola</i>-grassland mosaics of the high elevations: compact evergreen forest patches in sheltered folds, with open grasslands across exposed slopes."
+        },
+        {
+          "level": 2,
+          "text": "A shola is not simply a picturesque patch of trees. Its canopy, moist understory, streams and surrounding grasslands form part of a connected high-altitude ecosystem. At <a href='https://forest.kerala.gov.in/en/national-parks/' target='_blank'>Eravikulam National Park</a>, the Kerala Forest Department identifies this mosaic as crucial habitat for the endangered Nilgiri tahr. The larger lesson is straightforward: an empty-looking grass slope may be ecologically important, and a quiet forest edge may be doing more than its beauty suggests."
+        },
+        {
+          "level": 2,
+          "text": "The landscape asks for an adjustment in behaviour as well as attention. Protected habitats have access rules for a reason. <span class='rt-intention-blue'>A respectful traveller reads those boundaries as part of the place, not as an obstacle to getting a better picture.</span>"
+        }
+      ]
+    },
+    {
+      "type": "callout-note",
+      "theme": "blue",
+      "eyebrow": "ECOLOGICAL CONTEXT",
+      "title": "What Is a Shola-Grassland Mosaic?",
+      "subtitle": "A small field guide to a large landscape",
+      "text": "In the southern Western Ghats, evergreen forest patches and montane grasslands occur together, especially around high-altitude folds and ridgelines. Their relationship supports wildlife and water systems.",
+      "unorderedList": {
+        "title": "Four Things to Notice",
+        "level": 2,
+        "items": [
+          {
+            "title": "Forest pockets",
+            "text": "Sholas often occupy sheltered valleys and hollows, where conditions differ from exposed slopes."
+          },
+          {
+            "title": "Open grasslands",
+            "text": "These are functioning habitats, not unused land waiting to be planted."
+          },
+          {
+            "title": "Water",
+            "text": "Streams and moisture patterns connect forest and grassland."
+          },
+          {
+            "title": "Wildlife sensitivity",
+            "text": "Stay within designated visitor areas and follow official guidance."
+          }
+        ]
+      }
+    },
+    {
+      "type": "image-split",
+      "theme": "light",
+      "imageCols": 5,
+      "aspectRatio": "2:3",
+      "imagePosition": "left",
+      "mobileOrder": "text-first",
+      "verticalAlign": "top",
+      "eyebrow": "NATURE IN DETAIL",
+      "title": "The Forest Does Not Need to Announce Itself",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "In the quieter reaches of the hills, attention naturally drops from the horizon to smaller things: leaves holding moisture, changes in the light beneath a canopy, the different sound of wind once a path is sheltered. You do not need to identify every species to realise you have entered a different ecological space.",
+        "It is worth resisting the urge to turn every walk into a search for rare wildlife. A sighting is never guaranteed, and the best encounters are not necessarily the closest. Observe from appropriate distances, avoid noise and follow local or official guidance about access.",
+        "The reward is subtler than a checklist. The forest becomes an active landscape, not a scenic background."
+      ],
+      "image": "/images/home/forest-portrait.webp",
+      "imageAlt": "Illustrative image accompanying the forest does not need to announce itself",
+      "caption": "A portrait frame narrows the gaze from panorama to detail."
+    },
+    {
+      "type": "text",
+      "id": "landscape-not-a-backdrop",
+      "title": "A Landscape, Not a Backdrop",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Munnar's hills carry histories of land use as well as natural history. Tea cultivation transformed large stretches of the high ranges, shaping roads, settlements and patterns of employment. The plantation view is therefore both beautiful and historically specific. Admiring it need not mean ignoring the work that sustains it.",
+        "The same care applies to encounters with communities living in the region. Their lives are not interpretive props for visitors. Questions should be welcomed only when there is space and consent for conversation; a photographed encounter is not automatically a meaningful one."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "journey-in-frames",
+      "eyebrow": "CHAPTER IV · LET THE IMAGE BREATHE",
+      "eyebrowLevel": 1,
+      "title": "The Journey in Frames",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Some moments are best given an uncluttered frame. A road turning through cloud, a sudden opening in the valley or the contrast between sunlit slopes and deep shade needs little explanation while it is being seen."
+        },
+        {
+          "level": 2,
+          "text": "The following sequence is deliberately visual. Captions remain available in the lightbox, while the main slider stays quiet. It is a pause in the prose, not an attempt to prove an exact photographic itinerary."
+        }
+      ]
+    },
+    {
+      "type": "slider",
+      "title": "Between Mist, Light and Distance",
+      "eyebrow": "AN UNINTERRUPTED VISUAL SEQUENCE",
+      "titleLevel": 1,
+      "images": [
+        {
+          "src": "/images/home/forest-landscape.webp",
+          "alt": "Illustrative landscape photograph for the Munnar highland essay",
+          "caption": "The eye moves first toward the horizon."
+        },
+        {
+          "src": "/images/home/journey-pc.webp",
+          "alt": "Illustrative mountain journey photograph",
+          "caption": "A bend in the route changes the view."
+        },
+        {
+          "src": "/images/home/journey-pc1.webp",
+          "alt": "Illustrative image of a journey through changing landscapes",
+          "caption": "Light reveals another texture in the hills."
+        },
+        {
+          "src": "/images/impact/impact1.webp",
+          "alt": "Illustrative photograph representing the Western Ghats landscape",
+          "caption": "An open landscape invites a slower gaze."
+        },
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Illustrative travel scene from the approved image collection",
+          "caption": "The journey is made of moments between destinations."
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "autoplay": true,
+      "interval": 6500,
+      "captionMob": false,
+      "captionPc": false
+    },
+    {
+      "type": "text",
+      "id": "people-places-pace",
+      "eyebrow": "CHAPTER V · THE HUMAN LANDSCAPE",
+      "eyebrowLevel": 1,
+      "title": "People, Places and the Pace of the Hills",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "To travel only through viewpoints is to see a landscape without its everyday tempo. In a town, someone is opening a shop while visitors are planning the day's drive. On a road, a delivery vehicle takes the same bend that feels new to a traveller. Around the estates, work has its own hours and obligations."
+        },
+        {
+          "level": 2,
+          "text": "This is why the most revealing conversations are often ordinary ones. Ask about a locally made food, the best time to avoid a crowded stop, or the difference between seasons. Do not demand a personal story from someone who is simply trying to complete a day's work. Interest becomes connection only when the other person is free to participate."
+        },
+        {
+          "level": 2,
+          "text": "Travelling thoughtfully also means recognising the limits of what an outsider can know from a brief stay. A cup of tea and a friendly exchange can be memorable, but they are not permission to speak on behalf of a community. <span class='rt-terracotta'>Curiosity is strongest when accompanied by humility.</span>"
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "cream",
+      "text": "A place becomes more memorable when you stop expecting everyone in it to be part of your itinerary."
+    },
+    {
+      "type": "masonry",
+      "maxCols": 4,
+      "title": "The Human Scale of a Highland Journey",
+      "titleLevel": 2,
+      "eyebrow": "FOUR-COLUMN VISUAL NOTEBOOK",
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/itineraries/dummy5.webp",
+          "alt": "Illustrative editorial photograph: A vertical study in the details of a day",
+          "width": 400,
+          "height": 600,
+          "caption": "A vertical study in the details of a day."
+        },
+        {
+          "src": "/images/impact/impact3.webp",
+          "alt": "Illustrative editorial photograph: A broad composition introduces the built landscape",
+          "width": 750,
+          "height": 500,
+          "caption": "A broad composition introduces the built landscape."
+        },
+        {
+          "src": "/images/itineraries/dummy6.webp",
+          "alt": "Illustrative editorial photograph: An intimate crop slows the pace",
+          "width": 400,
+          "height": 600,
+          "caption": "An intimate crop slows the pace."
+        },
+        {
+          "src": "/images/impact/impact4.webp",
+          "alt": "Illustrative editorial photograph: A different frame holds a different rhythm",
+          "width": 750,
+          "height": 500,
+          "caption": "A different frame holds a different rhythm."
+        },
+        {
+          "src": "/images/itineraries/dummy7.webp",
+          "alt": "Illustrative editorial photograph: The eye settles on smaller forms",
+          "width": 400,
+          "height": 600,
+          "caption": "The eye settles on smaller forms."
+        },
+        {
+          "src": "/images/impact/impact5.webp",
+          "alt": "Illustrative editorial photograph: A wider image brings the context back",
+          "width": 750,
+          "height": 500,
+          "caption": "A wider image brings the context back."
+        },
+        {
+          "src": "/images/itineraries/dummy8.webp",
+          "alt": "Illustrative editorial photograph: Another portrait keeps the sequence varied",
+          "width": 400,
+          "height": 600,
+          "caption": "Another portrait keeps the sequence varied."
+        },
+        {
+          "src": "/images/impact/impact6.webp",
+          "alt": "Illustrative editorial photograph: A final landscape gathers the chapter",
+          "width": 750,
+          "height": 500,
+          "caption": "A final landscape gathers the chapter."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "where-conversation-begins",
+      "eyebrow": "A SMALLER KIND OF DISCOVERY",
+      "eyebrowLevel": 2,
+      "title": "Where Conversation Begins",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "There is no reliable script for a meaningful encounter. Sometimes it begins with a question about the weather or a recommendation for lunch; sometimes the most courteous choice is to smile and move on. The quality of the moment depends on whether it remains mutual.",
+        "A journey designed around <strong>people, places and stories</strong> should make room for those possibilities without promising access to lives that do not belong to the traveller. That restraint gives genuine conversations space to happen."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "taste-of-highlands",
+      "eyebrow": "CHAPTER VI · FOOD, WARMTH & SEASON",
+      "eyebrowLevel": 1,
+      "title": "A Taste of the Highlands",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "Mountain travel sharpens the appetite. After cool air and winding roads, a hot meal feels especially welcome. Food can be one of the simplest ways to pay attention to a place, provided we look beyond the idea of collecting dishes like souvenirs."
+        },
+        {
+          "level": 2,
+          "text": "Munnar's food landscape is varied: local Kerala cooking, everyday tea-shop fare, produce brought into the highlands and meals shaped by a diverse town. No single plate can stand in for everyone who lives here. The pleasure lies in asking what is fresh, what is seasonal and where a traveller can eat without turning an ordinary meal into a performance."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "small-pleasures-at-the-table",
+      "eyebrow": "NOT A CHECKLIST · A WAY OF TASTING",
+      "eyebrowLevel": 2,
+      "title": "Small Pleasures at the Table",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "The following are possibilities for a relaxed highland food day—not claims about the menu of a particular establishment. Availability changes with place and season."
+      ],
+      "list": {
+        "type": "unordered",
+        "level": 2,
+        "items": [
+          {
+            "title": "A warming breakfast",
+            "text": "Look for a freshly made Kerala breakfast such as <i>puttu</i>, <i>appam</i> or another local staple, served at the pace of the kitchen."
+          },
+          {
+            "title": "Tea with context",
+            "text": "Enjoy the region’s association with tea while remembering that cultivation and processing are work, not only scenery."
+          },
+          {
+            "title": "Seasonal produce",
+            "text": "Ask which vegetables, fruits or spices are being used in the kitchen rather than assuming everything is grown nearby."
+          },
+          {
+            "title": "An unhurried evening meal",
+            "text": "Choose warmth and conversation over a tightly scheduled final stop."
+          }
+        ]
+      }
+    },
+    {
+      "type": "horizontal-slider",
+      "title": "The Details That Make a Day",
+      "eyebrow": "FIELD FRAMES",
+      "titleLevel": 2,
+      "images": [
+        {
+          "src": "/images/home/solo-portrait.webp",
+          "alt": "Illustrative editorial photograph: A tall frame captures a quiet pause",
+          "width": 600,
+          "height": 900,
+          "caption": "A tall frame captures a quiet pause."
+        },
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Illustrative editorial photograph: The wider world returns to the sequence",
+          "width": 600,
+          "height": 400,
+          "caption": "The wider world returns to the sequence."
+        },
+        {
+          "src": "/images/itineraries/dummy9.webp",
+          "alt": "Illustrative editorial photograph: A vertical view rewards attention to detail",
+          "width": 400,
+          "height": 600,
+          "caption": "A vertical view rewards attention to detail."
+        },
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Illustrative editorial photograph: Landscape and daily life meet in a wider frame",
+          "width": 600,
+          "height": 400,
+          "caption": "Landscape and daily life meet in a wider frame."
+        },
+        {
+          "src": "/images/itineraries/dummy10.webp",
+          "alt": "Illustrative editorial photograph: Another portrait changes the tempo",
+          "width": 400,
+          "height": 600,
+          "caption": "Another portrait changes the tempo."
+        },
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Illustrative editorial photograph: A final broad frame closes the sequence",
+          "width": 600,
+          "height": 400,
+          "caption": "A final broad frame closes the sequence."
+        }
+      ],
+      "sliderHeight": 440,
+      "innerRounding": true,
+      "captionMob": false,
+      "captionPc": true,
+      "paragraph": "The filmstrip is a visual palate cleanser between the human landscape and the seasonality of travel."
+    },
+    {
+      "type": "text",
+      "id": "place-for-pause",
+      "title": "A Place for Pause",
+      "titleLevel": 3,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 3,
+          "text": "Food need not carry the whole weight of cultural interpretation. Sometimes it is simply the good fortune of arriving hungry, finding a welcoming place and giving a meal the time it deserves."
+        },
+        {
+          "level": 3,
+          "text": "That ordinary pleasure belongs in an immersive itinerary just as much as a dramatic viewpoint or a forest walk."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "travelling-through-seasons",
+      "eyebrow": "CHAPTER VII · PLAN FOR THE WEATHER, NOT AGAINST IT",
+      "eyebrowLevel": 1,
+      "title": "Travelling Through the Seasons",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "The high ranges do not offer one fixed version of themselves. Rain changes visibility and road conditions; mist may make a viewpoint mysterious or entirely opaque; a clear morning may open a panorama that disappears an hour later. There is no responsible promise of perfect weather."
+        },
+        {
+          "level": 2,
+          "text": "A well-paced visit builds in flexibility. Keep outdoor plans adjustable, carry suitable layers and check current local conditions before setting off. The <span data-scroll-to='tea-slopes-give-way'>ecological context earlier in this story</span> is a useful reminder of why access rules matter. In protected areas, follow entry rules and temporary closures. Eravikulam National Park, for example, can restrict visitor access during the Nilgiri tahr calving season; confirm its current status with official sources rather than relying on an old itinerary."
+        },
+        {
+          "level": 2,
+          "text": "Some natural spectacles follow long cycles rather than tourist calendars. <i>Neelakurinji</i> is associated with mass flowering roughly once in twelve years, not an annual event that can be scheduled for any chosen season. The hills remain worth understanding between those rare blooms."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "eyebrow": "SEASONAL FIELD NOTE",
+      "title": "Make Room for a Different Kind of Day",
+      "subtitle": "Small decisions improve the entire journey",
+      "text": "The best highland plan is resilient to rain, changing light and unexpected delays. A thoughtful schedule leaves room for what the hills actually offer.",
+      "unorderedList": {
+        "title": "Before You Set Out",
+        "level": 3,
+        "items": [
+          {
+            "title": "Check access",
+            "text": "Verify park, trail and road conditions through current official or local guidance."
+          },
+          {
+            "title": "Prepare for shifts",
+            "text": "Carry layers, rain protection, drinking water and appropriate footwear."
+          },
+          {
+            "title": "Keep alternatives",
+            "text": "Pair outdoor plans with an indoor cultural stop or unhurried town time."
+          }
+        ]
+      },
+      "orderedList": {
+        "title": "If the Weather Changes",
+        "level": 2,
+        "items": [
+          "Pause rather than rushing to outrun the mist.",
+          "Choose a safer, accessible activity when conditions deteriorate.",
+          "Let a missed viewpoint remain missed; do not cross barriers for a photograph."
+        ]
+      }
+    },
+    {
+      "type": "highlights",
+      "eyebrow": "KEEP THESE WITH YOU",
+      "title": "The Journey, Distilled",
+      "items": [
+        "Choose a few meaningful stops instead of collecting every viewpoint.",
+        "Treat working landscapes and communities as more than scenery.",
+        "Respect protected habitats, access rules and weather warnings.",
+        "Leave room for a spontaneous conversation—or a quiet moment alone.",
+        "Make time for the hills beyond the photographs."
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "itineraries"
+    },
+    {
+      "type": "text",
+      "id": "finding-your-own-route",
+      "eyebrow": "CHAPTER VIII · DESIGN AROUND YOUR CURIOSITY",
+      "eyebrowLevel": 1,
+      "title": "Finding Your Own Route",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "There is no one right way to encounter Munnar. A traveller interested in ecology might spend more time understanding shola-grassland systems and permitted nature experiences. Someone drawn to everyday culture may prefer slower town exploration and conversations arranged with local hosts. Another person may need little more than an open view, a good meal and time to rest."
+        },
+        {
+          "level": 2,
+          "text": "The common thread is coherence. A journey feels richer when its parts relate to one another, not when the itinerary contains the most names. The route should reflect the people taking it, the conditions on the ground and the responsibilities that come with entering a place."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "two-directions-one-landscape",
+      "eyebrow": "OPTIONS RATHER THAN A CHECKLIST",
+      "eyebrowLevel": 2,
+      "title": "Two Directions, One Landscape",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "One day might be oriented toward the better-known landscape around Munnar and the regulated visitor experience at Eravikulam, if access is available. Another could turn toward the wider high-range settlements associated with Marayoor and Kanthalloor. These are different directions and deserve separate time, not a single hurried sweep through map pins.",
+        "For a traveller curious about ecology, official interpretation centres and approved nature experiences may be the right starting point. For someone interested in agriculture and village life, a locally arranged encounter can give context to orchards, seasonal produce or working landscapes. Neither option guarantees a private meeting or special access.",
+        "The route should be chosen through real conditions: travel time, weather, road access, host availability and the interests of the people making the journey. <strong>Design is sometimes the art of leaving things out.</strong>"
+      ]
+    },
+    {
+      "type": "text",
+      "id": "four-questions-before-planning",
+      "eyebrow": "A SIMPLE DESIGN EXERCISE",
+      "eyebrowLevel": 2,
+      "title": "Four Questions Before You Plan",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Use these questions to turn a generic hill-station holiday into an intentional experience. None requires a packed schedule."
+      ],
+      "list": {
+        "type": "ordered",
+        "level": 2,
+        "items": [
+          {
+            "title": "What draws you here?",
+            "text": "Landscape, ecology, tea history, food, rest or a combination of interests?"
+          },
+          {
+            "title": "How do you like to move?",
+            "text": "Short drives, gentle walks, guided nature interpretation or longer permitted excursions?"
+          },
+          {
+            "title": "What needs protection?",
+            "text": "Consider weather, accessibility, personal energy and the place’s ecological boundaries."
+          },
+          {
+            "title": "What will you leave open?",
+            "text": "Protect an unscheduled morning or afternoon for the experience you could not predict."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "plan",
+      "eyebrow": "A JOURNEY DESIGNED AROUND YOU",
+      "title": "Let the Highlands Become Your Own Story",
+      "text": "From nature-led exploration to slower cultural encounters, shape a Munnar experience around your interests, pace and the season.",
+      "ctaLabel": "DESIGN MY JOURNEY",
+      "to": "/planyourjourney"
+    },
+    {
+      "type": "text",
+      "id": "what-remains-after-journey",
+      "eyebrow": "CHAPTER IX · CARRYING THE HILLS HOME",
+      "eyebrowLevel": 1,
+      "title": "What Remains After the Journey",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "The photographs may show tea gardens, clouded valleys and narrow paths. What remains in memory is often less measurable: the change in temperature when you enter shade, the relief of a warm meal, the moment the road opens and the mountains rearrange themselves."
+        },
+        {
+          "level": 2,
+          "text": "A quieter Munnar is not a secret destination hidden beyond the popular one. It is a different relationship with the same place. Look past the frame without dismissing what made you come. Notice the work beside the scenery, the ecology behind the view and the people who have lives here long after a visitor leaves."
+        },
+        {
+          "level": 2,
+          "text": "Perhaps that is the simplest definition of a thoughtful journey: you return with beautiful images, but also with a little more understanding. <span class='rt-dark-peach'><em>Not everything important announces itself from a viewpoint.</em></span>"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "id": "a-last-word-on-pace",
+      "title": "A Last Word on Pace",
+      "titleLevel": 3,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 3,
+          "text": "The best route is not always the most ambitious. It is the one that allows the destination to remain real and the traveller to remain present."
+        },
+        {
+          "level": 3,
+          "text": "If you are shaping a journey through Kerala's highlands, start with what matters to you—and leave enough space for the place to answer."
+        }
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "contact"
+    },
+    {
+      "type": "author-profile",
+      "theme": "blue",
+      "eyebrow": "ABOUT THE JOURNEY DESIGNER",
+      "title": "Sree Jith",
+      "text": "Sree Jith designs cultural and immersive travel experiences inspired by people, places and stories. Through the Journal, he explores how thoughtful journeys can connect travellers with living landscapes and the communities around them.",
+      "image": "/images/home/solo-landscape.webp",
+      "imageAlt": "Editorial portrait image accompanying the Sree Jith author profile"
+    }
+  ]
+}

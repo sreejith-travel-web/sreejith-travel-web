@@ -481,11 +481,12 @@ onBeforeUnmount(() => {
           >
             <ItineraryCard
               :item="slideObj.item"
-              :eager="sIdx >= CLONE_COUNT && sIdx < CLONE_COUNT + 3"
-            />
+              :eager="false"
+              />
+            </div>
           </div>
         </div>
-      </div>
+        <!-- :eager="sIdx >= CLONE_COUNT && sIdx < CLONE_COUNT + 3" -->
 
       <!-- 3. FOOTER CONTROLS, QUOTE & CTA -->
       <div class="relative z-10 w-full flex flex-col items-center text-center">
@@ -573,6 +574,12 @@ onBeforeUnmount(() => {
    - Mobile (< 640px): 1 center card (74% width) + partial left & right cards
    - Tablet / iPad (640px - 1023px): 1 center card (41% width) + ~3/4 (72%) of left & right cards
    - Desktop (>= 1024px): 3 center cards (27.5% width each) + beginning of outer left & right cards */
+
+   
+.itinerary-slider-stage:active {
+  cursor: grabbing;
+}
+
 .itinerary-slider-stage {
   --card-w: 88%;
   --card-gap: 16px;
@@ -582,10 +589,6 @@ onBeforeUnmount(() => {
   cursor: grab;
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
   mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
-}
-
-.itinerary-slider-stage:active {
-  cursor: grabbing;
 }
 
 @media (min-width: 640px) {

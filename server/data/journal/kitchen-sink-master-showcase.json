@@ -1,0 +1,497 @@
+{
+"meta": {
+"id": "jrn-master-001",
+"slug": "kitchen-sink-master-showcase",
+"category": "insights",
+"type": "insights",
+"subcategory": "living-heritage",
+"subcategoryLabel": "LIVING HERITAGE",
+"contentTypeLabel": "INSIGHT",
+"categoryLabel": "INSIGHT · LIVING HERITAGE",
+"featured": false,
+"title": "Master Reference: Every Journal Block & Editorial Variation",
+"excerpt": "A complete live reference showcasing every typography level, rich-text color class, list format, quote theme, callout layout, dark interlink banner, split card, and flush media gallery.",
+"headerQuote": "Craft lives in the quiet discipline of every detail working in harmony.",
+"author": "Sree Jith",
+"readTime": "12 MIN READ",
+"publishDate": "2026-11-10",
+"tags": ["#HERITAGE", "#CRAFT", "#FIELDNOTES"],
+"categories": ["culture", "nature", "bespoke"],
+"topics": ["#HERITAGE", "#CRAFT", "#FIELDNOTES", "#KERALA"],
+"image": "/images/journal/journal1.webp",
+"alt": "Master weaver working on a traditional handloom in central Kerala"
+},
+"blocks": [
+{
+"type": "text",
+"id": "typography-and-rich-text",
+"eyebrow": "SECTION 01 · GOLD EYEBROW (LEVEL 1) + H2 TOC ANCHOR",
+"eyebrowLevel": 1,
+"title": "Typography Scales & Inline Rich-Text Palette",
+"titleLevel": 1,
+"paragraphs": [
+{
+"level": 1,
+"text": "This opening paragraph uses Level 1 (Hero Lead Scale). Along the Bharathapuzha river corridor, field researchers work with journey-deep, intention-blue, action-blue, dark-gold, and intention-gold spans—connecting readers to curated regional itineraries or jumping smoothly via zero-hash triggers to all six dark interlink banners."
+},
+{
+"level": 2,
+"text": "This second paragraph uses Level 2 (Standard Editorial Body Scale), demonstrating earthen accents including terracotta, deep-forest, spiced-copper, dark-peach, and muted archival annotations alongside 14th-century inscriptions and bell-metal alloys (Cu78Sn22)."
+},
+{
+"level": 3,
+"text": "This third paragraph uses Level 3 (Compact Subparagraph / Archival Note Scale)—ideal for field timestamps, botanical citations, and understated contextual asides."
+}
+]
+},
+{
+"type": "text",
+"eyebrow": "BLUE EYEBROW (LEVEL 2) · H3 SUBSECTION (NON-TOC)",
+"eyebrowLevel": 2,
+"title": "Unordered Gold Checkmark List with Titled Entries",
+"titleLevel": 2,
+"paragraphLevel": 2,
+"paragraphs": [
+"Setting titleLevel: 2 renders an H3 subsection heading without adding an extra entry to the sticky Sidebar Table of Contents:"
+],
+"list": {
+"type": "unordered",
+"level": 2,
+"items": [
+{
+"title": "Heirloom Kalluvally Pepper:",
+"text": "Hand-harvested on bamboo ladders across shaded Wayanad forest gardens each January."
+},
+{
+"title": "High-Tin Bell Metal (Vengalam):",
+"text": "Lost-wax ceremonial lamps cast individually by hereditary smiths in Kunhimangalam."
+},
+{
+"title": "Unbleached Kasavu Cotton:",
+"text": "Fine 80s-count warps sized outdoors with fermented rice starch and coconut oil."
+}
+]
+}
+},
+{
+"type": "text",
+"eyebrow": "MINOR SUBSECTION · H4 (TITLE LEVEL 3)",
+"eyebrowLevel": 2,
+"title": "Ordered Tabular Sequence List",
+"titleLevel": 3,
+"paragraphLevel": 2,
+"paragraphs": [
+"Setting titleLevel: 3 renders a compact H4 heading paired here with a staggered numbered sequence:"
+],
+"list": {
+"type": "ordered",
+"level": 2,
+"items": [
+"Morning River Rinse: Raw cotton hanks are washed in soft river water before sunrise.",
+"Lane Stretching: Forty-yard warps are tensioned between granite posts along shaded village streets.",
+"Natural Brush Sizing: Twin artisans walk the warp with palmyra-fibre brushes to seal every thread.",
+"Pit-Loom Drafting: Extra-weft temple borders are lifted pick by pick from family memory."
+]
+}
+},
+{
+"type": "quote",
+"variant": "boxed",
+"theme": "cream",
+"text": "Places tell you where you are. Stories tell you how it was. People tell you why it matters.",
+"quoteAuthor": "Sree Jith",
+"quoteRole": "Boxed Quote · Cream / Gold Theme"
+},
+{
+"type": "quote",
+"variant": "boxed",
+"theme": "blue",
+"text": "To travel by country canoe is to read an estuary at the speed of the lunar tide rather than the highway.",
+"quoteAuthor": "Malabar Estuary Dispatch",
+"quoteRole": "Boxed Quote · Coastal Blue Theme"
+},
+{
+"type": "quote",
+"variant": "boxed",
+"theme": "mixed",
+"text": "Every handwoven border carries the quiet signature of a watershed, a harvest season, and a household’s spoken memory.",
+"quoteAuthor": "Sree Jith",
+"quoteRole": "Boxed Quote · Mixed Multi-Tone Theme"
+},
+{
+"type": "quote",
+"variant": "border",
+"theme": "cream",
+"text": "When travellers sit beside our pit loom and understand the count of the cotton, they no longer bargain—they become lifelong patrons of our family’s name.",
+"quoteAuthor": "Narayanan Master",
+"quoteRole": "Left-Border Pull-Quote · Gold Theme"
+},
+{
+"type": "quote",
+"variant": "border",
+"theme": "blue",
+"text": "When patronage flows directly to the courtyard studio, young apprentices see a dignified future in inherited craft.",
+"quoteAuthor": "Field Notes · Malabar Guilds",
+"quoteRole": "Left-Border Pull-Quote · Blue Theme"
+},
+{
+"type": "text",
+"id": "callouts-and-highlights",
+"eyebrow": "SECTION 02 · INFORMATIONAL MODULES",
+"title": "Flat Callout Boxes & Highlights Variations",
+"titleLevel": 1,
+"paragraphs": [
+{
+"level": 2,
+"text": "Callout blocks sit flat inside the editorial column in either Cream or Blue tints, supporting any combination of headers, rich-text paragraphs, titled checkmark lists, and titled numbered lists."
+}
+]
+},
+{
+"type": "callout",
+"theme": "cream",
+"eyebrow": "CREAM DUAL-LIST BRIEFING",
+"title": "Visiting Working Craft Ateliers",
+"subtitle": "Practical rhythms & cultural etiquette along the Nila basin",
+"text": "Master weavers and bell-metal smiths welcome guests into active domestic courtyards rather than staged showrooms. Planning around morning light and monsoon humidity ensures an unhurried exchange.",
+"unorderedList": {
+"title": "What to Keep in Mind",
+"level": 3,
+"items": [
+"Footwear is customarily left at the outer stone step (padippura) before entering loom verandahs.",
+"Ask your host scholar before photographing sacred warp motifs or family shrines.",
+"Carry breathable cotton attire suited for warm charcoal-and-clay casting sheds."
+]
+},
+"orderedList": {
+"title": "How a Hosted Studio Dialogue Unfolds",
+"level": 3,
+"items": [
+"Morning Tea & Context: Arrive before 9:30 AM when street-sizing and loom drafting are active.",
+"Material Walkthrough: Examine raw hank cotton, natural dyestuffs, and pure kasavu threads alongside the maker.",
+"Direct Patronage: Commission bespoke weaves directly from the household ledger with zero intermediary markup."
+]
+}
+},
+{
+"type": "callout-note",
+"theme": "blue",
+"eyebrow": "BLUE RESEARCH NOTE",
+"title": "Seasonal Ritual Calendar of North Malabar",
+"paragraphs": [
+"Sacred grove invocations across Kannur and Kasaragod follow the traditional solar calendar (Kollavarsham), opening after the northeast rains in late October."
+],
+"unorderedList": {
+"title": "Field Protocol",
+"level": 2,
+"items": [
+{
+"title": "Accompanied Entry:",
+"text": "Visits are hosted by community custodians who contextualize oral lineages."
+},
+{
+"title": "Intimate Scale:",
+"text": "Courtyard gatherings are capped at four travellers to preserve sanctity."
+}
+]
+}
+},
+{
+"type": "highlights",
+"title": "Compact Highlights Shorthand (Default Blue Surface)",
+"items": [
+"Cap studio visits at two small groups per week per household to prevent host fatigue.",
+"Separate educational honorariums from retail sales so artisans never feel pressured to perform.",
+"Maintain long-term post-journey shipping support for bespoke slow-woven commissions."
+]
+},
+{
+"type": "text",
+"id": "split-cards-and-media",
+"eyebrow": "SECTION 03 · VISUAL STORYTELLING",
+"title": "Split Image Cards & Flush Media Galleries",
+"titleLevel": 1,
+"paragraphs": [
+{
+"level": 2,
+"text": "Only image-split uses a framed card shell (in light, cream, or blue); YouTube features, sliders, and masonry galleries sit flush on the journal canvas and share the global full-screen Lightbox."
+}
+]
+},
+{
+"type": "image-split",
+"theme": "light",
+"imageCols": 6,
+"aspectRatio": "4:3",
+"imagePosition": "left",
+"verticalAlign": "center",
+"eyebrow": "DEFAULT 6/6 LIGHT SPLIT · CENTER ALIGNED",
+"title": "Estuary Tides & Timber Dhows",
+"text": "Along the river mouths of northern Kerala, shipwrights still join seasoned Malabar teak planks using hand-spun coir cordage and natural fish oils—Click the photograph to inspect full-screen Lightbox zoom.",
+"image": "/images/journal/journal2.webp",
+"imageAlt": "Traditional waterways and timber boat craftsmanship in Malabar",
+"caption": "Hand-joined Malabar teak hull resting along the Beypore estuary."
+},
+{
+"type": "image-split",
+"theme": "blue",
+"imageCols": 5,
+"aspectRatio": "3:4",
+"imagePosition": "right",
+"mobileOrder": "image-first",
+"verticalAlign": "top",
+"eyebrow": "5/7 BLUE SPLIT · STICKY RIGHT PORTRAIT (3:4)",
+"title": "The Quiet Geometry of Street-Sizing",
+"image": "/images/home/solo-portrait.webp",
+"imageAlt": "Morning warp preparation in a Kuthampully weaver lane",
+"caption": "Sticky desktop tracking keeps this 3:4 portrait anchored beside multi-paragraph prose.",
+"paragraphs": [
+"Long before pit looms begin their rhythmic clatter indoors, entire lanes wake together to stretch forty-yard cotton warps between granite posts.",
+"Walking slowly with two master brush-makers reveals how tactile memory guides every pass—adjusting tension by hand as humidity shifts across the valley.",
+"Because guests arrive in groups of two or three rather than tour coaches, conversations unfold naturally over black chukku kaapi without interrupting morning work."
+]
+},
+{
+"type": "image-split",
+"theme": "cream",
+"imageCols": 4,
+"aspectRatio": "2:3",
+"imagePosition": "left",
+"mobileOrder": "text-first",
+"verticalAlign": "top",
+"eyebrow": "4/8 CREAM SPLIT · TALL 2:3 PORTRAIT · TEXT-FIRST MOBILE",
+"title": "Shade-Grown Highland Botanicals",
+"image": "/images/itineraries/dummy3.webp",
+"imageAlt": "Heirloom spice vines climbing native forest canopy trees in Wayanad",
+"paragraphs": [
+"In Wayanad’s multi-storey forest gardens, heirloom pepper vines climb native jackfruit and silver oak trees alongside wild nutmeg and cardamom.",
+"On mobile screens, mobileOrder: 'text-first' introduces the editorial heading before revealing the tall 2:3 botanical frame."
+]
+},
+{
+"type": "youtube",
+"eyebrow": "FLUSH YOUTUBE FEATURE",
+"title": "Field Dispatch: Living Waterways & Craft Corridors",
+"text": "Sits flush on the journal canvas with blur-in entrance motion and rich-text caption support.",
+"video": {
+"videoId": "4KtLGaNl9VQ",
+"thumbnail": "/images/home/travel-video.webp",
+"alt": "Moving editorial travel impressions across cultural landscapes",
+"width": 1280,
+"height": 720
+},
+"caption": "Ambient field recording captured during morning harvest transitions."
+},
+{
+"type": "slider",
+"eyebrow": "FLUSH THUMBNAIL SLIDER",
+"title": "Selected Landscapes & Courtyard Stays",
+"width": 1200,
+"height": 800,
+"autoplay": false,
+"interval": 5000,
+"captionMob": false,
+"captionPc": true,
+"images": [
+{
+"src": "/images/journal/journal1.webp",
+"alt": "Master weaver working on a traditional pit loom",
+"caption": "Morning warp drafting inside a Kuthampully household studio."
+},
+{
+"src": "/images/journal/journal3.webp",
+"alt": "Palm-lined backwater canal in Kerala at dusk",
+"caption": "Quiet backwater channels navigated by wooden country canoe."
+},
+{
+"src": "/images/impact/impact2.webp",
+"alt": "Regenerative spice garden trail in the Western Ghats",
+"caption": "Multi-crop spice agroforestry buffering highland watersheds."
+},
+{
+"src": "/images/home/forest-landscape.webp",
+"alt": "Misty shola forest canopy at sunrise",
+"caption": "First light filtering across Western Ghats cloud forests."
+}
+]
+},
+{
+"type": "horizontal-slider",
+"eyebrow": "FLUSH VARIABLE-WIDTH HORIZONTAL SLIDER",
+"title": "Frames Across the Malabar Coast",
+"paragraph": "Seamlessly combines portrait (600x900) and landscape (1440x960) frames at a unified 400px row height.",
+"sliderHeight": 400,
+"innerRounding": false,
+"images": [
+{
+"src": "/images/itineraries/dummy1.webp",
+"alt": "Sacred ritual preparation at dawn in North Malabar",
+"width": 600,
+"height": 900,
+"caption": "Natural pigment preparation before the dawn invocation."
+},
+{
+"src": "/images/home/journey-pc.webp",
+"alt": "Traditional wooden kettuvallam gliding across quiet backwaters",
+"width": 1440,
+"height": 960,
+"caption": "Late afternoon light on the Vembanad canals."
+},
+{
+"src": "/images/home/forest-portrait.webp",
+"alt": "Tall monsoon forest trees in Kerala highlands",
+"width": 600,
+"height": 900,
+"caption": "Shaded rainforest footpaths above the Malabar plains."
+},
+{
+"src": "/images/journal/journal4.webp",
+"alt": "Handwoven kasavu cotton border on the loom",
+"width": 1200,
+"height": 800,
+"caption": "Pure gold-dipped kasavu border woven pick by pick."
+},
+{
+"src": "/images/itineraries/dummy8.webp",
+"alt": "Courtyard architecture detail in South India",
+"width": 600,
+"height": 900,
+"caption": "Carved timber pillars framing a rain-washed courtyard."
+}
+]
+},
+{
+"type": "masonry",
+"eyebrow": "FLUSH 3-COLUMN MASONRY GALLERY",
+"title": "Textures of the River Basin",
+"maxCols": 3,
+"captionMob": false,
+"captionPc": false,
+"images": [
+{
+"src": "/images/home/journey-pc1.webp",
+"alt": "Estuary crossing by wooden ferry at dawn",
+"width": 1200,
+"height": 800,
+"caption": "Dawn ferry crossing along quiet northern waterways."
+},
+{
+"src": "/images/home/journey-mob1.webp",
+"alt": "Forest-edge spice walk near Periyar",
+"width": 800,
+"height": 1050,
+"caption": "Forest-edge walks and spice-garden interpretation."
+},
+{
+"src": "/images/impact/impact5.webp",
+"alt": "Artisan hands preparing natural cotton hanks",
+"width": 1200,
+"height": 800,
+"caption": "Sun-bleached cotton hanks ready for rice-starch sizing."
+},
+{
+"src": "/images/itineraries/dummy5.webp",
+"alt": "Heritage laterite steps leading to a temple tank",
+"width": 800,
+"height": 1050,
+"caption": "Moss-softened laterite ghats descending to a village kulam."
+}
+]
+},
+{
+"type": "masonry",
+"maxCols": 1,
+"image": "/images/home/solo-landscape.webp",
+"imageAlt": "Wide panorama of Western Ghats hills at golden hour",
+"caption": "Single Full-Width Photograph Shorthand (type: 'masonry' with maxCols: 1 and flat image)."
+},
+{
+"type": "text",
+"id": "contextual-dark-banners",
+"eyebrow": "SECTION 04 · INTERLINKING ENGINE",
+"title": "All Six Contextual Dark Interlink Banners",
+"titleLevel": 1,
+"paragraphs": [
+{
+"level": 2,
+"text": "Below are all six preset dark worlds—five using zero-config defaults and the sixth demonstrating full client copy and deep-link overrides."
+}
+]
+},
+{
+"type": "cta-banner",
+"bannerType": "plan"
+},
+{
+"type": "cta-banner",
+"bannerType": "itineraries"
+},
+{
+"type": "cta-banner",
+"bannerType": "partner"
+},
+{
+"type": "cta-banner",
+"bannerType": "impact"
+},
+{
+"type": "cta-banner",
+"bannerType": "about"
+},
+{
+"type": "cta-banner",
+"bannerType": "contact"
+},
+{
+"type": "cta-banner",
+"bannerType": "itineraries",
+"eyebrow": "CUSTOM OVERRIDE EXAMPLE",
+"title": "Walk the Loom Villages of Central Kerala",
+"text": "Every preset supports custom eyebrow, title, description, button label, and deep-link routing.",
+"ctaLabel": "VIEW COLLABORATED ROUTES",
+"to": "/itineraries/collaborated"
+},
+{
+"type": "text",
+"eyebrow": "FURTHER READING",
+"eyebrowLevel": 2,
+"title": "Divided Archival Resource List",
+"titleLevel": 2,
+"paragraphs": [
+{
+"level": 2,
+"text": "Ideal at the close of an essay or case study for linking external archives and companion dispatches:"
+}
+],
+"list": {
+"type": "divided",
+"items": [
+{
+"title": "Kerala Responsible Tourism Mission: Village Life Experiences",
+"text": "Documentation of community-led craft circuits and rural livelihoods across Kerala."
+},
+{
+"title": "UNESCO Intangible Cultural Heritage Archives",
+"text": "Primary records on South India’s living ritual traditions, Sanskrit theatre, and oral lineages."
+},
+{
+"title": "Companion Dispatch: Restoring the Handloom Corridor of Kuthampully",
+"text": "How direct atelier visits increased weaver household revenue by 65% over two seasons."
+}
+]
+}
+},
+{
+"type": "author-profile"
+},
+{
+"type": "author-profile",
+"theme": "blue",
+"eyebrow": "CURATOR & FIELD LEAD (BLUE VARIATION)",
+"title": "Sree Jith",
+"text": "Custom blue-themed author card override with square avatar portrait and project-specific field context.",
+"image": "/images/testimonials/avatar.webp",
+"imageAlt": "Sree Jith portrait"
+}
+]
+}

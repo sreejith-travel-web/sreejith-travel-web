@@ -473,11 +473,12 @@ onBeforeUnmount(() => {
           >
             <ItineraryCard
               :item="slideObj.item"
-              :eager="sIdx >= CLONE_COUNT && sIdx < CLONE_COUNT + 3"
-            />
+              :eager="false"
+              />
+            </div>
           </div>
         </div>
-      </div>
+        <!-- :eager="sIdx >= CLONE_COUNT && sIdx < CLONE_COUNT + 3" -->
 
       <!-- 3. FOOTER CONTROLS, QUOTE & CTA -->
       <div class="relative z-10 w-full flex flex-col items-center text-center">

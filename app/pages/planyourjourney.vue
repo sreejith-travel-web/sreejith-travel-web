@@ -715,7 +715,7 @@ const pageData = {
             'We discuss availability, responsibilities, and commercial arrangements before any commitment.'
           ],
           ctaLabel: 'Collaborate with us',
-          ctaTo: '/partner',
+          ctaTo: '/network',
           secondaryCtaLabel: 'Back to Home',
           secondaryCtaTo: '/'
         }

@@ -1,12 +1,21 @@
 <!-- ~/app/pages/itineraries/[...slug].vue -->
 <script setup lang="ts">
-import { ref, computed, watch, onMounted, onActivated, nextTick } from 'vue'
+import {
+  ref,
+  computed,
+  watch,
+  onMounted,
+  onActivated,
+  onDeactivated,
+  nextTick
+} from 'vue'
 import { useRoute, useAsyncData, createError } from '#imports'
 import PageHero from '~/components/PageHero.vue'
 import InnerPageHeader from '~/components/InnerPageHeader.vue'
 import ItineraryFeatured from '~/components/ItineraryFeatured.vue'
 import ItinerarySingleView from '~/components/ItinerarySingleView.vue'
 import { useTravelSeo } from '~/composables/useTravelSeo'
+import { useSessionScroll } from '~/composables/useSessionScroll'
 import type {
   ItineraryMeta,
   ItineraryCategoryId,
@@ -15,6 +24,12 @@ import type {
 import type { ItineraryTabFilter } from '~/components/ItineraryListing.vue'
 
 const route = useRoute()
+const {
+  hasSavedScrollPosition,
+  setActiveRouteAlias,
+  saveItinerariesArchiveState,
+  getItinerariesArchiveState
+} = useSessionScroll()
 
 const VALID_CATEGORIES: ItineraryCategoryId[] = [
   'nature',
@@ -47,18 +62,63 @@ const isArchiveRoute = computed<boolean>(() => {
 const activeTab = ref<ItineraryTabFilter>('signature')
 const selectedCategories = ref<ItineraryCategoryId[]>([])
 const shouldScrollToFilterOnMount = ref(false)
+const isPageActive = ref(true)
+
+const resolveArchiveAliasUrl = (): string => {
+  if (activeTab.value === 'categories') {
+    if (selectedCategories.value.length === 1) {
+      return `/itineraries/categories/${selectedCategories.value[0]}`
+    }
+    return '/itineraries/categories'
+  }
+  return `/itineraries/${activeTab.value}`
+}
+
+const persistArchiveSessionState = (aliasUrl: string) => {
+  setActiveRouteAlias(aliasUrl)
+  saveItinerariesArchiveState({
+    activeTab: activeTab.value,
+    selectedCategories: selectedCategories.value,
+    aliasPath: aliasUrl
+  })
+}
+
+const syncBrowserUrl = () => {
+  if (!import.meta.client) return
+  const targetUrl = resolveArchiveAliasUrl()
+  window.history.replaceState({ ...window.history.state }, '', targetUrl)
+  persistArchiveSessionState(targetUrl)
+}
 
 const syncFilterStateFromRoute = () => {
   if (!isArchiveRoute.value) return
 
   if (!slug0.value) {
+    const savedArchive = getItinerariesArchiveState()
+    if (savedArchive) {
+      activeTab.value = savedArchive.activeTab
+      selectedCategories.value = [...savedArchive.selectedCategories]
+      shouldScrollToFilterOnMount.value = false
+      if (import.meta.client) {
+        window.history.replaceState(
+          { ...window.history.state },
+          '',
+          savedArchive.aliasPath
+        )
+        setActiveRouteAlias(savedArchive.aliasPath)
+      }
+      return
+    }
+
     activeTab.value = 'signature'
     selectedCategories.value = []
     shouldScrollToFilterOnMount.value = false
+    persistArchiveSessionState('/itineraries')
     return
   }
 
-  shouldScrollToFilterOnMount.value = true
+  // Only auto-scroll to workspace if this specific deep link hasn't been visited yet
+  shouldScrollToFilterOnMount.value = !hasSavedScrollPosition(route.path)
 
   if (slug0.value === 'signature' || slug0.value === 'collaborated') {
     activeTab.value = slug0.value
@@ -74,6 +134,8 @@ const syncFilterStateFromRoute = () => {
     activeTab.value = 'categories'
     selectedCategories.value = [slug0.value as ItineraryCategoryId]
   }
+
+  persistArchiveSessionState(route.path)
 }
 
 syncFilterStateFromRoute()
@@ -100,7 +162,11 @@ const ensureArchiveItemsLoaded = async () => {
 }
 
 // 2. Fetch Single Itinerary + Pre-Resolved 3 Related Cards (Only on Slug Routes)
-const { data: singleRecord, error: singleError } = await useAsyncData<ItinerarySinglePayload | null>(
+const {
+  data: singleRecord,
+  error: singleError,
+  status: singleStatus
+} = await useAsyncData<ItinerarySinglePayload | null>(
   () => `itinerary-single-${slug0.value || 'index'}`,
   (): Promise<ItinerarySinglePayload | null> =>
     !isArchiveRoute.value && slug0.value
@@ -118,6 +184,17 @@ if (!isArchiveRoute.value && (singleError.value || !singleRecord.value)) {
     fatal: true
   })
 }
+
+watch(singleStatus, (status) => {
+  if (!isPageActive.value || isArchiveRoute.value) return
+  if (status === 'error' && singleError.value) {
+    throw createError({
+      statusCode: 404,
+      statusMessage: `Itinerary "${slug0.value}" Not Found`,
+      fatal: true
+    })
+  }
+})
 
 // 3. Archive SEO
 if (isArchiveRoute.value) {
@@ -147,31 +224,17 @@ const pageData = {
     eyebrow: 'BESPOKE CIRCUITS',
     titleMain: 'Journeys Designed',
     titleItalic: 'Around Your Rhythm',
-    intro: 'Explore handcrafted Signature circuits and Collaborated regional routes across South India and the subcontinent.',
+    intro:
+      'Explore handcrafted Signature circuits and Collaborated regional routes across South India and the subcontinent.',
     imageDesktop: '/images/fallbacks/culture.webp',
     imageMobile: '/images/fallbacks/culture.webp',
     alt: 'Bespoke itineraries across India'
   },
   intro: {
-    eyebrow: 'EXPLORING BEYOND DESTINATIONS',
-    titleLine1: 'Meaningful for the person.',
-    titleLine2Cursive: 'Mindful of the place.',
-    description: 'Whether you seek the deep cultural immersion of our Signature Journeys, the specialist perspective of our Collaborated Routes, or wish to begin by selecting the travel styles that move you—every itinerary is shaped with quiet care.'
-  }
-}
-
-const syncBrowserUrl = () => {
-  if (!import.meta.client) return
-
-  if (activeTab.value === 'categories') {
-    if (selectedCategories.value.length === 1) {
-      window.history.replaceState({}, '', `/itineraries/categories/${selectedCategories.value[0]}`)
-    } else {
-      window.history.replaceState({}, '', '/itineraries/categories')
-    }
-  } else {
-    window.history.replaceState({}, '', `/itineraries/${activeTab.value}`)
-  }
+    subtitle: 'Meaningful for the person. Mindful of the place.',
+    paragraph:
+      'Whether you seek the deep cultural immersion of our Signature Journeys, the specialist perspective of our Collaborated Routes, or wish to begin by selecting the travel styles that move you—every itinerary is shaped with quiet care.'
+  },
 }
 
 const handleTabUpdate = (newTab: ItineraryTabFilter) => {
@@ -196,35 +259,50 @@ const handleClearFilters = () => {
 }
 
 const scrollToFilterWorkspace = () => {
-  if (!import.meta.client) return
+  if (!import.meta.client || !isPageActive.value) return
   const el = document.getElementById('find-your-journey')
   if (el) {
     const y = el.getBoundingClientRect().top + window.scrollY - 90
-    window.scrollTo({ top: y, behavior: 'smooth' })
+    window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' })
   }
+}
+
+const maybeScrollToFilterWorkspace = () => {
+  if (!shouldScrollToFilterOnMount.value) return
+  shouldScrollToFilterOnMount.value = false
+  nextTick(() => {
+    // Runs cleanly right after app.vue's 550ms route curtain lifts
+    setTimeout(scrollToFilterWorkspace, 620)
+  })
 }
 
 watch(
   () => route.path,
   async () => {
+    if (!isPageActive.value) return
     syncFilterStateFromRoute()
     if (isArchiveRoute.value) {
       await ensureArchiveItemsLoaded()
+      maybeScrollToFilterWorkspace()
     }
   }
 )
 
 onMounted(async () => {
+  isPageActive.value = true
   await ensureArchiveItemsLoaded()
-  if (shouldScrollToFilterOnMount.value) {
-    nextTick(() => {
-      setTimeout(scrollToFilterWorkspace, 350)
-    })
-  }
+  maybeScrollToFilterWorkspace()
 })
 
 onActivated(async () => {
+  isPageActive.value = true
+  syncFilterStateFromRoute()
   await ensureArchiveItemsLoaded()
+  maybeScrollToFilterWorkspace()
+})
+
+onDeactivated(() => {
+  isPageActive.value = false
 })
 </script>
 

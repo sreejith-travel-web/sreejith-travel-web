@@ -54,7 +54,7 @@
             <li><NuxtLink to="/" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Home</NuxtLink></li>
             <li><NuxtLink to="/about" class="hover:text-warm-gold active:text-heritage-gold transition-colors">About</NuxtLink></li>
             <li><NuxtLink to="/itineraries" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Itineraries</NuxtLink></li>
-            <li><NuxtLink to="/partner" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Partner</NuxtLink></li>
+            <li><NuxtLink to="/network" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Network</NuxtLink></li>
             <li><NuxtLink to="/impact" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Impact</NuxtLink></li>
             <li><NuxtLink to="/journal" class="hover:text-warm-gold active:text-heritage-gold transition-colors">Journal</NuxtLink></li>
             <li><NuxtLink to="/faq" class="hover:text-warm-gold active:text-heritage-gold transition-colors">FAQ</NuxtLink></li>

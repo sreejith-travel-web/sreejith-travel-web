@@ -1,0 +1,532 @@
+{
+  "meta": {
+    "id": "jrn-story-009",
+    "slug": "a-meal-we-didnt-know-we-were-waiting-for",
+    "category": "stories",
+    "type": "stories",
+    "subcategory": "travel-experiences",
+    "subcategoryLabel": "TRAVEL EXPERIENCES",
+    "contentTypeLabel": "STORY",
+    "categoryLabel": "STORY · TRAVEL EXPERIENCES",
+    "featured": true,
+    "title": "A Meal We Didn't Know We Were Waiting For",
+    "excerpt": "A travel curator and a home cook develop a small Kerala kitchen experience. But the most meaningful part of the meal is something neither of them can schedule.",
+    "headerQuote": "We came to learn a dish. We stayed long enough to understand the table.",
+    "author": "Sree Jith",
+    "readTime": "18 MIN READ",
+    "publishDate": "2026-11-11",
+    "tags": [
+      "#CULINARYTRAVEL",
+      "#TRAVELEXPERIENCES",
+      "#KERALA"
+    ],
+    "categories": [
+      "culture",
+      "bespoke",
+      "stays"
+    ],
+    "topics": [
+      "#CULINARYTRAVEL",
+      "#TRAVELEXPERIENCES",
+      "#KERALA",
+      "#LOCALHOSTS",
+      "#EXPERIENCEDESIGN"
+    ],
+    "image": "/images/journal/journal3.webp",
+    "alt": "Landscape editorial travel image introducing an illustrative Kerala home-cooking experience"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "a-note-at-the-top-of-the-brief",
+      "title": "A Note at the Top of the Brief",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "A CURATOR’S STORY · ONE KITCHEN, ONE AFTERNOON",
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "The first line of Dev’s notebook was not a menu. It was a question: <i>What would make this worth Maya’s afternoon?</i> He had come to meet her about a small cooking experience for three travellers visiting Kerala. The idea sounded simple enough when described on the telephone: a local meal, a few ingredients prepared together, an opportunity to learn something about a household’s everyday cooking. He arrived with a notebook, a rough time slot, and the confidence of someone accustomed to making arrangements. Within ten minutes, he realised the arrangement would need to begin somewhere else."
+        },
+        {
+          "level": 2,
+          "text": "Maya had laid three things on the kitchen table: a steel bowl of beans, a small mound of grated coconut, and an old chopping board whose pale surface showed years of use. Outside, the afternoon had turned the leaves an almost luminous green. She moved the bowl aside so Dev could put his notebook down. ‘Before you decide what guests will do,’ she said, ‘tell me what they think they are coming for.’ He repeated the phrase he had used in the proposal: an authentic home-cooking experience. Maya gave him a look that was not unfriendly. ‘Authentic to whom?’ she asked."
+        },
+        {
+          "level": 2,
+          "text": "It was a good question, and Dev did not pretend to answer quickly. He looked at the ingredients, at the narrow working space near the stove, and at the small courtyard beyond the open door. He could already imagine a beautiful paragraph about the scent of curry leaves. But he had not yet learned where the guests would sit, whether Maya wanted to teach, or how much of her family’s ordinary afternoon she wished to share. For once, the best thing he could do with his notebook was to leave half the page empty."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "title": "About This Story",
+      "eyebrow": "EDITORIAL TRANSPARENCY",
+      "text": "This is an illustrative, fictional account of experience design. Dev, Maya, the guests, their dialogue, and this particular meal are invented. The setting draws on broad Kerala home-cooking traditions, but the article does not document a real household, tour, booking, or Sreejith Travel collaboration. Site-library images are editorial illustrations, not photographs of these characters."
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "cream",
+      "text": "Before the visitors could be welcomed into the kitchen, the kitchen had to remain Maya’s.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "From this illustrative narrative"
+    },
+    {
+      "type": "text",
+      "id": "a-menu-is-not-an-experience",
+      "title": "A Menu Is Not an Experience",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "01 · THE IDEA GETS SMALLER",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Dev had initially imagined a long list of dishes. It would look generous on the itinerary: several regional preparations, an elaborate tasting, maybe a dessert with a story attached. Maya looked at the list and asked him to read the time available. Two hours, he told her. She asked how much of that would be eaten, how much spent learning, and whether he intended to include washing up. He turned the page. Suddenly the list looked less like hospitality and more like unpaid overtime."
+        },
+        {
+          "level": 2,
+          "text": "‘I can cook all these,’ Maya said. ‘That is not the question. Which part do you want them to understand?’ She pointed at the beans and coconut. A <i>thoran</i>—a vegetable preparation that often brings grated coconut into the pan—could be explained through simple choices: how finely the beans were cut, how much moisture remained, when the coconut was added, how the mustard seeds and curry leaves changed the aroma. The meal could include rice and a gently spiced curry she would prepare in advance. The guests might join in one safe, manageable task and then sit down together. There would be enough to eat, without turning every burner into a demonstration."
+        },
+        {
+          "level": 2,
+          "text": "The revised menu was shorter. It was also more honest about whose cooking it would represent. Maya’s recipes were hers. Other households, regions, and families might prepare similar ingredients differently. Dev crossed out the line promising ‘the definitive taste of Kerala’ and wrote instead: <strong>a hosted introduction to one cook’s everyday kitchen</strong>. The experience became more specific as the language became less extravagant."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "title": "A Working Kitchen, Not a Stage",
+      "theme": "cream",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "image": "/images/journal/journal4.webp",
+      "imageAlt": "Editorial travel photograph accompanying a working kitchen, not a stage",
+      "paragraphs": [
+        "The imagined experience begins with a simple boundary: the host keeps control of her workplace. She chooses what can be touched, what should be observed, and how many guests can take part without making the preparation harder.",
+        "There is room for curiosity, but no need to make a domestic routine theatrical. The best moment may be a small explanation offered while cooking continues—not a performance arranged for the camera."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-rules-that-make-room-for-warmth",
+      "title": "The Rules That Make Room for Warmth",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "02 · DESIGNING A FAIR INVITATION",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "They spent the next hour discussing details that would never appear in the romantic description of the meal. Three guests, not eight. A firm arrival window, not an open-ended drop-in. A single preparation at the table, while Maya handled hot pans and knives near the stove. No photographs of private rooms; no filming without a clear invitation. The guests would be told in advance that this was a household rather than a restaurant, and that some moments might be observed rather than participated in. They would arrive knowing a little about the setting and with their dietary preferences communicated beforehand."
+        },
+        {
+          "level": 2,
+          "text": "Then came the part Dev was glad Maya brought up first: payment. An agreed hosting fee would cover planning, shopping, preparation, teaching time, ingredients, and cleaning. It would not depend on whether the guests bought anything, left a tip, or posted a glowing review. If a booking was cancelled late, the terms needed to account for food already purchased and hours already committed. Dev made a neat column for it, surprised by how much better the proposal looked once the invisible labour had a place in the budget."
+        },
+        {
+          "level": 2,
+          "text": "‘I don’t want it to become something I dread,’ Maya said. She did not say this dramatically. She said it while putting the bowl of beans back on the counter. Dev realised that the most useful design question was not simply whether guests would enjoy the experience. It was whether Maya would be comfortable welcoming another group next month. The answer would depend less on enthusiastic words than on limits that were respected."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "title": "The Agreement Behind the Invitation",
+      "eyebrow": "CURATOR’S WORKING NOTES",
+      "text": "Within this fictional planning scenario, the curator and host make practical choices before creating a guest-facing itinerary.",
+      "unorderedList": {
+        "level": 3,
+        "items": [
+          "A small guest cap and a clearly defined beginning and end.",
+          "Host-approved activities, with hot equipment and private areas remaining off limits.",
+          "Dietary information shared ahead of time; any restrictions the host cannot accommodate are disclosed before booking.",
+          "A fee covering preparation, ingredients, hosting, and cleaning—not just time at the table.",
+          "Photographs and social posts only within boundaries agreed by the people present.",
+          "A clear alternative if the host needs to postpone or withdraw."
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "three-guests-and-a-carefully-open-door",
+      "title": "Three Guests and a Carefully Open Door",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "03 · ARRIVAL, WITHOUT A SCRIPT",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "On the day of the visit, Dev arrived early enough to notice what he had forgotten in his first plan. The kitchen was already busy. A pot rested near the stove, the rice had been measured, and Maya was looking at the sky as if it might have something to say about the afternoon. Dev offered to move the chairs to the courtyard. She shook her head. ‘Keep them inside for now. That rain will come.’ It was the kind of correction that did not sound like expertise until the first drops began tapping on the roof."
+        },
+        {
+          "level": 2,
+          "text": "The three guests were not particularly adventurous cooks. Tara loved tasting new food but rarely cooked at home. Her brother Nikhil liked recipes and thought he might remember every instruction. Their friend Farah had joined the trip because she wanted time away from screens, though she had immediately asked whether the visit would include a view. Dev had spoken to them about the meal in advance and explained that they were entering a working home on Maya’s terms. He had also checked the planned ingredients against the preferences they shared, without promising that any home kitchen could manage restrictions it had not explicitly agreed to handle."
+        },
+        {
+          "level": 2,
+          "text": "They arrived just after the rain started. Farah paused beneath the eaves to shake the water from her umbrella. Nikhil was looking at the little preparation table. Tara, who had expected a formal introduction, smiled when Maya simply asked, ‘Would you like tea before we begin?’ All three said yes. The schedule, in which Dev had allocated five minutes for welcome and context, was already wrong in the most pleasant possible way."
+        }
+      ]
+    },
+    {
+      "type": "horizontal-slider",
+      "title": "The Kitchen’s Visual Rhythm",
+      "titleLevel": 2,
+      "sliderHeight": 360,
+      "innerRounding": false,
+      "captionMob": true,
+      "captionPc": true,
+      "eyebrow": "EDITORIAL FILMSTRIP · ILLUSTRATIVE IMAGES",
+      "images": [
+        {
+          "src": "/images/itineraries/dummy4.webp",
+          "alt": "Editorial travel photograph 1 in the the kitchen’s visual rhythm series",
+          "width": 400,
+          "height": 600,
+          "caption": "An editorial portrait frame to suggest the intimacy of a small-scale visit."
+        },
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Editorial travel photograph 2 in the the kitchen’s visual rhythm series",
+          "width": 600,
+          "height": 400,
+          "caption": "A landscape frame marking the shift from travel to a shared table."
+        },
+        {
+          "src": "/images/itineraries/dummy8.webp",
+          "alt": "Editorial travel photograph 3 in the the kitchen’s visual rhythm series",
+          "width": 400,
+          "height": 600,
+          "caption": "A closer visual pause for listening and participation."
+        },
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Editorial travel photograph 4 in the the kitchen’s visual rhythm series",
+          "width": 750,
+          "height": 500,
+          "caption": "A wider frame allowing the story to settle into its setting."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-first-task-was-not-cooking",
+      "title": "The First Task Was Not Cooking",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "04 · LEARNING WITH OUR HANDS",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Maya did not begin with a speech about the history of Kerala cuisine. She gave each guest a few beans and showed them how she liked the ends trimmed. ‘Not too much,’ she said, when Nikhil cut off a generous piece. He laughed and tried again. Tara moved her chair closer so she could see Maya’s hands. Farah asked whether she could stand by the window, where the light was better. Maya nodded, then quietly asked her to keep the walkway clear. No one took offence. They were being allowed to participate in a place that had an order of its own."
+        },
+        {
+          "level": 2,
+          "text": "At first they tried to be good students. Nikhil asked exact measurements. Maya answered when a measurement mattered, then described the texture she looked for when it did not. Tara wanted to know whether this was the correct way to cut the vegetables. ‘It is my way,’ Maya replied. ‘There are other ways.’ She showed them how the size of the pieces changed the feel of the finished dish. As the table accumulated neat little piles of chopped beans, the conversation moved from instructions to memories: whose grandmother disliked waste, who cooked slowly on weekends, who had grown up thinking that one family’s lunch was the only possible version."
+        },
+        {
+          "level": 2,
+          "text": "Dev stood near the doorway. He had expected his role to include constant interpretation, filling silences before guests became uncertain. But Maya was already guiding the conversation. When a question was unclear, she asked what the visitor meant. When the answer was simple, she gave a simple answer. The guest experience did not need a narrator at every turn. It needed someone who knew when to make space for the host’s own voice."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "blue",
+      "text": "The question was no longer how much they could learn in two hours. It was whether they could give one small lesson their full attention.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "From this illustrative narrative"
+    },
+    {
+      "type": "text",
+      "id": "a-recipe-has-room-for-judgment",
+      "title": "A Recipe Has Room for Judgment",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "05 · THE STORY INSIDE A SIMPLE DISH",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "By the time Maya warmed the pan, the rain had thickened into a steady sheet. She explained the next steps without turning the stove into a spectacle. The guests stayed back as she heated oil and let mustard seeds crackle. Curry leaves met the heat and gave off a fragrance that made Tara stop midsentence. Maya added the vegetables, adjusted the seasoning, and stirred with the confidence of someone who knew how the food should feel when it was nearly ready. She let the guests see and smell, but she did not hand over a hot utensil simply because they had paid to participate."
+        },
+        {
+          "level": 2,
+          "text": "Nikhil asked for the exact amount of grated coconut. Maya lifted a little between her fingers. ‘Today, this much,’ she said, and smiled at the difficulty that answer would create for his notes. It was not a refusal to teach. She explained that the vegetables were different from week to week, and that moisture changed what she added. Some cooking knowledge sits comfortably in a recipe; some is learned by noticing. Both belong in a kitchen, and neither needs to be declared superior."
+        },
+        {
+          "level": 2,
+          "text": "Farah asked what made the dish traditional. Maya considered the question while she stirred. ‘People make things and keep making them,’ she said. ‘But they also change.’ She mentioned that her own family adjusted spices for different people and occasions. There was no claim that every household in Kerala cooked in one uniform way. The most revealing thing about the dish was not its supposed purity. It was the freedom of a living cook to decide how it should taste on this particular afternoon."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "title": "The Aroma That Changed the Conversation",
+      "theme": "blue",
+      "imageCols": 5,
+      "aspectRatio": "2:3",
+      "imagePosition": "left",
+      "mobileOrder": "image-first",
+      "verticalAlign": "top",
+      "image": "/images/home/journey-mob1.webp",
+      "imageAlt": "Editorial travel photograph accompanying the aroma that changed the conversation",
+      "paragraphs": [
+        "A single action—the moment curry leaves meet a warm pan—can draw people into an experience more completely than a long introduction. It is not a performance when the host is simply explaining what she is already doing.",
+        "In this fictional kitchen, the curator’s task is to make sure the guests can approach the moment safely and attentively. The host decides how close the invitation extends."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-plan-changes-with-the-weather",
+      "title": "The Plan Changes with the Weather",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "06 · THE UNPLANNED TURN",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Dev’s original plan ended with lunch in the courtyard. He had chosen the outdoor table because it would photograph beautifully: filtered light, a line of plants, perhaps a cup of tea in the foreground. As the rain gathered along the roof, the courtyard became impossible. A thin stream of water was running over the threshold, and the chairs he had so carefully measured would have made the passage awkward. He started to apologise. Maya was already folding a cloth and moving a few dishes to the inner table."
+        },
+        {
+          "level": 2,
+          "text": "‘Sit here instead,’ she said. Nikhil reached for the chairs, then waited until Maya showed him where to place them. Farah helped carry the empty plates. Tara moved the water glasses away from the edge. It was not a moment of designed participation; it was a small piece of shared practicality. They were all trying to make the same table work. By the time the rice arrived, no one mentioned the lost courtyard view."
+        },
+        {
+          "level": 2,
+          "text": "Dev felt the usual instinct to repair the itinerary, to offer an alternative attraction after the meal, perhaps a stop at a nearby shop if the rain eased. Instead he looked at the guests, still talking as they settled into their seats, and left the time alone. The promise had never really been the courtyard. It had been the possibility of entering a conversation through food. The weather had rearranged the furniture, but not the purpose."
+        }
+      ]
+    },
+    {
+      "type": "slider",
+      "title": "A Table, a Pause, a Change of Pace",
+      "titleLevel": 2,
+      "width": 1200,
+      "height": 800,
+      "autoplay": false,
+      "interval": 5000,
+      "captionMob": true,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Editorial frame 1 accompanying a table, a pause, a change of pace",
+          "caption": "Editorial landscape illustrating a pause before a shared meal."
+        },
+        {
+          "src": "/images/impact/impact3.webp",
+          "alt": "Editorial frame 2 accompanying a table, a pause, a change of pace",
+          "caption": "An illustrative frame for a place adapting to changing conditions."
+        },
+        {
+          "src": "/images/journal/journal5.webp",
+          "alt": "Editorial frame 3 accompanying a table, a pause, a change of pace",
+          "caption": "An editorial landscape selected as the story moves from preparation to conversation."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "a-table-with-no-performance",
+      "title": "A Table With No Performance",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "07 · WHAT THE GUESTS ACTUALLY CAME FOR",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The meal was not elaborate. There was rice, the beans they had helped prepare, a mild curry, a small sharp pickle, and water poured into steel tumblers. Maya placed the serving dishes where everyone could reach them. She showed them how she preferred to combine the rice and curry, then let them eat as they liked. Tara asked for a second spoonful of the beans. Nikhil returned to the question of how much coconut he should use at home. Farah put her phone face down without quite realising she had done it."
+        },
+        {
+          "level": 2,
+          "text": "For a while, the table held the ordinary sounds of a meal: the soft contact of spoons against plates, someone shifting a chair, the rain travelling across the roof. No one offered a grand observation about culture. Then Tara mentioned that she had not cooked with her mother in years, though they spoke every evening. She said it lightly, almost as if she had only remembered it because her hands smelled of beans and coconut. Maya listened and asked what they used to make together. Tara told her about an entirely different dish, from an entirely different part of India. For a few minutes the conversation belonged to the people at the table rather than to the itinerary."
+        },
+        {
+          "level": 2,
+          "text": "Dev looked down at his printed programme. The line opposite this time slot read LOCAL CULINARY INTERACTION. He resisted the urge to invent a better phrase. A line on a schedule could not make the moment happen. At best, it could create the conditions in which nobody needed to hurry it away."
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "title": "Editorial Frames Around the Shared Table",
+      "titleLevel": 2,
+      "maxCols": 2,
+      "captionMob": true,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/impact/impact1.webp",
+          "alt": "Editorial image 1 illustrating editorial frames around the shared table",
+          "width": 750,
+          "height": 500,
+          "caption": "Illustrative editorial frame for the human scale of a hosted experience."
+        },
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Editorial image 2 illustrating editorial frames around the shared table",
+          "width": 600,
+          "height": 400,
+          "caption": "Editorial landscape chosen for a moment of arrival and hospitality."
+        },
+        {
+          "src": "/images/impact/impact6.webp",
+          "alt": "Editorial image 3 illustrating editorial frames around the shared table",
+          "width": 750,
+          "height": 500,
+          "caption": "Editorial frame suggesting the ordinary details around a shared meal."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Editorial image 4 illustrating editorial frames around the shared table",
+          "width": 600,
+          "height": 400,
+          "caption": "Editorial landscape for the closing warmth of a small gathering."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-time-after-lunch",
+      "title": "The Time After Lunch",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "08 · THE EXPERIENCE CONTINUES AFTER THE GUESTS LEAVE",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "When the guests were ready to leave, Maya did not present a souvenir counter or invite them to purchase something to prove the visit had mattered. She offered to write down the basic steps for the beans, with a note that they would need to adjust moisture and seasoning at home. Nikhil took a photograph of the handwritten instructions after asking. Farah asked whether she could take a picture of the table. Maya agreed, after checking that no one else minded. Tara thanked her for being patient with their questions. Maya told her that the questions were fine; it was only the knives she had been worried about."
+        },
+        {
+          "level": 2,
+          "text": "They laughed. It was a good place for the scene to end, but Dev’s job had not ended. He made sure the planned departure actually happened and that the guests did not linger simply because they were enjoying themselves. Maya had other work to return to. After the table had emptied, he stayed only as long as they had agreed to discuss what went well. Was the preparation too much? Had any of the questions felt intrusive? Was the guest number right? Would she prefer a different task next time? He wrote down her answers before opening the message he had received from the travellers."
+        },
+        {
+          "level": 2,
+          "text": "Their note was enthusiastic, but imprecise. Tara mentioned the beans. Nikhil wanted the recipe. Farah wrote, ‘I liked that nobody was performing for us.’ Dev did not treat those words as a business case with measurable impact. It was one fictional group’s impression, valuable in the story as feedback but not evidence that every guest would feel the same. Maya’s feedback belonged beside it, not below it. A successful experience had to be worth repeating for the person who hosted it, too."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "title": "What the Curator Would Evaluate Next",
+      "eyebrow": "POST-VISIT REVIEW",
+      "text": "These are proposed questions inspired by the fictional scene, not reported outcomes from an actual Sreejith Travel programme.",
+      "orderedList": {
+        "level": 3,
+        "items": [
+          "<strong>Host wellbeing:</strong> Did the schedule, work, compensation, and guest behaviour feel reasonable?",
+          "<strong>Guest understanding:</strong> Did visitors leave with a clearer appreciation of one household’s cooking rather than a claim to have mastered a whole cuisine?",
+          "<strong>Participation:</strong> Were tasks welcoming, safe, manageable, and genuinely chosen by the host?",
+          "<strong>Boundaries:</strong> Were privacy, photo consent, start times, and end times respected?",
+          "<strong>Next iteration:</strong> What should stay, change, or be removed before offering another visit?"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "the-things-a-curator-cannot-plan",
+      "title": "The Things a Curator Cannot Plan",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "09 · THE CRAFT BEHIND AN EFFORTLESS MOMENT",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Dev returned home with three versions of the afternoon in his head. There was the itinerary he had written before meeting Maya: generous, polished, and almost entirely theoretical. There was the experience they had designed together: a smaller group, a clearer fee, a short preparation, a shared meal, an explicit end. And there was the afternoon as it had actually unfolded: the rain, the chairs brought inside, Nikhil’s impossible search for an exact measure of coconut, and the unexpected conversation about another family’s kitchen."
+        },
+        {
+          "level": 2,
+          "text": "The first version was the easiest to sell. The second was the one that made the third possible. A curator can choose a suitable host, arrange fair terms, clarify boundaries, and protect sufficient time. A curator cannot manufacture trust or guarantee that a guest will remember their mother over a bowl of beans. Those moments are not deliverables. They happen, if they happen at all, in the space that careful planning leaves open."
+        },
+        {
+          "level": 2,
+          "text": "He considered the phrase ‘authentic culinary immersion’ once more. In a brochure it would fit neatly beside a photograph and a price. In Maya’s house it would have meant too little. Perhaps a better description was just this: <strong>a small, hosted cooking encounter where guests are welcome to learn, help a little, and share a meal</strong>. It was not smaller in meaning. It was truer to what they had agreed to offer."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "title": "An Experience Belongs to Its Host, Too",
+      "theme": "cream",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "image": "/images/home/journey-pc1.webp",
+      "imageAlt": "Editorial travel photograph accompanying an experience belongs to its host, too",
+      "paragraphs": [
+        "The memory the guests carry away is only one measure of the day. Maya’s ability to set limits, earn fairly, preserve her routine, and enjoy the company matters just as much.",
+        "When both sides can name what worked—and when either side can suggest a change—the experience has a better chance of becoming a sustainable relationship rather than a one-time spectacle."
+      ]
+    },
+    {
+      "type": "text",
+      "id": "the-meal-we-hadnt-known-to-request",
+      "title": "The Meal We Hadn’t Known to Request",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "eyebrow": "10 · CLOSING SCENE",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Later, Farah tried to describe the meal to someone who had not been there. She began with the food, naturally: beans with coconut, rice, curry, the brief perfume of curry leaves. But the description kept drifting toward other things. The rain. The chair she had moved. Maya’s small smile when Nikhil asked for a measurement that could not be separated from experience. Tara remembering her mother. None of those moments had appeared in the promised itinerary."
+        },
+        {
+          "level": 2,
+          "text": "That was what the title of this story is reaching for: a meal they did not know they were waiting for. Not a hidden culinary masterpiece, not an invitation to claim someone else’s home as their own, and not a promise that a carefully designed journey can produce emotional revelations on demand. It was simply a pause in which people were allowed to be people: a host confident enough to teach in her own way, travellers willing to pay attention, and a curator who understood that his finest work might disappear from view once the conversation began."
+        },
+        {
+          "level": 2,
+          "text": "The tables were cleared, the guests departed, and Maya’s kitchen returned to its ordinary purposes. For a travel experience designer, that return was not a disappointing end to the story. It was part of the success. The visit had found a place in the day without taking over the day. The next meal in that home would belong to whoever lived there. <strong>And that was precisely as it should be.</strong>"
+        }
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "itineraries",
+      "title": "Explore Journeys Built Around Meaningful Encounters",
+      "text": "Discover itinerary ideas that make room for food, culture, landscapes, and the people who bring a place to life.",
+      "eyebrow": "CURATED CULTURAL TRAVEL"
+    },
+    {
+      "type": "text",
+      "id": "a-note-on-the-food-and-the-fiction",
+      "title": "A Note on the Food and the Fiction",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "eyebrow": "EDITORIAL CONTEXT",
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "The people, conversation, and exact home described in this article are fictional. <i>Thoran</i>, rice-based meals, coconut, and curry-leaf tempering are among the many culinary threads found across Kerala, but no single household dish stands for the full diversity of the state. Regional styles, ingredients, dietary practices, and family methods differ."
+        },
+        {
+          "level": 2,
+          "text": "For a wider view of dishes and locally offered food experiences, see the <a href='https://www.keralatourism.org/responsible-tourism/ethnic-cuisine' target='_blank'>Kerala Responsible Tourism Mission’s ethnic cuisine directory</a>. Its listings describe real regional variety; they are background resources, not a source for the fictional characters or dialogue above. The images used throughout this article come from the website’s approved editorial asset collection and do not document the imagined meal."
+        }
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "plan",
+      "title": "Let’s Create Space for the Unexpected",
+      "text": "Tell us what you’re curious about. A thoughtful culinary or cultural encounter begins with a good host, a clear invitation, and enough time to enjoy it."
+    },
+    {
+      "type": "author-profile",
+      "theme": "blue",
+      "eyebrow": "ABOUT THE CURATOR",
+      "title": "Sree Jith",
+      "text": "Sree Jith explores travel experience design through the relationships among host, guest, place, and time. This fictional narrative illustrates ethical hosting and curation principles; it is not presented as a report of a completed client experience."
+    }
+  ]
+}

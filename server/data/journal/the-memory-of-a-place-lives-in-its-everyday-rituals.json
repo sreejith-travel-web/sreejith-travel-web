@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "id": "jrn-insight-008",
+    "slug": "the-memory-of-a-place-lives-in-its-everyday-rituals",
+    "category": "insights",
+    "type": "insights",
+    "subcategory": "living-heritage",
+    "subcategoryLabel": "LIVING HERITAGE",
+    "contentTypeLabel": "INSIGHT",
+    "categoryLabel": "INSIGHT · LIVING HERITAGE",
+    "featured": false,
+    "title": "The Memory of a Place Lives in Its Everyday Rituals",
+    "excerpt": "Beyond monuments and festival calendars, cultural memory lives in kitchens, courtyards, seasonal customs and the choices people make to carry them forward.",
+    "headerQuote": "A place remembers itself in what people still choose to do.",
+    "author": "Sree Jith",
+    "readTime": "18 MIN READ",
+    "publishDate": "2026-11-11",
+    "tags": [
+      "#LIVINGHERITAGE",
+      "#CULTURALMEMORY",
+      "#KERALA"
+    ],
+    "categories": [
+      "culture",
+      "offbeat",
+      "bespoke"
+    ],
+    "topics": [
+      "#LIVINGHERITAGE",
+      "#CULTURALMEMORY",
+      "#KERALA",
+      "#EVERYDAYRITUALS",
+      "#CULTURALTRAVEL"
+    ],
+    "image": "/images/fallbacks/culture.webp",
+    "alt": "Landscape travel photograph selected as an editorial cover for The Memory of a Place Lives in Its Everyday Rituals"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "the-things-a-place-remembers",
+      "title": "The Things a Place Remembers",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "A place can keep a memory without placing it behind glass. Sometimes the memory is the way a threshold is swept before visitors arrive, the particular vessel chosen for a family meal, or the call to a neighbour when help is needed. These actions are easy to miss because they appear too ordinary to be called heritage. Yet their repetition is exactly what gives them meaning."
+        },
+        "Travel often trains our eyes toward the exceptional: an old building, a performance, a festival in full colour. Those encounters can be wonderful. But the visible occasion may rest on an entire structure of daily knowledge—how something is prepared, who learns it, who has time to teach it, and why a family still chooses to do it. <strong>Living heritage is not merely an object handed down. It is a relationship being renewed.</strong>",
+        "Kerala offers many ways to think about this distinction, from courtyard houses and regional kitchens to seasonal celebrations, craft practices, and the etiquette of shared spaces. None belongs to every household or community in the same way. The point of looking closely is not to discover a single authentic Kerala. It is to notice how different people make meaning through familiar actions."
+      ],
+      "eyebrow": "CHAPTER I · HERITAGE IN THE PRESENT"
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "text": "A tradition is not alive because it looks unchanged. It is alive because people still find meaning in carrying it forward.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "On living heritage and continuity",
+      "theme": "cream"
+    },
+    {
+      "type": "text",
+      "id": "not-everything-worth-keeping-is-a-monument",
+      "title": "Not Everything Worth Keeping Is a Monument",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "A stone inscription can tell us that something happened. A living custom reveals how a community understands what happened and why it might still matter. The two kinds of evidence belong together, but they demand different kinds of attention. A building can be maintained through conservation. A practice needs people, circumstances, skills, time, and the freedom to adapt.",
+        "UNESCO describes <em>intangible cultural heritage</em> as knowledge, practices, expressions, and skills that are transmitted between generations and continually recreated. That last phrase is crucial. Preservation does not require people to repeat every gesture as their ancestors did. A custom that survives an apartment move, a change in work schedules, or a new generation’s preferences may be showing strength rather than decline.",
+        "This is why the traveller’s question should be more thoughtful than “Is it still done the old way?” A better question is: <strong>Who chooses to keep doing this, what has changed, and what matters to them now?</strong> Those answers are not always available to a visitor. They also cannot be demanded as a condition of a respectful encounter."
+      ],
+      "eyebrow": "CHAPTER II · WHAT COUNTS AS HERITAGE"
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "title": "A House Is More Than Its Architecture",
+      "image": "/images/journal/journal3.webp",
+      "imageAlt": "Editorial photograph accompanying the article’s reflection on a house is more than its architecture",
+      "paragraphs": [
+        "The <i>nalukettu</i>, a traditional courtyard-house form associated with particular histories and social groups in Kerala, is often admired for timber, rooflines, and a central space open to the sky. Architectural features have practical responses to climate, but the arrangement of rooms also reflects ways of organising domestic life. An attractive courtyard photograph tells only a fraction of that story.",
+        "Consider the difference between touring a preserved house and asking how people used its spaces: where meals were prepared, how privacy worked, how responsibilities were distributed, and whose labour made communal living possible. An inherited building can be beautiful without representing an uncomplicated past. Its social history may include privilege, inequality, adaptation, and loss."
+      ],
+      "eyebrow": "ARCHITECTURE · MEMORY · EVERYDAY USE",
+      "caption": "An editorial illustration of place and continuity—not documentation of a particular historic household."
+    },
+    {
+      "type": "text",
+      "id": "the-kitchen-as-an-archive",
+      "title": "The Kitchen as an Everyday Archive",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "A recipe can travel without a written page. Someone remembers when to add water because an aunt once held their wrist over a pot; someone measures by the feel of batter rather than a marked cup. The result is not necessarily ancient, nor is it identical across families. What persists is a method of learning through watching, trying, adjusting, and eating together.",
+        "The language of a kitchen carries as much memory as the dish itself. Names shift between regions. Spice combinations respond to seasons, budgets, occupations, and taste. The same familiar meal may be prepared differently for a child, an elder, or a guest. Rather than treating one preparation as the definitive version, a curious visitor can notice these variations as evidence of lived experience.",
+        "Food becomes especially meaningful when we ask who does the invisible work: shopping, cleaning, soaking, chopping, cooking, serving, and washing afterwards. Hospitality should not erase the people who provide it. If a journey includes a hosted meal, participation must be invited, labour fairly acknowledged, and the host free to keep family routines private. A plate can open a conversation without granting ownership over the household behind it."
+      ],
+      "eyebrow": "CHAPTER III · RECIPES WITHOUT ARCHIVES"
+    },
+    {
+      "type": "callout",
+      "theme": "blue",
+      "eyebrow": "THE ETIQUETTE OF FOOD AND HOSPITALITY",
+      "title": "Questions That Honour a Shared Meal",
+      "text": "When a host chooses to explain a dish or invite guests into a kitchen, curiosity is welcome. Entitlement is not.",
+      "unorderedList": {
+        "title": "Consider this",
+        "level": 2,
+        "items": [
+          "Ask whether observing or joining the preparation is welcome rather than assuming the kitchen is a demonstration space.",
+          "Recognise preparation and cleaning time in the host’s compensation, not only the food on the plate.",
+          "Invite stories if they are freely offered; avoid pressing for family recipes or photographs.",
+          "Be open to contemporary choices. A living food culture does not need to remain untouched to be meaningful."
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "seasonal-rituals-belong-to-the-people",
+      "title": "Seasonal Rituals Belong First to the People Who Practise Them",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Across Kerala, festivals and seasonal gatherings bring together music, food, decoration, worship, games, and the return of relatives. Onam is one widely recognised example. A <i>pookkalam</i>—a floral arrangement made during the festival—can be both a public expression of celebration and a private act of remembrance. Families, neighbourhoods, schools, and workplaces may approach it differently.",
+        "A visitor may notice the symmetry of flowers and ask how the pattern was made. A family member may remember who once collected blossoms, who corrected a crooked ring, or who no longer returns home for the festival. The arrangement therefore contains more than the petals visible at the moment. It can hold effort, play, absence, and the negotiations that accompany any annual reunion.",
+        "Such occasions should never be reduced to a guaranteed performance. Religious observances and community celebrations differ in access, meaning, and sensitivity. Photography restrictions, boundaries around sacred spaces, and the decision not to host visitors are legitimate parts of cultural life. <strong>Respecting a festival sometimes means being willing not to see it.</strong>"
+      ],
+      "eyebrow": "CHAPTER IV · THE CALENDAR OF MEMORY"
+    },
+    {
+      "type": "masonry",
+      "eyebrow": "SYMMETRICAL GALLERY · EVERYDAY HERITAGE",
+      "title": "Ordinary Settings, Continuing Meanings",
+      "maxCols": 2,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of space can carry traces of many lives.",
+          "width": 600,
+          "height": 400,
+          "caption": "Space can carry traces of many lives."
+        },
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of a familiar view becomes different with a shared story.",
+          "width": 600,
+          "height": 400,
+          "caption": "A familiar view becomes different with a shared story."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of an everyday setting may hold a personal ritual.",
+          "width": 600,
+          "height": 400,
+          "caption": "An everyday setting may hold a personal ritual."
+        },
+        {
+          "src": "/images/journal/journal5.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of not every meaningful place announces its history.",
+          "width": 600,
+          "height": 400,
+          "caption": "Not every meaningful place announces its history."
+        }
+      ],
+      "text": "These approved landscape photographs provide editorial atmosphere; they are not documentary evidence of specific rituals, families, or festival events."
+    },
+    {
+      "type": "text",
+      "id": "small-gestures-big-continuities",
+      "title": "The Small Gestures That Outlast Explanation",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Consider the small routines that establish a sense of home: an elder checking whether someone has eaten, a neighbour borrowing a utensil, a courtyard prepared for guests, a familiar word used only within a family. None may be unique to Kerala, and each has countless variations. Their importance is not exclusivity. It is the dense network of relationships they support.",
+        "One generation may perform an action without thinking; the next may ask why. That question can create tension, but it can also produce renewal. A practice becomes meaningful again when its purpose is explained, challenged, or deliberately chosen. The goal is not to force young people into old forms. It is to leave them enough knowledge and agency to decide what should continue.",
+        "There is also value in acknowledging practices that end. Households may stop a custom because its labour falls unfairly on one person, because circumstances change, or because a new belief makes it unnecessary. Nostalgia alone should not override those choices. A humane account of living heritage makes room for both continuity and departure."
+      ],
+      "eyebrow": "CHAPTER V · HABIT AND BELONGING"
+    },
+    {
+      "type": "image-split",
+      "theme": "blue",
+      "imageCols": 5,
+      "aspectRatio": "2:3",
+      "imagePosition": "left",
+      "mobileOrder": "text-first",
+      "verticalAlign": "top",
+      "title": "The Work Behind What Looks Effortless",
+      "image": "/images/home/solo-portrait.webp",
+      "imageAlt": "Editorial photograph accompanying the article’s reflection on the work behind what looks effortless",
+      "paragraphs": [
+        "Guests often encounter the polished surface of a cultural experience: a prepared meal, a tidy space, an arranged visit. That order has been made possible by decisions and physical effort. A well-designed journey should account for preparation, hosting, travel, cleaning, and recovery, rather than pricing a cultural encounter only by the minutes visitors are present.",
+        "The point is not to transform ordinary life into a staged activity. It is to notice when an invitation requires someone else to reorganise their day. Fair payment and clear expectations allow hospitality to remain an act of choice rather than a duty disguised as tradition."
+      ],
+      "eyebrow": "LABOUR · VALUE · DIGNITY",
+      "caption": "A portrait-format editorial photograph used to support reflection on unseen work."
+    },
+    {
+      "type": "text",
+      "id": "heritage-is-not-a-single-voice",
+      "title": "A Living Tradition Never Has Just One Voice",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "The phrase “the community believes” is often too confident. Within any village or family, age, gender, occupation, faith, and personal experience create different relationships to the same practice. Some people cherish a seasonal gathering. Others remember the work it demanded. An elder may speak about continuity; a young person may describe the freedom to reinterpret it.",
+        "Travellers who hear only the most articulate or publicly visible voice may mistake one perspective for a consensus. A better encounter is modest about what it knows. Instead of asking a host to represent an entire region, we can ask about their own experience, and accept that another household might tell a different story.",
+        "That humility matters particularly when culture intersects with caste, class, religion, or access to spaces. A celebrated architectural form or ceremonial tradition might have emerged from histories of unequal power. A respectful account can appreciate skill and beauty while acknowledging that the past was not equally comfortable for everyone."
+      ],
+      "eyebrow": "CHAPTER VI · MANY VOICES, MANY HISTORIES"
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "text": "To honour what people inherit, we must also honour their right to change it.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "On choice and cultural continuity",
+      "theme": "blue"
+    },
+    {
+      "type": "horizontal-slider",
+      "eyebrow": "VISUAL SEQUENCE · MEMORY IN MOTION",
+      "title": "Continuity in Four Different Frames",
+      "sliderHeight": 365,
+      "innerRounding": false,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/itineraries/dummy4.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of a tradition begins in the ordinary.",
+          "width": 400,
+          "height": 600,
+          "caption": "A tradition begins in the ordinary."
+        },
+        {
+          "src": "/images/journal/journal5.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of people give a place its changing meaning.",
+          "width": 600,
+          "height": 400,
+          "caption": "People give a place its changing meaning."
+        },
+        {
+          "src": "/images/home/journey-mob.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of time brings new perspectives.",
+          "width": 960,
+          "height": 1440,
+          "caption": "Time brings new perspectives."
+        },
+        {
+          "src": "/images/impact/impact4.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of continuity requires real work.",
+          "width": 750,
+          "height": 500,
+          "caption": "Continuity requires real work."
+        },
+        {
+          "src": "/images/itineraries/dummy9.webp",
+          "alt": "Curated editorial travel photograph supporting the theme of what remains is continually reinterpreted.",
+          "width": 400,
+          "height": 600,
+          "caption": "What remains is continually reinterpreted."
+        }
+      ],
+      "paragraph": "A visual essay using the existing travel image library. The images are illustrative rather than records of the specific practices discussed."
+    },
+    {
+      "type": "text",
+      "id": "when-a-ritual-meets-the-camera",
+      "title": "What Changes When a Ritual Meets a Camera",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "A camera can preserve a moment, but it can also change one. People become self-conscious; a private gesture becomes material for strangers; an activity may be repeated to satisfy an image. None of this makes photography inherently disrespectful. The question is whether the person whose life is being represented retains meaningful control over the decision.",
+        "Permission should be specific and reversible wherever practical. A host might welcome a photograph of food but not of a child. They may allow an image for a personal album but not for marketing. A ritual that is visible from a public road is not necessarily an invitation to step into the space where it is happening. These differences deserve as much attention as camera settings.",
+        "Sometimes the richest form of cultural immersion is conversation without documentation. The visitor can take notes later, remember what surprised them, or simply sit with the knowledge that one shared moment does not need to become content for somebody else."
+      ],
+      "eyebrow": "CHAPTER VII · SEEING WITHOUT TAKING"
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "eyebrow": "FOR HOSTS, DESIGNERS, AND VISITORS",
+      "title": "A Simple Consent Checklist",
+      "text": "Before including an everyday practice in a visitor programme, make sure the invitation is genuinely mutual.",
+      "unorderedList": {
+        "title": "Consider this",
+        "level": 2,
+        "items": [
+          {
+            "title": "Access",
+            "text": "Does the host welcome the visit, and is there a clear right to decline or cancel?"
+          },
+          {
+            "title": "Context",
+            "text": "Can the experience be introduced without presenting one person as the voice of an entire community?"
+          },
+          {
+            "title": "Compensation",
+            "text": "Are preparation, expertise, materials, and disruption acknowledged fairly?"
+          },
+          {
+            "title": "Privacy",
+            "text": "Are photography, recording, and sharing expectations agreed in advance?"
+          },
+          {
+            "title": "Aftercare",
+            "text": "Will the relationship remain respectful after the traveller has left?"
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "designing-with-change-in-mind",
+      "title": "Designing Travel Around What Is Alive",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "If travel is designed around a fixed script, living culture becomes an obstacle. A ceremony happens on its own calendar; a craftsperson needs an uninterrupted workday; a family meal is postponed because someone is unwell. The rigid itinerary calls these failures. A more thoughtful design treats them as reminders that people, not programmes, determine what a place can offer.",
+        "This requires small groups, realistic schedules, local collaborators with decision-making authority, and alternatives that do not pressure hosts. It may mean visiting a museum or public cultural centre rather than a private household. It may mean paying for a structured workshop instead of requesting a spontaneous demonstration. It may mean introducing a tradition through its history while accepting that no performance will be available on the chosen day.",
+        "What emerges can be more rewarding precisely because it is less controlled. Travellers are encouraged to listen, to ask carefully, and to distinguish learning from access. Hosts remain free to keep the most important parts of their lives for themselves."
+      ],
+      "eyebrow": "CHAPTER VIII · A DIFFERENT FORM OF IMMERSION"
+    },
+    {
+      "type": "slider",
+      "eyebrow": "LANDSCAPE REFLECTIONS",
+      "title": "Places That Hold Everyday Stories",
+      "width": 1200,
+      "height": 800,
+      "autoplay": false,
+      "interval": 5000,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Editorial landscape photograph serving as a visual reflection on a landscape is also a place where people make choices.",
+          "caption": "A landscape is also a place where people make choices."
+        },
+        {
+          "src": "/images/journal/journal3.webp",
+          "alt": "Editorial landscape photograph serving as a visual reflection on heritage gathers meaning through everyday use.",
+          "caption": "Heritage gathers meaning through everyday use."
+        },
+        {
+          "src": "/images/home/journey-pc1.webp",
+          "alt": "Editorial landscape photograph serving as a visual reflection on the route is one layer of the story.",
+          "caption": "The route is one layer of the story."
+        },
+        {
+          "src": "/images/impact/impact5.webp",
+          "alt": "Editorial landscape photograph serving as a visual reflection on a respectful encounter leaves room for privacy.",
+          "caption": "A respectful encounter leaves room for privacy."
+        }
+      ],
+      "text": "These images are atmospheric editorial selections, not a visual record of the households or rituals described."
+    },
+    {
+      "type": "text",
+      "id": "transmission-is-an-act-of-care",
+      "title": "Passing Something On Is an Act of Care",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Teaching a younger person to make a familiar dish, repair a household object, perform a song, or remember the order of a celebration can feel ordinary while it happens. Often its importance becomes apparent much later, when the teacher is absent and the learner realises what they can still do. Cultural memory lives partly in that movement: from one pair of hands or one voice to another.",
+        "But transmission depends on conditions. People need time to teach, spaces in which to practise, and a reason to believe their knowledge will be valued. Tourism can sometimes support those conditions through fair, well-designed collaborations. It can also undermine them by demanding endless demonstrations for little return. Any claim to protect heritage should be judged by whether it expands the choices of those who practise it.",
+        "A visitor cannot guarantee the survival of a tradition. What they can do is approach the invitation with respect, pay fairly, refuse extractive behaviour, and remember that the meaningful part of the encounter continues after they leave. The ritual is not preserved by their presence. It is preserved—or transformed—through the lives of the people who own it."
+      ],
+      "eyebrow": "CHAPTER IX · THE FUTURE OF MEMORY"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "itineraries",
+      "eyebrow": "CULTURE · CONTINUITY · CURIOSITY",
+      "title": "Explore Journeys That Listen to Living Places",
+      "text": "Discover routes that make room for regional histories, local voices, changing seasons, and meaningful encounters—without reducing culture to a checklist.",
+      "ctaLabel": "EXPLORE ITINERARIES"
+    },
+    {
+      "type": "text",
+      "id": "what-we-carry-forward",
+      "title": "What We Carry Forward",
+      "titleLevel": 1,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "Perhaps the most generous way to encounter a place is to let it remain more complicated than the story we came to hear. We can admire a house while learning who lived there; enjoy a shared meal without assuming it belongs to us; witness a celebration while respecting what is private. None of these forms of attention requires a traveller to become an expert.",
+        "A meaningful journey can leave us with a different kind of souvenir: the awareness that practices survive because real people keep deciding how to live with them. Some traditions continue almost unchanged. Others bend, disappear, return, or acquire new meanings. They are not failures of authenticity. They are the ordinary drama of culture being lived.",
+        "The memory of a place is not locked in the past. Tomorrow morning, somebody will make breakfast in a way they learned from another person. Someone else will do it differently. Both acts may belong to the same inheritance."
+      ],
+      "eyebrow": "CHAPTER X · CLOSING REFLECTION"
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "text": "What survives is not always the gesture itself. Sometimes it is the care that taught the gesture in the first place.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "Closing reflection",
+      "theme": "cream"
+    },
+    {
+      "type": "text",
+      "id": "heritage-resources",
+      "title": "Further Reading",
+      "titleLevel": 2,
+      "paragraphLevel": 2,
+      "paragraphs": [
+        "For a deeper understanding of living heritage as knowledge that evolves, explore <a href='https://ich.unesco.org/en/faq-01058' target='_blank'>UNESCO’s explanation of intangible cultural heritage</a> and <a href='https://ich.unesco.org/en/safeguarding-00012' target='_blank'>its guidance on safeguarding without freezing traditions</a>.",
+        "Kerala Tourism also offers introductions to <a href='https://www.keralatourism.org/faq/what-are-the-highlights-of-onam-celebration' target='_blank'>Onam traditions</a> and <a href='https://www.keralatourism.org/muziris/museums/kerala-lifestyle-museum' target='_blank'>the historic Paliam Nalukettu</a>. These provide context rather than evidence for any imagined or generalised domestic scene in this essay."
+      ],
+      "eyebrow": "SOURCES AND CULTURAL CONTEXT"
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "about",
+      "eyebrow": "THE PEOPLE BEHIND THE JOURNEY",
+      "title": "Meet the Philosophy Behind the Journey",
+      "text": "Explore the people-first thinking behind Sreejith Travel, where cultural immersion begins with respect for the life of a place.",
+      "ctaLabel": "ABOUT SREEJITH TRAVEL"
+    },
+    {
+      "type": "author-profile",
+      "theme": "cream",
+      "eyebrow": "ABOUT THE AUTHOR",
+      "title": "Sree Jith",
+      "text": "Sree Jith writes about culturally immersive travel through the lens of people, places, and lived traditions, encouraging curiosity that respects the agency of local communities.",
+      "image": "/images/testimonials/avatar.webp",
+      "imageAlt": "Portrait image for Sree Jith’s author profile"
+    }
+  ]
+}

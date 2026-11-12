@@ -46,7 +46,7 @@ const headerData = computed<JournalHeaderData>(() => ({
   breadcrumbs: [
     { label: 'HOME', to: '/' },
     { label: 'JOURNAL', to: '/journal' },
-    { label: props.record.meta.title.toUpperCase() }
+    { label: props.record.meta.slug.toUpperCase() }
   ],
   contentTypeLabel: props.record.meta.contentTypeLabel || 'INSIGHT',
   subcategoryLabel: props.record.meta.subcategoryLabel || 'LIVING HERITAGE',

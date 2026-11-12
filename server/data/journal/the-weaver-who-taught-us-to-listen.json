@@ -1,0 +1,525 @@
+{
+  "meta": {
+    "id": "jrn-story-007",
+    "slug": "the-weaver-who-taught-us-to-listen",
+    "category": "stories",
+    "type": "stories",
+    "subcategory": "people-communities",
+    "subcategoryLabel": "PEOPLE & COMMUNITIES",
+    "contentTypeLabel": "STORY",
+    "categoryLabel": "STORY · PEOPLE & COMMUNITIES",
+    "featured": false,
+    "title": "The Weaver Who Taught Us to Listen",
+    "excerpt": "An imagined visit to a Kerala weaving workshop becomes a lesson in asking better questions, understanding skilled work, and letting a craftsperson choose what to share.",
+    "headerQuote": "We came hoping to hear a story. The loom kept moving until we were ready to listen.",
+    "author": "Sree Jith",
+    "readTime": "18 MIN READ",
+    "publishDate": "2026-11-11",
+    "tags": [
+      "#PEOPLEANDCOMMUNITIES",
+      "#HANDLOOM",
+      "#CULTURALTRAVEL"
+    ],
+    "categories": [
+      "culture",
+      "offbeat",
+      "bespoke"
+    ],
+    "topics": [
+      "#PEOPLEANDCOMMUNITIES",
+      "#HANDLOOM",
+      "#CULTURALTRAVEL",
+      "#KERALA",
+      "#LIVINGHERITAGE"
+    ],
+    "image": "/images/journal/journal4.webp",
+    "alt": "Editorial landscape travel image accompanying a fictional story about a Kerala handloom weaver"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "the-wrong-kind-of-quiet",
+      "eyebrow": "A FICTIONAL ENCOUNTER · THE ARRIVAL",
+      "title": "We Came Looking for a Story",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 1,
+          "text": "The lane narrowed as we reached the weaving neighbourhood. A wall rose on one side, shaded by a tree that seemed to have grown around its own gate. On the other side stood a house whose front room opened toward the street. The sound came first: wood meeting wood, then a brief pause, then a rhythm so steady that it made our footsteps seem awkward. We had been told that a woman named Leela worked there. What we did not know was whether she had any interest in becoming the centre of our day."
+        },
+        {
+          "level": 2,
+          "text": "We arrived with the usual good intentions and a familiar collection of assumptions. We wanted to understand handloom weaving. We wanted to meet the person behind a finished piece of cloth. Privately, we also wanted the sort of story that travels well: a beautiful room, an unforgettable sentence, an image of hands moving across a loom. We had not said this aloud, which made it easier to believe we were approaching the visit without expectations."
+        },
+        {
+          "level": 2,
+          "text": "Leela looked up when the local host introduced us. She was in the middle of a task and did not pretend otherwise. 'You can sit,' she said, indicating two chairs pushed against the far wall. 'I'll finish this first.' We sat. The loom resumed. And for several minutes, the conversation we had travelled to have simply did not begin."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "title": "A Story, Not a Recorded Interview",
+      "eyebrow": "EDITORIAL TRANSPARENCY",
+      "text": "The characters, dialogue, and workshop encounter in this article are imagined to explore respectful cultural travel. Chendamangalam is a real handloom centre in Kerala, but Leela is a fictional character and these words are not attributed to any identifiable weaver. The story should never be presented as a testimonial or an account of an actual hosted visit."
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "cream",
+      "text": "We had brought questions. She had a working day. For once, the working day came first.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "From this fictional narrative"
+    },
+    {
+      "type": "text",
+      "id": "when-the-loom-went-on",
+      "eyebrow": "01 · THE ROOM HAS ITS OWN RHYTHM",
+      "title": "When the Loom Went On Without Us",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "At first I tried to name what I was seeing. A shuttle moved. Threads opened and closed. Leela adjusted something near the edge of the fabric and leaned toward the work again. My observations felt embarrassingly incomplete. I knew a little about warp and weft because I had read the words before arriving, but knowing words is not the same as understanding what another person has to notice while using them. The movement seemed simple only from the distance at which I was sitting."
+        },
+        {
+          "level": 2,
+          "text": "Every few minutes I wanted to ask what she was doing. Was that a mistake she had corrected? Did the colour at the border mean something? How many hours would the finished piece take? A question hovered on my tongue each time her hands paused. But the pauses were not invitations. Sometimes she was checking the cloth. Sometimes she was reaching for a tool. Sometimes she was simply thinking. Her silence was not empty space made available to us."
+        },
+        {
+          "level": 2,
+          "text": "A second sound entered the room: someone in the courtyard called out about lunch. Leela answered without lifting her head. I realised that our visit occupied one small corner of a day with other obligations. We were not witnessing a timeless craft existing outside everyday life. We were sitting in a working room in an ordinary home, where skill, income, interruptions, and family routines all belonged together."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "cream",
+      "imageCols": 4,
+      "aspectRatio": "2:3",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "top",
+      "title": "The Work Does Not Stop at the Door",
+      "image": "/images/itineraries/dummy4.webp",
+      "imageAlt": "Portrait editorial travel image accompanying an imagined visit to a weaving home",
+      "paragraphs": [
+        "In the imagined room, the visitor's attention begins with a sound. The maker's attention begins elsewhere: the alignment of threads, the condition of the cloth, the next movement she has to get right. The difference matters. One person is having an experience; the other is doing a job.",
+        "The image here is a visual companion, not a photograph of Leela, her home, or the fictional encounter. The story's question is larger than one workshop: how do you enter a working space without expecting it to become a performance?"
+      ],
+      "eyebrow": "THE FIRST LESSON · PRESENCE",
+      "caption": "Illustrative editorial image; the narrative characters and workshop are fictional."
+    },
+    {
+      "type": "text",
+      "id": "a-question-out-of-turn",
+      "eyebrow": "02 · THE FIRST INTERRUPTION",
+      "title": "The Question We Asked Too Quickly",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "When Leela finally stopped, the room seemed to expand. She eased back in her chair, looked at us, and asked whether we wanted water. We said yes. A few moments later, in the vague panic of wanting to sound interested, I asked how long it would take to finish the cloth. She told us she could estimate when the remaining work was clear, but the answer depended on more than the minutes we had watched. Preparation, interruptions, the kind of border, and the state of the yarn all mattered."
+        },
+        {
+          "level": 2,
+          "text": "I nodded, then made the mistake I remember most clearly. 'And is it difficult to compete with cheaper machine-made fabric?' The question was not cruel, but it took everything she had just shown us and compared it to the one number we thought we understood: price. Leela did not appear offended. Instead, she asked what I meant by competing. Did I mean whether people bought her work? Whether customers understood the difference? Or whether she was expected to make something slowly and then sell it as though it had taken no time at all?"
+        },
+        {
+          "level": 2,
+          "text": "For the first time since arriving, I heard the conversation change direction. She was not merely supplying an answer. She was insisting on a better question. I had arrived imagining that understanding a craft meant collecting interesting facts about it. Leela seemed to be asking whether I had considered what the work cost the person doing it, and what kind of value I thought I was measuring."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "before-the-first-thread",
+      "eyebrow": "03 · WHAT THE FINISHED CLOTH HIDES",
+      "title": "Before a Single Thread Becomes Cloth",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Handloom weaving does not begin when the shuttle first crosses the loom. Yarns must be prepared, arranged, and managed; the warp has to be ready to hold the weaving process together. In real Chendamangalam handloom production, preparation can include processes such as dyeing, drying, stretching, and sizing threads before weaving. Our fictional visit keeps these steps in the background because Leela is not giving a formal demonstration. Yet that invisible preparation is part of why an hour of visible weaving cannot explain the value of the finished textile."
+        },
+        {
+          "level": 2,
+          "text": "We asked whether she would show us where the thread was stored. She looked toward the back room and said, 'Not today. It's all a mess there.' I nearly offered the rehearsed reassurance that we did not mind. Then I stopped. The room was hers to show or not show. We did not need to see everything to believe that it existed. She pointed instead to a length of yarn within reach and explained what she was checking for. The smaller invitation was enough."
+        },
+        {
+          "level": 2,
+          "text": "A good cultural encounter often works this way. It is not a sequence of doors opened for a visitor's satisfaction; it is a conversation about what the host is comfortable sharing. A traveller who has paid for a guided experience may reasonably expect a thoughtful introduction, but that expectation is still bounded by the host's time, privacy, and working needs. Respect is not something added after the itinerary is designed. It is built into what the visit does and does not ask for."
+        }
+      ]
+    },
+    {
+      "type": "masonry",
+      "maxCols": 2,
+      "images": [
+        {
+          "src": "/images/journal/journal2.webp",
+          "alt": "Landscape editorial photograph used to evoke the material world of handcraft",
+          "width": 600,
+          "height": 400,
+          "caption": "The finished object is only one part of the story."
+        },
+        {
+          "src": "/images/home/solo-portrait.webp",
+          "alt": "Portrait travel image accompanying an imagined moment of patient observation",
+          "width": 600,
+          "height": 900,
+          "caption": "Attention shifts from spectacle to process."
+        },
+        {
+          "src": "/images/impact/impact2.webp",
+          "alt": "Landscape editorial image for a story about local knowledge",
+          "width": 750,
+          "height": 500,
+          "caption": "Craft knowledge is held within everyday working lives."
+        },
+        {
+          "src": "/images/itineraries/dummy11.webp",
+          "alt": "Portrait editorial travel photograph accompanying a story of careful listening",
+          "width": 400,
+          "height": 600,
+          "caption": "A quieter frame can invite a deeper question."
+        }
+      ],
+      "captionPc": false,
+      "captionMob": false,
+      "title": "Texture, Labour, and the Spaces Around Them",
+      "eyebrow": "ILLUSTRATIVE GALLERY · TEXTURE & CONTEXT",
+      "text": "A curated moodboard for the story, not photographs of the fictional weaver or her work."
+    },
+    {
+      "type": "text",
+      "id": "learning-to-ask-better",
+      "eyebrow": "04 · FOLLOW THE MAKER",
+      "title": "Learning to Ask a Better Question",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Our host had been quiet through most of the exchange, letting Leela decide the pace. Now he asked whether she wanted to explain how she recognised when an edge was going slightly wrong. The question was specific, practical, and clearly about something she could choose to share. She reached for the cloth and showed us the line she had been watching. It took me longer than it should have to see the difference. Leela smiled, not triumphantly but with the amused patience of someone explaining something obvious to a beginner."
+        },
+        {
+          "level": 2,
+          "text": "I had expected the visit to teach me a technique. Instead it began to teach me how expertise can look from the outside. A person working carefully does not always appear dramatic. A correction can be so small that the untrained eye misses it entirely. The knowledge sits in repeated attention, in decisions made without ceremony, and in the ability to notice a flaw before it becomes difficult to undo."
+        },
+        {
+          "level": 2,
+          "text": "The change in the room was subtle. We had stopped asking Leela to summarise a lifetime of work for us and started following the thread of what she chose to explain. She was no longer positioned as the keeper of a secret we had come to unlock. She was a practitioner directing a conversation on terms she understood, while we listened well enough to admit how much we did not."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "blue",
+      "imageCols": 6,
+      "aspectRatio": "3:2",
+      "imagePosition": "left",
+      "mobileOrder": "image-first",
+      "verticalAlign": "top",
+      "title": "The Detail That Required Another Look",
+      "image": "/images/impact/impact4.webp",
+      "imageAlt": "Landscape editorial photograph illustrating careful attention to a craft process",
+      "paragraphs": [
+        "In a real workshop, an attentive local interpreter can help a visitor understand materials, stages of production, and which questions are appropriate. The host need not narrate every gesture. A small detail that the maker selects can be more revealing than an exhaustive catalogue of techniques.",
+        "Here the story narrows deliberately. The interesting moment is not a grand revelation but the visitor's decision to look again, slowly, at something the craftsperson considers important."
+      ],
+      "eyebrow": "LOOK AGAIN · NOT LONGER",
+      "caption": "Editorial image illustrating attention to craft; not a record of this fictional scene."
+    },
+    {
+      "type": "quote",
+      "variant": "border",
+      "theme": "blue",
+      "text": "A skill can be visible for an entire afternoon and still remain almost entirely unseen.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "A reflection within the fictional story"
+    },
+    {
+      "type": "text",
+      "id": "the-price-of-something-slow",
+      "eyebrow": "05 · VALUE AND CHOICE",
+      "title": "The Price of Something Slow",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Later, Leela showed us a finished piece she was comfortable discussing. We looked at its border and the evenness of the fabric. I wanted to ask what it cost, and this time I waited until she mentioned that she had made it for sale. She gave a price. I felt my old reflex rise: compare it with a cheaper product online, calculate whether the difference was justified, decide whether this was an indulgence. Nothing about the object had changed, but the room made that reflex feel incomplete."
+        },
+        {
+          "level": 2,
+          "text": "The price was not a moral test that we had to pass. Leela did not need our approval or our purchase to prove that her work mattered. She had her own customers, expenses, preferences, and standards. We were free to decide whether the textile fit our needs and budget; she was free to charge for the labour and expertise involved. The problem was not comparison itself. It was the assumption that the fastest or cheapest version of an object establishes the natural value of every other version."
+        },
+        {
+          "level": 2,
+          "text": "Our host asked how she preferred visitors to buy when they were genuinely interested. Leela explained the options available in this imagined workshop and made clear that browsing was welcome, but handling certain pieces required care. She also mentioned that some pieces were ordered in advance. The conversation became practical, not sentimental. That felt more respectful than telling her that her work was 'priceless' while hesitating to pay its actual price."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "theme": "cream",
+      "title": "Visiting a Working Handloom Space",
+      "eyebrow": "PRACTICAL VISITOR NOTES",
+      "text": "A thoughtful craft encounter should be arranged through willing hosts and, where appropriate, a local guide or cooperative. The maker's right to work, decline requests, set a price, and control photography remains central.",
+      "unorderedList": {
+        "title": "Keep in mind",
+        "level": 3,
+        "items": [
+          "Agree on the visit, duration, and any hosting or interpretation fee in advance; purchases should not be the only form of compensation.",
+          "Ask before recording, photographing, entering private rooms, or sharing the maker's personal details online.",
+          "Do not touch yarn, tools, unfinished work, or finished textiles without being invited.",
+          "Avoid bargaining that dismisses the time and skill involved; respect the right to name a fair price.",
+          "Let the host decide whether to demonstrate, explain, continue working, or end the visit."
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "the-tea-in-between",
+      "eyebrow": "06 · THE CONVERSATION CHANGES",
+      "title": "Tea, and the Ordinary Things Between",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "At some point tea arrived. It did not arrive as part of a hospitality ritual arranged for visitors. Someone had made tea and offered some to the people in the room. Leela asked where we had come from. We told her. She asked what kind of work we did, and our answer produced a small exchange about how long we spent looking at screens. She laughed at the thought of making a living by moving tiny things around on a glowing rectangle. We laughed because it was reasonably accurate."
+        },
+        {
+          "level": 2,
+          "text": "The conversation wandered into the ordinary territory that polished itineraries rarely promise. The weather had been inconvenient. A relative was visiting the following week. An errand needed doing before evening. Nothing in these details was exceptional enough for a brochure. I loved them precisely because they restored scale to the room. We were not meeting a symbol of heritage. We were speaking with a person who had the same right as anyone else to be tired, amused, distracted, proud, or simply busy."
+        },
+        {
+          "level": 2,
+          "text": "I noticed that Leela was most animated when correcting a detail about the work, not when answering questions about herself. That was her preference in this conversation, and it deserved to guide us. We did not need an intimate family history to call the encounter meaningful. What we had been given was an opportunity to understand a little more about work, choice, and the limits of our own knowledge. It was enough."
+        }
+      ]
+    },
+    {
+      "type": "horizontal-slider",
+      "title": "Between the Words, the Work Continues",
+      "sliderHeight": 400,
+      "innerRounding": true,
+      "captionMob": false,
+      "captionPc": false,
+      "images": [
+        {
+          "src": "/images/itineraries/dummy2.webp",
+          "alt": "Portrait editorial image evoking the scale of a small working studio",
+          "width": 400,
+          "height": 600,
+          "caption": "A room can contain both conversation and concentration."
+        },
+        {
+          "src": "/images/journal/journal4.webp",
+          "alt": "Landscape image illustrating the everyday setting of a cultural journey",
+          "width": 600,
+          "height": 400,
+          "caption": "The setting does not have to become a stage."
+        },
+        {
+          "src": "/images/itineraries/dummy5.webp",
+          "alt": "Portrait editorial image used to evoke tactile attention",
+          "width": 400,
+          "height": 600,
+          "caption": "A closer look is meaningful only when it is invited."
+        },
+        {
+          "src": "/images/impact/impact1.webp",
+          "alt": "Landscape editorial image for a narrative about shared understanding",
+          "width": 750,
+          "height": 500,
+          "caption": "The host decides what remains visible and what stays private."
+        },
+        {
+          "src": "/images/home/journey-mob1.webp",
+          "alt": "Portrait journey photograph accompanying the visitor’s reflection",
+          "width": 960,
+          "height": 1440,
+          "caption": "What we carry away is not always something we can photograph."
+        }
+      ],
+      "eyebrow": "FILMSTRIP · A VISUAL COUNTERPOINT",
+      "paragraph": "These photographs set the emotional rhythm of the fiction; none depicts the invented characters or the described workshop."
+    },
+    {
+      "type": "text",
+      "id": "the-photograph-we-didnt-take",
+      "eyebrow": "07 · PERMISSION IS MORE THAN A YES",
+      "title": "The Photograph We Didn’t Take",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "Near the end of the visit, light reached the loom at an angle that would have made a striking picture. Leela was leaning toward the fabric, one hand lifted slightly, her expression concentrated. I knew immediately how I would frame it. The photograph would suggest patience and tradition and all the other graceful words that travel writing likes to gather around work. I reached into my bag, then stopped before taking out the phone."
+        },
+        {
+          "level": 2,
+          "text": "I could have asked. She might have agreed. Nothing about that moment was forbidden. But I had begun to recognise a habit in myself: when something moved me, I tried to turn it into evidence that it had happened. The camera was not the problem; my impatience to use it was. I chose instead to remember the small shift of light and the way the loom resumed after conversation, unchanged by our arrival."
+        },
+        {
+          "level": 2,
+          "text": "Later I would understand that this decision did not make me especially virtuous. It simply made room for a moment that belonged primarily to someone else. The craftsperson did not need to become my photograph. I was welcome to carry a memory, and she was free to carry on with her work. That was a quieter ending than I had planned and a more accurate one."
+        }
+      ]
+    },
+    {
+      "type": "image-split",
+      "theme": "light",
+      "imageCols": 6,
+      "aspectRatio": "16:9",
+      "imagePosition": "right",
+      "mobileOrder": "image-first",
+      "verticalAlign": "center",
+      "title": "Not Every Moment Needs an Image",
+      "image": "/images/home/solo-landscape.webp",
+      "imageAlt": "Landscape editorial travel photograph used as a quiet pause in a fictional cultural encounter",
+      "paragraphs": [
+        "The visual pause here is intentional. The story's decisive image is the one the narrator chooses not to take. Photography can be an important and welcome part of travel; it becomes thoughtful when it follows relationship, context, and permission rather than taking the lead.",
+        "The most memorable detail may be a sound, a correction, or a question. Those forms of memory do not need a screen to become real."
+      ],
+      "eyebrow": "A DIFFERENT KIND OF SOUVENIR",
+      "caption": "An atmospheric landscape image, deliberately not a portrait of the story’s fictional weaver."
+    },
+    {
+      "type": "text",
+      "id": "leaving-at-the-right-time",
+      "eyebrow": "08 · GOODBYE WITHOUT A GRAND FINALE",
+      "title": "Leaving at the Right Time",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "When we finally stood, Leela asked whether we had learned what we wanted. I said we had learned something different. She raised an eyebrow, perhaps concerned that the visit had failed. Our host translated my tangled explanation into a sentence with more sense: we had learned to notice the work before asking the maker to perform it for us. Leela gave a quick smile and said that next time we could come with fewer questions. 'Or better ones,' she added."
+        },
+        {
+          "level": 2,
+          "text": "We thanked her for the time. The visit had been arranged and paid for in advance in the world of this story, independent of whether we bought anything. We did not purchase the finished piece we had admired; it was outside our plans and our budget. Leela did not seem disappointed. The choice was ordinary, and that was its strength. A respectful encounter should not need to end in a sale, just as a sale should never be treated as a substitute for fair hosting arrangements."
+        },
+        {
+          "level": 2,
+          "text": "Outside, the lane had changed. A delivery vehicle passed slowly, and someone on a bicycle waited for it to clear. A child called to a friend from a gate. The everyday life of the neighbourhood had not rearranged itself around our visit. We had entered a room, shared time with someone who chose to welcome us, and left while her day was still hers."
+        }
+      ]
+    },
+    {
+      "type": "slider",
+      "title": "Places That Hold More Than a Photograph",
+      "width": 1200,
+      "height": 800,
+      "autoplay": false,
+      "interval": 5000,
+      "captionMob": false,
+      "captionPc": true,
+      "images": [
+        {
+          "src": "/images/journal/journal1.webp",
+          "alt": "Editorial landscape image evoking cultural journeys and living places",
+          "caption": "A neighbourhood is more than its most recognisable feature."
+        },
+        {
+          "src": "/images/impact/impact3.webp",
+          "alt": "Landscape travel photo used as context for relationships between hosts and visitors",
+          "caption": "Every encounter belongs within a larger everyday life."
+        },
+        {
+          "src": "/images/home/journey-pc.webp",
+          "alt": "Travel landscape image representing a journey shaped by local people",
+          "caption": "The route continues beyond one meeting."
+        },
+        {
+          "src": "/images/journal/journal5.webp",
+          "alt": "Landscape editorial image suggesting a calm departure",
+          "caption": "Leaving well is part of visiting well."
+        }
+      ],
+      "eyebrow": "VISUAL EPILOGUE · FOUR QUIET FRAMES"
+    },
+    {
+      "type": "text",
+      "id": "what-listening-means",
+      "eyebrow": "09 · WHAT REMAINS",
+      "title": "What Listening Actually Means",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "On the way back, we tried to describe what had happened. It would have been easy to say Leela taught us the meaning of patience. That was true only in the loose, self-centred sense that we had learned something while watching her work. She had not set out to deliver a life lesson. She had spent part of a working day explaining a few things to visitors. Turning that generosity into an uplifting parable about our own transformation would have taken the story away from her again."
+        },
+        {
+          "level": 2,
+          "text": "A more useful account would admit where we had arrived unprepared. We had mistaken access for understanding, questions for attention, and a photograph for a memory. We had been willing to praise craftsmanship but slower to think about compensation, privacy, and choice. These are common tourist habits precisely because they rarely announce themselves as disrespectful. They often feel like enthusiasm. The difference lies in whether we are willing to adjust when the host shows us another way."
+        },
+        {
+          "level": 2,
+          "text": "Listening was not the absence of speech. It was the practice of letting another person's expertise shape the conversation, accepting the limits of what they wished to share, and refusing to turn every moment into something we owned. The loom's rhythm stayed with me, but so did the way Leela continued working while we sat quietly. A meaningful visit did not require her day to stop."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "variant": "boxed",
+      "theme": "mixed",
+      "text": "We thought we had travelled to hear the story of a craft. We left understanding that its maker could choose how much of that story to tell.",
+      "quoteAuthor": "Sreejith Travel Journal",
+      "quoteRole": "Closing reflection from an imagined encounter"
+    },
+    {
+      "type": "text",
+      "id": "a-visit-worth-designing",
+      "eyebrow": "CLOSING · FROM STORY TO PRACTICE",
+      "title": "A Visit Worth Designing Carefully",
+      "titleLevel": 1,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "If a real journey includes a handloom workshop, the conditions around the visit matter as much as the story told inside it. A responsible designer should confirm that the maker has opted in, agree on duration and compensation, explain photography rules before arrival, and ensure the experience does not rely on a surprise audience gathering in a private workspace. A local interpreter who respects the practitioner can make the experience more meaningful by helping visitors hear what is being offered—not by demanding more."
+        },
+        {
+          "level": 2,
+          "text": "Kerala's weaving traditions are diverse, with established centres including Chendamangalam, Kuthampully, and Balaramapuram. Each location has its own textile histories and techniques, and a visit should never flatten them into one generic 'ancient craft' experience. A traveller can begin with an interest in textiles, but the relationship deepens when they learn to ask whose expertise is being shared, under what conditions, and on whose terms. That is the journey this fictional story hopes to invite."
+        }
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "plan",
+      "title": "Make Room for Encounters That Matter",
+      "text": "Tell us what draws you to living traditions, and let's design a journey that values people and their working lives as much as the places on a map.",
+      "eyebrow": "CULTURE · CURIOSITY · CARE",
+      "ctaLabel": "PLAN YOUR JOURNEY"
+    },
+    {
+      "type": "text",
+      "id": "story-note-and-resources",
+      "eyebrow": "EDITORIAL TRANSPARENCY",
+      "title": "Story Note and Background",
+      "titleLevel": 2,
+      "paragraphs": [
+        {
+          "level": 2,
+          "text": "<strong>Fiction disclosure:</strong> Leela, the narrator, all dialogue, and this particular visit were created for this article. No real weaver's comments or personal experiences are represented. The real-world background about handloom centres and yarn preparation can be explored through the <a href='https://handloom.kerala.gov.in/2024/03/13/chendamangalam-dhoties-set-mundu/' target='_blank'>Kerala Directorate of Handlooms and Textiles' Chendamangalam overview</a> and its <a href='https://handloom.kerala.gov.in/2024/03/13/kuthampully-dhoties-set-mundu/' target='_blank'>Kuthampully overview</a>. Their details are background context, not evidence for the invented encounter."
+        }
+      ]
+    },
+    {
+      "type": "cta-banner",
+      "bannerType": "impact",
+      "title": "Travel That Respects the People Behind the Experience",
+      "text": "Explore the principles that help cultural experiences support local knowledge, meaningful exchange, and shared respect."
+    },
+    {
+      "type": "author-profile",
+      "theme": "cream",
+      "eyebrow": "ABOUT THE AUTHOR",
+      "title": "Sree Jith",
+      "text": "Sree Jith approaches cultural travel through thoughtful planning and relationships, encouraging journeys that respect the choices, stories, and everyday work of local hosts.",
+      "image": "/images/testimonials/avatar.webp",
+      "imageAlt": "Portrait image for the Sree Jith author profile"
+    }
+  ]
+}

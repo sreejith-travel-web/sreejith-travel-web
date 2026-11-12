@@ -51,7 +51,7 @@ const headerPipeClass = computed(() => {
 <template>
   <NuxtLink
     :to="`/itineraries/${item.slug}`"
-    class="group relative w-full h-full flex flex-col justify-between rounded-2xl p-5 sm:p-6 overflow-hidden transition-all duration-500"
+    class="group relative w-full h-full flex flex-col justify-between rounded-2xl p-5 sm:p-6 max-w-[88vw] overflow-hidden transition-all duration-500"
     :class="cardSurfaceClass"
   >
     <!-- Decorative Wavy Shimmer Watermark (Only on Signature & Collaborated) -->
@@ -248,7 +248,7 @@ const headerPipeClass = computed(() => {
     </div>
 
     <!-- B. SIGNATURE & ESSENTIAL LAYOUT: 3:2 Bottom Image + Bottom-Right 2px Double-Border Arrow CTA -->
-    <div v-else class="relative z-10 w-full aspect-3/2 rounded-xl overflow-hidden bg-surface-frosted mt-auto">
+    <div v-else class="relative z-10 w-full aspect-7/5 rounded-xl overflow-hidden bg-surface-frosted mt-auto">
       <img
         :src="item.image"
         :alt="item.alt"
