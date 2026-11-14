@@ -1,6 +1,6 @@
 <!-- ~/app/components/HomeImpact.vue -->
 <script setup lang="ts">
-import { ref, onBeforeUnmount } from 'vue'
+import { ref, onMounted, onBeforeUnmount } from 'vue'
 
 export interface ImpactItem {
   id: string
@@ -81,24 +81,22 @@ const scrollMobileToIndex = (idx: number) => {
   el.scrollTo({ left: Math.max(0, left), behavior: 'smooth' })
 }
 
-const isLgUp = ref(true)
-let lgMedia: MediaQueryList | null = null
+// Aligned to 768px (`md:`) so neither mobile nor desktop mounts hidden 0x0 images
+const isMdUp = ref(true)
+let mdMedia: MediaQueryList | null = null
 
 const onViewportChange = (e: MediaQueryListEvent | MediaQueryList) => {
-  isLgUp.value = e.matches
+  isMdUp.value = e.matches
 }
 
 onMounted(() => {
-  lgMedia = window.matchMedia('(min-width: 1024px)')
-  onViewportChange(lgMedia)
-  lgMedia.addEventListener('change', onViewportChange)
+  mdMedia = window.matchMedia('(min-width: 768px)')
+  onViewportChange(mdMedia)
+  mdMedia.addEventListener('change', onViewportChange)
 })
 
 onBeforeUnmount(() => {
-  lgMedia?.removeEventListener('change', onViewportChange)
-})
-
-onBeforeUnmount(() => {
+  mdMedia?.removeEventListener('change', onViewportChange)
   if (mobileScrollRaf !== null) {
     cancelAnimationFrame(mobileScrollRaf)
     mobileScrollRaf = null
@@ -147,7 +145,7 @@ onBeforeUnmount(() => {
       <!-- 2. HYBRID RESPONSIVE SHOWCASE -->
       <div class="relative w-full max-w-6xl flex flex-col md:flex-row items-center justify-between gap-8 lg:gap-12 xl:gap-16 mb-8 md:mb-10 lg:mb-12">
         <!-- =======================================================
-             A. MOBILE SNAP CAROUSEL (< 768px)
+             A. MOBILE SNAP CAROUSEL (< 768px — Zero Vertical Scroll Arrest)
              ======================================================= -->
         <div
           v-motion-fade-up
@@ -157,7 +155,7 @@ onBeforeUnmount(() => {
           <div
             ref="mobileRailRef"
             data-lenis-prevent-horizontal
-            class="w-full flex overflow-x-auto hide-scrollbar snap-x snap-mandatory px-4 pb-3 gap-4 touch-pan-x overscroll-x-contain"
+            class="w-full flex overflow-x-auto overflow-y-hidden hide-scrollbar snap-x snap-mandatory px-4 pb-3 gap-4 touch-manipulation overscroll-x-contain"
             @scroll.passive="onMobileRailScroll"
           >
             <NuxtLink
@@ -169,7 +167,7 @@ onBeforeUnmount(() => {
             >
               <!-- Strict Lazy Image -->
               <img
-                v-if="!isLgUp"
+                v-if="!isMdUp"
                 :src="item.img"
                 :alt="item.alt"
                 width="750"
@@ -198,9 +196,9 @@ onBeforeUnmount(() => {
                 </p>
               </div>
 
-              <!-- Bottom-Right Warm Gold Circular Outline CTA -->
+              <!-- Bottom-Right Warm Gold Circular Outline CTA (Hover Scale-Up / Active Scale-Down) -->
               <div
-                class="itinerary-cta-circle absolute bottom-4 right-4 xs:bottom-5 xs:right-5 z-21 text-warm-gold drop-shadow-xs transition-transform duration-500 ease-editorial group-hover:scale-105 group-active:scale-105 pointer-events-none"
+                class="itinerary-cta-circle absolute bottom-4 right-4 xs:bottom-5 xs:right-5 z-21 text-warm-gold drop-shadow-xs transition-transform duration-500 ease-editorial group-hover:scale-108 group-active:scale-96 group-active:duration-150 pointer-events-none"
               >
                 <svg
                   class="w-full h-full overflow-visible"
@@ -328,6 +326,7 @@ onBeforeUnmount(() => {
           >
             <!-- Strict Lazy 3:2 Image -->
             <img
+              v-if="isMdUp"
               :src="item.img"
               :alt="item.alt"
               width="750"
@@ -346,13 +345,13 @@ onBeforeUnmount(() => {
               :class="activeIndex === idx ? 'opacity-100' : 'opacity-0'"
             />
 
-            <!-- Bottom-Left Copy Block (Right-Cleared for Circular CTA) -->
+            <!-- Bottom-Left Copy Block (Smooth GPU Translate-Up + Fade-Up) -->
             <div
-              class="pointer-events-none absolute inset-x-0 bottom-0 p-7 lg:p-10 xl:p-12 pr-20 lg:pr-24 flex flex-col justify-end items-start text-left transition-[opacity,transform] duration-1000 ease-editorial"
+              class="pointer-events-none absolute inset-x-0 bottom-0 p-7 lg:p-10 xl:p-12 pr-20 lg:pr-24 flex flex-col justify-end items-start text-left transition-[opacity,translate,transform] ease-editorial will-change-[opacity,translate]"
               :class="
                 activeIndex === idx
-                  ? 'translate-y-0 opacity-100 delay-300'
-                  : 'translate-y-5 opacity-0'
+                  ? 'translate-y-0 opacity-100 duration-1000 delay-300'
+                  : 'translate-y-6 opacity-0 duration-300 delay-0'
               "
             >
               <h3 class="section-smaller-subtitle text-surface-light! font-medium mb-3.5 whitespace-pre-line">
@@ -370,9 +369,9 @@ onBeforeUnmount(() => {
               </p>
             </div>
 
-            <!-- Bottom-Right Warm Gold Circular Outline CTA -->
+            <!-- Bottom-Right Warm Gold Circular Outline CTA (Hover Scale-Up / Active Scale-Down) -->
             <div
-              class="itinerary-cta-circle absolute bottom-5 right-5 lg:bottom-8 lg:right-8 z-21 text-warm-gold drop-shadow-xs transition-transform duration-500 ease-editorial group-hover:scale-108 group-active:scale-105 pointer-events-none"
+              class="itinerary-cta-circle absolute bottom-5 right-5 lg:bottom-8 lg:right-8 z-21 text-warm-gold drop-shadow-xs transition-transform duration-500 ease-editorial group-hover:scale-108 group-active:scale-96 group-active:duration-150 pointer-events-none"
             >
               <svg
                 class="w-full h-full overflow-visible"

@@ -9,6 +9,8 @@
     </main>
 
     <AppFooter />
+    <FloatingActionDock />
+    <ScrollNav />
 
     <!-- Toggle palette="gold" or palette="blue" for client review -->
     <!-- <WeavingStories palette="gold" /> -->

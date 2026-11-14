@@ -248,22 +248,22 @@ const handleTabSelect = async (rawTabId: string) => {
               </p>
             </div>
 
-            <!-- 3B. 6 Multi-Tinted Category Cards (Visible ONLY inside CATEGORIES tab) -->
+            <!-- 3B. 6 Multi-Tinted Category Filter Pills (Micro-Safe 1 -> 2 -> 3 CSS Grid) -->
             <div
               v-else-if="activeTab === 'categories'"
               class="w-full max-w-4xl mx-auto flex flex-col items-center mb-8 md:mb-10"
             >
-              <p class="section-subparagraph text-secondary-light mb-4">
+              <p class="section-subparagraph text-secondary-light mb-4 text-center">
                 Select one or more interests to filter routes
               </p>
 
-              <div class="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 w-full">
+              <div class="grid grid-cols-1 min-[360px]:grid-cols-2 md:grid-cols-3 auto-rows-fr gap-2.5 sm:gap-4 w-full">
                 <button
                   v-for="cat in categoryConfigs"
                   :key="cat.id"
                   type="button"
                   :aria-pressed="isCategorySelected(cat.id)"
-                  class="category-filter-card"
+                  class="category-filter-card h-full"
                   :class="isCategorySelected(cat.id) ? cat.cardSelectedClass : cat.cardUnselectedClass"
                   @click="emit('toggle-category', cat.id)"
                 >
@@ -295,61 +295,68 @@ const handleTabSelect = async (rawTabId: string) => {
               </div>
             </div>
 
-            <!-- 4. Live Filter Readout Bar -->
-            <div class="filter-readout-bar">
-              <div class="flex flex-wrap items-center gap-2 text-left">
-                <span class="section-subparagraph font-semibold text-journey-deep">
-                  {{ filteredItineraries.length }} {{ activeTabTitle }}
-                </span>
-
-                <template v-if="activeTab === 'categories' && selectedCategoryNames.length > 0">
-                  <span class="text-journey-deep/35">·</span>
-                  <span class="section-subparagraph text-dark-gold font-medium">
-                    {{ selectedCategoryNames.join(', ') }}
+            <!-- 4 & 5. Width-Synced Readout Bar + Flex-Wrap Journey Stage -->
+            <div class="itinerary-collection-stage">
+              <!-- Live Filter Readout Bar -->
+              <div class="filter-readout-bar">
+                <div class="flex flex-wrap items-center gap-2 text-left">
+                  <span class="section-subparagraph font-semibold text-journey-deep">
+                    {{ filteredItineraries.length }} {{ activeTabTitle }}
                   </span>
-                </template>
+
+                  <template v-if="activeTab === 'categories' && selectedCategoryNames.length > 0">
+                    <span class="text-journey-deep/35">·</span>
+                    <span class="section-subparagraph text-dark-gold font-medium">
+                      {{ selectedCategoryNames.join(', ') }}
+                    </span>
+                  </template>
+                </div>
+
+                <button
+                  v-if="activeTab === 'categories' && selectedCategories.length > 0"
+                  type="button"
+                  class="section-subparagraph text-journey-deep/80 underline underline-offset-4 hover:text-intention-blue active:text-intention-blue font-medium transition-colors cursor-pointer"
+                  @click="emit('clear-filters')"
+                >
+                  Clear filters
+                </button>
               </div>
 
-              <button
-                v-if="activeTab === 'categories' && selectedCategories.length > 0"
-                type="button"
-                class="section-subparagraph text-journey-deep/80 underline underline-offset-4 hover:text-intention-blue active:text-intention-blue font-medium transition-colors cursor-pointer"
-                @click="emit('clear-filters')"
+              <!-- Flex-Wrap Equal-Height Itinerary Cards (Centered on Mobile, Flush-Left Final Row on md+) -->
+              <div
+                v-if="filteredItineraries.length > 0"
+                class="itinerary-listing-flex"
               >
-                Clear filters
-              </button>
-            </div>
+                <div
+                  v-for="(item, idx) in filteredItineraries"
+                  :key="item.id"
+                  v-motion-atelier-card
+                  :delay="(idx % 3) * 65"
+                  class="itinerary-listing-slot"
+                >
+                  <ItineraryCard :item="item" />
+                </div>
+              </div>
 
-            <!-- 5. 3-Column Equal-Height Itinerary Card Grid -->
-            <div
-              v-if="filteredItineraries.length > 0"
-              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-full max-w-md mx-auto md:max-w-3xl lg:max-w-full items-stretch"
-            >
-              <ItineraryCard
-                v-for="item in filteredItineraries"
-                :key="item.id"
-                :item="item"
-              />
-            </div>
-
-            <!-- Empty State -->
-            <div
-              v-else
-              class="w-full py-16 px-6 rounded-2xl bg-surface-light border border-journey-deep/10 flex flex-col items-center text-center"
-            >
-              <p class="section-subtitle text-journey-deep mb-2">
-                No journeys match this exact selection.
-              </p>
-              <p class="section-paragraph text-secondary-light mb-6">
-                Try clearing one of your selected categories.
-              </p>
-              <button
-                type="button"
-                class="px-6 py-3 rounded-sm border-2 border-journey-deep text-journey-deep font-uppercase text-[11px] tracking-[0.2em] uppercase hover:bg-intention-blue hover:border-intention-blue hover:text-surface-light active:bg-intention-blue active:text-surface-light transition-all cursor-pointer"
-                @click="emit('clear-filters')"
+              <!-- Empty State -->
+              <div
+                v-else
+                class="w-full py-16 px-6 rounded-2xl bg-surface-light border border-journey-deep/10 flex flex-col items-center text-center"
               >
-                Clear Category Filters
-              </button>
+                <p class="section-subtitle text-journey-deep mb-2">
+                  No journeys match this exact selection.
+                </p>
+                <p class="section-paragraph text-secondary-light mb-6">
+                  Try clearing one of your selected categories.
+                </p>
+                <button
+                  type="button"
+                  class="px-6 py-3 rounded-sm border-2 border-journey-deep text-journey-deep font-uppercase text-[11px] tracking-[0.2em] uppercase hover:bg-intention-blue hover:border-intention-blue hover:text-surface-light active:bg-intention-blue active:text-surface-light transition-all cursor-pointer"
+                  @click="emit('clear-filters')"
+                >
+                  Clear Category Filters
+                </button>
+              </div>
             </div>
           </div>
         </Transition>
@@ -357,3 +364,87 @@ const handleTabSelect = async (rawTabId: string) => {
     </div>
   </section>
 </template>
+
+<style scoped>
+/* Typography-Locked Card Token Ladder (Identical to ItinerarySlider) */
+.itinerary-collection-stage {
+  --itin-card-w: min(calc(100vw - 1.5rem), 16.25rem);
+  --itin-gap: 1.25rem;
+  width: 100%;
+  max-width: 26rem;
+  margin-inline: auto;
+}
+
+@media (min-width: 321px) {
+  .itinerary-collection-stage {
+    --itin-card-w: 19.75rem;
+  }
+}
+
+@media (min-width: 481px) {
+  .itinerary-collection-stage {
+    --itin-card-w: 19rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .itinerary-collection-stage {
+    --itin-card-w: 20rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .itinerary-collection-stage {
+    --itin-card-w: 20.25rem;
+    --itin-gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .itinerary-collection-stage {
+    --itin-card-w: 21.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .itinerary-collection-stage {
+    --itin-card-w: 22.25rem;
+  }
+}
+
+/* Exact Row-Fit Caps (+1px DPR safety): Syncs Readout Bar & Keeps Orphan Rows Flush-Left */
+@media (min-width: 740px) {
+  .itinerary-collection-stage {
+    max-width: calc(2 * var(--itin-card-w) + var(--itin-gap) + 1px);
+  }
+}
+
+@media (min-width: 1196px) {
+  .itinerary-collection-stage {
+    max-width: calc(3 * var(--itin-card-w) + 2 * var(--itin-gap) + 1px);
+  }
+}
+
+.itinerary-listing-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: var(--itin-gap);
+  width: 100%;
+  max-width: var(--itin-card-w);
+  margin-inline: auto;
+}
+
+@media (min-width: 740px) {
+  .itinerary-listing-flex {
+    max-width: none;
+  }
+}
+
+.itinerary-listing-slot {
+  display: flex;
+  width: var(--itin-card-w);
+  flex: 0 0 var(--itin-card-w);
+}
+</style>

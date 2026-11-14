@@ -422,7 +422,7 @@ onBeforeUnmount(() => {
     aria-roledescription="carousel"
     aria-label="Collaborated Travel Designers"
     tabindex="0"
-    class="section-wrapper overflow-x-clip bg-bg-surface-light text-primary-light outline-none"
+    class="section-wrapper overflow-x-clip bg-bg-surface-light text-primary-light outline-none bg-surface-light"
     @keydown="onSectionKeydown"
   >
     <div class="w-full flex flex-col items-center">
@@ -649,3 +649,242 @@ onBeforeUnmount(() => {
     </div>
   </section>
 </template>
+
+<style scoped>
+/* Responsive CSS-Driven Centered Slider Stage (Zero-CLS SSR Centering) */
+.designer-slider-stage {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-block: 0.75rem;
+  user-select: none;
+  touch-action: pan-y;
+  --designer-card-w: 16.75rem;
+  --designer-card-gap: 1rem;
+}
+
+@media (min-width: 481px) {
+  .designer-slider-stage {
+    --designer-card-w: 18.25rem;
+    --designer-card-gap: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .designer-slider-stage {
+    --designer-card-w: 19.5rem;
+    --designer-card-gap: 1.5rem;
+  }
+}
+
+.designer-slider-spine {
+  position: relative;
+  left: 50%;
+  width: 0;
+  overflow: visible;
+}
+
+.designer-slider-track {
+  display: flex;
+  align-items: stretch;
+  width: max-content;
+  will-change: transform;
+  gap: var(--designer-card-gap);
+  transform: translate3d(
+    calc(
+      -1 * (
+        var(--active-slide-idx, 0) * (var(--designer-card-w) + var(--designer-card-gap)) +
+        (var(--designer-card-w) / 2)
+      ) + var(--slider-drag-px, 0px)
+    ),
+    0,
+    0
+  );
+  transition: transform 560ms var(--ease-editorial);
+}
+
+.designer-slider-track-instant {
+  transition: none !important;
+}
+
+.designer-slide-card {
+  position: relative;
+  flex-shrink: 0;
+  width: var(--designer-card-w);
+  border-radius: 1rem;
+  background-color: var(--color-surface-light);
+  border: 1px solid color-mix(in srgb, var(--color-journey-deep) 10%, transparent);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: all 500ms var(--ease-editorial);
+}
+
+.designer-slide-card-active {
+  border-color: color-mix(in srgb, var(--color-dark-gold) 45%, transparent);
+  box-shadow:
+    0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+  translate: 0 -0.25rem;
+}
+
+.designer-slide-card-idle {
+  box-shadow: 0 1px rgb(0 0 0 / 0.05);
+  opacity: 0.88;
+  cursor: pointer;
+}
+
+.designer-slide-card-idle:hover {
+  opacity: 1;
+  border-color: color-mix(in srgb, var(--color-journey-deep) 25%, transparent);
+}
+
+.designer-card-cover {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 8 / 5;
+  overflow: hidden;
+  background-color: var(--color-surface-frosted);
+  flex-shrink: 0;
+}
+
+.designer-card-cover-frame {
+  pointer-events: none;
+  position: absolute;
+  inset: 0.625rem;
+  border-radius: 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--color-surface-light) 35%, transparent);
+  z-index: 10;
+}
+
+.designer-card-avatar {
+  position: relative;
+  z-index: 20;
+  margin-top: -2.5rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 9999px;
+  overflow: hidden;
+  background-color: var(--color-surface-light);
+  border: 1px solid color-mix(in srgb, var(--color-dark-gold) 30%, transparent);
+  box-shadow:
+    0 0 0 4px var(--color-surface-light),
+    0 1px 2px 0 rgb(0 0 0 / 0.05);
+  flex-shrink: 0;
+}
+
+/* Symmetrical Centered Conveyor Bar (Prev + 5 Dots + 2 Micro Dots + Next) */
+.designer-conveyor-bar {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.875rem;
+  user-select: none;
+}
+
+@media (min-width: 640px) {
+  .designer-conveyor-bar {
+    gap: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .designer-conveyor-bar {
+    margin-top: 2.5rem;
+  }
+}
+
+.designer-nav-btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  background-color: var(--color-surface-light);
+  border: 1px solid color-mix(in srgb, var(--color-journey-deep) 15%, transparent);
+  color: var(--color-journey-deep);
+  box-shadow: 0 1px rgb(0 0 0 / 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 300ms var(--ease-editorial);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.designer-nav-btn:hover {
+  border-color: var(--color-dark-gold);
+  color: var(--color-dark-gold);
+}
+
+.designer-nav-btn:active {
+  scale: 0.95;
+}
+
+.designer-nav-btn:disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.designer-dots-window {
+  position: relative;
+  height: 1.75rem;
+  width: 9.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  --dot-slot-step: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .designer-dots-window {
+    width: 10.5rem;
+    --dot-slot-step: 1.375rem;
+  }
+}
+
+.designer-dot-slot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  outline: none;
+  transition:
+    transform 520ms var(--ease-editorial),
+    opacity 520ms var(--ease-editorial),
+    width 520ms var(--ease-editorial),
+    height 520ms var(--ease-editorial),
+    background-color 520ms var(--ease-editorial),
+    box-shadow 520ms var(--ease-editorial);
+}
+
+.designer-dot-active {
+  width: 1.5rem;
+  height: 0.5rem;
+  background-color: var(--color-dark-gold);
+  box-shadow:
+    0 0 0 2px var(--color-bg-light),
+    0 0 0 4px color-mix(in srgb, var(--color-dark-gold) 25%, transparent);
+}
+
+.designer-dot-mid {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: color-mix(in srgb, var(--color-journey-deep) 30%, transparent);
+  cursor: pointer;
+}
+
+.designer-dot-mid:hover {
+  background-color: color-mix(in srgb, var(--color-dark-gold) 75%, transparent);
+}
+
+.designer-dot-micro {
+  width: 0.375rem;
+  height: 0.375rem;
+  background-color: color-mix(in srgb, var(--color-journey-deep) 18%, transparent);
+  pointer-events: none;
+}
+</style>

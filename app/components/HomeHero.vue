@@ -341,7 +341,7 @@ onUnmounted(deactivateHero)
     <!-- Item 7: Award Badge (540ms) -->
     <div
       style="--stagger-delay: 540ms"
-      :class="['absolute bottom-3 md:bottom-4 lg:bottom-6 left-3 md:left-4 lg:left-6 brightness-0 invert-100 z-30 pointer-events-none lg:pointer-events-auto select-none lg:hover:brightness-100 lg:hover:invert-0 lg:active:brightness-100 lg:active:invert-0 transition-all duration-300 ease-editorial hero-stagger-item', { 'is-revealed': hasPlayedEntrance }]"
+      :class="['absolute bottom-3 md:bottom-4 lg:bottom-5 left-3 md:left-4 lg:left-5 brightness-0 invert-100 z-30 pointer-events-auto select-none hover:brightness-100 hover:invert-0 active:brightness-100 active:invert-0 transition-all duration-300 ease-editorial hero-stagger-item', { 'is-revealed': hasPlayedEntrance }]"
     >
       <img
         src="/images/home/award.webp"
@@ -351,7 +351,7 @@ onUnmounted(deactivateHero)
         loading="lazy"
         decoding="async"
         fetchpriority="low"
-        class="w-20 xs:w-22 sm:w-24 md:w-26 lg:w-28 h-auto aspect-200/214 object-contain opacity-95 drop-shadow-md"
+        class="w-20 xs:w-22 sm:w-24 md:w-26 lg:w-28 h-auto aspect-200/214 object-contain opacity-95 drop-shadow-md pointer-events-none"
       />
     </div>
   </section>

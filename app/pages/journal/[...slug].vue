@@ -17,6 +17,7 @@ import JournalSingleView from '~/components/JournalSingleView.vue'
 import JournalListicleView from '~/components/JournalListicleView.vue'
 import { useSessionScroll } from '~/composables/useSessionScroll'
 import { useEditorialGlide } from '~/composables/useEditorialGlide'
+import { useFloatingControls } from '~/composables/useFloatingControls'
 import type {
   JournalMeta,
   JournalCategoryType,
@@ -26,6 +27,7 @@ import type {
 
 type JournalArchiveTab = 'all' | JournalCategoryType
 
+const { setPageFloatingOverrides } = useFloatingControls()
 const route = useRoute()
 const { glidePageScrollTo } = useEditorialGlide()
 const {
@@ -292,6 +294,32 @@ const maybeScrollToWorkspace = () => {
   })
 }
 
+const isListicleRecord = computed<boolean>(() =>
+  Boolean(
+    !isArchiveRoute.value &&
+    singlePayload.value?.record?.meta.layout === 'listicle' &&
+    singlePayload.value?.record?.listicle
+  )
+)
+
+const syncFloatingControlsVisibility = () => {
+  if (!import.meta.client || !isPageActive.value) return
+  if (isArchiveRoute.value) {
+    setPageFloatingOverrides({ scrollNav: true, actionDock: true })
+  } else if (!singlePayload.value?.record || isListicleRecord.value) {
+    setPageFloatingOverrides({ scrollNav: false, actionDock: false })
+  } else {
+    setPageFloatingOverrides({ scrollNav: false, actionDock: true })
+  }
+}
+
+watch(
+  [() => route.path, isArchiveRoute, () => singlePayload.value?.record?.meta.slug, isListicleRecord],
+  () => {
+    syncFloatingControlsVisibility()
+  }
+)
+
 watch(
   () => route.path,
   async () => {
@@ -306,6 +334,7 @@ watch(
 
 onMounted(async () => {
   isPageActive.value = true
+  syncFloatingControlsVisibility()
   await ensureArchivePostsLoaded()
   maybeScrollToWorkspace()
 })
@@ -313,6 +342,7 @@ onMounted(async () => {
 onActivated(async () => {
   isPageActive.value = true
   syncFilterStateFromRoute()
+  syncFloatingControlsVisibility()
   await ensureArchivePostsLoaded()
   maybeScrollToWorkspace()
 })

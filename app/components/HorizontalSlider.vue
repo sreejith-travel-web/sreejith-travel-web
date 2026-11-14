@@ -240,7 +240,7 @@ const easeToStopIndex = (targetIdx: number) => {
       return
     }
     // Pure one-way exponential ease-out (never overshoots or zigzags)
-    scrollX.value += diff * 0.22
+    scrollX.value += diff * 0.11
     rafId = requestAnimationFrame(step)
   }
 

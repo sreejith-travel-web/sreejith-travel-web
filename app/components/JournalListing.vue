@@ -1123,4 +1123,176 @@ onBeforeUnmount(() => {
 .journal-sidebar-scroll::-webkit-scrollbar-thumb:hover {
   background-color: var(--color-action-blue, #2b6cb0);
 }
+
+/* Typography-Locked JournalCard Stage (Centered <1024px, Flush Beside Sticky Sidebar on lg+) */
+.journal-listing-flex {
+  --journal-card-w: min(calc(100vw - 1.5rem), 16.25rem);
+  --journal-gap: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: var(--journal-gap);
+  width: 100%;
+  max-width: var(--journal-card-w);
+  margin-inline: auto;
+}
+
+@media (min-width: 321px) {
+  .journal-listing-flex {
+    --journal-card-w: 19.75rem;
+  }
+}
+
+@media (min-width: 481px) {
+  .journal-listing-flex {
+    --journal-card-w: 18.75rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .journal-listing-flex {
+    --journal-card-w: 19.5rem;
+  }
+}
+
+@media (min-width: 724px) {
+  .journal-listing-flex {
+    max-width: calc(2 * var(--journal-card-w) + var(--journal-gap) + 1px);
+  }
+}
+
+@media (min-width: 768px) {
+  .journal-listing-flex {
+    --journal-card-w: 20rem;
+    --journal-gap: 1.5rem;
+  }
+}
+
+/* lg+: Hugs Left Gutter Beside Sticky Filter Sidebar & Fits 2 Cards at 1024px+ */
+@media (min-width: 1024px) {
+  .journal-listing-flex {
+    --journal-card-w: 20.125rem;
+    --journal-gap: 1rem;
+    margin-inline: 0;
+    max-width: calc(2 * var(--journal-card-w) + var(--journal-gap) + 1px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .journal-listing-flex {
+    --journal-card-w: 21.75rem;
+    --journal-gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .journal-listing-flex {
+    --journal-card-w: 22.5rem;
+  }
+}
+
+/* 3 Cards Fit Inside lg:col-span-9 Workspace at >=1710px */
+@media (min-width: 1710px) {
+  .journal-listing-flex {
+    max-width: calc(3 * var(--journal-card-w) + 2 * var(--journal-gap) + 1px);
+  }
+}
+
+.journal-listing-slot {
+  display: flex;
+  width: var(--journal-card-w);
+  flex: 0 0 var(--journal-card-w);
+}
+
+/* Smooth GPU Grid Accordions */
+.journal-accordion-shell {
+  display: grid;
+  transition:
+    grid-template-rows 350ms var(--ease-editorial),
+    opacity 350ms var(--ease-editorial);
+}
+
+.journal-accordion-open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.journal-accordion-closed {
+  grid-template-rows: 0fr;
+  opacity: 0;
+}
+
+.journal-accordion-clip {
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* Mobile & Tablet Accordion Trigger Pills */
+.journal-filter-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 0.875rem;
+  border-radius: 0.75rem;
+  background-color: var(--color-surface-light);
+  border: 1px solid color-mix(in srgb, var(--color-journey-deep) 15%, transparent);
+  color: var(--color-journey-deep);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+  transition: all 300ms var(--ease-editorial);
+  cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  .journal-filter-trigger {
+    padding-inline: 1rem;
+  }
+}
+
+.journal-filter-trigger:hover {
+  border-color: color-mix(in srgb, var(--color-dark-gold) 50%, transparent);
+}
+
+.journal-filter-trigger:active {
+  scale: 0.98;
+}
+
+.journal-filter-trigger-active {
+  border-color: color-mix(in srgb, var(--color-dark-gold) 55%, transparent);
+  background-color: color-mix(in srgb, var(--color-soft-cream) 25%, transparent);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Sticky Filter Sidebar Fade Masks */
+.journal-sidebar-fade-top {
+  pointer-events: none;
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  height: 1.75rem;
+  z-index: 20;
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-bg-light) 0%,
+    color-mix(in srgb, var(--color-bg-light) 85%, transparent) 55%,
+    transparent 100%
+  );
+  transition: opacity 300ms ease;
+}
+
+.journal-sidebar-fade-bottom {
+  pointer-events: none;
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: 2.25rem;
+  z-index: 20;
+  background-image: linear-gradient(
+    to top,
+    var(--color-bg-light) 0%,
+    color-mix(in srgb, var(--color-bg-light) 85%, transparent) 55%,
+    transparent 100%
+  );
+  transition: opacity 300ms ease;
+}
 </style>

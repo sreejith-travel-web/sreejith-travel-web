@@ -421,3 +421,451 @@ const partnerIconPaths: Record<WaysPartnerIconName, string> = {
     </div>
   </section>
 </template>
+
+<style scoped>
+/* --- Top 4 Bento Themes --- */
+.theme-trade-brass {
+  --card-start: #f5edd9;
+  --card-end: #e4cfa3;
+  --card-glow: rgba(168, 122, 42, 0.28);
+  --card-border: rgba(145, 102, 30, 0.34);
+  --card-border-hover: rgba(145, 102, 30, 0.62);
+  --card-shadow: rgba(112, 76, 18, 0.24);
+  --badge-bg: linear-gradient(135deg, #fdf8ec 0%, #ead8af 100%);
+  --badge-border: rgba(145, 102, 30, 0.34);
+  --card-accent: #7f5410;
+}
+
+.theme-corporate-slate {
+  --card-start: #e5ecf4;
+  --card-end: #c4d5e6;
+  --card-glow: rgba(40, 82, 124, 0.24);
+  --card-border: rgba(38, 78, 118, 0.32);
+  --card-border-hover: rgba(38, 78, 118, 0.6);
+  --card-shadow: rgba(20, 50, 82, 0.24);
+  --badge-bg: linear-gradient(135deg, #f6f9fc 0%, #d4e2ef 100%);
+  --badge-border: rgba(38, 78, 118, 0.32);
+  --card-accent: #1e4b75;
+}
+
+.theme-speaking-laterite {
+  --card-start: #f4e8e1;
+  --card-end: #e2c5b6;
+  --card-glow: rgba(164, 88, 56, 0.25);
+  --card-border: rgba(146, 74, 44, 0.32);
+  --card-border-hover: rgba(146, 74, 44, 0.6);
+  --card-shadow: rgba(112, 52, 28, 0.22);
+  --badge-bg: linear-gradient(135deg, #fcf6f2 0%, #ebd2c5 100%);
+  --badge-border: rgba(146, 74, 44, 0.32);
+  --card-accent: #853d20;
+}
+
+.theme-academic-moss {
+  --card-start: #e6eee8;
+  --card-end: #c6d7cb;
+  --card-glow: rgba(54, 98, 72, 0.24);
+  --card-border: rgba(48, 88, 64, 0.32);
+  --card-border-hover: rgba(48, 88, 64, 0.6);
+  --card-shadow: rgba(28, 60, 42, 0.22);
+  --badge-bg: linear-gradient(135deg, #f5faf6 0%, #d3e2d7 100%);
+  --badge-border: rgba(48, 88, 64, 0.32);
+  --card-accent: #27543a;
+}
+
+/* --- Bottom 5 Ecosystem Partner Themes --- */
+.theme-partner-amber {
+  --card-start: #f6eedc;
+  --card-end: #e7d4ad;
+  --card-glow: rgba(176, 128, 44, 0.24);
+  --card-border: rgba(152, 108, 32, 0.3);
+  --card-border-hover: rgba(152, 108, 32, 0.56);
+  --card-shadow: rgba(115, 78, 20, 0.2);
+  --badge-bg: linear-gradient(135deg, #fef9ee 0%, #eddcb7 100%);
+  --badge-border: rgba(152, 108, 32, 0.3);
+  --card-accent: #855912;
+}
+
+.theme-partner-rosewood {
+  --card-start: #f2e6e1;
+  --card-end: #dfc3b8;
+  --card-glow: rgba(152, 82, 62, 0.24);
+  --card-border: rgba(136, 68, 50, 0.3);
+  --card-border-hover: rgba(136, 68, 50, 0.56);
+  --card-shadow: rgba(104, 48, 34, 0.2);
+  --badge-bg: linear-gradient(135deg, #fbf5f2 0%, #e8d0c7 100%);
+  --badge-border: rgba(136, 68, 50, 0.3);
+  --card-accent: #7a3826;
+}
+
+.theme-partner-olive {
+  --card-start: #eaefe4;
+  --card-end: #cdd8c0;
+  --card-glow: rgba(84, 106, 54, 0.24);
+  --card-border: rgba(74, 94, 46, 0.3);
+  --card-border-hover: rgba(74, 94, 46, 0.56);
+  --card-shadow: rgba(52, 68, 30, 0.2);
+  --badge-bg: linear-gradient(135deg, #f7faf3 0%, #d9e3cd 100%);
+  --badge-border: rgba(74, 94, 46, 0.3);
+  --card-accent: #3f5722;
+}
+
+.theme-partner-indigo {
+  --card-start: #e7ebf4;
+  --card-end: #c8d1e5;
+  --card-glow: rgba(58, 76, 128, 0.24);
+  --card-border: rgba(52, 68, 114, 0.3);
+  --card-border-hover: rgba(52, 68, 114, 0.56);
+  --card-shadow: rgba(32, 44, 82, 0.2);
+  --badge-bg: linear-gradient(135deg, #f6f8fc 0%, #d6deee 100%);
+  --badge-border: rgba(52, 68, 114, 0.3);
+  --card-accent: #2d3f75;
+}
+
+.theme-partner-verdigris {
+  --card-start: #e3efed;
+  --card-end: #c0d8d4;
+  --card-glow: rgba(42, 106, 100, 0.24);
+  --card-border: rgba(36, 94, 88, 0.3);
+  --card-border-hover: rgba(36, 94, 88, 0.56);
+  --card-shadow: rgba(22, 66, 62, 0.2);
+  --badge-bg: linear-gradient(135deg, #f4fbfa 0%, #cee2df 100%);
+  --badge-border: rgba(36, 94, 88, 0.3);
+  --card-accent: #1d5751;
+}
+
+/* --- Bento Grid & Sculpted Cards --- */
+.ways-bento-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+  width: 100%;
+  margin-inline: auto;
+  align-items: stretch;
+}
+
+@media (max-width: 639.98px) {
+  .ways-bento-grid {
+    max-width: 32rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .ways-bento-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ways-bento-grid {
+    gap: 1.5rem;
+  }
+}
+
+.partner-card-base {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  border: 1px solid var(--card-border);
+  background-image:
+    radial-gradient(120% 95% at 0% 0%, rgba(255, 255, 255, 0.72) 0%, transparent 58%),
+    radial-gradient(95% 90% at 100% 100%, var(--card-glow) 0%, transparent 72%),
+    linear-gradient(135deg, var(--card-start) 0%, var(--card-end) 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.82),
+    inset 0 -1px 0 rgba(20, 38, 56, 0.05),
+    0 10px 24px -16px var(--card-shadow);
+  transition:
+    translate 500ms var(--ease-editorial),
+    scale 500ms var(--ease-editorial),
+    border-color 500ms var(--ease-editorial),
+    box-shadow 500ms var(--ease-editorial);
+}
+
+@media (min-width: 640px) {
+  .partner-card-base {
+    padding: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .partner-card-base {
+    padding: 2rem;
+  }
+}
+
+.partner-card-base:hover {
+  translate: 0 -0.25rem;
+}
+
+.partner-card-base:active {
+  scale: 0.99;
+}
+
+.partner-card-base:hover,
+.partner-card-base:active {
+  border-color: var(--card-border-hover);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    0 16px 30px -16px var(--card-shadow);
+}
+
+/* --- Hairline Bridge & 5-Card Ecosystem Flex Stage --- */
+.ways-bridge-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  width: 100%;
+  margin-top: 2.25rem;
+  margin-bottom: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .ways-bridge-row {
+    gap: 1rem;
+    margin-top: 2.75rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .ways-bridge-row {
+    margin-top: 3rem;
+  }
+}
+
+.ways-partner-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  width: 100%;
+  align-items: stretch;
+}
+
+@media (min-width: 640px) {
+  .ways-partner-flex {
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ways-partner-flex {
+    gap: 1.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .ways-partner-flex {
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .ways-partner-flex {
+    gap: 1.25rem;
+  }
+}
+
+.ways-partner-card {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 28rem;
+  border-radius: 1rem;
+  padding: 0.875rem 1rem;
+  border: 1px solid var(--card-border);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 0.75rem;
+  cursor: default;
+  background-image:
+    radial-gradient(115% 100% at 0% 0%, rgba(255, 255, 255, 0.68) 0%, transparent 55%),
+    radial-gradient(95% 95% at 100% 100%, var(--card-glow) 0%, transparent 75%),
+    linear-gradient(135deg, var(--card-start) 0%, var(--card-end) 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.8),
+    0 8px 20px -15px var(--card-shadow);
+  transition:
+    translate 400ms var(--ease-editorial),
+    scale 400ms var(--ease-editorial),
+    border-color 400ms var(--ease-editorial),
+    box-shadow 400ms var(--ease-editorial);
+}
+
+@media (min-width: 481px) {
+  .ways-partner-card {
+    max-width: none;
+    width: calc((100% - 0.75rem - 0.5px) / 2);
+  }
+}
+
+@media (min-width: 640px) {
+  .ways-partner-card {
+    width: calc((100% - 1rem - 0.5px) / 2);
+    padding: 1rem 1.125rem;
+    gap: 0.875rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .ways-partner-card {
+    width: calc((100% - 2rem - 0.5px) / 3);
+  }
+}
+
+@media (min-width: 1024px) {
+  .ways-partner-card {
+    width: calc((100% - 2.5rem - 0.5px) / 3);
+  }
+}
+
+@media (min-width: 1280px) {
+  .ways-partner-card {
+    width: calc((100% - 4rem - 0.5px) / 5);
+    padding: 0.875rem;
+    gap: 0.625rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .ways-partner-card {
+    width: calc((100% - 5rem - 0.5px) / 5);
+    padding: 1rem 1.125rem;
+    gap: 0.875rem;
+  }
+}
+
+.ways-partner-card:hover {
+  translate: 0 -0.125rem;
+}
+
+.ways-partner-card:active {
+  scale: 0.99;
+}
+
+.ways-partner-card:hover,
+.ways-partner-card:active {
+  border-color: var(--card-border-hover);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.88),
+    0 12px 24px -14px var(--card-shadow);
+}
+
+/* --- Tinted Mineral Icon Medallions & Corner Watermark --- */
+.partner-card-icon-badge {
+  position: relative;
+  z-index: 10;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--badge-border);
+  background: var(--badge-bg);
+  color: var(--card-accent);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.75),
+    0 2px 6px -2px var(--card-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  transition: scale 500ms var(--ease-editorial);
+}
+
+@media (min-width: 640px) {
+  .partner-card-icon-badge {
+    margin-bottom: 1.25rem;
+  }
+}
+
+.group:hover .partner-card-icon-badge {
+  scale: 1.06;
+}
+
+.group:active .partner-card-icon-badge {
+  scale: 0.96;
+}
+
+.ways-partner-icon-badge {
+  position: relative;
+  z-index: 10;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--badge-border);
+  background: var(--badge-bg);
+  color: var(--card-accent);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.75),
+    0 2px 6px -2px var(--card-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: scale 400ms var(--ease-editorial);
+}
+
+@media (min-width: 1280px) {
+  .ways-partner-icon-badge {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .ways-partner-icon-badge {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+.group:hover .ways-partner-icon-badge {
+  scale: 1.06;
+}
+
+.group:active .ways-partner-icon-badge {
+  scale: 0.96;
+}
+
+.partner-card-watermark {
+  pointer-events: none;
+  user-select: none;
+  position: absolute;
+  bottom: -1rem;
+  right: -1rem;
+  width: 8rem;
+  height: 8rem;
+  opacity: 0.22;
+  color: var(--card-accent);
+  transition:
+    opacity 500ms var(--ease-editorial),
+    scale 500ms var(--ease-editorial),
+    rotate 500ms var(--ease-editorial);
+}
+
+@media (min-width: 640px) {
+  .partner-card-watermark {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+
+.group:hover .partner-card-watermark {
+  opacity: 0.34;
+  scale: 1.05;
+  rotate: -2deg;
+}
+
+.group:active .partner-card-watermark {
+  opacity: 0.34;
+}
+</style>

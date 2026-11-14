@@ -1,4 +1,4 @@
-<!-- ~/components/ItineraryCard.vue -->
+<!-- ~/app/components/ItineraryCard.vue -->
 <script setup lang="ts">
 import { computed } from 'vue'
 
@@ -51,13 +51,14 @@ const headerPipeClass = computed(() => {
 <template>
   <NuxtLink
     :to="`/itineraries/${item.slug}`"
-    class="group relative w-full h-full flex flex-col justify-between rounded-2xl p-5 sm:p-6 max-w-[88vw] overflow-hidden transition-all duration-500"
+    draggable="false"
+    class="group relative w-full h-full flex flex-col justify-between rounded-2xl p-5 sm:p-6 overflow-hidden select-none hover:-translate-y-0.5 active:scale-[0.99] transition-all duration-500 ease-editorial outline-none focus-visible:ring-2 focus-visible:ring-action-blue"
     :class="cardSurfaceClass"
   >
     <!-- Decorative Wavy Shimmer Watermark (Only on Signature & Collaborated) -->
     <svg
       v-if="item.type !== 'essential'"
-      class="pointer-events-none absolute -top-6 -right-6 w-36 h-36 opacity-20 transition-transform duration-700 group-hover:scale-110"
+      class="pointer-events-none absolute -top-6 -right-6 w-36 h-36 opacity-20 transition-transform duration-700 ease-editorial group-hover:scale-110"
       :class="item.type === 'signature' ? 'text-dark-gold' : 'text-dark-peach'"
       viewBox="0 0 120 120"
       fill="none"
@@ -72,11 +73,9 @@ const headerPipeClass = computed(() => {
          TOP BLOCK: CREST + REGION + DAYS PILL + TITLE + INTRO
          ========================================== -->
     <div class="relative z-10 w-full flex flex-col items-start text-left">
-      
       <!-- Header Row: Crest | Region (Left) & Days Pill (Right) -->
       <div class="w-full flex items-center justify-between gap-3 mb-4">
         <div class="flex items-center gap-2.5 min-w-0">
-          
           <!-- 1. SIGNATURE CREST (Dark Navy + Wavy Gold Sheen + Fingerprint) -->
           <div
             v-if="item.type === 'signature'"
@@ -127,7 +126,7 @@ const headerPipeClass = computed(() => {
           <!-- Vertical Divider Line -->
           <span class="w-px h-5 shrink-0" :class="headerPipeClass" />
 
-          <!-- Region Label (Zero Categories Shown on Card) -->
+          <!-- Region Label -->
           <span class="card-tag font-semibold text-journey-deep/90 truncate">
             {{ item.region }}
           </span>
@@ -147,7 +146,7 @@ const headerPipeClass = computed(() => {
       </div>
 
       <!-- Journey Title (Strictly 2 Lines Reserved) -->
-      <h3 class="card-title text-journey-deep group-hover:text-intention-blue group-active:text-intention-blue transition-colors line-clamp-2 min-h-13 sm:min-h-14 mb-2">
+      <h3 class="card-title drop-shadow-none! text-journey-deep group-hover:text-intention-blue group-active:text-intention-blue transition-colors duration-300 line-clamp-2 min-h-13 sm:min-h-14 mb-2">
         {{ item.title }}
       </h3>
 
@@ -173,7 +172,7 @@ const headerPipeClass = computed(() => {
          BOTTOM / MIDDLE VISUAL & CTA BLOCK
          ========================================== -->
 
-    <!-- A. COLLABORATED LAYOUT: 16:9 Middle Image + Avatar Left / Name Middle / Double-Border Arrow Right -->
+    <!-- A. COLLABORATED LAYOUT: 16:9 Middle Image + Avatar Left / Name Middle / Ring CTA Right -->
     <div v-if="item.type === 'collaborated'" class="relative z-10 w-full flex flex-col mt-auto">
       <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-surface-frosted mb-3.5">
         <img
@@ -181,12 +180,12 @@ const headerPipeClass = computed(() => {
           :alt="item.alt"
           width="640"
           height="360"
+          draggable="false"
           :loading="eager ? 'eager' : 'lazy'"
           decoding="async"
           :fetchpriority="eager ? 'high' : 'low'"
-          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 group-active:scale-105"
+          class="pointer-events-none select-none w-full h-full object-cover transition-transform duration-700 ease-editorial group-hover:scale-105 group-active:scale-103"
         />
-        <!-- 3. Unified Section Tint Overlay (z-20) -->
         <div class="absolute inset-0 w-full h-full pointer-events-none z-20 bg-journey-deep/20" />
       </div>
 
@@ -199,10 +198,11 @@ const headerPipeClass = computed(() => {
             :alt="item.collaborator?.name || 'Travel Designer'"
             width="44"
             height="44"
+            draggable="false"
             loading="lazy"
             decoding="async"
             fetchpriority="low"
-            class="w-full h-full object-cover"
+            class="pointer-events-none select-none w-full h-full object-cover"
           />
         </div>
 
@@ -211,30 +211,29 @@ const headerPipeClass = computed(() => {
           <span class="font-uppercase text-[11px] sm:text-[12px] tracking-[0.12em] font-bold text-journey-deep uppercase leading-tight truncate w-full">
             {{ item.collaborator?.name || 'Regional Specialist' }}
           </span>
-          <span class="card-paragraph text-secondary-light leading-tight truncate w-full mt-0.5">
+          <span class="card-paragraph drop-shadow-none! text-secondary-light leading-tight truncate w-full mt-0.5">
             {{ item.collaborator?.role || 'Travel Designer' }}
           </span>
         </div>
 
-        <!-- 1. Collaborated Card Footer Right CTA (Light Surface -> Deep / Intention Blue) -->
-        <div class="itinerary-cta-circle text-journey-deep group-hover:text-intention-blue group-active:text-intention-blue group-hover:scale-105 group-active:scale-105 duration-300 ease-editorial">
+        <!-- Right: Collaborated Ring CTA (Hover Expand -> Tactile Press-In Snap) -->
+        <div
+          aria-hidden="true"
+          class="itinerary-cta-circle text-journey-deep transition-all duration-300 ease-editorial group-hover:text-intention-blue group-hover:scale-108 group-active:text-intention-blue group-active:scale-96"
+        >
           <svg
             class="w-full h-full overflow-visible"
             viewBox="0 0 44 44"
             fill="none"
             stroke="currentColor"
-            aria-hidden="true"
           >
-            <!-- Smooth 1px -> 2px Vector Circle -->
             <circle
               cx="22"
               cy="22"
               r="20.5"
               class="itinerary-cta-ring"
             />
-            <!-- Animated Long-Shaft Top-Right Arrow -->
             <g
-              class=""
               stroke-width="1.75"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -247,38 +246,41 @@ const headerPipeClass = computed(() => {
       </div>
     </div>
 
-    <!-- B. SIGNATURE & ESSENTIAL LAYOUT: 3:2 Bottom Image + Bottom-Right 2px Double-Border Arrow CTA -->
+    <!-- B. SIGNATURE & ESSENTIAL LAYOUT: 7:5 Bottom Image + Bottom-Right Ring CTA -->
     <div v-else class="relative z-10 w-full aspect-7/5 rounded-xl overflow-hidden bg-surface-frosted mt-auto">
       <img
         :src="item.image"
         :alt="item.alt"
         width="600"
         height="400"
+        draggable="false"
         :loading="eager ? 'eager' : 'lazy'"
         decoding="async"
         :fetchpriority="eager ? 'high' : 'low'"
-        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 group-active:scale-105"
+        class="pointer-events-none select-none w-full h-full object-cover transition-transform duration-700 ease-editorial group-hover:scale-105 group-active:scale-103"
       />
 
-      <!-- 2. Signature & Essential Bottom-Right Image CTA (Transparent + Warm Gold) -->
-      <div class="itinerary-cta-circle absolute bottom-3 right-3 z-21 text-warm-gold drop-shadow-xs group-hover:scale-105 group-active:scale-105 duration-500 ease-editorial">
+      <!-- Unified Section Tint Overlay (z-10 so Warm-Gold Ring CTA at z-20 Stays Crisp) -->
+      <div class="absolute inset-0 w-full h-full pointer-events-none z-10 bg-journey-deep/30" />
+
+      <!-- Signature & Essential Bottom-Right Image Ring CTA (Hover Expand -> Tactile Press-In Snap) -->
+      <div
+        aria-hidden="true"
+        class="itinerary-cta-circle absolute bottom-3 right-3 z-20 text-warm-gold drop-shadow-xs transition-all duration-300 ease-editorial group-hover:scale-108 group-active:scale-96"
+      >
         <svg
           class="w-full h-full overflow-visible"
           viewBox="0 0 44 44"
           fill="none"
           stroke="currentColor"
-          aria-hidden="true"
         >
-          <!-- Smooth 1px -> 2px Vector Circle -->
           <circle
             cx="22"
             cy="22"
             r="20.5"
             class="itinerary-cta-ring"
           />
-          <!-- Animated Long-Shaft Top-Right Arrow -->
           <g
-            class=""
             stroke-width="1.75"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -288,10 +290,6 @@ const headerPipeClass = computed(() => {
           </g>
         </svg>
       </div>
-
-      <!-- 3. Unified Section Tint Overlay (z-20) -->
-      <div class="absolute inset-0 w-full h-full pointer-events-none z-20 bg-journey-deep/30" />
     </div>
-
   </NuxtLink>
 </template>

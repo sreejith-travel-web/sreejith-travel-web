@@ -153,3 +153,82 @@ const listingPosts = computed<JournalPost[]>(() => {
     </div>
   </section>
 </template>
+
+<style scoped>
+/* Typography-Locked JournalCard Ladder (Shared With JournalListing) */
+.home-journal-flex {
+  --journal-card-w: min(calc(100vw - 1.5rem), 16.25rem);
+  --journal-gap: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: var(--journal-gap);
+  width: 100%;
+  max-width: var(--journal-card-w);
+  margin-inline: auto;
+}
+
+@media (min-width: 321px) {
+  .home-journal-flex {
+    --journal-card-w: 19.75rem;
+  }
+}
+
+@media (min-width: 481px) {
+  .home-journal-flex {
+    --journal-card-w: 18.75rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .home-journal-flex {
+    --journal-card-w: 19.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-journal-flex {
+    --journal-card-w: 20rem;
+    --journal-gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home-journal-flex {
+    --journal-card-w: 20.125rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-journal-flex {
+    --journal-card-w: 21.75rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .home-journal-flex {
+    --journal-card-w: 22.5rem;
+    --journal-gap: 1.75rem;
+  }
+}
+
+/* Exact 2-Card & 3-Card Row Fit Caps (Centered Block + Flush-Left Partial Row) */
+@media (min-width: 724px) {
+  .home-journal-flex {
+    max-width: calc(2 * var(--journal-card-w) + var(--journal-gap) + 1px);
+  }
+}
+
+@media (min-width: 1148px) {
+  .home-journal-flex {
+    max-width: calc(3 * var(--journal-card-w) + 2 * var(--journal-gap) + 1px);
+  }
+}
+
+.home-journal-slot {
+  display: flex;
+  width: var(--journal-card-w);
+  flex: 0 0 var(--journal-card-w);
+}
+</style>

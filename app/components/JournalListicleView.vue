@@ -118,7 +118,6 @@ const finalSlideCompleted = ref(false)
 const isHolding = ref(false)
 const isManuallyPaused = ref(false)
 const isTabHidden = ref(false)
-const prefersReducedMotion = ref(false)
 const globalMenuOpen = useState<boolean>('isMenuOpen', () => false)
 
 const totalSlides = computed(() => 1 + slides.value.length + 1)
@@ -140,7 +139,6 @@ const isEffectivelyPaused = computed(
     isHolding.value ||
     isManuallyPaused.value ||
     isTabHidden.value ||
-    prefersReducedMotion.value ||
     globalMenuOpen.value
 )
 
@@ -329,9 +327,6 @@ const triggerNativeShare = async () => {
 
 onMounted(() => {
   detectSectionUnderHeader()
-  prefersReducedMotion.value = window.matchMedia(
-    '(prefers-reduced-motion: reduce)'
-  ).matches
 
   const firstContent = slides.value[0]?.image
   if (firstContent) preloadImageUrl(firstContent)

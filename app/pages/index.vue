@@ -381,66 +381,68 @@ const pageData = {
     eyebrow: 'TESTIMONIALS',
     titleLine1: 'Moments Captured',
     titleLine2Cursive: 'Along The Way.',
-    description: 'Glimpses of memorable moments, breathtaking landscapes, and meaningful connections. See the world through the eyes of those who travel with us.',
-    categories: {
-      'wilderness-trails': { name: 'Wilderness & Trails', colorVar: 'var(--color-deep-forest)' },
-      'living-traditions': { name: 'Living Traditions', colorVar: 'var(--color-terracotta)' },
-      'restorative-journeys': { name: 'Restorative Journeys', colorVar: 'var(--color-slate-blue)' },
-      'flavors-feasts': { name: 'Flavors & Feasts', colorVar: 'var(--color-spiced-copper)' },
-      'sanctuaries-stays': { name: 'Sanctuaries & Stays', colorVar: 'var(--color-olive-drab)' },
-      'uncharted-paths': { name: 'Uncharted Paths', colorVar: 'var(--color-midnight-slate)' }
-    },
+    description:
+      'Glimpses of memorable moments, breathtaking landscapes, and meaningful connections. See the world through the eyes of those who travel with us.',
     items: [
       {
         id: 1,
-        categoryId: 'living-traditions',
+        category: 'Living Traditions',
+        categoryColor: '#8C3F2B',
         name: 'Ananya Menon',
         designation: 'Architect, Bengaluru, India',
-        quote: 'Every temple, village, and conversation felt deeply personal. It wasn\'t sightseeing—it was understanding a place through its people, stories, and traditions. The journey stayed with me long after I returned home.',
+        quote:
+          "Every temple, village, and conversation felt deeply personal. It wasn't sightseeing—it was understanding a place through its people, stories, and traditions. The journey stayed with me long after I returned home.",
         avatar: '/images/testimonials/avatar.webp',
-        image: '/images/home/journey-pc.webp',
-        alt: 'Experience Stories',
+        image: '/images/journal/journal1.webp',
+        alt: 'Master artisans and living temple traditions across South India',
         ctaLabel: 'Read Story',
         ctaUrl: '/journal'
       },
       {
         id: 2,
-        categoryId: 'wilderness-trails',
+        category: 'Wilderness & Trails',
+        categoryColor: '#254B33',
         name: 'Daniel Brooks',
         designation: 'Photographer, Melbourne, Australia',
-        quote: 'From misty mountains to hidden trails, every day felt like an adventure crafted just for me. The landscapes were breathtaking, but the quiet moments in nature became my favorite memories.',
+        quote:
+          'From misty mountains to hidden trails, every day felt like an adventure crafted just for me. The landscapes were breathtaking, but the quiet moments in nature became my favorite memories.',
         avatar: '/images/testimonials/avatar.webp',
-        image: '/images/home/journey-pc.webp',
-        alt: 'Experience Stories',
+        image: '/images/home/forest-portrait.webp',
+        alt: 'Misty shola forest trails in the Western Ghats',
         ctaLabel: 'Watch Video',
         ctaUrl: '/journal'
       },
       {
         id: 3,
-        categoryId: 'restorative-journeys',
+        category: 'Restorative Journeys',
+        categoryColor: '#2C4C63',
         name: 'Priya Raman',
         designation: 'Yoga Instructor, Chennai, India',
-        quote: 'The retreat offered more than relaxation. It brought stillness, meaningful conversations, and a renewed sense of balance. I returned home feeling lighter, calmer, and deeply inspired.',
+        quote:
+          'The retreat offered more than relaxation. It brought stillness, meaningful conversations, and a renewed sense of balance. I returned home feeling lighter, calmer, and deeply inspired.',
         avatar: '/images/testimonials/avatar.webp',
         image: '/images/home/journey-pc.webp',
-        alt: 'Experience Stories',
+        alt: 'Quiet heritage sanctuaries and restorative coastal mornings',
         ctaLabel: 'Read Post',
         ctaUrl: '/journal'
       },
       {
         id: 4,
-        categoryId: 'flavors-feasts',
+        category: 'Flavors & Feasts',
+        categoryColor: '#8A5224',
         name: 'Lucas Meyer',
         designation: 'Chef, Munich, Germany',
-        quote: 'Every meal told a story. Cooking alongside local families, discovering regional flavors, and sharing traditions around the table made this one of the most authentic journeys I\'ve ever experienced.',
+        quote:
+          "Every meal told a story. Cooking alongside local families, discovering regional flavors, and sharing traditions around the table made this one of the most authentic journeys I've ever experienced.",
         avatar: '/images/testimonials/avatar.webp',
-        image: '/images/home/journey-pc.webp',
-        alt: 'Experience Stories',
+        image: '/images/impact/impact6.webp',
+        alt: 'Heirloom regional recipes shared with local host families',
         ctaLabel: 'Explore',
         ctaUrl: '/journal'
       }
     ],
-    bottomQuote: 'Travel is not merely a destination, but a new way of seeing things.',
+    bottomQuote:
+      'Travel is not merely a destination, but a new way of seeing things.',
     bottomCta: {
       label: 'READ TRAVELER STORIES',
       to: '/journal/stories'
@@ -464,6 +466,61 @@ const pageData = {
       label: 'EXPLORE THE JOURNAL',
       to: '/journal/insights'
     }
+  },
+
+  networkWeave: {
+    eyebrow: 'THE NETWORK',
+    title: 'Weaving Stories, Together',
+    description:
+      'Communities, travel designers and shared ideas—woven into meaningful journeys.',
+    cta: {
+      label: 'EXPLORE THE NETWORK',
+      to: '/network'
+    },
+    portraits: [
+      {
+        id: 'weave-1',
+        image: '/images/journal/journal1.webp',
+        alt: 'Master handloom weaver crafting heirloom textiles in Kerala',
+        label: 'Chendamangalam Handloom'
+      },
+      {
+        id: 'weave-2',
+        image: '/images/home/journey-pc1.webp',
+        alt: 'Local homestead host welcoming travellers across South India',
+        label: 'Heritage Homesteads'
+      },
+      {
+        id: 'weave-3',
+        image: '/images/journal/journal2.webp',
+        alt: 'Oral historian sharing centuries of Malabar maritime stories',
+        label: 'Oral Storytellers'
+      },
+      {
+        id: 'weave-4',
+        image: '/images/impact/impact6.webp',
+        alt: 'Travel designers collaborating on bespoke regional routes',
+        label: 'Collaborative Route Design'
+      },
+      {
+        id: 'weave-5',
+        image: '/images/home/forest-portrait.webp',
+        alt: 'Highland naturalist tracking flora in the Western Ghats',
+        label: 'Shola Naturalists'
+      },
+      {
+        id: 'weave-6',
+        image: '/images/impact/impact3.webp',
+        alt: 'Artisans and cultural partners co-creating mindful experiences',
+        label: 'Craft Guilds'
+      },
+      {
+        id: 'weave-7',
+        image: '/images/home/journey-mob.webp',
+        alt: 'Quiet country boat gliding through palm-fringed Kerala backwaters',
+        label: 'Backwater Custodians'
+      }
+    ]
   }
   
 }
@@ -501,6 +558,9 @@ const pageData = {
     
     <!-- Journal -->
     <LazyHomeJournal hydrate-on-visible :data="pageData.journal" class="bg-bg-light" />
+
+    <!-- Network -->
+    <LazyHomeNetworkWeave hydrate-on-visible :data="pageData.networkWeave" />
 
   </div>
 </template>

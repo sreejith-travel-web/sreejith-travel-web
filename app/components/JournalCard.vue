@@ -38,11 +38,11 @@ const visibleTags = computed(() => (props.post.tags || []).slice(0, 3))
   <NuxtLink
     :to="resolvedHref"
     draggable="false"
-    class="group journal-card-shell"
+    class="group relative w-full h-full p-4.5 sm:p-5 2xl:p-6 flex flex-col rounded-2xl overflow-hidden bg-linear-to-br from-soft-peach/10 via-surface-light/45 to-soft-blue/25 border border-journey-deep/20 hover:border-action-blue/45 active:border-action-blue/45 shadow-xs hover:shadow-md active:shadow-md hover:-translate-y-0.5 active:scale-[0.99] transition-all duration-500 ease-editorial text-left outline-none focus-visible:ring-2 focus-visible:ring-action-blue"
   >
     <!-- 1. Top Header Stack (Exact 2.5em 2-Line Reserve so Inset Photos Align Horizontally) -->
     <div class="w-full flex flex-col items-start shrink-0">
-      <span class="card-tag font-primary font-bold text-dark-gold tracking-[0.12em] truncate max-w-full mb-2">
+      <span class="card-tag font-primary! font-bold text-dark-gold tracking-[0.12em] truncate max-w-full mb-2">
         {{ displayCategory }}
       </span>
 
@@ -53,13 +53,13 @@ const visibleTags = computed(() => (props.post.tags || []).slice(0, 3))
       <!-- GPU Scale-X Accent Rule -->
       <div
         aria-hidden="true"
-        class="journal-card-rule group-hover:scale-x-100 group-hover:bg-intention-blue group-active:scale-x-100 group-active:bg-intention-blue"
+        class="w-14 h-0.5 rounded-full bg-dark-gold mb-4 sm:mb-5 origin-left scale-x-70 transition-all duration-500 ease-editorial group-hover:scale-x-100 group-hover:bg-intention-blue group-active:scale-x-100 group-active:bg-intention-blue"
       />
     </div>
 
     <!-- 2. Inset 3:2 Rounded Photo + Top-Right Read Time Pill -->
     <div class="w-full relative overflow-hidden aspect-3/2 rounded-xl bg-surface-frosted shrink-0 mb-4 sm:mb-5">
-      <div class="card-tag font-primary font-semibold tracking-widest absolute top-3 right-3 z-10 px-3 pt-1.5 pb-1 rounded-sm bg-journey-deep/90 backdrop-blur-xs text-surface-light shadow-xs transition-colors duration-300 group-hover:bg-intention-blue group-active:bg-intention-blue">
+      <div class="card-tag font-primary! font-semibold tracking-widest absolute top-3 right-3 z-10 px-3 pt-1.5 pb-1 rounded-sm bg-journey-deep/90 backdrop-blur-xs text-surface-light shadow-xs transition-colors duration-300 group-hover:bg-intention-blue group-active:bg-intention-blue">
         {{ post.readTime }}
       </div>
 
@@ -82,13 +82,13 @@ const visibleTags = computed(() => (props.post.tags || []).slice(0, 3))
         {{ post.excerpt }}
       </p>
 
-      <div class="journal-card-footer">
+      <div class="w-full mt-auto pt-1 flex items-end justify-between gap-3 min-h-14.5">
         <!-- 2-Line Capped Tag Tray (Never Pushes Card Height or Ring Position) -->
-        <div class="journal-card-tags-tray">
+        <div class="self-end flex-1 min-w-0 flex flex-wrap items-center content-start gap-1.5 max-h-14.5 overflow-hidden">
           <span
             v-for="tag in visibleTags"
             :key="tag"
-            class="journal-card-tag-pill card-tag group-hover:border-journey-deep/28"
+            class="card-tag inline-flex items-center h-6.5 max-w-full truncate rounded-sm bg-surface-light/85 border border-journey-deep/16 text-journey-deep/85 font-primary! font-medium px-2.5 pb-px leading-none transition-colors duration-300 group-hover:border-journey-deep/28"
           >
             {{ tag }}
           </span>
@@ -97,7 +97,7 @@ const visibleTags = computed(() => (props.post.tags || []).slice(0, 3))
         <!-- Scale-Only Circular Ring CTA (Zero Inner Arrow Translation) -->
         <div
           aria-hidden="true"
-          class="itinerary-cta-circle journal-card-ring-cta group-hover:text-intention-blue group-hover:scale-108 group-active:text-intention-blue group-active:scale-95"
+          class="itinerary-cta-circle shrink-0 self-end w-9.5! h-9.5! sm:w-10! sm:h-10! text-dark-gold transition-all duration-500 ease-editorial group-hover:text-intention-blue group-hover:scale-108 group-active:text-intention-blue group-active:scale-96"
         >
           <svg
             class="w-full h-full overflow-visible"

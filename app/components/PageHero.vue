@@ -111,7 +111,7 @@ onMounted(() => {
           class="relative z-10 w-full max-w-4xl px-4 2xs:px-6 sm:px-10 md:px-16 py-8 flex flex-col items-center text-center"
         >
           <!-- 1. H1 Eyebrow (Starts at 900ms - instantly after loader/page transition) -->
-          <div
+          <!-- <div
             v-motion
             :initial="{ opacity:0, y: 18 }"
             :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: [0.22, 1, 0.36, 1], delay: 650 } }"
@@ -123,7 +123,7 @@ onMounted(() => {
               {{ activeData.eyebrow }}
             </h1>
             <span class="h-0.5 bg-warm-gold/50 eyebrow-border" />
-          </div>
+          </div> -->
 
           <!-- 2 & 3. H2 Title Hierarchy (Line 1 at 1050ms, Line 2 Cursive at 1100ms) -->
           <h2 class="text-surface-light mb-4 md:mb-5 drop-shadow-xl w-full">
@@ -156,7 +156,7 @@ onMounted(() => {
             :initial="{ opacity:0, y: 20 }"
             :enter="{ opacity: 1, y: 0, transition: { duration: 750, ease: [0.22, 1, 0.36, 1], delay: 950 } }"
             :style="getParallax(0.15)"
-            class="text-surface-light section-paragraph"
+            class="text-surface-light hero-paragraph"
           >
             {{ activeData.intro }}
           </p>

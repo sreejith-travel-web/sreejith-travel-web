@@ -21,15 +21,38 @@ export interface CommunityMemberItem {
   desc: string
   img: string
   alt?: string
-  tint?: CommunityCapsuleTint
+  coverImg?: string
+  coverAlt?: string
+  tint?: CommunityCapsuleTint | (string & {})
 }
 
 export interface PartnerCommunityConfig {
+  eyebrow?: string
+  title?: string
+  description?: string
   ledgerNoun?: string
   interactionHint?: string
   fallbackImage?: string
+  fallbackCoverImage?: string
   members: CommunityMemberItem[]
 }
+
+// Centralized stream distribution, physics & ring-ignition constants
+const STREAM_PHYSICS = {
+  minRows: 4,
+  maxItemsPerRow: 15,
+  minSetItems: 15,
+  rowSpeeds: [0.58, 0.48, 0.62, 0.52, 0.58, 0.5],
+  hoverSpeedScale: 0.38, // <- 0.38 = slows to 38% speed on hover (tweak 0.3–0.6 anytime)
+  rowInitialPhases: [0.06, 0.34, 0.18, 0.46, 0.26, 0.12],
+  inertiaFriction: 0.935,
+  maxInertiaPx: 24,
+  dragThresholdPx: 5,
+  wheelHoldMs: 520,
+  dragHoldMs: 420,
+  touchHoldMs: 550,
+  ringIgniteMs: 140
+} as const
 
 const props = defineProps<{
   data: PartnerCommunityConfig
@@ -38,20 +61,13 @@ const props = defineProps<{
 const lenisState = useState<Lenis | null>('lenis-instance', () => null)
 
 const TINT_SEQUENCE: CommunityCapsuleTint[] = ['cream', 'sky', 'peach', 'sage']
-const MIN_SET_ITEMS = 14
+const HONORIFIC_OR_INITIAL_RE = /^(?:dr|mr|mrs|ms|smt|sri|shri|ustad|vidwan|prof|guru)\.?$|^[a-z](?:\.[a-z])*\.?$/i
 
-const capsuleTintClassMap: Record<CommunityCapsuleTint, string> = {
-  cream: 'community-capsule-cream',
-  sky: 'community-capsule-sky',
-  peach: 'community-capsule-peach',
-  sage: 'community-capsule-sage'
-}
-
-const modalHeaderTintMap: Record<CommunityCapsuleTint, string> = {
-  cream: 'bg-linear-to-br from-soft-cream/50 via-soft-cream/18 to-surface-light',
-  sky: 'bg-linear-to-br from-soft-blue/36 via-soft-blue/12 to-surface-light',
-  peach: 'bg-linear-to-br from-soft-peach/32 via-soft-peach/12 to-surface-light',
-  sage: 'bg-linear-to-br from-deep-forest/12 via-olive-drab/5 to-surface-light'
+const medallionTintClassMap: Record<CommunityCapsuleTint, string> = {
+  cream: 'community-medallion-cream',
+  sky: 'community-medallion-sky',
+  peach: 'community-medallion-peach',
+  sage: 'community-medallion-sage'
 }
 
 const resolveMemberTint = (
@@ -59,13 +75,35 @@ const resolveMemberTint = (
   rowIdx: number,
   itemIdx: number
 ): CommunityCapsuleTint => {
-  if (member.tint && member.tint in capsuleTintClassMap) return member.tint
+  const key = member.tint?.trim().toLowerCase()
+  if (key && key in medallionTintClassMap) {
+    return key as CommunityCapsuleTint
+  }
   return TINT_SEQUENCE[(rowIdx * 2 + itemIdx) % TINT_SEQUENCE.length]!
+}
+
+// Extracts true given name cleanly (skips "Dr.", "Smt.", or South Indian initials like "K.")
+const extractFirstName = (fullName: string): string => {
+  const parts = fullName.trim().split(/\s+/).filter(Boolean)
+  if (!parts.length) return ''
+  for (const token of parts) {
+    if (!HONORIFIC_OR_INITIAL_RE.test(token)) {
+      return token
+    }
+  }
+  return parts[0]!
 }
 
 const fallbackImgSrc = computed(
   () => props.data.fallbackImage || '/images/fallbacks/culture.webp'
 )
+
+const fallbackCoverSrc = computed(
+  () => props.data.fallbackCoverImage || fallbackImgSrc.value
+)
+
+const resolveCoverImg = (member: CommunityMemberItem): string =>
+  member.coverImg || fallbackCoverSrc.value
 
 const onAvatarError = (e: Event) => {
   const img = e.target as HTMLImageElement | null
@@ -74,13 +112,23 @@ const onAvatarError = (e: Event) => {
   }
 }
 
+const onCoverError = (e: Event) => {
+  const img = e.target as HTMLImageElement | null
+  if (img && img.src !== fallbackCoverSrc.value) {
+    img.src = fallbackCoverSrc.value
+  }
+}
+
 // =========================================================
-// DYNAMIC COUNT-AGNOSTIC STREAM DISTRIBUTION (10 to 80+ People)
+// DYNAMIC ROW ENGINE: 4 ROWS MIN, MAX 15/ROW, 5TH ROW AT >60
+// (32 -> 8,8,8,8 | 33 -> 9,8,8,8 | 34 -> 9,9,8,8 | 61 -> 5 rows)
 // =========================================================
 interface IndexedCustodian {
   member: CommunityMemberItem
   globalIndex: number
   tint: CommunityCapsuleTint
+  firstName: string
+  arcCharCount: number
 }
 
 interface StreamRenderItem extends IndexedCustodian {
@@ -91,32 +139,52 @@ interface StreamRenderItem extends IndexedCustodian {
 
 const streamCount = computed(() => {
   const total = props.data.members.length
-  if (total <= 10) return 2
-  if (total <= 20) return 3
-  return 4
+  if (total <= 0) return 0
+  return Math.max(
+    STREAM_PHYSICS.minRows,
+    Math.ceil(total / STREAM_PHYSICS.maxItemsPerRow)
+  )
 })
 
-const streamRows = computed<StreamRenderItem[][]>(() => {
+const rowBuckets = computed<IndexedCustodian[][]>(() => {
   const all = props.data.members
-  if (!all.length) return []
-
   const rowsCount = streamCount.value
+  if (!all.length || rowsCount <= 0) return []
+
   const buckets: IndexedCustodian[][] = Array.from({ length: rowsCount }, () => [])
 
   all.forEach((member, globalIndex) => {
     const rowIdx = globalIndex % rowsCount
     const bucket = buckets[rowIdx]!
+    const firstName = extractFirstName(member.name)
     bucket.push({
       member,
       globalIndex,
-      tint: resolveMemberTint(member, rowIdx, bucket.length)
+      tint: resolveMemberTint(member, rowIdx, bucket.length),
+      firstName,
+      arcCharCount: firstName.length + 3 + member.role.trim().length
     })
   })
 
-  return buckets.map((bucket, rIdx) => {
-    if (!bucket.length) return []
+  return buckets.filter((bucket) => bucket.length > 0)
+})
 
-    const repeatFactor = Math.max(1, Math.ceil(MIN_SET_ITEMS / bucket.length))
+const baseSetLengths = computed<number[]>(() =>
+  rowBuckets.value.map((bucket) => {
+    const repeatFactor = Math.max(
+      1,
+      Math.ceil(STREAM_PHYSICS.minSetItems / bucket.length)
+    )
+    return bucket.length * repeatFactor
+  })
+)
+
+const streamRows = computed<StreamRenderItem[][]>(() =>
+  rowBuckets.value.map((bucket, rIdx) => {
+    const repeatFactor = Math.max(
+      1,
+      Math.ceil(STREAM_PHYSICS.minSetItems / bucket.length)
+    )
     const expandedSet: IndexedCustodian[] = []
     for (let r = 0; r < repeatFactor; r++) {
       for (const entry of bucket) {
@@ -138,26 +206,10 @@ const streamRows = computed<StreamRenderItem[][]>(() => {
     }
     return tripled
   })
-})
-
-const baseSetLengths = computed<number[]>(() => {
-  const all = props.data.members
-  if (!all.length) return []
-  const rowsCount = streamCount.value
-  const counts = Array.from({ length: rowsCount }, () => 0)
-  all.forEach((_, idx) => {
-    const bucketIdx = idx % rowsCount
-    counts[bucketIdx] = (counts[bucketIdx] ?? 0) + 1
-  })
-  return counts.map((len) => {
-    if (len <= 0) return 0
-    const repeatFactor = Math.max(1, Math.ceil(MIN_SET_ITEMS / len))
-    return len * repeatFactor
-  })
-})
+)
 
 // =========================================================
-// PER-ROW CONTINUOUS DRIFT + DIRECT SWIPE/DRAG PHYSICS ENGINE
+// PER-ROW ZIGZAG DRIFT + DRAG / SWIPE / TRACKPAD PHYSICS
 // =========================================================
 interface RowPhysicsState {
   offsetPx: number
@@ -171,21 +223,19 @@ interface RowPhysicsState {
   resumeHoldUntil: number
 }
 
-const ROW_BASE_SPEEDS = [0.42, 0.35, 0.46, 0.38] as const
-const ROW_INITIAL_PHASES = [0.08, 0.34, 0.19, 0.46] as const
-
 const sectionRef = ref<HTMLElement | null>(null)
 const trackElMap = new Map<number, HTMLElement>()
 const draggingRowIndex = ref<number | null>(null)
+const ignitingRenderKey = ref<string | null>(null)
 const rowStates: RowPhysicsState[] = []
 
 let rafId: number | null = null
 let lastFrameTime = 0
 let isInViewport = true
 let isTabHidden = false
-let prefersReducedMotion = false
 let resizeObserver: ResizeObserver | null = null
 let intersectionObserver: IntersectionObserver | null = null
+let igniteTimeoutId: ReturnType<typeof setTimeout> | null = null
 
 const wrapStreamOffset = (rawOffset: number, setWidth: number): number => {
   if (setWidth <= 0) return 0
@@ -208,13 +258,17 @@ const ensureRowStates = () => {
       offsetPx: 0,
       setWidthPx: 0,
       direction: idx % 2 === 0 ? -1 : 1,
-      baseSpeedPxPerFrame: ROW_BASE_SPEEDS[idx % ROW_BASE_SPEEDS.length]!,
+      baseSpeedPxPerFrame:
+        STREAM_PHYSICS.rowSpeeds[idx % STREAM_PHYSICS.rowSpeeds.length]!,
       speedScale: 1,
       isHovered: false,
       isDragging: false,
       inertiaVelocity: 0,
       resumeHoldUntil: 0
     })
+  }
+  if (rowStates.length > needed) {
+    rowStates.length = needed
   }
 }
 
@@ -238,10 +292,17 @@ const measureAllTrackSetWidths = () => {
 
     const wasUninitialized = state.setWidthPx === 0
     state.setWidthPx = measuredWidth
+    state.direction = rowIdx % 2 === 0 ? -1 : 1
 
     if (wasUninitialized) {
-      const phase = ROW_INITIAL_PHASES[rowIdx % ROW_INITIAL_PHASES.length]!
-      state.offsetPx = wrapStreamOffset(-measuredWidth * (1 + phase), measuredWidth)
+      const phase =
+        STREAM_PHYSICS.rowInitialPhases[
+          rowIdx % STREAM_PHYSICS.rowInitialPhases.length
+        ]!
+      state.offsetPx = wrapStreamOffset(
+        -measuredWidth * (1 + phase),
+        measuredWidth
+      )
     } else {
       state.offsetPx = wrapStreamOffset(state.offsetPx, measuredWidth)
     }
@@ -294,15 +355,18 @@ const tickStreams = (now: number) => {
 
     if (Math.abs(state.inertiaVelocity) > 0.08) {
       deltaPx += state.inertiaVelocity * frameScale
-      state.inertiaVelocity *= Math.pow(0.935, frameScale)
+      state.inertiaVelocity *= Math.pow(STREAM_PHYSICS.inertiaFriction, frameScale)
       if (Math.abs(state.inertiaVelocity) <= 0.08) {
         state.inertiaVelocity = 0
       }
     }
 
-    const shouldPauseAuto =
-      prefersReducedMotion || state.isHovered || now < state.resumeHoldUntil
-    const targetScale = shouldPauseAuto ? 0 : 1
+    let targetScale = 1
+    if (now < state.resumeHoldUntil) {
+      targetScale = 0
+    } else if (state.isHovered) {
+      targetScale = STREAM_PHYSICS.hoverSpeedScale
+    }
     state.speedScale += (targetScale - state.speedScale) * Math.min(1, 0.09 * frameScale)
 
     if (state.speedScale > 0.004) {
@@ -331,14 +395,14 @@ const syncStreamLoop = () => {
 }
 
 // =========================================================
-// DIRECT ROW POINTER DRAG & TOUCH SWIPE HANDLERS
+// POINTER DRAG, AXIS-LOCKED TOUCH SWIPE & TRACKPAD HORIZONTAL WHEEL
 // =========================================================
 let activeGestureRow = -1
 let gestureStartX = 0
 let gestureStartY = 0
 let gestureStartOffset = 0
 let gestureLockAxis: 'x' | 'y' | null = null
-let suppressCapsuleClick = false
+let suppressMedallionClick = false
 let velocityHistory: Array<{ x: number; t: number }> = []
 
 const onRowMouseEnter = (rowIdx: number) => {
@@ -349,6 +413,23 @@ const onRowMouseEnter = (rowIdx: number) => {
 const onRowMouseLeave = (rowIdx: number) => {
   const state = rowStates[rowIdx]
   if (state) state.isHovered = false
+}
+
+const onRowWheel = (rowIdx: number, e: WheelEvent) => {
+  if (Math.abs(e.deltaX) <= Math.abs(e.deltaY) || Math.abs(e.deltaX) < 1.5) return
+  ensureRowStates()
+  const state = rowStates[rowIdx]
+  if (!state || state.setWidthPx <= 0) return
+
+  e.preventDefault()
+  state.offsetPx = wrapStreamOffset(state.offsetPx - e.deltaX, state.setWidthPx)
+  state.inertiaVelocity = Math.max(
+    -STREAM_PHYSICS.maxInertiaPx,
+    Math.min(STREAM_PHYSICS.maxInertiaPx, -e.deltaX * 0.32)
+  )
+  state.resumeHoldUntil = performance.now() + STREAM_PHYSICS.wheelHoldMs
+  applyTrackTransform(rowIdx)
+  syncStreamLoop()
 }
 
 const recordVelocityPoint = (x: number) => {
@@ -366,7 +447,10 @@ const computeReleaseInertia = (): number => {
   const last = velocityHistory[velocityHistory.length - 1]
   if (!first || !last || now - last.t > 75 || last.t <= first.t) return 0
   const pxPerMs = (last.x - first.x) / (last.t - first.t)
-  return Math.max(-24, Math.min(24, pxPerMs * 16.67))
+  return Math.max(
+    -STREAM_PHYSICS.maxInertiaPx,
+    Math.min(STREAM_PHYSICS.maxInertiaPx, pxPerMs * 16.67)
+  )
 }
 
 const onWindowPointerMove = (e: PointerEvent) => {
@@ -375,11 +459,11 @@ const onWindowPointerMove = (e: PointerEvent) => {
   if (!state || !state.isDragging) return
 
   const dx = e.clientX - gestureStartX
-  if (Math.abs(dx) > 5) {
-    suppressCapsuleClick = true
+  if (Math.abs(dx) > STREAM_PHYSICS.dragThresholdPx) {
+    suppressMedallionClick = true
   }
 
-  if (suppressCapsuleClick && state.setWidthPx > 0) {
+  if (suppressMedallionClick && state.setWidthPx > 0) {
     e.preventDefault()
     state.offsetPx = wrapStreamOffset(gestureStartOffset + dx, state.setWidthPx)
     applyTrackTransform(activeGestureRow)
@@ -399,9 +483,9 @@ const onWindowPointerUp = () => {
 
   if (state) {
     state.isDragging = false
-    if (suppressCapsuleClick) {
+    if (suppressMedallionClick) {
       state.inertiaVelocity = computeReleaseInertia()
-      state.resumeHoldUntil = performance.now() + 420
+      state.resumeHoldUntil = performance.now() + STREAM_PHYSICS.dragHoldMs
     }
   }
 
@@ -410,7 +494,7 @@ const onWindowPointerUp = () => {
   syncStreamLoop()
 
   setTimeout(() => {
-    suppressCapsuleClick = false
+    suppressMedallionClick = false
   }, 55)
 }
 
@@ -422,7 +506,7 @@ const onRowPointerDown = (rowIdx: number, e: PointerEvent) => {
 
   activeGestureRow = rowIdx
   draggingRowIndex.value = rowIdx
-  suppressCapsuleClick = false
+  suppressMedallionClick = false
   state.isDragging = true
   state.inertiaVelocity = 0
   gestureStartX = e.clientX
@@ -446,7 +530,7 @@ const onRowTouchStart = (rowIdx: number, e: TouchEvent) => {
   gestureStartY = t.clientY
   gestureStartOffset = state.offsetPx
   gestureLockAxis = null
-  suppressCapsuleClick = false
+  suppressMedallionClick = false
   state.isDragging = true
   state.inertiaVelocity = 0
   velocityHistory = [{ x: t.clientX, t: performance.now() }]
@@ -472,7 +556,7 @@ const onRowTouchMove = (rowIdx: number, e: TouchEvent) => {
   }
 
   if (gestureLockAxis === 'x' && state.setWidthPx > 0) {
-    suppressCapsuleClick = true
+    suppressMedallionClick = true
     state.offsetPx = wrapStreamOffset(gestureStartOffset + dx, state.setWidthPx)
     applyTrackTransform(rowIdx)
     recordVelocityPoint(t.clientX)
@@ -486,37 +570,32 @@ const onRowTouchEnd = (rowIdx: number) => {
     if (gestureLockAxis === 'x') {
       state.inertiaVelocity = computeReleaseInertia()
     }
-    state.resumeHoldUntil = performance.now() + 550
+    state.resumeHoldUntil = performance.now() + STREAM_PHYSICS.touchHoldMs
   }
   activeGestureRow = -1
   gestureLockAxis = null
   syncStreamLoop()
 
   setTimeout(() => {
-    suppressCapsuleClick = false
+    suppressMedallionClick = false
   }, 55)
 }
 
 // =========================================================
-// CENTERED TRANSLUCENT DOSSIER MODAL + LENIS SCROLL LOCK
+// RING LIGHT-UP IGNITION BEAT + COVER DOSSIER MODAL
 // =========================================================
 const activeCustodianIndex = ref<number | null>(null)
 const modalSlideDirection = ref<'next' | 'prev'>('next')
 
 const totalMembers = computed(() => props.data.members.length)
+const hasSectionHeader = computed(() =>
+  Boolean(props.data.eyebrow || props.data.title || props.data.description)
+)
 
 const activeCustodian = computed<CommunityMemberItem | null>(() => {
   const idx = activeCustodianIndex.value
   if (idx === null) return null
   return props.data.members[idx] || null
-})
-
-const activeModalTint = computed<CommunityCapsuleTint>(() => {
-  const idx = activeCustodianIndex.value
-  const member = activeCustodian.value
-  if (idx === null || !member) return 'cream'
-  if (member.tint && member.tint in modalHeaderTintMap) return member.tint
-  return TINT_SEQUENCE[idx % TINT_SEQUENCE.length]!
 })
 
 const formatCounter = (num: number): string => String(num).padStart(2, '0')
@@ -532,19 +611,32 @@ const setBackgroundScrollLock = (locked: boolean) => {
   }
 }
 
-const openDossier = (globalIdx: number) => {
-  if (suppressCapsuleClick) {
-    suppressCapsuleClick = false
+const handleMedallionClick = (globalIdx: number, renderKey: string) => {
+  if (suppressMedallionClick) {
+    suppressMedallionClick = false
     return
   }
   if (globalIdx < 0 || globalIdx >= totalMembers.value) return
-  modalSlideDirection.value = 'next'
-  activeCustodianIndex.value = globalIdx
-  setBackgroundScrollLock(true)
-  syncStreamLoop()
+
+  // Brief 140ms full-opacity ring light-up before mounting dossier modal
+  ignitingRenderKey.value = renderKey
+  if (igniteTimeoutId) clearTimeout(igniteTimeoutId)
+
+  igniteTimeoutId = setTimeout(() => {
+    modalSlideDirection.value = 'next'
+    activeCustodianIndex.value = globalIdx
+    ignitingRenderKey.value = null
+    setBackgroundScrollLock(true)
+    syncStreamLoop()
+  }, STREAM_PHYSICS.ringIgniteMs)
 }
 
 const closeDossier = () => {
+  if (igniteTimeoutId) {
+    clearTimeout(igniteTimeoutId)
+    igniteTimeoutId = null
+  }
+  ignitingRenderKey.value = null
   if (activeCustodianIndex.value === null) return
   activeCustodianIndex.value = null
   setBackgroundScrollLock(false)
@@ -603,6 +695,7 @@ watch(
   () => props.data.members.length,
   () => {
     nextTick(() => {
+      trackElMap.forEach((el) => resizeObserver?.observe(el))
       measureAllTrackSetWidths()
       syncStreamLoop()
     })
@@ -610,9 +703,6 @@ watch(
 )
 
 onMounted(() => {
-  prefersReducedMotion = window.matchMedia(
-    '(prefers-reduced-motion: reduce)'
-  ).matches
 
   if (typeof ResizeObserver !== 'undefined') {
     resizeObserver = new ResizeObserver(() => {
@@ -648,6 +738,7 @@ onMounted(() => {
 onBeforeUnmount(() => {
   stopStreamLoop()
   setBackgroundScrollLock(false)
+  if (igniteTimeoutId) clearTimeout(igniteTimeoutId)
   if (resizeObserver) {
     resizeObserver.disconnect()
     resizeObserver = null
@@ -671,25 +762,92 @@ onBeforeUnmount(() => {
     ref="sectionRef"
     data-theme="light"
     aria-label="Local Community Custodians"
-    class="community-section-shell mt-10"
+    class="community-section-shell bg-bg-light"
   >
-    <!-- 1. NON-COMPETING ARCHITECTURAL CONNECTOR & INTERACTIVE LEDGER PILL -->
-    <div v-motion-micro-up class="community-bridge-header">
-      <div aria-hidden="true" class="community-bridge-stem" />
+    <!-- Shared Zero-Footprint SVG Defs: Concentric Rim Arc + 4 Tapered Mineral Ring Gradients -->
+    <svg
+      aria-hidden="true"
+      class="pointer-events-none absolute w-0 h-0 overflow-hidden opacity-0"
+    >
+      <defs>
+        <!-- Concentric Upper Arc (Center 84,84 | Radius 59.5 -> ~2.5px outside R=56.1 rim) -->
+        <path
+          id="community-rim-arc"
+          d="M 41.57 126.43 A 60 60 0 1 1 126.43 126.43"
+        />
 
+        <linearGradient id="community-ring-cream" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#a6741e" stop-opacity="0.14" />
+          <stop offset="50%" stop-color="#a6741e" stop-opacity="0.58" />
+          <stop offset="100%" stop-color="#a6741e" stop-opacity="0.95" />
+        </linearGradient>
+
+        <linearGradient id="community-ring-sky" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#285884" stop-opacity="0.14" />
+          <stop offset="50%" stop-color="#285884" stop-opacity="0.58" />
+          <stop offset="100%" stop-color="#285884" stop-opacity="0.95" />
+        </linearGradient>
+
+        <linearGradient id="community-ring-peach" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#a24e30" stop-opacity="0.14" />
+          <stop offset="50%" stop-color="#a24e30" stop-opacity="0.58" />
+          <stop offset="100%" stop-color="#a24e30" stop-opacity="0.95" />
+        </linearGradient>
+
+        <linearGradient id="community-ring-sage" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#2f6144" stop-opacity="0.14" />
+          <stop offset="50%" stop-color="#2f6144" stop-opacity="0.58" />
+          <stop offset="100%" stop-color="#2f6144" stop-opacity="0.95" />
+        </linearGradient>
+      </defs>
+    </svg>
+
+    <!-- 1. EDITORIAL SECTION HEADER -->
+    <div v-if="hasSectionHeader" class="community-header-wrap">
+      <div v-if="data.eyebrow" v-motion-fade-up class="eyebrow-wrapper">
+        <div class="bg-dark-gold/70 eyebrow-border" />
+        <span class="text-journey-deep/95 eyebrow-text">
+          {{ data.eyebrow }}
+        </span>
+        <div class="bg-dark-gold/70 eyebrow-border" />
+      </div>
+
+      <h2
+        v-if="data.title"
+        v-motion-fade-up
+        :delay="90"
+        class="section-title-wrapper drop-shadow-none!"
+      >
+        <span class="text-journey-deep section-subtitle">
+          {{ data.title }}
+        </span>
+      </h2>
+
+      <p
+        v-if="data.description"
+        v-motion-fade-up
+        :delay="170"
+        class="section-paragraph text-secondary-light max-w-3xl"
+      >
+        {{ data.description }}
+      </p>
+    </div>
+
+    <!-- 2. LIVE INTERACTIVE LEDGER PILL -->
+    <div v-motion-micro-up :delay="hasSectionHeader ? 220 : 0" class="community-bridge-header">
       <div class="community-ledger-pill">
         <span aria-hidden="true" class="community-live-dot" />
-        <span class="card-tag font-semibold text-journey-deep">
+        <span class="card-tag font-semibold text-journey-deep pt-1.25">
           {{ `${totalMembers} ${data.ledgerNoun || 'Local Custodians'}` }}
         </span>
-        <span aria-hidden="true" class="text-dark-gold/60">·</span>
-        <span class="card-tag text-muted">
+        <span aria-hidden="true" class="hidden xs:inline text-dark-gold/60">·</span>
+        <span class="card-tag text-muted pt-1.25">
           {{ data.interactionHint || 'Tap any person for their story · Drag stream' }}
         </span>
       </div>
     </div>
 
-    <!-- 2. ALTERNATING CONTINUOUS CAPSULE STREAMS (Desktop & Mobile) -->
+    <!-- 3. ALTERNATING ZIGZAG CIRCULAR MEDALLION STREAMS (4+ Rows) -->
     <div
       data-lenis-prevent-horizontal
       class="community-streams-stage"
@@ -701,13 +859,14 @@ onBeforeUnmount(() => {
         v-for="(rowItems, rIdx) in streamRows"
         :key="`stream-row-${rIdx}`"
         v-motion-atelier-card
-        :delay="rIdx * 80"
+        :delay="rIdx * 70"
         :class="[
           'community-stream-row',
           draggingRowIndex === rIdx ? 'cursor-grabbing' : 'cursor-grab'
         ]"
         @mouseenter="onRowMouseEnter(rIdx)"
         @mouseleave="onRowMouseLeave(rIdx)"
+        @wheel="onRowWheel(rIdx, $event)"
         @pointerdown="onRowPointerDown(rIdx, $event)"
         @touchstart.passive="onRowTouchStart(rIdx, $event)"
         @touchmove.passive="onRowTouchMove(rIdx, $event)"
@@ -726,42 +885,79 @@ onBeforeUnmount(() => {
             :aria-hidden="!item.isPrimaryCopy || undefined"
             :aria-label="`${item.member.name}, ${item.member.role} from ${item.member.location}`"
             :class="[
-              'group community-capsule',
-              capsuleTintClassMap[item.tint]
+              'group community-medallion',
+              medallionTintClassMap[item.tint]
             ]"
-            @click="openDossier(item.globalIndex)"
+            @click="handleMedallionClick(item.globalIndex, item.renderKey)"
           >
-            <!-- Left Circular Portrait -->
-            <span class="community-capsule-avatar">
+            <!-- Concentric Layer 1: Circular Portrait (DevTools-Clean 160x160 + aspect-square) -->
+            <span class="community-medallion-avatar">
               <img
                 :src="item.member.img"
                 :alt="item.member.alt || item.member.name"
-                width="96"
-                height="96"
+                width="160"
+                height="160"
                 loading="lazy"
                 decoding="async"
                 fetchpriority="low"
                 draggable="false"
-                class="w-full h-full object-cover transition-transform duration-500 ease-editorial group-hover:scale-108"
+                class="pointer-events-none block w-full h-auto aspect-square object-cover transition-transform duration-500 ease-editorial group-hover:scale-107 group-active:scale-104"
                 @error="onAvatarError"
               />
             </span>
 
-            <!-- Snug Stacked Name + Designation -->
-            <span class="flex flex-col items-start min-w-0">
-              <span class="community-capsule-name">
-                {{ item.member.name }}
-              </span>
-              <span class="card-tag community-capsule-role">
-                {{ item.member.role }}
-              </span>
-            </span>
+            <!-- Concentric Layer 2: Tapered Fading Ring + Click Light-Up + Rim-Hugging Arc Text -->
+            <svg
+              viewBox="0 0 168 168"
+              fill="none"
+              aria-hidden="true"
+              class="community-medallion-svg"
+            >
+              <!-- Ambient Tapered Multi-Tint Ring (Warms on Hover) -->
+              <circle
+                cx="84"
+                cy="84"
+                r="56.1"
+                :stroke="`url(#community-ring-${item.tint})`"
+                stroke-width="1.6"
+                class="transition-opacity duration-300 ease-editorial"
+                :class="
+                  ignitingRenderKey === item.renderKey
+                    ? 'opacity-100'
+                    : 'opacity-40 group-hover:opacity-85 group-active:opacity-90'
+                "
+              />
+
+              <!-- Click Ignition Ring (Same Width, Flashes to Full Opacity Right Before Popup) -->
+              <circle
+                cx="84"
+                cy="84"
+                r="56.1"
+                stroke="var(--medallion-solid)"
+                stroke-width="1.6"
+                class="transition-opacity duration-150 ease-out"
+                :class="ignitingRenderKey === item.renderKey ? 'opacity-100' : 'opacity-0'"
+              />
+
+              <!-- Curved FirstName • Profession (~2.5px Outside Rim Edge) -->
+              <text
+                font-size="10"
+                letter-spacing="1.2"
+                class="font-primary uppercase"
+              >
+                <textPath
+                  href="#community-rim-arc"
+                  startOffset="50%"
+                  text-anchor="middle"
+                ><tspan class="fill-journey-deep font-semibold">{{ item.firstName.toUpperCase() }}</tspan><tspan class="fill-dark-gold font-semibold"> • </tspan><tspan class="fill-secondary-light font-medium">{{ item.member.role.toUpperCase() }}</tspan></textPath>
+              </text>
+            </svg>
           </button>
         </div>
       </div>
     </div>
 
-    <!-- 3. CENTERED TRANSLUCENT FROSTED DOSSIER MODAL -->
+    <!-- 4. CENTERED COVER-BANNER + OVERLAPPING PORTRAIT DOSSIER MODAL -->
     <Teleport to="body">
       <Transition name="community-backdrop">
         <div
@@ -797,100 +993,109 @@ onBeforeUnmount(() => {
               mode="out-in"
             >
               <div :key="activeCustodian.id" class="w-full flex flex-col">
-                <div
-                  :class="[
-                    'community-modal-header',
-                    modalHeaderTintMap[activeModalTint]
-                  ]"
-                >
-                  <svg
-                    viewBox="0 0 120 120"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1"
+                <!-- Top Atmospheric Cover Image + Delicate Inset Frame Border -->
+                <div class="community-modal-cover">
+                  <img
+                    :src="resolveCoverImg(activeCustodian)"
+                    :alt="activeCustodian.coverAlt || `${activeCustodian.name} — ${activeCustodian.location}`"
+                    width="640"
+                    height="400"
+                    decoding="async"
+                    draggable="false"
+                    class="pointer-events-none block w-full h-full aspect-16/10 object-cover"
+                    @error="onCoverError"
+                  />
+                  <div
                     aria-hidden="true"
-                    class="community-modal-watermark"
-                  >
-                    <circle cx="120" cy="0" r="88" />
-                    <circle cx="120" cy="0" r="62" stroke-dasharray="3 4" />
-                  </svg>
+                    class="pointer-events-none absolute inset-0 bg-linear-to-t from-journey-deep/35 via-transparent to-journey-deep/20"
+                  />
+                  <div aria-hidden="true" class="community-modal-cover-frame" />
+                </div>
 
-                  <div class="relative z-10 flex items-center gap-4 sm:gap-5 pr-8">
-                    <div class="community-modal-avatar">
-                      <img
-                        :src="activeCustodian.img"
-                        :alt="activeCustodian.alt || activeCustodian.name"
-                        width="160"
-                        height="160"
-                        decoding="async"
-                        class="w-full h-full object-cover"
-                        @error="onAvatarError"
-                      />
-                    </div>
-
-                    <div class="flex flex-col items-start min-w-0">
-                      <span class="card-eyebrow text-dark-gold font-semibold mb-0.5!">
-                        {{ activeCustodian.role }}
-                      </span>
-
-                      <h3 class="subsection-title text-journey-deep">
-                        {{ activeCustodian.name }}
-                      </h3>
-
-                      <div class="inline-flex items-center gap-1.5 mt-1.5 text-muted">
-                        <svg
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="1.6"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          aria-hidden="true"
-                          class="w-3.5 h-3.5 text-dark-gold shrink-0"
-                        >
-                          <path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z" />
-                          <circle cx="12" cy="10" r="3" />
-                        </svg>
-                        <span class="card-tag text-secondary-light/80 whitespace-normal!">
-                          {{ activeCustodian.location }}
-                        </span>
-                      </div>
-                    </div>
+                <!-- Straddling Enlarged Circular Portrait -->
+                <div class="community-modal-avatar-shell">
+                  <div class="w-full h-full rounded-full overflow-hidden bg-surface-frosted">
+                    <img
+                      :src="activeCustodian.img"
+                      :alt="activeCustodian.alt || activeCustodian.name"
+                      width="224"
+                      height="224"
+                      decoding="async"
+                      draggable="false"
+                      class="pointer-events-none block w-full h-auto aspect-square object-cover"
+                      @error="onAvatarError"
+                    />
                   </div>
                 </div>
 
+                <!-- Centered Identity Stack + Gold Divider + Lenis-Isolated Bio -->
                 <div class="community-modal-body">
-                  <p class="section-paragraph text-secondary-light">
-                    {{ activeCustodian.desc }}
-                  </p>
+                  <h3 class="font-primary font-normal text-2xl sm:text-[1.68rem] text-journey-deep leading-tight tracking-[-0.01em]">
+                    {{ activeCustodian.name }}
+                  </h3>
+
+                  <span class="card-eyebrow text-dark-gold font-semibold tracking-[0.18em] mt-1.5 mb-0!">
+                    {{ activeCustodian.role }}
+                  </span>
+
+                  <div class="inline-flex items-center justify-center gap-1.5 mt-2 text-muted">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                      class="w-3.5 h-3.5 text-dark-gold shrink-0"
+                    >
+                      <path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z" />
+                      <circle cx="12" cy="10" r="3" />
+                    </svg>
+                    <span class="card-tag uppercase tracking-[0.14em] text-secondary-light/80 whitespace-normal!">
+                      {{ activeCustodian.location }}
+                    </span>
+                  </div>
+
+                  <div aria-hidden="true" class="w-11 h-px bg-dark-gold/38 my-4" />
+
+                  <div
+                    data-lenis-prevent
+                    class="community-modal-bio-scroll"
+                  >
+                    <p class="section-paragraph text-secondary-light max-w-[34ch] mx-auto leading-relaxed">
+                      {{ activeCustodian.desc }}
+                    </p>
+                  </div>
                 </div>
               </div>
             </Transition>
 
+            <!-- Symmetric 3-Slot CSS Grid Stepper Footer -->
             <div v-if="totalMembers > 1" class="community-modal-footer">
               <button
                 type="button"
                 aria-label="Previous community member"
-                class="community-modal-step-btn"
+                class="community-modal-step-btn justify-self-start"
                 @click="stepDossier(-1)"
               >
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" class="w-3.5 h-3.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
                 </svg>
-                <span class="card-tag font-semibold">Prev</span>
+                <span class="card-tag font-semibold pt-1">Prev</span>
               </button>
 
-              <span class="card-tag text-muted tabular-nums">
+              <span class="card-tag text-muted tabular-nums justify-self-center">
                 {{ `${formatCounter(activeCustodianIndex + 1)} / ${formatCounter(totalMembers)}` }}
               </span>
 
               <button
                 type="button"
                 aria-label="Next community member"
-                class="community-modal-step-btn"
+                class="community-modal-step-btn justify-self-end"
                 @click="stepDossier(1)"
               >
-                <span class="card-tag font-semibold">Next</span>
+                <span class="card-tag font-semibold pt-1">Next</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" class="w-3.5 h-3.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                 </svg>
@@ -904,9 +1109,506 @@ onBeforeUnmount(() => {
 </template>
 
 <style scoped>
+:global(html.community-modal-lock),
+:global(html.community-modal-lock body) {
+  overflow: hidden !important;
+}
+
+/* --- Section Shell & Headers --- */
+.community-section-shell {
+  position: relative;
+  width: 100%;
+  padding-block: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: clip;
+  background-color: var(--color-bg-light);
+  color: var(--color-primary-light);
+}
+
+@media (min-width: 640px) {
+  .community-section-shell {
+    padding-block: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .community-section-shell {
+    padding-block: 5rem;
+  }
+}
+
+.community-header-wrap {
+  width: 100%;
+  max-width: 56rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-inline: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+@media (min-width: 640px) {
+  .community-header-wrap {
+    padding-inline: 1.5rem;
+    margin-bottom: 2.25rem;
+  }
+}
+
+.community-bridge-header {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-inline: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+@media (min-width: 640px) {
+  .community-bridge-header {
+    margin-bottom: 2.25rem;
+  }
+}
+
+.community-ledger-pill {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.625rem;
+  row-gap: 0.25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  background-color: color-mix(in srgb, var(--color-surface-light) 90%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-dark-gold) 25%, transparent);
+  box-shadow: 0 1px rgb(0 0 0 / 0.05);
+}
+
+@media (min-width: 640px) {
+  .community-ledger-pill {
+    padding-inline: 1.25rem;
+  }
+}
+
+.community-live-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background-color: var(--color-dark-gold);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-dark-gold) 20%, transparent);
+  flex-shrink: 0;
+}
+
+/* --- Alternating Zigzag Streams & Edge Fades --- */
+.community-streams-stage {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-block: 0.25rem;
+  user-select: none;
+  --community-medallion-gap: 0px;
+}
+
+@media (min-width: 640px) {
+  .community-streams-stage {
+    --community-medallion-gap: 0.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .community-streams-stage {
+    --community-medallion-gap: 0.6rem;
+  }
+}
+
+.community-edge-fade-left,
+.community-edge-fade-right {
+  pointer-events: none;
+  position: absolute;
+  inset-block: 0;
+  width: 1.5rem;
+  z-index: 20;
+}
+
+.community-edge-fade-left {
+  left: 0;
+  background-image: linear-gradient(
+    to right,
+    var(--color-bg-light) 0%,
+    color-mix(in srgb, var(--color-bg-light) 75%, transparent) 50%,
+    transparent 100%
+  );
+}
+
+.community-edge-fade-right {
+  right: 0;
+  background-image: linear-gradient(
+    to left,
+    var(--color-bg-light) 0%,
+    color-mix(in srgb, var(--color-bg-light) 75%, transparent) 50%,
+    transparent 100%
+  );
+}
+
+@media (min-width: 640px) {
+  .community-edge-fade-left,
+  .community-edge-fade-right {
+    width: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .community-edge-fade-left,
+  .community-edge-fade-right {
+    width: 6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .community-edge-fade-left,
+  .community-edge-fade-right {
+    width: 8rem;
+  }
+}
+
+.community-stream-row {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-block: 0.25rem;
+  margin-block: -0.75rem;
+  touch-action: pan-y;
+}
+
+@media (min-width: 640px) {
+  .community-stream-row {
+    margin-block: -1rem;
+  }
+}
+
+.community-stream-track {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  will-change: transform;
+  gap: var(--community-medallion-gap);
+}
+
+/* --- Circular Portrait Medallion (1x1 Concentric CSS Grid) --- */
+.community-medallion {
+  position: relative;
+  flex-shrink: 0;
+  margin-inline: -0.375rem;
+  width: 8.5rem;
+  height: 8.5rem;
+  aspect-ratio: 1 / 1;
+  border-radius: 9999px;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+  place-items: center;
+  cursor: pointer;
+  outline: none;
+  transition:
+    transform 300ms var(--ease-editorial),
+    translate 300ms var(--ease-editorial),
+    scale 300ms var(--ease-editorial);
+}
+
+@media (min-width: 640px) {
+  .community-medallion {
+    margin-inline: -0.5rem;
+    width: 9.5rem;
+    height: 9.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .community-medallion {
+    margin-inline: -0.625rem;
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .community-medallion {
+    width: 10.5rem;
+    height: 10.5rem;
+  }
+}
+
+.community-medallion:hover {
+  translate: 0 -0.125rem;
+}
+
+.community-medallion:active {
+  scale: 0.97;
+}
+
+.community-medallion:focus-visible {
+  box-shadow: 0 0 0 2px var(--color-dark-gold);
+}
+
+.community-medallion-cream {
+  --medallion-bezel: rgba(168, 122, 42, 0.2);
+  --medallion-glow: rgba(168, 122, 42, 0.24);
+  --medallion-solid: #a6741e;
+}
+
+.community-medallion-sky {
+  --medallion-bezel: rgba(42, 88, 132, 0.2);
+  --medallion-glow: rgba(42, 88, 132, 0.22);
+  --medallion-solid: #285884;
+}
+
+.community-medallion-peach {
+  --medallion-bezel: rgba(164, 84, 54, 0.2);
+  --medallion-glow: rgba(164, 84, 54, 0.22);
+  --medallion-solid: #a24e30;
+}
+
+.community-medallion-sage {
+  --medallion-bezel: rgba(50, 98, 70, 0.2);
+  --medallion-glow: rgba(50, 98, 70, 0.22);
+  --medallion-solid: #2f6144;
+}
+
+.community-medallion-avatar {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  width: 64%;
+  height: 64%;
+  aspect-ratio: 1 / 1;
+  border-radius: 9999px;
+  overflow: hidden;
+  background-color: var(--color-surface-frosted);
+  border: 1px solid var(--medallion-bezel);
+  box-shadow: 0 8px 18px -10px var(--medallion-glow);
+  transition: box-shadow 300ms var(--ease-editorial);
+}
+
+.community-medallion:hover .community-medallion-avatar,
+.community-medallion:active .community-medallion-avatar {
+  box-shadow: 0 12px 24px -10px var(--medallion-glow);
+}
+
+.community-medallion-svg {
+  pointer-events: none;
+  user-select: none;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  z-index: 10;
+}
+
+/* --- Centered Atmospheric Cover + Overlapping Avatar Dossier Modal --- */
+.community-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9990;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: color-mix(in srgb, var(--color-journey-deep) 38%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+@media (min-width: 640px) {
+  .community-modal-backdrop {
+    padding: 1.5rem;
+  }
+}
+
+.community-modal-card {
+  position: relative;
+  width: 100%;
+  max-width: 25.5rem;
+  border-radius: 1.5rem;
+  background-color: var(--color-surface-light);
+  border: 1px solid color-mix(in srgb, var(--color-dark-gold) 22%, transparent);
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .community-modal-card {
+    max-width: 27.5rem;
+  }
+}
+
+.community-modal-cover {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background-color: var(--color-journey-deep);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.community-modal-cover-frame {
+  pointer-events: none;
+  position: absolute;
+  inset: 0.75rem;
+  border-radius: 1rem;
+  border: 1px solid color-mix(in srgb, var(--color-surface-light) 30%, transparent);
+  z-index: 10;
+}
+
+@media (min-width: 640px) {
+  .community-modal-cover-frame {
+    inset: 0.875rem;
+  }
+}
+
+.community-modal-close-btn {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 30;
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 9999px;
+  background-color: color-mix(in srgb, var(--color-journey-deep) 45%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid color-mix(in srgb, var(--color-surface-light) 28%, transparent);
+  color: color-mix(in srgb, var(--color-surface-light) 90%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 250ms var(--ease-editorial);
+  cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  .community-modal-close-btn {
+    top: 1.375rem;
+    right: 1.375rem;
+  }
+}
+
+.community-modal-close-btn:hover {
+  background-color: color-mix(in srgb, var(--color-journey-deep) 75%, transparent);
+  border-color: color-mix(in srgb, var(--color-dark-gold) 65%, transparent);
+  color: var(--color-surface-light);
+}
+
+.community-modal-close-btn:active {
+  scale: 0.95;
+}
+
+.community-modal-avatar-shell {
+  position: relative;
+  z-index: 20;
+  margin-top: -3rem;
+  margin-inline: auto;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 9999px;
+  padding: 0.25rem;
+  background-color: var(--color-surface-light);
+  border: 1px solid color-mix(in srgb, var(--color-dark-gold) 30%, transparent);
+  box-shadow:
+    0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+  flex-shrink: 0;
+}
+
+@media (min-width: 640px) {
+  .community-modal-avatar-shell {
+    margin-top: -3.5rem;
+    width: 7rem;
+    height: 7rem;
+  }
+}
+
+.community-modal-body {
+  padding: 0.875rem 1.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .community-modal-body {
+    padding: 1rem 2rem 1.5rem;
+  }
+}
+
+.community-modal-bio-scroll {
+  width: 100%;
+  max-height: 10rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-inline: 0.25rem;
+}
+
+@media (min-width: 640px) {
+  .community-modal-bio-scroll {
+    max-height: 12rem;
+  }
+}
+
+.community-modal-footer {
+  padding: 0.875rem 1.25rem;
+  background-color: color-mix(in srgb, var(--color-surface-medium) 55%, transparent);
+  border-top: 1px solid color-mix(in srgb, var(--color-journey-deep) 10%, transparent);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 0.75rem;
+  user-select: none;
+}
+
+@media (min-width: 640px) {
+  .community-modal-footer {
+    padding: 1rem 1.75rem;
+  }
+}
+
+.community-modal-step-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.875rem;
+  border-radius: 9999px;
+  background-color: var(--color-surface-light);
+  border: 1px solid color-mix(in srgb, var(--color-journey-deep) 12%, transparent);
+  color: var(--color-journey-deep);
+  box-shadow: 0 1px rgb(0 0 0 / 0.05);
+  transition: all 250ms var(--ease-editorial);
+  cursor: pointer;
+}
+
+.community-modal-step-btn:hover {
+  border-color: var(--color-dark-gold);
+  color: var(--color-dark-gold);
+}
+
+.community-modal-step-btn:active {
+  scale: 0.96;
+}
+
+/* --- Modal & Dossier Step Transitions --- */
 .community-backdrop-enter-active,
 .community-backdrop-leave-active {
-  transition: opacity 340ms var(--ease-editorial);
+  transition: opacity 320ms var(--ease-editorial);
 }
 
 .community-backdrop-enter-from,
@@ -917,14 +1619,14 @@ onBeforeUnmount(() => {
 .community-backdrop-enter-active .community-modal-pop,
 .community-backdrop-leave-active .community-modal-pop {
   transition:
-    transform 420ms var(--ease-editorial),
-    opacity 340ms var(--ease-editorial);
+    transform 400ms var(--ease-editorial),
+    opacity 320ms var(--ease-editorial);
 }
 
 .community-backdrop-enter-from .community-modal-pop,
 .community-backdrop-leave-to .community-modal-pop {
   opacity: 0;
-  transform: translate3d(0, 14px, 0) scale(0.95);
+  transform: translate3d(0, 14px, 0) scale(0.96);
 }
 
 .community-dossier-next-enter-active,
@@ -932,8 +1634,8 @@ onBeforeUnmount(() => {
 .community-dossier-prev-enter-active,
 .community-dossier-prev-leave-active {
   transition:
-    opacity 240ms var(--ease-editorial),
-    transform 240ms var(--ease-editorial);
+    opacity 230ms var(--ease-editorial),
+    transform 230ms var(--ease-editorial);
 }
 
 .community-dossier-next-enter-from {
