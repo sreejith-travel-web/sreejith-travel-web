@@ -9,6 +9,8 @@ import {
 } from 'vue'
 import { useRoute } from '#imports'
 import { useFloatingControls } from '~/composables/useFloatingControls'
+import { useConsultModal } from '~/composables/useConsultModal'
+const { openConsultModal } = useConsultModal()
 
 const DOCK_FLOW = {
   // Glides in 160ms after ScrollNav (1500ms) for an organic overlapping rise
@@ -21,7 +23,7 @@ const DOCK_FLOW = {
   replayOnRouteChange: true,
   whatsappHref: 'https://wa.me/919943360478',
   planRoute: '/planyourjourney',
-  askFallbackRoute: '/contact'
+  askFallbackRoute: '/consult'
 } as const
 
 const emit = defineEmits<{
@@ -51,7 +53,7 @@ const normalizePath = (p: string): string =>
 
 const showPlanItem = computed<boolean>(() => {
   const cleanPath = normalizePath(route.path).toLowerCase()
-  return cleanPath !== DOCK_FLOW.planRoute && cleanPath !== '/plan-your-journey'
+  return !cleanPath.startsWith(DOCK_FLOW.planRoute) && cleanPath !== '/planyourjourney'
 })
 
 const clearTimers = () => {
@@ -124,10 +126,10 @@ const onDockMouseLeave = () => {
 }
 
 const handleActionSelect = (kind: 'chat' | 'plan' | 'ask') => {
-  if (kind === 'ask') {
-    emit('open-consult')
-  }
   closeMenu()
+  if (kind === 'ask') {
+    openConsultModal()
+  }
 }
 
 const onDocumentPointerDown = (e: PointerEvent) => {
@@ -283,7 +285,7 @@ onBeforeUnmount(() => {
           aria-label="Ask or Consult With Me"
           class="action-dock-item"
           :style="itemGlideStyle(0, showPlanItem ? 2 : 1)"
-          @click="handleActionSelect('ask')"
+          @click.prevent="handleActionSelect('ask')"
         >
           <span class="action-dock-badge-neutral">
             <svg

@@ -34,12 +34,12 @@ const props = withDefaults(
       ctaTitle: 'Want this trip, but shaped around you?',
       ctaSubtitle: 'Every route is a starting point—talk to us to adjust the pace, stays, or detours.',
       planLabel: 'Plan Your Journey',
-      planTo: '/planYourJourney',
+      planTo: '/planyourjourney/traveller',
       enquireLabel: 'Enquire',
-      enquireTo: '/contact',
+      enquireTo: '/consult',
       partnerEyebrow: 'FOR TRAVEL PARTNERS',
-      consultLabel: 'Consult With Me',
-      consultTo: '/planYourJourney',
+      consultLabel: 'Partner With Me',
+      consultTo: '/planyourjourney/partner',
       phone: '+919943360478',
       whatsapp: '919943360478',
       email: 'sreejith@sreejithtravel.com',
@@ -263,7 +263,7 @@ onBeforeUnmount(() => {
         <!-- Primary Button: Plan Your Journey (font-uppercase, font-medium) -->
         <NuxtLink
           id="desktop-plan-journey-link"
-          :to="data.planTo || '/planYourJourney'"
+          :to="data.planTo || '/planyourjourney'"
           class="w-full py-3.5 px-5 rounded-xl bg-intention-blue/90 hover:bg-intention-blue text-surface-light card-eyebrow mb-3 text-center font-medium tracking-[0.18em] leading-none pt-4 pb-3.5 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-intention-blue"
         >
           {{ data.planLabel || 'Plan Your Journey' }}
@@ -394,7 +394,7 @@ onBeforeUnmount(() => {
         </span>
         <NuxtLink
           id="desktop-consult-partner-link"
-          :to="data.consultTo || '/planYourJourney'"
+          :to="data.consultTo || '/planyourjourney'"
           class="w-full py-3 px-4 rounded-xl border border-journey-deep/35 hover:border-intention-blue hover:bg-intention-blue hover:text-surface-light text-journey-deep card-eyebrow mb-0! font-medium tracking-[0.16em]! text-center leading-none pt-3.5 pb-3 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-intention-blue"
         >
           {{ data.consultLabel || 'Consult With Me' }}
@@ -658,7 +658,7 @@ onBeforeUnmount(() => {
             <!-- Plan Your Journey (softened bg-intention-blue/90 on mobile, font-uppercase, font-medium) -->
             <NuxtLink
               id="mobile-popup-plan-link"
-              :to="data.planTo || '/planYourJourney'"
+              :to="data.planTo || '/planyourjourney'"
               @click="closeMobilePopup"
               class="w-full py-3.5 px-5 rounded-xl bg-intention-blue/90 hover:bg-intention-blue active:bg-intention-blue text-surface-light card-eyebrow mb-3! text-center font-medium tracking-[0.18em]! leading-none pt-4 pb-3.5 transition-colors duration-200"
             >
@@ -788,7 +788,7 @@ onBeforeUnmount(() => {
             </span>
             <NuxtLink
               id="mobile-popup-consult-link"
-              :to="data.consultTo || '/planYourJourney'"
+              :to="data.consultTo || '/planyourjourney'"
               @click="closeMobilePopup"
               class="w-full py-3 px-4 rounded-xl border border-journey-deep/30 hover:bg-intention-blue active:bg-intention-blue active:text-surface-light text-journey-deep/85 card-eyebrow mb-0! font-medium tracking-[0.16em]! text-center leading-none pt-3.5 pb-3 transition-colors duration-200"
             >

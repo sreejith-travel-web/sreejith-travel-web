@@ -889,6 +889,17 @@ const pageData = {
     ]
   } as LegalDocumentConfig
 }
+
+useTravelSeo({
+  pageTitle: 'Terms & Conditions',
+  pageDesc:
+    'Review the booking guidelines, reservation policies, payment schedules, and cancellation terms for bespoke journeys with Sree Jith Travel.',
+  canonicalPath: '/terms',
+  ogImage: '/images/og/terms.jpg',
+  ogImageAlt: 'Terms and Conditions — Sree Jith Travel',
+  pageType: 'legal',
+  breadcrumbName: 'Terms & Conditions'
+})
 </script>
 
 <template>

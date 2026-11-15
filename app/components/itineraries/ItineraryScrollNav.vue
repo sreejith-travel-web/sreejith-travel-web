@@ -1,6 +1,7 @@
 <!-- ~/app/components/itineraries/ItineraryScrollNav.vue -->
 <script setup lang="ts">
 import { ref, reactive, watch, onMounted, onBeforeUnmount, nextTick } from 'vue'
+import { useFloatingControls } from '~/composables/useFloatingControls'
 
 export interface ScrollNavSection {
   id: string
@@ -17,6 +18,7 @@ const props = withDefaults(
   }
 )
 
+const { scrollToElementByPace } = useFloatingControls()
 const activeId = ref<string>(props.sections[0]?.id || '')
 const navTrackRef = ref<HTMLElement | null>(null)
 const tabRefs = ref<Record<string, HTMLButtonElement | null>>({})
@@ -29,7 +31,7 @@ const indicator = reactive({
 })
 
 let isProgrammaticScroll = false
-let scrollUnlockTimer: ReturnType<typeof setTimeout> | null = null
+let programmaticScrollToken = 0
 let spyRafId: number | null = null
 let inertiaRafId: number | null = null
 
@@ -62,23 +64,26 @@ const scrollToSection = (id: string) => {
   const target = document.getElementById(id)
   if (!target) return
 
+  const token = ++programmaticScrollToken
   isProgrammaticScroll = true
   activeId.value = id
   updateIndicatorGeometry()
   centerActiveTabInTrack(id)
 
-  if (scrollUnlockTimer) clearTimeout(scrollUnlockTimer)
-
-  const y = target.getBoundingClientRect().top + window.scrollY - props.scrollOffset
-  window.scrollTo({
-    top: Math.max(0, y),
-    behavior: 'smooth'
+  const durationMs = scrollToElementByPace(target, {
+    offsetPx: props.scrollOffset,
+    onSettled: (interrupted) => {
+      if (token !== programmaticScrollToken) return
+      isProgrammaticScroll = false
+      if (interrupted) {
+        evaluateActiveSection()
+      }
+    }
   })
 
-  scrollUnlockTimer = setTimeout(() => {
+  if (durationMs === 0 && token === programmaticScrollToken) {
     isProgrammaticScroll = false
-    evaluateActiveSection()
-  }, 700)
+  }
 }
 
 // --- Deterministic Monotonic Scroll-Spy (Never bounces back and forth) ---
@@ -215,7 +220,7 @@ const onTrackWheel = (e: WheelEvent) => {
   if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
     return
   }
-  if (Math.abs(e.deltaY) > 0) {
+  if (e.shiftKey && Math.abs(e.deltaY) > 0) {
     e.preventDefault()
     track.scrollLeft += e.deltaY
   }
@@ -275,7 +280,6 @@ onBeforeUnmount(() => {
   window.removeEventListener('resize', onWindowResize)
   stopInertia()
   if (spyRafId !== null) cancelAnimationFrame(spyRafId)
-  if (scrollUnlockTimer) clearTimeout(scrollUnlockTimer)
 })
 </script>
 
@@ -345,7 +349,7 @@ onBeforeUnmount(() => {
 .itinerary-scroll-nav-track {
   -ms-overflow-style: none;
   scrollbar-width: none;
-  touch-action: pan-x;
+  touch-action: pan-x pan-y;
 }
 
 .itinerary-scroll-nav-track::-webkit-scrollbar {

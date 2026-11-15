@@ -5,6 +5,8 @@ import { useHead, useSeoMeta, useState } from '#imports'
 import { useHeaderTheme } from '~/composables/useHeaderTheme'
 import JournalRichText from '~/components/journal/JournalRichText.vue'
 import { stripJournalHtml } from '~/components/journal/JournalMediaHeader.vue'
+import { useTravelSeo } from '~/composables/useTravelSeo'
+
 import type {
   JournalFullRecord,
   JournalListicleSlide,
@@ -89,26 +91,20 @@ const normalizedTags = computed<string[]>(() =>
 const formatSlideNumber = (num: number): string =>
   String(num).padStart(2, '0')
 
-// 3. LCP Preload + SEO Meta
-useHead({
-  link: [
-    {
-      rel: 'preload',
-      as: 'image',
-      href: coverImage.value,
-      fetchpriority: 'high'
-    }
-  ]
-})
-
-useSeoMeta({
-  title: `${stripJournalHtml(props.record.meta.title)} | Journal`,
-  description: props.record.meta.excerpt,
-  ogType: 'article',
-  ogTitle: stripJournalHtml(props.record.meta.title),
-  ogDescription: props.record.meta.excerpt,
-  ogImage: props.record.meta.image
-})
+// 3. LCP Preload + Full Article Schema + Cover OG Meta
+useTravelSeo(() => ({
+  pageTitle: `${stripJournalHtml(props.record.meta.title)} | Journal`,
+  pageDesc: props.record.meta.excerpt,
+  canonicalPath: `/journal/${props.record.meta.slug}`,
+  ogImage: coverImage.value,
+  ogImageAlt: coverAlt.value,
+  ogImageWidth: 600,
+  ogImageHeight: 900,
+  preloadImage: coverImage.value,
+  pageType: 'article',
+  breadcrumbName: props.record.meta.title,
+  publishDate: props.record.meta.publishDate
+}))
 
 // 4. Story Deck State & Off-Thread Progress Mechanics
 const currentSlide = ref(0)

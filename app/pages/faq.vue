@@ -1494,6 +1494,17 @@ const pageData = {
     ]
   } as FaqConfig
 }
+
+useTravelSeo({
+  pageTitle: 'Frequently Asked Questions',
+  pageDesc:
+    'Answers to common questions about bespoke route planning, ideal travel seasons, private accommodations, pricing, and partnering with Sree Jith Travel.',
+  canonicalPath: '/faq',
+  ogImage: '/images/og/faq.jpg',
+  ogImageAlt: 'Frequently Asked Questions — Sree Jith Travel',
+  pageType: 'faq',
+  breadcrumbName: 'FAQ'
+})
 </script>
 
 <template>

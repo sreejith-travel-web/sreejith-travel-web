@@ -45,7 +45,7 @@ export interface ItinerarySeoConfig {
 }
 
 export interface ItineraryHeaderSpec {
-  breadcrumbs: Array<{ label: string; to?: string }>
+  breadcrumbs?: Array<{ label: string; to?: string }>
   coverImage: string
   coverAlt: string
   eyebrow: string

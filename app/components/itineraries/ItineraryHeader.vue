@@ -14,7 +14,7 @@ export interface JourneyDetailItem {
 }
 
 export interface ItineraryHeaderData {
-  breadcrumbs: BreadcrumbItem[]
+  breadcrumbs?: BreadcrumbItem[]
   coverImage: string
   coverAlt: string
   eyebrow: string

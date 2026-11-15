@@ -220,7 +220,7 @@ const scrollToPillarCard = (anchorId: string) => {
                   <div class="flex items-center gap-2.5 mb-2.5">
                     <span class="w-7 h-px bg-dark-gold shrink-0" aria-hidden="true" />
                     <span class="section-midsubtitle text-dark-gold mb-0!">
-                      {{ `PILLAR ${formatIndex(activeIndex + 1)} OF ${formatIndex(items.length)} · ${activeTabItem.tabTitle}` }}
+                      {{ `${formatIndex(activeIndex + 1)} / ${formatIndex(items.length)} · ${activeTabItem.tabTitle}` }}
                     </span>
                   </div>
 

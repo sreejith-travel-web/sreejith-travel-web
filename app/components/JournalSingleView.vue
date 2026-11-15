@@ -1,7 +1,7 @@
 <!-- ~/components/JournalSingleView.vue -->
 <script setup lang="ts">
 import { ref, computed, watch, onMounted, onBeforeUnmount, nextTick } from 'vue'
-import { useSeoMeta } from '#imports'
+import { useHead, useSeoMeta } from '#imports'
 import JournalHeader, { type JournalHeaderData } from '~/components/journal/JournalHeader.vue'
 import JournalSidebar, { type JournalTocItem } from '~/components/journal/JournalSidebar.vue'
 import RelatedStories from '~/components/RelatedStories.vue'
@@ -21,6 +21,8 @@ import JournalHorizontalSliderBlock from '~/components/journal/JournalHorizontal
 import JournalMasonryBlock from '~/components/journal/JournalMasonryBlock.vue'
 import { stripJournalHtml } from '~/components/journal/JournalMediaHeader.vue'
 import JournalImageSplitBlock from '~/components/journal/JournalImageSplitBlock.vue'
+import { useFloatingControls } from '~/composables/useFloatingControls'
+import { useTravelSeo } from '~/composables/useTravelSeo'
 
 const lightboxOpen = ref(false)
 const lightboxItems = ref<LightboxMediaItem[]>([])
@@ -109,14 +111,18 @@ watch(
   { immediate: true }
 )
 
+const { scrollToElementByPace } = useFloatingControls()
+
 // Passive rAF Scroll-Spy Engine
 let rafId: number | null = null
+let isProgrammaticScroll = false
+let programmaticScrollToken = 0
 
 const updateActiveHeadingOnScroll = () => {
   rafId = null
-  if (!import.meta.client || !toc.value.length) return
+  if (!import.meta.client || isProgrammaticScroll || !toc.value.length) return
 
-  const triggerOffset = window.innerWidth < 1024 ? 175 : 160
+  const triggerOffset = window.innerWidth < 1024 ? 140 : 160
   let currentId = toc.value[0]?.id || ''
 
   for (const item of toc.value) {
@@ -149,12 +155,27 @@ const onWindowScroll = () => {
 
 const scrollToHeading = (id: string) => {
   if (!import.meta.client) return
-  activeHeadingId.value = id
   const el = document.getElementById(id)
-  if (el) {
-    const offset = window.innerWidth < 1024 ? 145 : 115
-    const y = el.getBoundingClientRect().top + window.scrollY - offset
-    window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' })
+  if (!el) return
+
+  const token = ++programmaticScrollToken
+  isProgrammaticScroll = true
+  activeHeadingId.value = id
+
+  const offset = window.innerWidth < 1024 ? 100 : 115
+  const durationMs = scrollToElementByPace(el, {
+    offsetPx: offset,
+    onSettled: (interrupted) => {
+      if (token !== programmaticScrollToken) return
+      isProgrammaticScroll = false
+      if (interrupted) {
+        updateActiveHeadingOnScroll()
+      }
+    }
+  })
+
+  if (durationMs === 0 && token === programmaticScrollToken) {
+    isProgrammaticScroll = false
   }
 }
 
@@ -193,14 +214,17 @@ const relatedConfig = computed(() => ({
   }))
 }))
 
-useSeoMeta({
-  title: `${props.record.meta.title} | Journal`,
-  description: props.record.meta.excerpt,
-  ogType: 'article',
-  ogTitle: props.record.meta.title,
-  ogDescription: props.record.meta.excerpt,
-  ogImage: props.record.meta.image
-})
+useTravelSeo(() => ({
+  pageTitle: `${stripJournalHtml(props.record.meta.title)} | Journal`,
+  pageDesc: props.record.meta.excerpt,
+  canonicalPath: `/journal/${props.record.meta.slug}`,
+  ogImage: props.record.meta.image,
+  ogImageAlt: props.record.meta.alt || props.record.meta.title,
+  preloadImage: props.record.meta.image,
+  pageType: 'article',
+  breadcrumbName: props.record.meta.title,
+  publishDate: props.record.meta.publishDate
+}))
 </script>
 
 <template>

@@ -196,24 +196,20 @@ watch(singleStatus, (status) => {
   }
 })
 
-// 3. Archive SEO
-if (isArchiveRoute.value) {
-  useTravelSeo({
-    pageTitle: 'Signature Itineraries & Bespoke Routes Across South India',
-    pageDesc:
-      'Explore handcrafted Signature circuits, Collaborated regional routes, and slow-travel blueprints across Kerala and South India.',
-    canonicalPath: '/itineraries',
-    ogImage: '/images/favicons/sreejith-og-image.jpg',
-    pageType: 'itineraries-index',
-    breadcrumbName: 'Itineraries',
-    collectionItems: (archiveItems.value || []).map((item: ItineraryMeta) => ({
-      title: item.title,
-      intro: item.intro,
-      url: `/itineraries/${item.slug}`,
-      coverImage: item.image
-    }))
-  })
-}
+// 3. Archive SEO (Yields cleanly to ItinerarySingleView on single slug routes)
+const archiveSeoTitle = computed(() => {
+  if (!slug0.value) return 'Signature Itineraries & Bespoke Routes Across South India'
+  if (activeTab.value === 'collaborated') {
+    return 'Collaborated Regional Routes — Bespoke Itineraries'
+  }
+  if (activeTab.value === 'categories') {
+    const activeCat = selectedCategories.value[0]
+    return activeCat
+      ? `${activeCat.charAt(0).toUpperCase() + activeCat.slice(1)} Journeys — Bespoke Itineraries`
+      : 'Curated Travel Styles — Bespoke South India Itineraries'
+  }
+  return 'Signature Journeys — Bespoke South India Itineraries'
+})
 
 const featuredItineraries = computed<ItineraryMeta[]>(() =>
   (archiveItems.value || []).filter((item: ItineraryMeta) => item.featured)
@@ -304,6 +300,24 @@ onActivated(async () => {
 onDeactivated(() => {
   isPageActive.value = false
 })
+
+useTravelSeo(() => ({
+  enabled: isArchiveRoute.value,
+  pageTitle: archiveSeoTitle.value,
+  pageDesc:
+    'Explore handcrafted Signature circuits, Collaborated regional routes, and slow-travel blueprints across Kerala and South India.',
+  canonicalPath: '/itineraries',
+  ogImage: '/images/og/itineraries.jpg',
+  ogImageAlt: 'Bespoke Private Itineraries Across Kerala and South India',
+  pageType: 'itineraries-index',
+  breadcrumbName: 'Itineraries',
+  collectionItems: (archiveItems.value || []).map((item: ItineraryMeta) => ({
+    title: item.title,
+    intro: item.intro,
+    url: `/itineraries/${item.slug}`,
+    coverImage: item.image
+  }))
+}))
 </script>
 
 <template>

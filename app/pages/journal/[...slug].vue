@@ -350,6 +350,25 @@ onActivated(async () => {
 onDeactivated(() => {
   isPageActive.value = false
 })
+
+useTravelSeo(() => ({
+  enabled: isArchiveRoute.value,
+  pageTitle: 'Travel Journal, Field Notes & Stories',
+  pageDesc:
+    'Stories, insights, and field perspectives from our travels across communities, craft traditions, and living landscapes in Kerala and South India.',
+  canonicalPath: '/journal',
+  ogImage: '/images/og/journal.jpg',
+  ogImageAlt: 'Sree Jith Travel Journal — Stories and Field Notes from South India',
+  pageType: 'journal-index',
+  breadcrumbName: 'Journal',
+  collectionItems: (archivePosts.value || []).map((post) => ({
+    title: post.title,
+    intro: post.excerpt,
+    url: `/journal/${post.slug}`,
+    coverImage: post.image
+  }))
+}))
+
 </script>
 
 <template>

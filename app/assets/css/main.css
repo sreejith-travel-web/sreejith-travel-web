@@ -287,7 +287,8 @@
 
 /* Horizontal Scrollable Trapezium Rail */
 @utility trapezium-scroll-rail {
-  @apply relative w-full overflow-x-auto overflow-y-hidden overscroll-x-contain touch-pan-x pb-px select-none;
+  @apply relative w-full overflow-y-hidden pb-px select-none;
+  touch-action: pan-x pan-y;
   scrollbar-width: none;
   -ms-overflow-style: none;
   -webkit-overflow-scrolling: touch;

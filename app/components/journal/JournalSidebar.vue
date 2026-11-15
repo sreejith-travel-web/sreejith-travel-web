@@ -1,5 +1,8 @@
 <!-- ~/app/components/journal/JournalSidebar.vue -->
 <script setup lang="ts">
+
+import { useFloatingControls } from '~/composables/useFloatingControls'
+
 import {
   ref,
   computed,
@@ -16,6 +19,8 @@ export interface JournalTocItem {
   id: string
   text: string
 }
+
+const { computeElementPaceDurationMs } = useFloatingControls()
 
 // Centralized timing, easing & scroll-handoff constants for effortless tuning
 const SIDEBAR_MOTION = {
@@ -353,12 +358,36 @@ const handleWhatsAppShare = () => {
   window.open(waUrl, '_blank', 'noopener,noreferrer')
 }
 
+const releaseOptimisticLock = () => {
+  optimisticTargetId.value = null
+  if (optimisticTimeoutId) {
+    clearTimeout(optimisticTimeoutId)
+    optimisticTimeoutId = null
+  }
+  if (import.meta.client) {
+    window.removeEventListener('wheel', releaseOptimisticLock)
+    window.removeEventListener('touchstart', releaseOptimisticLock)
+  }
+}
+
 const handleSelectSection = (id: string) => {
-  optimisticTargetId.value = id
-  if (optimisticTimeoutId) clearTimeout(optimisticTimeoutId)
-  optimisticTimeoutId = setTimeout(() => {
-    optimisticTargetId.value = null
-  }, SIDEBAR_MOTION.clickLockWindowMs)
+  const paceMs = computeElementPaceDurationMs(id, 108)
+  releaseOptimisticLock()
+
+  if (paceMs > 0) {
+    optimisticTargetId.value = id
+    optimisticTimeoutId = setTimeout(
+      releaseOptimisticLock,
+      Math.max(SIDEBAR_MOTION.clickLockWindowMs, paceMs + 120)
+    )
+    if (import.meta.client) {
+      setTimeout(() => {
+        if (!optimisticTargetId.value) return
+        window.addEventListener('wheel', releaseOptimisticLock, { passive: true, once: true })
+        window.addEventListener('touchstart', releaseOptimisticLock, { passive: true, once: true })
+      }, 40)
+    }
+  }
 
   isMobileOpen.value = false
   emit('select', id)
@@ -494,6 +523,7 @@ onBeforeUnmount(() => {
     tocResizeObserver.disconnect()
     tocResizeObserver = null
   }
+  releaseOptimisticLock()
   detachMobileListeners()
 })
 </script>

@@ -53,6 +53,17 @@ const pageData = {
     ]
   }
 }
+
+useTravelSeo({
+  pageTitle: 'Contact & Private Consultations',
+  pageDesc:
+    'Get in touch with Sreejith for private journey consultations, custom South India route design, and international travel partner collaborations.',
+  canonicalPath: '/contact',
+  ogImage: '/images/og/contact.jpg',
+  ogImageAlt: 'Contact Sree Jith Travel for Bespoke Journey Enquiries',
+  pageType: 'contact',
+  breadcrumbName: 'Contact'
+})
 </script>
 
 <template>

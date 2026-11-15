@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@nuxt/fonts": "^1.0.1",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.1.0",
     "@vueuse/core": "^15.0.0",
     "@vueuse/motion": "^3.0.3",
     "lenis": "^1.3.27",
@@ -24,5 +26,13 @@
     "@tailwindcss/vite": "^4.3.3",
     "@types/node": "^26.6.6",
     "tailwindcss": "^4.3.3"
+  },
+  "overrides": {
+    "@vercel/analytics": {
+      "vue-router": "$vue-router"
+    },
+    "@vercel/speed-insights": {
+      "vue-router": "$vue-router"
+    }
   }
 }

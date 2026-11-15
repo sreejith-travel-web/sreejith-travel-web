@@ -352,16 +352,26 @@ const onRailTouchEnd = () => {
 
 const onRailWheel = (e: WheelEvent) => {
   const rail = scrollRailRef.value
-  if (!rail || rail.scrollWidth <= rail.clientWidth + 2) return
+  if (!rail || !isOverflowing.value) return
 
-  if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
-    cancelRailAnimation()
-    armSettleSnap()
+  // Intentional horizontal trackpad swipe on overflowing tabs
+  if (!e.shiftKey && Math.abs(e.deltaX) > Math.abs(e.deltaY) * 1.15) {
+    const maxScroll = Math.max(0, rail.scrollWidth - rail.clientWidth)
+    const canMoveX =
+      (e.deltaX < 0 && rail.scrollLeft > 0.5) ||
+      (e.deltaX > 0 && rail.scrollLeft < maxScroll - 0.5)
+    if (canMoveX) {
+      e.stopPropagation()
+      cancelRailAnimation()
+      armSettleSnap()
+    }
     return
   }
 
+  // Explicit Shift + Mousewheel horizontal step
   if (e.shiftKey && e.deltaY !== 0) {
     e.preventDefault()
+    e.stopPropagation()
     cancelRailAnimation()
     rail.scrollLeft += e.deltaY
     scheduleMetricsUpdate()
@@ -455,6 +465,9 @@ onMounted(() => {
         updateScrollMetrics()
       })
       resizeObserver.observe(scrollRailRef.value)
+      if (scrollRailRef.value.firstElementChild) {
+        resizeObserver.observe(scrollRailRef.value.firstElementChild)
+      }
     }
   })
 })
@@ -518,14 +531,13 @@ onBeforeUnmount(() => {
       <!-- Horizontal Physics Scroll Viewport -->
       <div
         ref="scrollRailRef"
-        data-lenis-prevent-horizontal
         :class="[
           'trapezium-scroll-rail',
           isOverflowing
             ? isPointerDragging
-              ? 'cursor-grabbing'
-              : 'cursor-grab'
-            : 'cursor-default'
+              ? 'overflow-x-auto cursor-grabbing'
+              : 'overflow-x-auto cursor-grab'
+            : 'overflow-x-hidden cursor-default'
         ]"
         @scroll.passive="onRailScroll"
         @pointerdown="onRailPointerDown"

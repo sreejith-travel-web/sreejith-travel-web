@@ -55,19 +55,6 @@
     "publishDate": "2026-02-01"
   },
   "header": {
-    "breadcrumbs": [
-      {
-        "label": "Home",
-        "to": "/"
-      },
-      {
-        "label": "Itineraries",
-        "to": "/itineraries"
-      },
-      {
-        "label": "Across the Palakkad Gap"
-      }
-    ],
     "coverImage": "/images/home/forest-landscape.webp",
     "coverAlt": "Western Ghats opening toward Palakkad plains and the green Anamalai foothills",
     "eyebrow": "Signature Itinerary",
@@ -106,12 +93,12 @@
     "ctaTitle": "Want this trip, but shaped around you?",
     "ctaSubtitle": "Every route is a starting point. Talk to us to adjust the pace, stays, or detours.",
     "planLabel": "Plan Your Journey",
-    "planTo": "/planYourJourney",
+    "planTo": "/planyourjourney/traveller",
     "enquireLabel": "Enquire",
-    "enquireTo": "/contact",
+    "enquireTo": "/consult",
     "partnerEyebrow": "FOR TRAVEL PARTNERS",
-    "consultLabel": "Consult With Me",
-    "consultTo": "/planYourJourney",
+    "consultLabel": "Partner With Me",
+    "consultTo": "/planyourjourney/partner",
     "phone": "+91 99433 60478",
     "whatsapp": "919943360478",
     "email": "sreejith@sreejithtravel.com",

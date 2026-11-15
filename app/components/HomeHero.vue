@@ -291,7 +291,7 @@ onUnmounted(deactivateHero)
             :class="['hero-cta-wrapper hero-stagger-item', { 'is-revealed': hasPlayedEntrance }]"
           >
             <CtaButton to="/itineraries" label="Explore Itineraries" variant="dark" />
-            <CtaButton to="/planYourJourney" label="Plan Your Journey" variant="dark" />
+            <CtaButton to="/planyourjourney" label="Plan Your Journey" variant="dark" />
           </div>
         </div>
 

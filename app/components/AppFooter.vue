@@ -125,7 +125,7 @@
             </p>
             
             <NuxtLink
-              to="/planYourJourney"
+              to="/planyourjourney"
               class="inline-flex items-center gap-3 px-4 pt-2.5 pb-2 bg-warm-gold text-journey-deep hover:bg-heritage-gold active:bg-intention-gold font-uppercase text-[12px] tracking-[0.15em] uppercase font-bold rounded-[3px] transition-colors mt-auto"
             >
               Plan Your Journey

@@ -21,7 +21,7 @@ const mainLinks = [
 ]
 
 const ctaLinks = [
-  { name: 'Plan Your Journey', path: '/planYourJourney' },
+  { name: 'Plan Your Journey', path: '/planyourjourney' },
   { name: 'Contact', path: '/contact' }
 ]
 

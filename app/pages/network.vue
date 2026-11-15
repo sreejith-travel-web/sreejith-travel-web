@@ -6,17 +6,6 @@ import PartnerDesigners, { type PartnerDesignersConfig } from '~/components/Part
 import PartnerInner, { type PartnerInnerConfig } from '~/components/PartnerInner.vue'
 import PartnerCommunity, { type PartnerCommunityConfig } from '~/components/PartnerCommunity.vue'
 
-useSeoMeta({
-  title: 'Partner & Collaborate — Meaningful Travel Design',
-  description:
-    'Collaborate with travel designers, grassroots communities, trade partners, and cultural specialists across South India and beyond.',
-  ogType: 'website',
-  ogTitle: 'Partner & Collaborate — Meaningful Travel Design',
-  ogDescription:
-    'Co-create authentic, culturally immersive, and regenerative journeys across South India.',
-  ogImage: '/images/og/network.jpg'
-})
-
 const pageData: {
   hero: {
     eyebrow: string
@@ -567,6 +556,17 @@ const pageData: {
     }
   }
 }
+
+useTravelSeo({
+  pageTitle: 'Our Network & Cultural Custodians',
+  pageDesc:
+    'Meet the local custodians, master artisans, naturalists, regional route designers, and global travel partners co-creating journeys across South India.',
+  canonicalPath: '/network',
+  ogImage: '/images/og/network.jpg',
+  ogImageAlt: 'Our Network of Cultural Custodians, Specialists, and Travel Partners',
+  pageType: 'network',
+  breadcrumbName: 'Our Network'
+})
 </script>
 
 <template>

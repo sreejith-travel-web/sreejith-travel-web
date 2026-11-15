@@ -985,6 +985,17 @@ const pageData = {
     ]
   } as LegalDocumentConfig
 }
+
+useTravelSeo({
+  pageTitle: 'Privacy Policy',
+  pageDesc:
+    'Learn how Sree Jith Travel protects, stores, and handles your personal information and private travel enquiry details.',
+  canonicalPath: '/privacy',
+  ogImage: '/images/og/privacy.jpg',
+  ogImageAlt: 'Privacy Policy — Sree Jith Travel',
+  pageType: 'legal',
+  breadcrumbName: 'Privacy Policy'
+})
 </script>
 
 <template>

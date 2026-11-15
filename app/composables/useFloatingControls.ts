@@ -5,6 +5,14 @@ import type Lenis from 'lenis'
 
 export type DockSurfaceTheme = 'light' | 'dark'
 
+export interface PaceScrollOptions {
+  offsetPx?: number
+  minDurationSec?: number
+  maxDurationSec?: number
+  pixelsPerSecond?: number
+  onSettled?: (interrupted: boolean) => void
+}
+
 interface CachedThemeBand {
   top: number
   bottom: number
@@ -73,6 +81,21 @@ const SCROLL_PACE_CONFIG = {
   maxDurationSec: 5.2
 } as const
 
+// Section & Table-of-Contents jumps: crisp 0.6s short hops up to 4.8s full-article glides
+const TOC_PACE_CONFIG = {
+  pixelsPerSecond: 1750,
+  minDurationSec: 0.6,
+  maxDurationSec: 4.8
+} as const
+
+const VERTICAL_SCROLL_KEYS = new Set([
+  'ArrowUp',
+  'ArrowDown',
+  'PageUp',
+  'PageDown',
+  ' '
+])
+
 const normalizePath = (p: string): string =>
   p.length > 1 && p.endsWith('/') ? p.slice(0, -1) : p
 
@@ -92,7 +115,7 @@ const classifyRouteSegments = (rawPath: string) => {
     !(segments.length === 2 && ITINERARY_COLLECTION_SLUGS.has(second))
 
   const isExplicitListicleRoute =
-    (first === 'listicle' || first === 'listicles') && segments.length >= 1 ||
+    ((first === 'listicle' || first === 'listicles') && segments.length >= 1) ||
     (first === 'journal' && (second === 'listicle' || second === 'listicles') && segments.length >= 3)
 
   const isJournalSingle =
@@ -126,6 +149,8 @@ let cachedViewportW = 1280
 let themeBands: CachedThemeBand[] = []
 let scrollRafPending = false
 let fallbackScrollRafId: number | null = null
+let activeGlideSettleTimerId: ReturnType<typeof setTimeout> | null = null
+let activeGlideCleanup: ((interrupted: boolean) => void) | null = null
 let resizeObserver: ResizeObserver | null = null
 let settleTimerId: ReturnType<typeof setTimeout> | null = null
 
@@ -264,15 +289,11 @@ export const useFloatingControls = () => {
     syncScrollFrame()
   }
 
-  const cancelFallbackGlide = () => {
-    if (fallbackScrollRafId !== null) {
-      cancelAnimationFrame(fallbackScrollRafId)
-      fallbackScrollRafId = null
-    }
-    if (import.meta.client) {
-      window.removeEventListener('wheel', cancelFallbackGlide)
-      window.removeEventListener('touchstart', cancelFallbackGlide)
-      window.removeEventListener('keydown', cancelFallbackGlide)
+  const cancelActivePaceGlide = (interrupted = true) => {
+    if (activeGlideCleanup) {
+      const cleanup = activeGlideCleanup
+      activeGlideCleanup = null
+      cleanup(interrupted)
     }
   }
 
@@ -285,23 +306,101 @@ export const useFloatingControls = () => {
     })
   }
 
-  // Distance-proportional smooth scroll (Zero DOM reflow on click!)
-  const scrollToBoundaryByPace = () => {
-    if (!import.meta.client) return
-    cancelFallbackGlide()
+  const computeElementPaceDurationMs = (
+    targetOrId: HTMLElement | string,
+    offsetPx = 0
+  ): number => {
+    if (!import.meta.client) return TOC_PACE_CONFIG.minDurationSec * 1000
+    const el =
+      typeof targetOrId === 'string'
+        ? document.getElementById(targetOrId)
+        : targetOrId
+    if (!el) return TOC_PACE_CONFIG.minDurationSec * 1000
 
     const startY = window.scrollY || window.pageYOffset || 0
-    const targetY = isAtBottom.value ? 0 : cachedMaxScroll
-    const distancePx = Math.abs(targetY - startY)
-    if (distancePx < 8) return
+    const maxScroll = Math.max(
+      0,
+      document.documentElement.scrollHeight - (window.innerHeight || cachedViewportH)
+    )
+    const clampedTargetY = Math.max(
+      0,
+      Math.min(el.getBoundingClientRect().top + startY - offsetPx, maxScroll)
+    )
+    const distancePx = Math.abs(clampedTargetY - startY)
+    if (distancePx < 4) return 0
 
     const durationSec = Math.max(
-      SCROLL_PACE_CONFIG.minDurationSec,
+      TOC_PACE_CONFIG.minDurationSec,
       Math.min(
-        SCROLL_PACE_CONFIG.maxDurationSec,
-        distancePx / SCROLL_PACE_CONFIG.pixelsPerSecond
+        TOC_PACE_CONFIG.maxDurationSec,
+        distancePx / TOC_PACE_CONFIG.pixelsPerSecond
       )
     )
+    return Math.round(durationSec * 1000)
+  }
+
+  // Shared distance-proportional smooth scroll engine (Lenis + interruptible rAF fallback)
+  const scrollToTargetByPace = (
+    rawTargetY: number,
+    options: PaceScrollOptions = {}
+  ): number => {
+    if (!import.meta.client) return 0
+    cancelActivePaceGlide(true)
+
+    const startY = window.scrollY || window.pageYOffset || 0
+    const maxScroll = Math.max(
+      0,
+      document.documentElement.scrollHeight - (window.innerHeight || cachedViewportH)
+    )
+    const targetY = Math.max(0, Math.min(rawTargetY, maxScroll))
+    const distancePx = Math.abs(targetY - startY)
+
+    if (distancePx < 4) {
+      options.onSettled?.(false)
+      return 0
+    }
+
+    const minSec = options.minDurationSec ?? TOC_PACE_CONFIG.minDurationSec
+    const maxSec = options.maxDurationSec ?? TOC_PACE_CONFIG.maxDurationSec
+    const pxPerSec = options.pixelsPerSecond ?? TOC_PACE_CONFIG.pixelsPerSecond
+
+    const durationSec = Math.max(
+      minSec,
+      Math.min(maxSec, distancePx / pxPerSec)
+    )
+    const durationMs = Math.round(durationSec * 1000)
+    const startedAt = performance.now()
+
+    const onWheelOrTouchInterrupt = () => {
+      if (performance.now() - startedAt < 32) return
+      cancelActivePaceGlide(true)
+    }
+
+    const onKeyInterrupt = (e: KeyboardEvent) => {
+      if (e.defaultPrevented || performance.now() - startedAt < 32) return
+      if (VERTICAL_SCROLL_KEYS.has(e.key)) {
+        cancelActivePaceGlide(true)
+      }
+    }
+
+    activeGlideCleanup = (interrupted: boolean) => {
+      if (fallbackScrollRafId !== null) {
+        cancelAnimationFrame(fallbackScrollRafId)
+        fallbackScrollRafId = null
+      }
+      if (activeGlideSettleTimerId !== null) {
+        clearTimeout(activeGlideSettleTimerId)
+        activeGlideSettleTimerId = null
+      }
+      window.removeEventListener('wheel', onWheelOrTouchInterrupt)
+      window.removeEventListener('touchstart', onWheelOrTouchInterrupt)
+      window.removeEventListener('keydown', onKeyInterrupt)
+      options.onSettled?.(interrupted)
+    }
+
+    window.addEventListener('wheel', onWheelOrTouchInterrupt, { passive: true })
+    window.addEventListener('touchstart', onWheelOrTouchInterrupt, { passive: true })
+    window.addEventListener('keydown', onKeyInterrupt, { passive: true })
 
     if (lenisState.value) {
       lenisState.value.scrollTo(targetY, {
@@ -309,29 +408,53 @@ export const useFloatingControls = () => {
         easing: easeInOutSilk,
         lock: false
       })
-      return
+      activeGlideSettleTimerId = setTimeout(() => {
+        cancelActivePaceGlide(false)
+      }, durationMs + 40)
+      return durationMs
     }
 
-    // Interruptible rAF fallback (guarantees identical distance pacing on mobile/touch)
-    const durationMs = durationSec * 1000
-    const startTime = performance.now()
-
-    window.addEventListener('wheel', cancelFallbackGlide, { passive: true, once: true })
-    window.addEventListener('touchstart', cancelFallbackGlide, { passive: true, once: true })
-    window.addEventListener('keydown', cancelFallbackGlide, { passive: true, once: true })
-
     const step = (now: number) => {
-      const t = Math.min(1, (now - startTime) / durationMs)
+      const t = Math.min(1, (now - startedAt) / durationMs)
       const eased = easeInOutSilk(t)
       window.scrollTo(0, startY + (targetY - startY) * eased)
       if (t < 1) {
         fallbackScrollRafId = requestAnimationFrame(step)
       } else {
-        cancelFallbackGlide()
+        cancelActivePaceGlide(false)
       }
     }
 
     fallbackScrollRafId = requestAnimationFrame(step)
+    return durationMs
+  }
+
+  const scrollToElementByPace = (
+    targetOrId: HTMLElement | string,
+    options: PaceScrollOptions = {}
+  ): number => {
+    if (!import.meta.client) return 0
+    const el =
+      typeof targetOrId === 'string'
+        ? document.getElementById(targetOrId)
+        : targetOrId
+    if (!el) return 0
+
+    const startY = window.scrollY || window.pageYOffset || 0
+    const offsetPx = options.offsetPx ?? 0
+    const rawTargetY = el.getBoundingClientRect().top + startY - offsetPx
+    return scrollToTargetByPace(rawTargetY, options)
+  }
+
+  // Distance-proportional full-page boundary scroll (0.95s–5.2s)
+  const scrollToBoundaryByPace = () => {
+    if (!import.meta.client) return
+    const targetY = isAtBottom.value ? 0 : cachedMaxScroll
+    scrollToTargetByPace(targetY, {
+      minDurationSec: SCROLL_PACE_CONFIG.minDurationSec,
+      maxDurationSec: SCROLL_PACE_CONFIG.maxDurationSec,
+      pixelsPerSecond: SCROLL_PACE_CONFIG.pixelsPerSecond
+    })
   }
 
   watch(
@@ -374,7 +497,7 @@ export const useFloatingControls = () => {
   onBeforeUnmount(() => {
     activeConsumers = Math.max(0, activeConsumers - 1)
     if (activeConsumers === 0) {
-      cancelFallbackGlide()
+      cancelActivePaceGlide(true)
       if (settleTimerId) clearTimeout(settleTimerId)
       if (resizeObserver) {
         resizeObserver.disconnect()
@@ -396,6 +519,9 @@ export const useFloatingControls = () => {
     isScrollNavAllowed,
     isActionDockAllowed,
     setPageFloatingOverrides,
+    computeElementPaceDurationMs,
+    scrollToTargetByPace,
+    scrollToElementByPace,
     scrollToBoundaryByPace,
     rebuildLayoutCache
   }

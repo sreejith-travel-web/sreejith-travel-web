@@ -1,13 +1,137 @@
-<!-- ~/app/pages/planYourJourney.vue -->
-
+<!-- ~/app/pages/planyourjourney/[...slug].vue -->
 <script setup lang="ts">
+import {
+  ref,
+  computed,
+  watch,
+  onMounted,
+  onActivated,
+  onDeactivated,
+  nextTick
+} from 'vue'
+import { useRoute, createError } from '#imports'
 import PageHero from '~/components/PageHero.vue'
-import JourneyPlanner from '~/components/JourneyPlanner.vue'
-import type {
-  QuestionnaireConfig,
-  ReassuranceConfig,
-  ContactAlternativeConfig
+import JourneyPlanner, {
+  type PlannerPathId,
+  type QuestionnaireConfig,
+  type ReassuranceConfig,
+  type ContactAlternativeConfig
 } from '~/components/JourneyPlanner.vue'
+import { useTravelSeo } from '~/composables/useTravelSeo'
+import { useSessionScroll } from '~/composables/useSessionScroll'
+import { useFloatingControls } from '~/composables/useFloatingControls'
+
+const route = useRoute()
+const { hasSavedScrollPosition, setActiveRouteAlias } = useSessionScroll()
+const { scrollToElementByPace } = useFloatingControls()
+
+const slugParts = computed<string[]>(() => {
+  const rawSlug = route.params.slug
+  if (Array.isArray(rawSlug)) return rawSlug.filter(Boolean)
+  if (typeof rawSlug === 'string' && rawSlug.length > 0) return [rawSlug]
+  return []
+})
+
+const slug0 = computed<string | null>(() => slugParts.value[0]?.toLowerCase() || null)
+
+const resolvePathFromSegment = (segment: string | null): PlannerPathId | null => {
+  if (!segment) return 'traveller'
+  if (segment === 'traveller' || segment === 'traveler') return 'traveller'
+  if (segment === 'partner' || segment === 'partners') return 'partner'
+  return null
+}
+
+const matchedPath = computed<PlannerPathId | null>(() => {
+  if (slugParts.value.length > 1) return null
+  return resolvePathFromSegment(slug0.value)
+})
+
+if (!matchedPath.value) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: `Planner Path "${slugParts.value.join('/')}" Not Found`,
+    fatal: true
+  })
+}
+
+const activePathId = ref<PlannerPathId>(matchedPath.value)
+const shouldScrollToWorkspaceOnMount = ref(false)
+const isPageActive = ref(true)
+
+const syncStateFromRoute = () => {
+  if (!matchedPath.value) return
+  activePathId.value = matchedPath.value
+
+  if (!slug0.value) {
+    shouldScrollToWorkspaceOnMount.value = false
+    setActiveRouteAlias('/planyourjourney')
+    return
+  }
+
+  shouldScrollToWorkspaceOnMount.value = !hasSavedScrollPosition(route.path)
+  const canonicalAlias = `/planyourjourney/${matchedPath.value}`
+  if (import.meta.client && route.path.toLowerCase() !== canonicalAlias) {
+    window.history.replaceState({ ...window.history.state }, '', canonicalAlias)
+  }
+  setActiveRouteAlias(canonicalAlias)
+}
+
+syncStateFromRoute()
+
+const handlePathUpdate = (nextPath: PlannerPathId) => {
+  activePathId.value = nextPath
+  if (!import.meta.client) return
+  const targetUrl = `/planyourjourney/${nextPath}`
+  window.history.replaceState({ ...window.history.state }, '', targetUrl)
+  setActiveRouteAlias(targetUrl)
+}
+
+const scrollToPlannerWorkspace = () => {
+  if (!import.meta.client || !isPageActive.value) return
+  const el = document.getElementById('journey-planner-workspace')
+  if (el) {
+    scrollToElementByPace(el, { offsetPx: 88 })
+  }
+}
+
+const maybeScrollToPlannerWorkspace = () => {
+  if (!shouldScrollToWorkspaceOnMount.value) return
+  shouldScrollToWorkspaceOnMount.value = false
+  nextTick(() => {
+    setTimeout(scrollToPlannerWorkspace, 620)
+  })
+}
+
+watch(
+  () => route.path,
+  () => {
+    if (!isPageActive.value) return
+    if (!matchedPath.value) {
+      throw createError({
+        statusCode: 404,
+        statusMessage: `Planner Path "${slugParts.value.join('/')}" Not Found`,
+        fatal: true
+      })
+    }
+    syncStateFromRoute()
+    maybeScrollToPlannerWorkspace()
+  }
+)
+
+onMounted(() => {
+  isPageActive.value = true
+  maybeScrollToPlannerWorkspace()
+})
+
+onActivated(() => {
+  isPageActive.value = true
+  syncStateFromRoute()
+  maybeScrollToPlannerWorkspace()
+})
+
+onDeactivated(() => {
+  isPageActive.value = false
+})
 
 const pageData = {
   hero: {
@@ -803,17 +927,38 @@ const pageData = {
     ctaTo: '/contact'
   } as ContactAlternativeConfig
 }
+
+// Reactive SEO for Root, Traveller & Partner Paths (Consolidates Sitelink Canonical to /planyourjourney)
+useTravelSeo(() => ({
+  pageTitle:
+    activePathId.value === 'partner'
+      ? 'Partner & Trade Collaborations — Consult With Sreejith'
+      : slug0.value
+        ? 'Plan Your Private Journey — Traveller Questionnaire'
+        : 'Plan Your Bespoke Journey',
+  pageDesc:
+    activePathId.value === 'partner'
+      ? 'Collaborate with Sree Jith Travel as an international tour operator, travel designer, regional specialist, or hospitality partner across South India.'
+      : 'Start shaping a private journey across Kerala and South India around your travel dates, preferred pace, boutique stays, and cultural interests.',
+  canonicalPath: '/planyourjourney',
+  ogImage: '/images/og/planyourjourney.jpg',
+  ogImageAlt: 'Plan Your Bespoke Private Journey Across Kerala and South India',
+  pageType: 'plan',
+  breadcrumbName: 'Plan Your Journey'
+}))
 </script>
 
 <template>
   <div class="w-full">
     <PageHero class="bg-bg-light" :data="pageData.hero" />
 
-    <JourneyPlanner 
+    <JourneyPlanner
+      v-model:path-id="activePathId"
       class="bg-bg-light"
       :questionnaire="pageData.questionnaire"
       :reassurance="pageData.reassurance"
-      :contactAlternative="pageData.contactAlternative"
+      :contact-alternative="pageData.contactAlternative"
+      @update:path-id="handlePathUpdate"
     />
   </div>
 </template>

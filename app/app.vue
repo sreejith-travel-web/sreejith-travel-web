@@ -4,6 +4,9 @@ import { ref, nextTick, onMounted, onBeforeUnmount } from 'vue'
 import { useNuxtApp, useRouter, useRoute } from '#imports'
 import Lenis from 'lenis'
 import { useSessionScroll } from '~/composables/useSessionScroll'
+import { useConsultModal } from '~/composables/useConsultModal'
+
+const { openConsultModal } = useConsultModal()
 
 const nuxtApp = useNuxtApp()
 const router = useRouter()
@@ -121,7 +124,13 @@ onMounted(() => {
 
   // Snapshot outgoing route scroll BEFORE DOM unmounts or popstate settles
   removeBeforeEachGuard = router.beforeEach((to, from) => {
-    const outgoingY = Math.max(0, liveScrollY || window.scrollY || 0)
+  const cleanTo = normalizeScrollKey(to.path).toLowerCase()
+  if (cleanTo === '/consult' && from.matched.length > 0) {
+    openConsultModal()
+    return false
+  }
+
+  const outgoingY = Math.max(0, liveScrollY || window.scrollY || 0)
     const fromKey = normalizeScrollKey(from.path)
     const aliasKey = getActiveRouteAlias()
 
@@ -195,6 +204,10 @@ onBeforeUnmount(() => {
     <NuxtLayout>
       <NuxtPage :keepalive="{ max: 10 }" />
     </NuxtLayout>
+
+    <!-- 4. Global Start a Conversation Modal (/consult) -->
+    <ConsultModal />
+
   </div>
 </template>
 

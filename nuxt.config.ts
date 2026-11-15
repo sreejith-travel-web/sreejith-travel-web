@@ -15,6 +15,18 @@ const itinerarySitemapUrls = fs.existsSync(itinerariesDir)
       }))
   : []
 
+const journalDir = path.resolve(process.cwd(), 'server/data/journal')
+const journalSitemapUrls = fs.existsSync(journalDir)
+  ? fs
+      .readdirSync(journalDir)
+      .filter((file) => file.endsWith('.json') && !file.startsWith('_') && file !== 'index.json')
+      .map((file) => ({
+        loc: `/journal/${file.replace(/\.json$/, '')}`,
+        changefreq: 'monthly' as const,
+        priority: 0.7 as const
+      }))
+  : []
+
 export default defineNuxtConfig({
   // Force App directory mode
   future: {
@@ -265,12 +277,13 @@ export default defineNuxtConfig({
       { loc: '/network', changefreq: 'monthly', priority: 0.8 },
       { loc: '/impact', changefreq: 'monthly', priority: 0.8 },
       { loc: '/journal', changefreq: 'weekly', priority: 0.8 },
-      { loc: '/planYourJourney', changefreq: 'monthly', priority: 0.9 },
+      { loc: '/planyourjourney', changefreq: 'monthly', priority: 0.9 },
       { loc: '/contact', changefreq: 'monthly', priority: 0.8 },
       { loc: '/faq', changefreq: 'monthly', priority: 0.7 },
       { loc: '/privacy', changefreq: 'yearly', priority: 0.3 },
       { loc: '/terms', changefreq: 'yearly', priority: 0.3 },
-      ...itinerarySitemapUrls
+      ...itinerarySitemapUrls,
+      ...journalSitemapUrls,
     ]
   },
 
@@ -288,9 +301,11 @@ export default defineNuxtConfig({
     '/itineraries/**': { prerender: true },
     '/network': { prerender: true },
     '/impact': { prerender: true },
+    '/impact/**': { prerender: true },
     '/journal': { prerender: true },
     '/journal/**': { prerender: true },
-    '/planYourJourney': { prerender: true },
+    '/planyourjourney': { prerender: true },
+    '/planyourjourney/**': { prerender: true },
     '/contact': { prerender: true },
     '/faq': { prerender: true },
     '/privacy': { prerender: true },
@@ -302,7 +317,16 @@ export default defineNuxtConfig({
     compressPublicAssets: true,
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/itineraries', '/journal'],
+      routes: [
+        '/',
+        '/itineraries',
+        '/journal',
+        '/planyourjourney',
+        '/planyourjourney/traveller',
+        '/planyourjourney/partner',
+        ...itinerarySitemapUrls.map((u) => u.loc),
+        ...journalSitemapUrls.map((u) => u.loc),
+      ],
     },
   },
 

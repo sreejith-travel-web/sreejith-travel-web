@@ -1,7 +1,7 @@
 <!-- ~/app/components/ItinerarySingleView.vue -->
 <script setup lang="ts">
 import { ref, computed, onMounted, onActivated } from 'vue'
-import ItineraryHeader from '~/components/itineraries/ItineraryHeader.vue'
+import ItineraryHeader, { type ItineraryHeaderData } from '~/components/itineraries/ItineraryHeader.vue'  
 import ItineraryScrollNav, { type ScrollNavSection } from '~/components/itineraries/ItineraryScrollNav.vue'
 import ItinerarySidebar, { type ItinerarySidebarData } from '~/components/itineraries/ItinerarySidebar.vue'
 import ItineraryLightbox from '~/components/itineraries/ItineraryLightbox.vue'
@@ -9,6 +9,7 @@ import type { LightboxMediaItem, LightboxOpenPayload } from '~/components/Lightb
 import RelatedItineraries, { type RelatedItinerariesConfig } from '~/components/RelatedItineraries.vue'
 import { useTravelSeo } from '~/composables/useTravelSeo'
 import type { ItinerarySinglePayload } from '~~/server/utils/itinerariesData'
+
 
 const props = defineProps<{
   record: ItinerarySinglePayload
@@ -49,6 +50,15 @@ const closeLightbox = () => {
   lightboxState.value.isOpen = false
 }
 
+const headerData = computed<ItineraryHeaderData>(() => ({
+  ...props.record.header,
+  breadcrumbs: [
+    { label: 'HOME', to: '/' },
+    { label: 'ITINERARIES', to: '/itineraries' },
+    { label: props.record.meta.slug.toUpperCase() }
+  ]
+}))
+
 // =========================================================
 // NORMALIZED SIDEBAR
 // =========================================================
@@ -61,12 +71,12 @@ const resolvedSidebar = computed<ItinerarySidebarData>(() => ({
     props.record.sidebar?.ctaSubtitle ||
     'Every route is a starting point—talk to us to adjust the pace, stays, or detours.',
   planLabel: props.record.sidebar?.planLabel || 'Plan Your Journey',
-  planTo: props.record.sidebar?.planTo || '/planYourJourney',
+  planTo: props.record.sidebar?.planTo || '/planyourjourney/traveller',
   enquireLabel: props.record.sidebar?.enquireLabel || 'Enquire',
   enquireTo: props.record.sidebar?.enquireTo || '/contact',
   partnerEyebrow: props.record.sidebar?.partnerEyebrow || 'FOR TRAVEL PARTNERS',
   consultLabel: props.record.sidebar?.consultLabel || 'Consult With Me',
-  consultTo: props.record.sidebar?.consultTo || '/planYourJourney',
+  consultTo: props.record.sidebar?.consultTo || '/planyourjourney',
   phone: props.record.sidebar?.phone || '+91 99433 60478',
   whatsapp: props.record.sidebar?.whatsapp || '919943360478',
   email: props.record.sidebar?.email || 'mokshastories@mokshastories.com',
@@ -99,27 +109,25 @@ const relatedConfig = computed<RelatedItinerariesConfig>(() => ({
 // =========================================================
 // DYNAMIC ITINERARY SEO & JSON-LD @GRAPH
 // =========================================================
-useTravelSeo({
+useTravelSeo(() => ({
   pageTitle: props.record.seo?.pageTitle || props.record.header.title,
   pageDesc: props.record.seo?.pageDesc || props.record.header.intro,
   canonicalPath: `/itineraries/${props.record.meta.slug}`,
-  ogImage: props.record.seo?.ogImage || '/images/favicons/sreejith-og-image.jpg',
-  ogImageAlt: props.record.seo?.ogImageAlt || props.record.header.coverAlt,
+  ogImage: props.record.header.coverImage,
+  ogImageAlt: props.record.header.coverAlt || props.record.header.title,
+  preloadImage: props.record.header.coverImage,
   pageType: 'itinerary',
-  breadcrumbName:
-    props.record.seo?.breadcrumbName ||
-    props.record.header.breadcrumbs[props.record.header.breadcrumbs.length - 1]?.label ||
-    props.record.header.title,
+  breadcrumbName: props.record.seo?.breadcrumbName || props.record.header.title,
   publishDate: props.record.seo?.publishDate,
   priceText: resolvedSidebar.value.price,
   itinerarySections: props.record.sections
-})
+}))
 </script>
 
 <template>
   <div class="min-h-screen bg-bg-light text-journey-deep pb-24 lg:pb-32">
     <!-- 1. ITINERARY HEADER -->
-    <ItineraryHeader :data="record.header" />
+    <ItineraryHeader :data="headerData" />
 
     <!-- 2. STICKY HORIZONTAL SCROLL-SPY NAVIGATION -->
     <ItineraryScrollNav :sections="navSections" />

@@ -377,17 +377,6 @@ const currentTabMeta = computed(
   () => impactItems.find((i) => i.id === activeTab.value) || impactItems[0]!
 )
 
-useSeoMeta({
-  title: () =>
-    slug0.value
-      ? `${currentTabMeta.value.tabTitle} — Regenerative Impact`
-      : 'Regenerative Tourism & Community Impact',
-  description: () => currentTabMeta.value.content.intro,
-  ogType: 'website',
-  ogTitle: () => `${currentTabMeta.value.tabTitle} | Regenerative Impact`,
-  ogDescription: () => currentTabMeta.value.content.intro,
-  ogImage: '/images/og/impact.jpg'
-})
 
 const pageData = {
   hero: {
@@ -506,6 +495,18 @@ onActivated(() => {
 onDeactivated(() => {
   isPageActive.value = false
 })
+
+useTravelSeo(() => ({
+  pageTitle: slug0.value
+    ? `${currentTabMeta.value.tabTitle} — Regenerative Impact`
+    : 'Regenerative Tourism & Community Impact',
+  pageDesc: currentTabMeta.value.content.intro,
+  canonicalPath: '/impact',
+  ogImage: '/images/og/impact.jpg',
+  ogImageAlt: `${currentTabMeta.value.tabTitle} — Sree Jith Travel`,
+  pageType: 'impact',
+  breadcrumbName: 'Impact'
+}))
 </script>
 
 <template>

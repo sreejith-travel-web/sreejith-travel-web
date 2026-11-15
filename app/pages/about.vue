@@ -1,20 +1,4 @@
 <!-- ~/app/pages/about.vue -->
-
-
-<!-- const pageData = {
-  hero: {
-    eyebrow: 'Our Story & Philosophy',
-    titleMain: 'Crafting Meaningful Journeys',
-    titleItalic: 'Rooted in Local Wisdom',
-    intro: 'We bridge the gap between discerning travelers and the living, breathing heritage of India through deeply personal storytelling.',
-    imageDesktop: '/images/fallbacks/culture.webp',
-    imageMobile: '/images/fallbacks/culture.webp',
-    alt: 'About Sreejith Travel Experience Designer'
-  }
-} -->
-
-
-<!-- ~/app/pages/about.vue -->
 <script setup lang="ts">
 import PageHero from '~/components/PageHero.vue'
 import AboutInner from '~/components/AboutInner.vue'
@@ -300,7 +284,7 @@ const pageData = {
       ctaDescription: 'Tell me what inspires you, what you’re curious about, and what you want your journey to feel like.',
       primaryCta: {
         label: 'Plan Your Journey',
-        to: '/planYourJourney'
+        to: '/planyourjourney'
       },
       secondaryCta: {
         label: 'Consult With Me',
@@ -309,6 +293,17 @@ const pageData = {
     }
   }
 }
+
+useTravelSeo({
+  pageTitle: 'About Sreejith | Travel, through a Different Lens',
+  pageDesc:
+    'Meet Sreejith and explore his philosophy of unhurried, relationship-led travel shaped around people, craft, and living landscapes across South India.',
+  canonicalPath: '/about',
+  ogImage: '/images/og/about.jpg',
+  ogImageAlt: 'Sreejith — Bespoke Travel Experience Designer in Kerala and South India',
+  pageType: 'about',
+  breadcrumbName: 'About'
+})
 </script>
 
 <template>
