@@ -1232,7 +1232,7 @@ onBeforeUnmount(() => {
   pointer-events: none;
   position: absolute;
   inset-block: 0;
-  width: 1.5rem;
+  width: 0;
   z-index: 20;
 }
 
@@ -1259,21 +1259,21 @@ onBeforeUnmount(() => {
 @media (min-width: 640px) {
   .community-edge-fade-left,
   .community-edge-fade-right {
-    width: 4rem;
+    width: 3rem;
   }
 }
 
 @media (min-width: 768px) {
   .community-edge-fade-left,
   .community-edge-fade-right {
-    width: 6rem;
+    width: 5rem;
   }
 }
 
 @media (min-width: 1024px) {
   .community-edge-fade-left,
   .community-edge-fade-right {
-    width: 8rem;
+    width: 7rem;
   }
 }
 

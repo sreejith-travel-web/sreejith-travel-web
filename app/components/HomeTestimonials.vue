@@ -340,7 +340,7 @@ onBeforeUnmount(() => {
 <template>
   <section
     data-theme="light"
-    class="text-primary-light overflow-x-clip section-wrapper"
+    class="text-primary-light overflow-x-clip section-wrapper max-sm:px-0"
   >
     <div class="relative z-10 w-full max-w-400 mx-auto flex flex-col items-center">
       <!-- 1. SECTION HEADER -->
@@ -379,7 +379,7 @@ onBeforeUnmount(() => {
       <div
         v-motion-fade-up
         :delay="260"
-        class="relative z-20 w-full max-w-400 mx-auto px-1 xs:px-4 sm:px-6 md:px-8 mb-8 sm:mb-11 lg:mb-13"
+        class="relative z-20 w-full max-w-400 mx-auto px-0 xs:px-4 sm:px-6 md:px-8 mb-8 sm:mb-11 lg:mb-13"
       >
         <div class="testimonial-edge-mask w-full">
           <div
@@ -555,7 +555,7 @@ onBeforeUnmount(() => {
 }
 
 .testimonial-edge-mask {
-  --testi-mask-edge: 0.5rem;
+  --testi-mask-edge: 0;
   -webkit-mask-image: linear-gradient(
     to right,
     transparent 0%,
