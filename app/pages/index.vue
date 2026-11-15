@@ -524,7 +524,10 @@ const pageData = {
   }
 }
 
-useTravelSeo({
+const route = useRoute()
+
+useTravelSeo(() => ({
+  enabled: route.path.replace(/\/+$/, '').toLowerCase() !== '/consult',
   pageTitle: 'Sree Jith Travel | Bespoke Luxury Travel Experience Designer',
   pageDesc:
     'Designing luxury bespoke journeys bringing together meaningful experiences and authentic stories across Kerala and South India.',
@@ -532,7 +535,7 @@ useTravelSeo({
   ogImage: '/images/og/home.jpg',
   ogImageAlt: 'Sree Jith Travel — Bespoke Luxury Journeys Across Kerala and South India',
   pageType: 'home'
-})
+}))
 
 </script>
 

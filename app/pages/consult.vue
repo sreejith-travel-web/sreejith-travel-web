@@ -4,6 +4,7 @@ import { watch, onMounted, onActivated, onDeactivated, onBeforeUnmount } from 'v
 import { useHead, useInitialAppLoad } from '#imports'
 import IndexPage from './index.vue'
 import { useConsultModal } from '~/composables/useConsultModal'
+import { useTravelSeo } from '~/composables/useTravelSeo'
 
 const CONSULT_LANDING_DELAY_MS = 2000
 
@@ -56,7 +57,20 @@ onBeforeUnmount(() => {
   clearConsultTimer()
 })
 
-// IndexPage already sets canonical '/', so mark /consult noindex to prevent duplicate SERP entry
+// Dedicated Social / Link-Share SEO Meta for https://sreejith.travel/consult
+useTravelSeo({
+  pageTitle: 'Start a Conversation & Private Travel Consultation',
+  pageDesc:
+    'Questions, route ideas, or partnership possibilities across Kerala and South India? Start a direct conversation with Sreejith.',
+  canonicalPath: '/consult',
+  ogImage: '/images/og/consult.jpg',
+  ogImageAlt: 'Start a Conversation — Sree Jith Travel',
+  pageType: 'contact',
+  breadcrumbName: 'Consult'
+})
+
+// Social crawlers (WhatsApp/Meta/LinkedIn/X) ignore noindex and render the full OG card,
+// while Google keeps '/' as your sole homepage without duplicate-body warnings
 useHead({
   meta: [{ name: 'robots', content: 'noindex, follow' }]
 })
