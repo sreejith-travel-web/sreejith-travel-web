@@ -42,7 +42,7 @@ const props = withDefaults(
       consultTo: '/planyourjourney/partner',
       phone: '+919943360478',
       whatsapp: '919943360478',
-      email: 'sreejith@sreejithtravel.com',
+      email: 'sreejith@sreejith.travel',
       shareTitle: 'Stories Along the Malabar Coast',
       shareText: 'Explore this bespoke journey along the Malabar Coast.'
     })

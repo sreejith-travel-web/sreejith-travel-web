@@ -37,7 +37,7 @@ export default defineNuxtConfig({
 
   // 1. Site Configuration for Sitemap, Robots & Canonical Authority (Strict non-www)
   site: {
-    url: 'https://sreejithtravel.com',
+    url: 'https://sreejith.travel',
     name: 'Sree Jith Travel',
   },
 
@@ -290,7 +290,7 @@ export default defineNuxtConfig({
   // 7. Robots.txt Configuration
   robots: {
     disallow: [],
-    sitemap: ['https://sreejithtravel.com/sitemap.xml'],
+    sitemap: ['https://sreejith.travel/sitemap.xml'],
   },
 
   // 8. Static Prerendering Route Rules
@@ -399,26 +399,26 @@ export default defineNuxtConfig({
         { property: 'og:type', content: 'website' },
         { property: 'og:locale', content: 'en_US' },
         { property: 'og:site_name', content: 'Sree Jith Travel' },
-        { property: 'og:url', content: 'https://sreejithtravel.com/' },
+        { property: 'og:url', content: 'https://sreejith.travel/' },
         { property: 'og:title', content: 'Sree Jith Travel | Bespoke Luxury Travel Experience Designer' },
         { property: 'og:description', content: 'Designing luxury bespoke journeys bringing together meaningful experiences and authentic stories across Kerala and South India.' },
-        { property: 'og:image', content: 'https://sreejithtravel.com/images/og/home.jpg' },
+        { property: 'og:image', content: 'https://sreejith.travel/images/og/home.jpg' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
         { property: 'og:image:type', content: 'image/jpeg' },
 
         // Twitter / X Layout Standards
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:url', content: 'https://sreejithtravel.com/' },
+        { name: 'twitter:url', content: 'https://sreejith.travel/' },
         { name: 'twitter:title', content: 'Sree Jith Travel | Bespoke Luxury Travel Experience Designer' },
         { name: 'twitter:description', content: 'Designing luxury bespoke journeys bringing together meaningful experiences and authentic stories across Kerala and South India.' },
-        { name: 'twitter:image', content: 'https://sreejithtravel.com/images/og/home.jpg' },
+        { name: 'twitter:image', content: 'https://sreejith.travel/images/og/home.jpg' },
       
       ],
 
       link: [
         // Strict Canonical Authority Anchor
-        { rel: 'canonical', href: 'https://sreejithtravel.com/' },
+        { rel: 'canonical', href: 'https://sreejith.travel/' },
         
         // Apple Touch Icons
         { rel: 'apple-touch-icon', sizes: '57x57', href: '/images/favicons/apple-icon-57x57.png' },

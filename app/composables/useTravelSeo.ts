@@ -53,7 +53,7 @@ export interface TravelSeoOptions {
   enabled?: boolean
 }
 
-export const SITE_URL = 'https://sreejithtravel.com'
+export const SITE_URL = 'https://sreejith.travel'
 export const BRAND_NAME = 'Sree Jith Travel'
 export const DEFAULT_OG_JPG = '/images/og/home.jpg'
 
@@ -312,7 +312,7 @@ export function useTravelSeo(optionsInput: MaybeRefOrGetter<TravelSeoOptions>) {
         'Sreejith Travel',
         'Sree Jith Travel Experience Designer',
         'Sreejith Travel Experience Designer',
-        'sreejithtravel.com'
+        'sreejith.travel'
       ],
       description:
         'Bespoke luxury travel experience designer in Kerala, crafting unhurried cultural, heritage, and nature journeys across South India.',
@@ -376,7 +376,7 @@ export function useTravelSeo(optionsInput: MaybeRefOrGetter<TravelSeoOptions>) {
       '@id': `${SITE_URL}/#website`,
       url: `${SITE_URL}/`,
       name: BRAND_NAME,
-      alternateName: ['Sreejith Travel', 'sreejithtravel.com'],
+      alternateName: ['Sreejith Travel', 'sreejith.travel'],
       publisher: { '@id': `${SITE_URL}/#organization` },
       inLanguage: 'en'
     }
