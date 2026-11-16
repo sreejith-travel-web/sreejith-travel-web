@@ -35,10 +35,12 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2024-11-01',
 
-  // 1. Site Configuration for Sitemap, Robots & Canonical Authority (Strict non-www)
+  // 1. Site Configuration for Sitemap, Robots & Canonical Authority (Forced Production Indexable)
   site: {
     url: 'https://sreejith.travel',
     name: 'Sree Jith Travel',
+    indexable: true,
+    env: 'production',
   },
 
   // 2. Wire up Tailwind v4 via Vite
@@ -48,7 +50,6 @@ export default defineNuxtConfig({
     ],
     optimizeDeps: {
       include: [
-        '@vue/devtools-core',
         'lenis',
       ],
     },
@@ -287,14 +288,19 @@ export default defineNuxtConfig({
     ]
   },
 
-  // 7. Robots.txt Configuration
+  // 7. Robots.txt Configuration (Explicitly Open to All Search Crawlers)
   robots: {
+    blockNonSeoBots: false,
+    blockAiBots: false,
+    allow: ['/'],
     disallow: [],
     sitemap: ['https://sreejith.travel/sitemap.xml'],
   },
 
   // 8. Static Prerendering Route Rules
   routeRules: {
+    '/robots.txt': { prerender: true },
+    '/sitemap.xml': { prerender: true },
     '/': { prerender: true },
     '/about': { prerender: true },
     '/itineraries': { prerender: true },
@@ -318,6 +324,8 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       routes: [
+        '/robots.txt',
+        '/sitemap.xml',
         '/',
         '/itineraries',
         '/journal',
@@ -397,7 +405,7 @@ export default defineNuxtConfig({
 
         // Global Social Layout Standards (1200x630 JPG)
         { property: 'og:type', content: 'website' },
-        { property: 'og:locale', content: 'en_US' },
+        { property: 'og:locale', content: 'en_IN' },
         { property: 'og:site_name', content: 'Sree Jith Travel' },
         { property: 'og:url', content: 'https://sreejith.travel/' },
         { property: 'og:title', content: 'Sree Jith Travel | Bespoke Luxury Travel Experience Designer' },
@@ -413,18 +421,16 @@ export default defineNuxtConfig({
         { name: 'twitter:title', content: 'Sree Jith Travel | Bespoke Luxury Travel Experience Designer' },
         { name: 'twitter:description', content: 'Designing luxury bespoke journeys bringing together meaningful experiences and authentic stories across Kerala and South India.' },
         { name: 'twitter:image', content: 'https://sreejith.travel/images/og/home.jpg' },
-      
       ],
 
       link: [
-        // Strict Canonical Authority Anchor
-        { rel: 'canonical', href: 'https://sreejith.travel/' },
-        
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+
         // Apple Touch Icons
         { rel: 'apple-touch-icon', sizes: '57x57', href: '/images/favicons/apple-icon-57x57.png' },
         { rel: 'apple-touch-icon', sizes: '60x60', href: '/images/favicons/apple-icon-60x60.png' },
         { rel: 'apple-touch-icon', sizes: '72x72', href: '/images/favicons/apple-icon-72x72.png' },
-        { rel: 'apple-touch-icon', sizes: '76x76', href: '/images/favicons/apple-icon-76x76.png' },
+        { rel: 'apple-touch-icon', sizes: '76x76', href: '/images/favicons/apple-icon-72x72.png'.replace('72x72', '76x76') },
         { rel: 'apple-touch-icon', sizes: '114x114', href: '/images/favicons/apple-icon-114x114.png' },
         { rel: 'apple-touch-icon', sizes: '120x120', href: '/images/favicons/apple-icon-120x120.png' },
         { rel: 'apple-touch-icon', sizes: '144x144', href: '/images/favicons/apple-icon-144x144.png' },
@@ -444,7 +450,7 @@ export default defineNuxtConfig({
   },
 
   ssr: true,
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   devServer: {
     host: '0.0.0.0',
     port: 3003,
