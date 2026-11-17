@@ -61,8 +61,8 @@ export default defineNuxtConfig({
     '@vueuse/motion/nuxt',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
-    '@vercel/speed-insights',
-    '@vercel/analytics'
+    '@vercel/speed-insights/nuxt',
+    '@vercel/analytics/nuxt'
   ],
 
   // 4. Google Fonts Configuration (Lightweight & optimized for zero CLS)
